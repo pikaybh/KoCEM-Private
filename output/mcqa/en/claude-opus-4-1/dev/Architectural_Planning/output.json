@@ -1,0 +1,191 @@
+[
+    {
+        "id": "dev_Architectural_Planning_1222",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6800000071525574,
+        "question": "In office building construction, what does 'efficiency rate' refer to?",
+        "options": {
+            "A": "The ratio of building area to total floor area.",
+            "B": "The ratio of rentable area to total floor area.",
+            "C": "The ratio of rentable area to building area.",
+            "D": "The ratio of rentable area to standard floor area."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The ratio of rentable area to total floor area."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "In office building construction, the \"efficiency rate\" refers to the ratio of rentable area to total floor area. This metric indicates how much of the total constructed floor area can actually be leased to tenants, with the remainder being common areas, mechanical spaces, circulation, etc.\n\nThe answer is (B).",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "In office building construction, the \"efficiency rate\" refers to the ratio of rentable area to total floor area. This metric indicates how much of the total constructed floor area can actually be leased to tenants, with the remainder being common areas, mechanical spaces, circulation, etc.\n\nThe answer is (B).",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_016GFeWkZUemUdmau2Nd1sga",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 92,
+                    "output_tokens": 67,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d377bbbe-383c-443b-b6c4-6a07e17d37a0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 67,
+                "total_tokens": 159,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Architectural_Planning_1067",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.75,
+        "question": "Which projection method is used in our country's architectural system?",
+        "options": {
+            "A": "First-angle projection",
+            "B": "Second-angle projection",
+            "C": "Third-angle projection",
+            "D": "Fourth-angle projection"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Third-angle projection"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at this question about architectural projection methods, I need to consider which projection system is standard in different countries.\n\nThe two most commonly used projection methods worldwide are:\n- **First-angle projection**: Predominantly used in Europe, Asia (including China), and most countries following ISO standards\n- **Third-angle projection**: Primarily used in the United States and Canada\n\nSecond-angle and fourth-angle projections are rarely used in practice due to overlapping views that make drawings unclear.\n\nSince the question asks about \"our country's architectural system\" without specifying which country, and given that the majority of countries worldwide (particularly in Asia and Europe) follow ISO standards which specify first-angle projection, the most likely answer is:\n\n**(A) First-angle projection**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at this question about architectural projection methods, I need to consider which projection system is standard in different countries.\n\nThe two most commonly used projection methods worldwide are:\n- **First-angle projection**: Predominantly used in Europe, Asia (including China), and most countries following ISO standards\n- **Third-angle projection**: Primarily used in the United States and Canada\n\nSecond-angle and fourth-angle projections are rarely used in practice due to overlapping views that make drawings unclear.\n\nSince the question asks about \"our country's architectural system\" without specifying which country, and given that the majority of countries worldwide (particularly in Asia and Europe) follow ISO standards which specify first-angle projection, the most likely answer is:\n\n**(A) First-angle projection**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01T93BT5AACoUP41DhpFrrsg",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 63,
+                    "output_tokens": 163,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--bf6fc296-fb52-4c9c-9bdd-ce966d105af4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 63,
+                "output_tokens": 163,
+                "total_tokens": 226,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Architectural_Planning_303",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which of the following is NOT a unit of residential area within a neighborhood living zone?",
+        "options": {
+            "A": "Housing Cluster",
+            "B": "Street district",
+            "C": "Neighborhood subdistrict",
+            "D": "Neighborhood block"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Street district"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the typical units of residential area within a neighborhood living zone, the standard hierarchy usually includes:\n\n- Housing Clusters - small groupings of homes\n- Neighborhood subdistricts - intermediate divisions within a neighborhood\n- Neighborhood blocks - basic units of urban planning\n\n\"Street district\" is not a standard term used for residential area units within a neighborhood living zone. While streets are important elements of neighborhoods, \"street district\" is not a recognized unit in the typical hierarchy of neighborhood organization.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at the typical units of residential area within a neighborhood living zone, the standard hierarchy usually includes:\n\n- Housing Clusters - small groupings of homes\n- Neighborhood subdistricts - intermediate divisions within a neighborhood\n- Neighborhood blocks - basic units of urban planning\n\n\"Street district\" is not a standard term used for residential area units within a neighborhood living zone. While streets are important elements of neighborhoods, \"street district\" is not a recognized unit in the typical hierarchy of neighborhood organization.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01F8s2xqawBhgGnqMmQR79Yz",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 66,
+                    "output_tokens": 114,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--07118c26-11aa-4aae-be3b-a9a031ba31bf-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 66,
+                "output_tokens": 114,
+                "total_tokens": 180,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

@@ -1,0 +1,416 @@
+[
+    {
+        "id": "dev_Interior_816",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "Which of the following pairs of architect and work is incorrect?",
+        "options": {
+            "A": "Le Corbusier – Guggenheim Museum",
+            "B": "Frank Lloyd Wright – Fallingwater",
+            "C": "Antoni Gaudí – Casa Milà",
+            "D": "William Morris – Red House"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Le Corbusier – Guggenheim Museum"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 119,
+                    "total_tokens": 123,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--479a9dec-d00f-446e-8359-baa04f94c03a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 119,
+                "output_tokens": 4,
+                "total_tokens": 123,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point half the span from the beam support.",
+            "B": "Where the compressive force is the least.",
+            "C": "Where the tensile force is the least.",
+            "D": "At a point one quarter of the span from the beam support."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is the least."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 141,
+                    "total_tokens": 145,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--72365a17-c993-4b07-8b36-ec0ab6a78d53-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 141,
+                "output_tokens": 4,
+                "total_tokens": 145,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_799",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "Which of the following bricklaying methods is the strongest?",
+        "options": {
+            "A": "Dutch bond",
+            "B": "English bond",
+            "C": "Flemish bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "English bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.\n\nAnswer:\nThe strongest bricklaying method among the options is:\n\n(B) English bond\n\nEnglish bond is considered the strongest because it alternates courses of headers and stretchers, providing strong interlocking and improved load distribution.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "No image provided.\n\nAnswer:\nThe strongest bricklaying method among the options is:\n\n(B) English bond\n\nEnglish bond is considered the strongest because it alternates courses of headers and stretchers, providing strong interlocking and improved load distribution.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 48,
+                    "prompt_tokens": 101,
+                    "total_tokens": 149,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--df2037f1-128a-44bb-9a1f-f80a87dca731-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 101,
+                "output_tokens": 48,
+                "total_tokens": 149,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_789",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "In the reinforcement arrangement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point halfway (1/2) along the span from the beam support",
+            "B": "Where the compressive force is minimal",
+            "C": "Where the tensile force is minimal",
+            "D": "At a point one-fourth (1/4) along the span from the beam support"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is minimal"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 151,
+                    "total_tokens": 155,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--029b737d-fd95-44b0-b2c4-52db864af356-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 151,
+                "output_tokens": 4,
+                "total_tokens": 155,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_477",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT considered an evacuation device or equipment (devices or equipment used for evacuation) used in case of fire?",
+        "options": {
+            "A": "Automatic fire alarm system",
+            "B": "Artificial resuscitator",
+            "C": "Emergency lighting",
+            "D": "Emergency escape descent device"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 121,
+                    "total_tokens": 125,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9eeea6af-fd91-4ec4-b421-bea66d6b9247-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 121,
+                "output_tokens": 4,
+                "total_tokens": 125,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_852",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.28999999165534973,
+        "question": "Which of the following is least related to Byzantine architecture?",
+        "options": {
+            "A": "Pendentive dome",
+            "B": "Dosseret",
+            "C": "Flying buttress",
+            "D": "Mosaic"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Flying buttress"
+            },
+            "explanation": "The flying buttress is from Gothic architecture."
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 102,
+                    "total_tokens": 106,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0c846ac9-d90d-4b94-b80c-bb8f2c995923-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 102,
+                "output_tokens": 4,
+                "total_tokens": 106,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

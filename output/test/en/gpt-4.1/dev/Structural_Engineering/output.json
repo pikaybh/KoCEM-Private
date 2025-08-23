@@ -1,0 +1,140 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4000000059604645,
+        "question": "What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)",
+        "options": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "400mm"
+            },
+            "explanation": "The maximum spacing is determined by the smallest of the following three values: 1. 25 x 16 = 400mm, 2. 10 x 48 = 480mm, 3. no more than the shorter side of the column’s cross-section = 500mm. Therefore, the correct answer is 400mm."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m52.gif?1527167378",
+        "model_answer": "**Image Description:**\nThe image shows a cross-section of a square column with dimensions 50 cm x 50 cm. There are 4 main reinforcement bars (4-D25, which means 4 bars of 25 mm diameter) located at the corners. The ties (hoops) are shown as a square loop (D10, which means 10 mm diameter).\n\n---\n\n**To determine the maximum spacing of hoops (ties) in a column:**\n\nAccording to most codes (e.g., ACI 318, Eurocode 2, and typical structural practice):\n\nThe **maximum spacing of ties (hoops)** should not exceed the least of:\n1. 16 × diameter of the smallest longitudinal bar\n2. 48 × diameter of the tie bar\n3. Least lateral dimension of the column\n\nLet’s calculate each:\n\n### 1. 16 × diameter of the smallest longitudinal bar\n- Smallest main bar = D25 = 25 mm\n- 16 × 25 mm = **400 mm**\n\n### 2. 48 × diameter of the tie bar\n- Tie bar = D10 = 10 mm\n- 48 × 10 mm = **480 mm**\n\n### 3. Least lateral dimension of the column\n- Column size = 500 mm\n\n**The maximum allowable spacing is the smallest of these:**\n- 400 mm\n- 480 mm\n- 500 mm\n\n**Answer:**  \nThe maximum spacing for hoops (tie reinforcement) in this column is **400 mm**.\n\n**Correct option:**\n> **(B) 400mm**",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "**Image Description:**\nThe image shows a cross-section of a square column with dimensions 50 cm x 50 cm. There are 4 main reinforcement bars (4-D25, which means 4 bars of 25 mm diameter) located at the corners. The ties (hoops) are shown as a square loop (D10, which means 10 mm diameter).\n\n---\n\n**To determine the maximum spacing of hoops (ties) in a column:**\n\nAccording to most codes (e.g., ACI 318, Eurocode 2, and typical structural practice):\n\nThe **maximum spacing of ties (hoops)** should not exceed the least of:\n1. 16 × diameter of the smallest longitudinal bar\n2. 48 × diameter of the tie bar\n3. Least lateral dimension of the column\n\nLet’s calculate each:\n\n### 1. 16 × diameter of the smallest longitudinal bar\n- Smallest main bar = D25 = 25 mm\n- 16 × 25 mm = **400 mm**\n\n### 2. 48 × diameter of the tie bar\n- Tie bar = D10 = 10 mm\n- 48 × 10 mm = **480 mm**\n\n### 3. Least lateral dimension of the column\n- Column size = 500 mm\n\n**The maximum allowable spacing is the smallest of these:**\n- 400 mm\n- 480 mm\n- 500 mm\n\n**Answer:**  \nThe maximum spacing for hoops (tie reinforcement) in this column is **400 mm**.\n\n**Correct option:**\n> **(B) 400mm**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 327,
+                    "prompt_tokens": 381,
+                    "total_tokens": 708,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--053bac6c-1f83-4619-aaf0-a7097f8beeb8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 381,
+                "output_tokens": 327,
+                "total_tokens": 708,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.41999998688697815,
+        "question": "What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?",
+        "options": {
+            "A": "50.8kN",
+            "B": "51.4kN",
+            "C": "51.5kN",
+            "D": "52.1kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "51.5kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m53.gif?1527167378",
+        "model_answer": "**Image Description:**  \nThe image shows a truss structure with hinge support at point A and a roller support at point B. There is a **50kN horizontal force** to the right at A and a **100kN vertical downward force** at the center (top). The truss is rectangular, with a horizontal span of 4m (2m between A and the center, and 2m from the center to B), and 3m height.\n\n---\n\nLet's calculate the **reaction at hinge A**.\n\n### 1. **Support Reactions Setup**\n\nLet:\n- \\( A_x \\) = horizontal reaction at A\n- \\( A_y \\) = vertical reaction at A\n- \\( B_y \\) = vertical reaction at B\n\n### 2. **Horizontal Force Equilibrium:**\n\\[\n\\sum F_x = 0 \\implies A_x - 50 = 0 \\implies A_x = 50\\,\\text{kN}\n\\]\n\n### 3. **Vertical Force Equilibrium:**\n\\[\n\\sum F_y = 0 \\implies A_y + B_y - 100 = 0 \\implies A_y + B_y = 100\n\\]\n\n### 4. **Moment About A:**\n\nTaking moments about A (clockwise positive):\n\n- 100kN load acts 2m from A: \\( 100 \\times 2 \\)\n- \\( B_y \\) acts 4m from A: \\( B_y \\times 4 \\)\n\n\\[\n\\sum M_A = 0 \\implies (100 \\times 2) - (B_y \\times 4) = 0 \\\\\n200 = 4 B_y \\implies B_y = 50\\,\\text{kN}\n\\]\n\nSubstitute \\( B_y \\) back in vertical equilibrium:\n\n\\[\nA_y + 50 = 100 \\implies A_y = 50\\,\\text{kN}\n\\]\n\n---\n\n### 5. **Resultant Reaction at A:**\n\nThe reaction at A is the vector sum of \\( A_x \\) and \\( A_y \\):\n\n\\[\n|A| = \\sqrt{A_x^2 + A_y^2} = \\sqrt{50^2 + 50^2} = \\sqrt{2500 + 2500} = \\sqrt{5000} = 70.71\\,\\text{kN}\n\\]\n\nBut this is not matching any of the provided choices, so let's check the calculation:\n\n- The external horizontal force is 50kN to the right at A.\n- The only vertical forces are the 100kN downward and the vertical reactions at A and B.\n- Moments confirm \\( B_y = 50\\,\\text{kN} \\), thus \\( A_y = 50\\,\\text{kN} \\).\n\nThe magnitude is **70.71 kN**, but this is not an option. Let's check if the question is asking for the **horizontal component only** or if any other forces are missing.\n\n#### Double Check:\n\n- **Horizontal:** Only one force (50kN right at A), so \\( A_x = 50kN \\)\n- **Vertical:** 100kN down distributed between A and B, both get 50kN up.\n- **Resultant at A:** \\( \\sqrt{50^2 + 50^2} = 70.71kN \\)\n\nAll options are around **51kN**, which is close to either the vertical or horizontal component alone, not the resultant.\n\n### **Final Answer:**\n\nThe magnitude of the reaction force at hinge A, combining both horizontal and vertical components, is:\n\n\\[\n\\boxed{70.7\\,\\text{kN}}\n\\]\n\nBut since this does not match the choices, check if **only the vertical reaction** or **horizontal reaction** is asked:\n\n- **Horizontal reaction at A:** \\( 50 \\) kN\n- **Vertical reaction at A:** \\( 50 \\) kN\n\nIf the question expects **only one component** due to a possible typo or misinterpretation, the closest option to either is **(A) 50.8kN**.  \nOtherwise, **the correct resultant is 70.7kN**.\n\n---\n\n### **Answer according to provided choices:**\n\nThe closest correct component is:\n\n**(A) 50.8kN**\n\nIf they ask for the vector sum (resultant), none match exactly, but (A) is the closest to the calculated components. If you can clarify the question, the vector sum would be 70.7kN, but the answer per component is 50kN.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "**Image Description:**  \nThe image shows a truss structure with hinge support at point A and a roller support at point B. There is a **50kN horizontal force** to the right at A and a **100kN vertical downward force** at the center (top). The truss is rectangular, with a horizontal span of 4m (2m between A and the center, and 2m from the center to B), and 3m height.\n\n---\n\nLet's calculate the **reaction at hinge A**.\n\n### 1. **Support Reactions Setup**\n\nLet:\n- \\( A_x \\) = horizontal reaction at A\n- \\( A_y \\) = vertical reaction at A\n- \\( B_y \\) = vertical reaction at B\n\n### 2. **Horizontal Force Equilibrium:**\n\\[\n\\sum F_x = 0 \\implies A_x - 50 = 0 \\implies A_x = 50\\,\\text{kN}\n\\]\n\n### 3. **Vertical Force Equilibrium:**\n\\[\n\\sum F_y = 0 \\implies A_y + B_y - 100 = 0 \\implies A_y + B_y = 100\n\\]\n\n### 4. **Moment About A:**\n\nTaking moments about A (clockwise positive):\n\n- 100kN load acts 2m from A: \\( 100 \\times 2 \\)\n- \\( B_y \\) acts 4m from A: \\( B_y \\times 4 \\)\n\n\\[\n\\sum M_A = 0 \\implies (100 \\times 2) - (B_y \\times 4) = 0 \\\\\n200 = 4 B_y \\implies B_y = 50\\,\\text{kN}\n\\]\n\nSubstitute \\( B_y \\) back in vertical equilibrium:\n\n\\[\nA_y + 50 = 100 \\implies A_y = 50\\,\\text{kN}\n\\]\n\n---\n\n### 5. **Resultant Reaction at A:**\n\nThe reaction at A is the vector sum of \\( A_x \\) and \\( A_y \\):\n\n\\[\n|A| = \\sqrt{A_x^2 + A_y^2} = \\sqrt{50^2 + 50^2} = \\sqrt{2500 + 2500} = \\sqrt{5000} = 70.71\\,\\text{kN}\n\\]\n\nBut this is not matching any of the provided choices, so let's check the calculation:\n\n- The external horizontal force is 50kN to the right at A.\n- The only vertical forces are the 100kN downward and the vertical reactions at A and B.\n- Moments confirm \\( B_y = 50\\,\\text{kN} \\), thus \\( A_y = 50\\,\\text{kN} \\).\n\nThe magnitude is **70.71 kN**, but this is not an option. Let's check if the question is asking for the **horizontal component only** or if any other forces are missing.\n\n#### Double Check:\n\n- **Horizontal:** Only one force (50kN right at A), so \\( A_x = 50kN \\)\n- **Vertical:** 100kN down distributed between A and B, both get 50kN up.\n- **Resultant at A:** \\( \\sqrt{50^2 + 50^2} = 70.71kN \\)\n\nAll options are around **51kN**, which is close to either the vertical or horizontal component alone, not the resultant.\n\n### **Final Answer:**\n\nThe magnitude of the reaction force at hinge A, combining both horizontal and vertical components, is:\n\n\\[\n\\boxed{70.7\\,\\text{kN}}\n\\]\n\nBut since this does not match the choices, check if **only the vertical reaction** or **horizontal reaction** is asked:\n\n- **Horizontal reaction at A:** \\( 50 \\) kN\n- **Vertical reaction at A:** \\( 50 \\) kN\n\nIf the question expects **only one component** due to a possible typo or misinterpretation, the closest option to either is **(A) 50.8kN**.  \nOtherwise, **the correct resultant is 70.7kN**.\n\n---\n\n### **Answer according to provided choices:**\n\nThe closest correct component is:\n\n**(A) 50.8kN**\n\nIf they ask for the vector sum (resultant), none match exactly, but (A) is the closest to the calculated components. If you can clarify the question, the vector sum would be 70.7kN, but the answer per component is 50kN.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 967,
+                    "prompt_tokens": 389,
+                    "total_tokens": 1356,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_51e1070cf2",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f2a1b1ef-bbb0-4e43-a584-1bd09c6e841d-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 389,
+                "output_tokens": 967,
+                "total_tokens": 1356,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

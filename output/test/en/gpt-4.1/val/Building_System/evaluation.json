@@ -1,0 +1,247 @@
+{
+    "val_Building_System_308": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_862": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1338": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Building_System_1878": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_2420": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1650": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1918": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_4162": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Building_System_544": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1268": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Building_System_8": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_999": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_175": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Building_System_746": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_4027": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_506": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_838": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_3860": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Building_System_3666": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_144": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Building_System_1563": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_4009": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1744": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_393": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_2297": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_755": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1024": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1398": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_3722": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_497": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "val_Building_System_908": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1950": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_2827": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1566": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1807": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_61": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_3282": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_2226": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Building_System_2702": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1361": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_51": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "val_Building_System_1912": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_958": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1580": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_287": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_132": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Building_System_720": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Building_System_3100": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Building_System_1309": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    }
+}

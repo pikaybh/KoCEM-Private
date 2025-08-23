@@ -1,0 +1,278 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1599999964237213,
+        "question": "Which of the following is information needed for biomechanical analysis?",
+        "options": {
+            "A": "Heart rate, calories per minute, oxygen uptake",
+            "B": "Distance, weight, angle",
+            "C": "Temperature, noise level, illumination",
+            "D": "Height, waist circumference"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Distance, weight, angle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 116,
+                    "total_tokens": 120,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c233eade-fa50-499b-a5f0-080adeeea435-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 116,
+                "output_tokens": 4,
+                "total_tokens": 120,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?",
+        "options": {
+            "A": "When snowfall exceeds 1 cm per minute",
+            "B": "When rainfall exceeds 1 cm per hour",
+            "C": "When wind speed exceeds 10 meters per second",
+            "D": "When the temperature exceeds 28°C"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When wind speed exceeds 10 meters per second"
+            },
+            "explanation": "- When wind speed exceeds 10 meters per second\n- When rainfall exceeds 1 mm per hour\n- When snowfall exceeds 1 cm per hour"
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 137,
+                    "total_tokens": 141,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--42dc2e27-aa29-44a4-b767-6c5c5c263f4a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 137,
+                "output_tokens": 4,
+                "total_tokens": 141,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.44999998807907104,
+        "question": "The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?",
+        "options": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20080907/bj20080907m83.gif?1522617633",
+        "model_answer": "The image contains Korean text which translates to:  \n\"For cranes or hoists, wire ropes for lifting should not be used if more than (   )% of the wires in one strand are broken.\"\n\nThe correct percentage to fill in the blank, according to most safety regulations (such as Korean Industrial Safety and Health Act), is **10%**.\n\nSo, the answer is:  \n**(C) 10**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "The image contains Korean text which translates to:  \n\"For cranes or hoists, wire ropes for lifting should not be used if more than (   )% of the wires in one strand are broken.\"\n\nThe correct percentage to fill in the blank, according to most safety regulations (such as Korean Industrial Safety and Health Act), is **10%**.\n\nSo, the answer is:  \n**(C) 10**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 84,
+                    "prompt_tokens": 371,
+                    "total_tokens": 455,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2bed6242-ee94-43b3-91fc-ec38a780a903-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 371,
+                "output_tokens": 84,
+                "total_tokens": 455,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is the correct safety rule when pouring concrete?",
+        "options": {
+            "A": "Concrete should be poured all to one side.",
+            "B": "Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation.",
+            "C": "Concrete that has spilled onto the floor should be left to cure as is.",
+            "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 160,
+                    "total_tokens": 164,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6e95467c-c986-433e-a722-5a7d4292ce44-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 160,
+                "output_tokens": 4,
+                "total_tokens": 164,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

@@ -1,0 +1,347 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an appropriate method for zoning in air conditioning planning?",
+        "options": {
+            "A": "Classify according to the purpose of each room.",
+            "B": "Classify according to the usage time of each room.",
+            "C": "Create internal zones for each floor.",
+            "D": "Create external zones according to orientation."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Create internal zones for each floor."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 128,
+                    "total_tokens": 132,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--620786f7-9ea6-4e3f-bb6c-ecd35e3a76e0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 128,
+                "output_tokens": 4,
+                "total_tokens": 132,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?",
+        "options": {
+            "A": "20 minutes",
+            "B": "30 minutes",
+            "C": "40 minutes",
+            "D": "50 minutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20 minutes"
+            },
+            "explanation": "The indoor firefighting water supply should last 20 minutes, because this is the average time it takes for the fire department to arrive at the scene."
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 135,
+                    "total_tokens": 139,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2d2b7daa-0abe-4d8b-b493-36e679c92133-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 135,
+                "output_tokens": 4,
+                "total_tokens": 139,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "When the local resistance coefficient of a rectangular cross-section 4-sided elbow is 0.5 and the wind speed is 6 m/s, what is the local resistance at this elbow? (Assume the air density is 1.2 kg/m3.)",
+        "options": {
+            "A": "10.1Pa",
+            "B": "10.2Pa",
+            "C": "10.8Pa",
+            "D": "10.6Pa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10.8Pa"
+            },
+            "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa"
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 153,
+                    "total_tokens": 157,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--05959c43-7634-44bb-bfdc-2b35e321f310-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 153,
+                "output_tokens": 4,
+                "total_tokens": 157,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is classified as a digital method in building automation control systems?",
+        "options": {
+            "A": "Electrical method",
+            "B": "Pneumatic method",
+            "C": "Magnetic method",
+            "D": "DDC method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "DDC method"
+            },
+            "explanation": "DDC stands for Direct Digital Control, which is a common type of automation control system."
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 106,
+                    "total_tokens": 110,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--3ae3d187-87b6-49d1-adcb-94d0d28548e3-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 106,
+                "output_tokens": 4,
+                "total_tokens": 110,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "In an autotransformer, if the number of turns in the primary winding is 100 and the number of turns in the common coil (secondary coil) is 60, what is the secondary voltage? (Assume the primary voltage is 100[V].)",
+        "options": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "60[V]"
+            },
+            "explanation": "Voltage (V) is proportional to the number of turns. In an autotransformer, the relationship between primary and secondary voltage, number of turns, and current is: V1/N1 = V2/N2 = I2/I1."
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 146,
+                    "total_tokens": 150,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b8a9b3c7-2393-40ba-b903-9cb8c7990e94-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 146,
+                "output_tokens": 4,
+                "total_tokens": 150,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

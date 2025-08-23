@@ -1,0 +1,209 @@
+[
+    {
+        "id": "dev_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Determine whether the strength reduction factor $\\phi = 0.85$ is appropriate for a reinforced concrete beam like the one shown in the figure, with $f_{ck} = 21$ MPa, $f_y = 400$ MPa, and D22 bars (cross-sectional area 387mm$^2$).",
+        "options": {
+            "A": "Appropriate",
+            "B": "Inappropriate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Appropriate"
+            },
+            "explanation": "(1) Determining $\\beta_1$ and $\\varepsilon_{cu}$\n\nSince $f_{ck} \\leq 40$MPa, $\\beta_1 = 0.80$ and $\\varepsilon_{cu} = 0.0033$.\n\n(2) Calculating the depth of the equivalent rectangular stress block $a$\n\n$ a = \\frac{A_s f_y}{0.85 f_{ck} b} = \\frac{(387 \\times 3) \\times 400}{0.85 \\times 21 \\times 300} = 86.7 $ mm\n\n(3) Strength reduction factor $\\phi$\n\n$ c = \\frac{a}{\\beta_1} = \\frac{86.7}{0.80} = 108.4 $ mm\n\n$ \\varepsilon_t = \\left( \\frac{d_t - c}{c} \\right) \\varepsilon_{cu} = \\left( \\frac{550 - 108.4}{108.4} \\right) \\times 0.0033 = 0.0134 $\n\nSince $\\varepsilon_t = 0.0134 \\geq \\varepsilon_{tt} = 0.0050$, the section is tension-controlled.\n\nTherefore, $\\phi = 0.85$ (appropriate).\n\nNote: If the net tensile strain of the outermost tension reinforcement $\\varepsilon_t$ is greater than or equal to 0.0050, the section is tension-controlled, and the strength reduction factor $\\phi = 0.85$ is appropriate."
+        },
+        "image_path": "스크린샷 2024-10-19 231620.png",
+        "model_answer": "**Image Description:**  \nThe image shows a rectangular cross-section of a reinforced concrete beam with dimensions \\( b = 300~\\text{mm} \\) (width) and \\( d = 550~\\text{mm} \\) (effective depth). The beam contains 3 D22 bars (each with a cross-sectional area of 387 mm²) as tension reinforcement.\n\n---\n\n### Strength Reduction Factor (\\(\\phi\\)) Analysis\n\n#### Given:\n- \\( f_{ck} = 21~\\text{MPa} \\)\n- \\( f_y = 400~\\text{MPa} \\)\n- 3 D22 bars (\\( A_s = 3 \\times 387 = 1161~\\text{mm}^2 \\))\n- \\( b = 300~\\text{mm} \\)\n- \\( d = 550~\\text{mm} \\)\n- Proposed \\( \\phi = 0.85 \\)\n\n#### Code Reference (e.g., ACI 318):\n- For a flexural member **failing in tension (ductile failure)**, \\(\\phi\\) is typically 0.9.\n- For **compression-controlled** sections (brittle failure), \\(\\phi\\) is 0.65.\n- Between these extremes, \\(\\phi\\) varies linearly as a function of the strain in the tension steel.\n\n#### Check if Section is Tension-Controlled:\nCalculate the **reinforcement ratio**:\n\\[\n\\rho = \\frac{A_s}{b d} = \\frac{1161}{300 \\times 550} = 0.00705\n\\]\n\nCalculate the **balanced reinforcement ratio** (\\(\\rho_{bal}\\)):\n\\[\n\\epsilon_{cu} = 0.003\n\\]\n\\[\n\\epsilon_y = \\frac{f_y}{E_s} \\approx \\frac{400}{200,000} = 0.002\n\\]\n\\[\n\\rho_{bal} = 0.85\\frac{f_{ck}}{f_y} \\frac{\\beta_1}{600}\n\\]\nBut, for standard design, with the given values (low reinforcement ratio), the section is **tension-controlled**.\n\n#### Code Minimums:\n- For sections with tension-controlled failure (which this section likely is due to the low reinforcement ratio), \\(\\phi = 0.9\\).\n- \\(\\phi = 0.85\\) is used for **compression-controlled** or transition sections.\n\n---\n\n### **Conclusion**\n\n**The use of \\(\\phi = 0.85\\) is not appropriate for a typical singly reinforced rectangular beam with low reinforcement ratio and tension-controlled failure.**\n\n#### **Correct Answer:**\n**(B) Inappropriate**\n\n*The correct strength reduction factor should be \\(\\phi = 0.9\\) for a tension-controlled flexural member like the one shown.*",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "**Image Description:**  \nThe image shows a rectangular cross-section of a reinforced concrete beam with dimensions \\( b = 300~\\text{mm} \\) (width) and \\( d = 550~\\text{mm} \\) (effective depth). The beam contains 3 D22 bars (each with a cross-sectional area of 387 mm²) as tension reinforcement.\n\n---\n\n### Strength Reduction Factor (\\(\\phi\\)) Analysis\n\n#### Given:\n- \\( f_{ck} = 21~\\text{MPa} \\)\n- \\( f_y = 400~\\text{MPa} \\)\n- 3 D22 bars (\\( A_s = 3 \\times 387 = 1161~\\text{mm}^2 \\))\n- \\( b = 300~\\text{mm} \\)\n- \\( d = 550~\\text{mm} \\)\n- Proposed \\( \\phi = 0.85 \\)\n\n#### Code Reference (e.g., ACI 318):\n- For a flexural member **failing in tension (ductile failure)**, \\(\\phi\\) is typically 0.9.\n- For **compression-controlled** sections (brittle failure), \\(\\phi\\) is 0.65.\n- Between these extremes, \\(\\phi\\) varies linearly as a function of the strain in the tension steel.\n\n#### Check if Section is Tension-Controlled:\nCalculate the **reinforcement ratio**:\n\\[\n\\rho = \\frac{A_s}{b d} = \\frac{1161}{300 \\times 550} = 0.00705\n\\]\n\nCalculate the **balanced reinforcement ratio** (\\(\\rho_{bal}\\)):\n\\[\n\\epsilon_{cu} = 0.003\n\\]\n\\[\n\\epsilon_y = \\frac{f_y}{E_s} \\approx \\frac{400}{200,000} = 0.002\n\\]\n\\[\n\\rho_{bal} = 0.85\\frac{f_{ck}}{f_y} \\frac{\\beta_1}{600}\n\\]\nBut, for standard design, with the given values (low reinforcement ratio), the section is **tension-controlled**.\n\n#### Code Minimums:\n- For sections with tension-controlled failure (which this section likely is due to the low reinforcement ratio), \\(\\phi = 0.9\\).\n- \\(\\phi = 0.85\\) is used for **compression-controlled** or transition sections.\n\n---\n\n### **Conclusion**\n\n**The use of \\(\\phi = 0.85\\) is not appropriate for a typical singly reinforced rectangular beam with low reinforcement ratio and tension-controlled failure.**\n\n#### **Correct Answer:**\n**(B) Inappropriate**\n\n*The correct strength reduction factor should be \\(\\phi = 0.9\\) for a tension-controlled flexural member like the one shown.*",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 601,
+                    "prompt_tokens": 400,
+                    "total_tokens": 1001,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0cb8f505-0b0e-4ac9-bcb3-5c8f13fa0dc6-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 400,
+                "output_tokens": 601,
+                "total_tokens": 1001,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When calculating a two-way slab with beams by the direct design method from the strength design method, $M_0$ is determined to be $900 \\, \\text{kN} \\cdot \\text{m}$. Calculate the negative moment for the interior span ($\\text{kN} \\cdot \\text{m}$).",
+        "options": {
+            "A": "$ M_u^- = 600 \\, \\text{kN} \\cdot \\text{m} $",
+            "B": "$ M_u^+ = 310 \\, \\text{kN} \\cdot \\text{m} $",
+            "C": "$ M_u^+ = 320 \\, \\text{kN} \\cdot \\text{m} $",
+            "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $",
+            "E": "$ M_u^- = 550 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $"
+            },
+            "explanation": "$ M_u^- = 0.65 M_0 = 0.65 \\times 900 = 585 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "image_path": null,
+        "model_answer": "No image provided.\n\nLet's solve the problem step by step:\n\nGiven:\n- Total factored moment, \\( M_0 = 900 \\) kN·m\n\n**Direct Design Method (ACI 318):**\n- For an **interior span**, the negative moment at the face of the support is typically allocated **0.65** of the total factored moment for that span.\n\nSo,\n\\[\nM_u^- = 0.65 \\times M_0 = 0.65 \\times 900 = 585 \\text{ kN·m}\n\\]\n\n**Matching with the options:**\n- (D) \\( M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} \\) is the correct answer.\n\n---\n\n**Final Answer:**  \n**(D) \\( M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} \\)**",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "No image provided.\n\nLet's solve the problem step by step:\n\nGiven:\n- Total factored moment, \\( M_0 = 900 \\) kN·m\n\n**Direct Design Method (ACI 318):**\n- For an **interior span**, the negative moment at the face of the support is typically allocated **0.65** of the total factored moment for that span.\n\nSo,\n\\[\nM_u^- = 0.65 \\times M_0 = 0.65 \\times 900 = 585 \\text{ kN·m}\n\\]\n\n**Matching with the options:**\n- (D) \\( M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} \\) is the correct answer.\n\n---\n\n**Final Answer:**  \n**(D) \\( M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} \\)**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 192,
+                    "prompt_tokens": 265,
+                    "total_tokens": 457,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--04b232df-6388-49f7-adb5-ebb5fe800352-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 265,
+                "output_tokens": 192,
+                "total_tokens": 457,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "As a result of conducting density and absorption ratio tests on an undisturbed clay specimen, the following test results were obtained. Based on these results, write the absorption ratio, void ratio, and degree of saturation. (6 points)\n\n| Type of Test   | Test Result                                   |\n|---------------|-----------------------------------------------|\n| Particle Density | Particle volume: 11.06cm³                    |\n| Absorption Ratio | Mass of soil and container: 92.58g<br>Mass of dry soil and container: 78.95g<br>Mass of container: 49.32g |\n| Wet Density     | Volume of soil: 26.22cm³                      |",
+        "options": {
+            "A": "0.7271",
+            "B": "0.2482",
+            "C": "0.8991",
+            "D": "0.5533",
+            "E": "0.6329"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "0.8991"
+            },
+            "explanation": "1g of water = 1cm$^3$. That is, the volume and weight of water are the same.\n\n1. Absorption Ratio\n   $\n   \\text{Absorption Ratio} = \\left( \\frac{\\text{Mass of water}}{\\text{Mass of soil}} \\right) \\times 100 = \\left( \\frac{M_W}{M_S} \\right) \\times 100\n   $\n   $\n   = \\left( \\frac{92.58 - 78.95}{78.95 - 49.32} \\right) \\times 100 = 46.0\\%$\n\n2. Void Ratio\n   $\n   \\text{Void Ratio} = \\left( \\frac{\\text{Volume of voids}}{\\text{Volume of soil particles}} \\right) = \\frac{V_V}{V_S} = \\frac{26.22 - 11.06}{11.06} = 1.37\n   $\n\n3. Degree of Saturation\n   $\n   \\text{Degree of Saturation} = \\left( \\frac{\\text{Volume of water}}{\\text{Volume of voids}} \\right) \\times 100 = \\left( \\frac{V_W}{V_V} \\right) \\times 100\n   $\n\n$\n= \\left( \\frac{92.58 - 78.95}{26.22 - 11.06} \\right) \\times 100 = 89.91\\%$\n"
+        },
+        "image_path": null,
+        "model_answer": "No image provided.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "content": "No image provided.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 245,
+                    "total_tokens": 249,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5604aa4e-546d-4007-bfd3-dd46c315cb46-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 245,
+                "output_tokens": 4,
+                "total_tokens": 249,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

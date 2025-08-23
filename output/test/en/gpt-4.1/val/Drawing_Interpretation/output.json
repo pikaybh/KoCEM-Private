@@ -1,0 +1,614 @@
+[
+    {
+        "id": "val_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "question": "What should the ground level (GL) be for the floor of the underground parking lot at the community center?",
+        "options": {
+            "A": "-2.5m",
+            "B": "-3.0m",
+            "C": "-3.5m",
+            "D": "-4.0m",
+            "E": "-4.5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-3.5m"
+            },
+            "explanation": "According to the guidelines, the underground parking lot must be planned at GL –3.5m."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "The image is an architectural section drawing of a community center.\n\nTo determine the ground level (GL) for the floor of the underground parking lot, let's look for the relevant labeling in the section. On the left side of the drawing, the underground parking lot is labeled as \"지하주차장\" (underground parking lot), and the floor level is marked as \"SL=-3,500\" next to it. \n\nThis means the floor of the underground parking lot is at -3.5 meters relative to the ground level (GL).\n\n**Correct Answer:**\n(C) -3.5m",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "The image is an architectural section drawing of a community center.\n\nTo determine the ground level (GL) for the floor of the underground parking lot, let's look for the relevant labeling in the section. On the left side of the drawing, the underground parking lot is labeled as \"지하주차장\" (underground parking lot), and the floor level is marked as \"SL=-3,500\" next to it. \n\nThis means the floor of the underground parking lot is at -3.5 meters relative to the ground level (GL).\n\n**Correct Answer:**\n(C) -3.5m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 122,
+                    "prompt_tokens": 1235,
+                    "total_tokens": 1357,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ad8e3af4-6c92-45c3-942f-21bba98fb54e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1235,
+                "output_tokens": 122,
+                "total_tokens": 1357,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "question": "Which floor structure is most suitable for the second floor above ground of a village library?",
+        "options": {
+            "A": "Reinforced concrete slab",
+            "B": "Wood truss",
+            "C": "Large-span air delivery structure using steel plates",
+            "D": "Ceiling finish with gypsum board",
+            "E": "Composite metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Large-span air delivery structure using steel plates"
+            },
+            "explanation": "The design guidelines specify that the second floor above ground should use a large-span air delivery structure using steel plates. This is interpreted as a construction method utilizing steel structures."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "The image provided is a detailed architectural section drawing of a building, specifically a village library. The drawing shows various construction details, including the floor structure for each level.\n\n**Relevant details from the drawing:**\n- The floor structure for the second floor (above ground) is indicated as \"T220 철근콘크리트 슬라브\" which translates to \"T220 reinforced concrete slab\".\n- This slab sits above the main first-floor rooms and supports the second-floor usage.\n\n**Analyzing the options:**\n- (A) Reinforced concrete slab — This matches the drawing exactly.\n- (B) Wood truss — Not shown as the main floor structure.\n- (C) Large-span air delivery structure using steel plates — Not relevant to the floor structure shown.\n- (D) Ceiling finish with gypsum board — This is a finish, not a structural system.\n- (E) Composite metal panel — Not indicated as the floor structure in the drawing.\n\n**Conclusion:**\nThe most suitable answer, based on the architectural drawing, is:\n\n**(A) Reinforced concrete slab**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The image provided is a detailed architectural section drawing of a building, specifically a village library. The drawing shows various construction details, including the floor structure for each level.\n\n**Relevant details from the drawing:**\n- The floor structure for the second floor (above ground) is indicated as \"T220 철근콘크리트 슬라브\" which translates to \"T220 reinforced concrete slab\".\n- This slab sits above the main first-floor rooms and supports the second-floor usage.\n\n**Analyzing the options:**\n- (A) Reinforced concrete slab — This matches the drawing exactly.\n- (B) Wood truss — Not shown as the main floor structure.\n- (C) Large-span air delivery structure using steel plates — Not relevant to the floor structure shown.\n- (D) Ceiling finish with gypsum board — This is a finish, not a structural system.\n- (E) Composite metal panel — Not indicated as the floor structure in the drawing.\n\n**Conclusion:**\nThe most suitable answer, based on the architectural drawing, is:\n\n**(A) Reinforced concrete slab**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 219,
+                    "prompt_tokens": 1228,
+                    "total_tokens": 1447,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--fd693c41-143f-4642-a507-da43c93c7f94-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1228,
+                "output_tokens": 219,
+                "total_tokens": 1447,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "question": "Select the correct statement regarding the placement of cantilevers in structural planning.",
+        "options": {
+            "A": "Cantilevers are used on every floor.",
+            "B": "Cantilevers are only used on the first floor.",
+            "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+            "D": "No special structural planning is needed for cantilevers, and they can be placed freely.",
+            "E": "Cantilevers can be placed anywhere for space efficiency."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing."
+            },
+            "explanation": "According to the design guidelines, cantilevers are only placed in specific areas on the second floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "The image provided is a structural floor plan (3층 구조평면도) with detailed sections and keymaps. The plan shows specific areas and details for structural members, including beams and columns, and marks specific zones for structural features.\n\n**Correct Statement:**\n(C) Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.\n\n**Reasoning:**\n- The drawing shows cantilevered sections only in certain specified locations, as indicated by the detailed section (\"다\" 부분 단면상세도) and the keymap. \n- Cantilevers require careful structural planning, and their placement is limited to where they are shown in the plans and sections—not on every floor or at arbitrary locations.\n- Options (A), (B), (D), and (E) are incorrect because:\n  - (A) and (B): Cantilevers are not on every or only the first floor.\n  - (D): Cantilevers need special structural planning.\n  - (E): They cannot be placed freely anywhere.\n\n**Summary:**  \nThe placement of cantilevers must follow the structural plan and sections, as seen in the drawing. Thus, (C) is the correct choice.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "The image provided is a structural floor plan (3층 구조평면도) with detailed sections and keymaps. The plan shows specific areas and details for structural members, including beams and columns, and marks specific zones for structural features.\n\n**Correct Statement:**\n(C) Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.\n\n**Reasoning:**\n- The drawing shows cantilevered sections only in certain specified locations, as indicated by the detailed section (\"다\" 부분 단면상세도) and the keymap. \n- Cantilevers require careful structural planning, and their placement is limited to where they are shown in the plans and sections—not on every floor or at arbitrary locations.\n- Options (A), (B), (D), and (E) are incorrect because:\n  - (A) and (B): Cantilevers are not on every or only the first floor.\n  - (D): Cantilevers need special structural planning.\n  - (E): They cannot be placed freely anywhere.\n\n**Summary:**  \nThe placement of cantilevers must follow the structural plan and sections, as seen in the drawing. Thus, (C) is the correct choice.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 248,
+                    "prompt_tokens": 1268,
+                    "total_tokens": 1516,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5983ecd4-8f0f-4a86-8f76-dabb2a4acd56-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1268,
+                "output_tokens": 248,
+                "total_tokens": 1516,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_5",
+        "question_type": "multiple-choice",
+        "question": "In this architectural design, what is the value defined as the floor structure level (SL) for the basement?",
+        "options": {
+            "A": "-1,200mm",
+            "B": "-1,600mm",
+            "C": "0mm",
+            "D": "-2,000mm",
+            "E": "-800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "-1,600mm"
+            },
+            "explanation": "According to the design specifications, the floor structure level (SL) for the basement and penthouse is set at -1,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "The image shows an architectural section drawing. To find the floor structure level (SL) for the basement, look for the label \"지하1층 SL\" which means \"Basement 1 Floor SL\" in Korean.\n\nUpon inspection, in the lower central part of the right section labeled \"A 단면도\", it clearly states:\n\"지하1층 SL -1,600\" which translates to \"Basement 1 Floor SL -1,600\".\n\nTherefore, the correct answer is:\n\n**(B) -1,600mm**",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "The image shows an architectural section drawing. To find the floor structure level (SL) for the basement, look for the label \"지하1층 SL\" which means \"Basement 1 Floor SL\" in Korean.\n\nUpon inspection, in the lower central part of the right section labeled \"A 단면도\", it clearly states:\n\"지하1층 SL -1,600\" which translates to \"Basement 1 Floor SL -1,600\".\n\nTherefore, the correct answer is:\n\n**(B) -1,600mm**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 111,
+                    "prompt_tokens": 1231,
+                    "total_tokens": 1342,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a28efd4f-a6ee-4056-b3b9-8b2d5065f2ca-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1231,
+                "output_tokens": 111,
+                "total_tokens": 1342,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_6",
+        "question_type": "multiple-choice",
+        "question": "What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?",
+        "options": {
+            "A": "2,500mm",
+            "B": "3,000mm",
+            "C": "3,500mm",
+            "D": "4,000mm",
+            "E": "4,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3,000mm"
+            },
+            "explanation": "According to the design guidelines, the floor-to-ceiling height of the rooftop floor of the neighborhood culture center is 3,000mm. This value represents the height of the building's topmost space, including the rooftop floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "The image is a detailed architectural section drawing of a neighborhood culture center. The floor-to-ceiling height for each floor is marked on the drawing.\n\nLooking at the rooftop floor (the topmost enclosed space), the dimension between the finished floor and the ceiling is clearly labeled as **2,500mm**.\n\nTherefore, the answer is:\n\n**(A) 2,500mm**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The image is a detailed architectural section drawing of a neighborhood culture center. The floor-to-ceiling height for each floor is marked on the drawing.\n\nLooking at the rooftop floor (the topmost enclosed space), the dimension between the finished floor and the ceiling is clearly labeled as **2,500mm**.\n\nTherefore, the answer is:\n\n**(A) 2,500mm**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 77,
+                    "prompt_tokens": 1236,
+                    "total_tokens": 1313,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e6e11f73-a0b3-4246-8eec-b56fd0f63146-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1236,
+                "output_tokens": 77,
+                "total_tokens": 1313,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_7",
+        "question_type": "multiple-choice",
+        "question": "What is the exterior wall finishing material of the Community Service Center?",
+        "options": {
+            "A": "Brick finish",
+            "B": "Stucco",
+            "C": "Exposed concrete finish",
+            "D": "Marble finish",
+            "E": "Metal panel finish"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Exposed concrete finish"
+            },
+            "explanation": "The design guide for the Community Service Center specifies exposed concrete for the exterior wall finish."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "The exterior wall finishing material of the Community Service Center, as indicated in the section drawing, is \"exposed concrete finish\" (노출콘크리트). This can be found in the notes on the exterior wall sections, where it states \"T200 노출콘크리트\" (T200 exposed concrete).\n\nThe correct answer is:\n(C) Exposed concrete finish",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "The exterior wall finishing material of the Community Service Center, as indicated in the section drawing, is \"exposed concrete finish\" (노출콘크리트). This can be found in the notes on the exterior wall sections, where it states \"T200 노출콘크리트\" (T200 exposed concrete).\n\nThe correct answer is:\n(C) Exposed concrete finish",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 76,
+                    "prompt_tokens": 1214,
+                    "total_tokens": 1290,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--987fccf5-aeba-4f8b-b094-d0097ca331fc-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1214,
+                "output_tokens": 76,
+                "total_tokens": 1290,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_8",
+        "question_type": "multiple-choice",
+        "question": "What should be the maximum span length in the structural design of a small gallery?",
+        "options": {
+            "A": "2500mm",
+            "B": "3000mm",
+            "C": "3500mm",
+            "D": "4000mm",
+            "E": "4500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3500mm"
+            },
+            "explanation": "The design conditions specify that the span should be planned to be no more than 3,500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "The image is a structural floor plan for a building, likely a small gallery, with grid lines and dimensions clearly marked.\n\nTo determine the maximum span length, we need to look for the longest distance between columns/grids without interruption.\n\nFrom the plan:\n- The horizontal spans (left to right) are mostly 3000mm or 3600mm.\n- The largest single span visible is **3600mm** (at the top right of the plan).\n\nNow, check the provided options:\n- (A) 2500mm\n- (B) 3000mm\n- (C) 3500mm\n- (D) 4000mm\n- (E) 4500mm\n\n**The maximum span length in the plan is 3600mm, but the closest correct answer among the options is:**\n\n**(D) 4000mm**\n\nHowever, since 3600mm is not exactly an option and 4000mm is the next closest, you should select:\n- **(D) 4000mm**\n\nBut for utmost accuracy, based on the drawing, the actual span is **3600mm**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The image is a structural floor plan for a building, likely a small gallery, with grid lines and dimensions clearly marked.\n\nTo determine the maximum span length, we need to look for the longest distance between columns/grids without interruption.\n\nFrom the plan:\n- The horizontal spans (left to right) are mostly 3000mm or 3600mm.\n- The largest single span visible is **3600mm** (at the top right of the plan).\n\nNow, check the provided options:\n- (A) 2500mm\n- (B) 3000mm\n- (C) 3500mm\n- (D) 4000mm\n- (E) 4500mm\n\n**The maximum span length in the plan is 3600mm, but the closest correct answer among the options is:**\n\n**(D) 4000mm**\n\nHowever, since 3600mm is not exactly an option and 4000mm is the next closest, you should select:\n- **(D) 4000mm**\n\nBut for utmost accuracy, based on the drawing, the actual span is **3600mm**.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 234,
+                    "prompt_tokens": 1224,
+                    "total_tokens": 1458,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f33b5e28-1b28-4423-8ef8-bc8c1962834a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1224,
+                "output_tokens": 234,
+                "total_tokens": 1458,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_9",
+        "question_type": "multiple-choice",
+        "question": "What is the appropriate design method for the south exterior wall?",
+        "options": {
+            "A": "Single skin",
+            "B": "Double skin",
+            "C": "Brick finish",
+            "D": "Glass curtain wall",
+            "E": "Metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Double skin"
+            },
+            "explanation": "It is specified that the south exterior wall should be designed with a double skin that allows for ventilation and solar control."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "The image shows a detailed architectural section drawing. \n\nUpon close examination of the south exterior wall (left side of the drawing), it is clear that there is a cavity between two layers of the wall, with arrows indicating airflow. The drawing labels the components as \"커튼월\" (curtain wall) and shows an air space between two skins, which is characteristic of a **double skin facade** system.\n\n**Correct answer:**\n(B) Double skin\n\n**Explanation:**  \nThe drawing details an air flow system between two layers of glass, which is typical of a double skin design. This system improves insulation, energy efficiency, and acoustic performance. Other options like brick, metal panel, or single skin are not supported by the section details shown.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "The image shows a detailed architectural section drawing. \n\nUpon close examination of the south exterior wall (left side of the drawing), it is clear that there is a cavity between two layers of the wall, with arrows indicating airflow. The drawing labels the components as \"커튼월\" (curtain wall) and shows an air space between two skins, which is characteristic of a **double skin facade** system.\n\n**Correct answer:**\n(B) Double skin\n\n**Explanation:**  \nThe drawing details an air flow system between two layers of glass, which is typical of a double skin design. This system improves insulation, energy efficiency, and acoustic performance. Other options like brick, metal panel, or single skin are not supported by the section details shown.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 150,
+                    "prompt_tokens": 1211,
+                    "total_tokens": 1361,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d098983a-5772-4b6f-91c0-69bbc1978e35-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1211,
+                "output_tokens": 150,
+                "total_tokens": 1361,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_10",
+        "question_type": "multiple-choice",
+        "question": "What is the specified stress (f_py) value for prestressed concrete?",
+        "options": {
+            "A": "1,200 MPa",
+            "B": "1,500 MPa",
+            "C": "1,860 MPa",
+            "D": "2,000 MPa",
+            "E": "2,400 MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,860 MPa"
+            },
+            "explanation": "According to the material specifications for design conditions, the specified stress for prestressed concrete is set at 1,860 MPa."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "No image provided.\n\nTo answer your multiple-choice question:\n\nThe specified stress (f_py) value for prestressed concrete is:\n\n(C) 1,860 MPa\n\nThis is the typical value used for high-tensile prestressing steel wires and strands in international standards.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "No image provided.\n\nTo answer your multiple-choice question:\n\nThe specified stress (f_py) value for prestressed concrete is:\n\n(C) 1,860 MPa\n\nThis is the typical value used for high-tensile prestressing steel wires and strands in international standards.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 55,
+                    "prompt_tokens": 1233,
+                    "total_tokens": 1288,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c18cc2c6-eeda-4992-b0bc-b3afe5c225f0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1233,
+                "output_tokens": 55,
+                "total_tokens": 1288,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

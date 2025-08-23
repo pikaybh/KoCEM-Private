@@ -1,0 +1,209 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "The rooftop core enlarged floor plan is shown in the upper right quadrant (marked as 도면 4, \"옥탑지붕 코어 확대평면도\"). The door at the rooftop core opens outward onto the roof, not inward into the stairwell.\n\nThis outward-swinging door is generally appropriate for rooftop access for safety and egress reasons, especially in emergencies (such as fire), as it allows for easier exit and does not block the stair landing. \n\n**Answer:**\n(A) Yes",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The rooftop core enlarged floor plan is shown in the upper right quadrant (marked as 도면 4, \"옥탑지붕 코어 확대평면도\"). The door at the rooftop core opens outward onto the roof, not inward into the stairwell.\n\nThis outward-swinging door is generally appropriate for rooftop access for safety and egress reasons, especially in emergencies (such as fire), as it allows for easier exit and does not block the stair landing. \n\n**Answer:**\n(A) Yes",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 103,
+                    "prompt_tokens": 1195,
+                    "total_tokens": 1298,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7680f830-5d5b-4cd2-be79-ea1f7c5bf7a9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1195,
+                "output_tokens": 103,
+                "total_tokens": 1298,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "The image is a detailed architectural ceiling plan. Upon inspection, the AL (Aluminum) ceiling panel size is noted in several annotations across the drawing. The annotation \"AL T-BAR 600*1200\" can be seen in multiple locations.\n\nTherefore, the correct answer is:\n\n**(A) 1200*600**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The image is a detailed architectural ceiling plan. Upon inspection, the AL (Aluminum) ceiling panel size is noted in several annotations across the drawing. The annotation \"AL T-BAR 600*1200\" can be seen in multiple locations.\n\nTherefore, the correct answer is:\n\n**(A) 1200*600**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 67,
+                    "prompt_tokens": 1232,
+                    "total_tokens": 1299,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d954d2dc-8b4c-45fb-ba98-3d47104a646b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1232,
+                "output_tokens": 67,
+                "total_tokens": 1299,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "The image is a detailed architectural or engineering drawing of a parking lot ceiling plan. Upon close examination, the annotation in the drawing (written in Korean) specifies \"RACE WAY TYPE FLUORESCENT LIGHT\" (레이스웨이형 형광등) for the parking lot lighting.\n\nThe correct answer is:\n(A) RACE WAY TYPE fluorescent light",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The image is a detailed architectural or engineering drawing of a parking lot ceiling plan. Upon close examination, the annotation in the drawing (written in Korean) specifies \"RACE WAY TYPE FLUORESCENT LIGHT\" (레이스웨이형 형광등) for the parking lot lighting.\n\nThe correct answer is:\n(A) RACE WAY TYPE fluorescent light",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 71,
+                    "prompt_tokens": 1221,
+                    "total_tokens": 1292,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--da8a2047-4f46-4e74-a02e-7cd8b4c1bf5e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1221,
+                "output_tokens": 71,
+                "total_tokens": 1292,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]
