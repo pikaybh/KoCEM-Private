@@ -26,6 +26,7 @@ jobs:
           set -e
           REPO="${{ vars.TARGET_REPO }}"
           if [ -z "$REPO" ]; then REPO="${{ secrets.TARGET_REPO }}"; fi
+          echo "REPO=$REPO" >> $GITHUB_ENV
           mkdir -p target_repo
           cd target_repo
           git init
@@ -44,6 +45,7 @@ jobs:
           set -e
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
           if ! git rev-parse --verify "${TARGET_BASE}" >/dev/null 2>&1; then
             git checkout --orphan "${TARGET_BASE}"
             git commit --allow-empty -m "Initialize base branch ${TARGET_BASE}"
@@ -51,11 +53,12 @@ jobs:
           fi
 
       - name: Prepare feature branch in target repository
+        id: prep_branch
         working-directory: target_repo
         run: |
           set -e
           BRANCH="${BRANCH_PREFIX}-${GITHUB_SHA::7}"
-          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
           git checkout -B "$BRANCH"
 
       - name: Copy repository contents into target repository (with output filter)
@@ -72,24 +75,26 @@ jobs:
             ./ target_repo/
 
       - name: Commit and push changes
+        id: commit_push
         working-directory: target_repo
         run: |
           git add -A
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
           if git diff --cached --quiet; then
-            echo "NO_CHANGES=true" >> $GITHUB_ENV
+            echo "no_changes=true" >> $GITHUB_OUTPUT
             echo "No changes to commit."
           else
             git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
-            git push -u origin "$BRANCH"
+            git push -u origin "${{ steps.prep_branch.outputs.branch }}"
           fi
 
       - name: Create pull request in target repository
-        if: env.NO_CHANGES != 'true'
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.TARGET_REPO_TOKEN }}
           path: target_repo
-          branch: ${{ env.BRANCH }}
+          branch: ${{ steps.prep_branch.outputs.branch }}
           base: ${{ env.TARGET_BASE }}
           title: "KoCEM: Sync ${TARGET_PATH_IN_REPO}"
           body: |
