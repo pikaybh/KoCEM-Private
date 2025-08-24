@@ -75,6 +75,16 @@ jobs:
             --filter '- /output/**' \
             ./ target_repo/
 
+      - name: Show diff summary (pre-commit)
+        id: diffstat
+        working-directory: target_repo
+        run: |
+          echo "Changed files (git status --porcelain):"
+          git status --porcelain || true
+          COUNT=$(git status --porcelain | wc -l)
+          echo "changed_count=$COUNT" >> $GITHUB_OUTPUT
+          echo "### Files to sync: $COUNT" >> $GITHUB_STEP_SUMMARY
+
       - name: Commit and push changes
         id: commit_push
         working-directory: target_repo
