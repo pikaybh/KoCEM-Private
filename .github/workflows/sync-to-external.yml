@@ -21,19 +21,39 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v4
 
-      - name: Checkout target repository
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ secrets.TARGET_REPO }}
-          token: ${{ secrets.TARGET_REPO_TOKEN }}
-          fetch-depth: 0
-          path: target_repo
+      - name: Initialize target repository (supports empty repos)
+        run: |
+          set -e
+          REPO="${{ vars.TARGET_REPO }}"
+          if [ -z "$REPO" ]; then REPO="${{ secrets.TARGET_REPO }}"; fi
+          mkdir -p target_repo
+          cd target_repo
+          git init
+          git remote add origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          # Try to fetch base; if missing, we'll create it later
+          if git ls-remote --exit-code --heads origin "${TARGET_BASE}" >/dev/null 2>&1; then
+            git fetch origin "${TARGET_BASE}:${TARGET_BASE}"
+            git checkout "${TARGET_BASE}"
+          else
+            echo "Base branch ${TARGET_BASE} not found; will create an empty base later."
+          fi
 
-      - name: Prepare branch in target repository
+      - name: Ensure base branch exists (create empty if needed)
         working-directory: target_repo
         run: |
+          set -e
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
+          if ! git rev-parse --verify "${TARGET_BASE}" >/dev/null 2>&1; then
+            git checkout --orphan "${TARGET_BASE}"
+            git commit --allow-empty -m "Initialize base branch ${TARGET_BASE}"
+            git push -u origin "${TARGET_BASE}"
+          fi
+
+      - name: Prepare feature branch in target repository
+        working-directory: target_repo
+        run: |
+          set -e
           BRANCH="${BRANCH_PREFIX}-${GITHUB_SHA::7}"
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
           git checkout -B "$BRANCH"
