@@ -66,6 +66,7 @@ jobs:
           rsync -a --delete \
             --exclude 'target_repo' \
             --exclude '.git' \
+            --exclude '.github/workflows/**' \
             --filter '+ /output/' \
             --filter '+ /output/mcqa/' \
             --filter '+ /output/mcqa/en/' \
