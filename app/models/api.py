@@ -132,68 +132,68 @@ class APIBase:
             HumanMessage(content=content)
         ]
     
-    def _load_dataset(self, subset: str, split: str):
-        """Load a dataset split with safe fallbacks to handle empty/invalid splits.
-    
-        Order of attempts:
-        1) Normal cached load
-        2) Force redownload with verification disabled
-        3) Streaming mode (no schema casting)
-        """
-    
-        try:
-            try:
-                return load_dataset(
-                    path=DS_PATH, 
-                    name=subset, 
-                    split=split, 
-                    cache_dir=DS_CACHE_PATH,
-                    verification_mode="no_checks",
-                    features=call_features(subset),
-                )
-            except TypeError:
-                # Older datasets versions don't support verification_mode
-                return load_dataset(
-                    path=DS_PATH, 
-                    name=subset, 
-                    split=split, 
-                    cache_dir=DS_CACHE_PATH,
-                    ignore_verifications=True,
-                    features=call_features(subset)
-                )
-        except Exception as e:
-            logger.error(f"Failed to load dataset {DS_PATH} for subset {subset} and split {split}: {e}")
-            try:
-                logger.info("Retrying with force_redownload and no_checks...")
-                try:
-                    return load_dataset(
-                        path=DS_PATH,
-                        name=subset,
-                        split=split,
-                        cache_dir=DS_CACHE_PATH,
-                        download_mode="force_redownload",
-                        verification_mode="no_checks",
-                        features=call_features(subset)
-                    )
-                except TypeError:
-                    return load_dataset(
-                        path=DS_PATH,
-                        name=subset,
-                        split=split,
-                        cache_dir=DS_CACHE_PATH,
-                        download_mode="force_redownload",
-                        ignore_verifications=True,
-                        features=call_features(subset)
-                    )
-            except Exception as e2:
-                logger.warning(f"Retrying with streaming mode due to persistent load errors: {e2}")
-                return load_dataset(
-                    path=DS_PATH,
-                    name=subset,
-                    split=split,
-                    streaming=True,
-                    features=call_features(subset)
-                )
+    # def _load_dataset(self, subset: str, split: str):
+    #     """Load a dataset split with safe fallbacks to handle empty/invalid splits.
+    # 
+    #     Order of attempts:
+    #     1) Normal cached load
+    #     2) Force redownload with verification disabled
+    #     3) Streaming mode (no schema casting)
+    #     """
+    # 
+    #     try:
+    #         try:
+    #             return load_dataset(
+    #                 path=DS_PATH, 
+    #                 name=subset, 
+    #                 split=split, 
+    #                 cache_dir=DS_CACHE_PATH,
+    #                 verification_mode="no_checks",
+    #                 features=call_features(subset),
+    #             )
+    #         except TypeError:
+    #             # Older datasets versions don't support verification_mode
+    #             return load_dataset(
+    #                 path=DS_PATH, 
+    #                 name=subset, 
+    #                 split=split, 
+    #                 cache_dir=DS_CACHE_PATH,
+    #                 ignore_verifications=True,
+    #                 features=call_features(subset)
+    #             )
+    #     except Exception as e:
+    #         logger.error(f"Failed to load dataset {DS_PATH} for subset {subset} and split {split}: {e}")
+    #         try:
+    #             logger.info("Retrying with force_redownload and no_checks...")
+    #             try:
+    #                 return load_dataset(
+    #                     path=DS_PATH,
+    #                     name=subset,
+    #                     split=split,
+    #                     cache_dir=DS_CACHE_PATH,
+    #                     download_mode="force_redownload",
+    #                     verification_mode="no_checks",
+    #                     features=call_features(subset)
+    #                 )
+    #             except TypeError:
+    #                 return load_dataset(
+    #                     path=DS_PATH,
+    #                     name=subset,
+    #                     split=split,
+    #                     cache_dir=DS_CACHE_PATH,
+    #                     download_mode="force_redownload",
+    #                     ignore_verifications=True,
+    #                     features=call_features(subset)
+    #                 )
+    #         except Exception as e2:
+    #             logger.warning(f"Retrying with streaming mode due to persistent load errors: {e2}")
+    #             return load_dataset(
+    #                 path=DS_PATH,
+    #                 name=subset,
+    #                 split=split,
+    #                 streaming=True,
+    #                 features=call_features(subset)
+    #             )
 
     def _parse_response(self, handler: dict) -> dict:
         """
@@ -240,15 +240,30 @@ class APIBase:
         # Load dataset split
         self.subset = subset
         self.split = split
-        dataset = self._load_dataset(subset, split)
-        # dataset = load_dataset(
-        #     path=DS_PATH, 
-        #     name=subset, 
-        #     split=split, 
-        #     cache_dir=DS_CACHE_PATH,
-        #     verification_mode="no_checks",
-        #     features=call_features(subset),
-        # )
+
+        # Prepare output directory and save results
+        output_dir = os.path.join(OUTPUT_PATH, self.prompt_name, self.locale, self.model_id.split('/')[-1], split, subset)
+        os.makedirs(output_dir, exist_ok=True)
+        output_file = os.path.join(output_dir, "output.json")
+        result_file = os.path.join(output_dir, "result.json")
+        evaluatation_file = os.path.join(output_dir, "evaluation.json")
+        if not override and os.path.exists(result_file) and os.path.exists(evaluatation_file):
+            logger.info(f"Skipping {subset} - {split} as result files already exist and override is False.")
+            return {
+                "evaluation": evaluatation_file, 
+                "output": output_file, 
+                "result": result_file
+            }
+
+        # dataset = self._load_dataset(subset, split)
+        dataset = load_dataset(
+            path=DS_PATH, 
+            name=subset, 
+            split=split, 
+            cache_dir=DS_CACHE_PATH,
+            verification_mode="no_checks",
+            features=call_features(subset),
+        )
 
         results = []
         for sample in tqdm(dataset, desc=f"Processing: {subset}/{split}"):
@@ -265,7 +280,7 @@ class APIBase:
                 max_retries=max_retries, 
                 max_timeout=max_timeout
             )
-            answer = getattr(response, "content", str(response)).strip()
+            answer = str(getattr(response, "content", str(response))).strip()
             logger.debug(f"Model response: {answer}")
 
             handler['model_answer'] = answer
@@ -273,13 +288,6 @@ class APIBase:
             handler["full_response"] = getattr(response, 'dict', lambda: str(response))()
             
             results.append(handler)
-
-        # Prepare output directory and save results
-        output_dir = os.path.join(OUTPUT_PATH, self.prompt_name, self.locale, self.model_id.split('/')[-1], split, subset)
-        os.makedirs(output_dir, exist_ok=True)
-        output_file = os.path.join(output_dir, "output.json")
-        result_file = os.path.join(output_dir, "result.json")
-        evaluatation_file = os.path.join(output_dir, "evaluation.json")
 
         logger.debug(f"Saving temporal results to {output_file}")
         save_json(output_file, results)

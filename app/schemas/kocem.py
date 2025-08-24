@@ -7,6 +7,13 @@ from pydantic import BaseModel, Field
 DifficultyType = Literal["Easy", "Medium", "Hard"]
 SplitType = Literal["dev", "extra", "test", "val"]
 LocaleType = Literal["en", "ko", "zh", "ja", "es", "fr", "de", "it", "pt", "ru"]
+DimensionType = Literal[
+    "Drawing Interpretation",
+    "Expert-level Reasoning",
+    "Domain-specific Terminology",
+    "Domain-specific Knowledge",
+    "Exper-level Comprehension"
+]
 
 
 
@@ -16,6 +23,7 @@ class Subject(BaseModel):
     """
     abbreviation: str = Field(..., description="Abbreviation of the subject")
     description: str = Field(..., description="Description of the subject")
+    dimension: DimensionType = Field(..., description="Dimension of the subject")
     split: Dict[SplitType, int | None] = Field(..., description="List of splits the subject belongs to")
     locale: List[LocaleType] = Field(..., description="Locale of the subject")
     has_difficulty: bool = Field(False, description="Indicates if the subject has difficulty levels")
@@ -27,6 +35,7 @@ class KoCEM(BaseModel):
     Architectural_Planning: ClassVar[Subject] = Subject(
         abbreviation="ap",
         description="Architectural Planning",
+        dimension="Domain-specific Knowledge",
         split={"dev": 3, "test": 461, "val": 41}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -34,6 +43,7 @@ class KoCEM(BaseModel):
     Building_System: ClassVar[Subject] = Subject(
         abbreviation="bs",
         description="Building System",
+        dimension="Domain-specific Knowledge",
         split={"dev": 5, "test": 367, "val": 49}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -41,6 +51,7 @@ class KoCEM(BaseModel):
     Comprehensive_Understanding: ClassVar[Subject] = Subject(
         abbreviation="cu",
         description="Comprehensive Understanding",
+        dimension="Exper-level Comprehension",
         split={"dev": 3, "test": 161, "val": 157}, 
         locale=["en", "ko"],
         has_difficulty=False
@@ -48,6 +59,7 @@ class KoCEM(BaseModel):
     Construction_Management: ClassVar[Subject] = Subject(
         abbreviation="cm",
         description="Construction Management",
+        dimension="Domain-specific Knowledge",
         split={"dev": 5, "test": 488, "val": 34}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -55,6 +67,7 @@ class KoCEM(BaseModel):
     Domain_Reasoning: ClassVar[Subject] = Subject(
         abbreviation="dr",
         description="Domain Reasoning",
+        dimension="Expert-level Reasoning",
         split={"dev": 3, "test": 255, "val": 10}, 
         locale=["en", "ko"],
         has_difficulty=False
@@ -62,6 +75,7 @@ class KoCEM(BaseModel):
     Drawing_Interpretation: ClassVar[Subject] = Subject(
         abbreviation="di",
         description="Drawing Interpretation",
+        dimension="Drawing Interpretation",
         split={"dev": 3, "test": 122, "val": 9}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -69,12 +83,14 @@ class KoCEM(BaseModel):
     Industry_Jargon: ClassVar[Subject] = Subject(
         abbreviation="ij",
         description="Industry Jargon",
+        dimension="Domain-specific Terminology",
         split={"dev": None, "test": None, "val": None}, 
         locale=["en", "ko"]
     )
     Interior: ClassVar[Subject] = Subject(
         abbreviation="int",
         description="Interior",
+        dimension="Domain-specific Knowledge",
         split={"dev": 6, "test": 357, "val": 46}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -82,6 +98,7 @@ class KoCEM(BaseModel):
     Materials: ClassVar[Subject] = Subject(
         abbreviation="mat",
         description="Materials",
+        dimension="Domain-specific Knowledge",
         split={"dev": 8, "test": 407, "val": 43}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -89,6 +106,7 @@ class KoCEM(BaseModel):
     Safety_Management: ClassVar[Subject] = Subject(
         abbreviation="sm",
         description="Safety Management",
+        dimension="Domain-specific Knowledge",
         split={"dev": 4, "test": 376, "val": 41}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -96,6 +114,7 @@ class KoCEM(BaseModel):
     Standard_Nomenclature: ClassVar[Subject] = Subject(
         abbreviation="sn",
         description="Standard Nomenclature",
+        dimension="Domain-specific Terminology",
         split={"dev": 5, "test": 450, "val": 45}, 
         locale=["en", "ko"],
         has_difficulty=False
@@ -103,6 +122,7 @@ class KoCEM(BaseModel):
     Structural_Engineering: ClassVar[Subject] = Subject(
         abbreviation="se",
         description="Structural Engineering",
+        dimension="Domain-specific Knowledge",
         split={"dev": 2, "test": 342, "val": 34}, 
         locale=["en", "ko"],
         has_difficulty=True
@@ -255,7 +275,8 @@ STANDARD_NOMENCLATURE_FEATURES = datasets.Features({
 })
 
 __all__ = [
-    'DifficultyType', 
+    'DifficultyType',
+    'DimensionType', 
     'LocaleType', 
     'SplitType', 
     'Subject', 

@@ -1,0 +1,317 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an appropriate method for zoning in air conditioning planning?",
+        "options": {
+            "A": "Classify according to the purpose of each room.",
+            "B": "Classify according to the usage time of each room.",
+            "C": "Create internal zones for each floor.",
+            "D": "Create external zones according to orientation."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Create internal zones for each floor."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the options for zoning methods in air conditioning planning:\n\n(A) Classifying by room purpose - This is appropriate as different rooms (offices, conference rooms, server rooms) have different cooling requirements.\n\n(B) Classifying by usage time - This is appropriate as rooms used at different times can be controlled separately for energy efficiency.\n\n(C) Creating internal zones for each floor - This seems problematic. Internal zones typically refer to core areas away from the building perimeter that have relatively stable cooling loads. Creating separate internal zones for EACH floor would be unnecessary and inefficient, as internal zones generally have similar characteristics across floors and can often be served by common systems.\n\n(D) Creating external zones by orientation - This is appropriate as perimeter zones face different solar heat gains based on their orientation (north, south, east, west).\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at the options for zoning methods in air conditioning planning:\n\n(A) Classifying by room purpose - This is appropriate as different rooms (offices, conference rooms, server rooms) have different cooling requirements.\n\n(B) Classifying by usage time - This is appropriate as rooms used at different times can be controlled separately for energy efficiency.\n\n(C) Creating internal zones for each floor - This seems problematic. Internal zones typically refer to core areas away from the building perimeter that have relatively stable cooling loads. Creating separate internal zones for EACH floor would be unnecessary and inefficient, as internal zones generally have similar characteristics across floors and can often be served by common systems.\n\n(D) Creating external zones by orientation - This is appropriate as perimeter zones face different solar heat gains based on their orientation (north, south, east, west).\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_015gJvxk8m2jUVbtQvLk6W6U",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 87,
+                    "output_tokens": 188,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b1c5c054-6eaa-4650-b689-500349efd8d8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 188,
+                "total_tokens": 275,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?",
+        "options": {
+            "A": "20 minutes",
+            "B": "30 minutes",
+            "C": "40 minutes",
+            "D": "50 minutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20 minutes"
+            },
+            "explanation": "The indoor firefighting water supply should last 20 minutes, because this is the average time it takes for the fire department to arrive at the scene."
+        },
+        "image_path": null,
+        "model_answer": "According to fire safety standards for indoor fire hydrant systems with pressurized water tank-type booster pumps, the system must maintain the required water discharge and pressure for a minimum duration to ensure adequate fire suppression capability.\n\nThe standard minimum duration for maintaining required water discharge and pressure in such systems is 30 minutes. This timeframe is established to provide sufficient water supply for initial firefighting operations until additional water sources or fire department connections can be utilized.\n\nThe answer is (B).",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "According to fire safety standards for indoor fire hydrant systems with pressurized water tank-type booster pumps, the system must maintain the required water discharge and pressure for a minimum duration to ensure adequate fire suppression capability.\n\nThe standard minimum duration for maintaining required water discharge and pressure in such systems is 30 minutes. This timeframe is established to provide sufficient water supply for initial firefighting operations until additional water sources or fire department connections can be utilized.\n\nThe answer is (B).",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01X2fJUe191CdsaHSTKqn7W2",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 97,
+                    "output_tokens": 104,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--eba9a636-e29c-42dd-9118-9c56ed5d2540-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 97,
+                "output_tokens": 104,
+                "total_tokens": 201,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "When the local resistance coefficient of a rectangular cross-section 4-sided elbow is 0.5 and the wind speed is 6 m/s, what is the local resistance at this elbow? (Assume the air density is 1.2 kg/m3.)",
+        "options": {
+            "A": "10.1Pa",
+            "B": "10.2Pa",
+            "C": "10.8Pa",
+            "D": "10.6Pa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10.8Pa"
+            },
+            "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa"
+        },
+        "image_path": null,
+        "model_answer": "To find the local resistance (pressure loss) at the elbow, I need to use the formula for local pressure loss:\n\nΔP = ζ × (ρ × v²)/2\n\nWhere:\n- ΔP = local pressure loss (Pa)\n- ζ = local resistance coefficient = 0.5\n- ρ = air density = 1.2 kg/m³\n- v = wind speed = 6 m/s\n\nCalculating:\nΔP = 0.5 × (1.2 × 6²)/2\nΔP = 0.5 × (1.2 × 36)/2\nΔP = 0.5 × 43.2/2\nΔP = 0.5 × 21.6\nΔP = 10.8 Pa\n\nThe answer is (C) 10.8Pa.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "To find the local resistance (pressure loss) at the elbow, I need to use the formula for local pressure loss:\n\nΔP = ζ × (ρ × v²)/2\n\nWhere:\n- ΔP = local pressure loss (Pa)\n- ζ = local resistance coefficient = 0.5\n- ρ = air density = 1.2 kg/m³\n- v = wind speed = 6 m/s\n\nCalculating:\nΔP = 0.5 × (1.2 × 6²)/2\nΔP = 0.5 × (1.2 × 36)/2\nΔP = 0.5 × 43.2/2\nΔP = 0.5 × 21.6\nΔP = 10.8 Pa\n\nThe answer is (C) 10.8Pa.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01UNKbSE3QrMKr5ZUBQgYB4v",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 117,
+                    "output_tokens": 216,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9fb08605-1e23-4fb1-a9da-b2fc2c5b4ed4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 117,
+                "output_tokens": 216,
+                "total_tokens": 333,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is classified as a digital method in building automation control systems?",
+        "options": {
+            "A": "Electrical method",
+            "B": "Pneumatic method",
+            "C": "Magnetic method",
+            "D": "DDC method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "DDC method"
+            },
+            "explanation": "DDC stands for Direct Digital Control, which is a common type of automation control system."
+        },
+        "image_path": null,
+        "model_answer": "The correct answer is **(D) DDC method**.\n\nDDC stands for Direct Digital Control, which is a digital method used in building automation control systems. It uses microprocessor-based controllers and digital signals to monitor and control building systems.\n\nThe other options are analog/traditional control methods:\n- Electrical method uses analog electrical signals\n- Pneumatic method uses compressed air\n- Magnetic method uses magnetic fields\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The correct answer is **(D) DDC method**.\n\nDDC stands for Direct Digital Control, which is a digital method used in building automation control systems. It uses microprocessor-based controllers and digital signals to monitor and control building systems.\n\nThe other options are analog/traditional control methods:\n- Electrical method uses analog electrical signals\n- Pneumatic method uses compressed air\n- Magnetic method uses magnetic fields\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_015Rc9cP5LDxFzo83CLjQJjm",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 64,
+                    "output_tokens": 100,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f8e69b2a-4686-4cd0-ba40-098b7140ef58-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 64,
+                "output_tokens": 100,
+                "total_tokens": 164,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "In an autotransformer, if the number of turns in the primary winding is 100 and the number of turns in the common coil (secondary coil) is 60, what is the secondary voltage? (Assume the primary voltage is 100[V].)",
+        "options": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "60[V]"
+            },
+            "explanation": "Voltage (V) is proportional to the number of turns. In an autotransformer, the relationship between primary and secondary voltage, number of turns, and current is: V1/N1 = V2/N2 = I2/I1."
+        },
+        "image_path": null,
+        "model_answer": "In an autotransformer, we need to understand the winding configuration. The autotransformer has a single winding where part of it is common to both primary and secondary circuits.\n\nGiven:\n- Primary winding has 100 turns total\n- Common coil (secondary) has 60 turns\n- Primary voltage = 100 V\n\nIn an autotransformer, if we have:\n- Total primary turns (N₁) = 100\n- Secondary turns (N₂) = 60\n\nThe voltage relationship in an autotransformer is:\nV₂/V₁ = N₂/N₁\n\nTherefore:\nV₂ = V₁ × (N₂/N₁)\nV₂ = 100 × (60/100)\nV₂ = 60 V\n\nThe answer is **(B) 60[V]**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "In an autotransformer, we need to understand the winding configuration. The autotransformer has a single winding where part of it is common to both primary and secondary circuits.\n\nGiven:\n- Primary winding has 100 turns total\n- Common coil (secondary) has 60 turns\n- Primary voltage = 100 V\n\nIn an autotransformer, if we have:\n- Total primary turns (N₁) = 100\n- Secondary turns (N₂) = 60\n\nThe voltage relationship in an autotransformer is:\nV₂/V₁ = N₂/N₁\n\nTherefore:\nV₂ = V₁ × (N₂/N₁)\nV₂ = 100 × (60/100)\nV₂ = 60 V\n\nThe answer is **(B) 60[V]**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01UFenKbv2N45G5sdCsCiS4A",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 115,
+                    "output_tokens": 210,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--82e790cd-d922-4565-bb5c-758e91142e38-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 115,
+                "output_tokens": 210,
+                "total_tokens": 325,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

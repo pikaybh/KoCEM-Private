@@ -2,6 +2,7 @@ from fire import Fire
 
 from run_each import run_each
 from eval_difficulties import eval_difficulties
+from eval_total import evaluate_total
 from update_readme import update_readme
 
 
@@ -11,13 +12,16 @@ def run_sequentially(**kwargs):
     """
     run_each(**kwargs)
     eval_difficulties(**kwargs)
+    for split in ["dev", "val", "test"]:
+        evaluate_total(split=split, **kwargs)
     update_readme()
 
 
 if __name__ == '__main__':
     Fire({
-        "eval_difficulties": eval_difficulties,
-        "run_auto": run_sequentially,
-        "run_each": run_each,
-        "update": update_readme
+        "diff": eval_difficulties,
+        "per": evaluate_total,
+        "auto": run_sequentially,
+        "each": run_each,
+        "readme": update_readme
     })

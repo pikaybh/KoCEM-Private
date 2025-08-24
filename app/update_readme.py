@@ -15,11 +15,10 @@ Usage:
 
 from __future__ import annotations
 
-import json
-import os
-import sys
+import json, os
 from dataclasses import dataclass, field
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Literal, Optional, Tuple
+from schemas.kocem import KoCEM, Subject
 
 
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
@@ -28,6 +27,67 @@ OUTPUT_PATH = os.getenv("OUTPUT_PATH", os.path.join(REPO_ROOT, "output"))
 PROMPTS_DIR = os.path.join(REPO_ROOT, "prompts")
 
 KNOWN_LOCALES = {"en", "ko", "zh", "ja", "es", "fr", "de", "it", "pt", "ru"}
+
+# Static README template. The {LEADERBOARD} placeholder will be replaced with generated HTML tables.
+README_TEMPLATE = """# KoCEM: A Multimodal Knowledge and Reasoning Benchmark for Korean Construction Engineering & Management
+
+{LEADERBOARD}
+
+## Evaluation Guidelines
+This repo provides a simple CLI to run evaluation over KoCEM subjects, produce outputs, and update the README leaderboard.
+
+### Output layout
+Results are saved under `output/<prompt>/<locale>/<model>/<split>/<subject>/` as:
+
+```
+output/
+	<prompt>/            # e.g., mcqa (preferred) or test (fallback)
+		<locale>/          # e.g., en, ko
+			<model>/         # e.g., gpt-4.1
+				<split>/       # dev, test, val, extra
+					<subject>/   # e.g., Architectural_Planning
+						output.json        # per-sample entries with predictions and judges
+						evaluation.json    # per-sample judge details
+						result.json        # aggregated metrics (acc, std_dev, num_example, ...)
+```
+
+### Run inference
+Use the `run_each` command to generate predictions and metrics.
+
+```pwsh
+uv run python -m app run_each --model gpt-4.1 --locale en --subjects Architectural_Planning --splits dev --prompt test
+
+# Multiple subjects
+uv run python -m app run_each --model gpt-4.1 --locale en --subjects '["Architectural_Planning","Materials"]' --splits '["dev","val"]' --prompt test
+```
+
+### Evaluate difficulties (optional)
+If a subject provides difficulty labels, compute difficulty-wise metrics from saved outputs:
+
+```pwsh
+uv run python -m app eval_difficulties --model gpt-4.1 --prompt test --locale en
+```
+
+### Update README leaderboard
+Generate per-locale leaderboards and inject them into this README:
+
+```pwsh
+uv run python -m app.update_readme
+```
+
+The updater prefers `output/mcqa`; if absent, it falls back to `output/test`.
+
+### Prompts
+Prompts live under `prompts/<locale>/...`. Pick a prompt by name with `--prompt` (e.g., `test`, `mcqa`).
+
+### Configuration
+Set the following environment variables (via `.env` or shell) as needed:
+
+- `DS_PATH`: Hugging Face dataset path (e.g., `pikaybh/KoCEM`)
+- `DS_CACHE_PATH`: HF cache directory
+- `OUTPUT_PATH`: Root directory for outputs (defaults to `./output`)
+- Provider credentials (e.g., OpenAI) according to your model choice
+"""
 
 
 @dataclass
@@ -85,17 +145,29 @@ def load_result(path: str) -> Optional[Dict]:
 		return None
 
 
-def aggregate_per_locale(base_prompt_dir: str, locales: List[str]) -> Dict[str, Dict[str, ModelAgg]]:
-	"""Return mapping locale -> model -> ModelAgg with per-subject weighted accuracies.
+def _build_subject_to_dimension() -> Dict[str, str]:
+	"""Create mapping from subject folder name to its dimension using KoCEM schema."""
+	mapping: Dict[str, str] = {}
+	for name, val in KoCEM.__dict__.items():
+		if isinstance(val, Subject):
+			mapping[name] = val.dimension
+	return mapping
 
-	We combine all splits for a given (locale, model, subject) by weighting with num_example.
+
+def aggregate_per_locale_split_and_overall(base_prompt_dir: str, locales: List[str], eval_by: Literal["subject", "dimension"]) -> Tuple[Dict[str, Dict[str, Dict[str, ModelAgg]]], Dict[str, Dict[str, ModelAgg]]]:
+	"""Aggregate metrics into two views:
+	- per_split: locale -> split -> model -> ModelAgg
+	- overall:   locale -> model -> ModelAgg (all splits combined, weighted by num_example)
 	"""
-	results: Dict[str, Dict[str, ModelAgg]] = {}
+	per_split: Dict[str, Dict[str, Dict[str, ModelAgg]]] = {}
+	overall: Dict[str, Dict[str, ModelAgg]] = {}
+	subject_to_dimension = _build_subject_to_dimension() if eval_by == "dimension" else {}
+
 	for res_file in iter_result_files(base_prompt_dir):
 		parsed = parse_path_components(base_prompt_dir, res_file)
 		if not parsed:
 			continue
-		locale, model, _split, subject = parsed
+		locale, model, split, subject = parsed
 		if locale not in locales:
 			continue
 		data = load_result(res_file)
@@ -104,92 +176,90 @@ def aggregate_per_locale(base_prompt_dir: str, locales: List[str]) -> Dict[str, 
 		acc = float(data.get("acc", 0.0))
 		n = int(data.get("num_example", 0))
 
-		loc_bucket = results.setdefault(locale, {})
+		key = subject if eval_by == "subject" else subject_to_dimension.get(subject)
+		if not key:
+			continue
+
+		# overall aggregation
+		loc_bucket = overall.setdefault(locale, {})
 		mod_agg = loc_bucket.setdefault(model, ModelAgg(model=model, locale=locale))
-		subj_agg = mod_agg.subjects.setdefault(subject, SubjectAgg())
+		subj_agg = mod_agg.subjects.setdefault(key, SubjectAgg())
 		subj_agg.acc_sum += acc * n
 		subj_agg.n += n
 
-	return results
+		# per-split aggregation
+		split_bucket = per_split.setdefault(locale, {}).setdefault(split, {})
+		mod_agg_s = split_bucket.setdefault(model, ModelAgg(model=model, locale=locale))
+		subj_agg_s = mod_agg_s.subjects.setdefault(key, SubjectAgg())
+		subj_agg_s.acc_sum += acc * n
+		subj_agg_s.n += n
+
+	return per_split, overall
 
 
-def format_leaderboard_per_locale(agg: Dict[str, Dict[str, ModelAgg]]) -> str:
+def _format_table_for_locale(models: Dict[str, ModelAgg], title: str, label: str) -> List[str]:
+	out: List[str] = []
+	if not models:
+		return out
+	# Collect union of groups for this slice
+	subjects = sorted({s for m in models.values() for s in m.subjects.keys()})
+	out.append(f"### {title}\n\n")
+	if not subjects:
+		out.append("<p><em>No results found.</em></p>\n\n")
+		return out
+	ranked = sorted(models.values(), key=lambda m: m.overall_acc, reverse=True)
+	out.append("<table>\n<thead>\n<tr>")
+	out.append("<th>Rank</th><th>Model</th><th>Total</th>")
+	for s in subjects:
+		out.append(f"<th>{s}</th>")
+	out.append("</tr>\n</thead>\n<tbody>\n")
+	for i, m in enumerate(ranked, start=1):
+		out.append("<tr>")
+		out.append(f"<td>{i}</td><td>{m.model}</td>")
+		# overall weighted accuracy across groups (for this slice)
+		out.append(f"<td>{m.overall_acc*100:.2f}%</td>")
+		for subj in subjects:
+			sa = m.subjects.get(subj)
+			cell = f"{sa.acc*100:.2f}%" if sa and sa.n > 0 else "-"
+			out.append(f"<td>{cell}</td>")
+		out.append("</tr>\n")
+	out.append("</tbody>\n</table>\n\n")
+	return out
+
+
+def format_leaderboard_with_splits(per_split: Dict[str, Dict[str, Dict[str, ModelAgg]]], overall: Dict[str, Dict[str, ModelAgg]], eval_by: Literal["subject", "dimension"]) -> str:
 	out: List[str] = []
 	out.append("## Leaderboard\n\n")
-	out.append("<p>Per-locale rankings aggregated across splits. Columns show subject accuracies. Higher is better.</p>\n\n")
+	label = "subject" if eval_by == "subject" else "dimension"
+	out.append(f"<p>Per-locale rankings. First, per split tables; then an overall weighted table. Columns show {label} accuracies. Higher is better.</p>\n\n")
 
-	for locale in sorted(agg.keys()):
-		models = agg[locale]
-		if not models:
-			continue
+	# Preferred split display order
+	split_order = ["dev", "test", "val", "extra"]
 
-		# Collect union of subjects for this locale
-		subjects = sorted({s for m in models.values() for s in m.subjects.keys()})
-		out.append(f"### Locale: {locale}\n\n")
-		if not subjects:
-			out.append("<p><em>No results found.</em></p>\n\n")
-			continue
-
-		# Rank by overall accuracy
-		ranked = sorted(models.values(), key=lambda m: m.overall_acc, reverse=True)
-
-		# Build HTML table
-		out.append("<table>\n<thead>\n<tr>")
-		out.append("<th>Rank</th><th>Model</th>")
-		for s in subjects:
-			out.append(f"<th>{s}</th>")
-		out.append("</tr>\n</thead>\n<tbody>\n")
-
-		for i, m in enumerate(ranked, start=1):
-			out.append("<tr>")
-			out.append(f"<td>{i}</td><td>{m.model}</td>")
-			for subj in subjects:
-				sa = m.subjects.get(subj)
-				cell = f"{sa.acc*100:.2f}%" if sa and sa.n > 0 else "-"
-				out.append(f"<td>{cell}</td>")
-			out.append("</tr>\n")
-
-		out.append("</tbody>\n</table>\n\n")
+	for locale in sorted(set(per_split.keys()) | set(overall.keys())):
+		out.append(f"## Locale: {locale}\n\n")
+		# per-split
+		splits = per_split.get(locale, {})
+		# Keep present splits; sort by preferred order then name
+		present = list(splits.keys())
+		present.sort(key=lambda s: (split_order.index(s) if s in split_order else len(split_order), s))
+		for split in present:
+			title = f"Locale: {locale} — Split: {split}"
+			out.extend(_format_table_for_locale(splits[split], title, label))
+		# overall
+		if locale in overall:
+			title = f"Locale: {locale} — All splits (weighted)"
+			out.extend(_format_table_for_locale(overall[locale], title, label))
 
 	return "".join(out)
-
-
 def replace_leaderboard_section(readme_text: str, new_section_md: str) -> str:
-	lines = readme_text.splitlines(keepends=True)
-	start_idx = None
-	end_idx = None
-
-	for idx, line in enumerate(lines):
-		if line.strip().lower().startswith("## leaderboard"):
-			start_idx = idx
-			break
-
-	if start_idx is None:
-		# No section yet; insert after title if present, else prepend
-		insert_at = 1 if lines and lines[0].startswith("# ") else 0
-		return "".join(lines[:insert_at] + ["\n", new_section_md, "\n"] + lines[insert_at:])
-
-	# find next '## ' level heading as end
-	for idx in range(start_idx + 1, len(lines)):
-		if lines[idx].startswith("## "):
-			end_idx = idx
-			break
-
-	if end_idx is None:
-		# Replace from start to end of file
-		return "".join(lines[:start_idx] + [new_section_md, "\n"])
-
-	return "".join(lines[:start_idx] + [new_section_md, "\n"] + lines[end_idx:])
+	# Deprecated: kept for backward compatibility; now we overwrite via template.
+	return new_section_md
 
 
 def ensure_project_header(readme_text: str) -> str:
 	"""If the header looks like another project's template, replace it with KoCEM header."""
-	lines = readme_text.splitlines(keepends=True)
-	if lines and lines[0].strip().startswith("# "):
-		# Always set to KoCEM title
-		lines[0] = "# KoCEM: A Multimodal Knowledge and Reasoning Benchmark for Korean Construction Engineering & Management\n"
-		return "".join(lines)
-	return "# KoCEM: A Multimodal Knowledge and Reasoning Benchmark for Korean Construction Engineering & Management\n\n" + readme_text
+	return readme_text
 
 
 def get_locales_from_prompts(prompts_dir: str) -> List[str]:
@@ -198,7 +268,7 @@ def get_locales_from_prompts(prompts_dir: str) -> List[str]:
 	return [d for d in os.listdir(prompts_dir) if os.path.isdir(os.path.join(prompts_dir, d))]
 
 
-def update_readme() -> int:
+def update_readme(eval_by: Literal["subject", "dimension"] = "subject") -> int:
 	if not os.path.isdir(OUTPUT_PATH):
 		print(f"No output directory found at {OUTPUT_PATH}")
 		return 1
@@ -219,24 +289,17 @@ def update_readme() -> int:
 		print("No locales found under prompts/.")
 		return 1
 
-	agg = aggregate_per_locale(base_prompt_dir, locales)
-	if not any(agg.values()):
+	per_split, overall = aggregate_per_locale_split_and_overall(base_prompt_dir, locales, eval_by)
+	if not (any(per_split.values()) or any(overall.values())):
 		print("No result.json files found for detected locales; nothing to update.")
 		return 1
 
-	leaderboard_md = format_leaderboard_per_locale(agg)
+	leaderboard_md = format_leaderboard_with_splits(per_split, overall, eval_by)
 
-	try:
-		with open(README_PATH, "r", encoding="utf-8") as f:
-			current = f.read()
-	except FileNotFoundError:
-		current = ""
-
-	current = ensure_project_header(current)
-	updated = replace_leaderboard_section(current, leaderboard_md)
-
+	# Build full README content from template and overwrite
+	readme_full = README_TEMPLATE.format(LEADERBOARD=leaderboard_md)
 	with open(README_PATH, "w", encoding="utf-8") as f:
-		f.write(updated)
+		f.write(readme_full)
 
 	print("README.md Leaderboard updated.")
 	return 0

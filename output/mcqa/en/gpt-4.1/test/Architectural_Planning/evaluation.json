@@ -1,0 +1,2307 @@
+{
+    "test_Architectural_Planning_596": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1996": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_422": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_196": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_746": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_857": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1610": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1189": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1000": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1344": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1680": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1576": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_2050": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_70": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1137": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_974": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1512": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_736": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1278": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_785": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_324": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1992": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_211": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1047": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1341": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1833": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1692": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_962": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1836": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_788": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_408": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_254": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1313": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_630": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1999": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_486": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_554": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1875": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1375": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_290": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_479": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_583": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_543": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1925": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1177": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_275": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_29": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1813": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_281": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_184": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1630": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_233": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1987": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1499": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1716": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_807": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_817": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_2036": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1849": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_67": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_128": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_544": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2063": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_51": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1094": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1945": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_607": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1374": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_299": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1921": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_231": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_367": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1785": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_307": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1519": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1739": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_495": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_973": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_111": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1765": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1307": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_251": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_298": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1411": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1043": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_120": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_792": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1708": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1340": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_109": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1879": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1783": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1287": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_2104": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_564": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_2107": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1944": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_482": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_420": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1898": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1927": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1084": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_100": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_938": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_997": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1393": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_979": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2106": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1552": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_56": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1292": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1760": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1329": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1131": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_552": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1402": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_949": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1454": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_686": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1718": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1978": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_429": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1593": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1916": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1116": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1406": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1645": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_485": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1068": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1791": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1160": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_530": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_427": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_368": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1652": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1933": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_519": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_668": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1036": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_247": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1356": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_670": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1361": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1803": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_707": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_240": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1004": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_480": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1914": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1994": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_321": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1896": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_869": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_124": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_494": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1120": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1121": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_829": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_350": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_416": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_65": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1622": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_514": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_634": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_2110": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1601": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_297": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1355": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1684": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1989": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1368": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1456": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1125": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_582": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_694": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_888": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_529": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1592": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_756": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_618": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1586": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1758": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_2029": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_2085": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_812": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1789": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1738": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1453": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1446": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1903": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1310": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1800": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_2112": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1251": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1891": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_210": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_571": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1770": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_445": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_905": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1405": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_605": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1503": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_782": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1600": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_220": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_135": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_99": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_926": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_354": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_450": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_458": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_674": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1804": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_873": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1767": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1459": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_13": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_585": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_719": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_581": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_259": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1461": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1940": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1285": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_764": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1524": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_383": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1064": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_342": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1838": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1401": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1337": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1146": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1364": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1523": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2040": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1210": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_942": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1919": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1420": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_952": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1878": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1955": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1054": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_121": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_332": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1959": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_306": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1029": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1259": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1705": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_115": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1908": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1873": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1103": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1825": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_409": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_939": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1530": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_693": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2044": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_636": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1403": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1744": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2092": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_743": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1832": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1073": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_316": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_527": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1009": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_650": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_678": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1537": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1962": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_879": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1869": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1584": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1766": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_2035": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1138": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_767": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1232": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_63": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1993": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_936": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1736": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1249": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1816": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1605": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_361": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_620": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1331": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_654": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_555": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1616": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_507": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1423": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_198": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_49": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_173": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_381": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_941": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1934": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_535": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1034": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_71": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_426": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1263": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2100": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_2013": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1466": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1637": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1795": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1022": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_387": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_256": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1769": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_483": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_382": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_921": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_20": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_478": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1078": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1432": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_619": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_2094": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1954": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1128": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1854": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1818": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1701": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1018": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1163": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_270": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_447": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1974": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_755": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1997": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1304": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_25": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1476": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_78": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_366": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1623": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_32": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_867": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_964": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1569": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1288": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_2003": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_163": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_203": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_845": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_865": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1748": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_305": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_925": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_787": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_2097": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_192": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_649": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1114": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_637": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_440": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_432": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1509": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_218": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_572": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_2080": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_351": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1809": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1448": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_838": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_508": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1599": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_721": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_59": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_411": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_561": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_438": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_433": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_73": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1493": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1106": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_162": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1606": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1609": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1571": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_538": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1010": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_889": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1618": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1559": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_464": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_45": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1085": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1404": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_294": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1627": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_76": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_205": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1557": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_715": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_414": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_590": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1531": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_436": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_471": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_532": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_393": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_930": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Architectural_Planning_994": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_30": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1198": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1660": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1619": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_759": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_976": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_809": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1525": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2039": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1717": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_744": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1052": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1723": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_344": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_44": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1480": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1922": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_168": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_588": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1641": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_352": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1558": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1455": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_534": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_261": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1023": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1258": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_2113": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1040": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_353": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_781": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_2051": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1492": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1351": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1969": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1320": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_300": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Architectural_Planning_1575": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_861": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_651": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1583": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1750": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1343": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Architectural_Planning_1502": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_453": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Architectural_Planning_1713": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Architectural_Planning_1447": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "model": "gpt-4.1",
+    "split": "dev",
+    "acc": 0.6842105263157895,
+    "std_dev": 0.4775669329409193,
+    "num_example": 19,
+    "by_dimension": {
+        "Domain-specific Knowledge": {
+            "acc": 0.8461538461538461,
+            "std_dev": 0.3755338080994054,
+            "num_example": 13
+        },
+        "Exper-level Comprehension": {
+            "acc": 0.6666666666666666,
+            "std_dev": 0.5773502691896257,
+            "num_example": 3
+        },
+        "Expert-level Reasoning": {
+            "acc": 0.0,
+            "std_dev": 0.0,
+            "num_example": 3
+        }
+    }
+}

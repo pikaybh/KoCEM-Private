@@ -1,0 +1,27 @@
+{
+    "dev_Building_System_3179": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Building_System_734": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "dev_Building_System_2267": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Building_System_3286": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "dev_Building_System_3460": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    }
+}

@@ -1,0 +1,77 @@
+name: Sync results to external repository
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+concurrency:
+  group: sync-external-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SRC_DIR: .
+      TARGET_PATH_IN_REPO: .
+      BRANCH_PREFIX: kocem-sync
+      TARGET_BASE: main
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+
+      - name: Checkout target repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.TARGET_REPO }}
+          token: ${{ secrets.TARGET_REPO_TOKEN }}
+          fetch-depth: 0
+          path: target_repo
+
+      - name: Prepare branch in target repository
+        working-directory: target_repo
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          BRANCH="${BRANCH_PREFIX}-${GITHUB_SHA::7}"
+          echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          git checkout -B "$BRANCH"
+
+      - name: Copy repository contents into target repository (with output filter)
+        run: |
+          rsync -a --delete \
+            --exclude 'target_repo' \
+            --exclude '.git' \
+            --filter '+ /output/' \
+            --filter '+ /output/mcqa/' \
+            --filter '+ /output/mcqa/en/' \
+            --filter '+ /output/mcqa/en/gpt-4.1/' \
+            --filter '+ /output/mcqa/en/gpt-4.1/val/**' \
+            --filter '- /output/**' \
+            ./ target_repo/
+
+      - name: Commit and push changes
+        working-directory: target_repo
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "NO_CHANGES=true" >> $GITHUB_ENV
+            echo "No changes to commit."
+          else
+            git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+            git push -u origin "$BRANCH"
+          fi
+
+      - name: Create pull request in target repository
+        if: env.NO_CHANGES != 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.TARGET_REPO_TOKEN }}
+          path: target_repo
+          branch: ${{ env.BRANCH }}
+          base: ${{ env.TARGET_BASE }}
+          title: "KoCEM: Sync ${TARGET_PATH_IN_REPO}"
+          body: |
+            This PR syncs `${{ env.TARGET_PATH_IN_REPO }}` from `${{ github.repository }}` at commit `${{ github.sha }}`.
+            Generated automatically by the `sync-to-external` workflow.

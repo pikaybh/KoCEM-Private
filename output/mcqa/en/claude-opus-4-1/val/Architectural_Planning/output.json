@@ -1,0 +1,2585 @@
+[
+    {
+        "id": "val_Architectural_Planning_289",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7300000190734863,
+        "question": "Which of the following is the most appropriate height for a kitchen countertop?",
+        "options": {
+            "A": "450mm",
+            "B": "600mm",
+            "C": "850mm",
+            "D": "1000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "850mm"
+            },
+            "explanation": "The height of a kitchen countertop is between 800 and 850mm."
+        },
+        "image_path": null,
+        "model_answer": "The standard height for a kitchen countertop is typically between 850mm and 900mm (approximately 34-36 inches). This height is ergonomically designed to be comfortable for most adults when standing and working at the counter.\n\nLooking at the options:\n- 450mm (about 18 inches) - Too low, would require bending over\n- 600mm (about 24 inches) - Still too low for comfortable standing work\n- 850mm (about 34 inches) - Standard countertop height\n- 1000mm (about 39 inches) - Too high for most people\n\nThe answer is **(C) 850mm**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "The standard height for a kitchen countertop is typically between 850mm and 900mm (approximately 34-36 inches). This height is ergonomically designed to be comfortable for most adults when standing and working at the counter.\n\nLooking at the options:\n- 450mm (about 18 inches) - Too low, would require bending over\n- 600mm (about 24 inches) - Still too low for comfortable standing work\n- 850mm (about 34 inches) - Standard countertop height\n- 1000mm (about 39 inches) - Too high for most people\n\nThe answer is **(C) 850mm**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01CHdCLiF2m27mpbPtZbRMyj",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 64,
+                    "output_tokens": 148,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d577f3f2-ea2a-4b79-87b7-960f6f7458f6-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 64,
+                "output_tokens": 148,
+                "total_tokens": 212,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1629",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is the most inappropriate in terms of floor height planning for an office building?",
+        "options": {
+            "A": "First floor height: 400cm",
+            "B": "Standard floor height: 360cm",
+            "C": "Top floor height: Same as standard floor",
+            "D": "First floor height (with mezzanine): 600cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Top floor height: Same as standard floor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at typical office building floor height standards:\n\n- **First floor**: Usually requires 4.0-5.0m height due to public/retail functions, lobbies, and higher traffic\n- **Standard floors**: Typically 3.6-4.0m to accommodate office spaces, ceiling systems, and MEP services\n- **Top floor**: Often needs extra height (4.0-4.5m+) for rooftop mechanical equipment, elevator overruns, and additional structural/MEP requirements\n- **First floor with mezzanine**: Generally needs 5.5-6.0m minimum to ensure adequate headroom on both levels\n\nEvaluating the options:\n- (A) 400cm for first floor - Appropriate\n- (B) 360cm for standard floor - Appropriate (though on the lower end)\n- (C) Top floor same as standard floor - **Inappropriate** (top floors typically need more height for mechanical equipment and overruns)\n- (D) 600cm for first floor with mezzanine - Appropriate\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at typical office building floor height standards:\n\n- **First floor**: Usually requires 4.0-5.0m height due to public/retail functions, lobbies, and higher traffic\n- **Standard floors**: Typically 3.6-4.0m to accommodate office spaces, ceiling systems, and MEP services\n- **Top floor**: Often needs extra height (4.0-4.5m+) for rooftop mechanical equipment, elevator overruns, and additional structural/MEP requirements\n- **First floor with mezzanine**: Generally needs 5.5-6.0m minimum to ensure adequate headroom on both levels\n\nEvaluating the options:\n- (A) 400cm for first floor - Appropriate\n- (B) 360cm for standard floor - Appropriate (though on the lower end)\n- (C) Top floor same as standard floor - **Inappropriate** (top floors typically need more height for mechanical equipment and overruns)\n- (D) 600cm for first floor with mezzanine - Appropriate\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_014U9R6X2dH1zDD4SJDeJ5Lx",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 89,
+                    "output_tokens": 244,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--25b4f7e3-6c9a-49ed-b625-4773f449b127-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 244,
+                "total_tokens": 333,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_998",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is the correct explanation for the method of indicating dimensions on a drawing?",
+        "options": {
+            "A": "Unless otherwise specified, dimensions are indicated as finished dimensions.",
+            "B": "Dimensions are entered to the left of the center of the dimension line.",
+            "C": "Dimensions are written parallel to the dimension line so they can be read from right to left or from top to bottom on the right side of the drawing.",
+            "D": "The ends of dimension lines can be mixed with arrows or dots, and on the same drawing, dimension lines that are small are indicated with dots."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Unless otherwise specified, dimensions are indicated as finished dimensions."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at standard technical drawing practices for dimensioning:\n\n(A) This is correct. In technical drawings, dimensions shown are typically finished dimensions (final dimensions after all manufacturing processes) unless specifically noted otherwise (like rough dimensions or stock sizes).\n\n(B) This is incorrect. Dimensions are typically centered above or within breaks in the dimension line, not specifically to the left of center.\n\n(C) This is incorrect. While dimensions are written parallel to dimension lines, they should be readable from the bottom or right side of the drawing (reading from left to right when viewing from the bottom, or bottom to top when viewing from the right side) - not \"right to left.\"\n\n(D) This is incorrect. While dots (or slashes) can be used instead of arrows for dimension line terminators in cramped spaces, mixing different types of terminators on the same drawing is poor practice and violates drafting standards. Consistency should be maintained.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at standard technical drawing practices for dimensioning:\n\n(A) This is correct. In technical drawings, dimensions shown are typically finished dimensions (final dimensions after all manufacturing processes) unless specifically noted otherwise (like rough dimensions or stock sizes).\n\n(B) This is incorrect. Dimensions are typically centered above or within breaks in the dimension line, not specifically to the left of center.\n\n(C) This is incorrect. While dimensions are written parallel to dimension lines, they should be readable from the bottom or right side of the drawing (reading from left to right when viewing from the bottom, or bottom to top when viewing from the right side) - not \"right to left.\"\n\n(D) This is incorrect. While dots (or slashes) can be used instead of arrows for dimension line terminators in cramped spaces, mixing different types of terminators on the same drawing is poor practice and violates drafting standards. Consistency should be maintained.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01LTCLM1TPpatSDn8nB3Law5",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 139,
+                    "output_tokens": 207,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--4a83fa84-2fb1-415d-babc-a75dd78d1e21-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 139,
+                "output_tokens": 207,
+                "total_tokens": 346,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_237",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following is not classified as an individual hot water supply system?",
+        "options": {
+            "A": "Instantaneous type",
+            "B": "Storage type",
+            "C": "Direct heating type",
+            "D": "Steam-water mixing type"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Direct heating type"
+            },
+            "explanation": "Steam heating: This is a method where water is heated to produce steam, which is then sent through pipes to radiators installed in each room. The heat of vaporization of the steam is used for heating. Advantages: 1. Steam has a high heat transport capacity due to its latent heat of vaporization. 2. It has a shorter preheating time and faster circulation compared to hot water heating. 3. The heating surface area can be smaller than that of hot water heating. 4. Installation and maintenance costs are low. Disadvantages: 1. The comfort level of heating is low. 2. It is difficult to adjust the heat output according to changes in heating load. 3. Noise can occur, and boiler handling skills are required. Hot water supply systems: Individual systems include the instantaneous type, storage type, and steam-water mixing type. Central systems include direct heating and indirect heating types."
+        },
+        "image_path": null,
+        "model_answer": "Looking at the options for hot water supply systems:\n\n- **Instantaneous type**: Heats water on demand as it flows through the unit (individual system)\n- **Storage type**: Stores heated water in a tank for later use (individual system)  \n- **Direct heating type**: Heats water directly using gas, electricity, or other heat sources (individual system)\n- **Steam-water mixing type**: Mixes steam with cold water to produce hot water - typically used in large-scale central systems for multiple buildings or large facilities, not for individual units\n\nSteam-water mixing systems require a steam generation plant and distribution network, making them unsuitable for individual/single-unit applications. They are classified as central or district heating systems.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at the options for hot water supply systems:\n\n- **Instantaneous type**: Heats water on demand as it flows through the unit (individual system)\n- **Storage type**: Stores heated water in a tank for later use (individual system)  \n- **Direct heating type**: Heats water directly using gas, electricity, or other heat sources (individual system)\n- **Steam-water mixing type**: Mixes steam with cold water to produce hot water - typically used in large-scale central systems for multiple buildings or large facilities, not for individual units\n\nSteam-water mixing systems require a steam generation plant and distribution network, making them unsuitable for individual/single-unit applications. They are classified as central or district heating systems.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_018oooWEFenk8rPe2RiGBfq8",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 64,
+                    "output_tokens": 169,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--df245627-1a5b-41e6-bba8-2e33fa9f4748-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 64,
+                "output_tokens": 169,
+                "total_tokens": 233,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1151",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8899999856948853,
+        "question": "Which of the following is NOT correct regarding the planning of store flooring?",
+        "options": {
+            "A": "It should be free from slipperiness or irregularities.",
+            "B": "Flooring materials that minimize noise should be used.",
+            "C": "The layout should allow customers to be naturally guided from outside.",
+            "D": "Vivid colors should be used regardless of the merchandise or display fixtures."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Vivid colors should be used regardless of the merchandise or display fixtures."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The correct answer is (D).\n\nOption D states that \"Vivid colors should be used regardless of the merchandise or display fixtures,\" which is NOT correct regarding store flooring planning. \n\nGood store flooring design should:\n- Consider the type of merchandise and overall store aesthetic\n- Complement rather than clash with display fixtures\n- Be chosen based on the store's brand identity and target market\n- Create harmony with the overall design scheme\n\nUsing vivid colors \"regardless\" of other store elements would be poor planning. The flooring color and design should be carefully coordinated with the merchandise type, display fixtures, and overall store concept.\n\nOptions A, B, and C all represent correct principles for store flooring planning:\n- (A) Safety through non-slip, even surfaces is essential\n- (B) Noise reduction improves the shopping experience\n- (C) Good flow and natural customer guidance is important for retail design\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The correct answer is (D).\n\nOption D states that \"Vivid colors should be used regardless of the merchandise or display fixtures,\" which is NOT correct regarding store flooring planning. \n\nGood store flooring design should:\n- Consider the type of merchandise and overall store aesthetic\n- Complement rather than clash with display fixtures\n- Be chosen based on the store's brand identity and target market\n- Create harmony with the overall design scheme\n\nUsing vivid colors \"regardless\" of other store elements would be poor planning. The flooring color and design should be carefully coordinated with the merchandise type, display fixtures, and overall store concept.\n\nOptions A, B, and C all represent correct principles for store flooring planning:\n- (A) Safety through non-slip, even surfaces is essential\n- (B) Noise reduction improves the shopping experience\n- (C) Good flow and natural customer guidance is important for retail design\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01Mj5apRz79KBBAcXVMDMGtD",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 102,
+                    "output_tokens": 206,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--dd7abd6a-f14d-482b-b9b6-03f032a2651f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 102,
+                "output_tokens": 206,
+                "total_tokens": 308,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1362",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following statements about school management methods is NOT correct?",
+        "options": {
+            "A": "The Comprehensive Classroom Type (Type A) is a management method recommended for lower grades in elementary school.",
+            "B": "In the Subject Classroom Type (Type V), classrooms with a high degree of subject specialization are assigned for each subject.",
+            "C": "In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities.",
+            "D": "The General Classroom · Special Classroom Type (Types U · V) is the most widely used method in Korean middle and high schools."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities."
+            },
+            "explanation": "Option 3 actually describes the Dalton Plan."
+        },
+        "image_path": null,
+        "model_answer": "Looking at the statements about school management methods:\n\n(A) The Comprehensive Classroom Type (Type A) where students stay in one classroom for most subjects is indeed commonly recommended for lower elementary grades, as it provides stability and continuity for younger students.\n\n(B) The Subject Classroom Type (Type V) does involve specialized classrooms for each subject where students move between rooms - this is a standard description of this system.\n\n(C) The Plato Type (Type P) - This statement claims it eliminates grades and classes with students choosing subjects by ability. However, the Platoon System (Type P) traditionally refers to a dual organization where students alternate between homerooms for core subjects and specialized rooms for special subjects. It does NOT eliminate grades and classes entirely.\n\n(D) The combination of general classrooms and special classrooms (Types U and V) is indeed the predominant model in Korean secondary schools, where students have homerooms but move to specialized rooms for certain subjects.\n\nStatement (C) incorrectly describes the Platoon/Plato Type system.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at the statements about school management methods:\n\n(A) The Comprehensive Classroom Type (Type A) where students stay in one classroom for most subjects is indeed commonly recommended for lower elementary grades, as it provides stability and continuity for younger students.\n\n(B) The Subject Classroom Type (Type V) does involve specialized classrooms for each subject where students move between rooms - this is a standard description of this system.\n\n(C) The Plato Type (Type P) - This statement claims it eliminates grades and classes with students choosing subjects by ability. However, the Platoon System (Type P) traditionally refers to a dual organization where students alternate between homerooms for core subjects and specialized rooms for special subjects. It does NOT eliminate grades and classes entirely.\n\n(D) The combination of general classrooms and special classrooms (Types U and V) is indeed the predominant model in Korean secondary schools, where students have homerooms but move to specialized rooms for certain subjects.\n\nStatement (C) incorrectly describes the Platoon/Plato Type system.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_018EV8uXQ5XrFtmdqjjUF1cn",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 150,
+                    "output_tokens": 237,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0e4733ae-5586-4110-857f-94abb414fceb-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 150,
+                "output_tokens": 237,
+                "total_tokens": 387,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_2088",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.2800000011920929,
+        "question": "Which of the following is the least relevant as a checkpoint for natural and artificial lighting in factory construction?",
+        "options": {
+            "A": "Proper illumination level",
+            "B": "Illumination distribution",
+            "C": "Presence of refraction",
+            "D": "Presence of glare"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Presence of refraction"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "When evaluating lighting checkpoints in factory construction, we need to consider which factors most directly impact worker safety, productivity, and visual comfort.\n\nLet me analyze each option:\n\n(A) **Proper illumination level** - This is crucial as it ensures workers have sufficient light to perform tasks safely and efficiently. Different tasks require different lux levels.\n\n(B) **Illumination distribution** - This is essential to avoid dark spots and ensure uniform lighting across work areas, preventing eye strain and accidents.\n\n(C) **Presence of refraction** - While refraction is an optical phenomenon that occurs when light passes through different media, it's not typically a primary concern in factory lighting design. Light refraction doesn't significantly impact visibility or safety in typical factory settings.\n\n(D) **Presence of glare** - This is critical as glare can cause visual discomfort, reduce visibility, increase error rates, and pose safety hazards, especially when operating machinery.\n\nRefraction is more relevant in specialized optical applications rather than general factory lighting considerations. The other three options directly affect worker performance and safety.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "When evaluating lighting checkpoints in factory construction, we need to consider which factors most directly impact worker safety, productivity, and visual comfort.\n\nLet me analyze each option:\n\n(A) **Proper illumination level** - This is crucial as it ensures workers have sufficient light to perform tasks safely and efficiently. Different tasks require different lux levels.\n\n(B) **Illumination distribution** - This is essential to avoid dark spots and ensure uniform lighting across work areas, preventing eye strain and accidents.\n\n(C) **Presence of refraction** - While refraction is an optical phenomenon that occurs when light passes through different media, it's not typically a primary concern in factory lighting design. Light refraction doesn't significantly impact visibility or safety in typical factory settings.\n\n(D) **Presence of glare** - This is critical as glare can cause visual discomfort, reduce visibility, increase error rates, and pose safety hazards, especially when operating machinery.\n\nRefraction is more relevant in specialized optical applications rather than general factory lighting considerations. The other three options directly affect worker performance and safety.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01BkekSmxMjUJB2jqUNQKMb6",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 74,
+                    "output_tokens": 243,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c37b773f-af7e-4324-906b-338b7747a10e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 74,
+                "output_tokens": 243,
+                "total_tokens": 317,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_613",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following statements about hot-water heating is correct?",
+        "options": {
+            "A": "The preheating time is shorter than that of steam heating.",
+            "B": "It requires less radiator surface area and piping than steam heating.",
+            "C": "There is no risk of freezing if the heating is stopped in cold weather.",
+            "D": "Since it uses sensible heat for heating, it is more comfortable than steam heating."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Since it uses sensible heat for heating, it is more comfortable than steam heating."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Let me analyze each statement about hot-water heating systems:\n\n(A) The preheating time is shorter than that of steam heating.\n- This is incorrect. Hot-water heating systems typically have longer preheating times than steam heating because water has a large thermal mass that needs to be heated up, while steam systems can distribute heat more quickly once steam is generated.\n\n(B) It requires less radiator surface area and piping than steam heating.\n- This is incorrect. Hot-water heating actually requires larger radiator surface areas than steam heating because the temperature difference between the heating medium and room air is smaller (hot water is typically 140-180°F while steam is at 212°F or higher).\n\n(C) There is no risk of freezing if the heating is stopped in cold weather.\n- This is incorrect. Hot-water heating systems are definitely at risk of freezing if stopped in cold weather, as they contain water throughout the system.\n\n(D) Since it uses sensible heat for heating, it is more comfortable than steam heating.\n- This is correct. Hot-water heating uses sensible heat (temperature change of water) rather than latent heat (phase change in steam systems). This provides more even, consistent heating without the temperature fluctuations common in steam systems, making it more comfortable.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Let me analyze each statement about hot-water heating systems:\n\n(A) The preheating time is shorter than that of steam heating.\n- This is incorrect. Hot-water heating systems typically have longer preheating times than steam heating because water has a large thermal mass that needs to be heated up, while steam systems can distribute heat more quickly once steam is generated.\n\n(B) It requires less radiator surface area and piping than steam heating.\n- This is incorrect. Hot-water heating actually requires larger radiator surface areas than steam heating because the temperature difference between the heating medium and room air is smaller (hot water is typically 140-180°F while steam is at 212°F or higher).\n\n(C) There is no risk of freezing if the heating is stopped in cold weather.\n- This is incorrect. Hot-water heating systems are definitely at risk of freezing if stopped in cold weather, as they contain water throughout the system.\n\n(D) Since it uses sensible heat for heating, it is more comfortable than steam heating.\n- This is correct. Hot-water heating uses sensible heat (temperature change of water) rather than latent heat (phase change in steam systems). This provides more even, consistent heating without the temperature fluctuations common in steam systems, making it more comfortable.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01F6P4rLMXkXZxqFhmZSvefe",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 108,
+                    "output_tokens": 290,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b745017e-f8a0-42bc-b10b-a07d9cbfa512-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 108,
+                "output_tokens": 290,
+                "total_tokens": 398,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1090",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3700000047683716,
+        "question": "You have 20 kg of aggregate. How many kilograms or more must pass through a 5 mm standard sieve by weight ratio to be considered as sand?",
+        "options": {
+            "A": "10 kg",
+            "B": "12 kg",
+            "C": "15 kg",
+            "D": "17 kg"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "17 kg"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "To determine if an aggregate is classified as sand, we need to know the standard criteria for sand classification based on particle size distribution.\n\nAccording to standard aggregate classification:\n- Sand is typically defined as material where the majority passes through a 5mm sieve\n- For an aggregate to be classified as sand, generally at least 85% by weight must pass through a 5mm sieve\n\nCalculating 85% of 20 kg:\n0.85 × 20 kg = 17 kg\n\nTherefore, at least 17 kg must pass through the 5mm sieve for the aggregate to be considered as sand.\n\nThe answer is **(D) 17 kg**",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "To determine if an aggregate is classified as sand, we need to know the standard criteria for sand classification based on particle size distribution.\n\nAccording to standard aggregate classification:\n- Sand is typically defined as material where the majority passes through a 5mm sieve\n- For an aggregate to be classified as sand, generally at least 85% by weight must pass through a 5mm sieve\n\nCalculating 85% of 20 kg:\n0.85 × 20 kg = 17 kg\n\nTherefore, at least 17 kg must pass through the 5mm sieve for the aggregate to be considered as sand.\n\nThe answer is **(D) 17 kg**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01C4nJRZWaHoudYEaRf4yqyg",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 87,
+                    "output_tokens": 150,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--22220b06-a7f3-4fca-b4f2-b533775b0ab9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 150,
+                "total_tokens": 237,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1239",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "In the LDK type among the unit floor plan types of apartment housing, what does the 'D' stand for?",
+        "options": {
+            "A": "Living room",
+            "B": "Kitchen",
+            "C": "Dining room",
+            "D": "Bedroom"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Dining room"
+            },
+            "explanation": "LDK stands for Living room, Dining room, and Kitchen."
+        },
+        "image_path": null,
+        "model_answer": "In the LDK notation for Japanese apartment floor plans, 'D' stands for Dining room.\n\nThe answer is (C).",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "In the LDK notation for Japanese apartment floor plans, 'D' stands for Dining room.\n\nThe answer is (C).",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_015fv83h6fAVBc8V6oyshxNM",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 69,
+                    "output_tokens": 32,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--aeccfe6a-4472-4a04-90b1-9613a6a956e5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 69,
+                "output_tokens": 32,
+                "total_tokens": 101,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1089",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "What is the appropriate thickness for the concrete footing (footing) AB shown in the drawing?",
+        "options": {
+            "A": "20cm",
+            "B": "15cm",
+            "C": "10cm",
+            "D": "5cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20cm"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20010429/jj20010429m55.gif?1622013050",
+        "model_answer": "Looking at the drawing, I can see a concrete footing detail with ground level (G.L.) indicated and a dimension marking of \"10\" at the top.\n\nThe footing appears to be a standard residential or light commercial foundation detail. The dimension \"10\" at the top of the drawing indicates the thickness of the horizontal footing portion.\n\nBased on the scale and proportions shown in the drawing, and considering standard construction practices for concrete footings, the dimension appears to be in centimeters.\n\nThe answer is **(C) 10cm**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at the drawing, I can see a concrete footing detail with ground level (G.L.) indicated and a dimension marking of \"10\" at the top.\n\nThe footing appears to be a standard residential or light commercial foundation detail. The dimension \"10\" at the top of the drawing indicates the thickness of the horizontal footing portion.\n\nBased on the scale and proportions shown in the drawing, and considering standard construction practices for concrete footings, the dimension appears to be in centimeters.\n\nThe answer is **(C) 10cm**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01NAnbSFs6V7fMS8rPpsiTYE",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 124,
+                    "output_tokens": 119,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6ae9de92-0872-4e1f-bf52-7b49b5668372-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 124,
+                "output_tokens": 119,
+                "total_tokens": 243,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_69",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is not included in the design documents required for a building permit application?",
+        "options": {
+            "A": "Site plan",
+            "B": "Floor plan",
+            "C": "Perspective drawing",
+            "D": "Building plan document"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Perspective drawing"
+            },
+            "explanation": "A perspective drawing is a diagram used for reference during construction or for explaining to the building owner."
+        },
+        "image_path": null,
+        "model_answer": "Looking at typical building permit application requirements:\n\n- **Site plan** (A) - Shows the building's location on the property, setbacks, utilities, and site features. This is a standard requirement.\n\n- **Floor plan** (B) - Shows the layout of each floor with dimensions, room designations, and structural elements. This is essential for permit review.\n\n- **Building plan document** (D) - This represents the technical construction documents showing structural, electrical, plumbing, and other building systems. These are core requirements.\n\n- **Perspective drawing** (C) - This is a three-dimensional artistic rendering showing what the building will look like. While helpful for visualization and sometimes used for design review boards or client presentations, perspective drawings are typically NOT required for building permit applications, which focus on technical and safety compliance rather than aesthetic presentation.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at typical building permit application requirements:\n\n- **Site plan** (A) - Shows the building's location on the property, setbacks, utilities, and site features. This is a standard requirement.\n\n- **Floor plan** (B) - Shows the layout of each floor with dimensions, room designations, and structural elements. This is essential for permit review.\n\n- **Building plan document** (D) - This represents the technical construction documents showing structural, electrical, plumbing, and other building systems. These are core requirements.\n\n- **Perspective drawing** (C) - This is a three-dimensional artistic rendering showing what the building will look like. While helpful for visualization and sometimes used for design review boards or client presentations, perspective drawings are typically NOT required for building permit applications, which focus on technical and safety compliance rather than aesthetic presentation.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_013tQkGKs5sr3xHYKDYU3i7S",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 63,
+                    "output_tokens": 189,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--dba5e515-5f69-4e47-80fe-bf7d39d0b760-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 63,
+                "output_tokens": 189,
+                "total_tokens": 252,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_579",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following is least related to the cause of trap seal loss?",
+        "options": {
+            "A": "Capillary action",
+            "B": "Evaporation",
+            "C": "Induced siphonage",
+            "D": "Indirect drainage"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Indirect drainage"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "To determine which option is least related to trap seal loss, I need to consider the common causes of trap seal failure in plumbing systems.\n\nCommon causes of trap seal loss include:\n\n1. **Evaporation** - Water in the trap evaporates over time, especially in fixtures that aren't used frequently\n2. **Induced siphonage** - Negative pressure from other fixtures or vents can suck water out of the trap\n3. **Self-siphonage** - The fixture's own discharge creates enough velocity to siphon its trap\n4. **Capillary action** - Can occur with strings, rags, or other materials wicking water out of the trap\n5. **Back pressure** - Positive pressure can blow water out of traps\n\nNow examining the option **\"Indirect drainage\"**:\n- Indirect drainage refers to a method where fixtures discharge into a receptor through an air gap rather than being directly connected to the drainage system\n- This is a drainage configuration/design method, not a mechanism that causes trap seal loss\n- It's actually designed to prevent contamination and backflow\n\nWhile capillary action, evaporation, and induced siphonage are all recognized mechanisms that directly cause water to be removed from a trap seal, indirect drainage is a plumbing design concept rather than a cause of trap seal failure.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "To determine which option is least related to trap seal loss, I need to consider the common causes of trap seal failure in plumbing systems.\n\nCommon causes of trap seal loss include:\n\n1. **Evaporation** - Water in the trap evaporates over time, especially in fixtures that aren't used frequently\n2. **Induced siphonage** - Negative pressure from other fixtures or vents can suck water out of the trap\n3. **Self-siphonage** - The fixture's own discharge creates enough velocity to siphon its trap\n4. **Capillary action** - Can occur with strings, rags, or other materials wicking water out of the trap\n5. **Back pressure** - Positive pressure can blow water out of traps\n\nNow examining the option **\"Indirect drainage\"**:\n- Indirect drainage refers to a method where fixtures discharge into a receptor through an air gap rather than being directly connected to the drainage system\n- This is a drainage configuration/design method, not a mechanism that causes trap seal loss\n- It's actually designed to prevent contamination and backflow\n\nWhile capillary action, evaporation, and induced siphonage are all recognized mechanisms that directly cause water to be removed from a trap seal, indirect drainage is a plumbing design concept rather than a cause of trap seal failure.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01KH2AvuYT5puh9arbudmKDY",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 68,
+                    "output_tokens": 304,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cf9c5367-4659-4c3c-8777-3cac2461aa72-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 68,
+                "output_tokens": 304,
+                "total_tokens": 372,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_611",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7200000286102295,
+        "question": "Which of the following statements about unit space planning in housing is NOT correct?",
+        "options": {
+            "A": "A rectangular living room shape is generally more advantageous than a square shape for furniture arrangement and space utilization.",
+            "B": "For convenience, the dining room should basically be located close to the kitchen.",
+            "C": "To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan.",
+            "D": "It is recommended that bedrooms be situated away from sources of noise and face open spaces such as gardens."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about unit space planning in housing:\n\n(A) A rectangular living room shape is generally more advantageous than a square shape for furniture arrangement and space utilization.\n- This is correct. Rectangular rooms provide better wall space for furniture placement, create natural traffic flow patterns, and allow for distinct functional zones.\n\n(B) For convenience, the dining room should basically be located close to the kitchen.\n- This is correct. Proximity between dining and kitchen areas facilitates food service and reduces travel distance when serving meals.\n\n(C) To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan.\n- This is NOT correct. Placing the living room far from the entrance or at the center would actually increase circulation space and create more passageways through the home. Living rooms are typically best positioned near the entrance to minimize unnecessary circulation paths.\n\n(D) It is recommended that bedrooms be situated away from sources of noise and face open spaces such as gardens.\n- This is correct. This arrangement provides privacy, quiet, and pleasant views for sleeping areas.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each statement about unit space planning in housing:\n\n(A) A rectangular living room shape is generally more advantageous than a square shape for furniture arrangement and space utilization.\n- This is correct. Rectangular rooms provide better wall space for furniture placement, create natural traffic flow patterns, and allow for distinct functional zones.\n\n(B) For convenience, the dining room should basically be located close to the kitchen.\n- This is correct. Proximity between dining and kitchen areas facilitates food service and reduces travel distance when serving meals.\n\n(C) To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan.\n- This is NOT correct. Placing the living room far from the entrance or at the center would actually increase circulation space and create more passageways through the home. Living rooms are typically best positioned near the entrance to minimize unnecessary circulation paths.\n\n(D) It is recommended that bedrooms be situated away from sources of noise and face open spaces such as gardens.\n- This is correct. This arrangement provides privacy, quiet, and pleasant views for sleeping areas.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01TxwdNoeonbWuHwR2ptiZvM",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 142,
+                    "output_tokens": 256,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5c6b375b-71d8-4bed-951c-813b148e4779-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 142,
+                "output_tokens": 256,
+                "total_tokens": 398,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1659",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8899999856948853,
+        "question": "Which school operation method has the following characteristics?",
+        "options": {
+            "A": "Comprehensive classroom type",
+            "B": "Subject-specific classroom type",
+            "C": "Platoon type",
+            "D": "Dalton type"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Comprehensive classroom type"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110320/bt20110320m5.gif?1526080845",
+        "model_answer": "Looking at the characteristics listed in the Korean text:\n\n- 초등학교 저학년에 대해 가장 권장할 만한 형이다 (Most recommended type for lower elementary grades)\n- 교실의 수는 학급수와 일치한다 (Number of classrooms matches the number of classes)\n- 각 학급은 소스로의 교실 활동을 모든 교과를 창단한다 (Each class conducts all subjects in their own classroom)\n\nThese characteristics describe a system where:\n1. It's suitable for young elementary students\n2. Each class has its own dedicated classroom\n3. All subjects are taught in the same classroom\n\nThis describes the **Comprehensive classroom type** (종합교실형), where students stay in one classroom and teachers come to them for different subjects, rather than students moving between specialized classrooms.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the characteristics listed in the Korean text:\n\n- 초등학교 저학년에 대해 가장 권장할 만한 형이다 (Most recommended type for lower elementary grades)\n- 교실의 수는 학급수와 일치한다 (Number of classrooms matches the number of classes)\n- 각 학급은 소스로의 교실 활동을 모든 교과를 창단한다 (Each class conducts all subjects in their own classroom)\n\nThese characteristics describe a system where:\n1. It's suitable for young elementary students\n2. Each class has its own dedicated classroom\n3. All subjects are taught in the same classroom\n\nThis describes the **Comprehensive classroom type** (종합교실형), where students stay in one classroom and teachers come to them for different subjects, rather than students moving between specialized classrooms.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01VdnnQiVhB8CVs9LBPapppd",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 108,
+                    "output_tokens": 217,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cba991be-df9e-41d9-a5b7-ea87d6abea00-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 108,
+                "output_tokens": 217,
+                "total_tokens": 325,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_212",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5799999833106995,
+        "question": "What is the minimum effective width required for a corridor jointly used by two or more households in an apartment building? (In the case of a side corridor)",
+        "options": {
+            "A": "90cm",
+            "B": "120cm",
+            "C": "150cm",
+            "D": "180cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "120cm"
+            },
+            "explanation": "The width of the corridor in an apartment building must be at least 1.2m, and corridors with living rooms on both sides must be at least 1.8m wide."
+        },
+        "image_path": null,
+        "model_answer": "Looking at this question about corridor width requirements in apartment buildings, specifically for a side corridor (single-loaded corridor) used by multiple households:\n\nFor multi-family residential buildings, corridors that serve as common circulation paths for multiple units must meet certain minimum width requirements for safety and accessibility.\n\nA side corridor (single-loaded corridor with units on only one side) typically requires less width than a double-loaded corridor since there's less traffic and no opposing unit doors.\n\nStandard building codes generally require:\n- Single-loaded/side corridors: 120cm (4 feet) minimum\n- Double-loaded corridors: 150-180cm minimum\n\n90cm would be too narrow for a shared corridor serving multiple units, as it wouldn't safely accommodate two people passing or emergency evacuation.\n\nThe answer is **(B) 120cm**",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at this question about corridor width requirements in apartment buildings, specifically for a side corridor (single-loaded corridor) used by multiple households:\n\nFor multi-family residential buildings, corridors that serve as common circulation paths for multiple units must meet certain minimum width requirements for safety and accessibility.\n\nA side corridor (single-loaded corridor with units on only one side) typically requires less width than a double-loaded corridor since there's less traffic and no opposing unit doors.\n\nStandard building codes generally require:\n- Single-loaded/side corridors: 120cm (4 feet) minimum\n- Double-loaded corridors: 150-180cm minimum\n\n90cm would be too narrow for a shared corridor serving multiple units, as it wouldn't safely accommodate two people passing or emergency evacuation.\n\nThe answer is **(B) 120cm**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01PVT6qpuQ46HB7aFDkeVXN4",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 78,
+                    "output_tokens": 179,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5b719fa5-c985-4665-9e8d-a17dedce5344-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 179,
+                "total_tokens": 257,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_374",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8700000047683716,
+        "question": "Which of the following statements about interior color planning is incorrect?",
+        "options": {
+            "A": "Clearly select the main color.",
+            "B": "Use as many colors as possible.",
+            "C": "Take into account the location, brightness, and lighting of each room.",
+            "D": "Be mindful of the feeling of expansion or contraction depending on the expansiveness or compactness of colors."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Use as many colors as possible."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The incorrect statement about interior color planning is **(B) Use as many colors as possible.**\n\nGood interior design typically follows the principle of restraint with color palettes. Using too many colors can create visual chaos and make a space feel overwhelming or disjointed. Professional designers usually recommend:\n- Selecting a limited, cohesive color palette\n- Following rules like the 60-30-10 principle (60% dominant color, 30% secondary, 10% accent)\n- Creating harmony through careful color selection rather than using many different colors\n\nThe other options are all correct principles of interior color planning.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "The incorrect statement about interior color planning is **(B) Use as many colors as possible.**\n\nGood interior design typically follows the principle of restraint with color palettes. Using too many colors can create visual chaos and make a space feel overwhelming or disjointed. Professional designers usually recommend:\n- Selecting a limited, cohesive color palette\n- Following rules like the 60-30-10 principle (60% dominant color, 30% secondary, 10% accent)\n- Creating harmony through careful color selection rather than using many different colors\n\nThe other options are all correct principles of interior color planning.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01CRqfY3jSc6LossyAWqVCM1",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 98,
+                    "output_tokens": 140,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--bc90fc73-03ef-4f90-9b2b-e65b94140328-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 98,
+                "output_tokens": 140,
+                "total_tokens": 238,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_617",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7699999809265137,
+        "question": "The following is the definition of a basement floor according to the Building Act. What is the correct content to fill in the blank ( )?",
+        "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/4",
+            "D": "1/5"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1/2"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20090118/jj20090118m60.gif?1348115407",
+        "model_answer": "Looking at this Building Act definition about basement floors, I need to identify what fraction should fill in the blank.\n\nThe text appears to be defining when a floor is considered a basement floor based on how much of it is below ground level. In typical building codes and regulations, a floor is generally considered a basement when a certain portion of its height is below the ground surface.\n\nBased on standard building code definitions used internationally and in various jurisdictions, a floor is typically classified as a basement when **1/2 (one-half)** or more of its height is below ground level.\n\nThis 1/2 threshold is the most common standard used to distinguish between a basement and a regular floor, as it represents the point where the majority of the floor's height is below grade.\n\nThe answer is **(A) 1/2**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at this Building Act definition about basement floors, I need to identify what fraction should fill in the blank.\n\nThe text appears to be defining when a floor is considered a basement floor based on how much of it is below ground level. In typical building codes and regulations, a floor is generally considered a basement when a certain portion of its height is below the ground surface.\n\nBased on standard building code definitions used internationally and in various jurisdictions, a floor is typically classified as a basement when **1/2 (one-half)** or more of its height is below ground level.\n\nThis 1/2 threshold is the most common standard used to distinguish between a basement and a regular floor, as it represents the point where the majority of the floor's height is below grade.\n\nThe answer is **(A) 1/2**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_015ZVUqBLqCdiG1FANNNVcKW",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 112,
+                    "output_tokens": 177,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5975a8f0-81f2-4291-ac23-82a21629d2ca-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 112,
+                "output_tokens": 177,
+                "total_tokens": 289,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_900",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which projection method is used when drawing architectural plans?",
+        "options": {
+            "A": "First-angle projection",
+            "B": "Second-angle projection",
+            "C": "Third-angle projection",
+            "D": "Fourth-angle projection"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Third-angle projection"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The correct answer is **(A) First-angle projection**.\n\nIn architectural drawings and plans, first-angle projection is the standard method used. This is the conventional practice in architecture where the plan view is placed above the elevation views, and the object is imagined to be positioned between the observer and the projection plane. This method is particularly common in European and many other countries' architectural practices.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The correct answer is **(A) First-angle projection**.\n\nIn architectural drawings and plans, first-angle projection is the standard method used. This is the conventional practice in architecture where the plan view is placed above the elevation views, and the object is imagined to be positioned between the observer and the projection plane. This method is particularly common in European and many other countries' architectural practices.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01Tox4NrX5LadA5MPUwCaGB9",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 61,
+                    "output_tokens": 92,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--99d6be79-a4a4-4b23-8fce-b26fbf707f3e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 61,
+                "output_tokens": 92,
+                "total_tokens": 153,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_96",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8700000047683716,
+        "question": "When residential spaces are divided into personal spaces, social spaces, and work spaces according to their main functions, which of the following is NOT considered a social space?",
+        "options": {
+            "A": "Living room",
+            "B": "Dining room",
+            "C": "Study",
+            "D": "Reception room"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Study"
+            },
+            "explanation": "Personal spaces include bathrooms, bedrooms, and studies. Work spaces include kitchens, laundry rooms, and utility rooms. Social spaces include living rooms, reception rooms, dining rooms, and terraces."
+        },
+        "image_path": null,
+        "model_answer": "When categorizing residential spaces by their main functions:\n\n- **Personal spaces** are private areas for individual use (bedrooms, bathrooms)\n- **Social spaces** are areas designed for gathering, entertaining, and social interaction (living room, dining room, reception room)\n- **Work spaces** are areas designated for work, productivity, and focused activities (study, home office)\n\nA study is primarily designed as a work space for reading, writing, and concentrated work activities, not for social gathering or entertainment.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "When categorizing residential spaces by their main functions:\n\n- **Personal spaces** are private areas for individual use (bedrooms, bathrooms)\n- **Social spaces** are areas designed for gathering, entertaining, and social interaction (living room, dining room, reception room)\n- **Work spaces** are areas designated for work, productivity, and focused activities (study, home office)\n\nA study is primarily designed as a work space for reading, writing, and concentrated work activities, not for social gathering or entertainment.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01JB2NhY3kqLdGSYjG8c62xB",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 75,
+                    "output_tokens": 118,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cfdc811a-22c4-4967-a99c-59505a2c1cae-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 75,
+                "output_tokens": 118,
+                "total_tokens": 193,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_188",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8199999928474426,
+        "question": "In the case of a building where the distinction between floors is unclear, at what building height is one floor counted?",
+        "options": {
+            "A": "3m",
+            "B": "5m",
+            "C": "4m",
+            "D": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at this question about building height calculations when floor distinctions are unclear, I need to identify the standard height used to count one floor in such cases.\n\nIn building codes and architectural standards, when floors cannot be clearly distinguished (such as in industrial buildings, warehouses, or structures with irregular floor heights), a standard height is typically used to determine the equivalent number of floors.\n\nThe most common standard used internationally for counting one floor when distinctions are unclear is 3 meters (approximately 10 feet), which represents a typical floor-to-floor height in commercial and residential buildings.\n\nThe answer is **(A) 3m**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at this question about building height calculations when floor distinctions are unclear, I need to identify the standard height used to count one floor in such cases.\n\nIn building codes and architectural standards, when floors cannot be clearly distinguished (such as in industrial buildings, warehouses, or structures with irregular floor heights), a standard height is typically used to determine the equivalent number of floors.\n\nThe most common standard used internationally for counting one floor when distinctions are unclear is 3 meters (approximately 10 feet), which represents a typical floor-to-floor height in commercial and residential buildings.\n\nThe answer is **(A) 3m**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01MkzdAgHps47L9kPw8f4dcL",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 70,
+                    "output_tokens": 135,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ae110237-3fa0-443f-ae50-8d8604395323-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 135,
+                "total_tokens": 205,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1381",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following statements about the spatial relationships in a core plan for office building architecture is NOT correct?",
+        "options": {
+            "A": "Elevators should be concentrated as much as possible in the center.",
+            "B": "Stairs and elevators should be placed as close together as possible.",
+            "C": "Each space within the core should be in the same position on every floor.",
+            "D": "Restrooms should be located where their position is not easily known to visitors."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Restrooms should be located where their position is not easily known to visitors."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about core plan spatial relationships:\n\n(A) Elevators concentrated in the center - This is a fundamental principle of core design, allowing equal access from all sides and maximizing usable perimeter space.\n\n(B) Stairs and elevators placed close together - This is standard practice for efficient vertical circulation, emergency egress coordination, and consolidated mechanical systems.\n\n(C) Same core position on every floor - This is essential for structural efficiency, consistent mechanical/plumbing runs, and user wayfinding.\n\n(D) Restrooms hidden from visitors - This contradicts basic architectural principles. Restrooms should be easily located and accessible, especially for visitors who are unfamiliar with the building. Good wayfinding and accessibility are fundamental requirements in building design.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at each statement about core plan spatial relationships:\n\n(A) Elevators concentrated in the center - This is a fundamental principle of core design, allowing equal access from all sides and maximizing usable perimeter space.\n\n(B) Stairs and elevators placed close together - This is standard practice for efficient vertical circulation, emergency egress coordination, and consolidated mechanical systems.\n\n(C) Same core position on every floor - This is essential for structural efficiency, consistent mechanical/plumbing runs, and user wayfinding.\n\n(D) Restrooms hidden from visitors - This contradicts basic architectural principles. Restrooms should be easily located and accessible, especially for visitors who are unfamiliar with the building. Good wayfinding and accessibility are fundamental requirements in building design.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_017dZGZUUVbfX3UJS5Q8sTWt",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 115,
+                    "output_tokens": 175,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0bc2bc78-8e58-4a72-9cfc-2c596e8c4e4e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 115,
+                "output_tokens": 175,
+                "total_tokens": 290,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1422",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8199999928474426,
+        "question": "Which of the following statements about terrace houses is NOT correct?",
+        "options": {
+            "A": "They are also called row houses.",
+            "B": "They cannot be planned on flat land.",
+            "C": "They can be classified as uphill or downhill types based on the road.",
+            "D": "Each unit can have an outdoor space using a terrace."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "They cannot be planned on flat land."
+            },
+            "explanation": "Artificial terrace houses are intentionally designed to make use of the advantages of terrace houses even on flat land."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about terrace houses:\n\n(A) \"They are also called row houses\" - This is correct. Terrace houses are indeed commonly referred to as row houses, townhouses, or terraced houses in different regions.\n\n(B) \"They cannot be planned on flat land\" - This statement appears incorrect. Terrace houses can absolutely be built on flat land. In fact, many traditional terrace/row houses in cities are built on flat terrain. While terrace houses can take advantage of sloped land, they are not restricted to slopes only.\n\n(C) \"They can be classified as uphill or downhill types based on the road\" - This is correct. When built on slopes, terrace houses can be categorized based on their orientation relative to the road.\n\n(D) \"Each unit can have an outdoor space using a terrace\" - This is correct. Terrace houses often feature outdoor terraces, balconies, or garden spaces for each unit.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at each statement about terrace houses:\n\n(A) \"They are also called row houses\" - This is correct. Terrace houses are indeed commonly referred to as row houses, townhouses, or terraced houses in different regions.\n\n(B) \"They cannot be planned on flat land\" - This statement appears incorrect. Terrace houses can absolutely be built on flat land. In fact, many traditional terrace/row houses in cities are built on flat terrain. While terrace houses can take advantage of sloped land, they are not restricted to slopes only.\n\n(C) \"They can be classified as uphill or downhill types based on the road\" - This is correct. When built on slopes, terrace houses can be categorized based on their orientation relative to the road.\n\n(D) \"Each unit can have an outdoor space using a terrace\" - This is correct. Terrace houses often feature outdoor terraces, balconies, or garden spaces for each unit.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01JKXUUEehSMGN6BxiNG7iC7",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 91,
+                    "output_tokens": 221,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ea47ac3b-87a8-41bf-bdf8-0b284bc94387-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 91,
+                "output_tokens": 221,
+                "total_tokens": 312,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1483",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.9200000166893005,
+        "question": "Which school management method best fits the following description?",
+        "options": {
+            "A": "Dalton Plan",
+            "B": "Platoon System",
+            "C": "Comprehensive Classroom System",
+            "D": "Subject-Specific Classroom System"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Comprehensive Classroom System"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140302/bt20140302m9.gif?1526247015",
+        "model_answer": "Looking at the Korean text, it describes a school management system where:\n- Elementary schools have fixed classrooms for each grade/class\n- Secondary schools have subject-specific classrooms where students move between rooms\n- Students move to different classrooms based on their course selections\n\nThis description matches the **Subject-Specific Classroom System** (교과교실제), where students move to specialized classrooms for different subjects rather than staying in one homeroom.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at the Korean text, it describes a school management system where:\n- Elementary schools have fixed classrooms for each grade/class\n- Secondary schools have subject-specific classrooms where students move between rooms\n- Students move to different classrooms based on their course selections\n\nThis description matches the **Subject-Specific Classroom System** (교과교실제), where students move to specialized classrooms for different subjects rather than staying in one homeroom.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01LCn9rUCw9iK2ije7JtHquN",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 112,
+                    "output_tokens": 106,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--46f1eb9a-77a4-445c-bc93-5f890a1a6deb-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 112,
+                "output_tokens": 106,
+                "total_tokens": 218,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_23",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is incorrectly matched with its architectural drawing symbol and meaning?",
+        "options": {
+            "A": "V – Volume",
+            "B": "Wt - Width",
+            "C": "ø - Diameter",
+            "D": "THK - Thickness"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Wt - Width"
+            },
+            "explanation": "Wt stands for Weight; W stands for Width. Option 3 (ø) is the symbol for diameter, specifically indicating the diameter of round rebar. D also represents diameter and indicates deformed rebar. So, in general, there are two symbols representing diameter."
+        },
+        "image_path": null,
+        "model_answer": "Looking at standard architectural drawing symbols and abbreviations:\n\n- V typically stands for \"Valve\" or \"Vent\" in architectural drawings, not \"Volume\"\n- Wt is not a standard abbreviation for \"Width\" (Width is typically abbreviated as \"W\")\n- ø is the correct symbol for \"Diameter\"\n- THK is the correct abbreviation for \"Thickness\"\n\nThe most clearly incorrect match is option (A), as \"V\" does not stand for \"Volume\" in architectural drawings.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at standard architectural drawing symbols and abbreviations:\n\n- V typically stands for \"Valve\" or \"Vent\" in architectural drawings, not \"Volume\"\n- Wt is not a standard abbreviation for \"Width\" (Width is typically abbreviated as \"W\")\n- ø is the correct symbol for \"Diameter\"\n- THK is the correct abbreviation for \"Thickness\"\n\nThe most clearly incorrect match is option (A), as \"V\" does not stand for \"Volume\" in architectural drawings.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01Thqm5M5XiVnPvru2KSrNCb",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 70,
+                    "output_tokens": 123,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6890f2aa-8c2d-4885-9792-29c272be6c91-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 123,
+                "total_tokens": 193,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_999",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8500000238418579,
+        "question": "In the projection method of the drawing, if direction A is the front view, what is the name of direction C?",
+        "options": {
+            "A": "Front view",
+            "B": "Left side view",
+            "C": "Right side view",
+            "D": "Rear view"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Left side view"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20020721/jj20020721m43.gif?1348010329",
+        "model_answer": "Looking at this orthographic projection diagram, I need to identify the relationship between the views.\n\nGiven that direction A is the front view, I can determine the other views based on standard orthographic projection conventions:\n\n- Direction A: Front view (given)\n- Direction B: Would be the top/plan view (perpendicular to front, looking down)\n- Direction C: Would be the right side view (perpendicular to front, looking from the right)\n- The arrows indicate the viewing directions for each projection\n\nIn standard orthographic projection, when the front view is established, the right side view is obtained by looking at the object from the right side, which corresponds to direction C in this diagram.\n\nThe answer is **(C) Right side view**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at this orthographic projection diagram, I need to identify the relationship between the views.\n\nGiven that direction A is the front view, I can determine the other views based on standard orthographic projection conventions:\n\n- Direction A: Front view (given)\n- Direction B: Would be the top/plan view (perpendicular to front, looking down)\n- Direction C: Would be the right side view (perpendicular to front, looking from the right)\n- The arrows indicate the viewing directions for each projection\n\nIn standard orthographic projection, when the front view is established, the right side view is obtained by looking at the object from the right side, which corresponds to direction C in this diagram.\n\nThe answer is **(C) Right side view**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01WxRnko1tQPPQaptFW3nVRf",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 93,
+                    "output_tokens": 162,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--43f71cf7-b0b8-41c7-8f49-7f7ad41ef430-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 93,
+                "output_tokens": 162,
+                "total_tokens": 255,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1811",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7300000190734863,
+        "question": "Which of the following statements about circulation planning in houses is incorrect?",
+        "options": {
+            "A": "Circulation requires space.",
+            "B": "The three elements of circulation are speed, frequency, and load.",
+            "C": "The three types of circulation—personal, social, and housework—should be separated so they do not interfere with each other.",
+            "D": "The circulation route for heavy housework should be placed to the north as much as possible and kept short."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The circulation route for heavy housework should be placed to the north as much as possible and kept short."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about circulation planning in houses:\n\n(A) Circulation requires space - This is correct. Hallways, stairs, and corridors all take up space in a house.\n\n(B) The three elements of circulation are speed, frequency, and load - This is correct. These are standard considerations in circulation planning.\n\n(C) The three types of circulation—personal, social, and housework—should be separated so they do not interfere with each other - This is correct. Good design typically separates different circulation types to avoid conflicts.\n\n(D) The circulation route for heavy housework should be placed to the north as much as possible and kept short - While keeping housework routes short is correct, the specification about placing them \"to the north as much as possible\" is arbitrary and incorrect. There's no architectural principle that requires housework circulation to be oriented to the north. The direction has no bearing on the efficiency of housework circulation.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at each statement about circulation planning in houses:\n\n(A) Circulation requires space - This is correct. Hallways, stairs, and corridors all take up space in a house.\n\n(B) The three elements of circulation are speed, frequency, and load - This is correct. These are standard considerations in circulation planning.\n\n(C) The three types of circulation—personal, social, and housework—should be separated so they do not interfere with each other - This is correct. Good design typically separates different circulation types to avoid conflicts.\n\n(D) The circulation route for heavy housework should be placed to the north as much as possible and kept short - While keeping housework routes short is correct, the specification about placing them \"to the north as much as possible\" is arbitrary and incorrect. There's no architectural principle that requires housework circulation to be oriented to the north. The direction has no bearing on the efficiency of housework circulation.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01Ay2xLZRNjdNwrDM58F3f3t",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 114,
+                    "output_tokens": 211,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--3835acb0-690d-4314-ac45-2d42c98d88ed-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 114,
+                "output_tokens": 211,
+                "total_tokens": 325,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1591",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6899999976158142,
+        "question": "Which of the following statements about roof types used in factory construction is NOT correct?",
+        "options": {
+            "A": "A sawtooth roof is suitable for lighting and ventilation.",
+            "B": "A pitched roof has the drawback of allowing a certain amount of direct sunlight.",
+            "C": "A roof with a shell structure has the advantage of requiring fewer columns.",
+            "D": "If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement:\n\n(A) A sawtooth roof is suitable for lighting and ventilation - This is correct. Sawtooth roofs are specifically designed with vertical glazing sections that provide excellent natural lighting and can incorporate ventilation openings.\n\n(B) A pitched roof has the drawback of allowing a certain amount of direct sunlight - This is correct. Pitched roofs with skylights or clerestory windows can indeed allow direct sunlight penetration, which can cause glare and uneven lighting.\n\n(C) A roof with a shell structure has the advantage of requiring fewer columns - This is correct. Shell structures distribute loads efficiently through their curved form, allowing for large column-free spans.\n\n(D) If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day - This is NOT correct. West-facing skylights would receive minimal light in the morning and intense, direct sunlight in the afternoon/evening, resulting in highly variable illumination levels throughout the day. For constant illumination, sawtooth roofs typically face north (in the Northern Hemisphere) to receive consistent, diffused light without direct sun exposure.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at each statement:\n\n(A) A sawtooth roof is suitable for lighting and ventilation - This is correct. Sawtooth roofs are specifically designed with vertical glazing sections that provide excellent natural lighting and can incorporate ventilation openings.\n\n(B) A pitched roof has the drawback of allowing a certain amount of direct sunlight - This is correct. Pitched roofs with skylights or clerestory windows can indeed allow direct sunlight penetration, which can cause glare and uneven lighting.\n\n(C) A roof with a shell structure has the advantage of requiring fewer columns - This is correct. Shell structures distribute loads efficiently through their curved form, allowing for large column-free spans.\n\n(D) If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day - This is NOT correct. West-facing skylights would receive minimal light in the morning and intense, direct sunlight in the afternoon/evening, resulting in highly variable illumination levels throughout the day. For constant illumination, sawtooth roofs typically face north (in the Northern Hemisphere) to receive consistent, diffused light without direct sun exposure.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_014bigLzskSpR6ehqZnWVa53",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 120,
+                    "output_tokens": 262,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a0813597-9c9e-4aa7-a080-d215ada64833-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 120,
+                "output_tokens": 262,
+                "total_tokens": 382,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1182",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "Which of the following statements about the pavilion type (Pavillion type) of factory construction is NOT correct?",
+        "options": {
+            "A": "It is disadvantageous in terms of ventilation and lighting.",
+            "B": "It is easy to install drainage systems and gutters.",
+            "C": "It is relatively easy to build new factories or expand existing ones.",
+            "D": "Each building can have a different construction style and structure."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It is disadvantageous in terms of ventilation and lighting."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the characteristics of pavilion-type factory construction, where multiple separate single-story buildings are spread across a site:\n\n- **Ventilation and lighting**: Pavilion-type factories actually have excellent natural ventilation and lighting because each building has its own walls and roof with multiple opportunities for windows and ventilation openings on all sides.\n\n- **Drainage and gutters**: With separate buildings, each requires its own drainage system and gutters, making installation more complex and costly compared to a single unified structure.\n\n- **Expansion flexibility**: Adding new buildings or expanding existing ones is straightforward since each building is independent.\n\n- **Construction variety**: Different buildings can indeed have different architectural styles and structural systems based on their specific functions.\n\nStatement (A) claims that pavilion-type construction is disadvantageous for ventilation and lighting, which is incorrect. This type of construction actually provides superior natural ventilation and lighting compared to other factory types.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the characteristics of pavilion-type factory construction, where multiple separate single-story buildings are spread across a site:\n\n- **Ventilation and lighting**: Pavilion-type factories actually have excellent natural ventilation and lighting because each building has its own walls and roof with multiple opportunities for windows and ventilation openings on all sides.\n\n- **Drainage and gutters**: With separate buildings, each requires its own drainage system and gutters, making installation more complex and costly compared to a single unified structure.\n\n- **Expansion flexibility**: Adding new buildings or expanding existing ones is straightforward since each building is independent.\n\n- **Construction variety**: Different buildings can indeed have different architectural styles and structural systems based on their specific functions.\n\nStatement (A) claims that pavilion-type construction is disadvantageous for ventilation and lighting, which is incorrect. This type of construction actually provides superior natural ventilation and lighting compared to other factory types.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01DFpiYdTHJ5EpUh3w2CpEc9",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 106,
+                    "output_tokens": 209,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--3891a05b-bd4b-4e3c-bf7e-71e3bf66eea2-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 106,
+                "output_tokens": 209,
+                "total_tokens": 315,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1977",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "Which of the following statements about the planning of each room in a house is NOT correct?",
+        "options": {
+            "A": "The entrance hall should be made as large as possible for the convenience of entry and receiving guests.",
+            "B": "For stairs, special attention should be given to the slope, width, railings, and finishing methods for safety, as well as to their design in terms of interior decoration.",
+            "C": "The living room has various complex functions for daily activities, so the plan should consider suitable furniture and ensure some degree of flexibility.",
+            "D": "The dining room and kitchen should be designed for efficiency and be organically connected to the outdoor workspace and garden."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The entrance hall should be made as large as possible for the convenience of entry and receiving guests."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about room planning:\n\n(A) States the entrance hall should be made \"as large as possible\" - This is problematic because while an entrance needs to be functional, making it \"as large as possible\" would waste valuable space that could be better utilized for living areas. Good design principles emphasize appropriate sizing, not maximum sizing.\n\n(B) Discusses important safety and design considerations for stairs - This is correct as stairs do require careful attention to slope, width, railings, finishing, and aesthetics.\n\n(C) Describes the living room's multiple functions and need for flexibility - This is correct as living rooms do serve various purposes and benefit from flexible design.\n\n(D) Mentions efficiency and connections between dining/kitchen and outdoor spaces - This is correct as these are standard considerations in kitchen and dining room planning.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at each statement about room planning:\n\n(A) States the entrance hall should be made \"as large as possible\" - This is problematic because while an entrance needs to be functional, making it \"as large as possible\" would waste valuable space that could be better utilized for living areas. Good design principles emphasize appropriate sizing, not maximum sizing.\n\n(B) Discusses important safety and design considerations for stairs - This is correct as stairs do require careful attention to slope, width, railings, finishing, and aesthetics.\n\n(C) Describes the living room's multiple functions and need for flexibility - This is correct as living rooms do serve various purposes and benefit from flexible design.\n\n(D) Mentions efficiency and connections between dining/kitchen and outdoor spaces - This is correct as these are standard considerations in kitchen and dining room planning.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01WVcePUSDTF6rwwcrsY7f7y",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 154,
+                    "output_tokens": 186,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--92402fd8-e9a9-4f17-8a9b-6517585079c8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 154,
+                "output_tokens": 186,
+                "total_tokens": 340,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_2023",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is NOT a consideration when arranging store fixtures in a retail building?",
+        "options": {
+            "A": "Ensure that merchandise is effectively displayed to customers.",
+            "B": "Make it easy to monitor the store without giving customers the impression that they are being watched.",
+            "C": "Facilitate efficient customer flow to accommodate many customers and allow management by a small number of staff.",
+            "D": "Arrange so that entering customers and staff make direct eye contact to foster a sense of familiarity."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Arrange so that entering customers and staff make direct eye contact to foster a sense of familiarity."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "When arranging store fixtures in a retail environment, the main considerations typically include:\n\n- Effective merchandise display (A) - This is essential for sales\n- Security and loss prevention through subtle monitoring (B) - This is a standard retail concern\n- Efficient customer flow and staff management (C) - This is crucial for operations\n\nOption (D) about arranging fixtures specifically to ensure direct eye contact between entering customers and staff to \"foster familiarity\" is not a standard consideration in retail fixture arrangement. While customer service and greeting are important, fixture placement is not typically designed around ensuring eye contact. This would be impractical and could actually impede other more important considerations like traffic flow and merchandise visibility.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "When arranging store fixtures in a retail environment, the main considerations typically include:\n\n- Effective merchandise display (A) - This is essential for sales\n- Security and loss prevention through subtle monitoring (B) - This is a standard retail concern\n- Efficient customer flow and staff management (C) - This is crucial for operations\n\nOption (D) about arranging fixtures specifically to ensure direct eye contact between entering customers and staff to \"foster familiarity\" is not a standard consideration in retail fixture arrangement. While customer service and greeting are important, fixture placement is not typically designed around ensuring eye contact. This would be impractical and could actually impede other more important considerations like traffic flow and merchandise visibility.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01HX2puDE4MKh6NpHg5SHy2j",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 121,
+                    "output_tokens": 158,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2bc15eb2-6ea6-4e88-adb1-b3202e932f3a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 121,
+                "output_tokens": 158,
+                "total_tokens": 279,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_943",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6499999761581421,
+        "question": "In a rebar drawing, what type of line is used to represent stirrups or tie bars?",
+        "options": {
+            "A": "Dashed line",
+            "B": "Thin solid line",
+            "C": "Chain line",
+            "D": "Thick solid line"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Thin solid line"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "In rebar drawings, stirrups and tie bars are typically represented using thin solid lines to distinguish them from the main reinforcement bars, which are shown with thick solid lines. This convention helps differentiate between primary reinforcement and secondary/transverse reinforcement elements.\n\nThe answer is **(B) Thin solid line**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "In rebar drawings, stirrups and tie bars are typically represented using thin solid lines to distinguish them from the main reinforcement bars, which are shown with thick solid lines. This convention helps differentiate between primary reinforcement and secondary/transverse reinforcement elements.\n\nThe answer is **(B) Thin solid line**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01UqwmkCVD8GhB9HD3zRbq3x",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 70,
+                    "output_tokens": 70,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8b63f041-b9d8-4ad1-ba94-eff0ee3acd4e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 70,
+                "total_tokens": 140,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1588",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following is least related to factors influencing the typical floor plan of an office building?",
+        "options": {
+            "A": "Span limitations of the structural system.",
+            "B": "Limitations of building systems such as ducts, wiring, and piping.",
+            "C": "Limitations of natural lighting.",
+            "D": "Parking space intervals in the underground parking lot."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Parking space intervals in the underground parking lot."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "To determine which factor is least related to influencing the typical floor plan of an office building, let me consider each option:\n\n(A) Span limitations of the structural system - This directly affects floor plan layout as it determines where columns must be placed and the maximum distances between supports, fundamentally shaping the usable space.\n\n(B) Limitations of building systems (ducts, wiring, piping) - These systems require space for vertical and horizontal distribution, affecting ceiling heights, core locations, and the placement of service areas, significantly influencing floor plan design.\n\n(C) Limitations of natural lighting - This affects the depth of the floor plate from the perimeter walls, as natural light can only penetrate so far into a building, directly influencing the typical floor plan configuration.\n\n(D) Parking space intervals in the underground parking lot - While parking structures have their own dimensional requirements, the spacing of parking stalls in an underground lot operates independently from the office floor plan above. The structural grid might align, but parking space intervals don't directly dictate or limit the office floor plan configuration.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "To determine which factor is least related to influencing the typical floor plan of an office building, let me consider each option:\n\n(A) Span limitations of the structural system - This directly affects floor plan layout as it determines where columns must be placed and the maximum distances between supports, fundamentally shaping the usable space.\n\n(B) Limitations of building systems (ducts, wiring, piping) - These systems require space for vertical and horizontal distribution, affecting ceiling heights, core locations, and the placement of service areas, significantly influencing floor plan design.\n\n(C) Limitations of natural lighting - This affects the depth of the floor plate from the perimeter walls, as natural light can only penetrate so far into a building, directly influencing the typical floor plan configuration.\n\n(D) Parking space intervals in the underground parking lot - While parking structures have their own dimensional requirements, the spacing of parking stalls in an underground lot operates independently from the office floor plan above. The structural grid might align, but parking space intervals don't directly dictate or limit the office floor plan configuration.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_016ULAs8WAwpeYtkeoNMr8Qp",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 96,
+                    "output_tokens": 241,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f4a1b773-6a7d-418b-9a60-8fe3a51f651e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 96,
+                "output_tokens": 241,
+                "total_tokens": 337,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_91",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7699999809265137,
+        "question": "Which of the following best defines a high-rise building according to building regulations?",
+        "options": {
+            "A": "A building with 50 or more floors, or a height of at least 150 meters.",
+            "B": "A building with 50 or more floors, or a height of at least 200 meters.",
+            "C": "A building with 100 or more floors, or a height of at least 300 meters.",
+            "D": "A building with 100 or more floors, or a height of at least 400 meters."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A building with 50 or more floors, or a height of at least 200 meters."
+            },
+            "explanation": "A high-rise building is defined as having at least 50 floors or a height of at least 200 meters, while tall buildings are defined as those with at least 30 floors or a height of at least 120 meters."
+        },
+        "image_path": null,
+        "model_answer": "Looking at standard building regulations and definitions used internationally, a high-rise building is typically defined at much lower thresholds than any of these options suggest. Most building codes and fire safety regulations consider buildings \"high-rise\" when they exceed 75 feet (approximately 23 meters) or 7-10 stories.\n\nHowever, among the given options, **(A) A building with 50 or more floors, or a height of at least 150 meters** represents the lowest threshold and would be the most inclusive definition. This would align more closely with what might be considered a \"super tall\" or \"skyscraper\" classification rather than a standard high-rise.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at standard building regulations and definitions used internationally, a high-rise building is typically defined at much lower thresholds than any of these options suggest. Most building codes and fire safety regulations consider buildings \"high-rise\" when they exceed 75 feet (approximately 23 meters) or 7-10 stories.\n\nHowever, among the given options, **(A) A building with 50 or more floors, or a height of at least 150 meters** represents the lowest threshold and would be the most inclusive definition. This would align more closely with what might be considered a \"super tall\" or \"skyscraper\" classification rather than a standard high-rise.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_015hRifyuRrQP3osFaGTjKzY",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 135,
+                    "output_tokens": 155,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--905bf8a1-6e14-40aa-bb00-9f0c08bf1925-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 135,
+                "output_tokens": 155,
+                "total_tokens": 290,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1887",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which of the following is the most appropriate location for a library within a school?",
+        "options": {
+            "A": "A central area in the academic zone that is convenient for students to use.",
+            "B": "Near the school administrative offices for easy management and operation.",
+            "C": "Near the school gate for convenient use by outsiders.",
+            "D": "A quiet place away from the academic zone."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A central area in the academic zone that is convenient for students to use."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The most appropriate location for a library within a school should prioritize student access and academic integration.\n\nLet me evaluate each option:\n\n(A) A central area in the academic zone ensures the library is easily accessible to students during their school day, integrated with their academic activities, and convenient for frequent use between classes.\n\n(B) While administrative proximity might help with management, it doesn't prioritize the primary users - the students.\n\n(C) Placing it near the school gate might benefit outsiders but could create security concerns and doesn't serve the primary purpose of supporting students' educational needs.\n\n(D) While libraries need quiet, placing them away from the academic zone would make them less accessible to students, reducing usage.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The most appropriate location for a library within a school should prioritize student access and academic integration.\n\nLet me evaluate each option:\n\n(A) A central area in the academic zone ensures the library is easily accessible to students during their school day, integrated with their academic activities, and convenient for frequent use between classes.\n\n(B) While administrative proximity might help with management, it doesn't prioritize the primary users - the students.\n\n(C) Placing it near the school gate might benefit outsiders but could create security concerns and doesn't serve the primary purpose of supporting students' educational needs.\n\n(D) While libraries need quiet, placing them away from the academic zone would make them less accessible to students, reducing usage.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01VB515XBT2RnnZmYEcMBTKh",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 97,
+                    "output_tokens": 161,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b6791543-1c9a-4fac-b93b-a7326098bf72-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 97,
+                "output_tokens": 161,
+                "total_tokens": 258,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1548",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.75,
+        "question": "Which of the following statements about the L-shaped kitchen counter layout is NOT correct?",
+        "options": {
+            "A": "It is a type suitable for square-shaped kitchens.",
+            "B": "It is a layout where the counter is arranged using two walls.",
+            "C": "It is easy to install a sink or range in the corner section of the counter.",
+            "D": "Since the utilization of the corner area is low, solutions are required for this issue."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is easy to install a sink or range in the corner section of the counter."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about L-shaped kitchen counter layouts:\n\n(A) L-shaped layouts are indeed suitable for square-shaped kitchens - they fit well in corners and leave open space.\n\n(B) L-shaped layouts do use two walls that meet at a corner - this is the defining characteristic.\n\n(C) Installing sinks or ranges in corner sections is actually difficult and problematic due to:\n- Limited access and reach\n- Plumbing/ventilation challenges\n- Ergonomic issues\n- Wasted space behind fixtures\n\n(D) Corner areas in L-shaped kitchens do have low utilization and require special solutions like lazy Susans or magic corners.\n\nStatement (C) is incorrect because corner installations are challenging, not easy.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each statement about L-shaped kitchen counter layouts:\n\n(A) L-shaped layouts are indeed suitable for square-shaped kitchens - they fit well in corners and leave open space.\n\n(B) L-shaped layouts do use two walls that meet at a corner - this is the defining characteristic.\n\n(C) Installing sinks or ranges in corner sections is actually difficult and problematic due to:\n- Limited access and reach\n- Plumbing/ventilation challenges\n- Ergonomic issues\n- Wasted space behind fixtures\n\n(D) Corner areas in L-shaped kitchens do have low utilization and require special solutions like lazy Susans or magic corners.\n\nStatement (C) is incorrect because corner installations are challenging, not easy.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01LtRYhtktoFR2pkAVWhCCXB",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 113,
+                    "output_tokens": 176,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--37013adb-a44c-486c-b156-5fb9b1b1e5b7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 113,
+                "output_tokens": 176,
+                "total_tokens": 289,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_185",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6499999761581421,
+        "question": "What does the following window symbol indicate?",
+        "options": {
+            "A": "Steel window",
+            "B": "Steel grill",
+            "C": "Stainless steel window",
+            "D": "Stainless steel grill"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Steel window"
+            },
+            "explanation": "The symbol on the lower left indicates the material, while the lower right indicates the type of shutter. Material symbols: wood (W), steel (S), aluminum (Al), plastic (P), stainless steel (Ss). Shutter symbols: window (W), door (D)."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20140406/jj20140406m46.gif?1412822107",
+        "model_answer": "Looking at the symbol shown - a circle with \"2\" at the top and \"SW\" at the bottom with a horizontal line through the middle - this is an architectural drawing symbol.\n\nIn architectural notation:\n- The circle with a horizontal line is a standard symbol format for windows\n- \"SW\" stands for \"Steel Window\"\n- The \"2\" likely indicates a type number or reference number\n\nThis symbol represents a steel window in architectural drawings.\n\nThe answer is **(A) Steel window**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the symbol shown - a circle with \"2\" at the top and \"SW\" at the bottom with a horizontal line through the middle - this is an architectural drawing symbol.\n\nIn architectural notation:\n- The circle with a horizontal line is a standard symbol format for windows\n- \"SW\" stands for \"Steel Window\"\n- The \"2\" likely indicates a type number or reference number\n\nThis symbol represents a steel window in architectural drawings.\n\nThe answer is **(A) Steel window**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01LRLoDgRXAa7T8ym9uyR6rJ",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 73,
+                    "output_tokens": 107,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ec48510a-1c8e-43ea-a820-862f558bc22d-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 73,
+                "output_tokens": 107,
+                "total_tokens": 180,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1928",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is NOT one of the five advertising elements required in the facade design of a store building?",
+        "options": {
+            "A": "Attention",
+            "B": "Memory",
+            "C": "Desire",
+            "D": "Economic"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Economic"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at this question about advertising elements in store facade design, I need to identify which option is NOT one of the five required elements.\n\nThe question appears to be referencing a framework similar to marketing/advertising models. The most well-known advertising model is AIDA (Attention, Interest, Desire, Action), though there are variations with 5 elements like AIDAS (adding Satisfaction) or AIDMA (adding Memory).\n\nFrom the options given:\n- (A) Attention - This is a fundamental element in advertising models\n- (B) Memory - This appears in some 5-element models like AIDMA\n- (C) Desire - This is a core element in advertising models\n- (D) Economic - This is not a standard element in advertising models\n\n\"Economic\" relates to cost or financial considerations, which while important in business, is not typically listed as one of the core advertising elements that a facade design must achieve. The advertising elements focus on psychological and behavioral responses (getting attention, creating interest, building desire, prompting action, ensuring memory/satisfaction).\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at this question about advertising elements in store facade design, I need to identify which option is NOT one of the five required elements.\n\nThe question appears to be referencing a framework similar to marketing/advertising models. The most well-known advertising model is AIDA (Attention, Interest, Desire, Action), though there are variations with 5 elements like AIDAS (adding Satisfaction) or AIDMA (adding Memory).\n\nFrom the options given:\n- (A) Attention - This is a fundamental element in advertising models\n- (B) Memory - This appears in some 5-element models like AIDMA\n- (C) Desire - This is a core element in advertising models\n- (D) Economic - This is not a standard element in advertising models\n\n\"Economic\" relates to cost or financial considerations, which while important in business, is not typically listed as one of the core advertising elements that a facade design must achieve. The advertising elements focus on psychological and behavioral responses (getting attention, creating interest, building desire, prompting action, ensuring memory/satisfaction).\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01JHWXqdFPQ2y7pHcfcAZ43p",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 63,
+                    "output_tokens": 243,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f6e1a13a-8a6b-4cff-8d63-4a32a3715454-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 63,
+                "output_tokens": 243,
+                "total_tokens": 306,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1741",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is least related to the reason for reducing floor-to-floor height in high-rise office buildings?",
+        "options": {
+            "A": "To reduce construction costs.",
+            "B": "To obtain a larger equipment space.",
+            "C": "To improve indoor air conditioning efficiency.",
+            "D": "To maximize the number of floors within a limited building height."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To obtain a larger equipment space."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the options for why floor-to-floor height would be reduced in high-rise office buildings:\n\n(A) Reducing construction costs - Lower floor heights mean less material for structural elements, facades, and vertical systems, directly reducing costs.\n\n(C) Improving indoor air conditioning efficiency - Smaller volumes require less energy to heat and cool, improving HVAC efficiency.\n\n(D) Maximizing floors within height limits - This is often the primary driver, as zoning restrictions limit total building height, so reducing floor-to-floor height allows more rentable floors.\n\n(B) Obtaining larger equipment space - This contradicts the goal of reducing floor height. Equipment spaces (mechanical floors, ceiling plenums for MEP systems) actually require MORE vertical space, not less. Reducing floor-to-floor height would constrain equipment space, not increase it.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at the options for why floor-to-floor height would be reduced in high-rise office buildings:\n\n(A) Reducing construction costs - Lower floor heights mean less material for structural elements, facades, and vertical systems, directly reducing costs.\n\n(C) Improving indoor air conditioning efficiency - Smaller volumes require less energy to heat and cool, improving HVAC efficiency.\n\n(D) Maximizing floors within height limits - This is often the primary driver, as zoning restrictions limit total building height, so reducing floor-to-floor height allows more rentable floors.\n\n(B) Obtaining larger equipment space - This contradicts the goal of reducing floor height. Equipment spaces (mechanical floors, ceiling plenums for MEP systems) actually require MORE vertical space, not less. Reducing floor-to-floor height would constrain equipment space, not increase it.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01GMvH2rcYHmz59skv3iHngo",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 91,
+                    "output_tokens": 195,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--643876d3-58d0-46a4-93ad-e33c4f1a8e14-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 91,
+                "output_tokens": 195,
+                "total_tokens": 286,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_315",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following is not the correct pairing of a lighting-related unit?",
+        "options": {
+            "A": "Luminous flux: N",
+            "B": "Luminous intensity: cd",
+            "C": "Luminance: nt",
+            "D": "Illuminance: lx"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Luminous flux: N"
+            },
+            "explanation": "The unit of luminous flux is the lumen (lm). There have been several error reports regarding this question. Your feedback is appreciated and the answer will be updated if there are five or more reports. [Error Reports] Option 3: Luminance – cd/m². [Additional Reports] Some argue that option 3 is also correct, as luminance is given by dividing the luminous intensity over the apparent area, and its units are cd/m² or nit (nt). A higher luminance indicates greater resistance to ambient light, making screens more visible in bright stores or sunny living rooms. [Contrary Opinion] The correct answer is 1. The unit for luminance is both cd/m² and nt, while the unit for luminous flux is lm. [Further Clarification] 1. Luminous flux: lm (lumen), the total light output from a source. 2. Luminous intensity: cd (candela), brightness in a particular direction. 3. Luminance: nt (nit), cd/m², perceived brightness per unit area. 4. Illuminance: lx (lux), brightness of a place. Source: Naver Encyclopedia."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each pairing:\n\n(A) Luminous flux: N - This is incorrect. Luminous flux is measured in lumens (lm), not Newtons (N). Newtons are a unit of force.\n\n(B) Luminous intensity: cd - This is correct. Candela (cd) is the SI unit for luminous intensity.\n\n(C) Luminance: nt - This is correct. Nit (nt) is a unit for luminance, equivalent to candela per square meter (cd/m²).\n\n(D) Illuminance: lx - This is correct. Lux (lx) is the SI unit for illuminance, equivalent to lumens per square meter (lm/m²).\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at each pairing:\n\n(A) Luminous flux: N - This is incorrect. Luminous flux is measured in lumens (lm), not Newtons (N). Newtons are a unit of force.\n\n(B) Luminous intensity: cd - This is correct. Candela (cd) is the SI unit for luminous intensity.\n\n(C) Luminance: nt - This is correct. Nit (nt) is a unit for luminance, equivalent to candela per square meter (cd/m²).\n\n(D) Illuminance: lx - This is correct. Lux (lx) is the SI unit for illuminance, equivalent to lumens per square meter (lm/m²).\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_012BzooTvyBwN9RewvyiKLVn",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 76,
+                    "output_tokens": 178,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--599cc38a-0425-4a17-a87b-e01a1ae8f4fd-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 178,
+                "total_tokens": 254,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1501",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "Which of the following is NOT a correct explanation concerning the closed type among the teacher arrangement formats in schools?",
+        "options": {
+            "A": "Environmental conditions such as sunlight and ventilation are disadvantageous.",
+            "B": "Unused areas may form around the teacher’s building.",
+            "C": "Without a separate evacuation route, it is disadvantageous in case of fire or emergency.",
+            "D": "As a type of finger plan, structural planning is simple and the use of standard types is convenient."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "As a type of finger plan, structural planning is simple and the use of standard types is convenient."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at this question about closed-type teacher arrangement formats in schools, I need to identify which statement is NOT a correct explanation.\n\nLet me analyze each option:\n\n(A) Environmental conditions like sunlight and ventilation being disadvantageous - This is typically TRUE for closed-type arrangements as they tend to have limited openings and less natural light/air circulation.\n\n(B) Unused areas forming around the teacher's building - This is also typically TRUE for closed-type layouts as they can create inefficient space usage.\n\n(C) Lack of separate evacuation routes being disadvantageous in emergencies - This is TRUE as closed-type arrangements often have limited exit options, making them problematic for emergency evacuation.\n\n(D) Being a type of finger plan with simple structural planning - This is NOT correct. Finger plans are actually a type of OPEN arrangement, not closed-type. Finger plans extend outward like fingers, creating open spaces between wings, which is the opposite of a closed-type arrangement.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at this question about closed-type teacher arrangement formats in schools, I need to identify which statement is NOT a correct explanation.\n\nLet me analyze each option:\n\n(A) Environmental conditions like sunlight and ventilation being disadvantageous - This is typically TRUE for closed-type arrangements as they tend to have limited openings and less natural light/air circulation.\n\n(B) Unused areas forming around the teacher's building - This is also typically TRUE for closed-type layouts as they can create inefficient space usage.\n\n(C) Lack of separate evacuation routes being disadvantageous in emergencies - This is TRUE as closed-type arrangements often have limited exit options, making them problematic for emergency evacuation.\n\n(D) Being a type of finger plan with simple structural planning - This is NOT correct. Finger plans are actually a type of OPEN arrangement, not closed-type. Finger plans extend outward like fingers, creating open spaces between wings, which is the opposite of a closed-type arrangement.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01ErfBNxCapQ1wf8R1i4a9rz",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 120,
+                    "output_tokens": 225,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0cfff2ff-2363-4211-88a9-28645a8a47fc-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 120,
+                "output_tokens": 225,
+                "total_tokens": 345,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

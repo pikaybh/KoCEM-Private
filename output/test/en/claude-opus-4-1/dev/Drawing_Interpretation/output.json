@@ -1,0 +1,194 @@
+[
+    {
+        "id": "dev_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the structural type of the community center?",
+        "options": {
+            "A": "Reinforced concrete structure",
+            "B": "Steel frame structure",
+            "C": "Wooden structure",
+            "D": "Aluminum frame structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reinforced concrete structure"
+            },
+            "explanation": "The structural system is specified as reinforced concrete structure in the design conditions section of the architectural overview."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "The image is visible and shows an architectural cross-section drawing of a multi-story building. This is a detailed technical drawing in Korean, showing:\n\n1. **Building Structure**: A 4-story building cross-section with detailed measurements and annotations\n2. **Stairways**: Multiple stairways are shown connecting different floors, with detailed dimensions\n3. **Floor Heights**: Each floor level is clearly marked with elevations (GL+4,250, GL+8,000, GL+11,650, GL+14,850)\n4. **Structural Elements**: The drawing shows various structural components including:\n   - Floor slabs\n   - Beams and columns\n   - Foundation details at the bottom\n   - Roof structure at the top\n\n5. **Technical Details**: \n   - Grid lines marked as X1, X2, X3\n   - Detailed dimensions in millimeters\n   - Various construction notes in Korean\n   - Section markers (A-A' and B)\n\n6. **Materials Indicated**: The drawing shows different hatching patterns suggesting different materials, particularly in the foundation and structural elements\n\nBased on the drawing style, the regular grid pattern of columns, the floor slab construction, and the overall structural system shown, this appears to be a **reinforced concrete structure** (answer A). The drawing shows typical characteristics of reinforced concrete construction including monolithic floor slabs, concrete stairs, and a regular column grid system.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The image is visible and shows an architectural cross-section drawing of a multi-story building. This is a detailed technical drawing in Korean, showing:\n\n1. **Building Structure**: A 4-story building cross-section with detailed measurements and annotations\n2. **Stairways**: Multiple stairways are shown connecting different floors, with detailed dimensions\n3. **Floor Heights**: Each floor level is clearly marked with elevations (GL+4,250, GL+8,000, GL+11,650, GL+14,850)\n4. **Structural Elements**: The drawing shows various structural components including:\n   - Floor slabs\n   - Beams and columns\n   - Foundation details at the bottom\n   - Roof structure at the top\n\n5. **Technical Details**: \n   - Grid lines marked as X1, X2, X3\n   - Detailed dimensions in millimeters\n   - Various construction notes in Korean\n   - Section markers (A-A' and B)\n\n6. **Materials Indicated**: The drawing shows different hatching patterns suggesting different materials, particularly in the foundation and structural elements\n\nBased on the drawing style, the regular grid pattern of columns, the floor slab construction, and the overall structural system shown, this appears to be a **reinforced concrete structure** (answer A). The drawing shows typical characteristics of reinforced concrete construction including monolithic floor slabs, concrete stairs, and a regular column grid system.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01VPzyM8bM9PytYU3Hk7Fh7e",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 1673,
+                    "output_tokens": 313,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f2fb6df2-2c8e-4ce2-83b4-a8a03d4ca935-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1673,
+                "output_tokens": 313,
+                "total_tokens": 1986,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Considering the required evacuation capacity for the 5th floor of the training facility, what is the minimum total effective width of stairs 1 and 2?",
+        "options": {
+            "A": "4,200 mm",
+            "B": "4,800 mm",
+            "C": "5,400 mm",
+            "D": "6,000 mm",
+            "E": "7,200 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "4,800 mm"
+            },
+            "explanation": "The maximum evacuation capacity per floor is 600 people, and with a minimum effective stair width of 7 mm per person, the minimum required width is 600 × 7 mm = 4,200 mm. However, since 4,200 mm is not listed among the options and to allow for a design margin, 4,800 mm or more is chosen."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "I can see the image which shows architectural drawings of what appears to be a 5th floor plan of a training facility (5층계단평면도) with stair details. The drawing includes:\n\n1. A floor plan on the left showing:\n   - Two stairways marked as \"S.T (계1)\" and \"S.T (계2)\" \n   - A corridor/hallway area\n   - Room dimensions including 9000mm width\n   - Various measurements like 2100mm, 3640mm, 3260mm for different sections\n\n2. On the right side, there are:\n   - Detailed stair sections showing construction details\n   - E단면상세도 (Section E details) at scale 1/10\n   - F접합부 개념도 (Connection concept diagram F)\n   - 부분 단면도 (Partial section view) at scale 1/40\n\nThe drawing includes Korean text labels and appears to be a technical construction document with specific measurements for evacuation capacity calculations. The stairs appear to have specific width dimensions that would be critical for determining evacuation capacity.\n\nBased on the architectural details shown, this appears to be a valid technical drawing that would be used to calculate the minimum required effective width for evacuation stairs in a training facility.",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "I can see the image which shows architectural drawings of what appears to be a 5th floor plan of a training facility (5층계단평면도) with stair details. The drawing includes:\n\n1. A floor plan on the left showing:\n   - Two stairways marked as \"S.T (계1)\" and \"S.T (계2)\" \n   - A corridor/hallway area\n   - Room dimensions including 9000mm width\n   - Various measurements like 2100mm, 3640mm, 3260mm for different sections\n\n2. On the right side, there are:\n   - Detailed stair sections showing construction details\n   - E단면상세도 (Section E details) at scale 1/10\n   - F접합부 개념도 (Connection concept diagram F)\n   - 부분 단면도 (Partial section view) at scale 1/40\n\nThe drawing includes Korean text labels and appears to be a technical construction document with specific measurements for evacuation capacity calculations. The stairs appear to have specific width dimensions that would be critical for determining evacuation capacity.\n\nBased on the architectural details shown, this appears to be a valid technical drawing that would be used to calculate the minimum required effective width for evacuation stairs in a training facility.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01RijPb53vtMr1bmjfnd2trh",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 1709,
+                    "output_tokens": 288,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9cf2c93d-dc3d-4c2c-99d5-6f9114f96dfe-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1709,
+                "output_tokens": 288,
+                "total_tokens": 1997,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is correct regarding the arrangement and cross-sectional dimensions of the columns on the first and second floors?",
+        "options": {
+            "A": "The arrangement of columns on the first and second floors should be different.",
+            "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor.",
+            "C": "There are more columns on the second floor than on the first floor.",
+            "D": "The columns on the second floor are not made of the same material as those on the first floor.",
+            "E": "The arrangement of columns on the first and second floors is unrelated."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor."
+            },
+            "explanation": "According to the guidelines, the arrangement and cross-sectional dimensions of the columns on the first and second floors must be the same."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "The image shows architectural drawings of a building structure with floor plans and a truss elevation diagram. The drawings are in Korean and include:\n\n1. **Top section**: A truss elevation diagram (지붕트러스 단면도) at 1:100 scale showing a triangular roof truss system with measurements in millimeters (showing dimensions like 2500mm spacing and 3000mm height).\n\n2. **Bottom left**: Second floor plan (2층 구조평면도) at 1:200 scale showing a grid of columns marked with letters (A-B horizontally) and numbers vertically. The plan shows regular column spacing of 5000mm with some diagonal bracing elements marked with \"K\" and \"M\" labels. There's an \"OPEN\" area indicated in the center.\n\n3. **Bottom right**: Ground floor plan (지붕 구조평면도) at 1:200 scale showing a similar column grid layout with letters and numbers, also with 5000mm spacing. This floor shows diagonal bracing patterns and columns marked with \"M\" and \"N\" labels.\n\nBoth floor plans show the same overall dimensions (20000mm x 10000mm) and appear to have the same column arrangement pattern. The columns are positioned at regular grid intersections on both floors, suggesting answer **(B) The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor** is the most appropriate choice based on the visible information in these structural drawings.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "The image shows architectural drawings of a building structure with floor plans and a truss elevation diagram. The drawings are in Korean and include:\n\n1. **Top section**: A truss elevation diagram (지붕트러스 단면도) at 1:100 scale showing a triangular roof truss system with measurements in millimeters (showing dimensions like 2500mm spacing and 3000mm height).\n\n2. **Bottom left**: Second floor plan (2층 구조평면도) at 1:200 scale showing a grid of columns marked with letters (A-B horizontally) and numbers vertically. The plan shows regular column spacing of 5000mm with some diagonal bracing elements marked with \"K\" and \"M\" labels. There's an \"OPEN\" area indicated in the center.\n\n3. **Bottom right**: Ground floor plan (지붕 구조평면도) at 1:200 scale showing a similar column grid layout with letters and numbers, also with 5000mm spacing. This floor shows diagonal bracing patterns and columns marked with \"M\" and \"N\" labels.\n\nBoth floor plans show the same overall dimensions (20000mm x 10000mm) and appear to have the same column arrangement pattern. The columns are positioned at regular grid intersections on both floors, suggesting answer **(B) The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor** is the most appropriate choice based on the visible information in these structural drawings.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01J786TrnsvKMpnAkceaFLUa",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 1755,
+                    "output_tokens": 332,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--85386aa5-e8bb-47b3-ad43-1428441f9771-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1755,
+                "output_tokens": 332,
+                "total_tokens": 2087,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]
