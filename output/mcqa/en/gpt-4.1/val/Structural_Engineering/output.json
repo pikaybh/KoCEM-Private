@@ -1,0 +1,2348 @@
+[
+    {
+        "id": "val_Structural_Engineering_136",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4099999964237213,
+        "question": "In the strength design method, what is the minimum thickness of a simply supported concrete beam with a span of ℓ=8m when deflection is not calculated? (Assume normal weight concrete and fy=400MPa.)",
+        "options": {
+            "A": "400mm",
+            "B": "450mm",
+            "C": "500mm",
+            "D": "550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 400mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 400mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 92,
+                    "total_tokens": 97,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e473e2c6-a2cc-41d4-9555-4c178792ec27-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 5,
+                "total_tokens": 97,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_964",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4399999976158142,
+        "question": "If you build a wall using bricks sized 190mm x 90mm x 57mm in a 2.5B thickness bond (not a cavity wall), what will the wall thickness be?",
+        "options": {
+            "A": "430mm",
+            "B": "490mm",
+            "C": "510mm",
+            "D": "550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "490mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 490mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 490mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 87,
+                    "total_tokens": 92,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--760a7d24-ad72-43ea-9203-268de41c0d4e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 5,
+                "total_tokens": 92,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_428",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5299999713897705,
+        "question": "What is the correct basic anchorage length for a D19 tensile deformed bar in strength design method? (Based on KBC2009, fck = 21MPa, fy = 400MPa.)",
+        "options": {
+            "A": "995.04mm",
+            "B": "995.02mm",
+            "C": "995.08mm",
+            "D": "995.10mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "995.10mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 995.04mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 995.04mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 98,
+                    "total_tokens": 105,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8c8d00a8-d5da-4b5e-b3e1-538dff8c6ed8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 98,
+                "output_tokens": 7,
+                "total_tokens": 105,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_101",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5099999904632568,
+        "question": "Which of the following is correct regarding the standards for splicing reinforcing bars?",
+        "options": {
+            "A": "A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar.",
+            "B": "The splice of tension deformed bars is classified as Grade A or B, and must be at least 200mm in any case.",
+            "C": "Except for splices in compression deformed bars, rebars exceeding D35 may be spliced by lap splicing.",
+            "D": "In flexural members, lap-spliced rebars that are not in direct contact must have a transverse distance apart that is not less than the smaller of one-third of the required lap splice length or 200mm."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar."
+            },
+            "explanation": "A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar. The lap splice length must be at least 300mm, so option B is incorrect. Rebars larger than D35 cannot be lap spliced. In flexural members, lap-spliced rebars that are not in contact must not be spaced apart transversely by more than the smaller of 1/5 of the lap splice length or 150mm. The explanation also notes a mistake made by the author in selecting the wrong answer previously."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "D",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 167,
+                    "total_tokens": 168,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ec418a19-7d86-418d-ac1c-3926983bcb20-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 167,
+                "output_tokens": 1,
+                "total_tokens": 168,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_650",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following statements about hyperbolic paraboloid shells (H.P. shells), which are also used in reinforced concrete structures, is NOT correct?",
+        "options": {
+            "A": "No tensile stress occurs within the surface.",
+            "B": "They are shells formed by hyperbolic paraboloid surfaces.",
+            "C": "Loads can be transmitted to surrounding supports through in-plane transfer forces.",
+            "D": "By assembling multiple units of H.P. surfaces, various types of roof shapes can be created."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "No tensile stress occurs within the surface."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) No tensile stress occurs within the surface.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) No tensile stress occurs within the surface.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 10,
+                    "prompt_tokens": 116,
+                    "total_tokens": 126,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--81677adc-9b5e-4d07-9c49-ec628b8852d5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 116,
+                "output_tokens": 10,
+                "total_tokens": 126,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_535",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4699999988079071,
+        "question": "What is the reaction moment MA at point A in the both-ends-fixed beam shown in the figure? (Assume the flexural rigidity EI of the beam is constant.)",
+        "options": {
+            "A": "6kN·m",
+            "B": "2kN·m",
+            "C": "4.8kNㆍm",
+            "D": "4kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4.8kNㆍm"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110821/bt20110821m58.gif?1527142797",
+        "model_answer": "(C) 4.8kNㆍm",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) 4.8kNㆍm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 10,
+                    "prompt_tokens": 350,
+                    "total_tokens": 360,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--55ec67f7-3ab7-4638-89c6-881fc55591c3-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 350,
+                "output_tokens": 10,
+                "total_tokens": 360,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_529",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3499999940395355,
+        "question": "You want to calculate the distribution factor for member BA of the indeterminate structure shown in the figure. Which of the following is the correct distribution factor for BA?",
+        "options": {
+            "A": "0",
+            "B": "0.5",
+            "C": "0.75",
+            "D": "1.0"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "0.5"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110821/bt20110821m52.gif?1527142796",
+        "model_answer": "(B) 0.5",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 0.5",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 335,
+                    "total_tokens": 341,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8c41061d-ff6a-4477-87b9-161f2de1351f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 335,
+                "output_tokens": 6,
+                "total_tokens": 341,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_716",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1899999976158142,
+        "question": "In a frame like the one shown in the figure, how many points are there where the bending moment is zero?",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "4"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20070805/bt20070805m59.gif?1580961109",
+        "model_answer": "(B) 2",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 2",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 320,
+                    "total_tokens": 324,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9df24b94-0709-4572-a5f9-b2badfaefa34-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 320,
+                "output_tokens": 4,
+                "total_tokens": 324,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_689",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4699999988079071,
+        "question": "In a reinforced concrete beam, which force is most closely related to the resistance provided by the stirrups?",
+        "options": {
+            "A": "Compressive force",
+            "B": "Shear force",
+            "C": "Bending moment",
+            "D": "Tensile force"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Shear force"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Shear force",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Shear force",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 68,
+                    "total_tokens": 73,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d00e1354-54e8-4b69-beb6-151d187748fa-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 68,
+                "output_tokens": 5,
+                "total_tokens": 73,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_882",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.30000001192092896,
+        "question": "In the design of reinforced concrete beams using the ultimate strength design method, what is the approximate shear strength of the concrete, VC, for the cross section shown in the figure? (Given: fck = 24MPa (=240kgf/cm2), fy= 400MPa (=4,000kgf/cm2), the area of one D10 rebar is 71mm2.)",
+        "options": {
+            "A": "150kN(=15000kgf)",
+            "B": "180kN(=18000kgf)",
+            "C": "210kN(=21000kgf)",
+            "D": "244kN(=24400kgf)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "210kN(=21000kgf)"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20040307/bt20040307m45.gif?1525988100",
+        "model_answer": "To calculate the **shear strength of the concrete, \\( V_c \\),** for a reinforced concrete beam, the formula often used (according to many codes, e.g., ACI) is:\n\n\\[\nV_c = 0.17 \\sqrt{f_{ck}} \\cdot b \\cdot d\n\\]\n\nwhere:\n- \\( f_{ck} \\) = characteristic compressive strength of concrete (MPa)\n- \\( b \\) = width of the beam (mm)\n- \\( d \\) = effective depth (mm)\n\nGiven:\n- \\( f_{ck} = 24 \\) MPa\n- \\( b = 400 \\) mm\n- \\( d = 640 \\) mm\n\nFirst, calculate \\( \\sqrt{f_{ck}} \\):\n\n\\[\n\\sqrt{24} \\approx 4.90\n\\]\n\nNow, plug in the values:\n\n\\[\nV_c = 0.17 \\times 4.90 \\times 400 \\times 640\n\\]\n\\[\nV_c = 0.17 \\times 4.90 \\times 256,000\n\\]\n\\[\nV_c = 0.17 \\times 1,254,400\n\\]\n\\[\nV_c \\approx 213,248 \\text{ N} = 213.2 \\text{ kN}\n\\]\n\nThe closest answer is:\n\n**(C) 210kN (=21000kgf)**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "To calculate the **shear strength of the concrete, \\( V_c \\),** for a reinforced concrete beam, the formula often used (according to many codes, e.g., ACI) is:\n\n\\[\nV_c = 0.17 \\sqrt{f_{ck}} \\cdot b \\cdot d\n\\]\n\nwhere:\n- \\( f_{ck} \\) = characteristic compressive strength of concrete (MPa)\n- \\( b \\) = width of the beam (mm)\n- \\( d \\) = effective depth (mm)\n\nGiven:\n- \\( f_{ck} = 24 \\) MPa\n- \\( b = 400 \\) mm\n- \\( d = 640 \\) mm\n\nFirst, calculate \\( \\sqrt{f_{ck}} \\):\n\n\\[\n\\sqrt{24} \\approx 4.90\n\\]\n\nNow, plug in the values:\n\n\\[\nV_c = 0.17 \\times 4.90 \\times 400 \\times 640\n\\]\n\\[\nV_c = 0.17 \\times 4.90 \\times 256,000\n\\]\n\\[\nV_c = 0.17 \\times 1,254,400\n\\]\n\\[\nV_c \\approx 213,248 \\text{ N} = 213.2 \\text{ kN}\n\\]\n\nThe closest answer is:\n\n**(C) 210kN (=21000kgf)**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 302,
+                    "prompt_tokens": 411,
+                    "total_tokens": 713,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--db23400e-1d16-4b84-887f-8ddd46551b8f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 411,
+                "output_tokens": 302,
+                "total_tokens": 713,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_398",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5199999809265137,
+        "question": "A steel rebar made of a homogeneous material has a cross-sectional area of 1,000mm² and a length of 2m. When a tensile force of 100kN is applied in the axial direction, how much does its length increase? (Given, the modulus of elasticity is 2.0×10⁵MPa)",
+        "options": {
+            "A": "1mm",
+            "B": "0.1mm",
+            "C": "0.01mm",
+            "D": "0.001mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 1mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 1mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 123,
+                    "total_tokens": 128,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e784f43a-40da-4616-8c11-63881324f233-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 123,
+                "output_tokens": 5,
+                "total_tokens": 128,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_44",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5699999928474426,
+        "question": "Which of the following statements about foundation structures is NOT correct?",
+        "options": {
+            "A": "The term 'foundation structure' refers collectively to the foundation slab and footings.",
+            "B": "Even for light structures, the bottom of the foundation should be placed below the frost line underground.",
+            "C": "Raft foundations are difficult to apply to soft ground.",
+            "D": "Pile foundations are classified as friction piles and end-bearing piles according to the bearing method."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Raft foundations are difficult to apply to soft ground."
+            },
+            "explanation": "Even on soft ground, raft foundations can be used for low-rise, lightweight structures."
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 107,
+                    "total_tokens": 109,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6472c86f-43f0-44b0-bfbf-cd6d8871e22f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 107,
+                "output_tokens": 2,
+                "total_tokens": 109,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_60",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following correctly identifies the structure below?",
+        "options": {
+            "A": "Unstable structure",
+            "B": "Determinate structure",
+            "C": "First-degree indeterminate structure",
+            "D": "Second-degree indeterminate structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Unstable structure"
+            },
+            "explanation": "Discriminant = number of reactions + number of members + number of rigid joints - 2 × total number of joints = (3 + 2 + 1) - 2 × 3 = 0. Although the result indicates a determinate structure, because all supports are hinges, the structure cannot resist horizontal forces and thus becomes an unstable structure."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20190427/bt20190427m41.gif?1556921314",
+        "model_answer": "(A) Unstable structure",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Unstable structure",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 315,
+                    "total_tokens": 320,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1bdb6ad4-5fd0-4644-bf28-bd0422839366-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 315,
+                "output_tokens": 5,
+                "total_tokens": 320,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_110",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following pairs are unrelated terms used in steel structures?",
+        "options": {
+            "A": "Column connection – Metal touch",
+            "B": "Base of column – Base plate",
+            "C": "Plate girder – Cover plate",
+            "D": "High-strength bolt connection – End tap"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "High-strength bolt connection – End tap"
+            },
+            "explanation": "An end tab is an auxiliary plate attached to the end of a weld seam, used to prevent defects such as craters at the start or end of the weld. This plate is removed after welding."
+        },
+        "image_path": null,
+        "model_answer": "(A) Column connection – Metal touch",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Column connection – Metal touch",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 71,
+                    "total_tokens": 78,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f84f0b16-6864-4332-9b94-19e2447df530-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 71,
+                "output_tokens": 7,
+                "total_tokens": 78,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_831",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT an advantage of reducing the self-weight of the structural frame in building structural planning?",
+        "options": {
+            "A": "Prevention of building overturning against wind loads",
+            "B": "Reduction of column cross-sections due to decreased column axial force",
+            "C": "Ability to design longer spans in flexural members",
+            "D": "Economical foundation design"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prevention of building overturning against wind loads"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Prevention of building overturning against wind loads",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Prevention of building overturning against wind loads",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 10,
+                    "prompt_tokens": 89,
+                    "total_tokens": 99,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5e83d8e7-43b1-45e4-a682-7d3d7ba4a4a5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 10,
+                "total_tokens": 99,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_352",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.47999998927116394,
+        "question": "For a column, the buckling load of a long column is derived from Euler's formula. What is the effective length factor K of a column when both ends are pinned?",
+        "options": {
+            "A": "0.5",
+            "B": "0.7",
+            "C": "1.0",
+            "D": "2.0"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1.0"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140817/bt20140817m55m1.gif?1526333307",
+        "model_answer": "(C) 1.0",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) 1.0",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 340,
+                    "total_tokens": 346,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1ece8ce0-a9bc-40d2-a211-86deb3bb62a4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 340,
+                "output_tokens": 6,
+                "total_tokens": 346,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_914",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.25,
+        "question": "When using the strength design method, what is the maximum reinforcement ratio for a cross-section with a width of 30 cm and a depth of 60 cm? (Note: There is no compression reinforcement, and the materials used have fck = 240 kgf/cm2 and fy = 4000 kgf/cm2.)",
+        "options": {
+            "A": "0.0180",
+            "B": "0.0195",
+            "C": "0.0225",
+            "D": "0.0260"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "0.0195"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 0.0195",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 0.0195",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 120,
+                    "total_tokens": 127,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--069000c5-83a9-4925-968d-2a0a631cbc6b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 120,
+                "output_tokens": 7,
+                "total_tokens": 127,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_761",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.20000000298023224,
+        "question": "In a square isolated footing with dimensions of 3.5m × 3.5m, what is the maximum allowable eccentricity (e) to prevent tensile stress from occurring at the base of the footing?",
+        "options": {
+            "A": "40cm",
+            "B": "50.5cm",
+            "C": "53cm",
+            "D": "58.3cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "58.3cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 50.5cm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 50.5cm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 93,
+                    "total_tokens": 100,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d1c72d59-b5ce-4008-a328-076f46c251cd-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 93,
+                "output_tokens": 7,
+                "total_tokens": 100,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_707",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.10000000149011612,
+        "question": "In reinforced concrete design using the strength design method, what is the depth ab of the equivalent stress block when the location of the neutral axis  in a singly reinforced rectangular beam for a balanced section is 300mm? (Given: fck=27MPa)",
+        "options": {
+            "A": "180mm",
+            "B": "210mm",
+            "C": "225mm",
+            "D": "255mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "255mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 180mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 180mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 104,
+                    "total_tokens": 109,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--74d6b58c-8ae4-4c38-9254-d50f479ace52-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 104,
+                "output_tokens": 5,
+                "total_tokens": 109,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_292",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum center-to-center spacing required when installing precast concrete piles?",
+        "options": {
+            "A": "450mm",
+            "B": "600mm",
+            "C": "750mm",
+            "D": "900mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "750mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 600mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 600mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 62,
+                    "total_tokens": 67,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--eb3e8105-1cad-477c-b23e-8735526d0ebc-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 62,
+                "output_tokens": 5,
+                "total_tokens": 67,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_2",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following statements about the elastic deflection at the center of a simply supported beam under a uniformly distributed load is correct?",
+        "options": {
+            "A": "The deflection is inversely proportional to the square of the span.",
+            "B": "The deflection is proportional to the second moment of area.",
+            "C": "The deflection is not related to the cross-sectional shape, only to the material.",
+            "D": "The deflection is inversely proportional to the modulus of elasticity."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The deflection is inversely proportional to the modulus of elasticity."
+            },
+            "explanation": "For a simply supported beam under a uniformly distributed load, the deflection formula is: (5wL⁴)/(384EI). Thus, w and L⁴ are proportional to deflection, while E (modulus of elasticity) and I (second moment of area) are inversely proportional."
+        },
+        "image_path": null,
+        "model_answer": "(D) The deflection is inversely proportional to the modulus of elasticity.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) The deflection is inversely proportional to the modulus of elasticity.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 15,
+                    "prompt_tokens": 113,
+                    "total_tokens": 128,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f962f725-ee2f-4b84-9971-b615738f187a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 113,
+                "output_tokens": 15,
+                "total_tokens": 128,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_361",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4099999964237213,
+        "question": "What is the bending moment at point A of the structure shown in the figure?",
+        "options": {
+            "A": "-20 kN·m",
+            "B": "-40 kN·m",
+            "C": "-60 kN·m",
+            "D": "-80 kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-60 kN·m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140525/bt20140525m44.gif?1526333306",
+        "model_answer": "(C) -60 kN·m",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) -60 kN·m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 329,
+                    "total_tokens": 337,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--dd70b872-9a3f-488a-906b-e04df3ca172b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 329,
+                "output_tokens": 8,
+                "total_tokens": 337,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_974",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.46000000834465027,
+        "question": "Which of the following statements about the classification of building structures is incorrect?",
+        "options": {
+            "A": "In framed structures, the strength of the structure depends on the joints and assembly of each component.",
+            "B": "Monolithic structures have their substructures integrated, resulting in relatively uniform strength.",
+            "C": "Prefabricated structures are economical but have long construction times.",
+            "D": "For masonry structures, greater adhesion strength of the masonry units is desirable."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Prefabricated structures are economical but have long construction times."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Prefabricated structures are economical but have long construction times.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Prefabricated structures are economical but have long construction times.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 14,
+                    "prompt_tokens": 105,
+                    "total_tokens": 119,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--09027ddd-b4bf-4d88-b014-fc0c6716c036-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 105,
+                "output_tokens": 14,
+                "total_tokens": 119,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_494",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "What is the bending moment at point D in the cantilever shown in the figure?",
+        "options": {
+            "A": "-15kN·m",
+            "B": "-20kN·m",
+            "C": "-25kN·m",
+            "D": "-30kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "-30kN·m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20120520/bt20120520m57.gif?1527046222",
+        "model_answer": "Let's calculate the bending moment at point D.\n\n**Step 1: Calculate the total load due to the UDL (triangular load) from A to B.**\n\n- Intensity at A = 2 kN/m, at B = 0.\n- Length AB = 1 m.\n- This is a triangular load, so total load = (1/2) × base × height = (1/2) × 1 m × 2 kN/m = **1 kN**.\n- The centroid of this triangular load is at 1/3 from A (i.e., 1/3 m from A).\n\n**Step 2: Point Load at B**\n- 3 kN downward at B.\n\n**Step 3: Calculate the moments about D:**\n- Distance from A to D = 1 + 2 + 3 = **6 m**.\n- Distance from B to D = 2 + 3 = **5 m**.\n\n**Moment due to triangular load at D:**\n- Load = 1 kN.\n- Distance from centroid of triangle to D = 6 m - (1/3) m = **5.67 m**.\n- Moment = 1 kN × 5.67 m = **5.67 kN·m** (clockwise, so negative).\n\n**Moment due to point load at B:**\n- Load = 3 kN at 5 m from D.\n- Moment = 3 kN × 5 m = **15 kN·m** (clockwise, so negative).\n\n**Total bending moment at D:**\n= -(5.67 + 15) kN·m\n= **-20.67 kN·m**\n\nSince the closest option is **-20 kN·m**,\n\nThe answer is:  \n**(B)**",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Let's calculate the bending moment at point D.\n\n**Step 1: Calculate the total load due to the UDL (triangular load) from A to B.**\n\n- Intensity at A = 2 kN/m, at B = 0.\n- Length AB = 1 m.\n- This is a triangular load, so total load = (1/2) × base × height = (1/2) × 1 m × 2 kN/m = **1 kN**.\n- The centroid of this triangular load is at 1/3 from A (i.e., 1/3 m from A).\n\n**Step 2: Point Load at B**\n- 3 kN downward at B.\n\n**Step 3: Calculate the moments about D:**\n- Distance from A to D = 1 + 2 + 3 = **6 m**.\n- Distance from B to D = 2 + 3 = **5 m**.\n\n**Moment due to triangular load at D:**\n- Load = 1 kN.\n- Distance from centroid of triangle to D = 6 m - (1/3) m = **5.67 m**.\n- Moment = 1 kN × 5.67 m = **5.67 kN·m** (clockwise, so negative).\n\n**Moment due to point load at B:**\n- Load = 3 kN at 5 m from D.\n- Moment = 3 kN × 5 m = **15 kN·m** (clockwise, so negative).\n\n**Total bending moment at D:**\n= -(5.67 + 15) kN·m\n= **-20.67 kN·m**\n\nSince the closest option is **-20 kN·m**,\n\nThe answer is:  \n**(B)**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 381,
+                    "prompt_tokens": 330,
+                    "total_tokens": 711,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--77858ea6-10a0-4a1f-b955-7fb21f406a4f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 330,
+                "output_tokens": 381,
+                "total_tokens": 711,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_328",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3499999940395355,
+        "question": "If there are no beams or girders around the interior slab and fy=400MPa, the minimum thickness formula for the slab is ln/33. In this formula, what does ln represent?",
+        "options": {
+            "A": "Clear span of two-way slab",
+            "B": "Clear span of the short side of two-way slab",
+            "C": "Distance between column centers along the long side of two-way slab",
+            "D": "Distance between column centers along the short side of two-way slab"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Clear span of two-way slab"
+            },
+            "explanation": "It's not the clear span of the two-way slab in general, but rather the clear span along the long side of the two-way slab. Please correct it."
+        },
+        "image_path": null,
+        "model_answer": "(D) Distance between column centers along the short side of two-way slab",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Distance between column centers along the short side of two-way slab",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 14,
+                    "prompt_tokens": 114,
+                    "total_tokens": 128,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a3cac07c-f4e9-4ef3-bd5e-a1a141e0a370-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 114,
+                "output_tokens": 14,
+                "total_tokens": 128,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_938",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "In the design of a reinforced concrete slab using the strength design method, what is the minimum amount of reinforcement required per meter width of the slab as shown in the figure? (Given: fck(fc')=240 kg/cm2, fy=4,000 kg/cm2, use deformed bars)",
+        "options": {
+            "A": "1.14cm2/m",
+            "B": "1.82cm2/m",
+            "C": "2.16cm2/m",
+            "D": "2.56cm2/m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2.16cm2/m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20030316/bt20030316m41.gif?1526016896",
+        "model_answer": "(A) 1.14cm²/m",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 1.14cm²/m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 9,
+                    "prompt_tokens": 378,
+                    "total_tokens": 387,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d78d94ef-ce08-4c4c-91a2-20372449943c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 378,
+                "output_tokens": 9,
+                "total_tokens": 387,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_300",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.46000000834465027,
+        "question": "What is the magnitude of the force in member AB in the truss shown below? (Note: + indicates tension, - indicates compression)",
+        "options": {
+            "A": "+20 kN",
+            "B": "-20 kN",
+            "C": "+40 kN",
+            "D": "-40 kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "+40 kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20150531/bt20150531m42.gif?1532435354",
+        "model_answer": "(B) -20 kN",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) -20 kN",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 333,
+                    "total_tokens": 339,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--50665e3b-4051-4210-abe4-6e3ed9da8582-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 333,
+                "output_tokens": 6,
+                "total_tokens": 339,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_424",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5199999809265137,
+        "question": "What is the maximum required bending moment for a simply supported beam with a span of 8m, subjected to a uniformly distributed dead load of 15kN/m and a live load of 20kN/m?",
+        "options": {
+            "A": "200kN·m",
+            "B": "300kN·m",
+            "C": "400kN·m",
+            "D": "500kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "400kN·m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) 400kN·m",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) 400kN·m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 102,
+                    "total_tokens": 110,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5499c6ce-3ece-483f-ac75-c13a3093f004-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 102,
+                "output_tokens": 8,
+                "total_tokens": 110,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_570",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "If there are no beams or girders around an interior slab, the formula for calculating the slab's minimum thickness is ln/33. In this formula, what is the correct meaning of ln?",
+        "options": {
+            "A": "Clear span of the long side of the two-way slab",
+            "B": "Distance between column centers on the long side of the two-way slab",
+            "C": "Total perimeter length of the two-way slab",
+            "D": "Distance between column centers on the short side of the two-way slab"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Clear span of the long side of the two-way slab"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Distance between column centers on the long side of the two-way slab",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Distance between column centers on the long side of the two-way slab",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 15,
+                    "prompt_tokens": 118,
+                    "total_tokens": 133,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--68826a94-3e85-488c-ab95-46ce643cb087-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 118,
+                "output_tokens": 15,
+                "total_tokens": 133,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_404",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5400000214576721,
+        "question": "According to the strength design method, what is the minimum thickness of a simply supported concrete beam with a span of L=8m if deflection is not calculated?",
+        "options": {
+            "A": "400mm",
+            "B": "450mm",
+            "C": "500mm",
+            "D": "550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 400mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 400mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 79,
+                    "total_tokens": 84,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7e69abc4-bcd7-414f-9880-494483f255ca-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 79,
+                "output_tokens": 5,
+                "total_tokens": 84,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_220",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "What is the method for determining deflection by changing the support conditions so that the principle of the elastic load method can be applied?",
+        "options": {
+            "A": "Three-moment equation method",
+            "B": "Slope-deflection method",
+            "C": "Moment distribution method",
+            "D": "Conjugate beam method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Conjugate beam method"
+            },
+            "explanation": "The conjugate beam method involves modifying the actual beam so that the principle of the elastic load method can be applied not only to simply supported beams but also to general beams with other support conditions. After transforming the actual beam, the principle of the elastic load method is applied to the conjugate beam."
+        },
+        "image_path": null,
+        "model_answer": "(D) Conjugate beam method",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Conjugate beam method",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 78,
+                    "total_tokens": 85,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a0b29205-639b-40b8-aebd-50c7768cfb35-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 7,
+                "total_tokens": 85,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_940",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT a correct reason for installing boundary beams in block masonry?",
+        "options": {
+            "A": "To prevent vertical cracks caused by lateral forces.",
+            "B": "To unify load-bearing walls and distribute loads evenly.",
+            "C": "To transfer the loads from roofs, floors, and walls to load-bearing walls.",
+            "D": "To anchor the ends of horizontal reinforcement bars."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "To anchor the ends of horizontal reinforcement bars."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) To anchor the ends of horizontal reinforcement bars.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) To anchor the ends of horizontal reinforcement bars.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 92,
+                    "total_tokens": 103,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8737063e-16e1-46ef-873c-14b052d295dc-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 11,
+                "total_tokens": 103,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_24",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "If a shear force of 18kN is applied to a cross-section like the drawing, what is the maximum shear stress?",
+        "options": {
+            "A": "0.45MPa",
+            "B": "0.52MPa",
+            "C": "0.58MPa",
+            "D": "0.64MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "0.45MPa"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20200606/bt20200606m45.gif?1592947911",
+        "model_answer": "The formula for **maximum shear stress** in a rectangular section is:\n\n\\[\n\\tau_{max} = \\frac{3V}{2bd}\n\\]\n\nWhere:  \n- \\( V \\) = Shear force = 18 kN = 18,000 N  \n- \\( b \\) = width = 200 mm = 0.2 m  \n- \\( d \\) = depth = 300 mm = 0.3 m  \n\nPlugging in the values:\n\n\\[\n\\tau_{max} = \\frac{3 \\times 18000}{2 \\times 200 \\times 300}\n\\]\n\nConvert units to mm² for denominator:\n\n\\[\n\\tau_{max} = \\frac{3 \\times 18000}{2 \\times 200 \\times 300}\n= \\frac{54000}{120000}\n= 0.45\\, \\text{N/mm}^2 = 0.45\\, \\text{MPa}\n\\]\n\n**Answer:**  \n(A) 0.45MPa",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The formula for **maximum shear stress** in a rectangular section is:\n\n\\[\n\\tau_{max} = \\frac{3V}{2bd}\n\\]\n\nWhere:  \n- \\( V \\) = Shear force = 18 kN = 18,000 N  \n- \\( b \\) = width = 200 mm = 0.2 m  \n- \\( d \\) = depth = 300 mm = 0.3 m  \n\nPlugging in the values:\n\n\\[\n\\tau_{max} = \\frac{3 \\times 18000}{2 \\times 200 \\times 300}\n\\]\n\nConvert units to mm² for denominator:\n\n\\[\n\\tau_{max} = \\frac{3 \\times 18000}{2 \\times 200 \\times 300}\n= \\frac{54000}{120000}\n= 0.45\\, \\text{N/mm}^2 = 0.45\\, \\text{MPa}\n\\]\n\n**Answer:**  \n(A) 0.45MPa",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 215,
+                    "prompt_tokens": 339,
+                    "total_tokens": 554,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cd3f17e1-1137-4a18-adbf-c4bf94dc979e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 339,
+                "output_tokens": 215,
+                "total_tokens": 554,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_543",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "In reinforced concrete design, which of the following does NOT affect the bond strength of reinforcement?",
+        "options": {
+            "A": "Thickness of concrete cover",
+            "B": "Compressive strength of concrete",
+            "C": "Ribbed surface of the rebar",
+            "D": "Strength of the rebar"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Strength of the rebar"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Strength of the rebar",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Strength of the rebar",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 73,
+                    "total_tokens": 80,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--029b1e00-9d24-4075-bb64-5e3eb09ef9d1-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 73,
+                "output_tokens": 7,
+                "total_tokens": 80,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

@@ -30,9 +30,13 @@ def check_label(query: str, answer: str) -> str:
     """
     assistant = init_chat_model("openai:gpt-4.1").with_structured_output(JudgeResponse)
     prompt_temp = PromptManager("check-label", locale="en")
-    prompt = ChatPromptTemplate([
-        SystemMessage(content=prompt_temp.system),
-        HumanMessage(content=prompt_temp.human)  # .format(query="{query}", answer="{answer}"))
+    # Use templating so {query} and {answer} are injected at invoke time
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", prompt_temp.system),
+        ("human", prompt_temp.human.format(
+            query="{query}", 
+            answer="{answer}"
+        )),
     ])
     chain = prompt | assistant
 

@@ -1,8 +1,8 @@
 {
     "dev_Domain_Reasoning_1": {
-        "judge": "Wrong",
+        "judge": "Correct",
         "gt": "A",
-        "pred": "B"
+        "pred": "A"
     },
     "dev_Domain_Reasoning_2": {
         "judge": "Wrong",

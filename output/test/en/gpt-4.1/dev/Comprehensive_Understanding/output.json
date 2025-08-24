@@ -16,18 +16,18 @@
             "explanation": ""
         },
         "image_path": "A41-201.jpg",
-        "model_answer": "The rooftop core enlarged floor plan is shown in the upper right quadrant (marked as 도면 4, \"옥탑지붕 코어 확대평면도\"). The door at the rooftop core opens outward onto the roof, not inward into the stairwell.\n\nThis outward-swinging door is generally appropriate for rooftop access for safety and egress reasons, especially in emergencies (such as fire), as it allows for easier exit and does not block the stair landing. \n\n**Answer:**\n(A) Yes",
+        "model_answer": "The image shows four enlarged core floor plans, with the rooftop core plan located at the top right (labeled \"옥탑지붕 코어 확대평면도\").\n\nUpon reviewing the rooftop core plan, the door swings outward, away from the exit stair landing. This is the correct and standard practice for rooftop exits, ensuring that in an emergency, the door does not block escape routes or hinder egress from the stairs.\n\n**Answer:**\n(A) Yes\n\nThe door swing direction in the rooftop core enlarged floor plan is appropriate.",
         "parsed_pred": "A",
         "full_response": {
-            "content": "The rooftop core enlarged floor plan is shown in the upper right quadrant (marked as 도면 4, \"옥탑지붕 코어 확대평면도\"). The door at the rooftop core opens outward onto the roof, not inward into the stairwell.\n\nThis outward-swinging door is generally appropriate for rooftop access for safety and egress reasons, especially in emergencies (such as fire), as it allows for easier exit and does not block the stair landing. \n\n**Answer:**\n(A) Yes",
+            "content": "The image shows four enlarged core floor plans, with the rooftop core plan located at the top right (labeled \"옥탑지붕 코어 확대평면도\").\n\nUpon reviewing the rooftop core plan, the door swings outward, away from the exit stair landing. This is the correct and standard practice for rooftop exits, ensuring that in an emergency, the door does not block escape routes or hinder egress from the stairs.\n\n**Answer:**\n(A) Yes\n\nThe door swing direction in the rooftop core enlarged floor plan is appropriate.",
             "additional_kwargs": {
                 "refusal": null
             },
             "response_metadata": {
                 "token_usage": {
-                    "completion_tokens": 103,
+                    "completion_tokens": 109,
                     "prompt_tokens": 1195,
-                    "total_tokens": 1298,
+                    "total_tokens": 1304,
                     "completion_tokens_details": {
                         "audio_tokens": 0,
                         "reasoning_tokens": 0,
@@ -46,14 +46,14 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--7680f830-5d5b-4cd2-be79-ea1f7c5bf7a9-0",
+            "id": "run--64dfabf5-546d-4061-9e4b-cd98fd81ce23-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
             "usage_metadata": {
                 "input_tokens": 1195,
-                "output_tokens": 103,
-                "total_tokens": 1298,
+                "output_tokens": 109,
+                "total_tokens": 1304,
                 "input_token_details": {
                     "audio": 0,
                     "cache_read": 0
@@ -86,18 +86,18 @@
             "explanation": ""
         },
         "image_path": "A-1304.jpg",
-        "model_answer": "The image is a detailed architectural ceiling plan. Upon inspection, the AL (Aluminum) ceiling panel size is noted in several annotations across the drawing. The annotation \"AL T-BAR 600*1200\" can be seen in multiple locations.\n\nTherefore, the correct answer is:\n\n**(A) 1200*600**",
+        "model_answer": "The image is a detailed architectural ceiling plan drawing. Upon close inspection, the unit size for the AL (aluminum) ceiling panels on the first floor above ground is specified in multiple locations within the drawing as \"AL루버 1200*600\" (AL louver 1200*600).\n\n**Correct answer:**\n**(A) 1200*600**",
         "parsed_pred": "A",
         "full_response": {
-            "content": "The image is a detailed architectural ceiling plan. Upon inspection, the AL (Aluminum) ceiling panel size is noted in several annotations across the drawing. The annotation \"AL T-BAR 600*1200\" can be seen in multiple locations.\n\nTherefore, the correct answer is:\n\n**(A) 1200*600**",
+            "content": "The image is a detailed architectural ceiling plan drawing. Upon close inspection, the unit size for the AL (aluminum) ceiling panels on the first floor above ground is specified in multiple locations within the drawing as \"AL루버 1200*600\" (AL louver 1200*600).\n\n**Correct answer:**\n**(A) 1200*600**",
             "additional_kwargs": {
                 "refusal": null
             },
             "response_metadata": {
                 "token_usage": {
-                    "completion_tokens": 67,
+                    "completion_tokens": 76,
                     "prompt_tokens": 1232,
-                    "total_tokens": 1299,
+                    "total_tokens": 1308,
                     "completion_tokens_details": {
                         "audio_tokens": 0,
                         "reasoning_tokens": 0,
@@ -116,14 +116,14 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--d954d2dc-8b4c-45fb-ba98-3d47104a646b-0",
+            "id": "run--5a0424d9-3290-4e02-bc2a-2934a3069f3f-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
             "usage_metadata": {
                 "input_tokens": 1232,
-                "output_tokens": 67,
-                "total_tokens": 1299,
+                "output_tokens": 76,
+                "total_tokens": 1308,
                 "input_token_details": {
                     "audio": 0,
                     "cache_read": 0
@@ -156,18 +156,18 @@
             "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
         },
         "image_path": "A-1301.jpg",
-        "model_answer": "The image is a detailed architectural or engineering drawing of a parking lot ceiling plan. Upon close examination, the annotation in the drawing (written in Korean) specifies \"RACE WAY TYPE FLUORESCENT LIGHT\" (레이스웨이형 형광등) for the parking lot lighting.\n\nThe correct answer is:\n(A) RACE WAY TYPE fluorescent light",
+        "model_answer": "The image provided is a detailed architectural or engineering plan for a parking lot. Upon inspection, in the legend and the ceiling plan, the type of fluorescent light used in the parking lot is specified as \"RACE WAY TYPE fluorescent light.\"\n\n**Correct answer:**\n(A) RACE WAY TYPE fluorescent light",
         "parsed_pred": "A",
         "full_response": {
-            "content": "The image is a detailed architectural or engineering drawing of a parking lot ceiling plan. Upon close examination, the annotation in the drawing (written in Korean) specifies \"RACE WAY TYPE FLUORESCENT LIGHT\" (레이스웨이형 형광등) for the parking lot lighting.\n\nThe correct answer is:\n(A) RACE WAY TYPE fluorescent light",
+            "content": "The image provided is a detailed architectural or engineering plan for a parking lot. Upon inspection, in the legend and the ceiling plan, the type of fluorescent light used in the parking lot is specified as \"RACE WAY TYPE fluorescent light.\"\n\n**Correct answer:**\n(A) RACE WAY TYPE fluorescent light",
             "additional_kwargs": {
                 "refusal": null
             },
             "response_metadata": {
                 "token_usage": {
-                    "completion_tokens": 71,
+                    "completion_tokens": 60,
                     "prompt_tokens": 1221,
-                    "total_tokens": 1292,
+                    "total_tokens": 1281,
                     "completion_tokens_details": {
                         "audio_tokens": 0,
                         "reasoning_tokens": 0,
@@ -186,14 +186,14 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--da8a2047-4f46-4e74-a02e-7cd8b4c1bf5e-0",
+            "id": "run--350d7993-7917-443c-a720-5c029fbed026-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
             "usage_metadata": {
                 "input_tokens": 1221,
-                "output_tokens": 71,
-                "total_tokens": 1292,
+                "output_tokens": 60,
+                "total_tokens": 1281,
                 "input_token_details": {
                     "audio": 0,
                     "cache_read": 0

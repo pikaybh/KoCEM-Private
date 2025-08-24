@@ -19,7 +19,7 @@
         },
         "image_path": null,
         "model_answer": "No image provided.",
-        "parsed_pred": "Unknown",
+        "parsed_pred": "C",
         "full_response": {
             "content": "No image provided.",
             "additional_kwargs": {
@@ -48,7 +48,7 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--620786f7-9ea6-4e3f-bb6c-ecd35e3a76e0-0",
+            "id": "run--51e31c26-33d8-4064-bfe6-b0a9deb613ff-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
@@ -66,7 +66,7 @@
                 }
             }
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     },
     {
         "id": "dev_Building_System_734",
@@ -111,13 +111,13 @@
                     }
                 },
                 "model_name": "gpt-4.1-2025-04-14",
-                "system_fingerprint": "fp_daf5fcc80a",
+                "system_fingerprint": "fp_3502f4eb73",
                 "finish_reason": "stop",
                 "logprobs": null
             },
             "type": "ai",
             "name": null,
-            "id": "run--2d2b7daa-0abe-4d8b-b493-36e679c92133-0",
+            "id": "run--6c9c0bdc-0d01-4f85-adb0-dcd8c7fdb2d5-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
@@ -186,7 +186,7 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--05959c43-7634-44bb-bfdc-2b35e321f310-0",
+            "id": "run--ae94a731-1863-4246-927d-dd01e44718d1-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
@@ -255,7 +255,7 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--3ae3d187-87b6-49d1-adcb-94d0d28548e3-0",
+            "id": "run--02fcc69d-6927-4b2c-9309-c364a37abee4-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
@@ -318,13 +318,13 @@
                     }
                 },
                 "model_name": "gpt-4.1-2025-04-14",
-                "system_fingerprint": "fp_3502f4eb73",
+                "system_fingerprint": "fp_51e1070cf2",
                 "finish_reason": "stop",
                 "logprobs": null
             },
             "type": "ai",
             "name": null,
-            "id": "run--b8a9b3c7-2393-40ba-b903-9cb8c7990e94-0",
+            "id": "run--93806522-69b8-49e5-87c4-71e7d0864c44-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],

@@ -1,0 +1,212 @@
+[
+    {
+        "id": "dev_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the structural type of the community center?",
+        "options": {
+            "A": "Reinforced concrete structure",
+            "B": "Steel frame structure",
+            "C": "Wooden structure",
+            "D": "Aluminum frame structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reinforced concrete structure"
+            },
+            "explanation": "The structural system is specified as reinforced concrete structure in the design conditions section of the architectural overview."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "(A) Reinforced concrete structure",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Reinforced concrete structure",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 1166,
+                    "total_tokens": 1172,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--08ce6138-d02f-480f-aad9-59079466a0f9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1166,
+                "output_tokens": 6,
+                "total_tokens": 1172,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Considering the required evacuation capacity for the 5th floor of the training facility, what is the minimum total effective width of stairs 1 and 2?",
+        "options": {
+            "A": "4,200 mm",
+            "B": "4,800 mm",
+            "C": "5,400 mm",
+            "D": "6,000 mm",
+            "E": "7,200 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "4,800 mm"
+            },
+            "explanation": "The maximum evacuation capacity per floor is 600 people, and with a minimum effective stair width of 7 mm per person, the minimum required width is 600 × 7 mm = 4,200 mm. However, since 4,200 mm is not listed among the options and to allow for a design margin, 4,800 mm or more is chosen."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "(B) 4,800 mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 4,800 mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 1198,
+                    "total_tokens": 1205,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c08c81ef-a052-43f4-8ddd-d7ff4530e040-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1198,
+                "output_tokens": 7,
+                "total_tokens": 1205,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is correct regarding the arrangement and cross-sectional dimensions of the columns on the first and second floors?",
+        "options": {
+            "A": "The arrangement of columns on the first and second floors should be different.",
+            "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor.",
+            "C": "There are more columns on the second floor than on the first floor.",
+            "D": "The columns on the second floor are not made of the same material as those on the first floor.",
+            "E": "The arrangement of columns on the first and second floors is unrelated."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor."
+            },
+            "explanation": "According to the guidelines, the arrangement and cross-sectional dimensions of the columns on the first and second floors must be the same."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "B",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 1243,
+                    "total_tokens": 1244,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2c2f0fc8-f58f-4735-b9bf-96291cf99b34-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1243,
+                "output_tokens": 1,
+                "total_tokens": 1244,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

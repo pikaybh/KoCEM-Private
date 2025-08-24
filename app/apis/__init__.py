@@ -2,13 +2,14 @@ from llms import llm_models
 
 from .standalone import GPUFreeAPI
 from .from_langserve import RemoteAPI
-from .from_vllm import VLLMOpenAIAPI
+from .from_vllm import VLLMAPI
 
 
 module = {
     "anthropic": GPUFreeAPI,
     "google": GPUFreeAPI,
     "openai": GPUFreeAPI,
+    "Qwen": VLLMAPI,
 }
 
 for kprovider, vapi in module.items():

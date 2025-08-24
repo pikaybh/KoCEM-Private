@@ -18,18 +18,18 @@
             "explanation": ""
         },
         "image_path": null,
-        "model_answer": "No image provided.",
-        "parsed_pred": "Unknown",
+        "model_answer": "No image provided.\n\nThe correct answer is:  \n(B) The ratio of rentable area to total floor area.\n\nIn office building construction, the 'efficiency rate' typically refers to how much of the total floor area is actually rentable (usable by tenants), expressed as a percentage.",
+        "parsed_pred": "B",
         "full_response": {
-            "content": "No image provided.",
+            "content": "No image provided.\n\nThe correct answer is:  \n(B) The ratio of rentable area to total floor area.\n\nIn office building construction, the 'efficiency rate' typically refers to how much of the total floor area is actually rentable (usable by tenants), expressed as a percentage.",
             "additional_kwargs": {
                 "refusal": null
             },
             "response_metadata": {
                 "token_usage": {
-                    "completion_tokens": 4,
+                    "completion_tokens": 56,
                     "prompt_tokens": 131,
-                    "total_tokens": 135,
+                    "total_tokens": 187,
                     "completion_tokens_details": {
                         "audio_tokens": 0,
                         "reasoning_tokens": 0,
@@ -48,14 +48,14 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--57f88882-3a80-45c4-b1dd-c76e32a78802-0",
+            "id": "run--520bd1a9-2e3f-4228-8acc-e5c1e6d4a66a-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
             "usage_metadata": {
                 "input_tokens": 131,
-                "output_tokens": 4,
-                "total_tokens": 135,
+                "output_tokens": 56,
+                "total_tokens": 187,
                 "input_token_details": {
                     "audio": 0,
                     "cache_read": 0
@@ -66,7 +66,7 @@
                 }
             }
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     },
     {
         "id": "dev_Architectural_Planning_1067",
@@ -111,13 +111,13 @@
                     }
                 },
                 "model_name": "gpt-4.1-2025-04-14",
-                "system_fingerprint": "fp_daf5fcc80a",
+                "system_fingerprint": "fp_51e1070cf2",
                 "finish_reason": "stop",
                 "logprobs": null
             },
             "type": "ai",
             "name": null,
-            "id": "run--5898c53d-da26-4a4d-94b3-3afc58f11078-0",
+            "id": "run--95445c1d-7fd6-4e48-89bc-3b5cd7529e9f-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
@@ -180,13 +180,13 @@
                     }
                 },
                 "model_name": "gpt-4.1-2025-04-14",
-                "system_fingerprint": "fp_daf5fcc80a",
+                "system_fingerprint": "fp_62bb2e3c55",
                 "finish_reason": "stop",
                 "logprobs": null
             },
             "type": "ai",
             "name": null,
-            "id": "run--469f44de-dc51-4ddc-a519-e6b95ba128b4-0",
+            "id": "run--726b8e0c-50e1-4a18-8a89-982c12d41e06-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],

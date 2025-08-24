@@ -7,9 +7,11 @@ def evaluate_total(
     model: str,
     split: str,
     prompt: str = "mcqa",
-    locale: str = "en"
+    locale: str = "en",
+    **kwargs
 ) -> dict:
-    root_dir = os.getenv("OUTPUT_PATH", "outputs")
+    # Use the project-wide default folder name 'output' if env is not set
+    root_dir = os.getenv("OUTPUT_PATH", "output")
     output_path = os.path.join(root_dir, prompt, locale, model, split)
 
     pred_correct = 0
@@ -23,10 +25,14 @@ def evaluate_total(
     # dimension 별 정답 통계 수집
     dim_correct_lists: dict[str, list[int]] = {}
 
-    for folder in os.listdir(output_path):
-        path_ = os.path.join(output_path, folder, "evaluation.json")
-        data = load_json(path_)
-        dim = subject_to_dimension.get(folder)
+    for entry in os.listdir(output_path):
+        subject_dir = os.path.join(output_path, entry)
+        eval_file = os.path.join(subject_dir, "evaluation.json")
+        # Skip non-subject entries (e.g., result_*.json files) and missing evaluations
+        if not os.path.isdir(subject_dir) or not os.path.exists(eval_file):
+            continue
+        data = load_json(eval_file)
+        dim = subject_to_dimension.get(entry)
         if dim and dim not in dim_correct_lists:
             dim_correct_lists[dim] = []
         for _, result in data.items():

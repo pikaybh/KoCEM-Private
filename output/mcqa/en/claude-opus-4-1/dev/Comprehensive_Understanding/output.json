@@ -1,0 +1,191 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "Looking at the rooftop core enlarged floor plans, I can see several door swing directions marked throughout the layouts. \n\nIn examining the door swings, particularly in critical areas like stairwells and emergency exits, I notice that the doors appear to swing in the direction of egress (outward from the enclosed spaces), which is appropriate for emergency evacuation routes. The stairwell doors and other exit doors seem to follow proper building code requirements for life safety.\n\nThe door swings shown in the plans appear to be appropriately oriented for their respective functions and locations, following standard architectural practices for rooftop mechanical spaces and emergency egress requirements.\n\n**(A) Yes**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the rooftop core enlarged floor plans, I can see several door swing directions marked throughout the layouts. \n\nIn examining the door swings, particularly in critical areas like stairwells and emergency exits, I notice that the doors appear to swing in the direction of egress (outward from the enclosed spaces), which is appropriate for emergency evacuation routes. The stairwell doors and other exit doors seem to follow proper building code requirements for life safety.\n\nThe door swings shown in the plans appear to be appropriately oriented for their respective functions and locations, following standard architectural practices for rooftop mechanical spaces and emergency egress requirements.\n\n**(A) Yes**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01EcmpzHqpXnzAYot5kmsvfB",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 1599,
+                    "output_tokens": 144,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--17389456-3cb2-48ee-b956-0e0e22e056ad-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1599,
+                "output_tokens": 144,
+                "total_tokens": 1743,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "Looking at the architectural drawing, I can see the ceiling panel layout for the first floor. The drawing shows a grid pattern of ceiling panels with dimensions marked.\n\nIn the legend/specification table on the right side of the drawing, I can see information about the ceiling panels. The grid pattern shown throughout the ceiling areas appears to be consistently sized.\n\nBased on the grid dimensions shown in the drawing and the standard sizing typically used for aluminum ceiling panels in this type of construction, the unit dimensions are 1200mm × 600mm.\n\nThe answer is **(A) 1200*600**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the architectural drawing, I can see the ceiling panel layout for the first floor. The drawing shows a grid pattern of ceiling panels with dimensions marked.\n\nIn the legend/specification table on the right side of the drawing, I can see information about the ceiling panels. The grid pattern shown throughout the ceiling areas appears to be consistently sized.\n\nBased on the grid dimensions shown in the drawing and the standard sizing typically used for aluminum ceiling panels in this type of construction, the unit dimensions are 1200mm × 600mm.\n\nThe answer is **(A) 1200*600**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01SVMs6PCty3U8jrjEeSUH95",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 1637,
+                    "output_tokens": 125,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--89f0ac79-be75-4d2e-93f0-d94173398173-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1637,
+                "output_tokens": 125,
+                "total_tokens": 1762,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "Looking at the parking lot lighting plan shown in this drawing, I can see that the lighting fixtures installed in the parking area are labeled and depicted with specific symbols throughout the parking spaces.\n\nBased on the drawing details and typical parking lot lighting specifications shown, the answer is:\n\n(A) RACE WAY TYPE fluorescent light",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the parking lot lighting plan shown in this drawing, I can see that the lighting fixtures installed in the parking area are labeled and depicted with specific symbols throughout the parking spaces.\n\nBased on the drawing details and typical parking lot lighting specifications shown, the answer is:\n\n(A) RACE WAY TYPE fluorescent light",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01KgD7fATNuffReLFnGJW48s",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 1637,
+                    "output_tokens": 69,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ae19fa61-d16f-431d-9422-b7b744e8ffec-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1637,
+                "output_tokens": 69,
+                "total_tokens": 1706,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

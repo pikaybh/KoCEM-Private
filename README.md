@@ -10,11 +10,11 @@
 
 <table>
 <thead>
-<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th><th>Domain_Reasoning</th></tr>
+<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th><th>Domain_Reasoning</th><th>Drawing_Interpretation</th><th>Interior</th><th>Materials</th><th>Safety_Management</th><th>Standard_Nomenclature</th><th>Structural_Engineering</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>claude-opus-4-1</td><td>75.00%</td><td>66.67%</td><td>80.00%</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>2</td><td>gpt-4.1</td><td>68.42%</td><td>66.67%</td><td>80.00%</td><td>66.67%</td><td>100.00%</td><td>0.00%</td></tr>
+<tr><td>1</td><td>claude-opus-4-1</td><td>81.82%</td><td>66.67%</td><td>80.00%</td><td>100.00%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>2</td><td>gpt-4.1</td><td>78.72%</td><td>66.67%</td><td>80.00%</td><td>66.67%</td><td>100.00%</td><td>33.33%</td><td>100.00%</td><td>83.33%</td><td>87.50%</td><td>75.00%</td><td>100.00%</td><td>0.00%</td></tr>
 </tbody>
 </table>
 
@@ -22,11 +22,11 @@
 
 <table>
 <thead>
-<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th></tr>
+<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th><th>Domain_Reasoning</th><th>Drawing_Interpretation</th><th>Interior</th><th>Materials</th><th>Safety_Management</th><th>Standard_Nomenclature</th><th>Structural_Engineering</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>claude-opus-4-1</td><td>79.83%</td><td>79.83%</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>2</td><td>gpt-4.1</td><td>73.73%</td><td>75.92%</td><td>78.75%</td><td>45.96%</td><td>77.05%</td></tr>
+<tr><td>1</td><td>claude-opus-4-1</td><td>81.52%</td><td>79.83%</td><td>83.65%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>2</td><td>gpt-4.1</td><td>72.74%</td><td>75.92%</td><td>78.75%</td><td>45.96%</td><td>77.05%</td><td>47.84%</td><td>48.36%</td><td>64.15%</td><td>84.77%</td><td>73.14%</td><td>99.56%</td><td>54.68%</td></tr>
 </tbody>
 </table>
 
@@ -34,11 +34,11 @@
 
 <table>
 <thead>
-<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th></tr>
+<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th><th>Domain_Reasoning</th><th>Drawing_Interpretation</th><th>Interior</th><th>Materials</th><th>Safety_Management</th><th>Standard_Nomenclature</th><th>Structural_Engineering</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>claude-opus-4-1</td><td>80.49%</td><td>80.49%</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>2</td><td>gpt-4.1</td><td>59.79%</td><td>80.49%</td><td>81.63%</td><td>45.22%</td><td>70.59%</td></tr>
+<tr><td>1</td><td>claude-opus-4-1</td><td>82.22%</td><td>80.49%</td><td>83.67%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>2</td><td>gpt-4.1</td><td>69.55%</td><td>80.49%</td><td>81.63%</td><td>45.22%</td><td>70.59%</td><td>40.00%</td><td>55.56%</td><td>82.61%</td><td>90.70%</td><td>85.37%</td><td>100.00%</td><td>58.82%</td></tr>
 </tbody>
 </table>
 
@@ -46,11 +46,11 @@
 
 <table>
 <thead>
-<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th><th>Domain_Reasoning</th></tr>
+<tr><th>Rank</th><th>Model</th><th>Total</th><th>Architectural_Planning</th><th>Building_System</th><th>Comprehensive_Understanding</th><th>Construction_Management</th><th>Domain_Reasoning</th><th>Drawing_Interpretation</th><th>Interior</th><th>Materials</th><th>Safety_Management</th><th>Standard_Nomenclature</th><th>Structural_Engineering</th></tr>
 </thead>
 <tbody>
-<tr><td>1</td><td>claude-opus-4-1</td><td>79.80%</td><td>79.80%</td><td>80.00%</td><td>-</td><td>-</td><td>-</td></tr>
-<tr><td>2</td><td>gpt-4.1</td><td>71.47%</td><td>76.24%</td><td>79.10%</td><td>45.79%</td><td>76.85%</td><td>0.00%</td></tr>
+<tr><td>1</td><td>claude-opus-4-1</td><td>81.59%</td><td>79.80%</td><td>83.61%</td><td>100.00%</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+<tr><td>2</td><td>gpt-4.1</td><td>72.43%</td><td>76.24%</td><td>79.10%</td><td>45.79%</td><td>76.85%</td><td>47.39%</td><td>50.00%</td><td>66.50%</td><td>85.37%</td><td>74.35%</td><td>99.60%</td><td>54.76%</td></tr>
 </tbody>
 </table>
 

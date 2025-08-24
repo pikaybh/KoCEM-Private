@@ -16,18 +16,18 @@
             "explanation": "(1) Determining $\\beta_1$ and $\\varepsilon_{cu}$\n\nSince $f_{ck} \\leq 40$MPa, $\\beta_1 = 0.80$ and $\\varepsilon_{cu} = 0.0033$.\n\n(2) Calculating the depth of the equivalent rectangular stress block $a$\n\n$ a = \\frac{A_s f_y}{0.85 f_{ck} b} = \\frac{(387 \\times 3) \\times 400}{0.85 \\times 21 \\times 300} = 86.7 $ mm\n\n(3) Strength reduction factor $\\phi$\n\n$ c = \\frac{a}{\\beta_1} = \\frac{86.7}{0.80} = 108.4 $ mm\n\n$ \\varepsilon_t = \\left( \\frac{d_t - c}{c} \\right) \\varepsilon_{cu} = \\left( \\frac{550 - 108.4}{108.4} \\right) \\times 0.0033 = 0.0134 $\n\nSince $\\varepsilon_t = 0.0134 \\geq \\varepsilon_{tt} = 0.0050$, the section is tension-controlled.\n\nTherefore, $\\phi = 0.85$ (appropriate).\n\nNote: If the net tensile strain of the outermost tension reinforcement $\\varepsilon_t$ is greater than or equal to 0.0050, the section is tension-controlled, and the strength reduction factor $\\phi = 0.85$ is appropriate."
         },
         "image_path": "스크린샷 2024-10-19 231620.png",
-        "model_answer": "(B) Inappropriate",
-        "parsed_pred": "B",
+        "model_answer": "(A) Appropriate",
+        "parsed_pred": "A",
         "full_response": {
-            "content": "(B) Inappropriate",
+            "content": "(A) Appropriate",
             "additional_kwargs": {
                 "refusal": null
             },
             "response_metadata": {
                 "token_usage": {
-                    "completion_tokens": 4,
+                    "completion_tokens": 3,
                     "prompt_tokens": 354,
-                    "total_tokens": 358,
+                    "total_tokens": 357,
                     "completion_tokens_details": {
                         "audio_tokens": 0,
                         "reasoning_tokens": 0,
@@ -40,20 +40,20 @@
                     }
                 },
                 "model_name": "gpt-4.1-2025-04-14",
-                "system_fingerprint": "fp_daf5fcc80a",
+                "system_fingerprint": "fp_51e1070cf2",
                 "finish_reason": "stop",
                 "logprobs": null
             },
             "type": "ai",
             "name": null,
-            "id": "run--5a256cad-f26f-4e35-bd6c-71b754158ee5-0",
+            "id": "run--b7697fcf-bc11-4e1f-bf65-7c90e1cb00fb-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
             "usage_metadata": {
                 "input_tokens": 354,
-                "output_tokens": 4,
-                "total_tokens": 358,
+                "output_tokens": 3,
+                "total_tokens": 357,
                 "input_token_details": {
                     "audio": 0,
                     "cache_read": 0
@@ -64,7 +64,7 @@
                 }
             }
         },
-        "judge": "Wrong"
+        "judge": "Correct"
     },
     {
         "id": "dev_Domain_Reasoning_2",
@@ -110,13 +110,13 @@
                     }
                 },
                 "model_name": "gpt-4.1-2025-04-14",
-                "system_fingerprint": "fp_3502f4eb73",
+                "system_fingerprint": "fp_daf5fcc80a",
                 "finish_reason": "stop",
                 "logprobs": null
             },
             "type": "ai",
             "name": null,
-            "id": "run--7310788c-d034-4da4-a026-bd6863cfaeaa-0",
+            "id": "run--0404f52e-c0de-4b6a-8258-c0f9d8b290ef-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],
@@ -186,7 +186,7 @@
             },
             "type": "ai",
             "name": null,
-            "id": "run--2e2b45d9-69e8-4c50-825e-14490cba80d4-0",
+            "id": "run--45b497d5-7be6-4ef9-a9a8-2e8dc47f3439-0",
             "example": false,
             "tool_calls": [],
             "invalid_tool_calls": [],

@@ -1,8 +1,8 @@
 {
     "dev_Architectural_Planning_1222": {
-        "judge": "Wrong",
+        "judge": "Correct",
         "gt": "B",
-        "pred": "Unknown"
+        "pred": "B"
     },
     "dev_Architectural_Planning_1067": {
         "judge": "Wrong",

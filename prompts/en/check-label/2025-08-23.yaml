@@ -5,8 +5,8 @@ system: |
   If the answer does not match any of the choices or resigns to answer, respond with "Unknown".
 human: |
   <Question>
-    {query}
+  {query}
   </Question>
   <Answer>
-    {answer}
+  {answer}
   </Answer>

@@ -1,0 +1,2831 @@
+[
+    {
+        "id": "val_Safety_Management_3002",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT a correct installation standard for temporary passageway structures?",
+        "options": {
+            "A": "The slope should be 30 degrees or less.",
+            "B": "If the slope exceeds 20 degrees, the structure should be non-slip.",
+            "C": "For scaffold stairs used in construction work that are 8 meters or higher, landings should be installed at intervals of no more than 7 meters.",
+            "D": "If the length of a temporary passageway installed in a vertical shaft is 15 meters or more, landings should be installed at intervals of no more than 10 meters."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "If the slope exceeds 20 degrees, the structure should be non-slip."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "D",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 137,
+                    "total_tokens": 138,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--bd7455f6-438a-4599-9276-048b79b75d0a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 137,
+                "output_tokens": 1,
+                "total_tokens": 138,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_624",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which of the following statements about the lecture method is incorrect?",
+        "options": {
+            "A": "It results in a high level of concentration and interest.",
+            "B": "It allows a large amount of content to be taught in a short time.",
+            "C": "It can be used to teach a large audience.",
+            "D": "It is advantageous when introducing or starting a lesson."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It results in a high level of concentration and interest."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) It results in a high level of concentration and interest.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) It results in a high level of concentration and interest.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 13,
+                    "prompt_tokens": 89,
+                    "total_tokens": 102,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d7b3e8bd-0b8f-42e3-be32-fea7bb80f7b8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 13,
+                "total_tokens": 102,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4457",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "What is it called when the importance of human relationships is implied to have as much influence on productivity as work and workspace design?",
+        "options": {
+            "A": "Five stages of human needs",
+            "B": "Theory X and Y",
+            "C": "Effects of human resource development",
+            "D": "Hawthorne effect"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Hawthorne effect"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Hawthorne effect",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Hawthorne effect",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 76,
+                    "total_tokens": 81,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--488af60c-41ec-423b-b43e-c73f17f71a81-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 5,
+                "total_tokens": 81,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2225",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "What is the probability of system A below?",
+        "options": {
+            "A": "0.64",
+            "B": "0.82",
+            "C": "0.92",
+            "D": "0.97"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "0.97"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/nj/nj20050306/nj20050306m55.gif?1501188877",
+        "model_answer": "(D) 0.97",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) 0.97",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 314,
+                    "total_tokens": 320,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--589d8a32-de65-4db7-9be1-c5e4fc8feeaf-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 314,
+                "output_tokens": 6,
+                "total_tokens": 320,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_408",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is not a type of biorhythm?",
+        "options": {
+            "A": "Intellectual rhythm",
+            "B": "Physical rhythm",
+            "C": "Emotional rhythm",
+            "D": "Neural rhythm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Neural rhythm"
+            },
+            "explanation": "Physical rhythm - 23 days cycle, Emotional rhythm - 28 days cycle, Intellectual rhythm - 33 days cycle."
+        },
+        "image_path": null,
+        "model_answer": "(D) Neural rhythm",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Neural rhythm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 55,
+                    "total_tokens": 59,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f01f90ce-6140-4219-8039-c9fdf076c700-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 55,
+                "output_tokens": 4,
+                "total_tokens": 59,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4949",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7300000190734863,
+        "question": "What is the wind speed threshold at which steel frame work must be stopped?",
+        "options": {
+            "A": "When the wind speed exceeds 10 meters per second",
+            "B": "When the wind speed exceeds 10 meters per minute",
+            "C": "When the wind speed exceeds 1 meter per second",
+            "D": "When the wind speed exceeds 1 meter per minute"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "When the wind speed exceeds 10 meters per second"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) When the wind speed exceeds 10 meters per second",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) When the wind speed exceeds 10 meters per second",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 12,
+                    "prompt_tokens": 89,
+                    "total_tokens": 101,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ec442994-d2d0-4221-863d-a3ceae04b2bd-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 12,
+                "total_tokens": 101,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1730",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT classified as an independent action error according to Swain's classification of human error?",
+        "options": {
+            "A": "omission error",
+            "B": "commission error",
+            "C": "extraneous error",
+            "D": "command error"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "command error"
+            },
+            "explanation": "According to Swain's classification of human error: ① omission error: failure to perform necessary actions or procedures; ② time error: errors due to delays in performing necessary actions or procedures; ③ commission error: improper performance of necessary actions or procedures; ④ sequential error: errors due to performing actions or procedures in the wrong order; ⑤ qualitative error: performing too little or too much of an action; ⑥ extraneous error: performing actions unrelated to the task. 'Command error' is not included in this classification of independent action errors."
+        },
+        "image_path": null,
+        "model_answer": "(D) command error",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) command error",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 65,
+                    "total_tokens": 69,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7385533d-9122-4df5-bc8b-2181baa4ef2f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 65,
+                "output_tokens": 4,
+                "total_tokens": 69,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4550",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which interior surface should have the lowest reflectance?",
+        "options": {
+            "A": "Wall",
+            "B": "Ceiling",
+            "C": "Floor",
+            "D": "Furniture"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Floor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Floor",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Floor",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 3,
+                    "prompt_tokens": 48,
+                    "total_tokens": 51,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--41c4f578-ecb9-4c19-8b14-afc0ca3f096b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 48,
+                "output_tokens": 3,
+                "total_tokens": 51,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_156",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "Which of the following is least related to Thorndike’s laws of learning by trial and error?",
+        "options": {
+            "A": "Law of Effect",
+            "B": "Law of Exercise",
+            "C": "Law of Identity",
+            "D": "Law of Readiness"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Law of Identity"
+            },
+            "explanation": "Trial-and-error theory includes: 1) Law of Exercise (Repetition), 2) Law of Readiness, 3) Law of Effect."
+        },
+        "image_path": null,
+        "model_answer": "(C) Law of Identity",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Law of Identity",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 67,
+                    "total_tokens": 72,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--fa374802-4d3e-4ab2-974c-9e2173529505-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 67,
+                "output_tokens": 5,
+                "total_tokens": 72,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2755",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "In the standard penetration test, what is the relative density of sand when the number of blows (N) required for a 30cm penetration is 50 or more?",
+        "options": {
+            "A": "Very loose.",
+            "B": "Loose.",
+            "C": "Medium.",
+            "D": "Very dense."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Very dense."
+            },
+            "explanation": "Number of blows 0~4: very soft, 4~10: soft, 10~30: medium, 30~50: dense, more than 50: very dense."
+        },
+        "image_path": null,
+        "model_answer": "(D) Very dense.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Very dense.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 75,
+                    "total_tokens": 80,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--053557e3-34fd-4f8f-8bdc-eb7963ed678e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 75,
+                "output_tokens": 5,
+                "total_tokens": 80,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3834",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7200000286102295,
+        "question": "Which of the following is the least relevant to ergonomic principles for arranging components in the workplace?",
+        "options": {
+            "A": "First-in, first-out principle",
+            "B": "Principle of frequency of use",
+            "C": "Principle of importance",
+            "D": "Principle of functionality"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "First-in, first-out principle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) First-in, first-out principle",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) First-in, first-out principle",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 69,
+                    "total_tokens": 77,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5320997f-0e06-44aa-b6eb-ca8809101e6b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 69,
+                "output_tokens": 8,
+                "total_tokens": 77,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2559",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "In the construction industry, what is the correct criterion for bridge construction projects that require the submission of a hazardous risk prevention plan?",
+        "options": {
+            "A": "Bridge construction projects with a maximum span length of 40m or more.",
+            "B": "Bridge construction projects with a maximum span length of 50m or more.",
+            "C": "Bridge construction projects with a maximum span length of 60m or more.",
+            "D": "Bridge construction projects with a maximum span length of 70m or more."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Bridge construction projects with a maximum span length of 50m or more."
+            },
+            "explanation": "A hazardous risk prevention plan must be submitted for buildings or structures with a height of 31 meters or more above ground, buildings with a total floor area of 30,000 square meters, certain facilities with a total floor area of 5,000 square meters, refrigeration/freezing warehouse facilities with a floor area of 5,000 square meters, bridge construction projects with a maximum span length of 50 meters or more, tunnel construction projects, dam construction projects with a storage capacity of 20 million tons or more, and excavation projects deeper than 10 meters."
+        },
+        "image_path": null,
+        "model_answer": "(C) Bridge construction projects with a maximum span length of 60m or more.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Bridge construction projects with a maximum span length of 60m or more.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 17,
+                    "prompt_tokens": 116,
+                    "total_tokens": 133,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a79cf9eb-1833-413c-bd39-621f0b0962ce-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 116,
+                "output_tokens": 17,
+                "total_tokens": 133,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1553",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5299999713897705,
+        "question": "What is the most appropriate standard for designing the seat height of a chair used by many people?",
+        "options": {
+            "A": "5th percentile popliteal height",
+            "B": "50th percentile popliteal height",
+            "C": "75th percentile popliteal height",
+            "D": "95th percentile popliteal height"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "5th percentile popliteal height"
+            },
+            "explanation": "[Principles of ergonomic chair design] ● Maintain lumbar lordosis. ● Apply adjustable design principles. ● The anthropometric measurements to consider differ depending on posture and movement. ● For chairs used by many people, the seat height should be slightly lower than the popliteal height (5th percentile). ● This reduces the pressure on the intervertebral discs and the static load on the back muscles. ● It also reduces postural fixation."
+        },
+        "image_path": null,
+        "model_answer": "(A) 5th percentile popliteal height",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 5th percentile popliteal height",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 10,
+                    "prompt_tokens": 85,
+                    "total_tokens": 95,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--617910e7-8dc0-4c90-941d-d8e595484cd9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 85,
+                "output_tokens": 10,
+                "total_tokens": 95,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_80",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6600000262260437,
+        "question": "Which of the following is NOT a physiological phenomenon related to mental strength among the factors causing accidents due to poor mental state?",
+        "options": {
+            "A": "Abnormalities of the nervous system",
+            "B": "Exceeding physical abilities",
+            "C": "Abnormalities in vision and hearing",
+            "D": "Excessive pride and arrogance"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Excessive pride and arrogance"
+            },
+            "explanation": "Physiological phenomena related to mental strength include abnormalities in vision and hearing, abnormalities of the nervous system, exceeding physical abilities, improper muscle movement, and extreme fatigue. Excessive pride and arrogance are elements of personality defects. Elements of personality defects include excessive pride and arrogance, a hot temper and lack of patience, weak will, prolonged negative emotions, a challenging personality, carelessness, excessive obsession, exclusiveness, and laziness."
+        },
+        "image_path": null,
+        "model_answer": "(D) Excessive pride and arrogance",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Excessive pride and arrogance",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 82,
+                    "total_tokens": 89,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--11e21b1e-e17f-4caa-9bbc-aeee99a15089-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 82,
+                "output_tokens": 7,
+                "total_tokens": 89,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4528",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which type of human error can be eliminated through safety education?",
+        "options": {
+            "A": "command error",
+            "B": "multi error",
+            "C": "primary error",
+            "D": "secondary error"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "primary error"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) primary error",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) primary error",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 54,
+                    "total_tokens": 58,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d898b38a-a588-49c1-9d44-619f3bb1d1a0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 54,
+                "output_tokens": 4,
+                "total_tokens": 58,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_426",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is least characteristic of audiovisual teaching methods?",
+        "options": {
+            "A": "They allow for the structuring of teaching materials.",
+            "B": "It is difficult to organize large-scale class systems.",
+            "C": "They enable diversity and efficiency in learning.",
+            "D": "They can provide learners with shared experiences."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "It is difficult to organize large-scale class systems."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) It is difficult to organize large-scale class systems.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) It is difficult to organize large-scale class systems.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 12,
+                    "prompt_tokens": 79,
+                    "total_tokens": 91,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9e4196f7-d592-4bd7-a0f5-b0fead81f684-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 79,
+                "output_tokens": 12,
+                "total_tokens": 91,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1406",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "Which component arrangement principle involves prioritizing components based on the extent to which their performance is critical to achieving system objectives?",
+        "options": {
+            "A": "Principle of importance",
+            "B": "Principle of frequency of use",
+            "C": "Principle of order of use",
+            "D": "Principle of functional arrangement"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Principle of importance"
+            },
+            "explanation": "Principle of importance: The priority of components is determined according to the degree to which their performance is vital to achieving the system's objectives."
+        },
+        "image_path": null,
+        "model_answer": "(A) Principle of importance",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Principle of importance",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 74,
+                    "total_tokens": 79,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1efb4607-1b4f-481c-abd7-74d51de0cff6-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 74,
+                "output_tokens": 5,
+                "total_tokens": 79,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_763",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.33000001311302185,
+        "question": "Which of the following is the least related to the functions and relationships of a group as defined in group dynamics?",
+        "options": {
+            "A": "Occurrence of cohesion",
+            "B": "Physical rhythm",
+            "C": "Existence of behavioral norms",
+            "D": "Exercise of authority"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Exercise of authority"
+            },
+            "explanation": "There has been an error report as below. We invite your opinions. We will modify the correct answer based on your feedback. [Error Report] Option 2 refers to the group's goal."
+        },
+        "image_path": null,
+        "model_answer": "(B) Physical rhythm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Physical rhythm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 70,
+                    "total_tokens": 74,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ed4ae1b7-05fc-409a-a98a-71d3955b03bc-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 4,
+                "total_tokens": 74,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1383",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5299999713897705,
+        "question": "When dividing the design of human-machine systems into six stages, what is carried out in the first stage?",
+        "options": {
+            "A": "Basic design",
+            "B": "Definition of the system",
+            "C": "Interface design",
+            "D": "Determining the objectives and performance specifications of the system"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Determining the objectives and performance specifications of the system"
+            },
+            "explanation": "The six stages of human-machine system design are: 1st stage: Determining the objectives and performance specifications of the system, 2nd stage: Definition of the system, 3rd stage: Basic design, 4th stage: Interface design, 5th stage: Design of auxiliary devices and convenience measures, 6th stage: Evaluation."
+        },
+        "image_path": null,
+        "model_answer": "(D) Determining the objectives and performance specifications of the system",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Determining the objectives and performance specifications of the system",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 12,
+                    "prompt_tokens": 73,
+                    "total_tokens": 85,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--791b46f7-f54d-4360-9621-00172f3c22a9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 73,
+                "output_tokens": 12,
+                "total_tokens": 85,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2794",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6800000071525574,
+        "question": "Which of the following is NOT a consideration when selecting an earth retaining method?",
+        "options": {
+            "A": "Considering the dismantling of the earth retaining structure",
+            "B": "Choosing a safe and economical method",
+            "C": "Selecting a method with low water-tightness",
+            "D": "Selecting a method suitable for ground conditions"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Selecting a method with low water-tightness"
+            },
+            "explanation": "Considerations when selecting an earth retaining method include: accounting for dismantling, choosing a method with high water-tightness, selecting a safe and economical method, and ensuring suitability for ground conditions."
+        },
+        "image_path": null,
+        "model_answer": "(C) Selecting a method with low water-tightness",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Selecting a method with low water-tightness",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 10,
+                    "prompt_tokens": 79,
+                    "total_tokens": 89,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0154da0f-1c1c-42a0-9efb-4d469d25fe3b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 79,
+                "output_tokens": 10,
+                "total_tokens": 89,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1921",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "In fault tree analysis, what do you call a set of basic events that together cause the system's top event to occur when all of them lead to failure?",
+        "options": {
+            "A": "Cut sets",
+            "B": "Path sets",
+            "C": "Minimal cut sets",
+            "D": "Minimal path sets"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Cut sets"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Minimal cut sets",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Minimal cut sets",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 76,
+                    "total_tokens": 81,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--63e5fdfa-cf91-4574-b335-466a13d0d119-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 5,
+                "total_tokens": 81,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1770",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6600000262260437,
+        "question": "In Company A, which handles hydrochloric acid, a safety assessment must be conducted for newly installed equipment. Which of the following is a key diagnostic item related to design in the qualitative assessment stage?",
+        "options": {
+            "A": "The layout within the plant",
+            "B": "Overview of the manufacturing process",
+            "C": "Re-evaluation methods and plans",
+            "D": "Safety and health training plan"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The layout within the plant"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) The layout within the plant",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) The layout within the plant",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 94,
+                    "total_tokens": 101,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--222ee69c-c215-4d39-b3fd-0e13dc9cbed8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 94,
+                "output_tokens": 7,
+                "total_tokens": 101,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_23",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which of the following is not a type of biorhythm?",
+        "options": {
+            "A": "Critical rhythm",
+            "B": "Physical rhythm",
+            "C": "Intellectual rhythm",
+            "D": "Emotional rhythm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Critical rhythm"
+            },
+            "explanation": "Physical rhythm: 23-day cycle, intellectual rhythm: 33-day cycle, emotional rhythm: 28-day cycle; physical rhythm (P), emotional rhythm (S), intellectual rhythm (I)."
+        },
+        "image_path": null,
+        "model_answer": "(A) Critical rhythm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Critical rhythm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 55,
+                    "total_tokens": 59,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--916b8991-6257-4d07-be3b-b97ac3a6ce04-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 55,
+                "output_tokens": 4,
+                "total_tokens": 59,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3659",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following is NOT one of the four principles that must be observed in a lubrication management system?",
+        "options": {
+            "A": "Complying with the proper amount",
+            "B": "Mixing various types of lubricants",
+            "C": "Selecting the correct lubrication method",
+            "D": "Adhering to the correct lubrication interval"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Mixing various types of lubricants"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Mixing various types of lubricants",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Mixing various types of lubricants",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 81,
+                    "total_tokens": 89,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--df121810-d472-4b7d-a4ed-9c3993eb21b5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 81,
+                "output_tokens": 8,
+                "total_tokens": 89,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4183",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "What is the system lifetime when two components, each with a mean time to failure (MTTF) of 6×10^5 hours, are connected in series?",
+        "options": {
+            "A": "2×10^5 hours",
+            "B": "3×10^5 hours",
+            "C": "9×10^5 hours",
+            "D": "18×10^5 hours"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3×10^5 hours"
+            },
+            "explanation": "6/2*10^5=3*10^5"
+        },
+        "image_path": null,
+        "model_answer": "(B) 3×10^5 hours",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 3×10^5 hours",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 9,
+                    "prompt_tokens": 96,
+                    "total_tokens": 105,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b4fc394a-7218-4476-a4df-78d54abc69ed-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 96,
+                "output_tokens": 9,
+                "total_tokens": 105,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5408",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "What safety device must be attached to an AC arc welder?",
+        "options": {
+            "A": "Anti-shock device",
+            "B": "Overload protection device",
+            "C": "Automatic electric shock prevention device",
+            "D": "Two-person operation safety device"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Automatic electric shock prevention device"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Overload protection device",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Overload protection device",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 65,
+                    "total_tokens": 71,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e9c1aeda-4658-4b7b-87c4-7fed7f889ec4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 65,
+                "output_tokens": 6,
+                "total_tokens": 71,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_2187",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is the best example of compatibility in design?",
+        "options": {
+            "A": "The driver's seat of a car on the right side",
+            "B": "A faucet that dispenses hot water when turned to red",
+            "C": "A baseball glove for left-handed users",
+            "D": "An air hammer designed to be quiet"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A faucet that dispenses hot water when turned to red"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) A faucet that dispenses hot water when turned to red",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) A faucet that dispenses hot water when turned to red",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 13,
+                    "prompt_tokens": 82,
+                    "total_tokens": 95,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--493f9668-7488-489d-b81e-02927224f1ce-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 82,
+                "output_tokens": 13,
+                "total_tokens": 95,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_877",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following cannot be considered as the authority granted to a leader by the organization?",
+        "options": {
+            "A": "Legitimate authority",
+            "B": "Expert authority",
+            "C": "Coercive authority",
+            "D": "Reward authority"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Expert authority"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Expert authority",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Expert authority",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 63,
+                    "total_tokens": 67,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c97cef6c-ca90-4068-af42-288213154cd4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 63,
+                "output_tokens": 4,
+                "total_tokens": 67,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_506",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT one of the five requirements of educational evaluation?",
+        "options": {
+            "A": "Certainty",
+            "B": "Reliability",
+            "C": "Economy",
+            "D": "Subjectivity"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Subjectivity"
+            },
+            "explanation": "The five requirements of educational evaluation are: certainty, reliability, economy, objectivity, and simplicity."
+        },
+        "image_path": null,
+        "model_answer": "(D) Subjectivity",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Subjectivity",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 55,
+                    "total_tokens": 59,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--521a7755-f406-45dd-b064-a8220dd941ba-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 55,
+                "output_tokens": 4,
+                "total_tokens": 59,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5285",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3700000047683716,
+        "question": "Which of the following is a test method that can determine the internal angle of friction of a sandy soil?",
+        "options": {
+            "A": "Well point",
+            "B": "Standard penetration test",
+            "C": "Plate load test",
+            "D": "Vane test"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Standard penetration test"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Standard penetration test",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Standard penetration test",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 66,
+                    "total_tokens": 71,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1fefa002-8879-4f91-9685-eea4f2c2df60-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 66,
+                "output_tokens": 5,
+                "total_tokens": 71,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "What is the construction method that involves drilling the rock, charging it with explosives for blasting, installing steel ribs and wire mesh, and then applying shotcrete?",
+        "options": {
+            "A": "NATM method",
+            "B": "TBM method",
+            "C": "Open cut method",
+            "D": "Shield method"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "NATM method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) NATM method",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) NATM method",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 76,
+                    "total_tokens": 81,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--edb95cf7-e252-41e7-9051-0d30b32994a3-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 5,
+                "total_tokens": 81,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5483",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "When is the slope of a reservoir or dam generally at its most dangerous?",
+        "options": {
+            "A": "When the water level on the slope is slowly decreasing",
+            "B": "When the slope is completely dry",
+            "C": "When the water level on the slope decreases rapidly",
+            "D": "When the slope is fully saturated"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When the water level on the slope decreases rapidly"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) When the water level on the slope decreases rapidly",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) When the water level on the slope decreases rapidly",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 80,
+                    "total_tokens": 91,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--73736591-3614-40c5-8915-a51d5ce32c34-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 80,
+                "output_tokens": 11,
+                "total_tokens": 91,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5516",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "When installing a ladder-type passageway, how much must the top of the ladder extend above the point of support?",
+        "options": {
+            "A": "At least 45cm",
+            "B": "At least 60cm",
+            "C": "At least 75cm",
+            "D": "At least 90cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "At least 60cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) At least 60cm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) At least 60cm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 77,
+                    "total_tokens": 84,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--be3be2ec-148b-4ec2-bf6b-535f79287349-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 7,
+                "total_tokens": 84,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4039",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "What is the reliability of a human-machine system where the human and the machine are connected in parallel? (Assume the human has a reliability of 0.8 and the machine has a reliability of 0.98.)",
+        "options": {
+            "A": "0.996",
+            "B": "0.986",
+            "C": "0.976",
+            "D": "0.966"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "0.996"
+            },
+            "explanation": "Parallel: (1-(1-machine)(1-human))\nSeries: machine*human"
+        },
+        "image_path": null,
+        "model_answer": "(A) 0.996",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 0.996",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 95,
+                    "total_tokens": 101,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6b977ff8-3e04-4f7b-ba64-f793a53b45ee-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 95,
+                "output_tokens": 6,
+                "total_tokens": 101,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5299",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum illuminance (in lux) that lighting installed in passageways must provide to ensure workers can pass safely on site?",
+        "options": {
+            "A": "At least 75 lux",
+            "B": "At least 80 lux",
+            "C": "At least 85 lux",
+            "D": "At least 90 lux"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "At least 75 lux"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) At least 75 lux",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) At least 75 lux",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 81,
+                    "total_tokens": 88,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--956ceddb-db96-4ebf-a572-4d803c42f560-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 81,
+                "output_tokens": 7,
+                "total_tokens": 88,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4387",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following is NOT a fundamental function of a system?",
+        "options": {
+            "A": "Detection",
+            "B": "Movement",
+            "C": "Information storage",
+            "D": "Information processing and decision making"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Movement"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Movement",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Movement",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 3,
+                    "prompt_tokens": 56,
+                    "total_tokens": 59,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1a45114d-77d7-4d01-9516-d06325ec4303-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 56,
+                "output_tokens": 3,
+                "total_tokens": 59,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1992",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following statements about minimal cut sets and minimal path sets in Fault Tree Analysis (FTA) is correct?",
+        "options": {
+            "A": "A minimal cut set is the smallest cut set that can cause the top event.",
+            "B": "A minimal cut set represents the reliability of the system.",
+            "C": "A minimal path set represents the risk of the system.",
+            "D": "A minimal path set is the minimal path set that can cause system failure."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A minimal cut set is the smallest cut set that can cause the top event."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) A minimal cut set is the smallest cut set that can cause the top event.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) A minimal cut set is the smallest cut set that can cause the top event.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 18,
+                    "prompt_tokens": 107,
+                    "total_tokens": 125,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a77a0836-c066-4ca5-8bed-b4e8bdb4b9c5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 107,
+                "output_tokens": 18,
+                "total_tokens": 125,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4523",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following is NOT a requirement for performing system safety tasks for system safety?",
+        "options": {
+            "A": "Planning and management of safety activities",
+            "B": "Identification of individuals required for system safety",
+            "C": "Analysis and evaluation of system safety programs",
+            "D": "Separation from other system programs"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Separation from other system programs"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Separation from other system programs",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Separation from other system programs",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 76,
+                    "total_tokens": 83,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--fce864d5-275f-4af7-8f83-5946dece75c0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 7,
+                "total_tokens": 83,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1919",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "In ergonomic research, what does the reliability of a criterion measure mean?",
+        "options": {
+            "A": "Repeatability",
+            "B": "Appropriateness",
+            "C": "Adaptability",
+            "D": "Universality"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Repeatability"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Repeatability",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Repeatability",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 57,
+                    "total_tokens": 61,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c8750713-a7a3-4ecf-83d9-1f81ef60433e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 57,
+                "output_tokens": 4,
+                "total_tokens": 61,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5794",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an external cause of soil collapse?",
+        "options": {
+            "A": "Decrease in the strength of soil and rock",
+            "B": "Increase in the height of excavation and embankment",
+            "C": "Increase in slope and gradient outside the slope face",
+            "D": "Increase in soil mass due to infiltration of surface water and groundwater"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Decrease in the strength of soil and rock"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Decrease in the strength of soil and rock",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Decrease in the strength of soil and rock",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 87,
+                    "total_tokens": 98,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8125e40e-92c9-42de-946d-72441e5e13a0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 11,
+                "total_tokens": 98,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4230",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3199999928474426,
+        "question": "Among equipment maintenance methods, what do you call activities such as inspection, cleaning, lubrication, and replacement to prevent equipment deterioration, delay its progress, and extend its lifespan?",
+        "options": {
+            "A": "Breakdown maintenance",
+            "B": "Improvement maintenance",
+            "C": "Routine maintenance",
+            "D": "Preventive maintenance"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Routine maintenance"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Preventive maintenance",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Preventive maintenance",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 77,
+                    "total_tokens": 82,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a1c2397e-7531-43b2-a596-478e7f957f15-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 5,
+                "total_tokens": 82,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

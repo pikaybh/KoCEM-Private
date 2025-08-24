@@ -1,0 +1,207 @@
+{
+    "val_Safety_Management_3002": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "val_Safety_Management_624": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_4457": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_2225": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_408": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_4949": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_1730": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_4550": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Safety_Management_156": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Safety_Management_2755": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_3834": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_2559": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "val_Safety_Management_1553": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_80": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_4528": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Safety_Management_426": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_1406": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_763": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "val_Safety_Management_1383": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_2794": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Safety_Management_1921": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Safety_Management_1770": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_23": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_3659": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_4183": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_5408": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Safety_Management_2187": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_877": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_506": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_5285": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_3240": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_5483": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Safety_Management_5516": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_4039": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_5299": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_4387": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Safety_Management_1992": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_4523": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Safety_Management_1919": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_5794": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Safety_Management_4230": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    }
+}

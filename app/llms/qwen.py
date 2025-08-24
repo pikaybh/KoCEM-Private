@@ -11,7 +11,7 @@ from models import LLMBase
 
 class QwenModels(LLMBase):
     def __init__(self, 
-        provider: str = "alibaba", 
+        provider: str = "Qwen",  # "alibaba", 
         docs: str = "https://bailian.console.alibabacloud.com/?tab=doc#/doc/?type=model&url=2840914"
     ):
         super().__init__(provider, docs)
@@ -121,6 +121,24 @@ class QwenModels(LLMBase):
                 "reasoning": True,
                 "function_calling": True,
                 "structured_output": True,
+            },
+            pricing="open-source"
+        ),
+        LanguageModel(
+            name="Qwen3-8B",
+            description="Qwen3 8B.",
+            version=ModelVersion(
+                releases=["Qwen/Qwen3-8B"],
+                stable="Qwen/Qwen3-8B"
+            ),
+            size=ModelSize(parameters=8_000_000, aunounced=True),
+            modality=Modality(
+                input_type=["text"],
+                output_type=["text"]
+            ),
+            features={
+                "reasoning": True,
+                "function_calling": True,
             },
             pricing="open-source"
         )

@@ -17,6 +17,7 @@ def eval_difficulties(
     locale: LocaleType = "en",
     subjects: str | list[str] = list(SubjectsDict),
     splits: SplitType | list[SplitType] = ["dev", "test", "val"],
+    **kwargs
 ):
     """
     Evaluate the difficulty levels of the model's performance on specified subjects and splits.
@@ -44,7 +45,7 @@ def eval_difficulties(
             results = load_json(os.path.join(output_dir, "result.json"))
             results.update(evaluate_difficulties(samples))
 
-            save_json(results, os.path.join(output_dir, "result.json"))
+            save_json(os.path.join(output_dir, "result.json"), results)
             logger.debug(f"Saved evaluation results to {os.path.join(output_dir, 'result.json')}")
 
 

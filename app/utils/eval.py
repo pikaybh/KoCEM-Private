@@ -283,11 +283,15 @@ def evaluate_difficulties(samples) -> dict[str, dict]:
     """
     Batch evaluation for multiple choice and open questions.
     """
-
-    handler = {diff: {"pred": 0, "cnt": []} for diff in ["Easy", "Medium", "Hard"]}
+    valid_difficulties = {"Easy", "Medium", "Hard"}
+    handler = {diff: {"pred": 0, "cnt": []} for diff in valid_difficulties}
     for sample in samples:
-        judge = sample['judge']
-        difficulty = sample['difficulty']
+        judge = sample.get('judge')
+        difficulty = str(sample.get('difficulty') or '').strip()
+        if difficulty not in valid_difficulties:
+            # Skip items with missing/unknown difficulty labels
+            logger.debug(f"Skipping sample {sample.get('id')} with invalid difficulty='{difficulty}'")
+            continue
         
         if judge == 'Correct':
             handler[difficulty]["pred"] += 1

@@ -25,6 +25,10 @@ OUTPUT_PATH = os.getenv("OUTPUT_PATH")
 
 
 class APIBase:
+    ds_path = DS_PATH
+    ds_cache_path = DS_CACHE_PATH
+    output_path = OUTPUT_PATH
+
     def __init__(self, 
         locale: LocaleType = "en",
         task: str = "mcqa",
@@ -242,7 +246,7 @@ class APIBase:
         self.split = split
 
         # Prepare output directory and save results
-        output_dir = os.path.join(OUTPUT_PATH, self.prompt_name, self.locale, self.model_id.split('/')[-1], split, subset)
+        output_dir = os.path.join(self.output_path, self.prompt_name, self.locale, self.model_id.split('/')[-1], split, subset)
         os.makedirs(output_dir, exist_ok=True)
         output_file = os.path.join(output_dir, "output.json")
         result_file = os.path.join(output_dir, "result.json")
@@ -257,10 +261,10 @@ class APIBase:
 
         # dataset = self._load_dataset(subset, split)
         dataset = load_dataset(
-            path=DS_PATH, 
+            path=self.ds_path, 
             name=subset, 
             split=split, 
-            cache_dir=DS_CACHE_PATH,
+            cache_dir=self.ds_cache_path,
             verification_mode="no_checks",
             features=call_features(subset),
         )

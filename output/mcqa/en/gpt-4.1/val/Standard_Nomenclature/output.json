@@ -1,0 +1,3150 @@
+[
+    {
+        "id": "val_Standard_Nomenclature_1",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to an optional coverage endorsement to a commercial auto policy that applies in the event of a total loss to a covered auto that is financed or has a leased agreement?",
+        "options": {
+            "A": "current service benefit",
+            "B": "lease gap coverage",
+            "C": "return of remuneration exclusion",
+            "D": "friable asbestos",
+            "E": "self-contained policy"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "lease gap coverage"
+            },
+            "explanation": "Lease gap coverage is designed to cover the difference between what is owed on a leased or financed vehicle and its actual cash value in the event of a total loss, which is not provided by the other listed terms."
+        },
+        "image_path": null,
+        "model_answer": "(B) lease gap coverage",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) lease gap coverage",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 91,
+                    "total_tokens": 96,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--78a8346f-8d98-4b3a-bdc3-d6c67ad8ea30-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 91,
+                "output_tokens": 5,
+                "total_tokens": 96,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_2",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a project delivery method in construction where stakeholders enter into a contract that outlines project risks and responsibilities for each party?",
+        "options": {
+            "A": "lifetime limit",
+            "B": "guardian ad litem",
+            "C": "bobtail liability",
+            "D": "cost, insurance, and freight (CIF)",
+            "E": "Integrated Project Delivery (IPD)"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Integrated Project Delivery (IPD)"
+            },
+            "explanation": "Integrated Project Delivery (IPD) is a collaborative construction approach where stakeholders share risks and responsibilities through a contractual agreement, unlike the other terms listed which relate to shipping, insurance, legal representation, or insurance limits."
+        },
+        "image_path": null,
+        "model_answer": "(E) Integrated Project Delivery (IPD)",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) Integrated Project Delivery (IPD)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 9,
+                    "prompt_tokens": 91,
+                    "total_tokens": 100,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d66c763e-6ad6-4b15-b8dd-89b15829a2ea-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 91,
+                "output_tokens": 9,
+                "total_tokens": 100,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_3",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'Invitation to Bid (ITB)' refer to?",
+        "options": {
+            "A": "a solicitation for contractors to submit a proposal for a specific service to complete a project",
+            "B": "reptile theory or strategy",
+            "C": "trust department errors and omissions coverage",
+            "D": "debit life insurance",
+            "E": "Site Plan"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "a solicitation for contractors to submit a proposal for a specific service to complete a project"
+            },
+            "explanation": "An Invitation to Bid (ITB) is a formal request sent to contractors, inviting them to submit competitive proposals for providing services or completing a project, which is a standard practice in construction procurement."
+        },
+        "image_path": null,
+        "model_answer": "(A) a solicitation for contractors to submit a proposal for a specific service to complete a project",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) a solicitation for contractors to submit a proposal for a specific service to complete a project",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 18,
+                    "prompt_tokens": 89,
+                    "total_tokens": 107,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_51e1070cf2",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--77b0f76f-6771-4150-aafd-02bf753b04ae-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 18,
+                "total_tokens": 107,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_4",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a structural element that supports floors or ceilings?",
+        "options": {
+            "A": "Joist Horizontal",
+            "B": "res judicata",
+            "C": "Water Vapor Resistance",
+            "D": "auction rate security (ARS)",
+            "E": "Pre-Design Phase"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Joist Horizontal"
+            },
+            "explanation": "A 'Joist Horizontal' is a structural component used in construction to provide support for floors or ceilings, whereas the other options are unrelated to building structure."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 71,
+                    "total_tokens": 72,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f2308505-70e1-4721-b0b2-be2e4b42eb88-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 71,
+                "output_tokens": 1,
+                "total_tokens": 72,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_5",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction, what does the term 'topping out' refer to?",
+        "options": {
+            "A": "Direct writing captive refers to an insurance company that writes policies only for its parent company.",
+            "B": "Topping out is when the uppermost beam or structural member is placed, marking the building reaching its maximum height.",
+            "C": "Capital adequacy is a financial term referring to the sufficiency of a company's capital reserves.",
+            "D": "Lay-up warranty is a type of insurance coverage for property that is temporarily out of use.",
+            "E": "Substandard describes a building or material that does not meet minimum quality requirements."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Topping out is when the uppermost beam or structural member is placed, marking the building reaching its maximum height."
+            },
+            "explanation": "Topping out is a construction milestone celebrated when the highest structural element is installed, indicating the building has reached its full height."
+        },
+        "image_path": null,
+        "model_answer": "(B) Topping out is when the uppermost beam or structural member is placed, marking the building reaching its maximum height.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Topping out is when the uppermost beam or structural member is placed, marking the building reaching its maximum height.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 25,
+                    "prompt_tokens": 139,
+                    "total_tokens": 164,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f17a3202-4f5c-42aa-bec9-9d8947c5ae36-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 139,
+                "output_tokens": 25,
+                "total_tokens": 164,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_6",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "What does the term 'Phased Construction' refer to in the context of construction and architecture?",
+        "options": {
+            "A": "A court-issued declaratory judgment regarding property rights before construction begins.",
+            "B": "A risk management process used to identify and mitigate hazards on construction sites.",
+            "C": "A voluntary protection program (VPP) aimed at improving workplace safety standards.",
+            "D": "A type of block insulation used for thermal protection in buildings.",
+            "E": "An incremental approach where various tasks associated with the design phase and construction phase are performed simultaneously to deliver the project faster."
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "An incremental approach where various tasks associated with the design phase and construction phase are performed simultaneously to deliver the project faster."
+            },
+            "explanation": "Phased Construction involves overlapping design and construction activities to accelerate project delivery, unlike traditional sequential methods."
+        },
+        "image_path": null,
+        "model_answer": "(E) An incremental approach where various tasks associated with the design phase and construction phase are performed simultaneously to deliver the project faster.",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) An incremental approach where various tasks associated with the design phase and construction phase are performed simultaneously to deliver the project faster.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 25,
+                    "prompt_tokens": 129,
+                    "total_tokens": 154,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--705c4902-4535-4230-98cb-8dcdfea24851-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 129,
+                "output_tokens": 25,
+                "total_tokens": 154,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_7",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction, what term refers to a predicted percentage of materials added to a takeoff to cover unexpected issues?",
+        "options": {
+            "A": "Waste",
+            "B": "rated insurer",
+            "C": "postmortem dividend",
+            "D": "Impale",
+            "E": "Subcontract"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Waste"
+            },
+            "explanation": "In construction, 'waste' is the additional percentage of materials included in estimates to account for unforeseen losses or errors during the building process."
+        },
+        "image_path": null,
+        "model_answer": "(A) Waste",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Waste",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 3,
+                    "prompt_tokens": 70,
+                    "total_tokens": 73,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ba9c01a2-825d-41d9-bdb1-ab875bddc746-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 3,
+                "total_tokens": 73,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_8",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In electrical engineering, which term refers to the unit of measurement for apparent power in a circuit, calculated as the product of the root mean square voltage and current?",
+        "options": {
+            "A": "lateral hire",
+            "B": "fundamental frequency",
+            "C": "claim expense",
+            "D": "volt-ampere",
+            "E": "HVAC Zone"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "volt-ampere"
+            },
+            "explanation": "The volt-ampere (VA) is the unit for apparent power, found by multiplying the RMS voltage by the RMS current in an electrical circuit. The other options are unrelated to electrical power measurement."
+        },
+        "image_path": null,
+        "model_answer": "(D) volt-ampere",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) volt-ampere",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 81,
+                    "total_tokens": 87,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_51e1070cf2",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7f56cf6a-6ecf-44bf-b4e7-30171baf64ec-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 81,
+                "output_tokens": 6,
+                "total_tokens": 87,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_9",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'intellectual property' refer to?",
+        "options": {
+            "A": "Concealed spaces",
+            "B": "Project schedule",
+            "C": "Intangible products of human intelligence, such as patents or copyrights",
+            "D": "Elevator insurance",
+            "E": "Bareboat charter"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Intangible products of human intelligence, such as patents or copyrights"
+            },
+            "explanation": "Intellectual property encompasses creations of the mind, like designs, inventions, and written works, which can be legally protected and monetized, unlike terms related to insurance, schedules, or charters."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "C",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 76,
+                    "total_tokens": 77,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--63d80f6a-b528-478a-a5f0-a2e2a6c65f20-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 1,
+                "total_tokens": 77,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_10",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction contracts and insurance policies, what does a 'waiver of subrogation' refer to?",
+        "options": {
+            "A": "A penalty imposed for delayed project completion.",
+            "B": "A formal request for information or clarification during construction.",
+            "C": "A clause allowing the use of smart devices for project monitoring.",
+            "D": "An agreement where an insurer gives up its right to pursue a third party after paying a claim on behalf of the insured."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "An agreement where an insurer gives up its right to pursue a third party after paying a claim on behalf of the insured."
+            },
+            "explanation": "A waiver of subrogation prevents an insurer from seeking recovery from third parties after compensating the insured, which is common in construction contracts to promote cooperation among parties."
+        },
+        "image_path": null,
+        "model_answer": "(D) An agreement where an insurer gives up its right to pursue a third party after paying a claim on behalf of the insured.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) An agreement where an insurer gives up its right to pursue a third party after paying a claim on behalf of the insured.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 26,
+                    "prompt_tokens": 106,
+                    "total_tokens": 132,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--16e200e7-f978-4974-acd6-44bdd611bb71-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 106,
+                "output_tokens": 26,
+                "total_tokens": 132,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_11",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction delivery method involves the construction manager acting as both a consultant to the owner during design and as the general contractor during construction, assuming the risk for construction performance and cost?",
+        "options": {
+            "A": "construction management at-risk",
+            "B": "AC (Alternating Current)",
+            "C": "third-party employment practices liability coverage",
+            "D": "backdated liability insurance",
+            "E": "double protection"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "construction management at-risk"
+            },
+            "explanation": "Construction management at-risk is a project delivery method where the construction manager provides pre-construction advice and then assumes responsibility for construction, including cost and schedule, much like a general contractor."
+        },
+        "image_path": null,
+        "model_answer": "(A) construction management at-risk",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) construction management at-risk",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 93,
+                    "total_tokens": 99,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7c56ec94-509e-482d-af7f-d384717d11f4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 93,
+                "output_tokens": 6,
+                "total_tokens": 99,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_12",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which organization oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States, and also coordinates U.S. standards with international standards?",
+        "options": {
+            "A": "capacitance",
+            "B": "ex parte hearings",
+            "C": "broad causes of loss form",
+            "D": "class II railroad",
+            "E": "ANSI"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "ANSI"
+            },
+            "explanation": "ANSI stands for the American National Standards Institute, which is responsible for developing and coordinating voluntary consensus standards in the U.S. and aligning them with international standards."
+        },
+        "image_path": null,
+        "model_answer": "(E) ANSI",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) ANSI",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 3,
+                    "prompt_tokens": 87,
+                    "total_tokens": 90,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--85fcd9b2-c88c-4a5f-98e9-3fb4ab092b5b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 3,
+                "total_tokens": 90,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_13",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a type of insurance coverage that applies in countries with the Napoleonic Code (such as France), often written with a specified sublimit, and provides protection for tenants and neighbors?",
+        "options": {
+            "A": "maturity value",
+            "B": "tenants and neighbors liability",
+            "C": "forum shopping",
+            "D": "outstanding losses",
+            "E": "Glass Cloth"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "tenants and neighbors liability"
+            },
+            "explanation": "Tenants and neighbors liability is a specific insurance coverage relevant in countries with the Napoleonic Code, such as France, and provides protection for tenants and neighbors, often with a sublimit. The other options are unrelated insurance or legal terms."
+        },
+        "image_path": null,
+        "model_answer": "(B) tenants and neighbors liability",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) tenants and neighbors liability",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 92,
+                    "total_tokens": 98,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a59affa5-ea42-473c-9a58-98b7e17c1c1e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 6,
+                "total_tokens": 98,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_14",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of Procore's Conversations tool, what does the term 'Thread' refer to?",
+        "options": {
+            "A": "Solvent",
+            "B": "Quick Response Code",
+            "C": "builders risk policy (BR)",
+            "D": "Contractor Schedule of Values",
+            "E": "A grouping of one or more messages started by replying to another message"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "A grouping of one or more messages started by replying to another message"
+            },
+            "explanation": "In Procore's Conversations tool, a 'Thread' is a collection of messages grouped together when someone replies to a specific message, allowing focused discussions within a conversation."
+        },
+        "image_path": null,
+        "model_answer": "(E) A grouping of one or more messages started by replying to another message",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) A grouping of one or more messages started by replying to another message",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 15,
+                    "prompt_tokens": 84,
+                    "total_tokens": 99,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2d803ea9-5e3e-4a35-8140-f600347ddf43-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 84,
+                "output_tokens": 15,
+                "total_tokens": 99,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_15",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction projects, what does the term 'Contingency' refer to?",
+        "options": {
+            "A": "An amount of money held in reserve to pay for accidental or additional unforeseen costs during a construction project.",
+            "B": "Acute angle",
+            "C": "Customer Relationship Management",
+            "D": "Pain and suffering"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "An amount of money held in reserve to pay for accidental or additional unforeseen costs during a construction project."
+            },
+            "explanation": "A contingency is a financial buffer included in construction budgets to cover unexpected expenses, ensuring the project can proceed smoothly despite unforeseen events."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 77,
+                    "total_tokens": 78,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5e9e584b-3a56-4370-8517-d676dd94b458-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 1,
+                "total_tokens": 78,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_16",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and plumbing, which term refers to items used to change the size, direction of flow, level, or assembly of piping, excluding unions, grooved couplings, flanges, valves, or strainers?",
+        "options": {
+            "A": "Fittings",
+            "B": "process wastewater",
+            "C": "backhauling",
+            "D": "Zero Defects (ZD)",
+            "E": "surplus"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Fittings"
+            },
+            "explanation": "Fittings are components used in piping systems to alter the direction, size, or configuration of the pipes, but do not include unions, couplings, flanges, valves, or strainers."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 94,
+                    "total_tokens": 95,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--afb2d756-8f6b-47dc-84bc-a3bbed1e3288-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 94,
+                "output_tokens": 1,
+                "total_tokens": 95,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_17",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction or architecture term refers to insurance on the transfer risks created when an overseas sale is paid in the buyer's currency and deposited to the insured's account in the buyer's country?",
+        "options": {
+            "A": "dwelling",
+            "B": "intrapolicy stacking",
+            "C": "common law liability",
+            "D": "profit sharing plan",
+            "E": "exchange transfer embargo indemnity"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "exchange transfer embargo indemnity"
+            },
+            "explanation": "Exchange transfer embargo indemnity specifically insures against the risk that payment for an overseas sale, made in the buyer's currency and deposited in the buyer's country, cannot be transferred to the seller due to government restrictions or embargoes."
+        },
+        "image_path": null,
+        "model_answer": "(E) exchange transfer embargo indemnity",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) exchange transfer embargo indemnity",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 90,
+                    "total_tokens": 97,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1b7db0f7-4015-48c9-a269-261a61a43f4e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 90,
+                "output_tokens": 7,
+                "total_tokens": 97,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_18",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a category of loss exposures related to an organization's employees that can be addressed through risk management processes in construction and architecture?",
+        "options": {
+            "A": "acute angle",
+            "B": "personnel risk",
+            "C": "prohibited transactions",
+            "D": "expected morbidity",
+            "E": "commission"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "personnel risk"
+            },
+            "explanation": "Personnel risk involves the potential loss or disruption to an organization due to issues affecting its employees, and is a key category managed in risk management for construction and architecture."
+        },
+        "image_path": null,
+        "model_answer": "(B) personnel risk",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) personnel risk",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 76,
+                    "total_tokens": 80,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9de1984e-de2a-47be-a6c2-89426773cc44-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 4,
+                "total_tokens": 80,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_19",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which term describes a material or structure that is impervious to prolonged exposure to water or water entry?",
+        "options": {
+            "A": "Extended discovery period (EDP)",
+            "B": "Free fall",
+            "C": "Probable maximum loss (PML)",
+            "D": "Waterproof",
+            "E": "Net line"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Waterproof"
+            },
+            "explanation": "The term 'waterproof' refers to materials or structures designed to prevent water from penetrating, even after prolonged exposure, making them essential in construction to protect against water damage."
+        },
+        "image_path": null,
+        "model_answer": "(D) Waterproof",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Waterproof",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 3,
+                    "prompt_tokens": 80,
+                    "total_tokens": 83,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ec36729c-1635-4b6f-a8d3-7a274b8327cb-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 80,
+                "output_tokens": 3,
+                "total_tokens": 83,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_20",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and insurance contexts, what does the term 'notice to the company' refer to?",
+        "options": {
+            "A": "Tender is the act of offering payment or performance to satisfy a debt or obligation.",
+            "B": "Disciplinary proceeding expense coverage is insurance that covers costs associated with defending against disciplinary actions.",
+            "C": "Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based.",
+            "D": "Maximum plan limits are the highest amounts that an insurance plan will pay for covered services.",
+            "E": "Lifetime limit refers to the maximum amount an insurance policy will pay over the life of the policy."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based."
+            },
+            "explanation": "Notice to the company specifically means informing the insurer in writing about an event that could lead to a claim, which is crucial for initiating the claims process."
+        },
+        "image_path": null,
+        "model_answer": "(C) Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 25,
+                    "prompt_tokens": 145,
+                    "total_tokens": 170,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_7d949b30bb",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--885b366f-3306-4552-a926-3796c6947cc0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 145,
+                "output_tokens": 25,
+                "total_tokens": 170,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_21",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to a structure that is designed to conserve energy, utilize environmentally friendly materials, and promote a healthy environment for occupants?",
+        "options": {
+            "A": "payment bond",
+            "B": "Green Building",
+            "C": "Financial Anti-Terrorism Act of 2001 FATA",
+            "D": "exterior insulation and finish systems (EIFS)",
+            "E": "omnibus clause"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Green Building"
+            },
+            "explanation": "A green building is specifically designed to minimize environmental impact through energy efficiency, sustainable materials, and healthy indoor environments, unlike the other options which refer to financial, legal, or specific construction system terms."
+        },
+        "image_path": null,
+        "model_answer": "(B) Green Building",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Green Building",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 89,
+                    "total_tokens": 93,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2639c978-ad18-4ed1-b433-71d65926ab2a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 4,
+                "total_tokens": 93,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_22",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of construction contracts, what does the term 'novation' refer to?",
+        "options": {
+            "A": "A 'chameleon carrier' that changes its business structure to avoid liabilities.",
+            "B": "The substitution of a new contract or party in place of an original one, with the consent of all parties involved.",
+            "C": "A legal liability coverage form used to protect contractors against third-party claims.",
+            "D": "Direct damage coverage for physical loss to a construction project.",
+            "E": "A retaliatory law that affects the enforcement of construction contracts."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The substitution of a new contract or party in place of an original one, with the consent of all parties involved."
+            },
+            "explanation": "In construction contracts, novation is the process by which an original contract is replaced with a new one, or an original party is replaced by a new party, with the agreement of all parties. This differs from assignment, as novation extinguishes the original contract and creates new obligations."
+        },
+        "image_path": null,
+        "model_answer": "(B) The substitution of a new contract or party in place of an original one, with the consent of all parties involved.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) The substitution of a new contract or party in place of an original one, with the consent of all parties involved.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 25,
+                    "prompt_tokens": 125,
+                    "total_tokens": 150,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2168f805-56d3-4da3-be76-a9dc9935ed3f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 125,
+                "output_tokens": 25,
+                "total_tokens": 150,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_23",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following best describes an 'Owner Invoice' in construction and architecture?",
+        "options": {
+            "A": "Occupational injury",
+            "B": "Ponzi scheme",
+            "C": "Hacktivist",
+            "D": "Falsework",
+            "E": "An application for payment, typically submitted by a General Contractor or Construction Manager to an Owner, providing an itemized record of the amount due for work performed."
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "An application for payment, typically submitted by a General Contractor or Construction Manager to an Owner, providing an itemized record of the amount due for work performed."
+            },
+            "explanation": "An Owner Invoice is a formal request for payment from the contractor to the owner, detailing the work completed and the amount owed, which is a standard process in construction project management."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "E",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 95,
+                    "total_tokens": 96,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--3451abde-3dce-45c4-814b-47bdeccbb7bf-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 95,
+                "output_tokens": 1,
+                "total_tokens": 96,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_24",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'Due Diligence' refer to?",
+        "options": {
+            "A": "Severity",
+            "B": "Cable Communications Policy Act of 1984 (CCPA)",
+            "C": "Non-Measured Costs",
+            "D": "Due Diligence",
+            "E": "Building line"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Due Diligence"
+            },
+            "explanation": "Due diligence is the process of exercising proper care and attention to a business transaction, ensuring all relevant facts and risks are thoroughly assessed before proceeding."
+        },
+        "image_path": null,
+        "model_answer": "(D) Due Diligence",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Due Diligence",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 77,
+                    "total_tokens": 83,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--bea363a3-e26a-456c-8876-77cd56a9fb5a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 6,
+                "total_tokens": 83,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_25",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction or real estate term describes a situation where a property owner has a right to use a portion of an adjacent property owned by someone else?",
+        "options": {
+            "A": "Collateral",
+            "B": "Particleboard",
+            "C": "Easement appurtenant",
+            "D": "Approval Path",
+            "E": "Cross-liability endorsement"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Easement appurtenant"
+            },
+            "explanation": "An easement appurtenant is a legal right attached to a property that allows the owner to use part of a neighboring property, typically for access or utilities. The other options are unrelated to property rights."
+        },
+        "image_path": null,
+        "model_answer": "(C) Easement appurtenant",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Easement appurtenant",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 81,
+                    "total_tokens": 88,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9ab961a0-dea0-4d87-8535-f7b49f9ed2c7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 81,
+                "output_tokens": 7,
+                "total_tokens": 88,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_26",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following insurance forms is specifically designed to cover the real property interest and personal property of individuals who own a unit in a condominium or share ownership in a cooperative building?",
+        "options": {
+            "A": "Homeowners Policy Unit Owners Form 6 (HO 6)",
+            "B": "Certified Business Enterprise",
+            "C": "Carriage of Goods by Sea Act of 1936 (COGSA)",
+            "D": "QA (Quality Assurance)",
+            "E": "commutation clause"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Homeowners Policy Unit Owners Form 6 (HO 6)"
+            },
+            "explanation": "The HO 6 form is tailored for condo or co-op unit owners, providing coverage for their property interests and personal belongings, unlike the other options listed."
+        },
+        "image_path": null,
+        "model_answer": "(A) Homeowners Policy Unit Owners Form 6 (HO 6)",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Homeowners Policy Unit Owners Form 6 (HO 6)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 15,
+                    "prompt_tokens": 109,
+                    "total_tokens": 124,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--28fd384a-f00b-4e5f-aa86-3215d5452552-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 109,
+                "output_tokens": 15,
+                "total_tokens": 124,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_27",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'AC power' refer to?",
+        "options": {
+            "A": "A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow.",
+            "B": "Basket deductible",
+            "C": "Wedge",
+            "D": "Manuscript form or policy",
+            "E": "Whistleblower statutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow."
+            },
+            "explanation": "AC power refers to electrical energy delivered in the form of alternating current, which periodically reverses direction, unlike DC power. This is a fundamental concept in building electrical systems."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 99,
+                    "total_tokens": 100,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--06338f5b-9d31-46e9-ae75-d3612449fd11-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 99,
+                "output_tokens": 1,
+                "total_tokens": 100,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_28",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a policy provision that compels the insured to assist an insurer in defending claims under a policy?",
+        "options": {
+            "A": "bailee coverage",
+            "B": "cooperation clause",
+            "C": "presumptive indemnification provision",
+            "D": "comprehensive boiler and machinery coverage",
+            "E": "mortgagor"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "cooperation clause"
+            },
+            "explanation": "A cooperation clause is a provision in an insurance policy that requires the insured to work with the insurer in the defense of claims, such as providing information and attending legal proceedings."
+        },
+        "image_path": null,
+        "model_answer": "(B) cooperation clause",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) cooperation clause",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 82,
+                    "total_tokens": 86,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--33388a14-0d80-4315-917f-a0d5a2530a6d-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 82,
+                "output_tokens": 4,
+                "total_tokens": 86,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_29",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction law, which term refers to a law that limits the period during which legal action can be taken against a contractor for defects in completed work on real property?",
+        "options": {
+            "A": "statute of repose",
+            "B": "Commissioners Standard Ordinary 1958 Mortality Table (CSO Table)",
+            "C": "mandated reporter",
+            "D": "depreciation",
+            "E": "management liability insurance"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "statute of repose"
+            },
+            "explanation": "A statute of repose sets a strict deadline for filing claims related to construction defects, protecting contractors from indefinite liability. The other terms are unrelated to construction defect claims."
+        },
+        "image_path": null,
+        "model_answer": "(A) statute of repose",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) statute of repose",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 92,
+                    "total_tokens": 97,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--18ff3dfa-dcb0-422b-8674-9f1e31a8962b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 5,
+                "total_tokens": 97,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_30",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to insurance that is written in an amount approximating the value of the subject of insurance or that meets coinsurance requirements?",
+        "options": {
+            "A": "insurance to value",
+            "B": "gross negligence",
+            "C": "root-mean-square",
+            "D": "controlled master insurance program",
+            "E": "\"sudden and accidental\""
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "insurance to value"
+            },
+            "explanation": "Insurance to value ensures that the insured amount closely matches the actual value of the property or meets coinsurance requirements, helping avoid underinsurance penalties."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 84,
+                    "total_tokens": 85,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--91e4f8eb-0454-4002-a00a-e84fe30bd841-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 84,
+                "output_tokens": 1,
+                "total_tokens": 85,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_31",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to the engineering discipline that determines the stresses and strains in materials and structures subjected to forces?",
+        "options": {
+            "A": "Ventilating Duct",
+            "B": "stress–strain analysis",
+            "C": "policy",
+            "D": "superseded surety rider",
+            "E": "chameleon carrier"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "stress–strain analysis"
+            },
+            "explanation": "Stress–strain analysis is the process of determining how materials and structures respond to forces, focusing on internal stresses and resulting deformations, which is essential in engineering and architecture."
+        },
+        "image_path": null,
+        "model_answer": "(B) stress–strain analysis",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) stress–strain analysis",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 76,
+                    "total_tokens": 82,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5f17d216-d996-4905-9d8f-ba9afccf97b3-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 6,
+                "total_tokens": 82,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_32",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following refers to a legacy product that was replaced by Procore Drive in the construction industry?",
+        "options": {
+            "A": "fleet policy, aircraft",
+            "B": "franchise deductible",
+            "C": "American Association of Insurance Services (AAIS)",
+            "D": "Owner",
+            "E": "Procore for Desktop"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Procore for Desktop"
+            },
+            "explanation": "Procore for Desktop (P4D) was a legacy software product used in construction management, later replaced by Procore Drive. The other options are unrelated to construction software."
+        },
+        "image_path": null,
+        "model_answer": "(E) Procore for Desktop",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) Procore for Desktop",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 77,
+                    "total_tokens": 83,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--66521f9a-a022-450b-97d3-24df2cea9391-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 6,
+                "total_tokens": 83,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_33",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term in construction project management refers to a field used to categorize a project according to its scope, such as New Construction or Renovation/Alteration, especially in Procore?",
+        "options": {
+            "A": "zone rating",
+            "B": "Punch List",
+            "C": "remedial design",
+            "D": "claims-made reinsurance",
+            "E": "Work Scope"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Work Scope"
+            },
+            "explanation": "Work Scope is the correct term because it defines the extent and category of work to be performed on a project, such as New Construction or Renovation/Alteration, especially in project management platforms like Procore."
+        },
+        "image_path": null,
+        "model_answer": "(E) Work Scope",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) Work Scope",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 86,
+                    "total_tokens": 90,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9b09b166-41e1-4fbb-b548-0b11150d2be5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 86,
+                "output_tokens": 4,
+                "total_tokens": 90,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_34",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to a thermal resistivity assigned to a material that exhibits thermal transmission by three modes of heat transfer, resulting in property variation with specimen thickness or surface emittance?",
+        "options": {
+            "A": "Embedded Value",
+            "B": "Boatowners Policy",
+            "C": "Economic Cost of Ruin (ECOR)",
+            "D": "Apparent Thermal Resistivity",
+            "E": "Bonding"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Apparent Thermal Resistivity"
+            },
+            "explanation": "Apparent Thermal Resistivity is specifically defined as the thermal resistivity assigned to materials where heat transfer occurs by three modes, causing the property to vary with thickness or surface emittance. The other options are unrelated to thermal properties or construction."
+        },
+        "image_path": null,
+        "model_answer": "(D) Apparent Thermal Resistivity",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Apparent Thermal Resistivity",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 92,
+                    "total_tokens": 99,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--bfa126c4-4c9a-4a9f-b6a1-2888cda4215a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 7,
+                "total_tokens": 99,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_35",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which project management technique identifies the sequence of critical and non-critical activities to determine the minimum project duration and highlights the longest path through the project schedule?",
+        "options": {
+            "A": "Critical Path Method",
+            "B": "extra premium",
+            "C": "Critical lift",
+            "D": "fee schedule",
+            "E": "zone system"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Critical Path Method"
+            },
+            "explanation": "The Critical Path Method (CPM) is a project management technique used to schedule project activities, identifying the longest sequence of dependent tasks (the critical path) that determines the shortest possible project duration."
+        },
+        "image_path": null,
+        "model_answer": "(A) Critical Path Method",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Critical Path Method",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 77,
+                    "total_tokens": 82,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--20a51196-265c-49f2-b2c1-e08a7c375ef2-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 5,
+                "total_tokens": 82,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_36",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what is an 'Insulation Hanger'?",
+        "options": {
+            "A": "Deferred acquisition cost (DAC)",
+            "B": "Notice to the company",
+            "C": "\"Limits reduction\" provision",
+            "D": "Short Interval Schedule",
+            "E": "A device such as a welded pin, stud or adhesive secured fastener that carries the weight of insulation."
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "A device such as a welded pin, stud or adhesive secured fastener that carries the weight of insulation."
+            },
+            "explanation": "An insulation hanger is specifically designed to support and secure insulation materials to walls, ceilings, or other surfaces, ensuring they remain in place."
+        },
+        "image_path": null,
+        "model_answer": "(E) A device such as a welded pin, stud or adhesive secured fastener that carries the weight of insulation.",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) A device such as a welded pin, stud or adhesive secured fastener that carries the weight of insulation.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 23,
+                    "prompt_tokens": 90,
+                    "total_tokens": 113,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--715046d8-4357-4dec-bb53-12928807ec77-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 90,
+                "output_tokens": 23,
+                "total_tokens": 113,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_37",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of construction and building science, what does the term 'Steady State (Thermal)' refer to?",
+        "options": {
+            "A": "Compound inflation rider",
+            "B": "A condition for which all relevant parameters in a region do not vary over two consecutive steady-state time periods by more than the steady-state tolerance, and no long-term monotonic drifts are present.",
+            "C": "Letter of Approval",
+            "D": "Eligibility period",
+            "E": "Fixed amount option"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A condition for which all relevant parameters in a region do not vary over two consecutive steady-state time periods by more than the steady-state tolerance, and no long-term monotonic drifts are present."
+            },
+            "explanation": "Steady State (Thermal) describes a thermal condition where variables such as temperature remain constant over time, indicating no ongoing changes or drifts in the system."
+        },
+        "image_path": null,
+        "model_answer": "(B) A condition for which all relevant parameters in a region do not vary over two consecutive steady-state time periods by more than the steady-state tolerance, and no long-term monotonic drifts are present.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) A condition for which all relevant parameters in a region do not vary over two consecutive steady-state time periods by more than the steady-state tolerance, and no long-term monotonic drifts are present.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 41,
+                    "prompt_tokens": 110,
+                    "total_tokens": 151,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_7d949b30bb",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a45a932f-78fd-4c60-8c5c-2bada6551856-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 110,
+                "output_tokens": 41,
+                "total_tokens": 151,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_38",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which of the following best describes a 'hazard'?",
+        "options": {
+            "A": "Grace period",
+            "B": "Existential cost of risk (XCOR)",
+            "C": "Hearing care insurance",
+            "D": "Designated workplaces exclusion endorsement",
+            "E": "A situation or condition that makes loss or damage more likely"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "A situation or condition that makes loss or damage more likely"
+            },
+            "explanation": "A hazard is any situation or condition that increases the likelihood of loss or damage, which is critical to identify and manage in construction and architecture for safety and risk mitigation."
+        },
+        "image_path": null,
+        "model_answer": "(E) A situation or condition that makes loss or damage more likely",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) A situation or condition that makes loss or damage more likely",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 13,
+                    "prompt_tokens": 83,
+                    "total_tokens": 96,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--10c252e1-8574-45b8-bce9-741af5e1311b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 83,
+                "output_tokens": 13,
+                "total_tokens": 96,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_39",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to the process of planning and controlling costs associated with the planning, design, and construction process to ensure a project remains within its budget?",
+        "options": {
+            "A": "ex-medical coverage",
+            "B": "Cost Management",
+            "C": "healthcare reimbursement plan",
+            "D": "Employee Retirement Income Security Act Section 510",
+            "E": "surface tension"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Cost Management"
+            },
+            "explanation": "Cost Management specifically involves planning and controlling project costs to keep construction projects within budget, unlike the other options which are unrelated to construction or architecture."
+        },
+        "image_path": null,
+        "model_answer": "(B) Cost Management",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Cost Management",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 86,
+                    "total_tokens": 90,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--dad74b7c-d0d1-4c10-9d57-983dfd6c9559-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 86,
+                "output_tokens": 4,
+                "total_tokens": 90,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_40",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to insurance that covers damage to or destruction of others' aircraft while in the insured's custody for storage, repair, or safekeeping on scheduled premises?",
+        "options": {
+            "A": "System Administrator",
+            "B": "hangar keepers liability",
+            "C": "Fabrication",
+            "D": "IFB (invitation for bid)",
+            "E": "contents rate"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "hangar keepers liability"
+            },
+            "explanation": "Hangar keepers liability is a specific insurance policy designed to protect those who store, repair, or care for aircraft belonging to others, covering damages that may occur while the aircraft is in their custody."
+        },
+        "image_path": null,
+        "model_answer": "(B) hangar keepers liability",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) hangar keepers liability",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 89,
+                    "total_tokens": 96,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5fe9b3d4-2ff5-4d85-9806-bd1b4d9ae3f4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 7,
+                "total_tokens": 96,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_41",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture insurance terminology, what does the term 'personal injury (PI)' refer to?",
+        "options": {
+            "A": "Coverage for non-physical harm such as libel, slander, or invasion of privacy under liability policies",
+            "B": "Fermat's principle",
+            "C": "Cost codes",
+            "D": "Abutment Supporting",
+            "E": "Multiple coordinated policies"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Coverage for non-physical harm such as libel, slander, or invasion of privacy under liability policies"
+            },
+            "explanation": "Personal injury (PI) in insurance refers to coverage for harms like libel, slander, or invasion of privacy, which are not bodily injuries but can result in legal liability."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 91,
+                    "total_tokens": 92,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cec9cb4a-ae0e-4700-a120-8cde5001d510-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 91,
+                "output_tokens": 1,
+                "total_tokens": 92,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_42",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which term refers to the quality of a material to be basic or alkaline when exposed to moisture, producing a blue reaction to litmus paper and having a pH greater than 7.0?",
+        "options": {
+            "A": "Geotechnical Engineering",
+            "B": "motor home policy",
+            "C": "Excavation",
+            "D": "residual market load (RML)",
+            "E": "Alkalinity"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Alkalinity"
+            },
+            "explanation": "Alkalinity describes the basic nature of a material, indicated by a pH above 7 and a blue litmus test result, which is relevant for materials exposed to moisture in construction."
+        },
+        "image_path": null,
+        "model_answer": "(E) Alkalinity",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) Alkalinity",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 99,
+                    "total_tokens": 104,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6ac1bbf8-1c95-40ef-adb9-6827f43e45da-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 99,
+                "output_tokens": 5,
+                "total_tokens": 104,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_43",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which term refers to an agreement between two or more parties that includes mutual assent, competent parties, valid consideration, and legal subject matter?",
+        "options": {
+            "A": "stacking",
+            "B": "chain reaction",
+            "C": "petroleum engineering",
+            "D": "accidental death insurance",
+            "E": "contract"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "contract"
+            },
+            "explanation": "A contract is a legally binding agreement between parties, essential in construction to define obligations and rights. The other terms are unrelated to legal agreements in construction."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "E",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 78,
+                    "total_tokens": 79,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--af95b652-f2eb-495d-b01b-44b340146485-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 1,
+                "total_tokens": 79,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_44",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and real estate, what is a 'sale bond'?",
+        "options": {
+            "A": "A financial model used to determine the expected return of an asset.",
+            "B": "A measure of an investor's willingness to take on risk in a project.",
+            "C": "An average of different insurance rates combined into one figure.",
+            "D": "A real estate transaction bond used as a guaranty when a fiduciary makes a sale.",
+            "E": "An insurance policy that protects a lender's interest in a property."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "A real estate transaction bond used as a guaranty when a fiduciary makes a sale."
+            },
+            "explanation": "A sale bond serves as a guarantee in real estate transactions, ensuring that a fiduciary fulfills their obligations during a sale."
+        },
+        "image_path": null,
+        "model_answer": "(D) A real estate transaction bond used as a guaranty when a fiduciary makes a sale.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) A real estate transaction bond used as a guaranty when a fiduciary makes a sale.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 20,
+                    "prompt_tokens": 117,
+                    "total_tokens": 137,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0b6bcbce-46fe-41f1-86ba-ad19b72c986a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 117,
+                "output_tokens": 20,
+                "total_tokens": 137,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_45",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of construction and architecture finance, what does the term 'effective tax rate' refer to?",
+        "options": {
+            "A": "Integrated Project Delivery (IPD)",
+            "B": "The sum of federal and state taxes applicable to an insured's income, taking into account losses carried forward.",
+            "C": "Guarantee",
+            "D": "McCarran-Ferguson Act (Public Law 15) of 1945",
+            "E": "discontinuance"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The sum of federal and state taxes applicable to an insured's income, taking into account losses carried forward."
+            },
+            "explanation": "The effective tax rate is a financial term that describes the actual rate at which an individual's or company's income is taxed, factoring in all applicable taxes and adjustments such as losses carried forward, rather than just the statutory tax rate."
+        },
+        "image_path": null,
+        "model_answer": "(B) The sum of federal and state taxes applicable to an insured's income, taking into account losses carried forward.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) The sum of federal and state taxes applicable to an insured's income, taking into account losses carried forward.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 23,
+                    "prompt_tokens": 104,
+                    "total_tokens": 127,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--3f7fe580-43dd-4c01-b9e1-4ea5cf1c53dd-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 104,
+                "output_tokens": 23,
+                "total_tokens": 127,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]
