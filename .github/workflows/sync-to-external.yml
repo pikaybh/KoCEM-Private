@@ -40,6 +40,7 @@ jobs:
           fi
 
       - name: Ensure base branch exists (create empty if needed)
+        id: ensure_base
         working-directory: target_repo
         run: |
           set -e
@@ -50,6 +51,9 @@ jobs:
             git checkout --orphan "${TARGET_BASE}"
             git commit --allow-empty -m "Initialize base branch ${TARGET_BASE}"
             git push -u origin "${TARGET_BASE}"
+            echo "created_base=true" >> $GITHUB_OUTPUT
+          else
+            echo "created_base=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Prepare feature branch in target repository
@@ -75,6 +79,14 @@ jobs:
             --filter '- /output/**' \
             ./ target_repo/
 
+      - name: Show diff summary (debug)
+        working-directory: target_repo
+        run: |
+          echo "---- git status (porcelain) ----"
+          git status --porcelain || true
+          echo "---- staged diff (none yet) ----"
+          git diff --cached --name-status || true
+
       - name: Show diff summary (pre-commit)
         id: diffstat
         working-directory: target_repo
@@ -96,11 +108,18 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
-            git push -u origin "${{ steps.prep_branch.outputs.branch }}"
+            # If this is the first-time bootstrap (base just created), push directly to base and skip PR
+            if [ "${{ steps.ensure_base.outputs.created_base }}" = "true" ]; then
+              git push origin "${{ steps.prep_branch.outputs.branch }}:${TARGET_BASE}"
+              echo "pushed_to_base=true" >> $GITHUB_OUTPUT
+            else
+              git push -u origin "${{ steps.prep_branch.outputs.branch }}"
+              echo "pushed_to_base=false" >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: Create pull request in target repository
-        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.TARGET_REPO_TOKEN }}
