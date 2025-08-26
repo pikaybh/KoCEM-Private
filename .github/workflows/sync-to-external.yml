@@ -102,6 +102,20 @@ jobs:
           COUNT=$(rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | wc -l)
           echo "Would sync ${COUNT} entries"
 
+      - name: Wipe target branch (mirror mode)
+        working-directory: target_repo
+        run: |
+          set -e
+          echo "Wiping target branch contents except .git and .github (mirror mode)"
+          # Remove all files/folders except .git and .github to avoid workflow-permission issues
+          find . -mindepth 1 \
+            -not -path './.git' -not -path './.git/*' \
+            -not -path './.github' -not -path './.github/*' \
+            -exec rm -rf {} +
+          git add -A
+          echo "After wipe (porcelain):"
+          git status --porcelain || true
+
       - name: Copy repository contents into target repository (exclude data/output)
         run: |
           # Sync all code/config except large or sensitive data and caches (whitelist only)
@@ -175,14 +189,9 @@ jobs:
               echo "no_changes=true" >> $GITHUB_OUTPUT
               exit 0
             fi
-            # If this is the first-time bootstrap (base just created), push directly to base and skip PR
-            if [ "${{ steps.ensure_base.outputs.created_base }}" = "true" ]; then
-              git push origin "${{ steps.prep_branch.outputs.branch }}:${TARGET_BASE}"
-              echo "pushed_to_base=true" >> $GITHUB_OUTPUT
-            else
-              git push -u origin "${{ steps.prep_branch.outputs.branch }}"
-              echo "pushed_to_base=false" >> $GITHUB_OUTPUT
-            fi
+            # Always push to a feature branch; do not push directly to base
+            git push -u origin "${{ steps.prep_branch.outputs.branch }}"
+            echo "pushed_to_base=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Show last commit stats (target)
