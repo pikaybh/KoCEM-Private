@@ -36,7 +36,7 @@ jobs:
           git init
           git config user.name "${{ github.actor }}"
           git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN || github.token }}@github.com/${{ github.repository }}.git"
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
           if git ls-remote --exit-code --heads origin "${BUFFER_BRANCH}" >/dev/null 2>&1; then
             git fetch origin "${BUFFER_BRANCH}:${BUFFER_BRANCH}"
             git checkout "${BUFFER_BRANCH}"
@@ -59,6 +59,7 @@ jobs:
             -a --delete --prune-empty-dirs
             --exclude '.git'
             --exclude 'buffer_repo'
+            --exclude 'logs/**'
             --exclude 'output/**'
             --exclude '**/__pycache__/**'
             --exclude '*.pyc'
@@ -77,6 +78,16 @@ jobs:
             --exclude '*'
           )
           rsync "${RSYNC_OUTPUT[@]}" ./ buffer_repo/
+
+      - name: Ensure non-empty buffer diff (add marker)
+        working-directory: buffer_repo
+        run: |
+          set -e
+          # Always refresh a small marker so a push occurs and triggers downstream sync
+          MARKER="buffer-sync-${GITHUB_RUN_NUMBER}.meta"
+          printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
+            "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$MARKER"
+          git add -f "$MARKER"
 
       - name: Commit and push buffer
         working-directory: buffer_repo
