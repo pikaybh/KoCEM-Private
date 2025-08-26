@@ -180,10 +180,11 @@ jobs:
           set -e
           if [ -z "$(git status --porcelain)" ]; then
             echo "No file-level changes detected; adding sync marker to avoid empty PR."
+            MARKER="kocem-sync-${GITHUB_RUN_NUMBER}.meta"
             printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
-              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > kocem-sync.meta
+              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$MARKER"
             # Force-add to bypass any .gitignore rules (e.g., dotfiles or meta patterns)
-            git add -f kocem-sync.meta
+            git add -f "$MARKER"
             git status --porcelain || true
           fi
 
@@ -210,9 +211,10 @@ jobs:
         run: |
           set -e
           # 항상 동기화 마커를 갱신해 최소 1건 변경을 보장
+          MARKER="kocem-sync-${GITHUB_RUN_NUMBER}.meta"
           printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
-            "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > kocem-sync.meta
-          git add -f kocem-sync.meta
+            "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$MARKER"
+          git add -f "$MARKER"
           echo "---- staged diff (after forcing sync marker) ----"
           git diff --cached --name-status || true
 
