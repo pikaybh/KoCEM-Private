@@ -85,16 +85,16 @@ jobs:
         id: prep_branch
         working-directory: target_repo
         run: |
-          set -e
+            timeout-minutes: 20
           # Use a stable branch to avoid branch sprawl; can be overridden via SYNC_BRANCH
           BRANCH_INPUT="${{ vars.SYNC_BRANCH }}"
           if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${{ secrets.SYNC_BRANCH }}"; fi
           if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${BRANCH_PREFIX}"; fi
           BRANCH="$BRANCH_INPUT"
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
-          git checkout -B "$BRANCH"
-
-      - name: Preview files to sync (rsync dry-run)
+            if: >-
+              ${{ github.event_name == 'workflow_dispatch' ||
+                (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
         run: |
           set -e
           if [ "$SYNC_MODE" = "mirror_all" ]; then
@@ -102,24 +102,24 @@ jobs:
               -ani --delete --prune-empty-dirs
               --exclude 'target_repo' \
               --exclude '.git' \
-              --exclude '.github/**' \
+              - name: Checkout source repository (sync-buffer)
               --exclude '**/__pycache__/**' \
               --exclude '*.pyc'
-            )
-          else
+                fetch-depth: 0
+                ref: sync-buffer
             RSYNC_FLAGS=(
-              -ani --delete --prune-empty-dirs
+              - name: Initialize target repository (supports empty repos)
               --exclude 'target_repo' \
               --exclude '.git' \
               # Whitelist begins
               --include '/app/' \
-              --include '/app/***' \
+                if [ -z "$REPO" ]; then echo "TARGET_REPO not configured via vars or secrets; exiting."; exit 0; fi
               --include '/prompts/' \
               --include '/prompts/***' \
               --include '/output/' \
               --include '/output/mcqa/' \
               --include '/output/mcqa/en/' \
-              --include '/output/mcqa/en/gpt-4.1/***' \
+                if [ -z "${{ secrets.TARGET_REPO_TOKEN }}" ]; then echo "TARGET_REPO_TOKEN secret is missing; exiting."; exit 0; fi
               --include '/.env.example' \
               --include '/.gitignore' \
               --include '/.python-version' \
