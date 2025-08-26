@@ -46,7 +46,7 @@ jobs:
           set -e
           SYNC="${{ vars.SYNC_MODE }}"
           if [ -z "$SYNC" ]; then SYNC="${{ secrets.SYNC_MODE }}"; fi
-          if [ -z "$SYNC" ]; then SYNC="whitelist"; fi
+          if [ -z "$SYNC" ]; then SYNC="mirror_all"; fi
           echo "SYNC_MODE=$SYNC" >> $GITHUB_ENV
           echo "Sync mode: $SYNC"
 
