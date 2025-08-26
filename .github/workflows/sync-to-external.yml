@@ -72,9 +72,11 @@ jobs:
         working-directory: target_repo
         run: |
           set -e
-          # Use a unique branch per run to avoid reusing an old branch that may already match base
-          # This prevents PRs that appear empty because the head equals the current base
-          BRANCH="${BRANCH_PREFIX}-${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}"
+          # Use a stable branch to avoid branch sprawl; can be overridden via SYNC_BRANCH
+          BRANCH_INPUT="${{ vars.SYNC_BRANCH }}"
+          if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${{ secrets.SYNC_BRANCH }}"; fi
+          if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${BRANCH_PREFIX}"; fi
+          BRANCH="$BRANCH_INPUT"
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
           git checkout -B "$BRANCH"
 
@@ -331,7 +333,27 @@ jobs:
           path: target_repo
           branch: ${{ steps.prep_branch.outputs.branch }}
           base: ${{ env.TARGET_BASE }}
-          title: "KoCEM: Sync ${TARGET_PATH_IN_REPO} (${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER})"
+          title: "KoCEM: Sync ${TARGET_PATH_IN_REPO}"
           body: |
             This PR syncs `${{ env.TARGET_PATH_IN_REPO }}` from `${{ github.repository }}` at commit `${{ github.sha }}`.
             Generated automatically by the `sync-code-to-external` workflow.
+
+      - name: Cleanup legacy sync branches (optional)
+        working-directory: target_repo
+        run: |
+          set -e
+          CLEANUP="${{ vars.CLEANUP_OLD_BRANCHES }}"
+          if [ -z "$CLEANUP" ]; then CLEANUP="${{ secrets.CLEANUP_OLD_BRANCHES }}"; fi
+          if [ -z "$CLEANUP" ]; then CLEANUP="true"; fi
+          if [ "$CLEANUP" != "true" ]; then
+            echo "Skipping legacy branch cleanup"; exit 0;
+          fi
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          echo "Cleaning up remote branches matching kocem-sync-* (except $BRANCH)"
+          git ls-remote --heads origin "kocem-sync-*" | awk '{print $2}' | sed 's@refs/heads/@@' | while read -r b; do
+            if [ "$b" != "$BRANCH" ]; then
+              echo "Deleting remote branch: $b" || true
+              git push origin --delete "$b" || true
+            fi
+          done
