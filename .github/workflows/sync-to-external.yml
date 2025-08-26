@@ -241,7 +241,7 @@ jobs:
           echo "### Compare API: changed_files=$CHANGED, ahead_by=$AHEAD" >> $GITHUB_STEP_SUMMARY
 
       - name: Create pull request in target repository
-  if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' && steps.divergence.outputs.empty_diff != 'true' && steps.compare_api.outputs.changed_files != '0' }}
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' && steps.divergence.outputs.empty_diff != 'true' && steps.compare_api.outputs.changed_files != '0' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.TARGET_REPO_TOKEN }}
