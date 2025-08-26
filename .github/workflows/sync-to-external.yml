@@ -209,14 +209,12 @@ jobs:
         working-directory: target_repo
         run: |
           set -e
-          COUNT=$(git diff --cached --name-only | wc -l)
-          if [ "$COUNT" -eq 0 ]; then
-            echo "No staged changes detected; adding sync marker to ensure non-empty PR."
-            printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
-              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > kocem-sync.meta
-            git add -f kocem-sync.meta
-            git diff --cached --name-status || true
-          fi
+          # 항상 동기화 마커를 갱신해 최소 1건 변경을 보장
+          printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
+            "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > kocem-sync.meta
+          git add -f kocem-sync.meta
+          echo "---- staged diff (after forcing sync marker) ----"
+          git diff --cached --name-status || true
 
       - name: Show diff summary (pre-commit)
         id: diffstat
