@@ -78,16 +78,53 @@ jobs:
             git push -u origin "${TARGET_BASE}"
             echo "created_base=true" >> $GITHUB_OUTPUT
           else
-            echo "created_base=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Prepare feature branch in target repository
-        id: prep_branch
+        env:
+          GH_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
         working-directory: target_repo
         run: |
-            timeout-minutes: 20
-          # Use a stable branch to avoid branch sprawl; can be overridden via SYNC_BRANCH
-          BRANCH_INPUT="${{ vars.SYNC_BRANCH }}"
+          set -e
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          OWNER=$(echo "$REPO" | cut -d'/' -f1)
+          NAME=$(echo "$REPO" | cut -d'/' -f2)
+          # Verify remote branch exists
+          if ! git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            echo "Remote branch $BRANCH not found; failing." >&2
+            exit 1
+          fi
+          # Find existing PR
+          LIST_URL="https://api.github.com/repos/${OWNER}/${NAME}/pulls?state=open&head=${OWNER}:${BRANCH}&base=${TARGET_BASE}"
+          echo "Query PRs: $LIST_URL"
+          EXISTING=$(curl -sSf -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "$LIST_URL")
+          PR_URL=$(echo "$EXISTING" | jq -r '.[0].html_url // empty')
+          if [ -n "$PR_URL" ]; then
+            echo "### Existing PR" >> $GITHUB_STEP_SUMMARY
+            echo "$PR_URL" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          # Create PR
+          CREATE_URL="https://api.github.com/repos/${OWNER}/${NAME}/pulls"
+          TITLE="KoCEM: Sync ${TARGET_PATH_IN_REPO}"
+          BODY=$(cat <<'EOF'
+          This PR syncs the buffer snapshot from the private repo.
+          Generated automatically by the sync-code-to-external workflow.
+          EOF
+          )
+          echo "Creating PR: $CREATE_URL"
+          RESP=$(curl -sSf -X POST "$CREATE_URL" \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            -d @- <<JSON
+          {"title": ${TITLE@Q}, "head": ${BRANCH@Q}, "base": ${TARGET_BASE@Q}, "body": ${BODY@Q}}
+          JSON
+          )
+          URL=$(echo "$RESP" | jq -r '.html_url // empty')
+          if [ -z "$URL" ]; then
+            echo "PR creation failed:" >&2
+            echo "$RESP" >&2
+            exit 1
+          fi
+          echo "### Created PR" >> $GITHUB_STEP_SUMMARY
+          echo "$URL" >> $GITHUB_STEP_SUMMARY
           if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${{ secrets.SYNC_BRANCH }}"; fi
           if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${BRANCH_PREFIX}"; fi
           BRANCH="$BRANCH_INPUT"
@@ -248,24 +285,24 @@ jobs:
         id: commit_push
         working-directory: target_repo
         run: |
+          set -e
           git add -A
-          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          # Ensure at least one real file diff exists by updating the sync marker
+          MARKER="kocem-sync-${GITHUB_RUN_NUMBER}.meta"
           if git diff --cached --quiet; then
-            echo "no_changes=true" >> $GITHUB_OUTPUT
-            echo "No changes to commit."
-          else
-            git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
-            # If the resulting tree matches the base branch, skip push/PR to avoid empty PRs
-            git fetch --no-tags --depth=1 origin "${TARGET_BASE}:${TARGET_BASE}" || true
-            if git diff --quiet HEAD "${TARGET_BASE}"; then
-              echo "Branch content is identical to ${TARGET_BASE}; skipping push and PR."
-              echo "no_changes=true" >> $GITHUB_OUTPUT
-              exit 0
-            fi
-            # Always push to a feature branch; do not push directly to base
-            git push -u origin "${{ steps.prep_branch.outputs.branch }}"
-            echo "pushed_to_base=false" >> $GITHUB_OUTPUT
+            echo "tick=$(date -u +%s)" >> "$MARKER"
+            git add -f "$MARKER"
           fi
+          if ! git diff --cached --quiet; then
+            git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+          else
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+            echo "Still no changes to commit after marker update."
+          fi
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          # Always push to a feature branch; do not push directly to base
+          git push -u origin "${{ steps.prep_branch.outputs.branch }}" || true
+          echo "pushed_to_base=false" >> $GITHUB_OUTPUT
 
       - name: Show last commit stats (target)
         if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
