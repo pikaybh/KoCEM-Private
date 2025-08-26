@@ -181,8 +181,9 @@ jobs:
           if [ -z "$(git status --porcelain)" ]; then
             echo "No file-level changes detected; adding sync marker to avoid empty PR."
             printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
-              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .kocem-sync.meta
-            git add .kocem-sync.meta
+              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > kocem-sync.meta
+            # Force-add to bypass any .gitignore rules (e.g., dotfiles or meta patterns)
+            git add -f kocem-sync.meta
             git status --porcelain || true
           fi
 
@@ -212,8 +213,8 @@ jobs:
           if [ "$COUNT" -eq 0 ]; then
             echo "No staged changes detected; adding sync marker to ensure non-empty PR."
             printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
-              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .kocem-sync.meta
-            git add .kocem-sync.meta
+              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > kocem-sync.meta
+            git add -f kocem-sync.meta
             git diff --cached --name-status || true
           fi
 
