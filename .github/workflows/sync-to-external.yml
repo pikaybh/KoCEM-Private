@@ -220,8 +220,28 @@ jobs:
           echo "### Compare" >> $GITHUB_STEP_SUMMARY
           echo "https://github.com/${REPO}/compare/${TARGET_BASE}...${BRANCH}" >> $GITHUB_STEP_SUMMARY
 
+      - name: Verify diff via GitHub Compare API
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        id: compare_api
+        working-directory: target_repo
+        env:
+          GH_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+        run: |
+          set -e
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          OWNER=$(echo "$REPO" | cut -d'/' -f1)
+          NAME=$(echo "$REPO" | cut -d'/' -f2)
+          URL="https://api.github.com/repos/${OWNER}/${NAME}/compare/${TARGET_BASE}...${BRANCH}"
+          echo "Compare API URL: $URL"
+          RESP=$(curl -sSf -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "$URL")
+          CHANGED=$(echo "$RESP" | jq '.files | length')
+          AHEAD=$(echo "$RESP" | jq -r '.ahead_by')
+          echo "changed_files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "ahead_by=$AHEAD" >> $GITHUB_OUTPUT
+          echo "### Compare API: changed_files=$CHANGED, ahead_by=$AHEAD" >> $GITHUB_STEP_SUMMARY
+
       - name: Create pull request in target repository
-        if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' && steps.divergence.outputs.empty_diff != 'true' }}
+  if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' && steps.divergence.outputs.empty_diff != 'true' && steps.compare_api.outputs.changed_files != '0' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.TARGET_REPO_TOKEN }}
