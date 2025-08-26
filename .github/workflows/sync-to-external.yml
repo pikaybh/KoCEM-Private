@@ -12,6 +12,7 @@ concurrency:
 
 jobs:
   sync:
+  timeout-minutes: 20
     runs-on: ubuntu-latest
     env:
       SRC_DIR: .
@@ -22,6 +23,12 @@ jobs:
     ${{ github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     steps:
+      - name: Validate target config
+        run: |
+          if [ -z "${{ vars.TARGET_REPO }}" ] && [ -z "${{ secrets.TARGET_REPO }}" ]; then
+            echo "TARGET_REPO not set (vars or secrets). Exiting."; exit 0; fi
+          if [ -z "${{ secrets.TARGET_REPO_TOKEN }}" ]; then
+            echo "TARGET_REPO_TOKEN secret missing. Exiting."; exit 0; fi
     - name: Checkout source repository (sync-buffer)
         uses: actions/checkout@v4
         with:
