@@ -204,6 +204,19 @@ jobs:
           echo "---- staged diff (after add) ----"
           git diff --cached --name-status || true
 
+      - name: Ensure non-empty diff after staging
+        working-directory: target_repo
+        run: |
+          set -e
+          COUNT=$(git diff --cached --name-only | wc -l)
+          if [ "$COUNT" -eq 0 ]; then
+            echo "No staged changes detected; adding sync marker to ensure non-empty PR."
+            printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
+              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .kocem-sync.meta
+            git add .kocem-sync.meta
+            git diff --cached --name-status || true
+          fi
+
       - name: Show diff summary (pre-commit)
         id: diffstat
         working-directory: target_repo
