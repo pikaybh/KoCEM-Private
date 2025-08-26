@@ -1,4 +1,4 @@
-name: Sync results to external repository
+name: Sync code to external repository
 
 on:
   push:
@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout source repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Initialize target repository (supports empty repos)
         run: |
@@ -65,23 +67,30 @@ jobs:
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
           git checkout -B "$BRANCH"
 
-      - name: Copy repository contents into target repository (with output filter)
+      - name: Copy repository contents into target repository (exclude data/output)
         run: |
+          # Sync all code/config except large or sensitive data and caches
           rsync -a --delete \
             --exclude 'target_repo' \
             --exclude '.git' \
-            --exclude '.github/workflows/**' \
-            --filter '+ /output/' \
-            --filter '+ /output/mcqa/' \
-            --filter '+ /output/mcqa/en/' \
-            --filter '+ /output/mcqa/en/gpt-4.1/' \
-            --filter '+ /output/mcqa/en/gpt-4.1/val/**' \
-            --filter '- /output/**' \
+            --exclude '.github/**' \
+            --exclude 'output/**' \
+            --exclude 'logs/**' \
+            --exclude '**/__pycache__/**' \
+            --exclude '*.pyc' \
+            --exclude '.venv/**' \
+            --exclude 'venv/**' \
+            --exclude '.mypy_cache/**' \
+            --exclude '.pytest_cache/**' \
+            --exclude 'data/**' \
             ./ target_repo/
+
 
       - name: Show diff summary (debug)
         working-directory: target_repo
         run: |
+          echo "Target repository: ${REPO}"
+          echo "Target base branch: ${TARGET_BASE}"
           echo "---- git status (porcelain) ----"
           git status --porcelain || true
           echo "---- staged diff (none yet) ----"
@@ -129,4 +138,4 @@ jobs:
           title: "KoCEM: Sync ${TARGET_PATH_IN_REPO}"
           body: |
             This PR syncs `${{ env.TARGET_PATH_IN_REPO }}` from `${{ github.repository }}` at commit `${{ github.sha }}`.
-            Generated automatically by the `sync-to-external` workflow.
+            Generated automatically by the `sync-code-to-external` workflow.
