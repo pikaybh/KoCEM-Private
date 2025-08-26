@@ -1,13 +1,14 @@
 name: Sync code to external repository
 
 on:
-  push:
-    branches: [ sync-buffer ]
+  workflow_run:
+    workflows: ["Build sync buffer branch"]
+    types: [completed]
   workflow_dispatch: {}
 
 concurrency:
-  group: sync-external-${{ github.ref }}
-  cancel-in-progress: false
+  group: sync-external-${{ github.run_id }}
+  cancel-in-progress: true
 
 jobs:
   sync:
@@ -17,22 +18,28 @@ jobs:
       TARGET_PATH_IN_REPO: .
       BRANCH_PREFIX: kocem-sync
       TARGET_BASE: main
+  if: >-
+    ${{ github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') }}
     steps:
-      - name: Checkout source repository
+    - name: Checkout source repository (sync-buffer)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+      fetch-depth: 0
+      ref: sync-buffer
 
-      - name: Initialize target repository (supports empty repos)
+    - name: Initialize target repository (supports empty repos)
         run: |
           set -e
           REPO="${{ vars.TARGET_REPO }}"
           if [ -z "$REPO" ]; then REPO="${{ secrets.TARGET_REPO }}"; fi
+      if [ -z "$REPO" ]; then echo "TARGET_REPO not configured via vars or secrets; exiting."; exit 0; fi
           echo "REPO=$REPO" >> $GITHUB_ENV
           mkdir -p target_repo
           cd target_repo
           git init
           git remote add origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+      if [ -z "${{ secrets.TARGET_REPO_TOKEN }}" ]; then echo "TARGET_REPO_TOKEN secret is missing; exiting."; exit 0; fi
           # Try to fetch base; if missing, we'll create it later
           if git ls-remote --exit-code --heads origin "${TARGET_BASE}" >/dev/null 2>&1; then
             git fetch origin "${TARGET_BASE}:${TARGET_BASE}"
