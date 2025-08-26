@@ -67,22 +67,65 @@ jobs:
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
           git checkout -B "$BRANCH"
 
+      - name: Preview files to sync (rsync dry-run)
+        run: |
+          set -e
+          RSYNC_FLAGS=(
+            -ani --delete --prune-empty-dirs
+            --exclude 'target_repo' \
+            --exclude '.git' \
+            # Whitelist begins
+            --include '/app/' \
+            --include '/app/***' \
+            --include '/prompts/' \
+            --include '/prompts/***' \
+            --include '/output/' \
+            --include '/output/mcqa/' \
+            --include '/output/mcqa/en/' \
+            --include '/output/mcqa/en/gpt-4.1/***' \
+            --include '/.env.example' \
+            --include '/.gitignore' \
+            --include '/.python-version' \
+            --include '/pyproject.toml' \
+            --include '/README.md' \
+            --include '/requirements.txt' \
+            # Common junk still excluded
+            --exclude '**/__pycache__/**' \
+            --exclude '*.pyc' \
+            # Everything else excluded
+            --exclude '*'
+          )
+          echo "---- rsync dry-run preview ----"
+          rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | sed -n '1,200p'
+          COUNT=$(rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | wc -l)
+          echo "Would sync ${COUNT} entries"
+
       - name: Copy repository contents into target repository (exclude data/output)
         run: |
           # Sync all code/config except large or sensitive data and caches
-          rsync -a --delete \
+          rsync -a --delete --prune-empty-dirs \
             --exclude 'target_repo' \
             --exclude '.git' \
-            --exclude '.github/**' \
-            --exclude 'output/**' \
-            --exclude 'logs/**' \
+            # Whitelist begins
+            --include '/app/' \
+            --include '/app/***' \
+            --include '/prompts/' \
+            --include '/prompts/***' \
+            --include '/output/' \
+            --include '/output/mcqa/' \
+            --include '/output/mcqa/en/' \
+            --include '/output/mcqa/en/gpt-4.1/***' \
+            --include '/.env.example' \
+            --include '/.gitignore' \
+            --include '/.python-version' \
+            --include '/pyproject.toml' \
+            --include '/README.md' \
+            --include '/requirements.txt' \
+            # Common junk still excluded
             --exclude '**/__pycache__/**' \
             --exclude '*.pyc' \
-            --exclude '.venv/**' \
-            --exclude 'venv/**' \
-            --exclude '.mypy_cache/**' \
-            --exclude '.pytest_cache/**' \
-            --exclude 'data/**' \
+            # Everything else excluded
+            --exclude '*' \
             ./ target_repo/
 
 
@@ -94,6 +137,13 @@ jobs:
           echo "---- git status (porcelain) ----"
           git status --porcelain || true
           echo "---- staged diff (none yet) ----"
+          git diff --cached --name-status || true
+
+      - name: Preview staged diff (post-add)
+        working-directory: target_repo
+        run: |
+          git add -A
+          echo "---- staged diff (after add) ----"
           git diff --cached --name-status || true
 
       - name: Show diff summary (pre-commit)
@@ -126,6 +176,13 @@ jobs:
               echo "pushed_to_base=false" >> $GITHUB_OUTPUT
             fi
           fi
+
+      - name: Show last commit stats (target)
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        working-directory: target_repo
+        run: |
+          echo "---- last commit ----"
+          git --no-pager log -1 --stat || true
 
       - name: Create pull request in target repository
         if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' }}
