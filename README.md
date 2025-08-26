@@ -1,7 +1,7 @@
 # KoCEM: A Multimodal Knowledge and Reasoning Benchmark for Korean Construction Engineering & Management
 
 ## Leaderboard
-
+ 
 <p>Per-locale rankings. First, per split tables; then an overall weighted table. Columns show subject accuracies. Higher is better.</p>
 
 ## Locale: en

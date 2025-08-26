@@ -73,6 +73,7 @@ jobs:
           rsync -a --delete \
             --exclude 'target_repo' \
             --exclude '.git' \
+            --exclude '.github/**' \
             --exclude 'output/**' \
             --exclude 'logs/**' \
             --exclude '**/__pycache__/**' \
