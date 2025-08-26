@@ -2,7 +2,7 @@ name: Sync code to external repository
 
 on:
   push:
-    branches: [ main ]
+    branches: [ sync-buffer ]
   workflow_dispatch: {}
 
 concurrency:

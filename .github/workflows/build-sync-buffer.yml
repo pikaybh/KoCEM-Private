@@ -1,0 +1,91 @@
+name: Build sync buffer branch
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-buffer-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  buffer:
+    runs-on: ubuntu-latest
+    env:
+      BUFFER_BRANCH: sync-buffer
+    steps:
+      - name: Checkout source (main)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare target working directory
+        run: |
+          set -e
+          rm -rf buffer_repo
+          mkdir -p buffer_repo
+
+      - name: Initialize buffer branch repo
+        working-directory: buffer_repo
+        run: |
+          set -e
+          git init
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN || github.token }}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code --heads origin "${BUFFER_BRANCH}" >/dev/null 2>&1; then
+            git fetch origin "${BUFFER_BRANCH}:${BUFFER_BRANCH}"
+            git checkout "${BUFFER_BRANCH}"
+          else
+            git checkout --orphan "${BUFFER_BRANCH}"
+          fi
+
+      - name: Wipe buffer contents
+        working-directory: buffer_repo
+        run: |
+          set -e
+          find . -mindepth 1 \
+            -not -path './.git' -not -path './.git/*' \
+            -exec rm -rf {} +
+
+      - name: Copy main (exclude output) into buffer
+        run: |
+          set -e
+          RSYNC_CODE=(
+            -a --delete --prune-empty-dirs
+            --exclude '.git'
+            --exclude 'buffer_repo'
+            --exclude 'output/**'
+            --exclude '**/__pycache__/**'
+            --exclude '*.pyc'
+          )
+          rsync "${RSYNC_CODE[@]}" ./ buffer_repo/
+
+      - name: Copy allowed outputs into buffer
+        run: |
+          set -e
+          RSYNC_OUTPUT=(
+            -a --prune-empty-dirs
+            --include '/output/'
+            --include '/output/mcqa/'
+            --include '/output/mcqa/en/'
+            --include '/output/mcqa/en/gpt-4.1/***'
+            --exclude '*'
+          )
+          rsync "${RSYNC_OUTPUT[@]}" ./ buffer_repo/
+
+      - name: Commit and push buffer
+        working-directory: buffer_repo
+        run: |
+          set -e
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No buffer changes."
+            exit 0
+          fi
+          git commit -m "Buffer: sanitize main (code + allowed outputs)"
+          git push -u origin "${BUFFER_BRANCH}"
