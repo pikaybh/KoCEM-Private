@@ -1,0 +1,278 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1599999964237213,
+        "question": "Which of the following is information needed for biomechanical analysis?",
+        "options": {
+            "A": "Heart rate, calories per minute, oxygen uptake",
+            "B": "Distance, weight, angle",
+            "C": "Temperature, noise level, illumination",
+            "D": "Height, waist circumference"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Distance, weight, angle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Distance, weight, angle",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Distance, weight, angle",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 70,
+                    "total_tokens": 77,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--94b067cb-3d53-47e8-a9f9-2b5b0da1c874-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 7,
+                "total_tokens": 77,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?",
+        "options": {
+            "A": "When snowfall exceeds 1 cm per minute",
+            "B": "When rainfall exceeds 1 cm per hour",
+            "C": "When wind speed exceeds 10 meters per second",
+            "D": "When the temperature exceeds 28°C"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When wind speed exceeds 10 meters per second"
+            },
+            "explanation": "- When wind speed exceeds 10 meters per second\n- When rainfall exceeds 1 mm per hour\n- When snowfall exceeds 1 cm per hour"
+        },
+        "image_path": null,
+        "model_answer": "(C) When wind speed exceeds 10 meters per second",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) When wind speed exceeds 10 meters per second",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 91,
+                    "total_tokens": 102,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cc46b674-0f59-4d4a-bc39-3f1c981a65c5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 91,
+                "output_tokens": 11,
+                "total_tokens": 102,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.44999998807907104,
+        "question": "The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?",
+        "options": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20080907/bj20080907m83.gif?1522617633",
+        "model_answer": "(A) 5",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 5",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 325,
+                    "total_tokens": 329,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--953c322d-69eb-4e2d-93b8-50d1719647f7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 325,
+                "output_tokens": 4,
+                "total_tokens": 329,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is the correct safety rule when pouring concrete?",
+        "options": {
+            "A": "Concrete should be poured all to one side.",
+            "B": "Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation.",
+            "C": "Concrete that has spilled onto the floor should be left to cure as is.",
+            "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 23,
+                    "prompt_tokens": 114,
+                    "total_tokens": 137,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7ee06d18-26e2-4831-aadf-2023ca4a4920-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 114,
+                "output_tokens": 23,
+                "total_tokens": 137,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

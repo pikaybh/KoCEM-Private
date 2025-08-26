@@ -1,0 +1,140 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4000000059604645,
+        "question": "What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)",
+        "options": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "400mm"
+            },
+            "explanation": "The maximum spacing is determined by the smallest of the following three values: 1. 25 x 16 = 400mm, 2. 10 x 48 = 480mm, 3. no more than the shorter side of the column’s cross-section = 500mm. Therefore, the correct answer is 400mm."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m52.gif?1527167378",
+        "model_answer": "(A) 350mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 350mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 335,
+                    "total_tokens": 340,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d2612658-c512-4734-ab8d-80c120399da5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 335,
+                "output_tokens": 5,
+                "total_tokens": 340,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.41999998688697815,
+        "question": "What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?",
+        "options": {
+            "A": "50.8kN",
+            "B": "51.4kN",
+            "C": "51.5kN",
+            "D": "52.1kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "51.5kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m53.gif?1527167378",
+        "model_answer": "(B) 51.4kN",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 51.4kN",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 343,
+                    "total_tokens": 351,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6b5d925c-ab0b-4046-b60d-8a05c7de8de5-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 343,
+                "output_tokens": 8,
+                "total_tokens": 351,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

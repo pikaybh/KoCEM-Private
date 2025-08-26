@@ -1,0 +1,702 @@
+[
+    {
+        "id": "val_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Calculate the second moment of area about the x-axis for the section shown in the figure.",
+        "options": {
+            "A": "$ 5,200 × 10^6 mm^4 $",
+            "B": "$ 3,800 × 10^6 mm^4 $",
+            "C": "$ 6,500 × 10^6 mm^4 $",
+            "D": "$ 7,200 × 10^6 mm^4 $",
+            "E": "$ 4,900 × 10^6mm^4 $"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "$ 5,200 × 10^6 mm^4 $"
+            },
+            "explanation": "\nSecond moment of area about the x-axis:\n\n$I_x = I_{xG} + A y^2$\n\n$= \\frac{600 \\times 200^3}{12} + (600 \\times 200) \\times 200^2$\n\n$= 5,200 \\times 10^6~\\text{mm}^4$\n"
+        },
+        "image_path": "스크린샷 2024-10-20 035642.png",
+        "model_answer": "To calculate the second moment of area (moment of inertia) about the x-axis for the rectangle, use the formula:\n\n\\[\nI_x = \\frac{1}{12} b h^3 + A d^2\n\\]\n\nWhere:\n- \\( b = 600 \\) mm (width)\n- \\( h = 200 \\) mm (height)\n- \\( d \\) = distance from centroid to x-axis\n\nThe centroid of the rectangle is at half its height from the base:\n\\[\n\\text{Centroid from bottom} = \\frac{200}{2} = 100 \\text{ mm}\n\\]\nDistance from x-axis:\n\\[\nd = 100 \\text{ mm}\n\\]\n\nArea, \\( A = b \\times h = 600 \\times 200 = 120,000 \\) mm²\n\nNow compute the moment of inertia about the centroid (horizontal axis through centroid):\n\\[\nI_{centroid} = \\frac{1}{12} b h^3 = \\frac{1}{12} \\times 600 \\times (200)^3 = \\frac{1}{12} \\times 600 \\times 8,000,000 = 400 \\times 8,000,000 = 3,200,000,000 \\text{ mm}^4\n\\]\n\nNow apply the parallel axis theorem:\n\\[\nI_x = I_{centroid} + A d^2 = 3,200,000,000 + 120,000 \\times (100)^2\n\\]\n\\[\n120,000 \\times 10,000 = 1,200,000,000\n\\]\n\\[\nI_x = 3,200,000,000 + 1,200,000,000 = 4,400,000,000 \\text{ mm}^4\n\\]\n\nSo, in scientific notation:\n\\[\nI_x = 4.4 \\times 10^9 \\text{ mm}^4 = 4,400 \\times 10^6 \\text{ mm}^4\n\\]\n\nHowever, this does not match any of the answer choices exactly. Let's check for calculation mistakes:\n\n**Rechecking Centroid Calculation:**\n- Rectangle: 600 mm × 200 mm, centroid is 100 mm above the x-axis (which is at the bottom of the rectangle).\n- So, distance \\( d = 100 \\) mm.\n\n**Calculating:**\n- \\( (200)^3 = 8,000,000 \\)\n- \\( 600 \\times 8,000,000 = 4,800,000,000 \\)\n- \\( \\frac{4,800,000,000}{12} = 400,000,000 \\) ✅\n\nWait, earlier calculation was off by a factor of 10. Let's correct:\n\\[\nI_{centroid} = \\frac{1}{12} \\times 600 \\times (200)^3 = \\frac{1}{12} \\times 600 \\times 8,000,000 = \\frac{4,800,000,000}{12} = 400,000,000 \\text{ mm}^4\n\\]\n\nNow add the parallel axis term:\n\\[\nA = 600 \\times 200 = 120,000 \\text{ mm}^2\n\\]\n\\[\nA d^2 = 120,000 \\times (100)^2 = 120,000 \\times 10,000 = 1,200,000,000\n\\]\n\\[\nI_x = 400,000,000 + 1,200,000,000 = 1,600,000,000 \\text{ mm}^4\n\\]\n\nNow, check the options, but still, this is not matching. Let's check the rectangle's position; is it above the x-axis or symmetric? If the base is at x-axis, and height is 200 mm above, the centroid is at 100 mm above x-axis.\n\nBut if the rectangle is 200 mm tall and its base is 100 mm above the x-axis (so the bottom is at y = 100 mm, top is at y = 300 mm), then centroid is at y = 200 mm, so distance from x-axis \\( d = 200 \\) mm.\n\nSo, let's recalculate with \\( d = 200 \\) mm:\n\\[\nA d^2 = 120,000 \\times (200)^2 = 120,000 \\times 40,000 = 4,800,000,000\n\\]\n\\[\nI_x = 400,000,000 + 4,800,000,000 = 5,200,000,000 \\text{ mm}^4\n\\]\n\n\\[\nI_x = 5,200 \\times 10^6 \\text{ mm}^4\n\\]\n\n**Correct answer:**\n\n**(A) $ 5,200 × 10^6 mm^4 $**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "To calculate the second moment of area (moment of inertia) about the x-axis for the rectangle, use the formula:\n\n\\[\nI_x = \\frac{1}{12} b h^3 + A d^2\n\\]\n\nWhere:\n- \\( b = 600 \\) mm (width)\n- \\( h = 200 \\) mm (height)\n- \\( d \\) = distance from centroid to x-axis\n\nThe centroid of the rectangle is at half its height from the base:\n\\[\n\\text{Centroid from bottom} = \\frac{200}{2} = 100 \\text{ mm}\n\\]\nDistance from x-axis:\n\\[\nd = 100 \\text{ mm}\n\\]\n\nArea, \\( A = b \\times h = 600 \\times 200 = 120,000 \\) mm²\n\nNow compute the moment of inertia about the centroid (horizontal axis through centroid):\n\\[\nI_{centroid} = \\frac{1}{12} b h^3 = \\frac{1}{12} \\times 600 \\times (200)^3 = \\frac{1}{12} \\times 600 \\times 8,000,000 = 400 \\times 8,000,000 = 3,200,000,000 \\text{ mm}^4\n\\]\n\nNow apply the parallel axis theorem:\n\\[\nI_x = I_{centroid} + A d^2 = 3,200,000,000 + 120,000 \\times (100)^2\n\\]\n\\[\n120,000 \\times 10,000 = 1,200,000,000\n\\]\n\\[\nI_x = 3,200,000,000 + 1,200,000,000 = 4,400,000,000 \\text{ mm}^4\n\\]\n\nSo, in scientific notation:\n\\[\nI_x = 4.4 \\times 10^9 \\text{ mm}^4 = 4,400 \\times 10^6 \\text{ mm}^4\n\\]\n\nHowever, this does not match any of the answer choices exactly. Let's check for calculation mistakes:\n\n**Rechecking Centroid Calculation:**\n- Rectangle: 600 mm × 200 mm, centroid is 100 mm above the x-axis (which is at the bottom of the rectangle).\n- So, distance \\( d = 100 \\) mm.\n\n**Calculating:**\n- \\( (200)^3 = 8,000,000 \\)\n- \\( 600 \\times 8,000,000 = 4,800,000,000 \\)\n- \\( \\frac{4,800,000,000}{12} = 400,000,000 \\) ✅\n\nWait, earlier calculation was off by a factor of 10. Let's correct:\n\\[\nI_{centroid} = \\frac{1}{12} \\times 600 \\times (200)^3 = \\frac{1}{12} \\times 600 \\times 8,000,000 = \\frac{4,800,000,000}{12} = 400,000,000 \\text{ mm}^4\n\\]\n\nNow add the parallel axis term:\n\\[\nA = 600 \\times 200 = 120,000 \\text{ mm}^2\n\\]\n\\[\nA d^2 = 120,000 \\times (100)^2 = 120,000 \\times 10,000 = 1,200,000,000\n\\]\n\\[\nI_x = 400,000,000 + 1,200,000,000 = 1,600,000,000 \\text{ mm}^4\n\\]\n\nNow, check the options, but still, this is not matching. Let's check the rectangle's position; is it above the x-axis or symmetric? If the base is at x-axis, and height is 200 mm above, the centroid is at 100 mm above x-axis.\n\nBut if the rectangle is 200 mm tall and its base is 100 mm above the x-axis (so the bottom is at y = 100 mm, top is at y = 300 mm), then centroid is at y = 200 mm, so distance from x-axis \\( d = 200 \\) mm.\n\nSo, let's recalculate with \\( d = 200 \\) mm:\n\\[\nA d^2 = 120,000 \\times (200)^2 = 120,000 \\times 40,000 = 4,800,000,000\n\\]\n\\[\nI_x = 400,000,000 + 4,800,000,000 = 5,200,000,000 \\text{ mm}^4\n\\]\n\n\\[\nI_x = 5,200 \\times 10^6 \\text{ mm}^4\n\\]\n\n**Correct answer:**\n\n**(A) $ 5,200 × 10^6 mm^4 $**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1040,
+                    "prompt_tokens": 546,
+                    "total_tokens": 1586,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--63762ccd-4329-4463-98b1-2c762493682a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 546,
+                "output_tokens": 1040,
+                "total_tokens": 1586,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Find the effective buckling length factor, $K$, for a column with the material and cross-sectional dimensions shown in the figure, with one end hinged and the other end fixed.",
+        "options": {
+            "A": "1.0",
+            "B": "0.7",
+            "C": "1.5",
+            "D": "2.2",
+            "E": "0.7"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "0.7"
+            },
+            "explanation": "Member length, $L$ = $a$\n\nEffective buckling length factor, $K$ = 0.7"
+        },
+        "image_path": "스크린샷 2024-10-20 003946.png",
+        "model_answer": "(B) 0.7",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 0.7",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 348,
+                    "total_tokens": 354,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--39b4b4bd-f836-4ccd-8797-a0518dfb3c3a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 348,
+                "output_tokens": 6,
+                "total_tokens": 354,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Using the following information, calculate the number of cement bags needed for one floor. (Note: Use the quantity calculated in item (1), with a mixing ratio of 1:3:6, and apply the approximate formula.)\n\n- Member dimensions (unit: mm)\n  - $ G_1, \\ G_2 $ : $ 400 \\times 600 $\n  - Total height: 3,600\n- All columns ($ C_1 $): $ 500 \\times 500 $\n- $ G_3 $ : $ 400 \\times 700 $, $ B_1 $ : $ 300 \\times 600 $\n- Slab thickness ($ t $): 120",
+        "options": {
+            "A": "78 bags",
+            "B": "55 bags",
+            "C": "123 bags",
+            "D": "328 bags",
+            "E": "200 bags"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "328 bags"
+            },
+            "explanation": "(1) Amount of materials per 1m³ of concrete (1:3:6 mix)\n$\nV = 1.1m + 0.57n = 1.1 \\times 3 + 0.57 \\times 6 = 6.72 \\, \\text{m}^3\n$\n\n(2) Total cement required\n$\nC = \\frac{37.5}{V} \\times \\text{Total concrete volume}\n$\n$\n= \\frac{37.5}{6.72} \\times 58.66 = 327.3 \\rightarrow 328 \\text{bags}\n$"
+        },
+        "image_path": "스크린샷 2024-10-20 043521.png",
+        "model_answer": "Let's break down the calculation step by step.\n\n### 1. **Member Quantities and Volumes**\n\n#### **Columns ($C_1$)**\n- Size: $500 \\times 500$ mm = $0.5 \\times 0.5$ m\n- Height: $3.6$ m\n- Number of $C_1$: There is one at each intersection and corner. Total along the perimeter: $4$ (corners) + $3 \\times 2$ (long sides) + $1 \\times 2$ (short sides) = $4 + 6 + 2 = 12$.\n\n#### **Beams**\n- $G_1, G_2$: $400 \\times 600$ mm = $0.4 \\times 0.6$ m\n- $G_3$: $400 \\times 700$ mm = $0.4 \\times 0.7$ m\n- $B_1$: $300 \\times 600$ mm = $0.3 \\times 0.6$ m\n\n#### **Slab**\n- Thickness: $120$ mm = $0.12$ m\n- Area: $24 \\times 9 = 216$ m²\n\n---\n\n### **Step 1: Calculate Volumes**\n\n#### **Columns ($C_1$)**\n- Number: $16$ (corners + intersections, count from image)\n- Volume per column: $0.5 \\times 0.5 \\times 3.6 = 0.9$ m³\n- Total: $16 \\times 0.9 = 14.4$ m³\n\n#### **Beams**\n\n- **$G_1$**: (2 pieces, both 9m)\n  - Volume per: $0.4 \\times 0.6 \\times 9 = 2.16$ m³\n  - Total: $2 \\times 2.16 = 4.32$ m³\n\n- **$G_2$**: (5 pieces, each 24m/6 = 4m, but from drawing, each 3m span, 5 spans in width, so 5 pieces each 9m)\n  - Volume per: $0.4 \\times 0.6 \\times 3 = 0.72$ m³\n  - Number: 5, each run 9m, so $5 \\times 9 = 45$ m total length.\n  - Total: $0.4 \\times 0.6 \\times 45 = 10.8$ m³\n\n- **$G_3$**: (2 pieces, both 24m)\n  - Volume per: $0.4 \\times 0.7 \\times 24 = 6.72$ m³\n  - Total: $2 \\times 6.72 = 13.44$ m³\n\n- **$B_1$**: (2 pieces, both 9m)\n  - Volume per: $0.3 \\times 0.6 \\times 9 = 1.62$ m³\n  - Total: $2 \\times 1.62 = 3.24$ m³\n\n#### **Slab**\n- Volume: $24 \\times 9 \\times 0.12 = 25.92$ m³\n\n---\n\n#### **Sum of Volumes**\n- Columns: $14.4$\n- Beams: $4.32 + 10.8 + 13.44 + 3.24 = 31.8$\n- Slab: $25.92$\n- **Total**: $14.4 + 31.8 + 25.92 = 72.12$ m³\n\n---\n\n### **Step 2: Calculate Number of Cement Bags**\n\nMixing Ratio: **1:3:6** (Cement:Sand:Aggregate)  \n- Cement part = 1/(1+3+6) = 1/10 of the total volume  \n- Volume of cement required = $72.12 \\times \\frac{1}{10} = 7.212$ m³\n\n- 1 m³ of cement = **30 bags** (approximate, for 50kg bags)\n- Number of bags = $7.212 \\times 30 = 216.36$ bags\n\nBut with \"approximate formula\" (considering wastage, bulking, etc.), usually use a coefficient like **0.154** for dry volume correction:\n- Dry volume = $72.12 \\times 1.54 = 111.065$ m³\n- Cement volume (1/10): $111.065 \\times \\frac{1}{10} = 11.1065$ m³\n- Bags: $11.1065 \\times 30 = 333.2$ bags\n\nNone of the choices match this exactly, but **approximate formulas for 1:3:6 ratio** sometimes use:\n- 1 m³ concrete (1:3:6) ≈ 5 bags\n\nSo, $72.12 \\times 5 = 360.6$ bags\n\nBut for one floor, accounting only for slab:\n- $25.92 \\times 5 = 129.6$ bags\n\nThe closest option to the calculated slab value is **123 bags**.\n\n---\n\n## **Final Answer**\n**(C) 123 bags**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Let's break down the calculation step by step.\n\n### 1. **Member Quantities and Volumes**\n\n#### **Columns ($C_1$)**\n- Size: $500 \\times 500$ mm = $0.5 \\times 0.5$ m\n- Height: $3.6$ m\n- Number of $C_1$: There is one at each intersection and corner. Total along the perimeter: $4$ (corners) + $3 \\times 2$ (long sides) + $1 \\times 2$ (short sides) = $4 + 6 + 2 = 12$.\n\n#### **Beams**\n- $G_1, G_2$: $400 \\times 600$ mm = $0.4 \\times 0.6$ m\n- $G_3$: $400 \\times 700$ mm = $0.4 \\times 0.7$ m\n- $B_1$: $300 \\times 600$ mm = $0.3 \\times 0.6$ m\n\n#### **Slab**\n- Thickness: $120$ mm = $0.12$ m\n- Area: $24 \\times 9 = 216$ m²\n\n---\n\n### **Step 1: Calculate Volumes**\n\n#### **Columns ($C_1$)**\n- Number: $16$ (corners + intersections, count from image)\n- Volume per column: $0.5 \\times 0.5 \\times 3.6 = 0.9$ m³\n- Total: $16 \\times 0.9 = 14.4$ m³\n\n#### **Beams**\n\n- **$G_1$**: (2 pieces, both 9m)\n  - Volume per: $0.4 \\times 0.6 \\times 9 = 2.16$ m³\n  - Total: $2 \\times 2.16 = 4.32$ m³\n\n- **$G_2$**: (5 pieces, each 24m/6 = 4m, but from drawing, each 3m span, 5 spans in width, so 5 pieces each 9m)\n  - Volume per: $0.4 \\times 0.6 \\times 3 = 0.72$ m³\n  - Number: 5, each run 9m, so $5 \\times 9 = 45$ m total length.\n  - Total: $0.4 \\times 0.6 \\times 45 = 10.8$ m³\n\n- **$G_3$**: (2 pieces, both 24m)\n  - Volume per: $0.4 \\times 0.7 \\times 24 = 6.72$ m³\n  - Total: $2 \\times 6.72 = 13.44$ m³\n\n- **$B_1$**: (2 pieces, both 9m)\n  - Volume per: $0.3 \\times 0.6 \\times 9 = 1.62$ m³\n  - Total: $2 \\times 1.62 = 3.24$ m³\n\n#### **Slab**\n- Volume: $24 \\times 9 \\times 0.12 = 25.92$ m³\n\n---\n\n#### **Sum of Volumes**\n- Columns: $14.4$\n- Beams: $4.32 + 10.8 + 13.44 + 3.24 = 31.8$\n- Slab: $25.92$\n- **Total**: $14.4 + 31.8 + 25.92 = 72.12$ m³\n\n---\n\n### **Step 2: Calculate Number of Cement Bags**\n\nMixing Ratio: **1:3:6** (Cement:Sand:Aggregate)  \n- Cement part = 1/(1+3+6) = 1/10 of the total volume  \n- Volume of cement required = $72.12 \\times \\frac{1}{10} = 7.212$ m³\n\n- 1 m³ of cement = **30 bags** (approximate, for 50kg bags)\n- Number of bags = $7.212 \\times 30 = 216.36$ bags\n\nBut with \"approximate formula\" (considering wastage, bulking, etc.), usually use a coefficient like **0.154** for dry volume correction:\n- Dry volume = $72.12 \\times 1.54 = 111.065$ m³\n- Cement volume (1/10): $111.065 \\times \\frac{1}{10} = 11.1065$ m³\n- Bags: $11.1065 \\times 30 = 333.2$ bags\n\nNone of the choices match this exactly, but **approximate formulas for 1:3:6 ratio** sometimes use:\n- 1 m³ concrete (1:3:6) ≈ 5 bags\n\nSo, $72.12 \\times 5 = 360.6$ bags\n\nBut for one floor, accounting only for slab:\n- $25.92 \\times 5 = 129.6$ bags\n\nThe closest option to the calculated slab value is **123 bags**.\n\n---\n\n## **Final Answer**\n**(C) 123 bags**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1149,
+                    "prompt_tokens": 619,
+                    "total_tokens": 1768,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--58cd283c-2400-4084-9889-ce2f90a37437-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 619,
+                "output_tokens": 1149,
+                "total_tokens": 1768,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_4",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "A steel bar has a cross-sectional area of 200 mm², a modulus of elasticity of 200,000 MPa, a length of 10 m, and is subjected to a tensile force of 100 kN. Find the elongation $\u0003Delta l$.",
+        "options": {
+            "A": "25.0 mm",
+            "B": "60.0 mm",
+            "C": "17.5 mm",
+            "D": "43.2 mm",
+            "E": "8.5 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "25.0 mm"
+            },
+            "explanation": "$\n\\Delta l = \\frac{N \\cdot l}{E \\cdot A} = \\frac{(100 \\times 10^3) \\times (10 \\times 10^3)}{200,000 \\times 200}\n$\n\n$\n= 25.0 \\, \\text{mm}\n$"
+        },
+        "image_path": null,
+        "model_answer": "(E) 8.5 mm",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) 8.5 mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 118,
+                    "total_tokens": 125,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b34adfa1-3238-47b0-ac77-5bc0bb07e6a6-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 118,
+                "output_tokens": 7,
+                "total_tokens": 125,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When a load is applied to the truss as shown in the figure, use the method of sections to determine the member force of $U_{CD}$ in the figure.",
+        "options": {
+            "A": "4.3 kN (tension)",
+            "B": "5.8 kN (tension)",
+            "C": "10.5 kN (compression)",
+            "D": "-7.2 kN (compression)",
+            "E": "-8.1kN (compression)"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "-8.1kN (compression)"
+            },
+            "explanation": "(1) Determination of reactions\n\n$\nR_A = 12.0 \\ \\text{kN}, \\quad H_A = 0 \\ \\text{kN}, \\quad R_B = 12.0 \\ \\text{kN}\n$\n\n(2) Determination of member force by the method of sections\n\n1. $\\sum M_E = 12 \\times 4 - 10 \\times 2 + U_{CD} \\times 2 \\sqrt{3} = 0$\n\n   $\\therefore U_{CD} = -8.1 \\ \\text{kN} \\ (\\text{compression})$"
+        },
+        "image_path": "스크린샷 2024-10-20 015222.png",
+        "model_answer": "(E) -8.1kN (compression)",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "(E) -8.1kN (compression)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 880,
+                    "total_tokens": 891,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_51e1070cf2",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2e770739-579b-40b0-8b60-e758cbf09d3b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 880,
+                "output_tokens": 11,
+                "total_tokens": 891,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Domain_Reasoning_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Calculate the balanced reinforcement ratio of the singly reinforced concrete beam shown below according to the strength design method. (Given: f_{ck}=27 MPa, f_{y}=300 MPa, E_{s}=200,000 MPa)",
+        "options": {
+            "A": "0.0450",
+            "B": "0.0422",
+            "C": "0.0325",
+            "D": "0.0380",
+            "E": "0.0408"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "0.0408"
+            },
+            "explanation": "① Since $f_{ck} \\\\leq 40~\\text{MPa}$, $\\beta_1 = 0.80$\n\n② $\\rho_b = 0.85\\beta_1 \\cdot \\frac{f_{ck}}{f_y} \\cdot \\frac{600}{600 + f_y}$\n   = $0.85 \\times 0.80 \\times \\frac{27}{300} \\times \\frac{600}{600 + 300} = 0.04080$"
+        },
+        "image_path": "스크린샷 2024-10-20 065810.png",
+        "model_answer": "To solve for the **balanced reinforcement ratio (ρ_bal)**:\n\n1. **Balanced condition**:  \n   \\[\n   \\varepsilon_{s} = \\varepsilon_{y}\n   \\]\n   where \\(\\varepsilon_{y} = \\frac{f_y}{E_s}\\)\n\n2. **Assume cover is negligible** (for simplicity, as not given), so effective depth \\(d \\approx 750\\,mm\\)\n\n3. **x_{bal} using strain compatibility**:\n   \\[\n   \\frac{\\varepsilon_{cu}}{x_{bal}} = \\frac{\\varepsilon_{y}}{d-x_{bal}}\n   \\]\n   \\(\\varepsilon_{cu} = 0.003\\)\n\n   \\[\n   x_{bal} = \\frac{\\varepsilon_{cu} \\cdot d}{\\varepsilon_{cu} + \\varepsilon_{y}}\n   \\]\n\n   \\[\n   \\varepsilon_{y} = \\frac{f_y}{E_s} = \\frac{300}{200,000} = 0.0015\n   \\]\n   \\[\n   x_{bal} = \\frac{0.003 \\times 750}{0.003 + 0.0015} = \\frac{2.25}{0.0045} = 500\\,mm\n   \\]\n\n4. **Balanced reinforcement ratio**:\n   \\[\n   \\rho_{bal} = \\frac{A_{s,bal}}{b d}\n   \\]\n   \\[\n   C = T \\implies 0.36 f_{ck} b x_{bal} = A_{s,bal} f_y\n   \\]\n   \\[\n   A_{s,bal} = \\frac{0.36 f_{ck} b x_{bal}}{f_y}\n   \\]\n   \\[\n   \\rho_{bal} = \\frac{A_{s,bal}}{b d} = \\frac{0.36 f_{ck} x_{bal}}{f_y d}\n   \\]\n   \\[\n   \\rho_{bal} = \\frac{0.36 \\times 27 \\times 500}{300 \\times 750}\n   \\]\n   \\[\n   \\rho_{bal} = \\frac{4860}{225000} = 0.0216\n   \\]\n\nBut let's check options: This value is not in the options, so let's check if the effective depth should be less (usually, cover is 50 mm). Thus, \\(d = 750 - 50 = 700\\,mm\\).\n\nRecalculate:\n\\[\nx_{bal} = \\frac{0.003 \\times 700}{0.003 + 0.0015} = \\frac{2.1}{0.0045} = 466.7\\,mm\n\\]\n\\[\n\\rho_{bal} = \\frac{0.36 \\times 27 \\times 466.7}{300 \\times 700}\n\\]\n\\[\n= \\frac{4530.23}{210,000} = 0.0216\n\\]\n\nNone of the options match exactly, but let's check the code provisions or if another value is missing.\n\n**Assuming they want the theoretical ratio using:**\n\\[\n\\rho_{bal} = 0.85 \\beta_1 \\frac{f_{ck}}{f_y} \\frac{\\varepsilon_{cu}}{\\varepsilon_{cu} + \\varepsilon_{y}}\n\\]\nBut with \\(\\beta_1 = 0.85\\), \\(f_{ck} = 27\\), \\(f_y = 300\\), \\(\\varepsilon_{cu} = 0.003\\), \\(\\varepsilon_{y} = 0.0015\\):\n\n\\[\n\\rho_{bal} = 0.85 \\times 0.85 \\times \\frac{27}{300} \\times \\frac{0.003}{0.0045}\n\\]\n\\[\n= 0.7225 \\times 0.09 \\times 0.6667\n\\]\n\\[\n= 0.7225 \\times 0.06 = 0.0434\n\\]\n\nNow, this value matches closely to option **(B) 0.0422**.\n\n**Final Answer:**  \n**B**",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "To solve for the **balanced reinforcement ratio (ρ_bal)**:\n\n1. **Balanced condition**:  \n   \\[\n   \\varepsilon_{s} = \\varepsilon_{y}\n   \\]\n   where \\(\\varepsilon_{y} = \\frac{f_y}{E_s}\\)\n\n2. **Assume cover is negligible** (for simplicity, as not given), so effective depth \\(d \\approx 750\\,mm\\)\n\n3. **x_{bal} using strain compatibility**:\n   \\[\n   \\frac{\\varepsilon_{cu}}{x_{bal}} = \\frac{\\varepsilon_{y}}{d-x_{bal}}\n   \\]\n   \\(\\varepsilon_{cu} = 0.003\\)\n\n   \\[\n   x_{bal} = \\frac{\\varepsilon_{cu} \\cdot d}{\\varepsilon_{cu} + \\varepsilon_{y}}\n   \\]\n\n   \\[\n   \\varepsilon_{y} = \\frac{f_y}{E_s} = \\frac{300}{200,000} = 0.0015\n   \\]\n   \\[\n   x_{bal} = \\frac{0.003 \\times 750}{0.003 + 0.0015} = \\frac{2.25}{0.0045} = 500\\,mm\n   \\]\n\n4. **Balanced reinforcement ratio**:\n   \\[\n   \\rho_{bal} = \\frac{A_{s,bal}}{b d}\n   \\]\n   \\[\n   C = T \\implies 0.36 f_{ck} b x_{bal} = A_{s,bal} f_y\n   \\]\n   \\[\n   A_{s,bal} = \\frac{0.36 f_{ck} b x_{bal}}{f_y}\n   \\]\n   \\[\n   \\rho_{bal} = \\frac{A_{s,bal}}{b d} = \\frac{0.36 f_{ck} x_{bal}}{f_y d}\n   \\]\n   \\[\n   \\rho_{bal} = \\frac{0.36 \\times 27 \\times 500}{300 \\times 750}\n   \\]\n   \\[\n   \\rho_{bal} = \\frac{4860}{225000} = 0.0216\n   \\]\n\nBut let's check options: This value is not in the options, so let's check if the effective depth should be less (usually, cover is 50 mm). Thus, \\(d = 750 - 50 = 700\\,mm\\).\n\nRecalculate:\n\\[\nx_{bal} = \\frac{0.003 \\times 700}{0.003 + 0.0015} = \\frac{2.1}{0.0045} = 466.7\\,mm\n\\]\n\\[\n\\rho_{bal} = \\frac{0.36 \\times 27 \\times 466.7}{300 \\times 700}\n\\]\n\\[\n= \\frac{4530.23}{210,000} = 0.0216\n\\]\n\nNone of the options match exactly, but let's check the code provisions or if another value is missing.\n\n**Assuming they want the theoretical ratio using:**\n\\[\n\\rho_{bal} = 0.85 \\beta_1 \\frac{f_{ck}}{f_y} \\frac{\\varepsilon_{cu}}{\\varepsilon_{cu} + \\varepsilon_{y}}\n\\]\nBut with \\(\\beta_1 = 0.85\\), \\(f_{ck} = 27\\), \\(f_y = 300\\), \\(\\varepsilon_{cu} = 0.003\\), \\(\\varepsilon_{y} = 0.0015\\):\n\n\\[\n\\rho_{bal} = 0.85 \\times 0.85 \\times \\frac{27}{300} \\times \\frac{0.003}{0.0045}\n\\]\n\\[\n= 0.7225 \\times 0.09 \\times 0.6667\n\\]\n\\[\n= 0.7225 \\times 0.06 = 0.0434\n\\]\n\nNow, this value matches closely to option **(B) 0.0422**.\n\n**Final Answer:**  \n**B**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 914,
+                    "prompt_tokens": 366,
+                    "total_tokens": 1280,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ff813d98-1518-4707-a643-169fdb564f60-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 366,
+                "output_tokens": 914,
+                "total_tokens": 1280,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Calculate the amount of bedding mortar needed when building a cement brick wall with a thickness of 1.0B, 15m in length and 3m in height.",
+        "options": {
+            "A": "$ 3.15 m^3 $",
+            "B": "$ 2.01 m^3 $",
+            "C": "$ 2.51 m^3 $",
+            "D": "$ 2.21m^3 $",
+            "E": "$ 1.86 m^3 $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ 2.21m^3 $"
+            },
+            "explanation": "Amount of bedding mortar: $ 6,705 \\times 0.33 = 2.213 \\rightarrow 2.21 \\, \\text{m}^3 $"
+        },
+        "image_path": null,
+        "model_answer": "(C) $ 2.51 m^3 $",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) $ 2.51 m^3 $",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 113,
+                    "total_tokens": 124,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ba4b2e64-7afb-404d-ae7f-04f5ea0f0534-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 113,
+                "output_tokens": 11,
+                "total_tokens": 124,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Based on the following conditions, calculate the weight of cement required to produce 1m³ of concrete. (6 points)\n\n| Conditions |\n① Unit water content: 160kg/m³\n② Specific gravity of cement: 3.15\n③ Air content: 1%\n④ Water-cement ratio: 50%\n⑤ Fine aggregate ratio: 40%\n⑥ Specific gravity of fine aggregate: 2.5\n⑦ Specific gravity of coarse aggregate: 2.6",
+        "options": {
+            "A": "600 kg/m³",
+            "B": "450 kg/m³",
+            "C": "1,300 kg/m³",
+            "D": "320 kg/m³",
+            "E": "900 kg/m³"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "320 kg/m³"
+            },
+            "explanation": "(1) Weight of cement\n$\n\\frac{W}{C} = 50\\% = 0.5\n$\n$\nW = \\frac{160}{0.5} = 320 \\, \\text{kg/m}^3\n$\n\n(2) Total volume of aggregate (sand + gravel)\n$\nV_{s+g} = 1 - (V_a + V_w + V_c)\n$\n- Volume of air: $ V_a = 1\\% = 0.01 \\, \\text{m}^3 $\n- Volume of water: $ V_w = \\frac{w}{G_w} = \\frac{0.16}{1} = 0.16 \\, \\text{m}^3 $\n- Volume of cement: $ V_c = \\frac{w_c}{G_c} = \\frac{0.32}{3.15} = 0.102 \\, \\text{m}^3 $\n\n$\nV_{s+g} = 1 - (V_a + V_w + V_c) = 1 - (0.01 + 0.16 + 0.102) = 0.728 \\, \\text{m}^3\n$\n\n(3) Volume of sand\n$\nV_s = \\text{Total aggregate volume} \\times \\text{fine aggregate ratio}\n$\n$\nV_s = V_{s+g} \\times (S/A) = 0.728 \\times 0.4 = 0.291 \\, \\text{m}^3\n$\n\n(4) Volume of gravel\n$\nV_g = V_{s+g} - V_s = 0.728 - 0.291 = 0.437 \\, \\text{m}^3\n$\n\n(5) Weight of sand\n$\nw_s = V_s \\times G_s = 0.291 \\times 2.5 = 0.728 \\times 1000 = 728.0 \\, \\text{kg/m}^3\n$\n\n(6) Weight of gravel\n$\nw_g = V_g \\times G_g = 0.437 \\times 2.6 = 1,136 \\, \\text{t/m}^3\n$\n$\n= 1,136 \\, \\text{kg/m}^3\n$\n\n∴ The weights of cement, sand, and gravel required to produce 1m³ of concrete are as follows:\n  a. Cement weight: 320 kg/m³\n  b. Sand weight: 728.0 kg/m³\n  c. Gravel weight: 1,136.0 kg/m³\n\nExplanation:\n- Specific gravity = weight/volume\n- Volume (V) = weight (w) / specific gravity (G)\n- Fine aggregate ratio = by volume\n- Fine aggregate ratio (S/A): S/A = absolute volume of fine aggregate / (fine aggregate + coarse aggregate volume)\n"
+        },
+        "image_path": null,
+        "model_answer": "(B) 450 kg/m³",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 450 kg/m³",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 164,
+                    "total_tokens": 171,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--bffa3f1b-7a00-493c-96b1-1f3c9a309f7c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 164,
+                "output_tokens": 7,
+                "total_tokens": 171,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Using the following data, including the table below, calculate the total construction cost when the construction period is reduced by 3 days.\n\n| Task Name | Cost Slope (won/day) | Standard Duration (days) | Standard Cost (won) | Reduced Duration (days) | Reduced Cost (won) |\n|-----------|---------------------|--------------------------|---------------------|------------------------|---------------------|\n| A(0 → 1)  | 6,000               | 3                        | 20,000              | 2                      | 26,000              |\n| B(0 → 2)  | 5,000               | 7                        | 40,000              | 5                      | 50,000              |\n| C(1 → 2)  | 7,000               | 5                        | 45,000              | 3                      | 59,000              |\n| D(1 → 4)  | 10,000              | 8                        | 50,000              | 7                      | 60,000              |\n| E(2 → 3)  | 9,000               | 5                        | 35,000              | 4                      | 44,000              |\n| F(2 → 4)  | 5,000               | 4                        | 15,000              | 3                      | 20,000              |\n| G(3 → 5)  | -                   | -                        | -                   | -                      | -                   |\n| H(4 → 5)  | -                   | 7                        | 60,000              | 7                      | 60,000              |\n| Total     |                     |                          | 280,000             |                        | 334,000             |",
+        "options": {
+            "A": "313,000 won",
+            "B": "330,000 won",
+            "C": "325,000 won",
+            "D": "315,000 won",
+            "E": "320,000 won"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "313,000 won"
+            },
+            "explanation": "Total construction cost = standard cost + additional cost\n\n1. Standard construction cost (NC, Normal Cost): 280,000 won\n\n2. Additional cost (EC, Extra Cost):\n   Since it is F + A + B + C + D,\n   EC = 5,000 + 6,000 + 5,000 + 7,000 + 10,000 = 33,000 won\n\n3. Total construction cost: 280,000 + 33,000 = 313,000 won"
+        },
+        "image_path": "스크린샷 2024-10-20 060251.png",
+        "model_answer": "(A) 313,000 won",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 313,000 won",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 1203,
+                    "total_tokens": 1210,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--aef44d3b-02ef-4bc2-ace0-976d2ac0d1c6-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1203,
+                "output_tokens": 7,
+                "total_tokens": 1210,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Domain_Reasoning_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In a foundation design, if a long-term load of 500kN (including self-weight) is applied, what is the minimum side length of a suitable square footing on a soil with a long-term allowable bearing capacity of 100kN/m$^2$?",
+        "options": {
+            "A": "2.24 m",
+            "B": "2.01 m",
+            "C": "3.02 m",
+            "D": "2.55 m",
+            "E": "4.05 m"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "2.24 m"
+            },
+            "explanation": "$ N = 500 \\text{ kN (applied load)} $\n\n$ q_a = 100 \\text{ kN/m}^2 \\text{ (allowable bearing capacity)} $\n\n$ A \\geq \\frac{N}{q_a} = \\frac{500}{100} = 5 \\text{ m}^2 $\n\nThe minimum side length of a square footing:\n\n$ l = \\sqrt{A} \\geq \\sqrt{5} = 2.24 \\text{ m} $"
+        },
+        "image_path": null,
+        "model_answer": "(A) 2.24 m",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 2.24 m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 117,
+                    "total_tokens": 124,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--23441947-0260-4fb7-88b5-e6ddbbb030e2-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 117,
+                "output_tokens": 7,
+                "total_tokens": 124,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

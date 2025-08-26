@@ -1,0 +1,632 @@
+[
+    {
+        "id": "val_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should the ground level (GL) be for the floor of the underground parking lot at the community center?",
+        "options": {
+            "A": "-2.5m",
+            "B": "-3.0m",
+            "C": "-3.5m",
+            "D": "-4.0m",
+            "E": "-4.5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-3.5m"
+            },
+            "explanation": "According to the guidelines, the underground parking lot must be planned at GL –3.5m."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "(B) -3.0m",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) -3.0m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 1189,
+                    "total_tokens": 1196,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1c9769e0-7145-43cf-a189-7226cb0cbba8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1189,
+                "output_tokens": 7,
+                "total_tokens": 1196,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which floor structure is most suitable for the second floor above ground of a village library?",
+        "options": {
+            "A": "Reinforced concrete slab",
+            "B": "Wood truss",
+            "C": "Large-span air delivery structure using steel plates",
+            "D": "Ceiling finish with gypsum board",
+            "E": "Composite metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Large-span air delivery structure using steel plates"
+            },
+            "explanation": "The design guidelines specify that the second floor above ground should use a large-span air delivery structure using steel plates. This is interpreted as a construction method utilizing steel structures."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "(A) Reinforced concrete slab",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Reinforced concrete slab",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 1182,
+                    "total_tokens": 1188,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--20cf0134-7eaf-4fab-be4f-6b6b5cfda748-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1182,
+                "output_tokens": 6,
+                "total_tokens": 1188,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Select the correct statement regarding the placement of cantilevers in structural planning.",
+        "options": {
+            "A": "Cantilevers are used on every floor.",
+            "B": "Cantilevers are only used on the first floor.",
+            "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+            "D": "No special structural planning is needed for cantilevers, and they can be placed freely.",
+            "E": "Cantilevers can be placed anywhere for space efficiency."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing."
+            },
+            "explanation": "According to the design guidelines, cantilevers are only placed in specific areas on the second floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "(C) Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 22,
+                    "prompt_tokens": 1222,
+                    "total_tokens": 1244,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0934a972-7218-43e3-8aae-9956f9a30bb9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1222,
+                "output_tokens": 22,
+                "total_tokens": 1244,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In this architectural design, what is the value defined as the floor structure level (SL) for the basement?",
+        "options": {
+            "A": "-1,200mm",
+            "B": "-1,600mm",
+            "C": "0mm",
+            "D": "-2,000mm",
+            "E": "-800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "-1,600mm"
+            },
+            "explanation": "According to the design specifications, the floor structure level (SL) for the basement and penthouse is set at -1,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "(B) -1,600mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) -1,600mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 1185,
+                    "total_tokens": 1192,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8867cdea-e7f9-46ff-917b-bb78af7990ff-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1185,
+                "output_tokens": 7,
+                "total_tokens": 1192,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?",
+        "options": {
+            "A": "2,500mm",
+            "B": "3,000mm",
+            "C": "3,500mm",
+            "D": "4,000mm",
+            "E": "4,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3,000mm"
+            },
+            "explanation": "According to the design guidelines, the floor-to-ceiling height of the rooftop floor of the neighborhood culture center is 3,000mm. This value represents the height of the building's topmost space, including the rooftop floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "(B) 3,000mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 3,000mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 1190,
+                    "total_tokens": 1197,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a83dd9ea-3769-4626-b9cb-266831739c03-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1190,
+                "output_tokens": 7,
+                "total_tokens": 1197,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the exterior wall finishing material of the Community Service Center?",
+        "options": {
+            "A": "Brick finish",
+            "B": "Stucco",
+            "C": "Exposed concrete finish",
+            "D": "Marble finish",
+            "E": "Metal panel finish"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Exposed concrete finish"
+            },
+            "explanation": "The design guide for the Community Service Center specifies exposed concrete for the exterior wall finish."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "(A) Brick finish",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Brick finish",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 1168,
+                    "total_tokens": 1172,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f4583e6b-16e6-4526-b700-ca0a824d8639-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1168,
+                "output_tokens": 4,
+                "total_tokens": 1172,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the maximum span length in the structural design of a small gallery?",
+        "options": {
+            "A": "2500mm",
+            "B": "3000mm",
+            "C": "3500mm",
+            "D": "4000mm",
+            "E": "4500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3500mm"
+            },
+            "explanation": "The design conditions specify that the span should be planned to be no more than 3,500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "(B) 3000mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 3000mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 6,
+                    "prompt_tokens": 1178,
+                    "total_tokens": 1184,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--feb24d0b-f967-40ba-84f2-34bf87c45d2d-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1178,
+                "output_tokens": 6,
+                "total_tokens": 1184,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the appropriate design method for the south exterior wall?",
+        "options": {
+            "A": "Single skin",
+            "B": "Double skin",
+            "C": "Brick finish",
+            "D": "Glass curtain wall",
+            "E": "Metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Double skin"
+            },
+            "explanation": "It is specified that the south exterior wall should be designed with a double skin that allows for ventilation and solar control."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "(B) Double skin",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Double skin",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 1165,
+                    "total_tokens": 1169,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5d0fd4af-b364-4d38-b038-d082ed451112-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1165,
+                "output_tokens": 4,
+                "total_tokens": 1169,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the specified stress (f_py) value for prestressed concrete?",
+        "options": {
+            "A": "1,200 MPa",
+            "B": "1,500 MPa",
+            "C": "1,860 MPa",
+            "D": "2,000 MPa",
+            "E": "2,400 MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,860 MPa"
+            },
+            "explanation": "According to the material specifications for design conditions, the specified stress for prestressed concrete is set at 1,860 MPa."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "(C) 1,860 MPa",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) 1,860 MPa",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 1187,
+                    "total_tokens": 1195,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f4fcf162-4ace-42df-a15d-df96aa812c02-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 1187,
+                "output_tokens": 8,
+                "total_tokens": 1195,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

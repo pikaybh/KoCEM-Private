@@ -1,0 +1,27 @@
+{
+    "dev_Construction_Management_328": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Construction_Management_291": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Construction_Management_682": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "dev_Construction_Management_324": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Construction_Management_431": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "dev_Comprehensive_Understanding_1": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "dev_Comprehensive_Understanding_2": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Comprehensive_Understanding_3": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    }
+}

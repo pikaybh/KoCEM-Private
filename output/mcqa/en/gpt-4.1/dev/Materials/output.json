@@ -1,0 +1,554 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "What is the main use of terra-cotta?",
+        "options": {
+            "A": "Reinforcement of structural materials",
+            "B": "Waterproofing",
+            "C": "Insulation",
+            "D": "Decoration"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Decoration"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Decoration",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Decoration",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 3,
+                    "prompt_tokens": 54,
+                    "total_tokens": 57,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c0347226-6cad-4f52-8ce3-d0173f9c0f9a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 54,
+                "output_tokens": 3,
+                "total_tokens": 57,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?",
+        "options": {
+            "A": "Ultraviolet-blocking glass",
+            "B": "Heat-absorbing glass",
+            "C": "Heat-reflective glass",
+            "D": "Ultraviolet-transmitting glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Ultraviolet-blocking glass"
+            },
+            "explanation": "Ultraviolet rays have a shorter wavelength than visible light and cause chemical reactions, leading to transformation or disinfection. To prevent these effects, ultraviolet rays must be blocked."
+        },
+        "image_path": null,
+        "model_answer": "(A) Ultraviolet-blocking glass",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Ultraviolet-blocking glass",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 86,
+                    "total_tokens": 94,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5b3aef62-bf95-441f-9e89-5cb5cd93dfa0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 86,
+                "output_tokens": 8,
+                "total_tokens": 94,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?",
+        "options": {
+            "A": "Urea resin",
+            "B": "Acrylic resin",
+            "C": "Silicone resin",
+            "D": "Melamine resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Silicone resin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Silicone resin",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Silicone resin",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 78,
+                    "total_tokens": 82,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--87db88e3-48c1-4f22-b084-c72a8e39f4ef-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 4,
+                "total_tokens": 82,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?",
+        "options": {
+            "A": "Prism glass",
+            "B": "Insulating glass",
+            "C": "Wired glass",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prism glass"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Prism glass",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Prism glass",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 78,
+                    "total_tokens": 82,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6673ac48-cb1f-42ae-8db7-df5cbebc055c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 4,
+                "total_tokens": 82,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about the strength of wood is incorrect?",
+        "options": {
+            "A": "Of the various strengths of wood, the tensile strength parallel to the grain is the greatest.",
+            "B": "When wood is used as a column, it generally receives compressive force parallel to the grain.",
+            "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength.",
+            "D": "In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 125,
+                    "total_tokens": 127,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--548baa6f-b581-49a8-8517-b28d54425935-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 125,
+                "output_tokens": 2,
+                "total_tokens": 127,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct statement about the physical properties of wood?",
+        "options": {
+            "A": "Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+            "B": "The greater the specific gravity of the wood, the less it expands and contracts.",
+            "C": "Wood with a higher specific gravity also has greater strength.",
+            "D": "Wood with moisture content above the fiber saturation point is called green wood."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The greater the specific gravity of the wood, the less it expands and contracts."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) The greater the specific gravity of the wood, the less it expands and contracts.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) The greater the specific gravity of the wood, the less it expands and contracts.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 18,
+                    "prompt_tokens": 108,
+                    "total_tokens": 126,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--02a59c93-5b30-4274-bb58-f2760ff61d7f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 108,
+                "output_tokens": 18,
+                "total_tokens": 126,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements about stone materials is incorrect?",
+        "options": {
+            "A": "Marble is strong but has low fire resistance and weathers easily.",
+            "B": "Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone.",
+            "C": "Travertine is a type of igneous rock and is used for interior decoration.",
+            "D": "Slate can be easily cut into thin sheets, making it suitable as a roofing material."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Travertine is a type of igneous rock and is used for interior decoration."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 111,
+                    "total_tokens": 113,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9276fcdf-c118-48fc-8916-a79dd744e1c7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 111,
+                "output_tokens": 2,
+                "total_tokens": 113,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "In the stress-strain curve diagram for steel, what do points A and C represent?",
+        "options": {
+            "A": "A: Proportional limit, C: Upper yield point",
+            "B": "A: Tensile strength, C: Proportional limit",
+            "C": "A: Proportional limit, C: Lower yield point",
+            "D": "A: Lower yield point, C: Fracture point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A: Proportional limit, C: Lower yield point"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20100307/bj20100307m72.gif?1522444684",
+        "model_answer": "(A) A: Proportional limit, C: Upper yield point",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) A: Proportional limit, C: Upper yield point",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 14,
+                    "prompt_tokens": 355,
+                    "total_tokens": 369,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5b4dbb22-1fd9-4e23-9ac3-76bb3625158c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 355,
+                "output_tokens": 14,
+                "total_tokens": 369,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    }
+]

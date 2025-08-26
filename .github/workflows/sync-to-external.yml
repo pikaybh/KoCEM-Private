@@ -1,0 +1,359 @@
+name: Sync code to external repository
+
+on:
+  push:
+    branches: [ sync-buffer ]
+  workflow_dispatch: {}
+
+concurrency:
+  group: sync-external-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      SRC_DIR: .
+      TARGET_PATH_IN_REPO: .
+      BRANCH_PREFIX: kocem-sync
+      TARGET_BASE: main
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Initialize target repository (supports empty repos)
+        run: |
+          set -e
+          REPO="${{ vars.TARGET_REPO }}"
+          if [ -z "$REPO" ]; then REPO="${{ secrets.TARGET_REPO }}"; fi
+          echo "REPO=$REPO" >> $GITHUB_ENV
+          mkdir -p target_repo
+          cd target_repo
+          git init
+          git remote add origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          # Try to fetch base; if missing, we'll create it later
+          if git ls-remote --exit-code --heads origin "${TARGET_BASE}" >/dev/null 2>&1; then
+            git fetch origin "${TARGET_BASE}:${TARGET_BASE}"
+            git checkout "${TARGET_BASE}"
+          else
+            echo "Base branch ${TARGET_BASE} not found; will create an empty base later."
+          fi
+
+      - name: Determine sync mode
+        run: |
+          set -e
+          SYNC="${{ vars.SYNC_MODE }}"
+          if [ -z "$SYNC" ]; then SYNC="${{ secrets.SYNC_MODE }}"; fi
+          if [ -z "$SYNC" ]; then SYNC="mirror_all"; fi
+          echo "SYNC_MODE=$SYNC" >> $GITHUB_ENV
+          echo "Sync mode: $SYNC"
+
+      - name: Ensure base branch exists (create empty if needed)
+        id: ensure_base
+        working-directory: target_repo
+        run: |
+          set -e
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          if ! git rev-parse --verify "${TARGET_BASE}" >/dev/null 2>&1; then
+            git checkout --orphan "${TARGET_BASE}"
+            git commit --allow-empty -m "Initialize base branch ${TARGET_BASE}"
+            git push -u origin "${TARGET_BASE}"
+            echo "created_base=true" >> $GITHUB_OUTPUT
+          else
+            echo "created_base=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Prepare feature branch in target repository
+        id: prep_branch
+        working-directory: target_repo
+        run: |
+          set -e
+          # Use a stable branch to avoid branch sprawl; can be overridden via SYNC_BRANCH
+          BRANCH_INPUT="${{ vars.SYNC_BRANCH }}"
+          if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${{ secrets.SYNC_BRANCH }}"; fi
+          if [ -z "$BRANCH_INPUT" ]; then BRANCH_INPUT="${BRANCH_PREFIX}"; fi
+          BRANCH="$BRANCH_INPUT"
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+          git checkout -B "$BRANCH"
+
+      - name: Preview files to sync (rsync dry-run)
+        run: |
+          set -e
+          if [ "$SYNC_MODE" = "mirror_all" ]; then
+            RSYNC_FLAGS=(
+              -ani --delete --prune-empty-dirs
+              --exclude 'target_repo' \
+              --exclude '.git' \
+              --exclude '.github/**' \
+              --exclude '**/__pycache__/**' \
+              --exclude '*.pyc'
+            )
+          else
+            RSYNC_FLAGS=(
+              -ani --delete --prune-empty-dirs
+              --exclude 'target_repo' \
+              --exclude '.git' \
+              # Whitelist begins
+              --include '/app/' \
+              --include '/app/***' \
+              --include '/prompts/' \
+              --include '/prompts/***' \
+              --include '/output/' \
+              --include '/output/mcqa/' \
+              --include '/output/mcqa/en/' \
+              --include '/output/mcqa/en/gpt-4.1/***' \
+              --include '/.env.example' \
+              --include '/.gitignore' \
+              --include '/.python-version' \
+              --include '/pyproject.toml' \
+              --include '/README.md' \
+              --include '/requirements.txt' \
+              # Common junk still excluded
+              --exclude '**/__pycache__/**' \
+              --exclude '*.pyc' \
+              # Everything else excluded
+              --exclude '*'
+            )
+          fi
+          echo "---- rsync dry-run preview ----"
+          rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | sed -n '1,200p'
+          COUNT=$(rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | wc -l)
+          echo "Would sync ${COUNT} entries"
+
+      - name: Wipe target branch (mirror mode)
+        working-directory: target_repo
+        run: |
+          set -e
+          echo "Wiping target branch contents except .git and .github (mirror mode)"
+          # Remove all files/folders except .git and .github to avoid workflow-permission issues
+          find . -mindepth 1 \
+            -not -path './.git' -not -path './.git/*' \
+            -not -path './.github' -not -path './.github/*' \
+            -exec rm -rf {} +
+          git add -A
+          echo "After wipe (porcelain):"
+          git status --porcelain || true
+
+      - name: Copy repository contents into target repository (exclude data/output)
+        run: |
+          # Sync all code/config except large or sensitive data and caches (whitelist only)
+          if [ "$SYNC_MODE" = "mirror_all" ]; then
+            RSYNC_SYNC_FLAGS=(
+              -a --delete --prune-empty-dirs
+              --exclude 'target_repo'
+              --exclude '.git'
+              --exclude '.github/**'
+              --exclude '**/__pycache__/**'
+              --exclude '*.pyc'
+            )
+          else
+            RSYNC_SYNC_FLAGS=(
+              -a --delete --prune-empty-dirs
+              --exclude 'target_repo'
+              --exclude '.git'
+              --include '/app/'
+              --include '/app/***'
+              --include '/prompts/'
+              --include '/prompts/***'
+              --include '/output/'
+              --include '/output/mcqa/'
+              --include '/output/mcqa/en/'
+              --include '/output/mcqa/en/gpt-4.1/***'
+              --include '/.env.example'
+              --include '/.gitignore'
+              --include '/.python-version'
+              --include '/pyproject.toml'
+              --include '/README.md'
+              --include '/requirements.txt'
+              --exclude '**/__pycache__/**'
+              --exclude '*.pyc'
+              --exclude '*'
+            )
+          fi
+          rsync "${RSYNC_SYNC_FLAGS[@]}" ./ target_repo/
+
+      - name: Ensure non-empty diff (add sync marker if identical)
+        working-directory: target_repo
+        run: |
+          set -e
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No file-level changes detected; adding sync marker to avoid empty PR."
+            MARKER="kocem-sync-${GITHUB_RUN_NUMBER}.meta"
+            printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
+              "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$MARKER"
+            # Force-add to bypass any .gitignore rules (e.g., dotfiles or meta patterns)
+            git add -f "$MARKER"
+            git status --porcelain || true
+          fi
+
+
+      - name: Show diff summary (debug)
+        working-directory: target_repo
+        run: |
+          echo "Target repository: ${REPO}"
+          echo "Target base branch: ${TARGET_BASE}"
+          echo "---- git status (porcelain) ----"
+          git status --porcelain || true
+          echo "---- staged diff (none yet) ----"
+          git diff --cached --name-status || true
+
+      - name: Preview staged diff (post-add)
+        working-directory: target_repo
+        run: |
+          git add -A
+          echo "---- staged diff (after add) ----"
+          git diff --cached --name-status || true
+
+      - name: Ensure non-empty diff after staging
+        working-directory: target_repo
+        run: |
+          set -e
+          # 항상 동기화 마커를 갱신해 최소 1건 변경을 보장
+          MARKER="kocem-sync-${GITHUB_RUN_NUMBER}.meta"
+          printf "source=%s\nsha=%s\nrun=%s\nwhen=%s\n" \
+            "${GITHUB_REPOSITORY}" "${GITHUB_SHA}" "${GITHUB_RUN_NUMBER}" "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" > "$MARKER"
+          git add -f "$MARKER"
+          echo "---- staged diff (after forcing sync marker) ----"
+          git diff --cached --name-status || true
+
+      - name: Show diff summary (pre-commit)
+        id: diffstat
+        working-directory: target_repo
+        run: |
+          echo "Changed files (git status --porcelain):"
+          git status --porcelain || true
+          COUNT=$(git status --porcelain | wc -l)
+          echo "changed_count=$COUNT" >> $GITHUB_OUTPUT
+          echo "### Files to sync: $COUNT" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit and push changes
+        id: commit_push
+        working-directory: target_repo
+        run: |
+          git add -A
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          if git diff --cached --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+            echo "No changes to commit."
+          else
+            git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+            # If the resulting tree matches the base branch, skip push/PR to avoid empty PRs
+            git fetch --no-tags --depth=1 origin "${TARGET_BASE}:${TARGET_BASE}" || true
+            if git diff --quiet HEAD "${TARGET_BASE}"; then
+              echo "Branch content is identical to ${TARGET_BASE}; skipping push and PR."
+              echo "no_changes=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            # Always push to a feature branch; do not push directly to base
+            git push -u origin "${{ steps.prep_branch.outputs.branch }}"
+            echo "pushed_to_base=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Show last commit stats (target)
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        working-directory: target_repo
+        run: |
+          echo "---- last commit ----"
+          git --no-pager log -1 --stat || true
+
+      - name: Check base vs head divergence
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        id: divergence
+        working-directory: target_repo
+        run: |
+          set -e
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          git fetch --no-tags --depth=1 origin "${TARGET_BASE}:${TARGET_BASE}" || true
+          BASE_SHA=$(git rev-parse --verify "${TARGET_BASE}" || echo "")
+          HEAD_SHA=$(git rev-parse --verify HEAD)
+          echo "base_sha=$BASE_SHA" >> $GITHUB_OUTPUT
+          echo "head_sha=$HEAD_SHA" >> $GITHUB_OUTPUT
+          # Count commits unique to each side
+          COUNTS=$(git rev-list --left-right --count "${TARGET_BASE}...HEAD" || echo "0\t0")
+          L_COUNT=$(echo "$COUNTS" | awk '{print $1}')
+          R_COUNT=$(echo "$COUNTS" | awk '{print $2}')
+          echo "base_unique=$L_COUNT" >> $GITHUB_OUTPUT
+          echo "head_unique=$R_COUNT" >> $GITHUB_OUTPUT
+          # If HEAD has no unique commits vs base and the trees are equal, mark empty
+          if git diff --quiet "${TARGET_BASE}" HEAD; then
+            echo "empty_diff=true" >> $GITHUB_OUTPUT
+          else
+            echo "empty_diff=false" >> $GITHUB_OUTPUT
+          fi
+          # Write a compare URL to the job summary
+          echo "### Compare" >> $GITHUB_STEP_SUMMARY
+          echo "https://github.com/${REPO}/compare/${TARGET_BASE}...${BRANCH}" >> $GITHUB_STEP_SUMMARY
+
+      - name: Verify diff via GitHub Compare API
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        id: compare_api
+        working-directory: target_repo
+        env:
+          GH_TOKEN: ${{ secrets.TARGET_REPO_TOKEN }}
+        run: |
+          set -e
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          OWNER=$(echo "$REPO" | cut -d'/' -f1)
+          NAME=$(echo "$REPO" | cut -d'/' -f2)
+          URL="https://api.github.com/repos/${OWNER}/${NAME}/compare/${TARGET_BASE}...${BRANCH}"
+          echo "Compare API URL: $URL"
+          RESP=$(curl -sSf -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "$URL")
+          CHANGED=$(echo "$RESP" | jq '.files | length')
+          AHEAD=$(echo "$RESP" | jq -r '.ahead_by')
+          echo "changed_files=$CHANGED" >> $GITHUB_OUTPUT
+          echo "ahead_by=$AHEAD" >> $GITHUB_OUTPUT
+          echo "### Compare API: changed_files=$CHANGED, ahead_by=$AHEAD" >> $GITHUB_STEP_SUMMARY
+
+      - name: Compute diff via git (authoritative)
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        id: gitdiff
+        working-directory: target_repo
+        run: |
+          set -e
+          git fetch --no-tags --depth=1 origin "${TARGET_BASE}:${TARGET_BASE}" || true
+          echo "---- git diff name-status ${TARGET_BASE}...HEAD ----"
+          git diff --name-status "${TARGET_BASE}...HEAD" | sed -n '1,200p' || true
+          COUNT=$(git diff --name-only "${TARGET_BASE}...HEAD" | wc -l)
+          echo "changed_count=$COUNT" >> $GITHUB_OUTPUT
+          if [ "$COUNT" -gt 0 ]; then
+            echo "has_diff=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_diff=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create pull request in target repository
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' && steps.divergence.outputs.empty_diff != 'true' && steps.gitdiff.outputs.has_diff == 'true' }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.TARGET_REPO_TOKEN }}
+          path: target_repo
+          branch: ${{ steps.prep_branch.outputs.branch }}
+          base: ${{ env.TARGET_BASE }}
+          title: "KoCEM: Sync ${TARGET_PATH_IN_REPO}"
+          body: |
+            This PR syncs `${{ env.TARGET_PATH_IN_REPO }}` from `${{ github.repository }}` at commit `${{ github.sha }}`.
+            Generated automatically by the `sync-code-to-external` workflow.
+
+      - name: Cleanup legacy sync branches (optional)
+        working-directory: target_repo
+        run: |
+          set -e
+          CLEANUP="${{ vars.CLEANUP_OLD_BRANCHES }}"
+          if [ -z "$CLEANUP" ]; then CLEANUP="${{ secrets.CLEANUP_OLD_BRANCHES }}"; fi
+          if [ -z "$CLEANUP" ]; then CLEANUP="true"; fi
+          if [ "$CLEANUP" != "true" ]; then
+            echo "Skipping legacy branch cleanup"; exit 0;
+          fi
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          git remote set-url origin "https://x-access-token:${{ secrets.TARGET_REPO_TOKEN }}@github.com/${REPO}.git"
+          echo "Cleaning up remote branches matching kocem-sync-* (except $BRANCH)"
+          git ls-remote --heads origin "kocem-sync-*" | awk '{print $2}' | sed 's@refs/heads/@@' | while read -r b; do
+            if [ "$b" != "$BRANCH" ]; then
+              echo "Deleting remote branch: $b" || true
+              git push origin --delete "$b" || true
+            fi
+          done

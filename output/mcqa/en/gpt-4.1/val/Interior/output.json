@@ -1,0 +1,3176 @@
+[
+    {
+        "id": "val_Interior_136",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following correctly lists the architectural styles of the Middle Ages in chronological order?",
+        "options": {
+            "A": "Early Christian style - Renaissance style - Byzantine style - Gothic style",
+            "B": "Early Christian style - Gothic style - Renaissance style - Byzantine style",
+            "C": "Early Christian style - Gothic style - Byzantine style - Renaissance style",
+            "D": "Early Christian style - Byzantine style - Gothic style - Renaissance style"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Early Christian style - Byzantine style - Gothic style - Renaissance style"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Early Christian style - Byzantine style - Gothic style - Renaissance style",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Early Christian style - Byzantine style - Gothic style - Renaissance style",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 14,
+                    "prompt_tokens": 99,
+                    "total_tokens": 113,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c523bd44-9e21-45d2-9684-688b06b04e64-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 99,
+                "output_tokens": 14,
+                "total_tokens": 113,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_636",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following statements about the installation of smoke ventilation equipment in buildings with fire compartments is NOT correct?",
+        "options": {
+            "A": "At least one smoke vent window must be installed in each fire compartment.",
+            "B": "The smoke vent must be structured to open automatically by a smoke or heat detector, but must not be operable by hand.",
+            "C": "The smoke vent must be able to be opened with a backup power source.",
+            "D": "If the ceiling height is 3 meters or more from the floor, the bottom edge of the smoke vent window should be installed at a height of at least 1 meter above the floor."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The smoke vent must be structured to open automatically by a smoke or heat detector, but must not be operable by hand."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) The smoke vent must be structured to open automatically by a smoke or heat detector, but must not be operable by hand.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) The smoke vent must be structured to open automatically by a smoke or heat detector, but must not be operable by hand.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 27,
+                    "prompt_tokens": 144,
+                    "total_tokens": 171,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a7880554-7ca6-46d3-87d3-6cec790803b7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 144,
+                "output_tokens": 27,
+                "total_tokens": 171,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_319",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "What is the minimum required ceiling height for the spectator seats or assembly rooms of cultural and assembly facilities (excluding exhibition halls and zoos/botanical gardens) with a floor area of 200m2 or more, if a mechanical ventilation system is not installed?",
+        "options": {
+            "A": "3m",
+            "B": "5m",
+            "C": "4m",
+            "D": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) 4m",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) 4m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 98,
+                    "total_tokens": 103,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d33158bc-2012-42d7-8826-49617c57ed23-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 98,
+                "output_tokens": 5,
+                "total_tokens": 103,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_370",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT a correct standard for the installation of fire compartments?",
+        "options": {
+            "A": "This applies to buildings with main structural parts made of fire-resistant structures or non-combustible materials, with a total floor area exceeding 1,000 m2.",
+            "B": "Fire compartments must be separated by fire-resistant floors, walls, and class-A fire doors.",
+            "C": "Fire compartments can also be made using automatic fire shutters that meet the standards.",
+            "D": "They must be installed in parking lots where the main structural parts are made of fire-resistant structures or non-combustible materials."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "They must be installed in parking lots where the main structural parts are made of fire-resistant structures or non-combustible materials."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 140,
+                    "total_tokens": 142,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--92961dfe-25e4-439b-ad71-692c2bed52da-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 140,
+                "output_tokens": 2,
+                "total_tokens": 142,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_277",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT a correct pairing of each type of firefighting facility?",
+        "options": {
+            "A": "Extinguishing equipment - Indoor fire hydrant system",
+            "B": "Evacuation equipment - Automatic fire alarm system",
+            "C": "Fire water supply equipment - Fire water tank",
+            "D": "Firefighting activity equipment - Smoke control system"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Evacuation equipment - Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 87,
+                    "total_tokens": 89,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8da0dfb5-13bf-4dff-9c96-a9a4b8033129-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 2,
+                "total_tokens": 89,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_578",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "What material is used for finishing the part of the stairwell that faces the interior in the structure of escape stairs and special escape stairs?",
+        "options": {
+            "A": "Fire-resistant material",
+            "B": "Noncombustible material",
+            "C": "Semi-noncombustible material",
+            "D": "Flame-retardant material"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Noncombustible material"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Noncombustible material",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Noncombustible material",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 81,
+                    "total_tokens": 88,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--027134f8-2805-4b97-8e92-b2353dbc9c5e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 81,
+                "output_tokens": 7,
+                "total_tokens": 88,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.75,
+        "question": "Which of the following is NOT a specific fire safety target required to have interior decorations and similar items that meet flame-retardant standards?",
+        "options": {
+            "A": "A building with 11 floors or more (excluding apartments)",
+            "B": "Medical facilities",
+            "C": "An indoor swimming pool located within a building",
+            "D": "Fitness centers among neighborhood living facilities"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "An indoor swimming pool located within a building"
+            },
+            "explanation": "3) Indoor swimming pools are excluded."
+        },
+        "image_path": null,
+        "model_answer": "(D) Fitness centers among neighborhood living facilities",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Fitness centers among neighborhood living facilities",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 88,
+                    "total_tokens": 96,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1f58b564-c2dd-4e9c-8d11-388c24f71985-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 88,
+                "output_tokens": 8,
+                "total_tokens": 96,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following statements about space frames is NOT correct?",
+        "options": {
+            "A": "Space frames can generally be classified into framework structures and load-bearing skin structures.",
+            "B": "The size of the mesh in the frame is determined by factors such as the dimensions of the finishing material, aesthetics of the mesh, and the buckling length of the members.",
+            "C": "Due to their quality and workability, steel materials are often used, and lightweight materials like aluminum are also utilized.",
+            "D": "Generally, having a larger mesh results in more members and nodes, making it uneconomical."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Generally, having a larger mesh results in more members and nodes, making it uneconomical."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 135,
+                    "total_tokens": 137,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8da975cb-8a23-4543-b689-834913f00585-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 135,
+                "output_tokens": 2,
+                "total_tokens": 137,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_679",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "Which of the following is NOT the correct pairing of each type of firefighting facility?",
+        "options": {
+            "A": "Fire extinguishing equipment - Indoor fire hydrant system",
+            "B": "Evacuation equipment - Automatic fire alarm system",
+            "C": "Fire water supply equipment - Fire water tank",
+            "D": "Firefighting support equipment - Smoke control system"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Evacuation equipment - Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Evacuation equipment - Automatic fire alarm system",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Evacuation equipment - Automatic fire alarm system",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 87,
+                    "total_tokens": 98,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--357f82d2-b774-4daa-baab-06caf776f817-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 87,
+                "output_tokens": 11,
+                "total_tokens": 98,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_548",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4099999964237213,
+        "question": "Which of the following is least relevant as a factor for generally classifying wooden architectural styles in Korea?",
+        "options": {
+            "A": "Characteristics of materials",
+            "B": "Arrangement of brackets",
+            "C": "Design of structural members",
+            "D": "Framework style"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Characteristics of materials"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Characteristics of materials",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Characteristics of materials",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 66,
+                    "total_tokens": 71,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a2341f35-73b7-4222-a14f-4817996112e1-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 66,
+                "output_tokens": 5,
+                "total_tokens": 71,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_826",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "Which of the following statements about wooden structures is correct?",
+        "options": {
+            "A": "Bracing is used to help wooden walls resist horizontal forces and to make the structure stable.",
+            "B": "A platform column is a column made as a single piece spanning two floors.",
+            "C": "Of the various ways to join floorboards, the most commonly used is the diagonal, hidden nail joint.",
+            "D": "Reinforcing metal fittings are not used at joints that receive large stresses."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Bracing is used to help wooden walls resist horizontal forces and to make the structure stable."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 110,
+                    "total_tokens": 111,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--47c33d17-72c0-4a62-a1b0-08f254d8d10f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 110,
+                "output_tokens": 1,
+                "total_tokens": 111,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_917",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "Which of the following is least related to the elements of Western medieval Gothic architecture?",
+        "options": {
+            "A": "Flying buttress",
+            "B": "Pointed arch",
+            "C": "Pendentive",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Pendentive"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Pendentive",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Pendentive",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 62,
+                    "total_tokens": 67,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--580158cb-572d-4e5f-b72f-9a21a5bcc0f9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 62,
+                "output_tokens": 5,
+                "total_tokens": 67,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_599",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following is NOT a correct guideline for the installation of revolving doors at building entrances?",
+        "options": {
+            "A": "The revolving door's rotation speed must not exceed 10 revolutions per minute.",
+            "B": "There must be at least 2 meters of distance from any stairs.",
+            "C": "There must be at least 2 meters of distance from any escalator.",
+            "D": "The gap between the revolving door and the door frame must be at least 5 centimeters."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The revolving door's rotation speed must not exceed 10 revolutions per minute."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) The gap between the revolving door and the door frame must be at least 5 centimeters.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) The gap between the revolving door and the door frame must be at least 5 centimeters.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 20,
+                    "prompt_tokens": 113,
+                    "total_tokens": 133,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e80f6a70-525f-4d28-883f-e17ee0e9112f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 113,
+                "output_tokens": 20,
+                "total_tokens": 133,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_893",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3199999928474426,
+        "question": "Which of the following statements about ancient Greek architecture is incorrect?",
+        "options": {
+            "A": "The Composite Order was mainly used.",
+            "B": "Greek temple architecture was essentially a trabeated (post-and-lintel) structure consisting of columns and beams.",
+            "C": "Interior spaces did not develop much compared to exterior spaces.",
+            "D": "Entasis, a slight curvature in columns, was used to correct optical illusions."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The Composite Order was mainly used."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) The Composite Order was mainly used.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) The Composite Order was mainly used.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 9,
+                    "prompt_tokens": 99,
+                    "total_tokens": 108,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1873d570-07d6-448c-9b55-5855f7e6194b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 99,
+                "output_tokens": 9,
+                "total_tokens": 108,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_462",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "When constructing or substantially renovating a building, the designer of the building must verify the structural safety according to the structural standards set by the Ministry of Land, Infrastructure and Transport. Which of the following buildings is NOT subject to this requirement?",
+        "options": {
+            "A": "A building with two or more stories.",
+            "B": "A warehouse, livestock shed, crop cultivation house, or a building constructed according to standard design documents, with a total floor area of 400m2 or more.",
+            "C": "A building located in an earthquake-prone area as designated by the Ministry of Land, Infrastructure and Transport.",
+            "D": "A building designated for preservation as a national cultural heritage, as specified by the Ministry of Land, Infrastructure and Transport."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A warehouse, livestock shed, crop cultivation house, or a building constructed according to standard design documents, with a total floor area of 400m2 or more."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) A warehouse, livestock shed, crop cultivation house, or a building constructed according to standard design documents, with a total floor area of 400m2 or more.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) A warehouse, livestock shed, crop cultivation house, or a building constructed according to standard design documents, with a total floor area of 400m2 or more.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 35,
+                    "prompt_tokens": 162,
+                    "total_tokens": 197,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a34bef85-6ed4-4098-aee1-2be507f3ce04-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 162,
+                "output_tokens": 35,
+                "total_tokens": 197,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_60",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum total floor area for a building that requires prior consent from the fire chief or fire station chief when obtaining building permits? (Other conditions are not considered.)",
+        "options": {
+            "A": "400m2 or more",
+            "B": "600m2 or more",
+            "C": "800m2 or more",
+            "D": "1000m2 or more"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "400m2 or more"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 400m2 or more",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) 400m2 or more",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 93,
+                    "total_tokens": 101,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ed08598d-c0c0-4009-bcee-68f6a3aece49-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 93,
+                "output_tokens": 8,
+                "total_tokens": 101,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_254",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which bricklaying method involves alternating stretcher courses and header courses, finishing with three-quarter bricks at the corners or ends?",
+        "options": {
+            "A": "English bond",
+            "B": "Dutch bond",
+            "C": "Reinforced bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Dutch bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Dutch bond",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Dutch bond",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 68,
+                    "total_tokens": 72,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e1280a58-5e2b-4a04-afb9-d9ddfde70047-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 68,
+                "output_tokens": 4,
+                "total_tokens": 72,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_749",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "Which of the following is an incorrect pairing regarding fire safety facilities?",
+        "options": {
+            "A": "Fire extinguishing equipment – Sprinkler system",
+            "B": "Alarm equipment – Automatic fire detection system",
+            "C": "Evacuation equipment – Emergency exit lights and signs",
+            "D": "Firefighting activity equipment – Indoor fire hydrant system"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Firefighting activity equipment – Indoor fire hydrant system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 84,
+                    "total_tokens": 86,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--706ce2d5-f1f1-4f9a-b722-66657c1540a8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 84,
+                "output_tokens": 2,
+                "total_tokens": 86,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_656",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6200000047683716,
+        "question": "In traditional Korean wooden roof structures, what is the member that is erected on the main beam or girder to support the ridge beam?",
+        "options": {
+            "A": "Gaepan (decking board)",
+            "B": "Umirang (hip rafter)",
+            "C": "Daegong (strut)",
+            "D": "Seokkarae (rafter)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Daegong (strut)"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Daegong (strut)",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Daegong (strut)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 9,
+                    "prompt_tokens": 89,
+                    "total_tokens": 98,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--1034579a-d789-4924-a03e-9b4d85159ecf-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 9,
+                "total_tokens": 98,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_596",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "According to building regulations, when handrails must be installed on the wall of a staircase, what is the minimum required distance between the handrail and the wall?",
+        "options": {
+            "A": "3cm",
+            "B": "5cm",
+            "C": "8cm",
+            "D": "10cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "5cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 5cm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 5cm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 78,
+                    "total_tokens": 83,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c13d4633-9c96-48da-934f-059119518c0c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 5,
+                "total_tokens": 83,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_331",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "Which of the following is NOT a correct reason for installing a boundary beam in reinforced block masonry?",
+        "options": {
+            "A": "To evenly distribute loads from above",
+            "B": "To anchor horizontal reinforcing bars",
+            "C": "To prevent vertical cracks in the wall",
+            "D": "To integrally connect the distributed wall sections"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To anchor horizontal reinforcing bars"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) To anchor horizontal reinforcing bars",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) To anchor horizontal reinforcing bars",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 79,
+                    "total_tokens": 86,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--97d0d606-2fd7-411f-bca5-9435695ae38a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 79,
+                "output_tokens": 7,
+                "total_tokens": 86,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_344",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.46000000834465027,
+        "question": "For floors that are on the third story or higher of a building and are used as performance halls in cultural and assembly facilities or as bars in entertainment facilities, at what total floor area of living rooms on that floor (in m2) is it required to install an exterior escape staircase?",
+        "options": {
+            "A": "200m2 or more",
+            "B": "300m2 or more",
+            "C": "400m2 or more",
+            "D": "500m2 or more"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "300m2 or more"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 300m2 or more",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 300m2 or more",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 8,
+                    "prompt_tokens": 115,
+                    "total_tokens": 123,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f013a551-de92-4474-a589-3576657f04ce-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 115,
+                "output_tokens": 8,
+                "total_tokens": 123,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_916",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "Which of the following is NOT one of Le Corbusier's Five Points of Modern Architecture?",
+        "options": {
+            "A": "Pilotis",
+            "B": "Roof garden",
+            "C": "Le Modulor",
+            "D": "Free facade"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Le Modulor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Le Modulor",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "(C) Le Modulor",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 62,
+                    "total_tokens": 67,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a7cc6810-e9cb-43b9-ba4b-c8b9c1689069-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 62,
+                "output_tokens": 5,
+                "total_tokens": 67,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_5",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is NOT a correct standard for installing exhaust outlets and exhaust devices for air conditioning and ventilation facilities in commercial and residential areas?",
+        "options": {
+            "A": "When installing an exhaust outlet on the exterior wall of a building, measures should be taken to prevent the outlet from falling off.",
+            "B": "Exhaust outlets must be installed at least 3 meters above the road surface.",
+            "C": "Exhaust devices must be installed so that the heat discharged does not directly reach pedestrians.",
+            "D": "Protective devices used when installing exhaust outlets or exhaust devices on the exterior wall of a building must use corrosion-resistant materials or coatings."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Exhaust outlets must be installed at least 3 meters above the road surface."
+            },
+            "explanation": "* 3m -> 2m"
+        },
+        "image_path": null,
+        "model_answer": "(B) Exhaust outlets must be installed at least 3 meters above the road surface.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Exhaust outlets must be installed at least 3 meters above the road surface.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 17,
+                    "prompt_tokens": 140,
+                    "total_tokens": 157,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--796c7f6e-c222-4126-8ad8-7685d16c4698-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 140,
+                "output_tokens": 17,
+                "total_tokens": 157,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_631",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following statements about wood joints is correct?",
+        "options": {
+            "A": "Edge joint: Joining narrow boards side by side to make the board wider.",
+            "B": "Edge joint: Joining two pieces at a right angle or a slant.",
+            "C": "Butterfly key joint: Butt-joining two pieces and inserting a bowtie-shaped key made of the same material.",
+            "D": "Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 123,
+                    "total_tokens": 125,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_51e1070cf2",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--aa4efa84-ab92-4eef-afa3-29a91bcc17d8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 123,
+                "output_tokens": 2,
+                "total_tokens": 125,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_490",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT classified as a specific fire safety target where interior decorations must be installed to meet fire-resistant performance standards?",
+        "options": {
+            "A": "Fitness centers among neighborhood living facilities",
+            "B": "Broadcasting stations among broadcasting and communications facilities",
+            "C": "General hospitals among medical facilities",
+            "D": "An apartment building with 15 floors"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "An apartment building with 15 floors"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) An apartment building with 15 floors",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) An apartment building with 15 floors",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 9,
+                    "prompt_tokens": 85,
+                    "total_tokens": 94,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d82e2ac1-08ed-45c8-9c5f-d090f8a0f882-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 85,
+                "output_tokens": 9,
+                "total_tokens": 94,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_118",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5199999809265137,
+        "question": "When the ductwork of a ventilation, heating, or cooling system penetrates a fire zone and a damper is to be installed at or near the point of penetration, what is the minimum required thickness of steel plate if steel plate is used as the material for the damper? (This is a reported error question. Please be sure to check the correct answer and explanation.)",
+        "options": {
+            "A": "0.5mm",
+            "B": "1.0mm",
+            "C": "1.5mm",
+            "D": "2.0mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1.5mm"
+            },
+            "explanation": "There has been an error report as below. We welcome your opinions. We will revise the correct answer by reflecting your feedback in the future. For reference, if there are five or more error reports, the answer will be modified. [Error Report] The current regulations have deleted the minimum thickness requirement for steel plate as damper material. Therefore, there is currently no correct answer."
+        },
+        "image_path": null,
+        "model_answer": "(D) 2.0mm",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) 2.0mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 129,
+                    "total_tokens": 136,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0310e9bf-08a5-4e74-98ed-450a4dc5b333-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 129,
+                "output_tokens": 7,
+                "total_tokens": 136,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_9",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "Which of the following statements about steel structures is NOT correct?",
+        "options": {
+            "A": "They have high plastic deformation capacity, making them very safe.",
+            "B": "They are suitable for high-rise buildings or long-span structures.",
+            "C": "Because members are slender, they have a higher risk of buckling.",
+            "D": "Their fire resistance is high, so fireproof coating is not necessary."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Their fire resistance is high, so fireproof coating is not necessary."
+            },
+            "explanation": "Steel structures have poor fire resistance. Fireproof coatings are necessary to allow them to withstand fire for 1 to 3 hours."
+        },
+        "image_path": null,
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D)",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 2,
+                    "prompt_tokens": 95,
+                    "total_tokens": 97,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_51e1070cf2",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d84f4bd3-dda4-4d2b-8d8a-a87dc151a547-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 95,
+                "output_tokens": 2,
+                "total_tokens": 97,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_359",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6499999761581421,
+        "question": "Which architectural style is most closely associated with the flying buttress?",
+        "options": {
+            "A": "Romanesque style",
+            "B": "Roman style",
+            "C": "Renaissance style",
+            "D": "Gothic style"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Gothic style"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Gothic style",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Gothic style",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 57,
+                    "total_tokens": 61,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_62bb2e3c55",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5b2a120f-cfb2-4bf6-a76e-90c0dc83561a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 57,
+                "output_tokens": 4,
+                "total_tokens": 61,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_449",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "In steel structure welding, what term refers to bubbles or small voids formed when the metal melts?",
+        "options": {
+            "A": "Overlap",
+            "B": "Crack",
+            "C": "Pit",
+            "D": "Blow hole"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Blow hole"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Blow hole",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Blow hole",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 60,
+                    "total_tokens": 64,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c8c0ce33-326a-499d-b0e3-708e806b34e1-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 60,
+                "output_tokens": 4,
+                "total_tokens": 64,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_464",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is least related to the advantages of high-strength bolted connections in steel structures?",
+        "options": {
+            "A": "Stress is transmitted reliably.",
+            "B": "Quality inspection is easy.",
+            "C": "Construction is simple.",
+            "D": "They save on the amount of steel used."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "They save on the amount of steel used."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) They save on the amount of steel used.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) They save on the amount of steel used.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 11,
+                    "prompt_tokens": 74,
+                    "total_tokens": 85,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--23935d40-89ca-4c29-8c33-46ae130d9924-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 74,
+                "output_tokens": 11,
+                "total_tokens": 85,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_362",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "The following is a regulation regarding the standards for installing exits leading outside a building. Which of the following best fits in the blank?",
+        "options": {
+            "A": "0.5m",
+            "B": "0.6m",
+            "C": "0.7m",
+            "D": "0.8m"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "0.6m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/dc/dc20150919/dc20150919m83.gif?1530654055",
+        "model_answer": "(D) 0.8m",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) 0.8m",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 335,
+                    "total_tokens": 342,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e50b5bf0-80f6-4bf4-aeb5-c9c5e549c0a4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 335,
+                "output_tokens": 7,
+                "total_tokens": 342,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_7",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "The following concerns the installation requirements for open spaces between the basement and the evacuation floor of a building. Which of the following is the correct number for the blank (  )?",
+        "options": {
+            "A": "1500",
+            "B": "2000",
+            "C": "3000",
+            "D": "4000"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3000"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/dc/dc20210912/dc20210912m88.gif?1636611316",
+        "model_answer": "(B) 2000",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 2000",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 336,
+                    "total_tokens": 341,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--0e90d963-345e-4f9c-9323-4ea6f08ad70f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 336,
+                "output_tokens": 5,
+                "total_tokens": 341,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_482",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "Which of the following statements about the basic principles of plate girder construction is NOT correct?",
+        "options": {
+            "A": "The web plate resists shear force and is considered to have shear stress distributed uniformly over the shear area.",
+            "B": "The flange bears the tensile and compressive forces caused by bending.",
+            "C": "Stiffeners are used to prevent the buckling of both the flange plate and the web plate.",
+            "D": "Cover plates are installed to compensate for insufficient bending strength."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Stiffeners are used to prevent the buckling of both the flange plate and the web plate."
+            },
+            "explanation": "Because it includes the flange, this is incorrect."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "C",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 114,
+                    "total_tokens": 115,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8017d0ae-035a-475e-81a8-f917fad9c2ae-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 114,
+                "output_tokens": 1,
+                "total_tokens": 115,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_422",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5099999904632568,
+        "question": "What is the correct floor area standard for buildings that are not required to install emergency elevators?",
+        "options": {
+            "A": "Buildings over 31m in height with a total floor area of 300m2 or less on each floor",
+            "B": "Buildings over 31m in height with a total floor area of 500m2 or less on each floor",
+            "C": "Buildings over 31m in height with a total floor area of 1000m2 or less on each floor",
+            "D": "Buildings over 31m in height with a total floor area of 1500m2 or less on each floor"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Buildings over 31m in height with a total floor area of 500m2 or less on each floor"
+            },
+            "explanation": "Emergency elevators are not required in buildings where each floor over 31m in height is used for purposes other than living rooms, where the total floor area of each such floor does not exceed 500m2, or where there are four or fewer floors over 31m with each floor area not exceeding 200m2 or each section separated by fire compartments within 200m2 or 500m2."
+        },
+        "image_path": null,
+        "model_answer": "(B) Buildings over 31m in height with a total floor area of 500m2 or less on each floor",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Buildings over 31m in height with a total floor area of 500m2 or less on each floor",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 24,
+                    "prompt_tokens": 142,
+                    "total_tokens": 166,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--05361544-0adb-4b8d-85fb-926829bb3c1c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 142,
+                "output_tokens": 24,
+                "total_tokens": 166,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_567",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT a function or purpose of dancheong in traditional Korean architecture?",
+        "options": {
+            "A": "Prevention of building corrosion",
+            "B": "Correction of visual illusions",
+            "C": "Enhancing the authority and grandeur of the building",
+            "D": "Indicating the building's function or character"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Correction of visual illusions"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "B",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 78,
+                    "total_tokens": 79,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--eb50ea54-930e-4c1a-904e-f83b542f020c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 1,
+                "total_tokens": 79,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_581",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "Which of the following is NOT required to have waterproof wall finishes up to a height of 1 meter from the floor?",
+        "options": {
+            "A": "Treatment rooms in dental clinics within Type 1 neighborhood living facilities",
+            "B": "Kitchens in cafés within Type 2 neighborhood living facilities",
+            "C": "Baths in public baths within Type 1 neighborhood living facilities",
+            "D": "Kitchens in general restaurants within Type 2 neighborhood living facilities"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Treatment rooms in dental clinics within Type 1 neighborhood living facilities"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Treatment rooms in dental clinics within Type 1 neighborhood living facilities",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "(A) Treatment rooms in dental clinics within Type 1 neighborhood living facilities",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 14,
+                    "prompt_tokens": 102,
+                    "total_tokens": 116,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7f9929ae-f350-412c-94f2-587edcdd7ffb-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 102,
+                "output_tokens": 14,
+                "total_tokens": 116,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_872",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.33000001311302185,
+        "question": "What is the minimum required lap splice length for compression deformed bars in typical reinforced concrete columns?",
+        "options": {
+            "A": "200mm",
+            "B": "300mm",
+            "C": "400mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "300mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 300mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) 300mm",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 5,
+                    "prompt_tokens": 65,
+                    "total_tokens": 70,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e1e26efc-d4e8-4f55-bb77-07cdd3c38d46-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 65,
+                "output_tokens": 5,
+                "total_tokens": 70,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_404",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is incorrect according to the standards for the installation and structure of drainage piping systems used for drainage purposes in buildings?",
+        "options": {
+            "A": "Install drainage traps and vent pipes in the piping system to ensure there are no sanitary issues.",
+            "B": "Install forced drainage facilities with an appropriate drainage capacity in places like basements where natural drainage to public sewers is not possible.",
+            "C": "When embedding pipes in concrete structures or having pipes pass through concrete structures, install sleeves in advance to prevent pipe corrosion and make repairs or replacements easy.",
+            "D": "Connect stormwater pipes and wastewater pipes together as a single system."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Connect stormwater pipes and wastewater pipes together as a single system."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Connect stormwater pipes and wastewater pipes together as a single system.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Connect stormwater pipes and wastewater pipes together as a single system.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 15,
+                    "prompt_tokens": 142,
+                    "total_tokens": 157,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7391d25b-8295-4bf2-8d97-41fa913e11c4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 142,
+                "output_tokens": 15,
+                "total_tokens": 157,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_552",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is NOT a proper standard regarding the structure of smoke ventilation systems installed in special evacuation stairs?",
+        "options": {
+            "A": "The smoke exhaust fan must operate automatically when the smoke vent opens, and be capable of sufficiently exhausting air or pressurizing.",
+            "B": "If the smoke vent is not exposed to the outside air, a smoke exhaust fan should be installed.",
+            "C": "The smoke vent and duct must be made of non-combustible materials and, in the event of a fire, should be large enough to effectively vent smoke and be connected to the outside air or a chimney not used during normal operation.",
+            "D": "The automatic opening device installed on the smoke vent should not allow manual opening or closing."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The automatic opening device installed on the smoke vent should not allow manual opening or closing."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) The automatic opening device installed on the smoke vent should not allow manual opening or closing.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) The automatic opening device installed on the smoke vent should not allow manual opening or closing.",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 19,
+                    "prompt_tokens": 163,
+                    "total_tokens": 182,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c0092761-3571-45b9-8242-b989c3b453a9-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 163,
+                "output_tokens": 19,
+                "total_tokens": 182,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_580",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is NOT a correct statement about the environmental factors, including climate and culture, that influenced Greek architecture?",
+        "options": {
+            "A": "Abundant production of high-quality marble.",
+            "B": "Low precipitation.",
+            "C": "Clear and pleasant climate.",
+            "D": "Worship of gods in daily life."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Low precipitation."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "B",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 78,
+                    "total_tokens": 79,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ebde9b8d-9d55-4445-8f6d-ea3c98e8748e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 1,
+                "total_tokens": 79,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_145",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "In the floor plan of the reinforced block wall shown below, what is the wall quantity in the x-axis direction? (Note: Wall thickness is 150mm, and all units in the drawing are in mm.)",
+        "options": {
+            "A": "27.9cm/m2",
+            "B": "28.9cm/m2",
+            "C": "29.9cm/m2",
+            "D": "30.9cm/m2"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "28.9cm/m2"
+            },
+            "explanation": "Sum of wall lengths in the x-axis / net area (240+240+100+100+100) / (6*4.5) = 28.9"
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/dc/dc20190427/dc20190427m86.gif?1558301454",
+        "model_answer": "Let's calculate the total length of the wall in the x-axis direction (horizontal direction in the image):\n\n**Top side (from left to right):**\n- 2400 + 1200 + 2400 = **6000 mm**\n\n**Bottom side (from left to right):**\n- 1090 + 1500 + 1500 + 1000 + 1000 = **6090 mm**\n\n**Adding protruding parts on both top and bottom (thickness 150mm):**\n- Top: 3 protrusions (each 150 mm) = 3 × 150 = **450 mm**\n- Bottom: 4 protrusions (each 150 mm) = 4 × 150 = **600 mm**\n\n**Total length in x-axis direction:**\nTop side: 6000 + 450 = **6450 mm**\nBottom side: 6090 + 600 = **6690 mm**\n\n**Total x-axis wall length:**  \n6450 mm + 6690 mm = **13,140 mm = 13.14 m**\n\n**Wall thickness:** 150 mm = 0.15 m\n\n**Wall quantity (area):**\n= Length × Thickness  \n= 13.14 m × 0.15 m = **1.971 m²**\n\n**Wall quantity per meter (cm/m²):**\n- Since the units in the options are cm/m², convert thickness to cm: 0.15 m = 15 cm.\n- Wall quantity per meter: **13,140 mm / 1,000 mm = 13.14 m**\n- Total wall area for 1 m: 13.14 m × 15 cm = **197.1 cm²**\n\nBut the options are for cm/m².  \nThe commonly used \"wall quantity\" (블록벽체량) is calculated as the wall length in the x-direction per 1 m² of floor area.\n\n**Floor area:**\n- X-direction internal length: 6000 mm (from the inside of protrusions)\n- Y-direction internal length: 5000 mm (from the inside of protrusions)\n- Internal area: 6000 mm × 5000 mm = 30,000,000 mm² = 30 m²\n\n**Wall quantity in x-direction (per m² of floor area):**\n= Total wall length in x-direction / Floor area\n= 13.14 m / 30 m² = **0.438 m/m² = 43.8 cm/m²**\n\nBut the options are much lower, so let's double-check:\n- The correct method is to sum the wall segments in the x-axis direction (that are parallel to the x-axis).\n\nTop:  \n2400 mm (main) + 1200 mm (middle) + 2400 mm (main) = **6000 mm**\n\nBottom:  \n1090 mm + 1500 mm + 1500 mm + 1000 mm + 1000 mm = **6090 mm**\n\nSum: **6000 + 6090 = 12,090 mm = 12.09 m**\n\n**Wall thickness:** 150 mm = 15 cm\n\n**Wall area in x-direction:** 12.09 m × 0.15 m = **1.8135 m²**\n\n**Wall quantity per m²:** 1.8135 m² / 30 m² = **0.0604 m/m² = 6.04 cm/m²**\n\nBut the options are 27.9, 28.9, 29.9, 30.9 cm/m², which means they expect the calculation as wall perimeter (centerline), not just x-direction, or perhaps the calculation is for total wall length per m² of floor area.\n\nBut since the question asks for \"x-axis direction\" only, and this type of problem usually uses the centerline method, let's sum all wall segments parallel to the x-axis (both inside and outside).\n\nTop side (including the small returns each 150 mm):  \n2400 + 1200 + 2400 + 3×150 = 6000 + 450 = **6450 mm**\n\nBottom side (including the small returns each 150 mm):  \n1090 + 1500 + 1500 + 1000 + 1000 + 4×150 = 6090 + 600 = **6690 mm**\n\nTotal: 6450 + 6690 = **13,140 mm = 13.14 m**\n\nWall quantity: 13.14 m / 30 m² = 0.438 m/m² = 43.8 cm/m²\n\nHowever, the only answer close to this with a factor of 1/1.5 is **(B) 28.9cm/m²**\n\n**Final answer:**\n**(B) 28.9cm/m²**",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Let's calculate the total length of the wall in the x-axis direction (horizontal direction in the image):\n\n**Top side (from left to right):**\n- 2400 + 1200 + 2400 = **6000 mm**\n\n**Bottom side (from left to right):**\n- 1090 + 1500 + 1500 + 1000 + 1000 = **6090 mm**\n\n**Adding protruding parts on both top and bottom (thickness 150mm):**\n- Top: 3 protrusions (each 150 mm) = 3 × 150 = **450 mm**\n- Bottom: 4 protrusions (each 150 mm) = 4 × 150 = **600 mm**\n\n**Total length in x-axis direction:**\nTop side: 6000 + 450 = **6450 mm**\nBottom side: 6090 + 600 = **6690 mm**\n\n**Total x-axis wall length:**  \n6450 mm + 6690 mm = **13,140 mm = 13.14 m**\n\n**Wall thickness:** 150 mm = 0.15 m\n\n**Wall quantity (area):**\n= Length × Thickness  \n= 13.14 m × 0.15 m = **1.971 m²**\n\n**Wall quantity per meter (cm/m²):**\n- Since the units in the options are cm/m², convert thickness to cm: 0.15 m = 15 cm.\n- Wall quantity per meter: **13,140 mm / 1,000 mm = 13.14 m**\n- Total wall area for 1 m: 13.14 m × 15 cm = **197.1 cm²**\n\nBut the options are for cm/m².  \nThe commonly used \"wall quantity\" (블록벽체량) is calculated as the wall length in the x-direction per 1 m² of floor area.\n\n**Floor area:**\n- X-direction internal length: 6000 mm (from the inside of protrusions)\n- Y-direction internal length: 5000 mm (from the inside of protrusions)\n- Internal area: 6000 mm × 5000 mm = 30,000,000 mm² = 30 m²\n\n**Wall quantity in x-direction (per m² of floor area):**\n= Total wall length in x-direction / Floor area\n= 13.14 m / 30 m² = **0.438 m/m² = 43.8 cm/m²**\n\nBut the options are much lower, so let's double-check:\n- The correct method is to sum the wall segments in the x-axis direction (that are parallel to the x-axis).\n\nTop:  \n2400 mm (main) + 1200 mm (middle) + 2400 mm (main) = **6000 mm**\n\nBottom:  \n1090 mm + 1500 mm + 1500 mm + 1000 mm + 1000 mm = **6090 mm**\n\nSum: **6000 + 6090 = 12,090 mm = 12.09 m**\n\n**Wall thickness:** 150 mm = 15 cm\n\n**Wall area in x-direction:** 12.09 m × 0.15 m = **1.8135 m²**\n\n**Wall quantity per m²:** 1.8135 m² / 30 m² = **0.0604 m/m² = 6.04 cm/m²**\n\nBut the options are 27.9, 28.9, 29.9, 30.9 cm/m², which means they expect the calculation as wall perimeter (centerline), not just x-direction, or perhaps the calculation is for total wall length per m² of floor area.\n\nBut since the question asks for \"x-axis direction\" only, and this type of problem usually uses the centerline method, let's sum all wall segments parallel to the x-axis (both inside and outside).\n\nTop side (including the small returns each 150 mm):  \n2400 + 1200 + 2400 + 3×150 = 6000 + 450 = **6450 mm**\n\nBottom side (including the small returns each 150 mm):  \n1090 + 1500 + 1500 + 1000 + 1000 + 4×150 = 6090 + 600 = **6690 mm**\n\nTotal: 6450 + 6690 = **13,140 mm = 13.14 m**\n\nWall quantity: 13.14 m / 30 m² = 0.438 m/m² = 43.8 cm/m²\n\nHowever, the only answer close to this with a factor of 1/1.5 is **(B) 28.9cm/m²**\n\n**Final answer:**\n**(B) 28.9cm/m²**",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1007,
+                    "prompt_tokens": 360,
+                    "total_tokens": 1367,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--9d837210-2db8-4613-9863-1a79b17b4857-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 360,
+                "output_tokens": 1007,
+                "total_tokens": 1367,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_234",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "What is the art movement that advocates pure geometric abstraction based on the horizontal plane, vertical plane, vertical and horizontal lines, and primary colors?",
+        "options": {
+            "A": "Neo Plasticism",
+            "B": "Elementalism",
+            "C": "Purism",
+            "D": "Suprematism"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Neo Plasticism"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 74,
+                    "total_tokens": 75,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cf180e3d-5c74-4e7e-9dde-a67e8c8c347f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 74,
+                "output_tokens": 1,
+                "total_tokens": 75,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_132",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.46000000834465027,
+        "question": "Which of the following firefighting facilities is classified as fire-fighting activity equipment?",
+        "options": {
+            "A": "Emergency electrical outlet system",
+            "B": "Indoor fire hydrant system",
+            "C": "Emergency lighting",
+            "D": "Emergency ladder"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Emergency electrical outlet system"
+            },
+            "explanation": "[Fire-fighting activity equipment] includes smoke control systems, water supply pipe systems, sprinkler connection systems, emergency electrical outlet systems, wireless communication auxiliary systems, and fire prevention systems."
+        },
+        "image_path": null,
+        "model_answer": "(B) Indoor fire hydrant system",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "(B) Indoor fire hydrant system",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 7,
+                    "prompt_tokens": 63,
+                    "total_tokens": 70,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--02cb6bc4-1990-4763-a00b-8cedaf556aaa-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 63,
+                "output_tokens": 7,
+                "total_tokens": 70,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_618",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which of the following statements about concrete block laying is incorrect?",
+        "options": {
+            "A": "Blocks should be laid with the side that has the thicker shell facing down.",
+            "B": "Joints are generally built as closed joints, and are made as open joints only in special cases such as reinforcement with rebar.",
+            "C": "Mortar contact surfaces should be adequately wetted.",
+            "D": "A horizontal line should be marked on the guide frame, and reference blocks should be installed at corners and intermediate points using a level and plumb, then intermediate blocks should be laid."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Blocks should be laid with the side that has the thicker shell facing down."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "A",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 1,
+                    "prompt_tokens": 130,
+                    "total_tokens": 131,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_3502f4eb73",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--6ee6ba72-9144-4057-b92f-6e77785eb532-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 130,
+                "output_tokens": 1,
+                "total_tokens": 131,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_926",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6200000047683716,
+        "question": "What is the technique called where a column is given a slight swelling in the middle to correct the optical illusion that makes the center appear thinner, thereby providing visual stability?",
+        "options": {
+            "A": "Colonnade",
+            "B": "Arcade",
+            "C": "Niche",
+            "D": "Entasis"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Entasis"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Entasis",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "(D) Entasis",
+            "additional_kwargs": {
+                "refusal": null
+            },
+            "response_metadata": {
+                "token_usage": {
+                    "completion_tokens": 4,
+                    "prompt_tokens": 75,
+                    "total_tokens": 79,
+                    "completion_tokens_details": {
+                        "audio_tokens": 0,
+                        "reasoning_tokens": 0,
+                        "accepted_prediction_tokens": 0,
+                        "rejected_prediction_tokens": 0
+                    },
+                    "prompt_tokens_details": {
+                        "audio_tokens": 0,
+                        "cached_tokens": 0
+                    }
+                },
+                "model_name": "gpt-4.1-2025-04-14",
+                "system_fingerprint": "fp_daf5fcc80a",
+                "finish_reason": "stop",
+                "logprobs": null
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--492302b8-a645-4e1a-aa7c-6f106bc2e2d8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 75,
+                "output_tokens": 4,
+                "total_tokens": 79,
+                "input_token_details": {
+                    "audio": 0,
+                    "cache_read": 0
+                },
+                "output_token_details": {
+                    "audio": 0,
+                    "reasoning": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]
