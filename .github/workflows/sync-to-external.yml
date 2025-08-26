@@ -41,6 +41,15 @@ jobs:
             echo "Base branch ${TARGET_BASE} not found; will create an empty base later."
           fi
 
+      - name: Determine sync mode
+        run: |
+          set -e
+          SYNC="${{ vars.SYNC_MODE }}"
+          if [ -z "$SYNC" ]; then SYNC="${{ secrets.SYNC_MODE }}"; fi
+          if [ -z "$SYNC" ]; then SYNC="whitelist"; fi
+          echo "SYNC_MODE=$SYNC" >> $GITHUB_ENV
+          echo "Sync mode: $SYNC"
+
       - name: Ensure base branch exists (create empty if needed)
         id: ensure_base
         working-directory: target_repo
@@ -72,31 +81,42 @@ jobs:
       - name: Preview files to sync (rsync dry-run)
         run: |
           set -e
-          RSYNC_FLAGS=(
-            -ani --delete --prune-empty-dirs
-            --exclude 'target_repo' \
-            --exclude '.git' \
-            # Whitelist begins
-            --include '/app/' \
-            --include '/app/***' \
-            --include '/prompts/' \
-            --include '/prompts/***' \
-            --include '/output/' \
-            --include '/output/mcqa/' \
-            --include '/output/mcqa/en/' \
-            --include '/output/mcqa/en/gpt-4.1/***' \
-            --include '/.env.example' \
-            --include '/.gitignore' \
-            --include '/.python-version' \
-            --include '/pyproject.toml' \
-            --include '/README.md' \
-            --include '/requirements.txt' \
-            # Common junk still excluded
-            --exclude '**/__pycache__/**' \
-            --exclude '*.pyc' \
-            # Everything else excluded
-            --exclude '*'
-          )
+          if [ "$SYNC_MODE" = "mirror_all" ]; then
+            RSYNC_FLAGS=(
+              -ani --delete --prune-empty-dirs
+              --exclude 'target_repo' \
+              --exclude '.git' \
+              --exclude '.github/**' \
+              --exclude '**/__pycache__/**' \
+              --exclude '*.pyc'
+            )
+          else
+            RSYNC_FLAGS=(
+              -ani --delete --prune-empty-dirs
+              --exclude 'target_repo' \
+              --exclude '.git' \
+              # Whitelist begins
+              --include '/app/' \
+              --include '/app/***' \
+              --include '/prompts/' \
+              --include '/prompts/***' \
+              --include '/output/' \
+              --include '/output/mcqa/' \
+              --include '/output/mcqa/en/' \
+              --include '/output/mcqa/en/gpt-4.1/***' \
+              --include '/.env.example' \
+              --include '/.gitignore' \
+              --include '/.python-version' \
+              --include '/pyproject.toml' \
+              --include '/README.md' \
+              --include '/requirements.txt' \
+              # Common junk still excluded
+              --exclude '**/__pycache__/**' \
+              --exclude '*.pyc' \
+              # Everything else excluded
+              --exclude '*'
+            )
+          fi
           echo "---- rsync dry-run preview ----"
           rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | sed -n '1,200p'
           COUNT=$(rsync "${RSYNC_FLAGS[@]}" ./ target_repo/ | wc -l)
@@ -119,28 +139,39 @@ jobs:
       - name: Copy repository contents into target repository (exclude data/output)
         run: |
           # Sync all code/config except large or sensitive data and caches (whitelist only)
-          RSYNC_SYNC_FLAGS=(
-            -a --delete --prune-empty-dirs
-            --exclude 'target_repo'
-            --exclude '.git'
-            --include '/app/'
-            --include '/app/***'
-            --include '/prompts/'
-            --include '/prompts/***'
-            --include '/output/'
-            --include '/output/mcqa/'
-            --include '/output/mcqa/en/'
-            --include '/output/mcqa/en/gpt-4.1/***'
-            --include '/.env.example'
-            --include '/.gitignore'
-            --include '/.python-version'
-            --include '/pyproject.toml'
-            --include '/README.md'
-            --include '/requirements.txt'
-            --exclude '**/__pycache__/**'
-            --exclude '*.pyc'
-            --exclude '*'
-          )
+          if [ "$SYNC_MODE" = "mirror_all" ]; then
+            RSYNC_SYNC_FLAGS=(
+              -a --delete --prune-empty-dirs
+              --exclude 'target_repo'
+              --exclude '.git'
+              --exclude '.github/**'
+              --exclude '**/__pycache__/**'
+              --exclude '*.pyc'
+            )
+          else
+            RSYNC_SYNC_FLAGS=(
+              -a --delete --prune-empty-dirs
+              --exclude 'target_repo'
+              --exclude '.git'
+              --include '/app/'
+              --include '/app/***'
+              --include '/prompts/'
+              --include '/prompts/***'
+              --include '/output/'
+              --include '/output/mcqa/'
+              --include '/output/mcqa/en/'
+              --include '/output/mcqa/en/gpt-4.1/***'
+              --include '/.env.example'
+              --include '/.gitignore'
+              --include '/.python-version'
+              --include '/pyproject.toml'
+              --include '/README.md'
+              --include '/requirements.txt'
+              --exclude '**/__pycache__/**'
+              --exclude '*.pyc'
+              --exclude '*'
+            )
+          fi
           rsync "${RSYNC_SYNC_FLAGS[@]}" ./ target_repo/
 
       - name: Ensure non-empty diff (add sync marker if identical)
