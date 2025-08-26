@@ -1,0 +1,371 @@
+[
+    {
+        "id": "val_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should the ground level (GL) be for the floor of the underground parking lot at the community center?",
+        "options": {
+            "A": "-2.5m",
+            "B": "-3.0m",
+            "C": "-3.5m",
+            "D": "-4.0m",
+            "E": "-4.5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-3.5m"
+            },
+            "explanation": "According to the guidelines, the underground parking lot must be planned at GL –3.5m."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:34:51.278986832Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What should the ground level (GL) be for the floor of the underground parking lot at the community center?\" Provide answer as option letter from given choices.\n\nWe need to infer the answer from context? No context provided. Likely a design requirement: typical underground parking depth? Usually floor at -3.0m? Could be -3.5? Hard to know.\n\nBut maybe there is known standard: ground level (GL) for underground parking floor often -3.0 m relative to grade. Might be -3.0m.\n\nThus answer (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2394593700,
+            "load_duration": 88045998,
+            "prompt_eval_count": 148,
+            "prompt_eval_duration": 308788647,
+            "eval_count": 130,
+            "eval_duration": 1993330624
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which floor structure is most suitable for the second floor above ground of a village library?",
+        "options": {
+            "A": "Reinforced concrete slab",
+            "B": "Wood truss",
+            "C": "Large-span air delivery structure using steel plates",
+            "D": "Ceiling finish with gypsum board",
+            "E": "Composite metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Large-span air delivery structure using steel plates"
+            },
+            "explanation": "The design guidelines specify that the second floor above ground should use a large-span air delivery structure using steel plates. This is interpreted as a construction method utilizing steel structures."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:34:53.660984941Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which floor structure is most suitable for the second floor above ground of a village library?\" Options: A Reinforced concrete slab, B Wood truss, C Large-span air delivery structure using steel plates, D Ceiling finish with gypsum board, E Composite metal panel.\n\nFor a library second floor above ground, need load-bearing, fire resistance, sound insulation, durability. Reinforced concrete slab is typical. Wood truss may be okay but fire and durability concerns. Likely answer A. So respond \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2348133507,
+            "load_duration": 92785113,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 309111247,
+            "eval_count": 127,
+            "eval_duration": 1940255047
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Select the correct statement regarding the placement of cantilevers in structural planning.",
+        "options": {
+            "A": "Cantilevers are used on every floor.",
+            "B": "Cantilevers are only used on the first floor.",
+            "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+            "D": "No special structural planning is needed for cantilevers, and they can be placed freely.",
+            "E": "Cantilevers can be placed anywhere for space efficiency."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing."
+            },
+            "explanation": "According to the design guidelines, cantilevers are only placed in specific areas on the second floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:34:55.584553647Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"Select the correct statement regarding the placement of cantilevers in structural planning.\"\n\nOptions A-E. We need to answer with the option's letter directly.\n\nWe need to infer the correct answer. The context: typical structural planning, cantilevers are only present where specified in the second floor plan and sectional conceptual drawing. Likely correct: (C). So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1889108330,
+            "load_duration": 94108938,
+            "prompt_eval_count": 181,
+            "prompt_eval_duration": 401415790,
+            "eval_count": 91,
+            "eval_duration": 1388505563
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In this architectural design, what is the value defined as the floor structure level (SL) for the basement?",
+        "options": {
+            "A": "-1,200mm",
+            "B": "-1,600mm",
+            "C": "0mm",
+            "D": "-2,000mm",
+            "E": "-800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "-1,600mm"
+            },
+            "explanation": "According to the design specifications, the floor structure level (SL) for the basement and penthouse is set at -1,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:34:58.726712849Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to infer from a diagram? The question: \"In this architectural design, what is the value defined as the floor structure level (SL) for the basement?\" Options are numeric depths. Likely floor structure level (SL) defined as the elevation of the floor slab relative to a reference point (maybe datum). Basement could be -1,200mm? We need context. Since not given image, perhaps typical basement floor is -1500mm? Options: -800, -1200, -1600, -2000, 0. Usually ground floor SL = 0, basement would be below, maybe -1,200 mm (1.2m). Could be -1,600 mm if deeper. Without image, guess typical 1.2m. I'd answer (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3106497351,
+            "load_duration": 87673162,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 337362802,
+            "eval_count": 174,
+            "eval_duration": 2676928620
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?",
+        "options": {
+            "A": "2,500mm",
+            "B": "3,000mm",
+            "C": "3,500mm",
+            "D": "4,000mm",
+            "E": "4,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3,000mm"
+            },
+            "explanation": "According to the design guidelines, the floor-to-ceiling height of the rooftop floor of the neighborhood culture center is 3,000mm. This value represents the height of the building's topmost space, including the rooftop floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:02.361679951Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need answer from a document presumably about a neighborhood culture center. The question: \"What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?\" Options A-E with values.\n\nWe need to guess? Perhaps typical floor-to-ceiling height for a rooftop floor might be 3,000 mm? Could be 4,000 mm? Without source, need inference. The design might have higher ceilings for rooftop spaces like galleries, maybe 4,500 mm? But typical floor-to-ceiling is 3,000 mm (10 ft). Rooftop floor may be higher for mechanical, maybe 3,500 mm. The options include 2,500 (low), 3,000, 3,500, 4,000, 4,500.\n\nNeighborhood culture center likely public building, rooftop floor may be used for events, so high ceiling: maybe 4,000 mm.\n\nI'll answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3599195488,
+            "load_duration": 93423006,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 328814660,
+            "eval_count": 207,
+            "eval_duration": 3172748952
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the exterior wall finishing material of the Community Service Center?",
+        "options": {
+            "A": "Brick finish",
+            "B": "Stucco",
+            "C": "Exposed concrete finish",
+            "D": "Marble finish",
+            "E": "Metal panel finish"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Exposed concrete finish"
+            },
+            "explanation": "The design guide for the Community Service Center specifies exposed concrete for the exterior wall finish."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:05.63660879Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer the question: \"What is the exterior wall finishing material of the Community Service Center?\" Options given A-E. We need to answer with the option's letter directly.\n\nBut we don't have context. Possibly it's from some passage. We need to infer? Could be from a known document. \"Community Service Center\" maybe a building described in a text. Without context, we guess? Could be \"Exposed concrete finish\" typical for community centers. But could be \"Brick finish\". Hmm.\n\nWe might consider typical community service center in some architecture case study? Could be from a question bank about a building plan. Many community centers use brick. But \"Exposed concrete\" also common in modern design.\n\nThe safest might be \"Brick finish\". But we need to decide.\n\nGiven multiple choice, likely answer is (A) Brick finish. I'll answer \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3247139637,
+            "load_duration": 97414304,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 241207927,
+            "eval_count": 187,
+            "eval_duration": 2903214238
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the maximum span length in the structural design of a small gallery?",
+        "options": {
+            "A": "2500mm",
+            "B": "3000mm",
+            "C": "3500mm",
+            "D": "4000mm",
+            "E": "4500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3500mm"
+            },
+            "explanation": "The design conditions specify that the span should be planned to be no more than 3,500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:08.179349399Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What should be the maximum span length in the structural design of a small gallery? (A) 2500mm (B) 3000mm (C) 3500mm (D) 4000mm (E) 4500mm\". The instruction says answer with the option's letter directly. So we need to pick the correct answer. Do we know? Possibly from building codes: For small gallery, maximum span maybe 3000mm? I'm not certain. But we must answer with letter only. Choose plausible answer: maybe 3000mm (B). Let's answer \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2508506799,
+            "load_duration": 87804109,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 294688813,
+            "eval_count": 138,
+            "eval_duration": 2121735627
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the appropriate design method for the south exterior wall?",
+        "options": {
+            "A": "Single skin",
+            "B": "Double skin",
+            "C": "Brick finish",
+            "D": "Glass curtain wall",
+            "E": "Metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Double skin"
+            },
+            "explanation": "It is specified that the south exterior wall should be designed with a double skin that allows for ventilation and solar control."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:10.02775086Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What is the appropriate design method for the south exterior wall?\" with multiple-choice options. No additional context. Likely a building design question. Without context, perhaps the correct answer is \"Double skin\" for south facade to improve solar control. South wall gets most sun, double skin can provide shading and insulation. Could be brick finish? But design method likely double skin. So answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1816524841,
+            "load_duration": 106745979,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 252634259,
+            "eval_count": 95,
+            "eval_duration": 1451738412
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the specified stress (f_py) value for prestressed concrete?",
+        "options": {
+            "A": "1,200 MPa",
+            "B": "1,500 MPa",
+            "C": "1,860 MPa",
+            "D": "2,000 MPa",
+            "E": "2,400 MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,860 MPa"
+            },
+            "explanation": "According to the material specifications for design conditions, the specified stress for prestressed concrete is set at 1,860 MPa."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:12.186874489Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"What is the specified stress (f_py) value for prestressed concrete?\" with multiple choice options. We need to answer with the option's letter directly. So answer with a single letter A-E. We need to know correct answer. f_py is yield stress of prestressing steel? Usually f_py for prestressed steel is 1,860 MPa (for high strength steel). In many codes, f_py = 1,860 MPa. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2124483036,
+            "load_duration": 87314299,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 323477853,
+            "eval_count": 111,
+            "eval_duration": 1708219506
+        },
+        "judge": "Correct"
+    }
+]

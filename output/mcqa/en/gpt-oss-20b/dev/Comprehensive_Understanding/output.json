@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T07:24:49.408870416Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "We have a question: \"Is the door swing direction appropriate in the rooftop core enlarged floor plan? (A) Yes (B) No\". We need to answer with the option's letter from the given choices directly. The context: presumably there's a floor plan, maybe a design. But we don't see the plan. So we have to guess. There's no details. Probably typical design: rooftop core door swing direction. Maybe the answer is \"No\" because typical door swing for rooftop core should be opposite? But unclear.\n\nWe could consider common practice: For a rooftop core, usually the door swing direction should not block the flow of people. The door may swing into the core or away. Typically for a rooftop core, a door should swing away from the stairs or from traffic. But again no plan.\n\nGiven ambiguous, maybe best guess: No. Or maybe Yes? We could think about typical design guidelines: For a rooftop core, you want a door that swings outward to allow clearance for roof equipment. So if the door swings inward, it might block. So if it's not appropriate, then answer B. But we don't know orientation. But given typical design, I think \"No\" is safer. Let's choose B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2159509328,
+            "load_duration": 183903377,
+            "prompt_eval_count": 108,
+            "prompt_eval_duration": 49906560,
+            "eval_count": 258,
+            "eval_duration": 1921013940
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T07:24:51.418652819Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"What are the unit width and length of the AL ceiling panels on the first floor above ground?\" The options: (A) 1200*600, (B) 1000*500, (C) 1500*700, (D) 1800*800, (E) 1400*750. We need to answer with the letter. This seems like a specific detail about some building's AL ceiling panels. I have no context. Probably the correct answer is known to the exam. Need to guess? Might be 1500*700? Or 1200*600? Let's think: \"AL\" maybe aluminum? Ceiling panels typically around 1200mm width, 600mm height? Many panels are 1200x600. So likely (A) 1200*600. But we are asked \"unit width and length\" maybe width x length. In the first floor above ground. I think typical size is 1200mm wide, 600mm tall. So answer (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1969065130,
+            "load_duration": 182205555,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 45805296,
+            "eval_count": 225,
+            "eval_duration": 1735415820
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T07:24:52.804184672Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer a question: \"What type of fluorescent light is used in the parking lot?\" And options: (A) RACE WAY TYPE fluorescent light, (B) LED fluorescent light, (C) Ceiling mount fluorescent light, (D) High-output fluorescent light, (E) Explosion-proof fluorescent light. Which one is used in parking lot? Probably \"High-output fluorescent light\" is typical for parking lots. LED fluorescent? That seems contradictory: LED isn't fluorescent. RACE WAY TYPE fluorescent light? Not sure. Explosion-proof is for hazardous environment. Ceiling mount maybe but parking lot uses high-output to cover large area. So answer likely (D). So output just \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1349254266,
+            "load_duration": 184650156,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 41778628,
+            "eval_count": 150,
+            "eval_duration": 1117389386
+        },
+        "judge": "Wrong"
+    }
+]

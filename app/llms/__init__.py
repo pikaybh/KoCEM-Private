@@ -3,7 +3,7 @@ from .google import GeminiFamily
 from .lgai import LGAI
 from .llava import LlavaModels
 from .meta import MetaLlama
-from .openai import OpenAI
+from .openai import OpenAI, OpenAIOSS
 from .qwen import QwenModels
 
 llm_models = [
@@ -12,7 +12,7 @@ llm_models = [
     LGAI(),
     LlavaModels(),
     MetaLlama(),
-    OpenAI(),
+    OpenAI(), OpenAIOSS(),
     QwenModels()
 ]
 
@@ -25,5 +25,6 @@ __all__ = [
     'LlavaModels',
     'MetaLlama',
     'OpenAI',
+    'OpenAIOSS',
     'QwenModels'
 ]

@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Determine whether the strength reduction factor $\\phi = 0.85$ is appropriate for a reinforced concrete beam like the one shown in the figure, with $f_{ck} = 21$ MPa, $f_y = 400$ MPa, and D22 bars (cross-sectional area 387mm$^2$).",
+        "options": {
+            "A": "Appropriate",
+            "B": "Inappropriate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Appropriate"
+            },
+            "explanation": "(1) Determining $\\beta_1$ and $\\varepsilon_{cu}$\n\nSince $f_{ck} \\leq 40$MPa, $\\beta_1 = 0.80$ and $\\varepsilon_{cu} = 0.0033$.\n\n(2) Calculating the depth of the equivalent rectangular stress block $a$\n\n$ a = \\frac{A_s f_y}{0.85 f_{ck} b} = \\frac{(387 \\times 3) \\times 400}{0.85 \\times 21 \\times 300} = 86.7 $ mm\n\n(3) Strength reduction factor $\\phi$\n\n$ c = \\frac{a}{\\beta_1} = \\frac{86.7}{0.80} = 108.4 $ mm\n\n$ \\varepsilon_t = \\left( \\frac{d_t - c}{c} \\right) \\varepsilon_{cu} = \\left( \\frac{550 - 108.4}{108.4} \\right) \\times 0.0033 = 0.0134 $\n\nSince $\\varepsilon_t = 0.0134 \\geq \\varepsilon_{tt} = 0.0050$, the section is tension-controlled.\n\nTherefore, $\\phi = 0.85$ (appropriate).\n\nNote: If the net tensile strain of the outermost tension reinforcement $\\varepsilon_t$ is greater than or equal to 0.0050, the section is tension-controlled, and the strength reduction factor $\\phi = 0.85$ is appropriate."
+        },
+        "image_path": "스크린샷 2024-10-19 231620.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T12:38:21.967000365Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to determine if φ = 0.85 is appropriate for a reinforced concrete beam given f_ck = 21 MPa, f_y = 400 MPa, and D22 bars (area 387 mm^2). φ = 0.85 is typical for flexure design per ACI 318 for tension-controlled sections. The appropriateness depends on whether the section is tension-controlled (strain in steel > 0.005). We need to check reinforcement ratio and whether it's under-reinforced. Without more data (beam dimensions, depth, etc.) we cannot compute. But typical φ for flexure is 0.9 for tension-controlled, 0.75 for compression-controlled, and 0.85 for transitional? Actually ACI uses φ = 0.9 for tension-controlled, 0.85 for \"balanced\" (transition) and 0.75 for compression-controlled. But many designers use φ=0.85 for flexure generally as a conservative value. The question likely expects that φ=0.85 is appropriate for typical beams. However if the beam is tension-controlled, φ=0.9 would be more appropriate. So is φ=0.85 appropriate? Probably \"Inappropriate\" because you should use φ=0.9 for tension-controlled. But maybe the reinforcement ratio is low, making it tension-controlled, so φ=0.85 is too low (conservative but still acceptable?). The question likely asks if using φ=0.85 is acceptable. Since 0.85 is generally used for compression-controlled? Actually ACI 318 Table 21.2.2 gives φ = 0.9 for tension-controlled (ε_t ≥ 0.005), φ = 0.85 for transitional (0.004 ≤ ε_t < 0.005), φ = 0.75 for compression-controlled (ε_t < 0.004). So if we don't know ε_t, we can't be sure. But typical beams are tension-controlled, so φ=0.9. So answer: B (Inappropriate)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 7130389634,
+            "load_duration": 86414626,
+            "prompt_eval_count": 163,
+            "prompt_eval_duration": 374775457,
+            "eval_count": 434,
+            "eval_duration": 6665010743
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When calculating a two-way slab with beams by the direct design method from the strength design method, $M_0$ is determined to be $900 \\, \\text{kN} \\cdot \\text{m}$. Calculate the negative moment for the interior span ($\\text{kN} \\cdot \\text{m}$).",
+        "options": {
+            "A": "$ M_u^- = 600 \\, \\text{kN} \\cdot \\text{m} $",
+            "B": "$ M_u^+ = 310 \\, \\text{kN} \\cdot \\text{m} $",
+            "C": "$ M_u^+ = 320 \\, \\text{kN} \\cdot \\text{m} $",
+            "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $",
+            "E": "$ M_u^- = 550 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $"
+            },
+            "explanation": "$ M_u^- = 0.65 M_0 = 0.65 \\times 900 = 585 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "image_path": null,
+        "model_answer": "(D) $M_u^- = 585 \\, \\text{kN} \\cdot \\text{m}$",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T12:38:35.083959668Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) $M_u^- = 585 \\, \\text{kN} \\cdot \\text{m}$",
+                "thinking": "We need to parse the question. It says: When calculating a two-way slab with beams by the direct design method from the strength design method, M0 is determined to be 900 kN·m. Calculate the negative moment for the interior span (kN·m).\n\nOptions given include M_u^- and M_u^+. Negative moment is M_u^- . Options with M_u^-: (A) 600, (D) 585, (E) 550. Need to compute.\n\nDirect design method for two-way slab with beams: M0 is the moment at interior? In design, positive moment M+ = M0/?? Negative moment M- = something like 0.6 M0? Let's recall: For two-way slab with beams (direct design), the moment distribution: For interior spans, positive moment M+ = 0.9 M0? Or negative M- = 0.5 M0? Actually, typical ratios: For interior strip, M+ = 0.9M0, M- = 0.6M0? Or for edge? Let's think: In the direct design method (ACI 318?), interior moment coefficients: M+ = 0.9 M0 for positive, M- = 0.6 M0 for negative. Something like that.\n\nGiven M0 = 900 kN·m. Then M- = 0.6 * 900 = 540 kN·m. Not among options (closest 550). Maybe factor is 0.65 => 585? 0.65*900=585 matches option D. So maybe negative moment is 0.65 M0.\n\nCheck typical code: For two-way slab interior spans, negative moment is 0.6 M0? I'm not fully sure. Might be 0.5? 0.5*900=450 not option.\n\nOption D is 585 which is 0.65 * 900. Option A is 600 which is 0.667*900 = 2/3. Option E is 550 which is 0.611*900.\n\nWhich is correct per direct design? According to ACI 318-14, for interior strips, negative moment coefficient is 0.6 M0 (for interior negative? Actually, interior strips have both positive and negative moments? Typically interior column strips have positive moment at midspan and negative at supports? For interior slab, negative moment at beam? Might be 0.6 M0.\n\nBut M0 is the \"maximum positive moment\" in the slab? The direct design method: M0 is the moment at midspan of interior strip? The negative moment at support is 0.5 M0? Let's search memory: For two-way slab with beams, coefficients for interior column strip: M+ = 0.9 M0, M- = 0.6 M0. For edge strip: M+ = 0.5 M0, M- = 0.6 M0? Not sure.\n\nGiven the options, likely answer D 585 (0.65*900) maybe correct if factor is 0.65. Which factor is typical? I've seen tables: For interior spans, negative moment = 0.6 M0; for edge spans, negative = 0.5 M0. So 0.6*900 = 540 not given. So maybe they used 0.65 factor.\n\nMaybe M0 is the total moment (positive + negative) for interior? Actually M0 = (M+ + M-)/2? Not.\n\nGiven the options include M_u^+ values for positive, but they ask negative interior. So we choose a negative M_u^- value. Which matches typical? Possibly D 585.\n\nThus answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 13084097952,
+            "load_duration": 93087825,
+            "prompt_eval_count": 283,
+            "prompt_eval_duration": 554131502,
+            "eval_count": 812,
+            "eval_duration": 12428994618
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "As a result of conducting density and absorption ratio tests on an undisturbed clay specimen, the following test results were obtained. Based on these results, write the absorption ratio, void ratio, and degree of saturation. (6 points)\n\n| Type of Test   | Test Result                                   |\n|---------------|-----------------------------------------------|\n| Particle Density | Particle volume: 11.06cm³                    |\n| Absorption Ratio | Mass of soil and container: 92.58g<br>Mass of dry soil and container: 78.95g<br>Mass of container: 49.32g |\n| Wet Density     | Volume of soil: 26.22cm³                      |",
+        "options": {
+            "A": "0.7271",
+            "B": "0.2482",
+            "C": "0.8991",
+            "D": "0.5533",
+            "E": "0.6329"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "0.8991"
+            },
+            "explanation": "1g of water = 1cm$^3$. That is, the volume and weight of water are the same.\n\n1. Absorption Ratio\n   $\n   \\text{Absorption Ratio} = \\left( \\frac{\\text{Mass of water}}{\\text{Mass of soil}} \\right) \\times 100 = \\left( \\frac{M_W}{M_S} \\right) \\times 100\n   $\n   $\n   = \\left( \\frac{92.58 - 78.95}{78.95 - 49.32} \\right) \\times 100 = 46.0\\%$\n\n2. Void Ratio\n   $\n   \\text{Void Ratio} = \\left( \\frac{\\text{Volume of voids}}{\\text{Volume of soil particles}} \\right) = \\frac{V_V}{V_S} = \\frac{26.22 - 11.06}{11.06} = 1.37\n   $\n\n3. Degree of Saturation\n   $\n   \\text{Degree of Saturation} = \\left( \\frac{\\text{Volume of water}}{\\text{Volume of voids}} \\right) \\times 100 = \\left( \\frac{V_W}{V_V} \\right) \\times 100\n   $\n\n$\n= \\left( \\frac{92.58 - 78.95}{26.22 - 11.06} \\right) \\times 100 = 89.91\\%$\n"
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T12:38:47.150780945Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to compute absorption ratio, void ratio, degree of saturation. Then select which of the given options matches? Likely they ask to write these three values, but answer options are single numbers, maybe they ask for absorption ratio? The question: \"Based on these results, write the absorption ratio, void ratio, and degree of saturation. (6 points)\". Then options are numbers, maybe they ask for absorption ratio? But they ask three values; perhaps they want absorption ratio? However multiple-choice list shows five numbers. Probably one of those corresponds to absorption ratio? Let's compute.\n\nGiven data:\n\nParticle volume = 11.06 cm³. That's volume of solids? Particle volume = volume of particles at particle density (specific gravity). So solids volume Vs = 11.06 cm³.\n\nWet density test: volume of soil = 26.22 cm³. That's total volume (including voids). So total volume V = 26.22 cm³.\n\nAbsorption ratio test: mass of soil and container = 92.58 g. mass of dry soil and container = 78.95 g. mass of container = 49.32 g.\n\nThus mass of wet soil = 92.58 - 49.32 = 43.26 g.\nMass of dry soil = 78.95 - 49.32 = 29.63 g.\n\nWater mass = wet - dry = 43.26 - 29.63 = 13.63 g.\n\nAbsorption ratio (often called water absorption ratio) = (mass of water)/(mass of dry soil) = 13.63 / 29.63 = 0.4598. That's not among options.\n\nMaybe absorption ratio defined as (mass of water)/(mass of solids)?? That's same.\n\nMaybe they want water content w = 0.4598.\n\nBut options are around 0.2-0.9.\n\nNow compute void ratio e = (V - Vs) / Vs = (26.22 - 11.06) / 11.06 = 15.16 / 11.06 = 1.371.\n\nDegree of saturation S = (w * Gs) / e? Actually S = (w * Gs) / e * 100%? For saturated, w = e/(Gs). But formula: S = (w * Gs) / e * 100. Need specific gravity Gs. Particle density? Particle volume given but not mass. Could compute Gs = (mass of solids) / (density of water * Vs). Mass of dry soil = 29.63 g. Vs = 11.06 cm³. Assuming water density 1 g/cm³, Gs = 29.63 / 11.06 = 2.679.\n\nNow compute S = (w * Gs) / e *100 = (0.4598 * 2.679) / 1.371 *100 = (1.231) /1.371 *100 = 0.8985*100 = 89.85%. So degree of saturation ~0.8985 (fraction). That matches option C 0.8991. So maybe they ask for degree of saturation? But question: \"write the absorption ratio, void ratio, and degree of saturation.\" So we have three numbers: absorption ratio = 0.4598, void ratio = 1.371, degree of saturation = 0.8985. None of the options match these except degree of saturation ~0.8991.\n\nThus answer likely (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 12037365370,
+            "load_duration": 89018515,
+            "prompt_eval_count": 266,
+            "prompt_eval_duration": 532027522,
+            "eval_count": 744,
+            "eval_duration": 11410010038
+        },
+        "judge": "Correct"
+    }
+]

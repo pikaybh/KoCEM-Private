@@ -43,7 +43,8 @@ def run_each(
                 continue
 
             logger.debug(f"Subject: {subset}, Split: {split}")
-            api(subset=subset, split=split, max_retries=retries, max_timeout=timeout)
+            # Forward extra kwargs so __call__ can receive new optional flags (e.g., reduce_image_on_retry)
+            api(subset=subset, split=split, max_retries=retries, max_timeout=timeout, **kwargs)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1599999964237213,
+        "question": "Which of the following is information needed for biomechanical analysis?",
+        "options": {
+            "A": "Heart rate, calories per minute, oxygen uptake",
+            "B": "Distance, weight, angle",
+            "C": "Temperature, noise level, illumination",
+            "D": "Height, waist circumference"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Distance, weight, angle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:19.5942387Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is information needed for biomechanical analysis?\" Options: A heart rate, calories per minute, oxygen uptake (that's physiological data). B Distance, weight, angle (these are mechanical variables). C Temperature, noise level, illumination (environment). D Height, waist circumference (anthropometric). Biomechanical analysis involves forces, motion, distance, weight, angles. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1800777979,
+            "load_duration": 94948849,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 244191321,
+            "eval_count": 95,
+            "eval_duration": 1457696442
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?",
+        "options": {
+            "A": "When snowfall exceeds 1 cm per minute",
+            "B": "When rainfall exceeds 1 cm per hour",
+            "C": "When wind speed exceeds 10 meters per second",
+            "D": "When the temperature exceeds 28°C"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When wind speed exceeds 10 meters per second"
+            },
+            "explanation": "- When wind speed exceeds 10 meters per second\n- When rainfall exceeds 1 mm per hour\n- When snowfall exceeds 1 cm per hour"
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:22.057030666Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. The question: \"When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?\" Options: A snowfall exceeds 1 cm per minute, B rainfall exceeds 1 cm per hour, C wind speed exceeds 10 m/s, D temperature exceeds 28°C. I need to know standard safety guidelines for steel frame work. Typically, work should be stopped when wind speed exceeds 10 m/s (~22 mph) because steel structures can be unstable. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2431329704,
+            "load_duration": 96901828,
+            "prompt_eval_count": 155,
+            "prompt_eval_duration": 359048397,
+            "eval_count": 128,
+            "eval_duration": 1970697098
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.44999998807907104,
+        "question": "The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?",
+        "options": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20080907/bj20080907m83.gif?1522617633",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:27.02588439Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter. The question: \"The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?\n\n(A) 5\n(B) 7\n(C) 10\n(D) 15\"\n\nBut we don't have the regulation text. Likely about wire rope splices cannot be used for lengths less than something? Maybe the number is a percentage? The regulation probably states \"The use of wire ropes with splices is prohibited when the splice length exceeds ____% of the rope length.\" Or maybe \"prohibited for use on lifts with a load greater than ____ times the rope's working load limit.\" Not sure.\n\nLet's think: Common regulations: In US OSHA, wire rope splices: \"The use of wire rope with a splice is prohibited where the splice is more than 1/8 inch in diameter?\" Hmm.\n\nMaybe referencing \"wire rope with a splice cannot be used for a length of 10 meters\"? The choices 5,7,10,15. Could be \"more than 7% of the rope's length\"? I'm not certain.\n\nSearch memory: In some standards, \"wire rope with a splice shall not be used where the splice is longer than 10% of the rope's length.\" That seems plausible. So answer C (10). I'll go with C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4936729333,
+            "load_duration": 89050036,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 307275473,
+            "eval_count": 294,
+            "eval_duration": 4534708176
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is the correct safety rule when pouring concrete?",
+        "options": {
+            "A": "Concrete should be poured all to one side.",
+            "B": "Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation.",
+            "C": "Concrete that has spilled onto the floor should be left to cure as is.",
+            "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:30.315052317Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is the correct safety rule when pouring concrete?\" Options A-D. Need to select correct safety rule. Let's analyze each.\n\nA) Concrete should be poured all to one side. Not a safety rule; maybe about placing but not correct.\n\nB) Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation. That's unsafe, opposite.\n\nC) Concrete that has spilled onto the floor should be left to cure as is. That's not safe; should be cleaned.\n\nD) For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once. That is a good practice to avoid cold joints, not necessarily safety but quality. Among given, D seems the correct rule.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3255816310,
+            "load_duration": 100959752,
+            "prompt_eval_count": 178,
+            "prompt_eval_duration": 377199469,
+            "eval_count": 177,
+            "eval_duration": 2772774286
+        },
+        "judge": "Correct"
+    }
+]

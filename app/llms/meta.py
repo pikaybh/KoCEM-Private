@@ -20,8 +20,8 @@ class MetaLlama(LLMBase):
             name="Llama 4 Maverick",
             description="Industry-leading natively multimodal model for image and text understanding with groundbreaking intelligence and fast responses at a low cost.",
             version=ModelVersion(
-                releases=["Llama-4-Maverick-17B-128E-Instruct-FP8"],
-                stable="Llama-4-Maverick-17B-128E-Instruct-FP8"
+                releases=["Llama-4-Maverick-17B-128E"],
+                stable="Llama-4-Maverick-17B-128E"
             ),
             size=ModelSize(parameters=109_000_000, aunounced=True),
             modality=Modality(
@@ -38,8 +38,8 @@ class MetaLlama(LLMBase):
             name="Llama 4 Scout",
             description="A class-leading natively multimodal model that offers superior text and visual intelligence.",
             version=ModelVersion(
-                releases=["Llama-4-Scout-17B-16E-Instruct-FP8"],
-                stable="Llama-4-Scout-17B-16E-Instruct-FP8"
+                releases=["Llama-4-Scout-17B-16E"],
+                stable="Llama-4-Scout-17B-16E"
             ),
             size=ModelSize(parameters=400_000_000, aunounced=True),
             modality=Modality(

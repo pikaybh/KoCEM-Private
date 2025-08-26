@@ -1,0 +1,1642 @@
+[
+    {
+        "id": "val_Safety_Management_3002",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT a correct installation standard for temporary passageway structures?",
+        "options": {
+            "A": "The slope should be 30 degrees or less.",
+            "B": "If the slope exceeds 20 degrees, the structure should be non-slip.",
+            "C": "For scaffold stairs used in construction work that are 8 meters or higher, landings should be installed at intervals of no more than 7 meters.",
+            "D": "If the length of a temporary passageway installed in a vertical shaft is 15 meters or more, landings should be installed at intervals of no more than 10 meters."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "If the slope exceeds 20 degrees, the structure should be non-slip."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:57:59.026239612Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter that is NOT a correct installation standard for temporary passageway structures. So identify which statement is false.\n\nWe need knowledge about temporary passageway standards. Probably from some occupational safety regulations (e.g., Korean construction safety standards). Let's think:\n\n(A) slope should be 30 degrees or less. Usually, temporary passageways (like walkways) should not exceed 30 degrees? Possibly correct.\n\n(B) If slope exceeds 20 degrees, the structure should be non-slip. Probably correct: for slopes >20°, must have anti-slip.\n\n(C) For scaffold stairs used in construction work that are 8 meters or higher, landings should be installed at intervals of no more than 7 meters. Is that correct? Usually, landings required every 12 ft (~3.6 m) or maybe every 2 m? Not sure. 8 meters high stairs: intervals of 7 meters seems long. Probably wrong.\n\n(D) If length of a temporary passageway installed in a vertical shaft is 15 meters or more, landings should be installed at intervals of no more than 10 meters. That seems plausible.\n\nThus likely (C) is NOT correct. Answer with letter C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4490831554,
+            "load_duration": 87465719,
+            "prompt_eval_count": 201,
+            "prompt_eval_duration": 384425434,
+            "eval_count": 259,
+            "eval_duration": 4014945714
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_624",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which of the following statements about the lecture method is incorrect?",
+        "options": {
+            "A": "It results in a high level of concentration and interest.",
+            "B": "It allows a large amount of content to be taught in a short time.",
+            "C": "It can be used to teach a large audience.",
+            "D": "It is advantageous when introducing or starting a lesson."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It results in a high level of concentration and interest."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:01.379447766Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"Which of the following statements about the lecture method is incorrect?\" Options A-D. Need to pick the incorrect statement. Lecture method typical characteristics: Typically less interactive, can cover a lot of content quickly, can be used for large audiences, good for introducing material? Actually lecture method often results in low concentration and interest (students may get bored). So statement A says \"It results in a high level of concentration and interest.\" That's likely incorrect. So answer: A. The user wants the option's letter directly. So output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2316451434,
+            "load_duration": 98784203,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 334816269,
+            "eval_count": 123,
+            "eval_duration": 1877229862
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4457",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "What is it called when the importance of human relationships is implied to have as much influence on productivity as work and workspace design?",
+        "options": {
+            "A": "Five stages of human needs",
+            "B": "Theory X and Y",
+            "C": "Effects of human resource development",
+            "D": "Hawthorne effect"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Hawthorne effect"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:02.953024552Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter directly. The question: \"What is it called when the importance of human relationships is implied to have as much influence on productivity as work and workspace design?\" That's the Hawthorne effect: employees' productivity increases when they feel observed, importance of human relationships. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1538278868,
+            "load_duration": 88810080,
+            "prompt_eval_count": 140,
+            "prompt_eval_duration": 305516532,
+            "eval_count": 75,
+            "eval_duration": 1135493869
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2225",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "What is the probability of system A below?",
+        "options": {
+            "A": "0.64",
+            "B": "0.82",
+            "C": "0.92",
+            "D": "0.97"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "0.97"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/nj/nj20050306/nj20050306m55.gif?1501188877",
+        "model_answer": "I’m sorry, but I need more information about system A in order to determine its probability. Could you provide the details or diagram that describes the system?",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:06.90928255Z",
+            "message": {
+                "role": "assistant",
+                "content": "I’m sorry, but I need more information about system A in order to determine its probability. Could you provide the details or diagram that describes the system?",
+                "thinking": "The user asks: \"What is the probability of system A below?\" but there is no diagram or description of system A provided. This seems incomplete. According to policy, if insufficient info, we should ask for clarification. However the instruction says \"Answer with the option's letter from the given choices directly.\" That conflicts with needing clarification. The higher-level instruction: The system message says \"You are ChatGPT...\". The developer message says \"Answer with the option's letter from the given choices directly.\" That is a direct instruction that overrides the need for clarification. However the policy says we must not provide potentially incorrect answer; if ambiguous we should ask for clarification. The developer instruction conflicts with policy. According to policy hierarchy, the system message > developer message > user. But policy overrides developer instruction if it leads to potential misinformation. The user question is ambiguous; we cannot know the answer. So we must ask for clarification. Provide a response asking for more info."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3924196859,
+            "load_duration": 90539075,
+            "prompt_eval_count": 123,
+            "prompt_eval_duration": 246878686,
+            "eval_count": 234,
+            "eval_duration": 3581990469
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_408",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is not a type of biorhythm?",
+        "options": {
+            "A": "Intellectual rhythm",
+            "B": "Physical rhythm",
+            "C": "Emotional rhythm",
+            "D": "Neural rhythm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Neural rhythm"
+            },
+            "explanation": "Physical rhythm - 23 days cycle, Emotional rhythm - 28 days cycle, Intellectual rhythm - 33 days cycle."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:10.753045161Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is not a type of biorhythm? (A) Intellectual rhythm (B) Physical rhythm (C) Emotional rhythm (D) Neural rhythm\". We need to answer with the option's letter directly. This is a straightforward factual question. There's no policy violation. Provide answer: D (Neural rhythm is not a standard biorhythm type). The instruction says \"Answer with the option's letter from the given choices directly.\" So just \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2056580806,
+            "load_duration": 95092358,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 253802334,
+            "eval_count": 111,
+            "eval_duration": 1702516810
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4949",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7300000190734863,
+        "question": "What is the wind speed threshold at which steel frame work must be stopped?",
+        "options": {
+            "A": "When the wind speed exceeds 10 meters per second",
+            "B": "When the wind speed exceeds 10 meters per minute",
+            "C": "When the wind speed exceeds 1 meter per second",
+            "D": "When the wind speed exceeds 1 meter per minute"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "When the wind speed exceeds 10 meters per second"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:12.638819004Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"What is the wind speed threshold at which steel frame work must be stopped?\" Provide the option's letter from the given choices directly. Need to know correct answer. Likely building code: Steel framework must be stopped when wind exceeds 10 meters per second (approx 22 mph). I think typical safety threshold is 10 m/s. So answer is A. Provide just letter."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1850373335,
+            "load_duration": 89462026,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 352961786,
+            "eval_count": 92,
+            "eval_duration": 1401953027
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1730",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT classified as an independent action error according to Swain's classification of human error?",
+        "options": {
+            "A": "omission error",
+            "B": "commission error",
+            "C": "extraneous error",
+            "D": "command error"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "command error"
+            },
+            "explanation": "According to Swain's classification of human error: ① omission error: failure to perform necessary actions or procedures; ② time error: errors due to delays in performing necessary actions or procedures; ③ commission error: improper performance of necessary actions or procedures; ④ sequential error: errors due to performing actions or procedures in the wrong order; ⑤ qualitative error: performing too little or too much of an action; ⑥ extraneous error: performing actions unrelated to the task. 'Command error' is not included in this classification of independent action errors."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:18.033238846Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter. The question: \"Which of the following is NOT classified as an independent action error according to Swain's classification of human error?\" Options: (A) omission error, (B) commission error, (C) extraneous error, (D) command error.\n\nWe need to know Swain's classification of human error. I'm not fully sure, but I can recall that Swain (maybe Swain and Guttman) classified errors into slips, lapses, mistakes, etc. Independent action errors likely include omission errors, commission errors, maybe extraneous errors? Command errors maybe something else. Let's think.\n\nSwain's classification of human error: In the context of human factors, Swain (1974) identified three types: slip (action), lapse (memory), and mistake (planning). Independent action errors may refer to errors that are independent of the task, like command errors? Actually not sure.\n\nLet's try to recall: In aviation, Swain's classification includes \"action errors\" which are either \"slips\" (wrong execution) or \"mistakes\" (wrong planning). Within action errors, there are \"omission errors\" (failure to do something) and \"commission errors\" (doing something incorrectly). \"Extraneous errors\" maybe refer to errors not related to the task? \"Command errors\" maybe errors of giving wrong commands? I suspect \"extraneous error\" is not part of independent action errors.\n\nThus answer likely (C) extraneous error. Let's answer with C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5364472633,
+            "load_duration": 89336502,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 275733251,
+            "eval_count": 324,
+            "eval_duration": 4995236297
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_4550",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which interior surface should have the lowest reflectance?",
+        "options": {
+            "A": "Wall",
+            "B": "Ceiling",
+            "C": "Floor",
+            "D": "Furniture"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Floor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:20.086964802Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"Which interior surface should have the lowest reflectance? (A) Wall (B) Ceiling (C) Floor (D) Furniture\". They want answer as option's letter directly. So answer: likely floor has lowest reflectance? In interior design, floor often darker? Actually ceilings are light, walls moderate, floor often darker, furniture also can be dark but typical interior surfaces: floors are often darker than walls. So lowest reflectance likely floor. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2018173332,
+            "load_duration": 96657487,
+            "prompt_eval_count": 112,
+            "prompt_eval_duration": 226015549,
+            "eval_count": 111,
+            "eval_duration": 1690719223
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_156",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "Which of the following is least related to Thorndike’s laws of learning by trial and error?",
+        "options": {
+            "A": "Law of Effect",
+            "B": "Law of Exercise",
+            "C": "Law of Identity",
+            "D": "Law of Readiness"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Law of Identity"
+            },
+            "explanation": "Trial-and-error theory includes: 1) Law of Exercise (Repetition), 2) Law of Readiness, 3) Law of Effect."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:22.465758498Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following is least related to Thorndike’s laws of learning by trial and error?\" Options: A Law of Effect, B Law of Exercise, C Law of Identity, D Law of Readiness. Thorndike's laws: law of effect, law of exercise, law of readiness, law of use, law of disuse, law of recency, etc. Law of Identity is not a Thorndike law; it's a logical principle. So least related is C. So answer \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2345793892,
+            "load_duration": 89547591,
+            "prompt_eval_count": 131,
+            "prompt_eval_duration": 259200776,
+            "eval_count": 130,
+            "eval_duration": 1985491242
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2755",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "In the standard penetration test, what is the relative density of sand when the number of blows (N) required for a 30cm penetration is 50 or more?",
+        "options": {
+            "A": "Very loose.",
+            "B": "Loose.",
+            "C": "Medium.",
+            "D": "Very dense."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Very dense."
+            },
+            "explanation": "Number of blows 0~4: very soft, 4~10: soft, 10~30: medium, 30~50: dense, more than 50: very dense."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:26.796557483Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"In the standard penetration test, what is the relative density of sand when the number of blows (N) required for a 30cm penetration is 50 or more?\" So standard penetration test (SPT) blow count N. For sand, relative density categories: Very loose: N < 10? Actually typical classification: For sand, relative density (Dr) categories based on N values: N < 10 = very loose; 10-15 = loose; 15-30 = medium dense; >30 = dense? But need confirm. I recall: For sand, N<10 very loose, 10-15 loose, 15-30 medium dense, >30 dense. But some sources: N<10 very loose, 10-15 loose, 15-30 medium dense, >30 dense. The question: \"when the number of blows (N) required for a 30cm penetration is 50 or more?\" That's >30, so that would be \"Very dense\" or \"Dense\". Among options: (A) Very loose, (B) Loose, (C) Medium, (D) Very dense. So answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4297107252,
+            "load_duration": 88946388,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 336601067,
+            "eval_count": 253,
+            "eval_duration": 3866178414
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3834",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7200000286102295,
+        "question": "Which of the following is the least relevant to ergonomic principles for arranging components in the workplace?",
+        "options": {
+            "A": "First-in, first-out principle",
+            "B": "Principle of frequency of use",
+            "C": "Principle of importance",
+            "D": "Principle of functionality"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "First-in, first-out principle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:29.020337372Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. Question: \"Which of the following is the least relevant to ergonomic principles for arranging components in the workplace?\" Options: A: First-in, first-out principle, B: Principle of frequency of use, C: Principle of importance, D: Principle of functionality.\n\nErgonomic arrangement typically considers frequency of use (most used close), importance (critical items more accessible), functionality (grouping). First-in, first-out principle is inventory management, not ergonomics. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2197462715,
+            "load_duration": 95767460,
+            "prompt_eval_count": 133,
+            "prompt_eval_duration": 299372619,
+            "eval_count": 118,
+            "eval_duration": 1797114108
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2559",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "In the construction industry, what is the correct criterion for bridge construction projects that require the submission of a hazardous risk prevention plan?",
+        "options": {
+            "A": "Bridge construction projects with a maximum span length of 40m or more.",
+            "B": "Bridge construction projects with a maximum span length of 50m or more.",
+            "C": "Bridge construction projects with a maximum span length of 60m or more.",
+            "D": "Bridge construction projects with a maximum span length of 70m or more."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Bridge construction projects with a maximum span length of 50m or more."
+            },
+            "explanation": "A hazardous risk prevention plan must be submitted for buildings or structures with a height of 31 meters or more above ground, buildings with a total floor area of 30,000 square meters, certain facilities with a total floor area of 5,000 square meters, refrigeration/freezing warehouse facilities with a floor area of 5,000 square meters, bridge construction projects with a maximum span length of 50 meters or more, tunnel construction projects, dam construction projects with a storage capacity of 20 million tons or more, and excavation projects deeper than 10 meters."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:30.901177427Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter only. The question: In construction industry, correct criterion for bridge construction projects that require submission of hazardous risk prevention plan? Options 40m, 50m, 60m, 70m. I'm not entirely sure. I think many regulations require risk plan for bridges over 50m. Could be 50m. I'll answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1851071895,
+            "load_duration": 89012132,
+            "prompt_eval_count": 180,
+            "prompt_eval_duration": 387684275,
+            "eval_count": 90,
+            "eval_duration": 1361198981
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1553",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5299999713897705,
+        "question": "What is the most appropriate standard for designing the seat height of a chair used by many people?",
+        "options": {
+            "A": "5th percentile popliteal height",
+            "B": "50th percentile popliteal height",
+            "C": "75th percentile popliteal height",
+            "D": "95th percentile popliteal height"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "5th percentile popliteal height"
+            },
+            "explanation": "[Principles of ergonomic chair design] ● Maintain lumbar lordosis. ● Apply adjustable design principles. ● The anthropometric measurements to consider differ depending on posture and movement. ● For chairs used by many people, the seat height should be slightly lower than the popliteal height (5th percentile). ● This reduces the pressure on the intervertebral discs and the static load on the back muscles. ● It also reduces postural fixation."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:34.416421826Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"What is the most appropriate standard for designing the seat height of a chair used by many people?\" Options are percentile popliteal heights. For a chair used by many, you would want to accommodate most users, typically design for 5th to 95th percentile. The seat height should be set at about 5th percentile to ensure most can sit with feet on floor? Actually seat height should be such that the majority can sit with feet flat: design for 5th percentile? Wait, for seat height, you want to accommodate shorter users, so you set seat height based on 5th percentile popliteal height (the shortest). However if you set too low, tall people may have to lift thighs. The typical ergonomic recommendation for a public chair (like a public seating) is to design for 5th percentile female popliteal height to accommodate the shortest 95% of users. So answer (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3482953680,
+            "load_duration": 89793610,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 360755364,
+            "eval_count": 203,
+            "eval_duration": 3028247462
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_80",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6600000262260437,
+        "question": "Which of the following is NOT a physiological phenomenon related to mental strength among the factors causing accidents due to poor mental state?",
+        "options": {
+            "A": "Abnormalities of the nervous system",
+            "B": "Exceeding physical abilities",
+            "C": "Abnormalities in vision and hearing",
+            "D": "Excessive pride and arrogance"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Excessive pride and arrogance"
+            },
+            "explanation": "Physiological phenomena related to mental strength include abnormalities in vision and hearing, abnormalities of the nervous system, exceeding physical abilities, improper muscle movement, and extreme fatigue. Excessive pride and arrogance are elements of personality defects. Elements of personality defects include excessive pride and arrogance, a hot temper and lack of patience, weak will, prolonged negative emotions, a challenging personality, carelessness, excessive obsession, exclusiveness, and laziness."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:37.526448287Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is NOT a physiological phenomenon related to mental strength among the factors causing accidents due to poor mental state?\n\n(A) Abnormalities of the nervous system\n(B) Exceeding physical abilities\n(C) Abnormalities in vision and hearing\n(D) Excessive pride and arrogance\"\n\nWe need to answer with the option's letter directly. They want the answer. So we must determine which is NOT a physiological phenomenon related to mental strength. The list: abnormalities of the nervous system (physiological), exceeding physical abilities (that's more physical limitation, not mental?), abnormalities in vision and hearing (physiological sensory), excessive pride and arrogance (psychological attitude, not physiological). So the correct answer is D: Excessive pride and arrogance. Provide just the letter D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3080011249,
+            "load_duration": 92654331,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 307471380,
+            "eval_count": 174,
+            "eval_duration": 2674996359
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4528",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which type of human error can be eliminated through safety education?",
+        "options": {
+            "A": "command error",
+            "B": "multi error",
+            "C": "primary error",
+            "D": "secondary error"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "primary error"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:40.505001825Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"Which type of human error can be eliminated through safety education?\" Options: A command error, B multi error, C primary error, D secondary error. Need to recall classification of human error types: skill-based errors, rule-based errors, knowledge-based errors. Also classification into primary vs secondary? In safety, \"primary error\" maybe cause? Not sure. Safety education can eliminate \"command error\"? Hmm. \"Command error\" maybe refers to mistakes in giving commands? Multi error? I think \"primary error\" maybe the basic error that leads to incident, can be prevented by education. Secondary errors are after the fact? Actually secondary errors are errors caused by the primary error, like attempts to correct leading to further errors. Education can prevent primary errors. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2942272187,
+            "load_duration": 97957997,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 240122627,
+            "eval_count": 170,
+            "eval_duration": 2600499679
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_426",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is least characteristic of audiovisual teaching methods?",
+        "options": {
+            "A": "They allow for the structuring of teaching materials.",
+            "B": "It is difficult to organize large-scale class systems.",
+            "C": "They enable diversity and efficiency in learning.",
+            "D": "They can provide learners with shared experiences."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "It is difficult to organize large-scale class systems."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:43.276957937Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is least characteristic of audiovisual teaching methods?\" So which statement is NOT characteristic (i.e., least characteristic). Options:\n\nA: They allow for the structuring of teaching materials. That is characteristic (AV helps structure).\n\nB: It is difficult to organize large‑scale class systems. Is that characteristic? Audiovisual methods often facilitate large groups, but perhaps it's difficult? Actually AV can be used in large classes; it's not particularly difficult to organize large-scale class systems. So B might be least characteristic.\n\nC: They enable diversity and efficiency in learning. That is characteristic.\n\nD: They can provide learners with shared experiences. That's also characteristic.\n\nThus answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2738559569,
+            "load_duration": 88779222,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 313366805,
+            "eval_count": 152,
+            "eval_duration": 2331941687
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1406",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "Which component arrangement principle involves prioritizing components based on the extent to which their performance is critical to achieving system objectives?",
+        "options": {
+            "A": "Principle of importance",
+            "B": "Principle of frequency of use",
+            "C": "Principle of order of use",
+            "D": "Principle of functional arrangement"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Principle of importance"
+            },
+            "explanation": "Principle of importance: The priority of components is determined according to the degree to which their performance is vital to achieving the system's objectives."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:44.979767458Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which component arrangement principle involves prioritizing components based on the extent to which their performance is critical to achieving system objectives?\" The choices: Principle of importance, frequency of use, order of use, functional arrangement.\n\nPrioritizing based on importance (how critical to objectives) is principle of importance. So answer A.\n\nThus output letter A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1672053272,
+            "load_duration": 106339745,
+            "prompt_eval_count": 138,
+            "prompt_eval_duration": 292538479,
+            "eval_count": 82,
+            "eval_duration": 1268561849
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_763",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.33000001311302185,
+        "question": "Which of the following is the least related to the functions and relationships of a group as defined in group dynamics?",
+        "options": {
+            "A": "Occurrence of cohesion",
+            "B": "Physical rhythm",
+            "C": "Existence of behavioral norms",
+            "D": "Exercise of authority"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Exercise of authority"
+            },
+            "explanation": "There has been an error report as below. We invite your opinions. We will modify the correct answer based on your feedback. [Error Report] Option 2 refers to the group's goal."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:47.043648157Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Which of the following is the least related to the functions and relationships of a group as defined in group dynamics?\n\n(A) Occurrence of cohesion\n(B) Physical rhythm\n(C) Existence of behavioral norms\n(D) Exercise of authority\"\n\nWe need to answer with the option's letter directly.\n\nWe need to think: group dynamics functions/relationships include cohesion, norms, authority. Physical rhythm seems less related. So answer B.\n\nThus respond with \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2034050146,
+            "load_duration": 86886011,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 290973399,
+            "eval_count": 108,
+            "eval_duration": 1650431545
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1383",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5299999713897705,
+        "question": "When dividing the design of human-machine systems into six stages, what is carried out in the first stage?",
+        "options": {
+            "A": "Basic design",
+            "B": "Definition of the system",
+            "C": "Interface design",
+            "D": "Determining the objectives and performance specifications of the system"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Determining the objectives and performance specifications of the system"
+            },
+            "explanation": "The six stages of human-machine system design are: 1st stage: Determining the objectives and performance specifications of the system, 2nd stage: Definition of the system, 3rd stage: Basic design, 4th stage: Interface design, 5th stage: Design of auxiliary devices and convenience measures, 6th stage: Evaluation."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:49.82686033Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer: \"When dividing the design of human-machine systems into six stages, what is carried out in the first stage?\" Options: A Basic design, B Definition of the system, C Interface design, D Determining the objectives and performance specifications of the system.\n\nWe need to recall typical human-machine system design phases. Six stages maybe: 1) Define objectives and performance specs (requirements); 2) Define system; 3) Basic design; 4) Detailed design; 5) Implementation; 6) Evaluation? I'm not entirely sure.\n\nOften the first step is \"determine objectives and performance specifications.\" That seems plausible. So answer D.\n\nThus output letter D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2746995074,
+            "load_duration": 97221557,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 309795964,
+            "eval_count": 151,
+            "eval_duration": 2334637865
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2794",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6800000071525574,
+        "question": "Which of the following is NOT a consideration when selecting an earth retaining method?",
+        "options": {
+            "A": "Considering the dismantling of the earth retaining structure",
+            "B": "Choosing a safe and economical method",
+            "C": "Selecting a method with low water-tightness",
+            "D": "Selecting a method suitable for ground conditions"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Selecting a method with low water-tightness"
+            },
+            "explanation": "Considerations when selecting an earth retaining method include: accounting for dismantling, choosing a method with high water-tightness, selecting a safe and economical method, and ensuring suitability for ground conditions."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:52.708846453Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"Which of the following is NOT a consideration when selecting an earth retaining method?\" Options:\n\nA) Considering the dismantling of the earth retaining structure\nB) Choosing a safe and economical method\nC) Selecting a method with low water-tightness\nD) Selecting a method suitable for ground conditions\n\nWe need which is NOT a consideration. Typically, you want water-tightness (i.e., high water-tightness) if needed, but low water-tightness is not a consideration. So C is likely not considered; you wouldn't select a method with low water-tightness unless you need water infiltration, but generally you'd consider water-tightness as a factor, not specifically low water-tightness. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2849872116,
+            "load_duration": 87812950,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 321826520,
+            "eval_count": 156,
+            "eval_duration": 2433934835
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1921",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "In fault tree analysis, what do you call a set of basic events that together cause the system's top event to occur when all of them lead to failure?",
+        "options": {
+            "A": "Cut sets",
+            "B": "Path sets",
+            "C": "Minimal cut sets",
+            "D": "Minimal path sets"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Cut sets"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:56.11935091Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"In fault tree analysis, what do you call a set of basic events that together cause the system's top event to occur when all of them lead to failure?\n\n(A) Cut sets\n(B) Path sets\n(C) Minimal cut sets\n(D) Minimal path sets\"\n\nThe correct answer: The set of basic events that together cause the top event when all occur is a cut set. If minimal, then minimal cut set. The question says \"when all of them lead to failure\" suggests a cut set, but likely they want \"cut set\". However they ask \"what do you call a set of basic events that together cause the system's top event to occur when all of them lead to failure?\" That's definition of a cut set. Minimal cut set is a cut set that cannot be reduced. The question didn't mention minimal. So answer: (A) Cut sets."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3376996775,
+            "load_duration": 97859900,
+            "prompt_eval_count": 140,
+            "prompt_eval_duration": 340267323,
+            "eval_count": 191,
+            "eval_duration": 2934966547
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1770",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6600000262260437,
+        "question": "In Company A, which handles hydrochloric acid, a safety assessment must be conducted for newly installed equipment. Which of the following is a key diagnostic item related to design in the qualitative assessment stage?",
+        "options": {
+            "A": "The layout within the plant",
+            "B": "Overview of the manufacturing process",
+            "C": "Re-evaluation methods and plans",
+            "D": "Safety and health training plan"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The layout within the plant"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:58:59.857104713Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The question: In Company A, which handles hydrochloric acid, a safety assessment must be conducted for newly installed equipment. Which of the following is a key diagnostic item related to design in the qualitative assessment stage? Options: A layout within plant, B overview of manufacturing process, C re-evaluation methods and plans, D safety and health training plan.\n\nKey diagnostic item related to design in qualitative assessment stage likely refers to design aspects of equipment: layout within the plant is more about arrangement, but design might be overview of the manufacturing process? Hmm design stage includes \"process flow\" maybe overview of process. The \"layout within plant\" is also design. Which is \"key diagnostic item related to design\"? I'd think layout is a design element. But \"overview of the manufacturing process\" is more about process, not design? The qualitative assessment stage likely includes evaluating design aspects: layout, piping, instrumentation. I'd choose (A). So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3704519794,
+            "load_duration": 87959728,
+            "prompt_eval_count": 158,
+            "prompt_eval_duration": 347398241,
+            "eval_count": 212,
+            "eval_duration": 3264767749
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_23",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which of the following is not a type of biorhythm?",
+        "options": {
+            "A": "Critical rhythm",
+            "B": "Physical rhythm",
+            "C": "Intellectual rhythm",
+            "D": "Emotional rhythm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Critical rhythm"
+            },
+            "explanation": "Physical rhythm: 23-day cycle, intellectual rhythm: 33-day cycle, emotional rhythm: 28-day cycle; physical rhythm (P), emotional rhythm (S), intellectual rhythm (I)."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:01.744755323Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"Which of the following is not a type of biorhythm? (A) Critical rhythm (B) Physical rhythm (C) Intellectual rhythm (D) Emotional rhythm\". The answer is \"Critical rhythm\" is not a type; typical biorhythm types: physical, emotional, intellectual, intuitive, etc. So answer: A. The user wants the option's letter directly. So output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1856252731,
+            "load_duration": 99159580,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 260049340,
+            "eval_count": 97,
+            "eval_duration": 1491670485
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3659",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following is NOT one of the four principles that must be observed in a lubrication management system?",
+        "options": {
+            "A": "Complying with the proper amount",
+            "B": "Mixing various types of lubricants",
+            "C": "Selecting the correct lubrication method",
+            "D": "Adhering to the correct lubrication interval"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Mixing various types of lubricants"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:04.126216512Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is NOT one of the four principles that must be observed in a lubrication management system?\" Options: A) Complying with the proper amount, B) Mixing various types of lubricants, C) Selecting the correct lubrication method, D) Adhering to the correct lubrication interval.\n\nWe need to identify which is NOT a principle. Typically lubrication management principles: correct amount, correct type, correct method, correct interval. Mixing various types of lubricants is generally NOT recommended. So answer B.\n\nThus output just the letter B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2346353763,
+            "load_duration": 89436255,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 312392344,
+            "eval_count": 125,
+            "eval_duration": 1931958036
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4183",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "What is the system lifetime when two components, each with a mean time to failure (MTTF) of 6×10^5 hours, are connected in series?",
+        "options": {
+            "A": "2×10^5 hours",
+            "B": "3×10^5 hours",
+            "C": "9×10^5 hours",
+            "D": "18×10^5 hours"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3×10^5 hours"
+            },
+            "explanation": "6/2*10^5=3*10^5"
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:06.8351334Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with option letter directly. Problem: Two components each MTTF 6×10^5 hours, connected in series. System fails when either component fails, so system reliability is product, but mean time to failure for series of independent exponential components is given by 1/(λ1+λ2). Since MTTF = 1/λ. λ each = 1/(6×10^5). So λ_total = 2/(6×10^5) = 1/(3×10^5). So MTTF_system = 1/λ_total = 3×10^5 hours. Option B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2676663704,
+            "load_duration": 88555233,
+            "prompt_eval_count": 160,
+            "prompt_eval_duration": 373924179,
+            "eval_count": 144,
+            "eval_duration": 2210048749
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5408",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "What safety device must be attached to an AC arc welder?",
+        "options": {
+            "A": "Anti-shock device",
+            "B": "Overload protection device",
+            "C": "Automatic electric shock prevention device",
+            "D": "Two-person operation safety device"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Automatic electric shock prevention device"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:08.825380544Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"What safety device must be attached ...?\" They want the option's letter directly. We need to answer with the letter. Likely answer is \"C\" maybe? Let's think: AC arc welding safety devices include an automatic electric shock prevention device (also known as a ground fault circuit interrupter, GFCI). In many regulations, welding machines must have an automatic electric shock prevention device. So answer C. Provide just \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1952645917,
+            "load_duration": 97288690,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 266003906,
+            "eval_count": 103,
+            "eval_duration": 1584488056
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2187",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is the best example of compatibility in design?",
+        "options": {
+            "A": "The driver's seat of a car on the right side",
+            "B": "A faucet that dispenses hot water when turned to red",
+            "C": "A baseball glove for left-handed users",
+            "D": "An air hammer designed to be quiet"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A faucet that dispenses hot water when turned to red"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:11.955540203Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which of the following is the best example of compatibility in design?\" We need to know definition of compatibility in design: design that works well with other systems or user expectations? Compatibility often means matching standards, e.g., right-hand drive car seat for right-hand traffic? Or maybe left-handed glove is \"fit\" for left-handed users, that's more about customization or adaptability. Compatibility could be like a faucet that dispenses hot water when turned to red - that's a sign convention compatibility. Air hammer designed to be quiet is about noise reduction (not compatibility). I think compatibility is about making a product work with existing standards or environments. A driver's seat on the right side matches driving on the right side of the road (or left side traffic). That's compatibility with traffic norms. So answer (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3100550020,
+            "load_duration": 95596444,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 328430384,
+            "eval_count": 173,
+            "eval_duration": 2672604673
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_877",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following cannot be considered as the authority granted to a leader by the organization?",
+        "options": {
+            "A": "Legitimate authority",
+            "B": "Expert authority",
+            "C": "Coercive authority",
+            "D": "Reward authority"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Expert authority"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:13.473613036Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter directly. Question: Which cannot be considered as the authority granted by the organization? Legitimate, expert, coercive, reward. Authority granted by organization includes legitimate, coercive, reward. Expert authority is based on expertise, not granted by org. So answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1488588831,
+            "load_duration": 87848748,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 257316804,
+            "eval_count": 75,
+            "eval_duration": 1138325846
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_506",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT one of the five requirements of educational evaluation?",
+        "options": {
+            "A": "Certainty",
+            "B": "Reliability",
+            "C": "Economy",
+            "D": "Subjectivity"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Subjectivity"
+            },
+            "explanation": "The five requirements of educational evaluation are: certainty, reliability, economy, objectivity, and simplicity."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:15.771269098Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"Which of the following is NOT one of the five requirements of educational evaluation? (A) Certainty (B) Reliability (C) Economy (D) Subjectivity\". The five requirements likely are: reliability, validity, practicality (economy), fairness, and something like relevance? I'm not entirely sure. In educational evaluation, typical criteria: reliability, validity, practicality (economy), fairness (objectivity), and maybe usefulness. Subjectivity is not a requirement. So answer: D (Subjectivity). The question asks NOT one of the five requirements. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2266107731,
+            "load_duration": 105773123,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 223050644,
+            "eval_count": 130,
+            "eval_duration": 1932698566
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5285",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3700000047683716,
+        "question": "Which of the following is a test method that can determine the internal angle of friction of a sandy soil?",
+        "options": {
+            "A": "Well point",
+            "B": "Standard penetration test",
+            "C": "Plate load test",
+            "D": "Vane test"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Standard penetration test"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:18.821210699Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is a test method that can determine the internal angle of friction of a sandy soil?\" Options: A Well point, B Standard penetration test, C Plate load test, D Vane test.\n\nWe need to pick test that can determine internal angle of friction of sandy soil. Well point is for groundwater. Standard penetration test (SPT) can give N-values used to estimate phi' via correlations, but not directly measure. Plate load test gives bearing capacity and settlement, can estimate shear strength parameters, but for sands? Typically plate load can be used to determine bearing capacity and modulus, but phi can be back-calculated. Vane test is for clays, not sands. So best is Standard penetration test (SPT). So answer B.\n\nThus output letter: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3026275891,
+            "load_duration": 86024503,
+            "prompt_eval_count": 130,
+            "prompt_eval_duration": 273610490,
+            "eval_count": 174,
+            "eval_duration": 2662764392
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "What is the construction method that involves drilling the rock, charging it with explosives for blasting, installing steel ribs and wire mesh, and then applying shotcrete?",
+        "options": {
+            "A": "NATM method",
+            "B": "TBM method",
+            "C": "Open cut method",
+            "D": "Shield method"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "NATM method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:20.387055471Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The description: drilling rock, charging explosives, installing steel ribs and wire mesh, applying shotcrete. That sounds like the New Austrian Tunneling Method (NATM), which uses rock bolts, steel ribs, shotcrete. Yes. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1532253467,
+            "load_duration": 94834350,
+            "prompt_eval_count": 140,
+            "prompt_eval_duration": 306426692,
+            "eval_count": 74,
+            "eval_duration": 1125263483
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5483",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "When is the slope of a reservoir or dam generally at its most dangerous?",
+        "options": {
+            "A": "When the water level on the slope is slowly decreasing",
+            "B": "When the slope is completely dry",
+            "C": "When the water level on the slope decreases rapidly",
+            "D": "When the slope is fully saturated"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When the water level on the slope decreases rapidly"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:22.475634988Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer the question: \"When is the slope of a reservoir or dam generally at its most dangerous?\" Options: A: water level slowly decreasing; B: slope completely dry; C: water level decreases rapidly; D: slope fully saturated.\n\nTypical geotechnical stability: Rapid drawdown condition is most dangerous for slopes of reservoirs/dams, because pore water pressure inside remains high while external water level drops quickly, reducing support and causing instability. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2051119833,
+            "load_duration": 88229528,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 330416427,
+            "eval_count": 107,
+            "eval_duration": 1628135872
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5516",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "When installing a ladder-type passageway, how much must the top of the ladder extend above the point of support?",
+        "options": {
+            "A": "At least 45cm",
+            "B": "At least 60cm",
+            "C": "At least 75cm",
+            "D": "At least 90cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "At least 60cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:29.244035333Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"When installing a ladder-type passageway, how much must the top of the ladder extend above the point of support?\" Options: A 45 cm, B 60 cm, C 75 cm, D 90 cm.\n\nWe need to know building code or safety regulation. Ladder-type passageway presumably a ladder used as a passage between floors. The top of the ladder must extend a certain distance above the landing or support for safety, maybe 300 mm? Not sure.\n\nIn many codes (e.g., Australian, US OSHA, etc.), the top of a ladder must extend at least 1 foot (300 mm) above the landing, or 1 meter? For portable ladders, the top should extend at least 1 foot (300 mm) above the landing. However this is ladder-type passageway (a fixed ladder). In Australian Standard AS 1657-1992 \"Fixed platforms, walkways, stairs and ladders\" maybe requires 300 mm (12 inches) above landing? Wait that's for portable ladders? Let's recall: The OSHA regulation for portable ladders: \"The top of the ladder shall extend at least 3 ft (0.91 m) above the landing.\" Actually for fixed ladders, the top landing must be a platform or walkway. But for a ladder-type passageway (like a ladder connecting two floors), the top must extend at least 450 mm above the landing? I'm not sure.\n\nSearch memory: In Canada, CSA B354.2 requires top of fixed ladder extend at least 300 mm above the landing. In UK? The Health and Safety Executive says top of ladder must extend at least 300 mm beyond the landing.\n\nBut the options are 45, 60, 75, 90 cm. 90 cm is about 3 feet. That matches US OSHA's \"at least 3 feet above the landing.\" So answer likely D: At least 90 cm.\n\nThus choose D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6733767535,
+            "load_duration": 97252666,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 317719540,
+            "eval_count": 411,
+            "eval_duration": 6314571808
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_4039",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "What is the reliability of a human-machine system where the human and the machine are connected in parallel? (Assume the human has a reliability of 0.8 and the machine has a reliability of 0.98.)",
+        "options": {
+            "A": "0.996",
+            "B": "0.986",
+            "C": "0.976",
+            "D": "0.966"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "0.996"
+            },
+            "explanation": "Parallel: (1-(1-machine)(1-human))\nSeries: machine*human"
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:31.109548469Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need reliability of parallel system: R = 1 - (1 - Rh)(1 - Rm). Rh=0.8, Rm=0.98. (1-0.8)=0.2, (1-0.98)=0.02, product =0.004. 1-0.004=0.996. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1833154365,
+            "load_duration": 87462632,
+            "prompt_eval_count": 159,
+            "prompt_eval_duration": 381324356,
+            "eval_count": 89,
+            "eval_duration": 1359560697
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5299",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum illuminance (in lux) that lighting installed in passageways must provide to ensure workers can pass safely on site?",
+        "options": {
+            "A": "At least 75 lux",
+            "B": "At least 80 lux",
+            "C": "At least 85 lux",
+            "D": "At least 90 lux"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "At least 75 lux"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:34.665856225Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"What is the minimum illuminance (in lux) that lighting installed in passageways must provide to ensure workers can pass safely on site?\" Options A-D. This is a specific safety regulation question. Likely from construction safety standards (e.g., OSHA, ISO). For passageways, typical minimum illuminance is around 100 lux for general areas, but for passageways maybe 75 lux. In many guidelines, passageways require at least 75 lux. I recall that OSHA requires 100 lux for general work areas, but for passageways maybe 75. Let’s think: The question likely from Chinese safety regulations? In China, the standard \"GB 50033-2013\" for lighting design: passageways require minimum 100 lux? Actually I think for emergency escape routes, at least 100 lux. But for passageways maybe 75 lux. Option A is 75 lux. I'd answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3525303578,
+            "load_duration": 98659131,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 324765941,
+            "eval_count": 201,
+            "eval_duration": 3097472466
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4387",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following is NOT a fundamental function of a system?",
+        "options": {
+            "A": "Detection",
+            "B": "Movement",
+            "C": "Information storage",
+            "D": "Information processing and decision making"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Movement"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:38.142797768Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"Which of the following is NOT a fundamental function of a system? (A) Detection (B) Movement (C) Information storage (D) Information processing and decision making\". Need to answer with the option's letter directly. Need to know which is NOT a fundamental function of a system. In systems theory, fundamental functions: detection (sensing), information processing/decision making, movement (actuation), maybe information storage? I think typical functions: sensing, processing, actuation, storage? I'm not entirely sure. Many frameworks include storage as part of processing. The question likely from a textbook on systems (e.g., \"Fundamental functions of a system: detection, information processing/decision making, and movement\". Storage might be not considered fundamental. So answer B? Wait movement is usually considered actuation, which is fundamental. So the NOT fundamental likely \"Information storage\". So answer (C). Provide just \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3449146854,
+            "load_duration": 96372028,
+            "prompt_eval_count": 120,
+            "prompt_eval_duration": 256759861,
+            "eval_count": 202,
+            "eval_duration": 3091744662
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1992",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following statements about minimal cut sets and minimal path sets in Fault Tree Analysis (FTA) is correct?",
+        "options": {
+            "A": "A minimal cut set is the smallest cut set that can cause the top event.",
+            "B": "A minimal cut set represents the reliability of the system.",
+            "C": "A minimal path set represents the risk of the system.",
+            "D": "A minimal path set is the minimal path set that can cause system failure."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A minimal cut set is the smallest cut set that can cause the top event."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:43.111587944Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"Which of the following statements about minimal cut sets and minimal path sets in Fault Tree Analysis (FTA) is correct?\" Options A-D.\n\nWe need to pick the correct statement. Let's recall definitions:\n\nIn FTA, a cut set is a combination of basic events that leads to the top event (system failure). A minimal cut set is a cut set that is minimal, i.e., no proper subset of it is also a cut set. So A: \"A minimal cut set is the smallest cut set that can cause the top event.\" That's close but phrasing \"smallest\" ambiguous: minimal means no subset, not necessarily smallest in cardinality? Usually minimal cut set is a cut set where removal of any event eliminates the cause. So A is essentially correct.\n\nB: \"A minimal cut set represents the reliability of the system.\" No, cut sets represent failure combinations.\n\nC: \"A minimal path set represents the risk of the system.\" No.\n\nD: \"A minimal path set is the minimal path set that can cause system failure.\" Path sets are for success (top event is success). Minimal path set is a minimal combination of components that ensures system success, not failure. So D incorrectly says cause system failure.\n\nThus correct answer is A. The instruction: \"Answer with the option's letter from the given choices directly.\" So output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4938130288,
+            "load_duration": 88956946,
+            "prompt_eval_count": 171,
+            "prompt_eval_duration": 378799754,
+            "eval_count": 289,
+            "eval_duration": 4465374425
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4523",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following is NOT a requirement for performing system safety tasks for system safety?",
+        "options": {
+            "A": "Planning and management of safety activities",
+            "B": "Identification of individuals required for system safety",
+            "C": "Analysis and evaluation of system safety programs",
+            "D": "Separation from other system programs"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Separation from other system programs"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:45.087948916Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following is NOT a requirement for performing system safety tasks for system safety?\" Options: A Planning and management of safety activities, B Identification of individuals required for system safety, C Analysis and evaluation of system safety programs, D Separation from other system programs.\n\nWhich is NOT a requirement. Likely \"Separation from other system programs\" is not required. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1946437180,
+            "load_duration": 96623147,
+            "prompt_eval_count": 140,
+            "prompt_eval_duration": 277304526,
+            "eval_count": 102,
+            "eval_duration": 1558054242
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1919",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "In ergonomic research, what does the reliability of a criterion measure mean?",
+        "options": {
+            "A": "Repeatability",
+            "B": "Appropriateness",
+            "C": "Adaptability",
+            "D": "Universality"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Repeatability"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:46.806030034Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"In ergonomic research, what does the reliability of a criterion measure mean? (A) Repeatability (B) Appropriateness (C) Adaptability (D) Universality\"\n\nThe answer is reliability meaning consistency, repeatability. So answer: A. The instruction: \"Answer with the option's letter from the given choices directly.\" So just \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1690716710,
+            "load_duration": 88148871,
+            "prompt_eval_count": 121,
+            "prompt_eval_duration": 263337686,
+            "eval_count": 88,
+            "eval_duration": 1334052916
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5794",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an external cause of soil collapse?",
+        "options": {
+            "A": "Decrease in the strength of soil and rock",
+            "B": "Increase in the height of excavation and embankment",
+            "C": "Increase in slope and gradient outside the slope face",
+            "D": "Increase in soil mass due to infiltration of surface water and groundwater"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Decrease in the strength of soil and rock"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:49.634795531Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following is NOT an external cause of soil collapse?\" Options:\n\nA) Decrease in the strength of soil and rock\nB) Increase in the height of excavation and embankment\nC) Increase in slope and gradient outside the slope face\nD) Increase in soil mass due to infiltration of surface water and groundwater\n\nExternal causes likely are factors external to the soil itself: changes in external loading, water infiltration, excavation height, slope angle, etc. Decrease in strength of soil and rock is an internal cause (material property). So that is NOT external cause. So answer: A.\n\nThus output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2795642292,
+            "load_duration": 96301663,
+            "prompt_eval_count": 151,
+            "prompt_eval_duration": 331223984,
+            "eval_count": 153,
+            "eval_duration": 2364049737
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4230",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3199999928474426,
+        "question": "Among equipment maintenance methods, what do you call activities such as inspection, cleaning, lubrication, and replacement to prevent equipment deterioration, delay its progress, and extend its lifespan?",
+        "options": {
+            "A": "Breakdown maintenance",
+            "B": "Improvement maintenance",
+            "C": "Routine maintenance",
+            "D": "Preventive maintenance"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Routine maintenance"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:59:51.424419161Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"Among equipment maintenance methods, what do you call activities such as inspection, cleaning, lubrication, and replacement to prevent equipment deterioration, delay its progress, and extend its lifespan?\" Options: A Breakdown maintenance, B Improvement maintenance, C Routine maintenance, D Preventive maintenance.\n\nThese activities are typical of preventive maintenance. So answer D. Need to output the letter only."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1756564873,
+            "load_duration": 89253684,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 317743349,
+            "eval_count": 87,
+            "eval_duration": 1337930367
+        },
+        "judge": "Wrong"
+    }
+]

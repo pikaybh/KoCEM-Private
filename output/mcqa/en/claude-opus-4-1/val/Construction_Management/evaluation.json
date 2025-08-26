@@ -1,0 +1,172 @@
+{
+    "val_Construction_Management_31": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_76": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_770": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_924": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Construction_Management_54": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_334": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Construction_Management_787": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_39": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "val_Construction_Management_139": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_633": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Construction_Management_411": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Construction_Management_66": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Construction_Management_462": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_947": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Construction_Management_365": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Construction_Management_604": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_318": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Construction_Management_948": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_535": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Construction_Management_868": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Construction_Management_450": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_500": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Construction_Management_371": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Construction_Management_467": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_133": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_618": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_169": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_24": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_644": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "val_Construction_Management_589": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_409": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Construction_Management_336": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_892": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Construction_Management_678": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    }
+}

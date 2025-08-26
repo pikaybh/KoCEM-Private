@@ -1,0 +1,612 @@
+{
+    "test_Drawing_Interpretation_1": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_2": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_3": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_4": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_5": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_6": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_7": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_8": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_9": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_10": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_12": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_13": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_14": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_15": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_16": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_17": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_18": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_19": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_20": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_21": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_22": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_23": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_24": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_25": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_26": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_27": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_28": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_29": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_30": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_31": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_32": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_33": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_34": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_35": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_36": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_37": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_38": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_39": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_40": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_41": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_42": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_43": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_44": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_45": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_46": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_47": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_48": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_49": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_50": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_51": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_52": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_53": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_54": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_55": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_56": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_57": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_58": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_59": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_61": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_62": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_63": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_64": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_65": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_66": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_67": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_68": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_69": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_70": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_71": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_72": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_73": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_74": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_75": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_76": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_77": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_78": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_79": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_80": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_81": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_82": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_83": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_84": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_85": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_86": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_87": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_88": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_89": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_90": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Drawing_Interpretation_91": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_92": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_93": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_94": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_95": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_96": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_97": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_98": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_99": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_100": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_101": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_102": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_103": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_104": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_105": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_106": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_107": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_108": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_110": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_111": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_112": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_113": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Drawing_Interpretation_114": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_115": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_116": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_117": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_118": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_119": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_120": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_121": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_122": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Drawing_Interpretation_123": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Drawing_Interpretation_124": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Drawing_Interpretation_125": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    }
+}

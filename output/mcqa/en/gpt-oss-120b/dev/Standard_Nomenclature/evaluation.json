@@ -1,0 +1,27 @@
+{
+    "dev_Standard_Nomenclature_1": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "dev_Standard_Nomenclature_2": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Standard_Nomenclature_3": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Standard_Nomenclature_4": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Standard_Nomenclature_5": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    }
+}

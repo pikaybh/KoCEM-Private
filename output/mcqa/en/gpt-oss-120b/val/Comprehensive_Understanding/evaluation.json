@@ -1,0 +1,787 @@
+{
+    "val_Comprehensive_Understanding_1": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_2": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_3": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_4": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_5": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_6": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_7": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_8": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_9": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_10": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_11": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_12": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_13": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_14": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_15": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_16": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_17": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_18": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_19": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_21": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_22": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_23": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_24": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_25": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "val_Comprehensive_Understanding_26": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_27": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_28": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_29": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_30": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_31": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_32": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_33": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_34": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_36": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_37": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_38": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_39": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_40": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_41": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_42": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_43": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_44": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_45": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_46": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_47": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_48": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_49": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_50": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_51": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_52": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_53": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_54": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_55": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_56": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_57": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_58": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_59": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_60": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_61": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_62": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_63": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_64": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_66": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_67": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_68": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_69": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_70": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_71": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_72": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_73": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_75": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_76": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "val_Comprehensive_Understanding_77": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_78": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_79": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_80": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "val_Comprehensive_Understanding_81": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_82": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_83": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_84": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_85": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_86": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_87": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_88": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_89": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "val_Comprehensive_Understanding_90": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_91": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_92": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_93": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_94": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_95": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_96": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_97": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_98": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_99": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_100": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_101": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_102": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_103": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_104": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_105": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_106": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_107": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_108": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_109": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_110": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_111": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_112": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_113": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_114": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_115": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_116": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "val_Comprehensive_Understanding_117": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_118": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_120": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_121": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_122": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_123": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_124": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_125": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_126": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "val_Comprehensive_Understanding_127": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_128": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_129": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_130": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_131": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_132": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_133": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_134": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_135": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_136": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_137": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_138": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_139": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_140": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_141": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_142": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_143": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_144": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_145": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_146": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "val_Comprehensive_Understanding_147": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_148": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_149": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_150": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_151": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Comprehensive_Understanding_152": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_153": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_154": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_155": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_156": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "val_Comprehensive_Understanding_157": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_158": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_159": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_160": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Comprehensive_Understanding_161": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Comprehensive_Understanding_162": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    }
+}

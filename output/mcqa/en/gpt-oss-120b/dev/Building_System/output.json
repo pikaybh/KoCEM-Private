@@ -1,0 +1,202 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an appropriate method for zoning in air conditioning planning?",
+        "options": {
+            "A": "Classify according to the purpose of each room.",
+            "B": "Classify according to the usage time of each room.",
+            "C": "Create internal zones for each floor.",
+            "D": "Create external zones according to orientation."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Create internal zones for each floor."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:13:01.3306867Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is NOT an appropriate method for zoning in air conditioning planning?\" Options A, B, C, D. Need to pick the one that is NOT appropriate. Need knowledge: In HVAC zoning, methods include classifying rooms by usage purpose (e.g., office, conference), usage time (occupied/unoccupied), internal zones by floor, external zones by orientation (north/south) maybe? Actually external zones by orientation is used for heating/cooling loads because sun exposure matters. That seems appropriate. Internal zones per floor is also common. Classify according to usage time is also relevant (different setpoints). So which is NOT appropriate? Possibly \"Classify according to the purpose of each room.\" Actually that's typical: different functions have different loads. All seem appropriate. Maybe the trick: \"Create external zones according to orientation\" is less about zoning for AC planning? But orientation matters for load calculation. However zoning typically internal, not external? Hmm.\n\nLet’s think: Zoning in AC planning is dividing building into zones for independent control. Methods: By usage (e.g., office, conference), by occupancy schedule, by floor (vertical zoning), by orientation (exposure). All are used. Which is NOT appropriate? Could be \"Classify according to the purpose of each room\" maybe too granular? But it's common. Another angle: Zoning for AC is based on thermal loads, not purpose? Actually purpose determines load. So that is appropriate.\n\nMaybe the answer is D: external zones according to orientation is not typical for zoning, it's more for load calculation but not zoning. I'll pick D.\n\nThe instruction: answer with the option's letter directly. So output \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5879800783,
+            "load_duration": 97379244,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 309960150,
+            "eval_count": 357,
+            "eval_duration": 5460748726
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?",
+        "options": {
+            "A": "20 minutes",
+            "B": "30 minutes",
+            "C": "40 minutes",
+            "D": "50 minutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20 minutes"
+            },
+            "explanation": "The indoor firefighting water supply should last 20 minutes, because this is the average time it takes for the fire department to arrive at the scene."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:13:04.202768053Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained? (A)20 min (B)30 min (C)40 min (D)50 min\"\n\nWe need to answer with the option's letter. Need to know standard. For fire hydrant systems, NFPA 24? Typically, fire pump must be able to supply required flow for at least 30 minutes. For indoor fire hydrants (dry standpipe), water supply must be maintained for 30 minutes. I think answer B (30 minutes). So output \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2834622954,
+            "load_duration": 88022054,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 356958071,
+            "eval_count": 157,
+            "eval_duration": 2383386551
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "When the local resistance coefficient of a rectangular cross-section 4-sided elbow is 0.5 and the wind speed is 6 m/s, what is the local resistance at this elbow? (Assume the air density is 1.2 kg/m3.)",
+        "options": {
+            "A": "10.1Pa",
+            "B": "10.2Pa",
+            "C": "10.8Pa",
+            "D": "10.6Pa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10.8Pa"
+            },
+            "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa"
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:13:07.021643458Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need compute local resistance (pressure drop) = 0.5 * (0.5 * rho * V^2?) Actually local resistance coefficient (K) relates pressure loss: Δp = K * (0.5 * rho * V^2). So K =0.5, rho=1.2, V=6 m/s. Compute dynamic pressure q = 0.5 * rho * V^2 = 0.5*1.2*36 = 0.6*36 = 21.6 Pa. Then Δp = K * q = 0.5 * 21.6 = 10.8 Pa. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2785110490,
+            "load_duration": 98233436,
+            "prompt_eval_count": 171,
+            "prompt_eval_duration": 395101910,
+            "eval_count": 151,
+            "eval_duration": 2286843528
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is classified as a digital method in building automation control systems?",
+        "options": {
+            "A": "Electrical method",
+            "B": "Pneumatic method",
+            "C": "Magnetic method",
+            "D": "DDC method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "DDC method"
+            },
+            "explanation": "DDC stands for Direct Digital Control, which is a common type of automation control system."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:13:08.674683674Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following is classified as a digital method in building automation control systems? (A) Electrical method (B) Pneumatic method (C) Magnetic method (D) DDC method\". DDC (Direct Digital Control) is digital. So answer D. Return just \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1624108848,
+            "load_duration": 94532281,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 262947972,
+            "eval_count": 84,
+            "eval_duration": 1262886594
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "In an autotransformer, if the number of turns in the primary winding is 100 and the number of turns in the common coil (secondary coil) is 60, what is the secondary voltage? (Assume the primary voltage is 100[V].)",
+        "options": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "60[V]"
+            },
+            "explanation": "Voltage (V) is proportional to the number of turns. In an autotransformer, the relationship between primary and secondary voltage, number of turns, and current is: V1/N1 = V2/N2 = I2/I1."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:13:10.209564906Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter directly. Autotransformer: primary voltage 100 V across 100 turns. Voltage per turn = 1 V per turn. The common coil (secondary) has 60 turns, so voltage across it = 60 V. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1502079530,
+            "load_duration": 88738936,
+            "prompt_eval_count": 164,
+            "prompt_eval_duration": 354995619,
+            "eval_count": 70,
+            "eval_duration": 1054317738
+        },
+        "judge": "Correct"
+    }
+]

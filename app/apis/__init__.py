@@ -3,13 +3,16 @@ from llms import llm_models
 from .standalone import GPUFreeAPI
 from .from_langserve import RemoteAPI
 from .from_vllm import VLLMAPI
+from .from_ollama import OllamaAPI
 
 
 module = {
     "anthropic": GPUFreeAPI,
     "google": GPUFreeAPI,
     "openai": GPUFreeAPI,
+    'gpt-oss': OllamaAPI,
     "Qwen": VLLMAPI,
+    "meta": VLLMAPI,
 }
 
 for kprovider, vapi in module.items():

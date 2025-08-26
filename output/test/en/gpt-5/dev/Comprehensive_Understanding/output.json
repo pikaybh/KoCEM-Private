@@ -1,0 +1,176 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "The image shows an architectural sheet with four enlarged floor plans. The bottom-right drawing is labeled as the rooftop core enlarged floor plan. In that plan, the roof access door at the stair shows a swing arc into the stair/landing rather than out toward the roof, which is not appropriate for egress and can obstruct the landing.\n\nAnswer: (B) No",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C86ShNOpOqQAC8BR2py2W8DOYjq7A",
+            "object": "chat.completion",
+            "created": 1756047499,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "The image shows an architectural sheet with four enlarged floor plans. The bottom-right drawing is labeled as the rooftop core enlarged floor plan. In that plan, the roof access door at the stair shows a swing arc into the stair/landing rather than out toward the roof, which is not appropriate for egress and can obstruct the landing.\n\nAnswer: (B) No",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 999,
+                "completion_tokens": 1105,
+                "total_tokens": 2104,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1024,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "The image shows a detailed architectural ceiling plan drawing labeled in Korean, titled “지상1층 천장평면도” (First Floor Above Ground Ceiling Plan). It includes gridlines, room layouts, hatch patterns for different ceiling finishes, and numerous green callouts/notes. The title block on the right shows the firm “JUNGLIM,” and the scale is 1/150. Various ceiling types are indicated across the floor.\n\nFrom the notes on the plan, the AL (aluminum) ceiling panels are specified with a unit module of 1200 × 600.\n\nAnswer: (A) 1200*600",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C86Tqq3FbT9Uyw8AORQGHCNiz6YhQ",
+            "object": "chat.completion",
+            "created": 1756047570,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "The image shows a detailed architectural ceiling plan drawing labeled in Korean, titled “지상1층 천장평면도” (First Floor Above Ground Ceiling Plan). It includes gridlines, room layouts, hatch patterns for different ceiling finishes, and numerous green callouts/notes. The title block on the right shows the firm “JUNGLIM,” and the scale is 1/150. Various ceiling types are indicated across the floor.\n\nFrom the notes on the plan, the AL (aluminum) ceiling panels are specified with a unit module of 1200 × 600.\n\nAnswer: (A) 1200*600",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1036,
+                "completion_tokens": 1225,
+                "total_tokens": 2261,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1088,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "The image is visible. It’s a detailed architectural/MEP drawing sheet (in Korean) showing a basement parking level ceiling plan. The central plan view is filled with many small green rectangular symbols representing light fixtures laid out in a grid across the parking area. The right side contains detail sections, notes, and a title block labeled JUNGLIM. The sheet appears to specify the lighting layout and fixture types used in the parking lot.\n\nAnswer: (A) RACE WAY TYPE fluorescent light",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C86UIOLMuwj5CXJHA0O5b37iZa3Iy",
+            "object": "chat.completion",
+            "created": 1756047598,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "The image is visible. It’s a detailed architectural/MEP drawing sheet (in Korean) showing a basement parking level ceiling plan. The central plan view is filled with many small green rectangular symbols representing light fixtures laid out in a grid across the parking area. The right side contains detail sections, notes, and a title block labeled JUNGLIM. The sheet appears to specify the lighting layout and fixture types used in the parking lot.\n\nAnswer: (A) RACE WAY TYPE fluorescent light",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 1025,
+                "completion_tokens": 1259,
+                "total_tokens": 2284,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1152,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    }
+]

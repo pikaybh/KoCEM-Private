@@ -1,0 +1,322 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "What is the main use of terra-cotta?",
+        "options": {
+            "A": "Reinforcement of structural materials",
+            "B": "Waterproofing",
+            "C": "Insulation",
+            "D": "Decoration"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Decoration"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:40.531612455Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"What is the main use of terra-cotta? (A) Reinforcement of structural materials (B) Waterproofing (C) Insulation (D) Decoration\". The answer is likely D: Decoration. Terra-cotta is used for decorative elements, pottery, tiles, etc. So answer \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1467003395,
+            "load_duration": 101156123,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 218967714,
+            "eval_count": 77,
+            "eval_duration": 1141392497
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?",
+        "options": {
+            "A": "Ultraviolet-blocking glass",
+            "B": "Heat-absorbing glass",
+            "C": "Heat-reflective glass",
+            "D": "Ultraviolet-transmitting glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Ultraviolet-blocking glass"
+            },
+            "explanation": "Ultraviolet rays have a shorter wavelength than visible light and cause chemical reactions, leading to transformation or disinfection. To prevent these effects, ultraviolet rays must be blocked."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:42.101188789Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?\" So they want glass that blocks UV to prevent chemical effects. That would be \"Ultraviolet-blocking glass\". Option A. So answer with letter A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1536059359,
+            "load_duration": 48278965,
+            "prompt_eval_count": 150,
+            "prompt_eval_duration": 336619403,
+            "eval_count": 77,
+            "eval_duration": 1145813098
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?",
+        "options": {
+            "A": "Urea resin",
+            "B": "Acrylic resin",
+            "C": "Silicone resin",
+            "D": "Melamine resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Silicone resin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:43.670112676Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need answer letter directly. The question: \"Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?\" That sounds like silicone resin. Silicone has wide temperature range, weather resistance. So answer: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1536341355,
+            "load_duration": 53604526,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 314923015,
+            "eval_count": 76,
+            "eval_duration": 1155092757
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?",
+        "options": {
+            "A": "Prism glass",
+            "B": "Insulating glass",
+            "C": "Wired glass",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prism glass"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:45.389258186Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?\" Options: Prism glass, Insulating glass, Wired glass, Stained glass.\n\nPrism glass is used to redirect daylight, used in daylighting, prismatic panels. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1692079552,
+            "load_duration": 53814600,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 324202907,
+            "eval_count": 87,
+            "eval_duration": 1311128231
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about the strength of wood is incorrect?",
+        "options": {
+            "A": "Of the various strengths of wood, the tensile strength parallel to the grain is the greatest.",
+            "B": "When wood is used as a column, it generally receives compressive force parallel to the grain.",
+            "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength.",
+            "D": "In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:50.262259766Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to pick which statement about strength of wood is incorrect.\n\nWe need knowledge of wood properties.\n\n(A) Tensile strength parallel to grain is greatest among various strengths. Typically wood is strongest in tension parallel to grain, yes that's correct. So (A) is correct.\n\n(B) When wood is used as a column, it generally receives compressive force parallel to the grain. Columns load along grain, yes compressive strength parallel to grain is high. That seems correct.\n\n(C) If moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength. Actually above fiber saturation point (~30% MC), wood cells are saturated, further moisture does not affect dimensions (no swelling), but strength is not much affected? Actually moisture above fiber saturation doesn't affect dimensions, but it does affect strength? I recall that strength is affected most below fiber saturation point; above it, further moisture doesn't significantly change mechanical properties because water is in voids not bound. So statement that changes in moisture content greatly affect the strength when MC > FSP is incorrect. So (C) likely incorrect.\n\n(D) In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots. For tensile tests, you consider net cross-sectional area excluding knots, because they are defects. That seems correct.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4841274132,
+            "load_duration": 91744236,
+            "prompt_eval_count": 189,
+            "prompt_eval_duration": 416470361,
+            "eval_count": 284,
+            "eval_duration": 4327392971
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct statement about the physical properties of wood?",
+        "options": {
+            "A": "Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+            "B": "The greater the specific gravity of the wood, the less it expands and contracts.",
+            "C": "Wood with a higher specific gravity also has greater strength.",
+            "D": "Wood with moisture content above the fiber saturation point is called green wood."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The greater the specific gravity of the wood, the less it expands and contracts."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:06:02.786878109Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter that is NOT correct statement about physical properties of wood.\n\nLet's evaluate each.\n\nA: \"Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.\" Generally, thermal conductivity of wood is low; higher density (specific gravity) leads to higher thermal conductivity because more solid material conducts heat. So lower specific gravity => lower conductivity. That's correct.\n\nB: \"The greater the specific gravity of the wood, the less it expands and contracts.\" Dimensional stability: higher density wood tends to have lower shrinkage? Actually wood with higher specific gravity usually has lower shrinkage (less expansion/contraction) because it has more cell wall material and less voids. So statement likely correct.\n\nC: \"Wood with a higher specific gravity also has greater strength.\" Yes higher density wood generally stronger. Correct.\n\nD: \"Wood with moisture content above the fiber saturation point is called green wood.\" Actually green wood is wood that has moisture content above fiber saturation point (FSP). Wait, definition: Green wood contains moisture above the fiber saturation point, so yes that's correct. Hmm maybe nuance: green wood is wood that has not been dried, typically at MC above FSP. That seems correct.\n\nSo which is NOT correct? Let's double-check B: \"The greater the specific gravity of the wood, the less it expands and contracts.\" Is that always true? Shrinkage is related to proportion of bound water vs free water. Higher density wood (higher SG) tends to have less shrinkage (lower shrinkage percentages) because more of volume is cell wall. So statement is correct.\n\nMaybe A nuance: \"lower specific gravity, lower thermal conductivity\" is correct. So all appear correct. Perhaps one is false: maybe D: Green wood is wood with moisture content above fiber saturation point? Actually FSP is about 30% MC (varies). Wood above FSP has free water in cell lumens; green wood includes water above FSP, but some definitions consider green wood as wood that has not been dried, i.e., at its natural moisture content, which may be above or below FSP depending on environment? Typically green wood moisture is above fiber saturation point, but some green wood can be at or below FSP if harvested in dry season? Hmm typical textbooks: \"Green wood is wood that has not been dried, containing moisture content at or above the fiber saturation point.\" So statement D is correct.\n\nPerhaps the wrong statement is B: The greater the specific gravity, the less it expands and contracts. Actually high density wood may have higher shrinkage because more cell wall material expands/contracts more? Let's recall: Shrinkage is proportional to the proportion of bound water in cell walls. High density wood has higher proportion of cell wall mass relative to voids, thus greater shrinkage? Actually low density wood (light, soft) often has high shrinkage because it has more voids that fill with water that later evaporates causing more dimensional change? Not sure.\n\nLet's check typical data: Shrinkage percentages (radial, tangential) are higher for higher density species? Quick recall: Oak (dense) shrinks about 8% tangential, 4% radial; pine (less dense) shrinks about 6% tangential, 3% radial. So denser wood shrinks more in absolute terms? Could be.\n\nActually shrinkage is related to the amount of bound water, which is roughly proportional to the amount of cell wall, which is greater in higher density wood. So high density wood may shrink more (i.e., greater dimensional change). Thus statement B (greater SG -> less expansion/contraction) would be false.\n\nThus answer is B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 12490665614,
+            "load_duration": 90297525,
+            "prompt_eval_count": 172,
+            "prompt_eval_duration": 376269246,
+            "eval_count": 767,
+            "eval_duration": 12018474677
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements about stone materials is incorrect?",
+        "options": {
+            "A": "Marble is strong but has low fire resistance and weathers easily.",
+            "B": "Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone.",
+            "C": "Travertine is a type of igneous rock and is used for interior decoration.",
+            "D": "Slate can be easily cut into thin sheets, making it suitable as a roofing material."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Travertine is a type of igneous rock and is used for interior decoration."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:06:06.385226447Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option letter that is incorrect. Let's evaluate each.\n\n(A) Marble is strong but has low fire resistance and weathers easily. Marble is metamorphic, relatively strong but low fire resistance (yes), and weathers (yes). So seems correct.\n\n(B) Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone. Basalt is igneous, good fire resistance, hard to process, often used as crushed stone for road base. So correct.\n\n(C) Travertine is a type of igneous rock and is used for interior decoration. Travertine is a form of limestone, sedimentary, not igneous. So incorrect.\n\n(D) Slate can be easily cut into thin sheets, making it suitable as a roofing material. Slate is metamorphic, splits into thin sheets, used for roofing. Correct.\n\nThus incorrect statement is C. Answer letter C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3569805305,
+            "load_duration": 90390373,
+            "prompt_eval_count": 175,
+            "prompt_eval_duration": 377604817,
+            "eval_count": 201,
+            "eval_duration": 3097704279
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "In the stress-strain curve diagram for steel, what do points A and C represent?",
+        "options": {
+            "A": "A: Proportional limit, C: Upper yield point",
+            "B": "A: Tensile strength, C: Proportional limit",
+            "C": "A: Proportional limit, C: Lower yield point",
+            "D": "A: Lower yield point, C: Fracture point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A: Proportional limit, C: Lower yield point"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20100307/bj20100307m72.gif?1522444684",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:06:12.88587733Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"In the stress-strain curve diagram for steel, what do points A and C represent? (A) A: Proportional limit, C: Upper yield point (B) A: Tensile strength, C: Proportional limit (C) A: Proportional limit, C: Lower yield point (D) A: Lower yield point, C: Fracture point\"\n\nWe need to answer with the option's letter directly. So we need to know what points A and C refer to on typical stress-strain diagram for steel.\n\nIn a typical steel stress-strain curve: Starting from origin, linear elastic region up to proportional limit (also called elastic limit). Then yield point: there's an upper yield point and lower yield point. The upper yield point is a peak after which stress drops to lower yield point (plateau). Then strain hardening, ultimate tensile strength (UTS) point, then necking, then fracture point.\n\nPoints labeled A, B, C often: A might be proportional limit. C might be lower yield point. But need to recall typical labeling. Many textbooks label A as proportional limit, B as upper yield point, C as lower yield point, D as ultimate tensile strength, E as fracture. However sometimes A is upper yield point. Let's think: The question: \"In the stress-strain curve diagram for steel, what do points A and C represent?\" Options:\n\n(A) A: Proportional limit, C: Upper yield point\n(B) A: Tensile strength, C: Proportional limit\n(C) A: Proportional limit, C: Lower yield point\n(D) A: Lower yield point, C: Fracture point\n\nWhich is correct? I think A is proportional limit, C is lower yield point. So answer (C). So respond with \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6467302486,
+            "load_duration": 88729074,
+            "prompt_eval_count": 164,
+            "prompt_eval_duration": 329092696,
+            "eval_count": 390,
+            "eval_duration": 6045248933
+        },
+        "judge": "Correct"
+    }
+]

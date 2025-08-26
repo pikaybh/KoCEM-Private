@@ -1,0 +1,242 @@
+[
+    {
+        "id": "dev_Interior_816",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "Which of the following pairs of architect and work is incorrect?",
+        "options": {
+            "A": "Le Corbusier – Guggenheim Museum",
+            "B": "Frank Lloyd Wright – Fallingwater",
+            "C": "Antoni Gaudí – Casa Milà",
+            "D": "William Morris – Red House"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Le Corbusier – Guggenheim Museum"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:16.699671369Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to identify which pair is incorrect. Le Corbusier did not design the Guggenheim Museum; that was Frank Lloyd Wright (NYC). So option A is incorrect. Frank Lloyd Wright designed Fallingwater, correct. Antoni Gaudí designed Casa Milà (La Pedrera), correct. William Morris designed Red House? Actually Red House was designed by William Morris and architect Philip Webb. It's associated with William Morris (Arts and Crafts). So that's correct. Thus answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2072527683,
+            "load_duration": 96176901,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 288493867,
+            "eval_count": 110,
+            "eval_duration": 1682911529
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point half the span from the beam support.",
+            "B": "Where the compressive force is the least.",
+            "C": "Where the tensile force is the least.",
+            "D": "At a point one quarter of the span from the beam support."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is the least."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:19.517336587Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?\" Options: A half span from support, B where compressive force is least, C where tensile force is least, D one quarter span from support. Splices are placed where bending moment (and thus tensile stress) is low, i.e., near support where moment is zero (but shear high). Actually, main tension reinforcement is at bottom of beam where moment high. Splicing should be where bending moment (tensile force) is minimum, i.e., near support (at zero moment). So answer C: where tensile force is the least. So letter C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2781335888,
+            "load_duration": 88577908,
+            "prompt_eval_count": 159,
+            "prompt_eval_duration": 367828635,
+            "eval_count": 153,
+            "eval_duration": 2319816852
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_799",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "Which of the following bricklaying methods is the strongest?",
+        "options": {
+            "A": "Dutch bond",
+            "B": "English bond",
+            "C": "Flemish bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "English bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:21.003709126Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter. The question: \"Which of the following bricklaying methods is the strongest?\" Options: Dutch bond, English bond, Flemish bond, American bond. The strongest bond is generally English bond (alternating courses of headers and stretchers). So answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1443968938,
+            "load_duration": 92847056,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 249307961,
+            "eval_count": 74,
+            "eval_duration": 1097800189
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_789",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "In the reinforcement arrangement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point halfway (1/2) along the span from the beam support",
+            "B": "Where the compressive force is minimal",
+            "C": "Where the tensile force is minimal",
+            "D": "At a point one-fourth (1/4) along the span from the beam support"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is minimal"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:24.128182334Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. Question: In reinforcement arrangement of beams in reinforced concrete structures, where is most appropriate location for splicing the main bars? Splicing should be placed where bending moment (tensile stress) is minimal, i.e., near supports where compression dominates? Actually main tensile reinforcement is at bottom of beam, tension zone. Splice should be placed where bending moment is low to reduce effect of stress concentration. Typically splice location is at the point of minimum moment, often near support where moment is zero (or low). So answer: Where tensile force is minimal? Wait tensile force is low near supports because moment is low. So option C: Where the tensile force is minimal. Option B is compressive force minimal, not relevant. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3089186528,
+            "load_duration": 86842276,
+            "prompt_eval_count": 169,
+            "prompt_eval_duration": 387060934,
+            "eval_count": 171,
+            "eval_duration": 2610984708
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_477",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT considered an evacuation device or equipment (devices or equipment used for evacuation) used in case of fire?",
+        "options": {
+            "A": "Automatic fire alarm system",
+            "B": "Artificial resuscitator",
+            "C": "Emergency lighting",
+            "D": "Emergency escape descent device"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:27.246472088Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter directly. The question: Which is NOT considered an evacuation device or equipment used in case of fire? Options: A automatic fire alarm system, B artificial resuscitator, C emergency lighting, D emergency escape descent device. Evacuation devices: emergency lighting (helps evacuation), emergency escape descent device (like rope descent), automatic fire alarm system is a detection/notification system, not a device used for evacuation itself? It alerts, but not a device used for evacuation. However, the question likely expects that fire alarm is not evacuation device, but emergency lighting and descent device are. Artificial resuscitator (like a bag-valve mask) is not for evacuation; it's a medical device used for resuscitation. That is definitely not an evacuation device. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3087771459,
+            "load_duration": 100135948,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 311282541,
+            "eval_count": 177,
+            "eval_duration": 2670308155
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_852",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.28999999165534973,
+        "question": "Which of the following is least related to Byzantine architecture?",
+        "options": {
+            "A": "Pendentive dome",
+            "B": "Dosseret",
+            "C": "Flying buttress",
+            "D": "Mosaic"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Flying buttress"
+            },
+            "explanation": "The flying buttress is from Gothic architecture."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:35:29.642972903Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: Which of the following is least related to Byzantine architecture? Options: A Pendentive dome, B Dosseret, C Flying buttress, D Mosaic. Byzantine architecture known for domes on pendentives, mosaics. Flying buttress is more Gothic. Dosseret? Not sure. Dosseret is a term for a type of buttress? Actually \"dosseret\" is a low wall or parapet? Might be French. Not strongly Byzantine. But flying buttress is definitely Gothic, not Byzantine. So least related: Flying buttress (C). Answer letter: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2363841757,
+            "load_duration": 88400467,
+            "prompt_eval_count": 120,
+            "prompt_eval_duration": 214908945,
+            "eval_count": 134,
+            "eval_duration": 2054431355
+        },
+        "judge": "Correct"
+    }
+]

@@ -1,0 +1,2380 @@
+[
+    {
+        "id": "val_Architectural_Planning_289",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7300000190734863,
+        "question": "Which of the following is the most appropriate height for a kitchen countertop?",
+        "options": {
+            "A": "450mm",
+            "B": "600mm",
+            "C": "850mm",
+            "D": "1000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "850mm"
+            },
+            "explanation": "The height of a kitchen countertop is between 800 and 850mm."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C886ojSrd2RP6otkMawEdYk5RlCuv",
+            "object": "chat.completion",
+            "created": 1756053830,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 74,
+                "total_tokens": 134,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1629",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is the most inappropriate in terms of floor height planning for an office building?",
+        "options": {
+            "A": "First floor height: 400cm",
+            "B": "Standard floor height: 360cm",
+            "C": "Top floor height: Same as standard floor",
+            "D": "First floor height (with mezzanine): 600cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Top floor height: Same as standard floor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C886r7XIvPfAPyE1H9wknc1xdyi97",
+            "object": "chat.completion",
+            "created": 1756053833,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 85,
+                "completion_tokens": 1866,
+                "total_tokens": 1951,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1856,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_998",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is the correct explanation for the method of indicating dimensions on a drawing?",
+        "options": {
+            "A": "Unless otherwise specified, dimensions are indicated as finished dimensions.",
+            "B": "Dimensions are entered to the left of the center of the dimension line.",
+            "C": "Dimensions are written parallel to the dimension line so they can be read from right to left or from top to bottom on the right side of the drawing.",
+            "D": "The ends of dimension lines can be mixed with arrows or dots, and on the same drawing, dimension lines that are small are indicated with dots."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Unless otherwise specified, dimensions are indicated as finished dimensions."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C887NCJ9YVvG6qVIhXHofpcpXPcrk",
+            "object": "chat.completion",
+            "created": 1756053865,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 132,
+                "completion_tokens": 522,
+                "total_tokens": 654,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 512,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_237",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following is not classified as an individual hot water supply system?",
+        "options": {
+            "A": "Instantaneous type",
+            "B": "Storage type",
+            "C": "Direct heating type",
+            "D": "Steam-water mixing type"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Direct heating type"
+            },
+            "explanation": "Steam heating: This is a method where water is heated to produce steam, which is then sent through pipes to radiators installed in each room. The heat of vaporization of the steam is used for heating. Advantages: 1. Steam has a high heat transport capacity due to its latent heat of vaporization. 2. It has a shorter preheating time and faster circulation compared to hot water heating. 3. The heating surface area can be smaller than that of hot water heating. 4. Installation and maintenance costs are low. Disadvantages: 1. The comfort level of heating is low. 2. It is difficult to adjust the heat output according to changes in heating load. 3. Noise can occur, and boiler handling skills are required. Hot water supply systems: Individual systems include the instantaneous type, storage type, and steam-water mixing type. Central systems include direct heating and indirect heating types."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C887bEObjorTFQwLb7hAJla9HQd5a",
+            "object": "chat.completion",
+            "created": 1756053879,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 906,
+                "total_tokens": 966,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 896,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1151",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8899999856948853,
+        "question": "Which of the following is NOT correct regarding the planning of store flooring?",
+        "options": {
+            "A": "It should be free from slipperiness or irregularities.",
+            "B": "Flooring materials that minimize noise should be used.",
+            "C": "The layout should allow customers to be naturally guided from outside.",
+            "D": "Vivid colors should be used regardless of the merchandise or display fixtures."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Vivid colors should be used regardless of the merchandise or display fixtures."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C887oKvhKXWzpBjKowVllrTFMGOSo",
+            "object": "chat.completion",
+            "created": 1756053892,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 90,
+                "completion_tokens": 266,
+                "total_tokens": 356,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 256,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1362",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following statements about school management methods is NOT correct?",
+        "options": {
+            "A": "The Comprehensive Classroom Type (Type A) is a management method recommended for lower grades in elementary school.",
+            "B": "In the Subject Classroom Type (Type V), classrooms with a high degree of subject specialization are assigned for each subject.",
+            "C": "In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities.",
+            "D": "The General Classroom · Special Classroom Type (Types U · V) is the most widely used method in Korean middle and high schools."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities."
+            },
+            "explanation": "Option 3 actually describes the Dalton Plan."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C887sob3HjK4PbBiympC35SXJTlhF",
+            "object": "chat.completion",
+            "created": 1756053896,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 136,
+                "completion_tokens": 841,
+                "total_tokens": 977,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 832,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_2088",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.2800000011920929,
+        "question": "Which of the following is the least relevant as a checkpoint for natural and artificial lighting in factory construction?",
+        "options": {
+            "A": "Proper illumination level",
+            "B": "Illumination distribution",
+            "C": "Presence of refraction",
+            "D": "Presence of glare"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Presence of refraction"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C88869LX5bmHHZ4mnDa1cUngD2CAC",
+            "object": "chat.completion",
+            "created": 1756053910,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 67,
+                "completion_tokens": 138,
+                "total_tokens": 205,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 128,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_613",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following statements about hot-water heating is correct?",
+        "options": {
+            "A": "The preheating time is shorter than that of steam heating.",
+            "B": "It requires less radiator surface area and piping than steam heating.",
+            "C": "There is no risk of freezing if the heating is stopped in cold weather.",
+            "D": "Since it uses sensible heat for heating, it is more comfortable than steam heating."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Since it uses sensible heat for heating, it is more comfortable than steam heating."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C8889qNVTSEnaliK3boVOEwSd8e1w",
+            "object": "chat.completion",
+            "created": 1756053913,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 98,
+                "completion_tokens": 394,
+                "total_tokens": 492,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 384,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1090",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3700000047683716,
+        "question": "You have 20 kg of aggregate. How many kilograms or more must pass through a 5 mm standard sieve by weight ratio to be considered as sand?",
+        "options": {
+            "A": "10 kg",
+            "B": "12 kg",
+            "C": "15 kg",
+            "D": "17 kg"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "17 kg"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C888HNbMjZv0hI9z73Qaa9LUbaGm9",
+            "object": "chat.completion",
+            "created": 1756053921,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 76,
+                "completion_tokens": 1418,
+                "total_tokens": 1494,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1408,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1239",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "In the LDK type among the unit floor plan types of apartment housing, what does the 'D' stand for?",
+        "options": {
+            "A": "Living room",
+            "B": "Kitchen",
+            "C": "Dining room",
+            "D": "Bedroom"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Dining room"
+            },
+            "explanation": "LDK stands for Living room, Dining room, and Kitchen."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C888ZgaiuqoKrDU6kgKGaOsOU661k",
+            "object": "chat.completion",
+            "created": 1756053939,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 63,
+                "completion_tokens": 74,
+                "total_tokens": 137,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1089",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "What is the appropriate thickness for the concrete footing (footing) AB shown in the drawing?",
+        "options": {
+            "A": "20cm",
+            "B": "15cm",
+            "C": "10cm",
+            "D": "5cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20cm"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20010429/jj20010429m55.gif?1622013050",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C888cvcQvtDJUIzDEzNmypw2SKnTa",
+            "object": "chat.completion",
+            "created": 1756053942,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 274,
+                "completion_tokens": 1738,
+                "total_tokens": 2012,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1728,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_69",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is not included in the design documents required for a building permit application?",
+        "options": {
+            "A": "Site plan",
+            "B": "Floor plan",
+            "C": "Perspective drawing",
+            "D": "Building plan document"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Perspective drawing"
+            },
+            "explanation": "A perspective drawing is a diagram used for reference during construction or for explaining to the building owner."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C8898qR2o4nFUM8I3BzsPH5E7y7XG",
+            "object": "chat.completion",
+            "created": 1756053974,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 60,
+                "completion_tokens": 330,
+                "total_tokens": 390,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 320,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_579",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following is least related to the cause of trap seal loss?",
+        "options": {
+            "A": "Capillary action",
+            "B": "Evaporation",
+            "C": "Induced siphonage",
+            "D": "Indirect drainage"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Indirect drainage"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C889FlREmFR4MdcIE9wonItMmgCBs",
+            "object": "chat.completion",
+            "created": 1756053981,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 202,
+                "total_tokens": 264,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 192,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_611",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7200000286102295,
+        "question": "Which of the following statements about unit space planning in housing is NOT correct?",
+        "options": {
+            "A": "A rectangular living room shape is generally more advantageous than a square shape for furniture arrangement and space utilization.",
+            "B": "For convenience, the dining room should basically be located close to the kitchen.",
+            "C": "To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan.",
+            "D": "It is recommended that bedrooms be situated away from sources of noise and face open spaces such as gardens."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C889IWLSZBlY3yF0YeGTiGmW5MLxl",
+            "object": "chat.completion",
+            "created": 1756053984,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 131,
+                "completion_tokens": 394,
+                "total_tokens": 525,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 384,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1659",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8899999856948853,
+        "question": "Which school operation method has the following characteristics?",
+        "options": {
+            "A": "Comprehensive classroom type",
+            "B": "Subject-specific classroom type",
+            "C": "Platoon type",
+            "D": "Dalton type"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Comprehensive classroom type"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110320/bt20110320m5.gif?1526080845",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C889PUlx84mD5rA5K8HTUxtRJv5Xe",
+            "object": "chat.completion",
+            "created": 1756053991,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 264,
+                "completion_tokens": 458,
+                "total_tokens": 722,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 448,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_212",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5799999833106995,
+        "question": "What is the minimum effective width required for a corridor jointly used by two or more households in an apartment building? (In the case of a side corridor)",
+        "options": {
+            "A": "90cm",
+            "B": "120cm",
+            "C": "150cm",
+            "D": "180cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "120cm"
+            },
+            "explanation": "The width of the corridor in an apartment building must be at least 1.2m, and corridors with living rooms on both sides must be at least 1.8m wide."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C889ZF2Usp7TZGZGENtJK26geNp4d",
+            "object": "chat.completion",
+            "created": 1756054001,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 76,
+                "completion_tokens": 522,
+                "total_tokens": 598,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 512,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_374",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8700000047683716,
+        "question": "Which of the following statements about interior color planning is incorrect?",
+        "options": {
+            "A": "Clearly select the main color.",
+            "B": "Use as many colors as possible.",
+            "C": "Take into account the location, brightness, and lighting of each room.",
+            "D": "Be mindful of the feeling of expansion or contraction depending on the expansiveness or compactness of colors."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Use as many colors as possible."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C889mTXZp2rWsEMOlEu0HUAqizUh1",
+            "object": "chat.completion",
+            "created": 1756054014,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 89,
+                "completion_tokens": 138,
+                "total_tokens": 227,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 128,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_617",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7699999809265137,
+        "question": "The following is the definition of a basement floor according to the Building Act. What is the correct content to fill in the blank ( )?",
+        "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/4",
+            "D": "1/5"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1/2"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20090118/jj20090118m60.gif?1348115407",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C889prMfDbXrDDjkixaZ50lp6pQP9",
+            "object": "chat.completion",
+            "created": 1756054017,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 287,
+                "completion_tokens": 330,
+                "total_tokens": 617,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 320,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_900",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which projection method is used when drawing architectural plans?",
+        "options": {
+            "A": "First-angle projection",
+            "B": "Second-angle projection",
+            "C": "Third-angle projection",
+            "D": "Fourth-angle projection"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Third-angle projection"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C889zXv0pARXIo3TWjJu93HZztbsg",
+            "object": "chat.completion",
+            "created": 1756054027,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "(C)",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 55,
+                "completion_tokens": 715,
+                "total_tokens": 770,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 704,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_96",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8700000047683716,
+        "question": "When residential spaces are divided into personal spaces, social spaces, and work spaces according to their main functions, which of the following is NOT considered a social space?",
+        "options": {
+            "A": "Living room",
+            "B": "Dining room",
+            "C": "Study",
+            "D": "Reception room"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Study"
+            },
+            "explanation": "Personal spaces include bathrooms, bedrooms, and studies. Work spaces include kitchens, laundry rooms, and utility rooms. Social spaces include living rooms, reception rooms, dining rooms, and terraces."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C88ABsOIwBhTlYYhzx51nRkYxu8Kx",
+            "object": "chat.completion",
+            "created": 1756054039,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 72,
+                "completion_tokens": 74,
+                "total_tokens": 146,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_188",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8199999928474426,
+        "question": "In the case of a building where the distinction between floors is unclear, at what building height is one floor counted?",
+        "options": {
+            "A": "3m",
+            "B": "5m",
+            "C": "4m",
+            "D": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88ADDWaONnPWrXhoE22nXxATWyYk",
+            "object": "chat.completion",
+            "created": 1756054041,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 68,
+                "completion_tokens": 394,
+                "total_tokens": 462,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 384,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1381",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following statements about the spatial relationships in a core plan for office building architecture is NOT correct?",
+        "options": {
+            "A": "Elevators should be concentrated as much as possible in the center.",
+            "B": "Stairs and elevators should be placed as close together as possible.",
+            "C": "Each space within the core should be in the same position on every floor.",
+            "D": "Restrooms should be located where their position is not easily known to visitors."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Restrooms should be located where their position is not easily known to visitors."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C88AKECUlzRua8AUorBt7FVi8HOMG",
+            "object": "chat.completion",
+            "created": 1756054048,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 107,
+                "completion_tokens": 1610,
+                "total_tokens": 1717,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1600,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1422",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8199999928474426,
+        "question": "Which of the following statements about terrace houses is NOT correct?",
+        "options": {
+            "A": "They are also called row houses.",
+            "B": "They cannot be planned on flat land.",
+            "C": "They can be classified as uphill or downhill types based on the road.",
+            "D": "Each unit can have an outdoor space using a terrace."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "They cannot be planned on flat land."
+            },
+            "explanation": "Artificial terrace houses are intentionally designed to make use of the advantages of terrace houses even on flat land."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C88AjBxVXBL5p1ojWjdD3WchG3cuk",
+            "object": "chat.completion",
+            "created": 1756054073,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 82,
+                "completion_tokens": 202,
+                "total_tokens": 284,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 192,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1483",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.9200000166893005,
+        "question": "Which school management method best fits the following description?",
+        "options": {
+            "A": "Dalton Plan",
+            "B": "Platoon System",
+            "C": "Comprehensive Classroom System",
+            "D": "Subject-Specific Classroom System"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Comprehensive Classroom System"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140302/bt20140302m9.gif?1526247015",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C88AqWlwKddGqA5TaAiCKbCZuS7lU",
+            "object": "chat.completion",
+            "created": 1756054080,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 266,
+                "completion_tokens": 330,
+                "total_tokens": 596,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 320,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_23",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is incorrectly matched with its architectural drawing symbol and meaning?",
+        "options": {
+            "A": "V – Volume",
+            "B": "Wt - Width",
+            "C": "ø - Diameter",
+            "D": "THK - Thickness"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Wt - Width"
+            },
+            "explanation": "Wt stands for Weight; W stands for Width. Option 3 (ø) is the symbol for diameter, specifically indicating the diameter of round rebar. D also represents diameter and indicates deformed rebar. So, in general, there are two symbols representing diameter."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C88B0NMOxBdJvFLSUoxKKpg9MUKPX",
+            "object": "chat.completion",
+            "created": 1756054090,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 62,
+                "completion_tokens": 650,
+                "total_tokens": 712,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 640,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_999",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8500000238418579,
+        "question": "In the projection method of the drawing, if direction A is the front view, what is the name of direction C?",
+        "options": {
+            "A": "Front view",
+            "B": "Left side view",
+            "C": "Right side view",
+            "D": "Rear view"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Left side view"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20020721/jj20020721m43.gif?1348010329",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C88BC49mJImWwynkSMDJCQg5BzmeQ",
+            "object": "chat.completion",
+            "created": 1756054102,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 277,
+                "completion_tokens": 586,
+                "total_tokens": 863,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 576,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1811",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7300000190734863,
+        "question": "Which of the following statements about circulation planning in houses is incorrect?",
+        "options": {
+            "A": "Circulation requires space.",
+            "B": "The three elements of circulation are speed, frequency, and load.",
+            "C": "The three types of circulation—personal, social, and housework—should be separated so they do not interfere with each other.",
+            "D": "The circulation route for heavy housework should be placed to the north as much as possible and kept short."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The circulation route for heavy housework should be placed to the north as much as possible and kept short."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C88BQ8Buc240BKyJdwNrrGk6DkQN2",
+            "object": "chat.completion",
+            "created": 1756054116,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 108,
+                "completion_tokens": 1290,
+                "total_tokens": 1398,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1280,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1591",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6899999976158142,
+        "question": "Which of the following statements about roof types used in factory construction is NOT correct?",
+        "options": {
+            "A": "A sawtooth roof is suitable for lighting and ventilation.",
+            "B": "A pitched roof has the drawback of allowing a certain amount of direct sunlight.",
+            "C": "A roof with a shell structure has the advantage of requiring fewer columns.",
+            "D": "If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C88Bo2rRfw0BK2YgI6kDHYyMU89O5",
+            "object": "chat.completion",
+            "created": 1756054140,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 111,
+                "completion_tokens": 586,
+                "total_tokens": 697,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 576,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1182",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "Which of the following statements about the pavilion type (Pavillion type) of factory construction is NOT correct?",
+        "options": {
+            "A": "It is disadvantageous in terms of ventilation and lighting.",
+            "B": "It is easy to install drainage systems and gutters.",
+            "C": "It is relatively easy to build new factories or expand existing ones.",
+            "D": "Each building can have a different construction style and structure."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It is disadvantageous in terms of ventilation and lighting."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88Bx7uqG38nyNUZdDPhSVeRIl2SJ",
+            "object": "chat.completion",
+            "created": 1756054149,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 97,
+                "completion_tokens": 522,
+                "total_tokens": 619,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 512,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1977",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "Which of the following statements about the planning of each room in a house is NOT correct?",
+        "options": {
+            "A": "The entrance hall should be made as large as possible for the convenience of entry and receiving guests.",
+            "B": "For stairs, special attention should be given to the slope, width, railings, and finishing methods for safety, as well as to their design in terms of interior decoration.",
+            "C": "The living room has various complex functions for daily activities, so the plan should consider suitable furniture and ensure some degree of flexibility.",
+            "D": "The dining room and kitchen should be designed for efficiency and be organically connected to the outdoor workspace and garden."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The entrance hall should be made as large as possible for the convenience of entry and receiving guests."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88CCHuN9cCoCNxKrRG8EoeCdrvHL",
+            "object": "chat.completion",
+            "created": 1756054164,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 148,
+                "completion_tokens": 330,
+                "total_tokens": 478,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 320,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_2023",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is NOT a consideration when arranging store fixtures in a retail building?",
+        "options": {
+            "A": "Ensure that merchandise is effectively displayed to customers.",
+            "B": "Make it easy to monitor the store without giving customers the impression that they are being watched.",
+            "C": "Facilitate efficient customer flow to accommodate many customers and allow management by a small number of staff.",
+            "D": "Arrange so that entering customers and staff make direct eye contact to foster a sense of familiarity."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Arrange so that entering customers and staff make direct eye contact to foster a sense of familiarity."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C88CK6Op2EfffNOlhyOZvzZxHlLDL",
+            "object": "chat.completion",
+            "created": 1756054172,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 111,
+                "completion_tokens": 330,
+                "total_tokens": 441,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 320,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_943",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6499999761581421,
+        "question": "In a rebar drawing, what type of line is used to represent stirrups or tie bars?",
+        "options": {
+            "A": "Dashed line",
+            "B": "Thin solid line",
+            "C": "Chain line",
+            "D": "Thick solid line"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Thin solid line"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C88CPl6lFqebER89tAHdMw5TTlL88",
+            "object": "chat.completion",
+            "created": 1756054177,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "(B)",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 65,
+                "completion_tokens": 843,
+                "total_tokens": 908,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 832,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1588",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following is least related to factors influencing the typical floor plan of an office building?",
+        "options": {
+            "A": "Span limitations of the structural system.",
+            "B": "Limitations of building systems such as ducts, wiring, and piping.",
+            "C": "Limitations of natural lighting.",
+            "D": "Parking space intervals in the underground parking lot."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Parking space intervals in the underground parking lot."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C88Cm6tNh2ye3C9ONsG1DgeT5CeMB",
+            "object": "chat.completion",
+            "created": 1756054200,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 85,
+                "completion_tokens": 394,
+                "total_tokens": 479,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 384,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_91",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7699999809265137,
+        "question": "Which of the following best defines a high-rise building according to building regulations?",
+        "options": {
+            "A": "A building with 50 or more floors, or a height of at least 150 meters.",
+            "B": "A building with 50 or more floors, or a height of at least 200 meters.",
+            "C": "A building with 100 or more floors, or a height of at least 300 meters.",
+            "D": "A building with 100 or more floors, or a height of at least 400 meters."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A building with 50 or more floors, or a height of at least 200 meters."
+            },
+            "explanation": "A high-rise building is defined as having at least 50 floors or a height of at least 200 meters, while tall buildings are defined as those with at least 30 floors or a height of at least 120 meters."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88Cru5dBbSxaZ9HlICNpTSkh0xfJ",
+            "object": "chat.completion",
+            "created": 1756054205,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 121,
+                "completion_tokens": 970,
+                "total_tokens": 1091,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 960,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1887",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which of the following is the most appropriate location for a library within a school?",
+        "options": {
+            "A": "A central area in the academic zone that is convenient for students to use.",
+            "B": "Near the school administrative offices for easy management and operation.",
+            "C": "Near the school gate for convenient use by outsiders.",
+            "D": "A quiet place away from the academic zone."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A central area in the academic zone that is convenient for students to use."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88D4hTibkfVrfyWSHF32w4Y3HYKQ",
+            "object": "chat.completion",
+            "created": 1756054218,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 91,
+                "completion_tokens": 138,
+                "total_tokens": 229,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 128,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1548",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.75,
+        "question": "Which of the following statements about the L-shaped kitchen counter layout is NOT correct?",
+        "options": {
+            "A": "It is a type suitable for square-shaped kitchens.",
+            "B": "It is a layout where the counter is arranged using two walls.",
+            "C": "It is easy to install a sink or range in the corner section of the counter.",
+            "D": "Since the utilization of the corner area is low, solutions are required for this issue."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is easy to install a sink or range in the corner section of the counter."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C88D7ly1j27BuavfR8EpLOvgPCXiz",
+            "object": "chat.completion",
+            "created": 1756054221,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 103,
+                "completion_tokens": 330,
+                "total_tokens": 433,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 320,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_185",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6499999761581421,
+        "question": "What does the following window symbol indicate?",
+        "options": {
+            "A": "Steel window",
+            "B": "Steel grill",
+            "C": "Stainless steel window",
+            "D": "Stainless steel grill"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Steel window"
+            },
+            "explanation": "The symbol on the lower left indicates the material, while the lower right indicates the type of shutter. Material symbols: wood (W), steel (S), aluminum (Al), plastic (P), stainless steel (Ss). Shutter symbols: window (W), door (D)."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20140406/jj20140406m46.gif?1412822107",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88DDUnuhCZdvGbdFFEsF0lp4tMCu",
+            "object": "chat.completion",
+            "created": 1756054227,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 261,
+                "completion_tokens": 138,
+                "total_tokens": 399,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 128,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1928",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is NOT one of the five advertising elements required in the facade design of a store building?",
+        "options": {
+            "A": "Attention",
+            "B": "Memory",
+            "C": "Desire",
+            "D": "Economic"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Economic"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C88DIlcX6D1tp1nc4gD8f3yzzumIs",
+            "object": "chat.completion",
+            "created": 1756054232,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 59,
+                "completion_tokens": 202,
+                "total_tokens": 261,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 192,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1741",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is least related to the reason for reducing floor-to-floor height in high-rise office buildings?",
+        "options": {
+            "A": "To reduce construction costs.",
+            "B": "To obtain a larger equipment space.",
+            "C": "To improve indoor air conditioning efficiency.",
+            "D": "To maximize the number of floors within a limited building height."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To obtain a larger equipment space."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C88DM5FlqzLXVGMLq5oN40DbL0abW",
+            "object": "chat.completion",
+            "created": 1756054236,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 83,
+                "completion_tokens": 395,
+                "total_tokens": 478,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 384,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_315",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following is not the correct pairing of a lighting-related unit?",
+        "options": {
+            "A": "Luminous flux: N",
+            "B": "Luminous intensity: cd",
+            "C": "Luminance: nt",
+            "D": "Illuminance: lx"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Luminous flux: N"
+            },
+            "explanation": "The unit of luminous flux is the lumen (lm). There have been several error reports regarding this question. Your feedback is appreciated and the answer will be updated if there are five or more reports. [Error Reports] Option 3: Luminance – cd/m². [Additional Reports] Some argue that option 3 is also correct, as luminance is given by dividing the luminous intensity over the apparent area, and its units are cd/m² or nit (nt). A higher luminance indicates greater resistance to ambient light, making screens more visible in bright stores or sunny living rooms. [Contrary Opinion] The correct answer is 1. The unit for luminance is both cd/m² and nt, while the unit for luminous flux is lm. [Further Clarification] 1. Luminous flux: lm (lumen), the total light output from a source. 2. Luminous intensity: cd (candela), brightness in a particular direction. 3. Luminance: nt (nit), cd/m², perceived brightness per unit area. 4. Illuminance: lx (lux), brightness of a place. Source: Naver Encyclopedia."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C88DTTQMMlh3LWaA6AHFSpkGU0Ojz",
+            "object": "chat.completion",
+            "created": 1756054243,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 67,
+                "completion_tokens": 74,
+                "total_tokens": 141,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1501",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "Which of the following is NOT a correct explanation concerning the closed type among the teacher arrangement formats in schools?",
+        "options": {
+            "A": "Environmental conditions such as sunlight and ventilation are disadvantageous.",
+            "B": "Unused areas may form around the teacher’s building.",
+            "C": "Without a separate evacuation route, it is disadvantageous in case of fire or emergency.",
+            "D": "As a type of finger plan, structural planning is simple and the use of standard types is convenient."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "As a type of finger plan, structural planning is simple and the use of standard types is convenient."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "id": "chatcmpl-C88DWbpB9Kzx917V4yZCbHDpaOxCg",
+            "object": "chat.completion",
+            "created": 1756054246,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "D",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 110,
+                "completion_tokens": 714,
+                "total_tokens": 824,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 704,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    }
+]

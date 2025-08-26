@@ -1,0 +1,1842 @@
+[
+    {
+        "id": "val_Interior_136",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following correctly lists the architectural styles of the Middle Ages in chronological order?",
+        "options": {
+            "A": "Early Christian style - Renaissance style - Byzantine style - Gothic style",
+            "B": "Early Christian style - Gothic style - Renaissance style - Byzantine style",
+            "C": "Early Christian style - Gothic style - Byzantine style - Renaissance style",
+            "D": "Early Christian style - Byzantine style - Gothic style - Renaissance style"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Early Christian style - Byzantine style - Gothic style - Renaissance style"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:03.190655445Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"Which of the following correctly lists the architectural styles of the Middle Ages in chronological order?\" Need chronological order of architectural styles: Early Christian (late antiquity, 4th-6th centuries), then Byzantine (6th-15th centuries overlapping), then Romanesque (not listed), then Gothic (12th-16th). Renaissance is after Middle Ages (14th-16th). Among options, we need Early Christian, then Byzantine, then Gothic, then Renaissance. That's option D. So answer \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2270311716,
+            "load_duration": 97532157,
+            "prompt_eval_count": 163,
+            "prompt_eval_duration": 304174045,
+            "eval_count": 120,
+            "eval_duration": 1862586788
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_636",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following statements about the installation of smoke ventilation equipment in buildings with fire compartments is NOT correct?",
+        "options": {
+            "A": "At least one smoke vent window must be installed in each fire compartment.",
+            "B": "The smoke vent must be structured to open automatically by a smoke or heat detector, but must not be operable by hand.",
+            "C": "The smoke vent must be able to be opened with a backup power source.",
+            "D": "If the ceiling height is 3 meters or more from the floor, the bottom edge of the smoke vent window should be installed at a height of at least 1 meter above the floor."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The smoke vent must be structured to open automatically by a smoke or heat detector, but must not be operable by hand."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:07.369433599Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Which of the following statements about the installation of smoke ventilation equipment in buildings with fire compartments is NOT correct?\" Provide the option's letter directly. We need to determine which statement is incorrect.\n\nWe need knowledge about smoke ventilation equipment regulations. Typically, smoke vents (also called smoke exhaust vents) are required in fire compartments. Requirements: at least one vent per compartment (maybe correct). They must open automatically by heat or smoke detection, but also be manually operable? I think they must be operable both automatically and manually (for maintenance or in emergencies). So statement B: \"must be structured to open automatically by a smoke or heat detector, but must not be operable by hand.\" That seems false because they should be operable manually as backup. So B is NOT correct. Let's verify others: A seems correct. C: backup power source needed - yes. D: If ceiling height >=3m, bottom edge of vent at least 1m above floor - that sounds plausible; guidelines often set bottom edge no lower than 1m. So answer B. Provide letter only."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4141604110,
+            "load_duration": 95123584,
+            "prompt_eval_count": 208,
+            "prompt_eval_duration": 439174730,
+            "eval_count": 234,
+            "eval_duration": 3602530569
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_319",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "What is the minimum required ceiling height for the spectator seats or assembly rooms of cultural and assembly facilities (excluding exhibition halls and zoos/botanical gardens) with a floor area of 200m2 or more, if a mechanical ventilation system is not installed?",
+        "options": {
+            "A": "3m",
+            "B": "5m",
+            "C": "4m",
+            "D": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:11.199744024Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with option letter directly. The question: \"What is the minimum required ceiling height for the spectator seats or assembly rooms of cultural and assembly facilities (excluding exhibition halls and zoos/botanical gardens) with a floor area of 200m2 or more, if a mechanical ventilation system is not installed?\" Options: A 3m, B 5m, C 4m, D 5m. Note B and D both 5m. Probably correct answer is 4m? Need to recall building code. For assembly spaces without mechanical ventilation, minimum ceiling height often 4.5m? Not sure. In some codes, 5m for large assembly spaces if no mechanical ventilation. The question: floor area >=200m2, spectator seats or assembly rooms, no mechanical ventilation -> minimum ceiling height? I think 5m. Since both B and D are 5m, but we need choose letter. Could be B. Usually answer would be 5m. Choose B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3796316617,
+            "load_duration": 89600547,
+            "prompt_eval_count": 162,
+            "prompt_eval_duration": 344309431,
+            "eval_count": 218,
+            "eval_duration": 3358313867
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_370",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT a correct standard for the installation of fire compartments?",
+        "options": {
+            "A": "This applies to buildings with main structural parts made of fire-resistant structures or non-combustible materials, with a total floor area exceeding 1,000 m2.",
+            "B": "Fire compartments must be separated by fire-resistant floors, walls, and class-A fire doors.",
+            "C": "Fire compartments can also be made using automatic fire shutters that meet the standards.",
+            "D": "They must be installed in parking lots where the main structural parts are made of fire-resistant structures or non-combustible materials."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "They must be installed in parking lots where the main structural parts are made of fire-resistant structures or non-combustible materials."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:15.123436707Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is NOT a correct standard for the installation of fire compartments?\" Options A-D. Need to answer with the option's letter directly. We must identify which is not correct. Based on typical fire compartment standards: Usually fire compartments apply to buildings with total floor area exceeding certain size, maybe 5000 m2? Not sure. Option A: applies to buildings with main structural parts made of fire-resistant structures or non-combustible materials, with total floor area exceeding 1,000 m2. Could be correct? Option B: must be separated by fire-resistant floors, walls, and class-A fire doors. That seems correct. Option C: can also be made using automatic fire shutters that meet the standards. Possibly correct. Option D: must be installed in parking lots where the main structural parts are made of fire-resistant structures or non-combustible materials. That seems odd; parking lots maybe not required. So D likely not correct. So answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3890854431,
+            "load_duration": 101862756,
+            "prompt_eval_count": 204,
+            "prompt_eval_duration": 446607226,
+            "eval_count": 215,
+            "eval_duration": 3338030920
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_277",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT a correct pairing of each type of firefighting facility?",
+        "options": {
+            "A": "Extinguishing equipment - Indoor fire hydrant system",
+            "B": "Evacuation equipment - Automatic fire alarm system",
+            "C": "Fire water supply equipment - Fire water tank",
+            "D": "Firefighting activity equipment - Smoke control system"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Evacuation equipment - Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:19.932293535Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to pick which pairing is NOT correct. Types: extinguishing equipment, evacuation equipment, fire water supply equipment, firefighting activity equipment.\n\n- Extinguishing equipment includes fire extinguishers, hose reels, indoor hydrant system? Indoor fire hydrant system is for water supply, but is it considered extinguishing equipment? Typically, extinguishing equipment includes fire hoses, extinguishers, sprinkler systems. Indoor fire hydrant could be considered part of extinguishing equipment? Might be considered water supply? Usually fire water supply equipment includes fire water tank, pump, hydrant? Hmm.\n\n- Evacuation equipment includes emergency exits, evacuation signs, fire alarm system? Automatic fire alarm system is for detection/alert, not evacuation equipment. So B seems mismatched.\n\n- Fire water supply equipment includes fire water tank, yes.\n\n- Firefighting activity equipment includes smoke control system? Smoke control is part of fire protection, but not necessarily activity equipment. Activity equipment might be fire hoses, ladders, etc. Smoke control is more of a building system, maybe not activity equipment. Could be considered part of firefighting activity? But likely not.\n\nThus which is NOT correct pairing? Likely B is wrong: evacuation equipment - automatic fire alarm system is detection/alert, not evacuation equipment. Also D maybe. But we need only one answer. I'd choose B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4778788921,
+            "load_duration": 104893279,
+            "prompt_eval_count": 151,
+            "prompt_eval_duration": 282914100,
+            "eval_count": 285,
+            "eval_duration": 4386835833
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_578",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "What material is used for finishing the part of the stairwell that faces the interior in the structure of escape stairs and special escape stairs?",
+        "options": {
+            "A": "Fire-resistant material",
+            "B": "Noncombustible material",
+            "C": "Semi-noncombustible material",
+            "D": "Flame-retardant material"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Noncombustible material"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:21.748291444Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What material is used for finishing the part of the stairwell that faces the interior in the structure of escape stairs and special escape stairs?\" Options A-D. Need to pick correct answer. Likely building code: interior facing of stairwell (escape stairs) must be noncombustible material. Fire-resistant maybe but interior finishing likely noncombustible. I think answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1784699338,
+            "load_duration": 85909634,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 298771584,
+            "eval_count": 92,
+            "eval_duration": 1387279486
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.75,
+        "question": "Which of the following is NOT a specific fire safety target required to have interior decorations and similar items that meet flame-retardant standards?",
+        "options": {
+            "A": "A building with 11 floors or more (excluding apartments)",
+            "B": "Medical facilities",
+            "C": "An indoor swimming pool located within a building",
+            "D": "Fitness centers among neighborhood living facilities"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "An indoor swimming pool located within a building"
+            },
+            "explanation": "3) Indoor swimming pools are excluded."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:24.100631188Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer which is NOT a specific fire safety target requiring interior decorations to meet flame-retardant standards. Likely fire codes: certain building types require flame retardant interiors: high-rise (11+ floors), medical facilities, indoor swimming pools, fitness centers? Which one is NOT required? I think indoor swimming pools might not be required? But maybe they are. I recall many codes: high-rise, hospitals, schools, daycares, assembly, hotels, etc. Fitness centers maybe required. Swimming pool maybe not. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2321434326,
+            "load_duration": 93662175,
+            "prompt_eval_count": 152,
+            "prompt_eval_duration": 363439959,
+            "eval_count": 123,
+            "eval_duration": 1858155096
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following statements about space frames is NOT correct?",
+        "options": {
+            "A": "Space frames can generally be classified into framework structures and load-bearing skin structures.",
+            "B": "The size of the mesh in the frame is determined by factors such as the dimensions of the finishing material, aesthetics of the mesh, and the buckling length of the members.",
+            "C": "Due to their quality and workability, steel materials are often used, and lightweight materials like aluminum are also utilized.",
+            "D": "Generally, having a larger mesh results in more members and nodes, making it uneconomical."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Generally, having a larger mesh results in more members and nodes, making it uneconomical."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:27.982985564Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter that is NOT correct about space frames. Let's consider statements.\n\n(A) Space frames can generally be classified into framework structures and load-bearing skin structures. Is that correct? Space frames are often three-dimensional truss-like structures, can be classified as framework (pure truss) and skin (like space shell). Might be correct.\n\n(B) The size of the mesh in the frame is determined by factors such as dimensions of the finishing material, aesthetics of the mesh, and the buckling length of the members. That sounds correct.\n\n(C) Due to their quality and workability, steel materials are often used, and lightweight materials like aluminum are also utilized. That's correct.\n\n(D) Generally, having a larger mesh results in more members and nodes, making it uneconomical. Wait: Larger mesh means larger openings, meaning fewer members/nodes, thus more economical. So the statement that larger mesh results in more members and nodes is false. So D is NOT correct. Answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3851946864,
+            "load_duration": 94215506,
+            "prompt_eval_count": 199,
+            "prompt_eval_duration": 389477893,
+            "eval_count": 217,
+            "eval_duration": 3363562726
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_679",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "Which of the following is NOT the correct pairing of each type of firefighting facility?",
+        "options": {
+            "A": "Fire extinguishing equipment - Indoor fire hydrant system",
+            "B": "Evacuation equipment - Automatic fire alarm system",
+            "C": "Fire water supply equipment - Fire water tank",
+            "D": "Firefighting support equipment - Smoke control system"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Evacuation equipment - Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:35.976048709Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to identify which pairing is NOT correct. Types of firefighting facilities: fire extinguishing equipment, evacuation equipment, fire water supply equipment, firefighting support equipment.\n\n- Fire extinguishing equipment includes portable fire extinguishers, fire hoses, fire hydrants? Indoor fire hydrant system is more water supply? Actually fire hydrants are part of water supply. Fire extinguishing equipment includes fire extinguishers, fire hoses, sprinkler systems. Indoor fire hydrant system likely is water supply. So A likely incorrect.\n\n- Evacuation equipment includes emergency exits, evacuation signs, emergency lighting, evacuation routes, fire alarms? Automatic fire alarm system is more detection/alert, part of fire alarm system, not evacuation equipment per se. Evacuation equipment might include emergency lighting, exit signs, fire exit doors. So B also possibly incorrect.\n\n- Fire water supply equipment includes fire water tank, pumps, hydrants. So C correct.\n\n- Firefighting support equipment includes smoke control system? Smoke control is part of life safety, could be support. Likely correct.\n\nWe need the one that is NOT correct pairing. Possibly multiple? The question expects single answer. Which is most clearly wrong? Let's see definitions:\n\nFire extinguishing equipment: devices that directly combat fire: fire extinguishers, fire hose reels, sprinkler heads, CO2 systems. Indoor fire hydrant system is part of water supply network to supply hoses; not the extinguishing device itself. So A is not correct.\n\nEvacuation equipment: devices to help people evacuate: emergency lighting, exit signs, evacuation plans, fire exit doors, evacuation chutes. Automatic fire alarm system alerts but not physically evacuate. Might be considered part of detection/alert, not evacuation. So B also not correct. Which is more likely considered \"evacuation equipment\"? Some classifications treat fire alarm as part of evacuation because it signals evacuation. But typically it's detection/alert. The question likely from building codes; they have categories: Fire extinguishing equipment (e.g., hydrants?), Fire evacuation equipment (e.g., alarm), Fire water supply (tank), Firefighting support (smoke control). Might be that A is wrong because indoor fire hydrant is water supply, not extinguishing. B may be considered correct because fire alarm system is evacuation equipment. So answer A.\n\nThus answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 7957620099,
+            "load_duration": 93081942,
+            "prompt_eval_count": 151,
+            "prompt_eval_duration": 285236801,
+            "eval_count": 487,
+            "eval_duration": 7575261028
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_548",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4099999964237213,
+        "question": "Which of the following is least relevant as a factor for generally classifying wooden architectural styles in Korea?",
+        "options": {
+            "A": "Characteristics of materials",
+            "B": "Arrangement of brackets",
+            "C": "Design of structural members",
+            "D": "Framework style"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Characteristics of materials"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:38.462217453Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following is least relevant as a factor for generally classifying wooden architectural styles in Korea?\" Options: A characteristics of materials, B arrangement of brackets, C design of structural members, D framework style.\n\nWe need which is least relevant for classifying wooden architectural styles. In Korean wooden architecture classification, typical factors: arrangement of brackets (gongpo), structural members design, framework style (e.g., column, beam, roof). Materials characteristics maybe less relevant because they are generally wood anyway. So answer likely A. So output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2450114476,
+            "load_duration": 88016568,
+            "prompt_eval_count": 130,
+            "prompt_eval_duration": 266123185,
+            "eval_count": 135,
+            "eval_duration": 2092226966
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_826",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "Which of the following statements about wooden structures is correct?",
+        "options": {
+            "A": "Bracing is used to help wooden walls resist horizontal forces and to make the structure stable.",
+            "B": "A platform column is a column made as a single piece spanning two floors.",
+            "C": "Of the various ways to join floorboards, the most commonly used is the diagonal, hidden nail joint.",
+            "D": "Reinforcing metal fittings are not used at joints that receive large stresses."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Bracing is used to help wooden walls resist horizontal forces and to make the structure stable."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:44.70381975Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following statements about wooden structures is correct?\"\n\nOptions:\n\n(A) Bracing is used to help wooden walls resist horizontal forces and to make the structure stable.\n(B) A platform column is a column made as a single piece spanning two floors.\n(C) Of the various ways to join floorboards, the most commonly used is the diagonal, hidden nail joint.\n(D) Reinforcing metal fittings are not used at joints that receive large stresses.\n\nWe need to pick the correct statement. Let's evaluate each.\n\n(A) Bracing is used to help wooden walls resist horizontal forces and to make the structure stable. That seems correct: bracing provides lateral stability, resisting horizontal loads. In wood framing, diagonal bracing, shear walls, etc. So (A) seems correct.\n\n(B) Platform column is a column made as a single piece spanning two floors. I think platform framing: each floor is built as a platform, and columns (studs) are not spanning multiple floors; they are built floor by floor. Platform column might be a column that continues through multiple stories? But in platform framing, columns are not spanning two floors; they are built per floor. So (B) likely incorrect.\n\n(C) The most common way to join floorboards is diagonal hidden nail joint. Actually common method is butt joint with nails, tongue-and-groove, etc. Diagonal hidden nail joint is not the most common. So (C) incorrect.\n\n(D) Reinforcing metal fittings are not used at joints that receive large stresses. Actually reinforcing metal fittings (like joist hangers, metal plates) are used at stressed joints. So (D) false.\n\nThus (A) is correct. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6213054904,
+            "load_duration": 105021977,
+            "prompt_eval_count": 174,
+            "prompt_eval_duration": 379778477,
+            "eval_count": 370,
+            "eval_duration": 5722485622
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_917",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "Which of the following is least related to the elements of Western medieval Gothic architecture?",
+        "options": {
+            "A": "Flying buttress",
+            "B": "Pointed arch",
+            "C": "Pendentive",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Pendentive"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:46.120599975Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. Question: which is least related to elements of Western medieval Gothic architecture? Flying buttress, pointed arch, pendentive, stained glass. Pendentive is more related to Byzantine architecture (e.g., domes). So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1385724565,
+            "load_duration": 87531482,
+            "prompt_eval_count": 126,
+            "prompt_eval_duration": 253711807,
+            "eval_count": 69,
+            "eval_duration": 1039045851
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_599",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following is NOT a correct guideline for the installation of revolving doors at building entrances?",
+        "options": {
+            "A": "The revolving door's rotation speed must not exceed 10 revolutions per minute.",
+            "B": "There must be at least 2 meters of distance from any stairs.",
+            "C": "There must be at least 2 meters of distance from any escalator.",
+            "D": "The gap between the revolving door and the door frame must be at least 5 centimeters."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The revolving door's rotation speed must not exceed 10 revolutions per minute."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:50.112471352Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is NOT a correct guideline for the installation of revolving doors at building entrances?\" Provide the option's letter directly.\n\nWe must consider if this is a request for a multiple-choice answer. The user is asking for the answer. This is not disallowed content. It's a general knowledge question. We can answer with the letter.\n\nWe need to be sure about correct guidelines. I'm not certain about the specific building codes for revolving doors. Likely the rotation speed limit is 10 rpm? That seems high. Actually revolving doors typically rotate at 2 to 5 rpm. So \"must not exceed 10 rpm\" might be too high but still correct (i.e., it's allowed up to 10). The distance from stairs or escalators maybe 1.2 meters? I'm not sure. The gap between door and frame must be at most 2 cm, not at least 5 cm. So D is likely incorrect: the gap must be small, not large. So answer: D.\n\nThus respond with \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3953199221,
+            "load_duration": 93378309,
+            "prompt_eval_count": 177,
+            "prompt_eval_duration": 387199607,
+            "eval_count": 225,
+            "eval_duration": 3468803570
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_893",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3199999928474426,
+        "question": "Which of the following statements about ancient Greek architecture is incorrect?",
+        "options": {
+            "A": "The Composite Order was mainly used.",
+            "B": "Greek temple architecture was essentially a trabeated (post-and-lintel) structure consisting of columns and beams.",
+            "C": "Interior spaces did not develop much compared to exterior spaces.",
+            "D": "Entasis, a slight curvature in columns, was used to correct optical illusions."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The Composite Order was mainly used."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:52.603291528Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. Identify incorrect statement about ancient Greek architecture.\n\n(A) Composite Order was mainly used. The Composite order is a Roman order combining Ionic and Corinthian, not Greek. Greek used Doric, Ionic, Corinthian (later). Composite is Roman, not Greek. So (A) is incorrect.\n\n(B) Greek temple architecture was essentially trabeated: true.\n\n(C) Interior spaces did not develop much compared to exterior: generally true; Greeks focused on exterior.\n\n(D) Entasis used to correct optical illusion: true.\n\nThus answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2459331155,
+            "load_duration": 87735417,
+            "prompt_eval_count": 163,
+            "prompt_eval_duration": 362337396,
+            "eval_count": 130,
+            "eval_duration": 2004858742
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_462",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "When constructing or substantially renovating a building, the designer of the building must verify the structural safety according to the structural standards set by the Ministry of Land, Infrastructure and Transport. Which of the following buildings is NOT subject to this requirement?",
+        "options": {
+            "A": "A building with two or more stories.",
+            "B": "A warehouse, livestock shed, crop cultivation house, or a building constructed according to standard design documents, with a total floor area of 400m2 or more.",
+            "C": "A building located in an earthquake-prone area as designated by the Ministry of Land, Infrastructure and Transport.",
+            "D": "A building designated for preservation as a national cultural heritage, as specified by the Ministry of Land, Infrastructure and Transport."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A warehouse, livestock shed, crop cultivation house, or a building constructed according to standard design documents, with a total floor area of 400m2 or more."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:02:57.265012834Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter directly. The question: When constructing or substantially renovating a building, the designer must verify structural safety according to standards set by Ministry of Land, Infrastructure and Transport. Which of the following buildings is NOT subject to this requirement? So which is exempt.\n\nWe need Korean law knowledge: Structural safety verification applies to certain types of buildings: Generally all buildings except those that are exempt, e.g., small one-story residential buildings? Let's recall Korean Building Act: Structural safety verification is required for \"buildings that are subject to structural safety verification according to the Building Act.\" Exemptions include: buildings that are one-story or low-rise? Actually, I think the requirement applies to buildings with two or more stories, or certain types with floor area thresholds. So option A: \"A building with two or more stories.\" That is subject, not exempt. Option B: Warehouse etc with total floor area 400 m2 or more—these are also subject. Option C: Building in earthquake-prone area—subject. Option D: Building designated for preservation as national cultural heritage—maybe exempt? Actually, cultural heritage buildings may have separate preservation rules and may be exempt from structural safety verification. So answer likely D.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4624519384,
+            "load_duration": 92752057,
+            "prompt_eval_count": 226,
+            "prompt_eval_duration": 419866563,
+            "eval_count": 265,
+            "eval_duration": 4105880789
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_60",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum total floor area for a building that requires prior consent from the fire chief or fire station chief when obtaining building permits? (Other conditions are not considered.)",
+        "options": {
+            "A": "400m2 or more",
+            "B": "600m2 or more",
+            "C": "800m2 or more",
+            "D": "1000m2 or more"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "400m2 or more"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:00.274158086Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"What is the minimum total floor area for a building that requires prior consent from the fire chief or fire station chief when obtaining building permits? (Other conditions are not considered.)\" This is likely from some building code, perhaps Taiwan, Philippines, etc. Which floor area triggers need for fire chief consent. Options: 400, 600, 800, 1000 m2. I need recall: In many codes, building over 500 m2 need fire chief approval. But the question says minimum total floor area that triggers requirement. Could be 400 m2? I think many fire codes: If total floor area is 400 square meters or more, need fire chief approval. Let's guess (A) 400m2."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2977160357,
+            "load_duration": 88485699,
+            "prompt_eval_count": 157,
+            "prompt_eval_duration": 373391249,
+            "eval_count": 163,
+            "eval_duration": 2510972358
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_254",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which bricklaying method involves alternating stretcher courses and header courses, finishing with three-quarter bricks at the corners or ends?",
+        "options": {
+            "A": "English bond",
+            "B": "Dutch bond",
+            "C": "Reinforced bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Dutch bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:03.748676984Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"Which bricklaying method involves alternating stretcher courses and header courses, finishing with three-quarter bricks at the corners or ends?\" Options: English bond, Dutch bond, Reinforced bond, American bond.\n\nWe need answer as option letter directly. The description: alternating stretcher and header courses, finishing with three-quarter bricks at corners or ends. That's typical of English bond? English bond uses alternating courses of stretchers and headers, with three-quarter bricks at corners to tie. Yes, English bond uses full bricks in courses, but corners often have three-quarter bricks. Dutch bond is also similar but has a different pattern: alternating stretchers and headers within same course? Actually Dutch bond: alternating stretcher and header within a course, not alternating courses. Reinforced bond is something else, American bond also called common bond: several stretcher courses then a header course. The description fits English bond. So answer: (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3445443800,
+            "load_duration": 92705968,
+            "prompt_eval_count": 132,
+            "prompt_eval_duration": 274214301,
+            "eval_count": 200,
+            "eval_duration": 3073064091
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_749",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "Which of the following is an incorrect pairing regarding fire safety facilities?",
+        "options": {
+            "A": "Fire extinguishing equipment – Sprinkler system",
+            "B": "Alarm equipment – Automatic fire detection system",
+            "C": "Evacuation equipment – Emergency exit lights and signs",
+            "D": "Firefighting activity equipment – Indoor fire hydrant system"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Firefighting activity equipment – Indoor fire hydrant system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:08.086813443Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Which of the following is an incorrect pairing regarding fire safety facilities?\" Options A-D. We need to choose the incorrect pairing. Let's analyze:\n\nA) Fire extinguishing equipment – Sprinkler system. Sprinkler system is indeed a fire extinguishing system, correct pairing.\n\nB) Alarm equipment – Automatic fire detection system. Alarm equipment includes fire alarm, detection system triggers alarm. So pairing is correct.\n\nC) Evacuation equipment – Emergency exit lights and signs. Those are evacuation aids, correct.\n\nD) Firefighting activity equipment – Indoor fire hydrant system. Firefighting activity equipment includes fire hoses, extinguishers, fire hydrants. Indoor fire hydrant system is indeed firefighting equipment. That seems correct too. Hmm which is incorrect? Perhaps they consider \"Fire extinguishing equipment – Sprinkler system\" as not equipment but system? But still a type of equipment. Maybe \"Alarm equipment – Automatic fire detection system\" is detection not alarm. The detection system is not alarm equipment but detection. Alarm equipment would be audible/visual alarms. So pairing might be considered incorrect. Let's decide: Option B is likely incorrect.\n\nThus answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4302991604,
+            "load_duration": 87964800,
+            "prompt_eval_count": 148,
+            "prompt_eval_duration": 291195150,
+            "eval_count": 251,
+            "eval_duration": 3919325455
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_656",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6200000047683716,
+        "question": "In traditional Korean wooden roof structures, what is the member that is erected on the main beam or girder to support the ridge beam?",
+        "options": {
+            "A": "Gaepan (decking board)",
+            "B": "Umirang (hip rafter)",
+            "C": "Daegong (strut)",
+            "D": "Seokkarae (rafter)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Daegong (strut)"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:11.568905699Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"In traditional Korean wooden roof structures, what is the member that is erected on the main beam or girder to support the ridge beam?\" Options: A Gaepan (decking board), B Umirang (hip rafter), C Daegong (strut), D Seokkarae (rafter). Need correct term.\n\nTraditional Korean architecture: The roof frame includes main beams (called \"gongbang\"?), ridge beam (called \"daegum\"?). The member erected on the main beam to support the ridge beam... Might be called \"daegong\" meaning \"strut\". In Korean, \"대공\" (daegong) is a support strut that supports the ridge. The \"Seokkarae\" is a rafter, \"Umirang\" is hip rafter, \"Gaepan\" decking board. So likely C.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3452234299,
+            "load_duration": 86674674,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 322269015,
+            "eval_count": 197,
+            "eval_duration": 3031870060
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_596",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "According to building regulations, when handrails must be installed on the wall of a staircase, what is the minimum required distance between the handrail and the wall?",
+        "options": {
+            "A": "3cm",
+            "B": "5cm",
+            "C": "8cm",
+            "D": "10cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "5cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:14.959315266Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need answer: According to building regulations, when handrails must be installed on the wall of a staircase, what is the minimum required distance between the handrail and the wall? Options: 3 cm, 5 cm, 8 cm, 10 cm. I'm not certain; need recall. In many building codes (e.g., UK Building Regulations Approved Document K), the clearance between handrail and wall is at least 30 mm (3 cm) to allow grip. Actually I think the requirement is a minimum of 30 mm clearance between handrail and wall, so answer A: 3 cm. Let's double-check: In UK building regs, \"handrails shall be fixed at a height of 900mm +/- 50mm above the pitch line of the stair, and shall be at least 30mm away from any wall or other obstruction.\" Yes. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3357620176,
+            "load_duration": 88221860,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 334898438,
+            "eval_count": 191,
+            "eval_duration": 2929759494
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_331",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "Which of the following is NOT a correct reason for installing a boundary beam in reinforced block masonry?",
+        "options": {
+            "A": "To evenly distribute loads from above",
+            "B": "To anchor horizontal reinforcing bars",
+            "C": "To prevent vertical cracks in the wall",
+            "D": "To integrally connect the distributed wall sections"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To anchor horizontal reinforcing bars"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:19.50974815Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"Which of the following is NOT a correct reason for installing a boundary beam in reinforced block masonry?\n\n(A) To evenly distribute loads from above\n(B) To anchor horizontal reinforcing bars\n(C) To prevent vertical cracks in the wall\n(D) To integrally connect the distributed wall sections\"\n\nWe need which is NOT a correct reason. In reinforced block masonry, boundary beams (also called bond beams) are used to tie together vertical reinforcement, distribute loads, provide anchorage for horizontal reinforcement, and connect wall sections. They also help control vertical cracks? Actually boundary beams help resist bending and distribute loads; they provide anchorage for vertical reinforcement at ends; they help control cracking, but preventing vertical cracks? Usually boundary beams are used to prevent horizontal cracks and to provide continuity. Preventing vertical cracks is more about vertical reinforcement in walls, not boundary beams. So option C may be not correct. Let's think: A: evenly distribute loads from above - yes correct. B: anchor horizontal reinforcing bars - they do anchor vertical reinforcement? Actually boundary beam may contain horizontal reinforcement that ties vertical bars; it may anchor horizontal bars as well. B seems plausible. D: integrally connect the distributed wall sections - yes they tie sections together.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4521750875,
+            "load_duration": 99169883,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 333307965,
+            "eval_count": 264,
+            "eval_duration": 4085395550
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_344",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.46000000834465027,
+        "question": "For floors that are on the third story or higher of a building and are used as performance halls in cultural and assembly facilities or as bars in entertainment facilities, at what total floor area of living rooms on that floor (in m2) is it required to install an exterior escape staircase?",
+        "options": {
+            "A": "200m2 or more",
+            "B": "300m2 or more",
+            "C": "400m2 or more",
+            "D": "500m2 or more"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "300m2 or more"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:26.132102582Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter directly. The question: For floors that are on the third story or higher of a building and are used as performance halls in cultural and assembly facilities or as bars in entertainment facilities, at what total floor area of living rooms on that floor (in m2) is it required to install an exterior escape staircase?\n\nProbably referencing Japanese building code (e.g., \"建築基準法\" or fire protection). For performance halls or bars on third story or higher, exterior escape staircases required when floor area of living rooms is a certain size. I recall that for assembly facilities (cultural, performance) above 300 m2 maybe? But need to be precise. Could be 400 m2? Let's think.\n\nJapanese building code: For assembly facilities, the requirement for exterior escape stairs depends on floor area of the entire floor or of the \"living rooms\"? Actually \"居室の総床面積\" means total floor area of living rooms. The rule for \"第3階以上の階に設けられるホール等の居室の総床面積が200㎡以上\" require external stairs? I'm not certain.\n\nSearch memory: In the Japanese \"建築基準法施行令\" article about \"外部避難階段\" - for assembly use, external staircases required when the total floor area of rooms used for assembly (including living rooms?) on a floor above 2nd floor is 300 m2 or more. I think it's 300 m2.\n\nLet's see typical thresholds: For residential building (住宅) external stair required when floor area over 300 m2? Actually for apartments maybe 300 m2. For assembly facilities maybe 400 m2. Hmm.\n\nGiven options 200,300,400,500. Likely answer is 300 m2.\n\nThus answer letter (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6595140423,
+            "load_duration": 86540008,
+            "prompt_eval_count": 179,
+            "prompt_eval_duration": 395146037,
+            "eval_count": 393,
+            "eval_duration": 6109573322
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_916",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "Which of the following is NOT one of Le Corbusier's Five Points of Modern Architecture?",
+        "options": {
+            "A": "Pilotis",
+            "B": "Roof garden",
+            "C": "Le Modulor",
+            "D": "Free facade"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Le Modulor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:27.851985037Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. Question: Which of the following is NOT one of Le Corbusier's Five Points of Modern Architecture? The five points are: pilotis (supporting columns), free plan, free façade, ribbon windows, roof garden. \"Le Modulor\" is a proportion system, not a point. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1685931269,
+            "load_duration": 96157850,
+            "prompt_eval_count": 126,
+            "prompt_eval_duration": 277426944,
+            "eval_count": 86,
+            "eval_duration": 1308585985
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_5",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is NOT a correct standard for installing exhaust outlets and exhaust devices for air conditioning and ventilation facilities in commercial and residential areas?",
+        "options": {
+            "A": "When installing an exhaust outlet on the exterior wall of a building, measures should be taken to prevent the outlet from falling off.",
+            "B": "Exhaust outlets must be installed at least 3 meters above the road surface.",
+            "C": "Exhaust devices must be installed so that the heat discharged does not directly reach pedestrians.",
+            "D": "Protective devices used when installing exhaust outlets or exhaust devices on the exterior wall of a building must use corrosion-resistant materials or coatings."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Exhaust outlets must be installed at least 3 meters above the road surface."
+            },
+            "explanation": "* 3m -> 2m"
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:31.392755434Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is NOT a correct standard for installing exhaust outlets and exhaust devices for air conditioning and ventilation facilities in commercial and residential areas?\" So we need the statement that is NOT correct according to standards. Options:\n\nA: When installing an exhaust outlet on the exterior wall of a building, measures should be taken to prevent the outlet from falling off. That seems correct (safety).\n\nB: Exhaust outlets must be installed at least 3 meters above the road surface. Is that correct? I think typical standards require 2.5 meters or 2 meters above ground, not 3. Might be not correct. C: Exhaust devices must be installed so that the heat discharged does not directly reach pedestrians. That is a correct safety/comfort rule. D: Protective devices used when installing exhaust outlets on exterior wall must use corrosion-resistant materials or coatings. That sounds correct.\n\nThus answer is B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3513447512,
+            "load_duration": 95326828,
+            "prompt_eval_count": 204,
+            "prompt_eval_duration": 396037971,
+            "eval_count": 195,
+            "eval_duration": 3017193570
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_631",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following statements about wood joints is correct?",
+        "options": {
+            "A": "Edge joint: Joining narrow boards side by side to make the board wider.",
+            "B": "Edge joint: Joining two pieces at a right angle or a slant.",
+            "C": "Butterfly key joint: Butt-joining two pieces and inserting a bowtie-shaped key made of the same material.",
+            "D": "Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:55.405719188Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following statements about wood joints is correct?\" Options A-D. Need to pick correct one.\n\nLet's analyze each statement.\n\n(A) Edge joint: Joining narrow boards side by side to make the board wider. Edge joint is indeed joining edges of boards to make a wider panel. That's correct definition.\n\n(B) Edge joint: Joining two pieces at a right angle or a slant. That's describing a butt joint? Actually that's a corner joint (butt, miter, etc). So B is incorrect.\n\n(C) Butterfly key joint: Butt-joining two pieces and inserting a bowtie-shaped key made of the same material. Butterfly key (also called a bowtie or dammit joint) is a reinforcement used in a board to stop splitting; it is inserted into a mortise, not necessarily butt-joining two pieces. The description is partially correct? Actually butterfly key is a reinforcement for a single board, not joining two pieces. So C is not accurate.\n\n(D) Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible. That is correct description of a miter joint. Miter joint is where ends are cut at an angle (usually 45°) to form a corner, ends not visible. So D also correct.\n\nBut which is the correct statement? Possibly multiple? Usually only one is correct. Let's check nuance.\n\nEdge joint definition (A) is correct: Edge joint is joining narrow boards side by side to make a board wider. That's accurate.\n\nMiter joint definition (D) also seems correct. However, miter joint: \"Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible.\" That is correct description. So both A and D are correct. But maybe the exam expects only one answer; maybe they consider D as correct because they define miter joint as bevel-cutting ends, while edge joint is \"joining the edges of two boards side by side.\" Option A says \"Joining narrow boards side by side to make the board wider.\" That's also correct. So maybe they consider that also correct. Which one is more precise? Edge joint is indeed joining boards side by side; could be also called \"edge-to-edge joint.\" So both are correct.\n\nMaybe the question expects \"Edge joint: joining two pieces at a right angle or a slant.\" That's false. So they want to pick the correct statement among the four; there could be more than one correct but they intend only one. Let's check each for any subtle errors:\n\n(A) Edge joint: Joining narrow boards side by side to make the board wider. Edge joint usually called \"edge joint\" or \"edge-to-edge joint\". That's fine.\n\n(B) Edge joint: Joining two pieces at a right angle or a slant. That's actually a \"corner joint\" like miter or butt. So false.\n\n(C) Butterfly key joint: Butt-joining two pieces and inserting a bowtie-shaped key made of the same material. Actually butterfly key (also called a \"dammit\" or \"butterfly\" key) is used to repair cracks in a single board, not for butt-joining two pieces. So false.\n\n(D) Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible. That is accurate.\n\nThus both A and D are correct. Maybe they expect multiple correct? But instruction: \"Which of the following statements about wood joints is correct?\" Could be singular or multiple. In multiple-choice, they often have one correct. But given two correct, maybe they consider only D as correct because they think edge joint is \"butt joint\"? But no.\n\nLet's examine A more: \"Edge joint: Joining narrow boards side by side to make the board wider.\" That's the definition of \"edge joint\" yes. So I think A is correct. D is also correct. If forced to choose one, perhaps the test expects D as the correct answer because they consider edge joint being \"joining two pieces at a right angle\" is wrong, butterfly key description is wrong, but both A and D are correct. Maybe the exam's context: they ask \"Which of the following statements about wood joints is correct?\" It could be \"All of the above except ...\" But they give options individually, so maybe only one is correct and they think A is wrong for some nuance: Edge joint is joining narrow boards edge-to-edge (not side by side). Actually side by side is correct; but maybe they think \"edge joint\" refers to joining the edges of two boards, not the faces. \"Side by side\" might be ambiguous; but typical phrase: \"edge joint\" joins the edges of boards, making a wider board. So A is fine.\n\nOption D: \"Miter joint: Bevel-cutting the ends of members that intersect at right angles or obliquely so the ends are not visible.\" That is definition of a miter joint. So D also correct.\n\nThus ambiguous. Possibly the intended answer is D because it's more specific and matches typical definition of miter joint. Edge joint is often called \"edge to edge\" but maybe they think that is \"edge joint: joining narrow boards side by side to make the board wider.\" That is also correct though.\n\nGiven typical exam patterns, they'd likely have only one correct answer. I suspect they might consider the butterfly key definition as correct? Let's double-check: Butterfly key joint is also called \"butterfly key\" used to strengthen butt joints. Actually there is a \"butterfly joint\" where a bowtie-shaped piece of wood (key) is inserted into a mortise across the joint to reinforce a butt joint. Some sources: \"Butterfly joint (also called a bow tie joint) is a method of joining two pieces by inserting a bow-tie shaped key.\" So C might be considered correct. But they said \"Butt-joining two pieces and inserting a bowtie-shaped key made of the same material.\" That matches that description. So maybe C is correct as well. So there are multiple potentially correct.\n\nThus need to interpret the exam: maybe they ask \"Which of the following statements about wood joints is correct?\" and only one is correct; the others are wrong. Let's evaluate each for potential wrongness.\n\nCheck C: \"Butterfly key joint: Butt-joining two pieces and inserting a bowtie-shaped key made of the same material.\" In practice, butterfly key is used to reinforce a single board, not necessarily to butt-join two pieces. However, there is a \"butterfly joint\" that uses a key to reinforce a butt joint, but the key is inserted into a mortise cut across the joint, but the description \"Butt-joining two pieces and inserting a bowtie-shaped key made of the same material.\" That seems okay. However, many definitions: The butterfly key (or bowtie) is a decorative and functional joint used to prevent splitting. It is inserted into a pocket cut into a board, not necessarily a butt joint. So might be considered inaccurate.\n\nThus likely only one answer is considered correct: D.\n\nI will answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 23978873951,
+            "load_duration": 89706029,
+            "prompt_eval_count": 187,
+            "prompt_eval_duration": 401540783,
+            "eval_count": 1495,
+            "eval_duration": 23483773310
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_490",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT classified as a specific fire safety target where interior decorations must be installed to meet fire-resistant performance standards?",
+        "options": {
+            "A": "Fitness centers among neighborhood living facilities",
+            "B": "Broadcasting stations among broadcasting and communications facilities",
+            "C": "General hospitals among medical facilities",
+            "D": "An apartment building with 15 floors"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "An apartment building with 15 floors"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:03:58.824815072Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is NOT classified as a specific fire safety target where interior decorations must be installed to meet fire-resistant performance standards?\" Options: A Fitness centers among neighborhood living facilities, B Broadcasting stations among broadcasting and communications facilities, C General hospitals among medical facilities, D An apartment building with 15 floors.\n\nWe need to know which is NOT a specific fire safety target for interior decorations needing fire-resistant performance. Likely interior decoration fire-resistant standards apply to certain public assembly or certain building types. Apartment building with 15 floors probably is a high-rise and would be a target. General hospitals definitely. Broadcasting stations maybe not? Fitness centers maybe? The question: specific fire safety target where interior decorations must be installed to meet fire-resistant performance standards. Probably the list includes certain types: medical facilities, schools, hotels, etc. Broadcasting stations maybe not considered a target. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3353975565,
+            "load_duration": 100294455,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 307677429,
+            "eval_count": 191,
+            "eval_duration": 2940351343
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_118",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5199999809265137,
+        "question": "When the ductwork of a ventilation, heating, or cooling system penetrates a fire zone and a damper is to be installed at or near the point of penetration, what is the minimum required thickness of steel plate if steel plate is used as the material for the damper? (This is a reported error question. Please be sure to check the correct answer and explanation.)",
+        "options": {
+            "A": "0.5mm",
+            "B": "1.0mm",
+            "C": "1.5mm",
+            "D": "2.0mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1.5mm"
+            },
+            "explanation": "There has been an error report as below. We welcome your opinions. We will revise the correct answer by reflecting your feedback in the future. For reference, if there are five or more error reports, the answer will be modified. [Error Report] The current regulations have deleted the minimum thickness requirement for steel plate as damper material. Therefore, there is currently no correct answer."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:04.133563717Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer a specific code question: minimum required thickness of steel plate for a damper when ductwork penetrates a fire zone. This is a \"reported error question\" meaning the answer might be tricky. Possibly referring to NFPA 90A/90B or International Mechanical Code (IMC) regarding fire dampers. The minimum thickness for fire damper steel plate? I recall that fire damper construction: steel plate at least 1/8 inch (3.2 mm)?? Not sure. Let's think: Fire damper rated for fire resistance; the damper must be listed and have a fire-resistance rating, but the steel plate thickness? Could be 1.0 mm? Hmm.\n\nThe question says \"This is a reported error question. Please be sure to check the correct answer and explanation.\" So perhaps the listed answer in the source was wrong and they want the corrected answer. Maybe the correct answer is 0.5mm? But that seems too thin for fire barrier. Fire resistance requires at least 0.5 mm? Actually fire-resistant assemblies often require steel thickness of 0.5 mm for fire stops? Let's recall building codes: For firestop penetrations, steel plate of minimum 0.5 mm (0.020 in) is required for firestop. The firestop is often a 0.5 mm steel sheet. I think the correct answer is 0.5 mm (Option A). Let's answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5279027092,
+            "load_duration": 87672370,
+            "prompt_eval_count": 193,
+            "prompt_eval_duration": 402154503,
+            "eval_count": 309,
+            "eval_duration": 4783101859
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_9",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "Which of the following statements about steel structures is NOT correct?",
+        "options": {
+            "A": "They have high plastic deformation capacity, making them very safe.",
+            "B": "They are suitable for high-rise buildings or long-span structures.",
+            "C": "Because members are slender, they have a higher risk of buckling.",
+            "D": "Their fire resistance is high, so fireproof coating is not necessary."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Their fire resistance is high, so fireproof coating is not necessary."
+            },
+            "explanation": "Steel structures have poor fire resistance. Fireproof coatings are necessary to allow them to withstand fire for 1 to 3 hours."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:07.083246171Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter that is NOT correct about steel structures.\n\nOptions:\n\nA: They have high plastic deformation capacity, making them very safe. Steel does have good ductility, high plastic deformation capacity, which is a safety feature. That is correct.\n\nB: They are suitable for high-rise buildings or long-span structures. That's true.\n\nC: Because members are slender, they have a higher risk of buckling. Steel members can be slender, buckling is a concern. True.\n\nD: Their fire resistance is high, so fireproof coating is not necessary. Steel actually has low fire resistance; it loses strength at high temperature, so fireproof coating is needed. So D is NOT correct.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2921483003,
+            "load_duration": 93924885,
+            "prompt_eval_count": 159,
+            "prompt_eval_duration": 358780848,
+            "eval_count": 161,
+            "eval_duration": 2464488716
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_359",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6499999761581421,
+        "question": "Which architectural style is most closely associated with the flying buttress?",
+        "options": {
+            "A": "Romanesque style",
+            "B": "Roman style",
+            "C": "Renaissance style",
+            "D": "Gothic style"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Gothic style"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:08.713183634Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which architectural style is most closely associated with the flying buttress? (A) Romanesque style (B) Roman style (C) Renaissance style (D) Gothic style\". The answer is Gothic style, option D. The instruction says answer with the option's letter from the given choices directly. So respond with \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1597361198,
+            "load_duration": 88291730,
+            "prompt_eval_count": 121,
+            "prompt_eval_duration": 250632552,
+            "eval_count": 82,
+            "eval_duration": 1253952304
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_449",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "In steel structure welding, what term refers to bubbles or small voids formed when the metal melts?",
+        "options": {
+            "A": "Overlap",
+            "B": "Crack",
+            "C": "Pit",
+            "D": "Blow hole"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Blow hole"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:10.052277161Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"In steel structure welding, what term refers to bubbles or small voids formed when the metal melts?\" Options: Overlap, Crack, Pit, Blow hole. The correct term is \"Blow hole\". So answer letter D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1307771268,
+            "load_duration": 95640589,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 268284445,
+            "eval_count": 62,
+            "eval_duration": 939566636
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_464",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is least related to the advantages of high-strength bolted connections in steel structures?",
+        "options": {
+            "A": "Stress is transmitted reliably.",
+            "B": "Quality inspection is easy.",
+            "C": "Construction is simple.",
+            "D": "They save on the amount of steel used."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "They save on the amount of steel used."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:12.808279431Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"Which of the following is least related to the advantages of high-strength bolted connections in steel structures?\" Options:\n\nA: Stress is transmitted reliably.\nB: Quality inspection is easy.\nC: Construction is simple.\nD: They save on the amount of steel used.\n\nWe need the least related to advantages of high-strength bolted connections. High-strength bolts give reliable stress transmission, easy inspection, simple construction, and also reduce required steel? Actually high-strength bolts allow using fewer bolts, but amount of steel used? The steel in the connection maybe less? The advantage is not necessarily saving steel in the structure itself? The saving steel might be more related to welds? Probably D is least related. So answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2726165522,
+            "load_duration": 87525645,
+            "prompt_eval_count": 138,
+            "prompt_eval_duration": 319516422,
+            "eval_count": 159,
+            "eval_duration": 2314797206
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_362",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6299999952316284,
+        "question": "The following is a regulation regarding the standards for installing exits leading outside a building. Which of the following best fits in the blank?",
+        "options": {
+            "A": "0.5m",
+            "B": "0.6m",
+            "C": "0.7m",
+            "D": "0.8m"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "0.6m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/dc/dc20150919/dc20150919m83.gif?1530654055",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:16.210079525Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"The following is a regulation ... Which of the following best fits in the blank? (A)0.5m (B)0.6m (C)0.7m (D)0.8m\". They didn't provide the regulation text. Probably missing context. This is a knowledge question about building code for exit leading outside; perhaps referring to minimum width? Might be \"minimum clear width of exit door\"? Many codes: e.g., 0.8m (32 inches) is typical minimum door width. In many countries, minimum width for an exit door is 0.8 m. For example, Japan building code? In many places it's 0.8 m. Also 0.9 m in some. The choices 0.5-0.8 m. Likely answer D 0.8m. So respond with \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3369283369,
+            "load_duration": 100436481,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 336198440,
+            "eval_count": 193,
+            "eval_duration": 2928467002
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_7",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "The following concerns the installation requirements for open spaces between the basement and the evacuation floor of a building. Which of the following is the correct number for the blank (  )?",
+        "options": {
+            "A": "1500",
+            "B": "2000",
+            "C": "3000",
+            "D": "4000"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3000"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/dc/dc20210912/dc20210912m88.gif?1636611316",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:23.195650092Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter. The question: \"The following concerns the installation requirements for open spaces between the basement and the evacuation floor of a building. Which of the following is the correct number for the blank ( )? (A)1500 (B)2000 (C)3000 (D)4000\"\n\nWe need context: likely building code requirement about open spaces between basement and evacuation floor. Probably about area in mm^2? Might be about fire safety: \"The minimum width of stair openings between basement and evacuation floor is ... mm\". Could be 1500 mm? Or 2000 mm? Common stair width minimum is 1200 mm. For open space maybe 1500 mm.\n\nBut we need guess. In many codes, the minimum open area for egress from basement to exit is 1500 mm^2? Actually open space might refer to \"opening area of ventilation\" maybe 3000 mm^2? Let's think: In fire code, \"opening between basement and upper floor for smoke control\" maybe 1500 mm^2. In some Chinese code, \"openings between basement and above floors should be no less than 1500 mm²\"? I recall a rule: \"The net opening area of windows for natural ventilation shall not be less than 1/10 of the floor area, but not less than 2 m²\". Not relevant.\n\nAlternatively, the question likely from a Chinese exam about \"地下室与疏散层之间的开放间距要求\", the blank number maybe \"3000mm\". Could be the maximum distance? Actually \"open space between basement and evacuation floor\" perhaps refers to \"distance between the exit door and the staircase\"? I'm not sure.\n\nGiven typical distances: For fire escape, the maximum distance from any point to exit is 30 m for high-rise? The open space between basement and evacuation floor maybe must be at least 2000 mm (2 m) to allow passage of wheelchair. So answer likely B (2000).\n\nI'll answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6947331513,
+            "load_duration": 91318847,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 331178123,
+            "eval_count": 428,
+            "eval_duration": 6521109502
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_482",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "Which of the following statements about the basic principles of plate girder construction is NOT correct?",
+        "options": {
+            "A": "The web plate resists shear force and is considered to have shear stress distributed uniformly over the shear area.",
+            "B": "The flange bears the tensile and compressive forces caused by bending.",
+            "C": "Stiffeners are used to prevent the buckling of both the flange plate and the web plate.",
+            "D": "Cover plates are installed to compensate for insufficient bending strength."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Stiffeners are used to prevent the buckling of both the flange plate and the web plate."
+            },
+            "explanation": "Because it includes the flange, this is incorrect."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:35.229923374Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"Which of the following statements about the basic principles of plate girder construction is NOT correct?\" Options A-D. Need to pick the incorrect statement.\n\nWe need knowledge of plate girder principles. In plate girders, web carries shear, flange carries bending tension/compression. Stiffeners are used to prevent buckling of web and also to support flanges? Typically stiffeners are used to prevent web buckling, also flange stiffeners (stiffeners on flanges) to prevent local buckling of flange compression side. So statement C: \"Stiffeners are used to prevent the buckling of both the flange plate and the web plate.\" That is generally true. Cover plates are installed to compensate for insufficient bending strength? Cover plates are added to increase strength of flange (to increase bending capacity) or to patch holes. They are called cover plates used to augment insufficient thickness. So statement D seems correct. Statement A: \"The web plate resists shear force and is considered to have shear stress distributed uniformly over the shear area.\" In reality, shear stress distribution in web is not uniform; it varies linearly from zero at free edges to max at neutral axis? Actually shear stress distribution in a rectangular cross-section is parabolic: maximum at neutral axis, zero at extreme fibers. But for web of plate girder, shear flow is assumed constant across web thickness? Typically shear flow is uniform across web because shear flow q = VQ/I, for a rectangular cross-section Q varies linearly, giving shear stress distribution not uniform. However design often approximates uniform shear stress in web because shear stress variation is small. Not sure. The statement says \"considered to have shear stress distributed uniformly over the shear area.\" That might be an approximation but is it considered correct? Many textbooks say \"web shear stress is assumed uniform\" as a simplification. But I think the incorrect one is D: Cover plates are installed to compensate for insufficient bending strength. Actually cover plates are used to increase shear capacity or to close gaps? Cover plates are placed on top of flange to increase flange thickness and thus bending capacity. So that seems correct. Which is NOT correct? Perhaps statement C: Stiffeners are used to prevent buckling of both flange plate and web plate. Actually stiffeners are used primarily for web buckling; flange stiffeners are separate. The term \"stiffeners\" generally refers to web stiffeners, not flange stiffeners. Flange buckling is prevented by using transverse stiffeners? Actually there are flange stiffeners (like ribs) but they are not usually called stiffeners. So C might be partially wrong.\n\nLet's evaluate each:\n\nA: web plate resists shear and shear stress considered uniform. Many design codes treat shear flow as uniform, but actual distribution varies. However the principle statement \"considered to have shear stress distributed uniformly over the shear area\" is a simplification used in design; it's acceptable. So A is correct.\n\nB: Flange bears tensile and compressive forces due to bending. Correct.\n\nC: Stiffeners are used to prevent buckling of both the flange plate and the web plate. Stiffeners used for web buckling; flange stiffening is done by flange ribs or stiffeners, but typical \"stiffeners\" refers to web stiffeners. Could be partially incorrect. Might be considered false because stiffeners are for web only. So C is likely NOT correct.\n\nD: Cover plates are installed to compensate for insufficient bending strength. Cover plates are indeed used to augment flange thickness to increase bending capacity when existing flange is insufficient. So correct.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 12001428471,
+            "load_duration": 55840638,
+            "prompt_eval_count": 178,
+            "prompt_eval_duration": 377714502,
+            "eval_count": 743,
+            "eval_duration": 11562934948
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_422",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5099999904632568,
+        "question": "What is the correct floor area standard for buildings that are not required to install emergency elevators?",
+        "options": {
+            "A": "Buildings over 31m in height with a total floor area of 300m2 or less on each floor",
+            "B": "Buildings over 31m in height with a total floor area of 500m2 or less on each floor",
+            "C": "Buildings over 31m in height with a total floor area of 1000m2 or less on each floor",
+            "D": "Buildings over 31m in height with a total floor area of 1500m2 or less on each floor"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Buildings over 31m in height with a total floor area of 500m2 or less on each floor"
+            },
+            "explanation": "Emergency elevators are not required in buildings where each floor over 31m in height is used for purposes other than living rooms, where the total floor area of each such floor does not exceed 500m2, or where there are four or fewer floors over 31m with each floor area not exceeding 200m2 or each section separated by fire compartments within 200m2 or 500m2."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:40.634833471Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"What is the correct floor area standard for buildings that are not required to install emergency elevators?\" Options A-D with specifics about building over 31m height and total floor area per floor.\n\nWe need to answer with the option's letter only. We must know correct standard. This is likely referencing some building code, maybe Taiwan? Or maybe China? Not sure.\n\nThe standard: Buildings over 31m height with floor area <= 300 m2 per floor? I think many codes require emergency elevator for high-rise over 31m unless floor area is small. Usually, requirement may be for floor area > 1000 m2? Let's think.\n\nIn many jurisdictions, emergency egress requirements (e.g., fire service) may require emergency elevator if building height > 30m AND floor area > 1000 m2 per floor? I'm not certain.\n\nI recall that Taiwan building code says: for buildings over 31m, if floor area <= 500 m2 per floor, emergency elevators are not required. But not sure.\n\nLet’s search mental: In Japan, emergency elevator requirement: For buildings taller than 30 meters, and total floor area exceeds 1,000 m2 per floor, must provide emergency elevator.\n\nActually, I think the threshold is 1000 m2.\n\nThus answer likely (C) Buildings over 31m in height with a total floor area of 1000m2 or less on each floor.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5370649711,
+            "load_duration": 97451300,
+            "prompt_eval_count": 206,
+            "prompt_eval_duration": 427132160,
+            "eval_count": 311,
+            "eval_duration": 4842188347
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_567",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT a function or purpose of dancheong in traditional Korean architecture?",
+        "options": {
+            "A": "Prevention of building corrosion",
+            "B": "Correction of visual illusions",
+            "C": "Enhancing the authority and grandeur of the building",
+            "D": "Indicating the building's function or character"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Correction of visual illusions"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:43.943096564Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need answer letter of statement that is NOT a function/purpose of dancheong (traditional Korean decorative coloring). Dancheong purposes: decorative, protection from weather (prevention of corrosion), indicating status, function, hierarchy, aesthetic, visual correction (optical correction?), also to correct visual illusions? I recall that dancheong includes bright colors to emphasize building lines, also to protect wood from insects and weather. Also indicates building function/character (color coding). Not sure about \"Correction of visual illusions\" – maybe that is a function: using colors to correct optical distortions? Might be true. The question asks which is NOT a function. Options: A prevention of building corrosion (yes function). B correction of visual illusions (maybe not). C enhancing authority/grandeur (yes). D indicating building's function/character (yes). So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3275167214,
+            "load_duration": 88410245,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 329608826,
+            "eval_count": 185,
+            "eval_duration": 2853011875
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_581",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "Which of the following is NOT required to have waterproof wall finishes up to a height of 1 meter from the floor?",
+        "options": {
+            "A": "Treatment rooms in dental clinics within Type 1 neighborhood living facilities",
+            "B": "Kitchens in cafés within Type 2 neighborhood living facilities",
+            "C": "Baths in public baths within Type 1 neighborhood living facilities",
+            "D": "Kitchens in general restaurants within Type 2 neighborhood living facilities"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Treatment rooms in dental clinics within Type 1 neighborhood living facilities"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:49.084926452Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter (A, B, C, or D) that is NOT required to have waterproof wall finishes up to 1 meter from floor. This seems like a building code question. We need to know which scenario does not require waterproof wall finishes up to 1m. Likely only certain spaces like bathrooms, kitchens, treatment rooms need waterproof walls. The question: \"Which of the following is NOT required to have waterproof wall finishes up to a height of 1 meter from the floor?\" So we need to identify which one does NOT need that requirement.\n\nGiven options:\nA) Treatment rooms in dental clinics within Type 1 neighborhood living facilities\nB) Kitchens in cafés within Type 2 neighborhood living facilities\nC) Baths in public baths within Type 1 neighborhood living facilities\nD) Kitchens in general restaurants within Type 2 neighborhood living facilities\n\nWe need to know the code. Usually, bathrooms definitely need waterproof walls. Kitchens also often require waterproof up to certain height near sinks. However maybe café kitchens are less stringent? Treatment rooms in dental clinics might not need waterproof walls up to 1m because they aren't wet areas. So A might be NOT required. However, dental treatment rooms could have water from equipment, but maybe not requiring waterproof wall finishes.\n\nPublic baths definitely require waterproof. General restaurant kitchens likely need waterproof. Café kitchens also likely need waterproof. So the odd one is A. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5113237948,
+            "load_duration": 95294357,
+            "prompt_eval_count": 166,
+            "prompt_eval_duration": 344262750,
+            "eval_count": 303,
+            "eval_duration": 4669531163
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_872",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.33000001311302185,
+        "question": "What is the minimum required lap splice length for compression deformed bars in typical reinforced concrete columns?",
+        "options": {
+            "A": "200mm",
+            "B": "300mm",
+            "C": "400mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "300mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:52.099685279Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What is the minimum required lap splice length for compression deformed bars in typical reinforced concrete columns? (A) 200mm (B) 300mm (C) 400mm (D) 500mm\". Need to answer with option's letter directly. This is a standard code requirement. For compression deformed bars (like in columns) the development length is often 30 times bar diameter? But lap splice length may be 30d? For typical columns, the minimum lap splice is 30 times bar diameter, but in mm maybe 300mm for 10mm bar? But the question likely expects a standard answer: 300mm. I think the typical minimum lap splice length for compression deformed bars in columns is 300mm. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2984795931,
+            "load_duration": 87128464,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 267020473,
+            "eval_count": 172,
+            "eval_duration": 2625097502
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_404",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is incorrect according to the standards for the installation and structure of drainage piping systems used for drainage purposes in buildings?",
+        "options": {
+            "A": "Install drainage traps and vent pipes in the piping system to ensure there are no sanitary issues.",
+            "B": "Install forced drainage facilities with an appropriate drainage capacity in places like basements where natural drainage to public sewers is not possible.",
+            "C": "When embedding pipes in concrete structures or having pipes pass through concrete structures, install sleeves in advance to prevent pipe corrosion and make repairs or replacements easy.",
+            "D": "Connect stormwater pipes and wastewater pipes together as a single system."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Connect stormwater pipes and wastewater pipes together as a single system."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:56.52383444Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter that is incorrect according to standards for installation and structure of drainage piping systems used for drainage purposes in buildings.\n\nWe need to identify which statement is wrong.\n\nLet's analyze each:\n\n(A) Install drainage traps and vent pipes in the piping system to ensure there are no sanitary issues. This is standard: traps prevent sewer gas, vent pipes ensure pressure balance. So A is correct.\n\n(B) Install forced drainage facilities with appropriate drainage capacity in places like basements where natural drainage to public sewers is not possible. Forced drainage (e.g., sump pumps) is used when gravity drainage is not possible. This is standard. So B is correct.\n\n(C) When embedding pipes in concrete structures or having pipes pass through concrete structures, install sleeves in advance to prevent pipe corrosion and make repairs or replacements easy. Using sleeves (sleeve couplings) is standard practice to protect pipes and allow future access. So C is correct.\n\n(D) Connect stormwater pipes and wastewater pipes together as a single system. Typically, standards separate stormwater (rainwater) from sanitary wastewater; they should not be combined in most building codes. So D is incorrect.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4392796490,
+            "load_duration": 93823622,
+            "prompt_eval_count": 206,
+            "prompt_eval_duration": 415575569,
+            "eval_count": 252,
+            "eval_duration": 3879220840
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_552",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is NOT a proper standard regarding the structure of smoke ventilation systems installed in special evacuation stairs?",
+        "options": {
+            "A": "The smoke exhaust fan must operate automatically when the smoke vent opens, and be capable of sufficiently exhausting air or pressurizing.",
+            "B": "If the smoke vent is not exposed to the outside air, a smoke exhaust fan should be installed.",
+            "C": "The smoke vent and duct must be made of non-combustible materials and, in the event of a fire, should be large enough to effectively vent smoke and be connected to the outside air or a chimney not used during normal operation.",
+            "D": "The automatic opening device installed on the smoke vent should not allow manual opening or closing."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The automatic opening device installed on the smoke vent should not allow manual opening or closing."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:04:59.592955795Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter that is NOT a proper standard regarding the structure of smoke ventilation systems installed in special evacuation stairs.\n\nWe need to know which statement is false.\n\nWe consider typical standards: Smoke exhaust fan operates automatically when vent opens, capable of exhausting or pressurizing - seems correct. If vent not exposed to outside, a smoke exhaust fan should be installed - seems correct. Smoke vent and duct must be non-combustible, large enough, connected to outside or chimney not used normally - correct. Automatic opening device should not allow manual opening or closing - likely false, because manual operation is required for maintenance or emergency. Usually automatic opening devices can be manually opened for maintenance. So D is NOT proper. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3035350603,
+            "load_duration": 88730109,
+            "prompt_eval_count": 227,
+            "prompt_eval_duration": 427205443,
+            "eval_count": 162,
+            "eval_duration": 2510652310
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_580",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is NOT a correct statement about the environmental factors, including climate and culture, that influenced Greek architecture?",
+        "options": {
+            "A": "Abundant production of high-quality marble.",
+            "B": "Low precipitation.",
+            "C": "Clear and pleasant climate.",
+            "D": "Worship of gods in daily life."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Low precipitation."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:02.931337027Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter that is NOT a correct statement about environmental factors, including climate and culture, that influenced Greek architecture.\n\nWe need to think: Greek architecture influenced by environment: abundant marble (yes, they had marble, especially from islands like Paros, Pentelic). Low precipitation? Mediterranean climate has dry summers, but also some rain; but generally moderate precipitation. Clear and pleasant climate (yes). Worship of gods in daily life (cultural factor, yes). Which is NOT correct? Possibly \"Low precipitation\" might be inaccurate because Greece does have rainfall, especially in winter; not extremely low. But \"Abundant production of high-quality marble\" is correct. \"Clear and pleasant climate\" is generally true. \"Worship of gods in daily life\" is cultural factor. So the false one is low precipitation. So answer: B.\n\nThus output \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3303409644,
+            "load_duration": 90887641,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 288848326,
+            "eval_count": 190,
+            "eval_duration": 2918801213
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_145",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "In the floor plan of the reinforced block wall shown below, what is the wall quantity in the x-axis direction? (Note: Wall thickness is 150mm, and all units in the drawing are in mm.)",
+        "options": {
+            "A": "27.9cm/m2",
+            "B": "28.9cm/m2",
+            "C": "29.9cm/m2",
+            "D": "30.9cm/m2"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "28.9cm/m2"
+            },
+            "explanation": "Sum of wall lengths in the x-axis / net area (240+240+100+100+100) / (6*4.5) = 28.9"
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/dc/dc20190427/dc20190427m86.gif?1558301454",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:15.243373865Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to parse the problem: \"In the floor plan of the reinforced block wall shown below, what is the wall quantity in the x-axis direction? (Note: Wall thickness is 150mm, and all units in the drawing are in mm.) (A) 27.9cm/m2 (B) 28.9cm/m2 (C) 29.9cm/m2 (D) 30.9cm/m2\"\n\nWe don't have the drawing. Need to infer likely calculation: wall quantity in x-axis direction maybe total length of wall per unit area? They give answer in cm/m2, i.e., centimeters per square meter, which is a linear dimension per area. Possibly they ask for wall area per floor area? Or maybe wall quantity per floor area (i.e., wall length per floor area) given thickness 150mm.\n\nWe need to compute wall quantity = (total wall length in x direction * thickness?) Actually unit cm/m2 suggests thickness times length per area yields volume per area (i.e., cm of wall thickness per square meter). 150 mm = 15 cm thickness. If we compute total length of walls in x direction per unit floor area (m2) then multiply by thickness to get cm^3 per m2? Not sure.\n\nMaybe they want \"wall quantity\" defined as total length of wall per floor area: L (m) per m2, then convert to cm/m2. For a floor plan, we count the sum of wall lengths that are oriented in x-direction (horizontal) and then divide by floor area. Multiply by 100 to get cm per m2.\n\nWithout drawing, can't compute. Perhaps typical floor plan of a reinforced block wall? Might be a rectangular building with interior partitions? Could be a standard problem from structural design exam.\n\nWe can try to guess: The answer choices are around 28-31 cm/m2. Likely the correct is 29.9 cm/m2 (C). But need reasoning.\n\nGiven wall thickness 150 mm = 0.15 m. If wall quantity = total wall area per floor area: area of walls (length * thickness) per floor area. Then dimension would be m^2 wall area / m^2 floor area = dimensionless, but expressed as cm (maybe thickness in cm). Actually wall area = length * thickness (m * m = m2). Divide by floor area (m2) gives a ratio (dimensionless). Multiply by 100 to get cm of wall per m2? Hmm.\n\nIf we have total length of x-direction walls Lx (m). Then wall area in x direction = Lx * thickness (0.15). Divide by floor area A (m2) yields (Lx * 0.15)/A. If we want result in cm/m2, we multiply by 100 (cm per m). So wall quantity = (Lx * 0.15 *100)/A = (Lx *15)/A (cm/m2). So wall quantity = 15 * (Lx/A) cm/m2.\n\nThus Lx/A = wall quantity /15. For options about 30 cm/m2, Lx/A ~2.0. So Lx is about twice the floor area (m). That could be plausible.\n\nWe need Lx maybe computed from plan: maybe building dimensions 10m by 8m, interior walls etc.\n\nGiven lack of drawing, maybe they expect you to calculate based on given dimensions in the plan. Since we cannot see, we must guess answer.\n\nProbably answer (C) 29.9 cm/m2.\n\nThus output letter C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 12286125323,
+            "load_duration": 94677194,
+            "prompt_eval_count": 169,
+            "prompt_eval_duration": 391184914,
+            "eval_count": 758,
+            "eval_duration": 11795844847
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_234",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "What is the art movement that advocates pure geometric abstraction based on the horizontal plane, vertical plane, vertical and horizontal lines, and primary colors?",
+        "options": {
+            "A": "Neo Plasticism",
+            "B": "Elementalism",
+            "C": "Purism",
+            "D": "Suprematism"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Neo Plasticism"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:18.300562462Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"What is the art movement that advocates pure geometric abstraction based on the horizontal plane, vertical plane, vertical and horizontal lines, and primary colors?\" Options: A Neo Plasticism, B Elementalism, C Purism, D Suprematism.\n\nThe description sounds like Suprematism? Actually Suprematism is about basic geometric forms, especially squares and circles, focusing on pure feeling. But also Neo-Concrete? The description of horizontal/vertical lines and primary colors reminds of Constructivism? But options include Neo Plasticism (De Stijl). De Stijl (also called Neo-Plasticism) advocated pure geometric abstraction using horizontal and vertical lines and primary colors. So answer is Neo Plasticism. That's option A.\n\nThus respond with \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3018367202,
+            "load_duration": 88914277,
+            "prompt_eval_count": 138,
+            "prompt_eval_duration": 302246351,
+            "eval_count": 170,
+            "eval_duration": 2622020984
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Interior_132",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.46000000834465027,
+        "question": "Which of the following firefighting facilities is classified as fire-fighting activity equipment?",
+        "options": {
+            "A": "Emergency electrical outlet system",
+            "B": "Indoor fire hydrant system",
+            "C": "Emergency lighting",
+            "D": "Emergency ladder"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Emergency electrical outlet system"
+            },
+            "explanation": "[Fire-fighting activity equipment] includes smoke control systems, water supply pipe systems, sprinkler connection systems, emergency electrical outlet systems, wireless communication auxiliary systems, and fire prevention systems."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:20.820853039Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following firefighting facilities is classified as fire-fighting activity equipment?\" Options: A emergency electrical outlet system, B indoor fire hydrant system, C emergency lighting, D emergency ladder.\n\nFirefighting activity equipment likely refers to equipment used directly in firefighting activities, like hoses, hydrants, extinguishers, ladders? Emergency ladder could be for evacuation, not directly firefighting? Indoor fire hydrant system is used to supply water for firefighting, thus it's fire-fighting activity equipment. Emergency electrical outlet system is for power, not firefighting. Emergency lighting is for evacuation. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2487720082,
+            "load_duration": 97251218,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 260705215,
+            "eval_count": 139,
+            "eval_duration": 2125602422
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_618",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which of the following statements about concrete block laying is incorrect?",
+        "options": {
+            "A": "Blocks should be laid with the side that has the thicker shell facing down.",
+            "B": "Joints are generally built as closed joints, and are made as open joints only in special cases such as reinforcement with rebar.",
+            "C": "Mortar contact surfaces should be adequately wetted.",
+            "D": "A horizontal line should be marked on the guide frame, and reference blocks should be installed at corners and intermediate points using a level and plumb, then intermediate blocks should be laid."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Blocks should be laid with the side that has the thicker shell facing down."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:34.712984436Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following statements about concrete block laying is incorrect?\" Options A, B, C, D. Need to pick incorrect statement.\n\nWe need knowledge: In concrete block laying (masonry), typically blocks are laid with the thick side (bed) facing down, i.e., the larger face (the bed joint) is horizontal, the thin side is vertical? Actually standard concrete masonry units (CMU) have two faces: one with the larger thickness (the \"face\" with thicker shell) and one with a thinner side? Typically block orientation: The bed joint is the top and bottom faces (the larger face) and the header is the vertical face. Blocks are usually laid with the larger face (the face with the thicker shell) outward for aesthetic, but the thick side of the block is the front? Wait.\n\nOption A: \"Blocks should be laid with the side that has the thicker shell facing down.\" Usually you lay blocks with the thicker face outward (the face that shows) and the thinner side maybe inside? Actually in concrete block, each block has two parallel faces (the larger ones) and two ends (shorter). The thickness is the distance between the larger faces. The shell thickness is uniform. But some blocks have a thicker shell on one face? In hollow blocks, sometimes one face is thicker due to reinforcing? Typically you lay blocks with the larger face (the one that will be seen) outward, and the bed (horizontal joint) is on the thin edge? Hmm.\n\nLet's consider standard practice: For concrete block (CMU), the \"battles\" orientation: the bed joint is the top and bottom of the block, which are the larger faces. The \"header\" joint is the vertical joints. The block is laid with its face (the larger one) vertical, not horizontal. The \"thicker shell\" maybe refers to the side with a rib? Usually the block's \"full face\" is the thicker side? The statement might be wrong.\n\nOption B: \"Joints are generally built as closed joints, and are made as open joints only in special cases such as reinforcement with rebar.\" In masonry, joints can be solid (filled) or weep (open) for drainage. Typically joints are filled with mortar, i.e., closed joints. Open joints (perforated) are used for certain cases, but not specifically for reinforcement. Reinforcement usually involves grouting in the cores, not open joints. So statement might be inaccurate.\n\nOption C: \"Mortar contact surfaces should be adequately wetted.\" Yes, standard practice: you wet surfaces to improve bond.\n\nOption D: \"A horizontal line should be marked on the guide frame, and reference blocks should be installed at corners and intermediate points using a level and plumb, then intermediate blocks should be laid.\" This sounds correct as a method.\n\nThus likely incorrect is B or A. Let's verify B: In blockwork, joints are typically filled with mortar (closed joints). Open joints (also called weep holes) are used for drainage in retaining walls, etc., not for reinforcement. The statement says open joints are only for reinforcement with rebar— that's not accurate. So B is incorrect.\n\nOption A: In block laying, you lay with the thicker side down? Actually you want the face with the ribs (thicker) outward for aesthetic and structural? I think you lay with the thick side up? Wait typical concrete block has uniform thickness; you lay with the bed joint being the top face of the block (the face that sits on mortar). So the side that faces down is the same thickness as the side that faces up. So maybe statement about thicker shell facing down is irrelevant. But typical practice: The block is placed with the bed joint (the top) which is the larger face (the one with the full height). There's no \"thicker shell\" concept. However many blocks have a thicker shell on one side for better bonding; they are laid with the thick side facing the interior? I'm not sure.\n\nGiven typical exam, they'd expect B as incorrect because open joints are not used for reinforcement. So answer B.\n\nThus output: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 13857122903,
+            "load_duration": 94153524,
+            "prompt_eval_count": 194,
+            "prompt_eval_duration": 407779080,
+            "eval_count": 856,
+            "eval_duration": 13350115979
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Interior_926",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6200000047683716,
+        "question": "What is the technique called where a column is given a slight swelling in the middle to correct the optical illusion that makes the center appear thinner, thereby providing visual stability?",
+        "options": {
+            "A": "Colonnade",
+            "B": "Arcade",
+            "C": "Niche",
+            "D": "Entasis"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Entasis"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:05:36.596846277Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"What is the technique called where a column is given a slight swelling in the middle to correct the optical illusion that makes the center appear thinner, thereby providing visual stability?\" Options: (A) Colonnade, (B) Arcade, (C) Niche, (D) Entasis. The correct answer is Entasis. So answer with the option's letter: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1851388350,
+            "load_duration": 90727726,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 325393950,
+            "eval_count": 92,
+            "eval_duration": 1430964097
+        },
+        "judge": "Correct"
+    }
+]

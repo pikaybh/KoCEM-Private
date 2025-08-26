@@ -1,0 +1,22 @@
+{
+    "dev_Safety_Management_2195": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "dev_Safety_Management_2517": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "dev_Safety_Management_5362": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Safety_Management_4883": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    }
+}

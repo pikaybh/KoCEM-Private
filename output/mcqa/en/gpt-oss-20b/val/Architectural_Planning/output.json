@@ -1,0 +1,1642 @@
+[
+    {
+        "id": "val_Architectural_Planning_289",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7300000190734863,
+        "question": "Which of the following is the most appropriate height for a kitchen countertop?",
+        "options": {
+            "A": "450mm",
+            "B": "600mm",
+            "C": "850mm",
+            "D": "1000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "850mm"
+            },
+            "explanation": "The height of a kitchen countertop is between 800 and 850mm."
+        },
+        "image_path": null,
+        "model_answer": "(C) 850 mm",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:37.371525689Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) 850 mm",
+                "thinking": "We need to answer the question: \"Which of the following is the most appropriate height for a kitchen countertop?\" Options: (A) 450mm, (B) 600mm, (C) 850mm, (D) 1000mm. The typical kitchen countertop height is around 36 inches (914 mm). But 36 inches is 914 mm. The standard kitchen countertop height is about 900-950 mm (~36 inches). But in practice, 36 inches is standard. 450 mm is too low (just like table height). 600 mm is too low. 850 mm is a bit low, but 850 mm is about 33.5 inches, still a bit low. 1000 mm is too high. Actually typical is about 900 mm. None of these exactly match 900 mm. The closest is 850 mm or 1000 mm. 850 mm is closer to 900 mm than 1000 mm. But 1000 mm is too high. So likely answer (C) 850mm. But typical kitchen countertop height is about 36 inches (914 mm). The question says \"most appropriate height for a kitchen countertop\". In many guidelines, typical countertop height is about 36 inches (~900mm). So among choices, 850 mm is best. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2401692849,
+            "load_duration": 184833208,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 37980956,
+            "eval_count": 289,
+            "eval_duration": 2172895226
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1629",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is the most inappropriate in terms of floor height planning for an office building?",
+        "options": {
+            "A": "First floor height: 400cm",
+            "B": "Standard floor height: 360cm",
+            "C": "Top floor height: Same as standard floor",
+            "D": "First floor height (with mezzanine): 600cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Top floor height: Same as standard floor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:40.626789207Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D)",
+                "thinking": "We have a question: \"Which of the following is the most inappropriate in terms of floor height planning for an office building?\" Options:\n\n(A) First floor height: 400cm\n(B) Standard floor height: 360cm\n(C) Top floor height: Same as standard floor\n(D) First floor height (with mezzanine): 600cm\n\nWe need to choose which is most inappropriate. We consider typical office floor heights: first floor height (ground floor) often larger due to lobby, reception, mezzanine, etc. Standard floor height is usually around 3-3.5 meters. The top floor might be same as standard. Option D: First floor height (with mezzanine): 600 cm (6 meters). That seems too high maybe? Let's consider typical heights: Ground floor height often 4 meters (400 cm) to accommodate lobby and mezzanine. A mezzanine might add height but not typically 6 m. 6m floor height seems too high. Option A is 400 cm which is typical. Option B 360 cm (3.6 m) typical. Option C top floor same as standard, typical. Option D 600 cm (6 m) too high. So D is most inappropriate. So answer: (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2224951772,
+            "load_duration": 181181115,
+            "prompt_eval_count": 150,
+            "prompt_eval_duration": 45194142,
+            "eval_count": 269,
+            "eval_duration": 1992885301
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_998",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is the correct explanation for the method of indicating dimensions on a drawing?",
+        "options": {
+            "A": "Unless otherwise specified, dimensions are indicated as finished dimensions.",
+            "B": "Dimensions are entered to the left of the center of the dimension line.",
+            "C": "Dimensions are written parallel to the dimension line so they can be read from right to left or from top to bottom on the right side of the drawing.",
+            "D": "The ends of dimension lines can be mixed with arrows or dots, and on the same drawing, dimension lines that are small are indicated with dots."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Unless otherwise specified, dimensions are indicated as finished dimensions."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:44.336541225Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to choose the correct explanation for the method of indicating dimensions on a drawing. This is likely referencing drafting conventions. The options:\n\n(A) Unless otherwise specified, dimensions are indicated as finished dimensions. That seems ambiguous. \"finished dimensions\" maybe refers to finished parts? Not sure.\n\n(B) Dimensions are entered to the left of the center of the dimension line. That seems too specific, not general.\n\n(C) Dimensions are written parallel to the dimension line so they can be read from right to left or from top to bottom on the right side of the drawing. This sounds like typical dimension placement: dimensions are parallel to dimension lines and read from right to left or top to bottom on the right side of the drawing. That seems plausible.\n\n(D) The ends of dimension lines can be mixed with arrows or dots, and on the same drawing, dimension lines that are small are indicated with dots. That also could be true, but is it the correct explanation? I think standard is dimension lines use arrows at both ends, but sometimes dots for small dimensions? Actually in drafting, dimension lines are shown with arrows at both ends for finished dimensions. For small dimensions, a dot is used instead of an arrow. But the question: \"Which of the following is the correct explanation for the method of indicating dimensions on a drawing?\" Likely they want the general rule: dimensions are written parallel to dimension lines, read from right to left or top to bottom on the right side. So answer C. Let's double-check:\n\nOption A: \"Unless otherwise specified, dimensions are indicated as finished dimensions.\" This is ambiguous: finished dimension vs. nominal? Usually dimension is finished. But that doesn't explain method.\n\nOption B: \"Dimensions are entered to the left of the center of the dimension line.\" Too specific.\n\nOption C: \"Dimensions are written parallel to the dimension line so they can be read from right to left or from top to bottom on the right side of the drawing.\" Yes that is typical.\n\nOption D: \"The ends of dimension lines can be mixed with arrows or dots, and on the same drawing, dimension lines that are small are indicated with dots.\" This is true but maybe not the main method.\n\nThus answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3663170521,
+            "load_duration": 190581409,
+            "prompt_eval_count": 197,
+            "prompt_eval_duration": 48147545,
+            "eval_count": 456,
+            "eval_duration": 3419982864
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_237",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following is not classified as an individual hot water supply system?",
+        "options": {
+            "A": "Instantaneous type",
+            "B": "Storage type",
+            "C": "Direct heating type",
+            "D": "Steam-water mixing type"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Direct heating type"
+            },
+            "explanation": "Steam heating: This is a method where water is heated to produce steam, which is then sent through pipes to radiators installed in each room. The heat of vaporization of the steam is used for heating. Advantages: 1. Steam has a high heat transport capacity due to its latent heat of vaporization. 2. It has a shorter preheating time and faster circulation compared to hot water heating. 3. The heating surface area can be smaller than that of hot water heating. 4. Installation and maintenance costs are low. Disadvantages: 1. The comfort level of heating is low. 2. It is difficult to adjust the heat output according to changes in heating load. 3. Noise can occur, and boiler handling skills are required. Hot water supply systems: Individual systems include the instantaneous type, storage type, and steam-water mixing type. Central systems include direct heating and indirect heating types."
+        },
+        "image_path": null,
+        "model_answer": "(D) Steam‑water mixing type",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:45.74776809Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Steam‑water mixing type",
+                "thinking": "We need to identify which is not classified as an individual hot water supply system. In HVAC or plumbing context, individual hot water supply systems: typically instantaneous (tankless), storage type (tank), direct heating type (maybe direct-fired, like electric coil), steam-water mixing type? I think steam-water mixing is a system used in heating, not typical hot water supply. The question: \"Which of the following is not classified as an individual hot water supply system?\" Options: Instantaneous type, Storage type, Direct heating type, Steam-water mixing type. Usually individual hot water supply systems are: instantaneous, storage, direct heating. Steam-water mixing is not typical. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1372437927,
+            "load_duration": 181339140,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 36904208,
+            "eval_count": 154,
+            "eval_duration": 1149138261
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1151",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8899999856948853,
+        "question": "Which of the following is NOT correct regarding the planning of store flooring?",
+        "options": {
+            "A": "It should be free from slipperiness or irregularities.",
+            "B": "Flooring materials that minimize noise should be used.",
+            "C": "The layout should allow customers to be naturally guided from outside.",
+            "D": "Vivid colors should be used regardless of the merchandise or display fixtures."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Vivid colors should be used regardless of the merchandise or display fixtures."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:47.215696222Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We have to choose the option letter that is NOT correct regarding planning store flooring. Let's analyze each.\n\n(A) \"It should be free from slipperiness or irregularities.\" That is correct: flooring should be safe, slip-free, no irregularities.\n\n(B) \"Flooring materials that minimize noise should be used.\" Also correct: less noise to improve shopping experience.\n\n(C) \"The layout should allow customers to be naturally guided from outside.\" That is typical store layout: guide customers from entrance to exit. Correct.\n\n(D) \"Vivid colors should be used regardless of the merchandise or display fixtures.\" That seems wrong: floor color should complement merchandise and fixtures, not be vivid regardless. So D is NOT correct. So answer: (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1432649990,
+            "load_duration": 184113669,
+            "prompt_eval_count": 155,
+            "prompt_eval_duration": 41075252,
+            "eval_count": 160,
+            "eval_duration": 1203015985
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1362",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following statements about school management methods is NOT correct?",
+        "options": {
+            "A": "The Comprehensive Classroom Type (Type A) is a management method recommended for lower grades in elementary school.",
+            "B": "In the Subject Classroom Type (Type V), classrooms with a high degree of subject specialization are assigned for each subject.",
+            "C": "In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities.",
+            "D": "The General Classroom · Special Classroom Type (Types U · V) is the most widely used method in Korean middle and high schools."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities."
+            },
+            "explanation": "Option 3 actually describes the Dalton Plan."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:54.558651986Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We have a question: \"Which of the following statements about school management methods is NOT correct?\" It's multiple choice with letters A, B, C, D.\n\nWe need to evaluate each statement.\n\nThis is about Korean school management methods. The options mention \"Comprehensive Classroom Type (Type A)\", \"Subject Classroom Type (Type V)\", \"Plato Type (Type P)\", \"General Classroom · Special Classroom Type (Types U · V)\".\n\nWe must decide which statement is NOT correct. So we need to know which one is false.\n\nWe should analyze each statement.\n\nBut I need knowledge about Korean school management methods.\n\nLet's recall. In Korean educational management, there are various types:\n\n- \"General Classroom Type\" (U?), \"Special Classroom Type\" (V?). Actually maybe the types:\n\nIn Korean schools, there are various school management models:\n\n- Type A: Comprehensive classroom type: used in primary schools, each class has a teacher responsible for all subjects. This is correct.\n\n- Type V: Subject classroom type: in which subject teachers teach in subject classrooms. That is used in middle and high schools. This is likely correct.\n\n- Type P: Plato type? This might refer to \"Plato\" as a type where grades and classes are eliminated, and students choose subjects. Actually, I'm not sure about \"Plato type\" because that might be the \"Plato type\" used in universities? Or is it a type used in some schools? There's \"Plato type\" used in Korean schools? It might be an advanced system where teachers are removed and students choose classes. I think it's correct: in the \"Plato type\", grades and classes are eliminated, and students choose subjects based on individual abilities. That is a type.\n\n- Types U and V? \"General classroom · Special classroom type\" is maybe U type? Actually, \"General classroom type\" (U) and \"Special classroom type\" (V) - this is used in Korean middle and high schools? Or maybe \"General classroom type\" (U) is used in elementary schools, while \"Special classroom type\" (V) is used in middle schools? I'm not sure.\n\nLet's research mentally: In Korean school system, there are three main school management types: Comprehensive classroom type (Type A), General classroom type (Type U), and Special classroom type (Type V). These are used at various levels.\n\nWait: Let me think. The \"Comprehensive classroom type\" is used at primary schools. The \"General classroom type\" (U) is used at middle and high schools, with a general classroom structure. The \"Special classroom type\" (V) is used for specialized schools or special classes. Actually, I'm mixing.\n\nThe question states: \"The General Classroom · Special Classroom Type (Types U · V) is the most widely used method in Korean middle and high schools.\" That might be true.\n\nWhich statement is NOT correct? Let's verify each:\n\n(A) The Comprehensive Classroom Type (Type A) is a management method recommended for lower grades in elementary school. That seems correct.\n\n(B) In the Subject Classroom Type (Type V), classrooms with a high degree of subject specialization are assigned for each subject. That also seems correct. But Type V is subject classroom type, yes.\n\n(C) In the Plato Type (Type P), grades and classes are eliminated, and students choose subjects according to their individual abilities. That might be correct; the Plato type is a method where there are no grades or classes, and students choose classes as they please.\n\n(D) The General Classroom · Special Classroom Type (Types U · V) is the most widely used method in Korean middle and high schools. I'm not sure if it's the most widely used method. Actually, the most widely used method is \"General Classroom type (Type U)\" alone? Or maybe \"General Classroom type\" and \"Special Classroom type\" combined? But maybe the most widely used is \"General Classroom type\" only, not both. Or maybe the answer is that it's not correct that both U and V are the most widely used; only U is used widely, while V is for special classes, less widely.\n\nThus I suspect option D is the incorrect statement.\n\nHowever, I should double-check. The General Classroom type (U) is used widely in middle and high schools. Special Classroom type (V) is used in specialized schools or special classes. So saying that the combination of U and V is the most widely used method might be overstating because V is not as common. So it's likely false.\n\nThus answer: D.\n\nLet's choose D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 7311876631,
+            "load_duration": 181812844,
+            "prompt_eval_count": 201,
+            "prompt_eval_duration": 55951816,
+            "eval_count": 935,
+            "eval_duration": 7070085249
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_2088",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.2800000011920929,
+        "question": "Which of the following is the least relevant as a checkpoint for natural and artificial lighting in factory construction?",
+        "options": {
+            "A": "Proper illumination level",
+            "B": "Illumination distribution",
+            "C": "Presence of refraction",
+            "D": "Presence of glare"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Presence of refraction"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:52:55.7446666Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"Which of the following is the least relevant as a checkpoint for natural and artificial lighting in factory construction?\" Options: (A) Proper illumination level, (B) Illumination distribution, (C) Presence of refraction, (D) Presence of glare.\n\nWe need to pick the least relevant checkpoint for lighting. In factory lighting, we care about illumination level, distribution, glare. Refraction? Typically refraction is about bending of light, maybe not relevant to lighting design. So the least relevant is presence of refraction. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1159112669,
+            "load_duration": 187163334,
+            "prompt_eval_count": 132,
+            "prompt_eval_duration": 40522765,
+            "eval_count": 125,
+            "eval_duration": 925614737
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_613",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following statements about hot-water heating is correct?",
+        "options": {
+            "A": "The preheating time is shorter than that of steam heating.",
+            "B": "It requires less radiator surface area and piping than steam heating.",
+            "C": "There is no risk of freezing if the heating is stopped in cold weather.",
+            "D": "Since it uses sensible heat for heating, it is more comfortable than steam heating."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Since it uses sensible heat for heating, it is more comfortable than steam heating."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:01.464652211Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D)",
+                "thinking": "We need to choose the correct statement. Let's analyze each.\n\n(A) \"The preheating time is shorter than that of steam heating.\" Hot-water heating: heating water to supply heat. Steam heating typically needs to bring water to boiling, then steam rises, condenses, etc. Preheating? Preheating time: steam heating requires time to generate steam? Actually hot-water heating may have longer preheat because water must reach high temperature? Hmm. But typical: steam systems require long preheat time to produce steam? Might be ambiguous. However, common knowledge: Steam systems are slower to start up because they need to heat water to boiling, then produce steam and condense, etc. Hot-water systems can be heated quickly? In practice, hot-water heating can have shorter preheating time because you can heat water to e.g. 180F and supply. But steam heating also can be quick? Preheating time maybe similar. Not sure.\n\n(B) \"It requires less radiator surface area and piping than steam heating.\" Steam heating typically uses smaller surface area because steam condenses releasing latent heat. Hot-water uses sensible heat; water must be heated to same temperature, requiring more radiator area to transfer heat. So hot-water requires larger surface area. So (B) false.\n\n(C) \"There is no risk of freezing if the heating is stopped in cold weather.\" In hot-water system, if heating is stopped, water in pipes may freeze if it's cold. So risk of freezing exists. So false.\n\n(D) \"Since it uses sensible heat for heating, it is more comfortable than steam heating.\" Comfort: Steam can produce a dry, harsh heat? Sensible heat gives a gentler warmth. Many say hot-water heating is more comfortable because it doesn't produce high humidity or drafts. Steam heating can cause drafts, uneven heat. So (D) likely correct. But we should verify: The statement: Since it uses sensible heat for heating, it is more comfortable than steam heating. Sensible heat: water heated to 80-100°C, then radiates. Steam: condenses at 100°C, releasing latent heat, may cause drafts. Many say steam is less comfortable due to drafts. So (D) seems right.\n\nBut need to confirm (A). Which one is \"correct\"? Only one correct. We know (B) false, (C) false. (A) maybe false. Let's think: Preheating time. In hot-water systems, you need to heat water to about 200°F before delivering. That can take time. Steam heating: water must be heated to 212°F and then steam formed; once steam generated, it rises quickly. The preheating time maybe similar or longer. But typical statement: Steam heating has shorter preheat time because it quickly produces steam? But not sure.\n\nHowever, the typical knowledge: Steam heating systems have a \"shorter preheat time\" relative to hot-water. Because to heat water to steam, you need to heat it to 212°F, but once steam produced, it flows. But hot water needs to be heated to high temperature and then pumped to radiators. The heating cycle may take longer due to circulation. In practice, steam system preheat maybe longer. Let's research memory: Many textbooks: \"Steam heating systems have shorter start-up time because the water boils and steam rises.\" So steam heating has shorter preheat than hot-water. So (A) is false. So correct answer is (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5676211486,
+            "load_duration": 182359696,
+            "prompt_eval_count": 163,
+            "prompt_eval_duration": 45736253,
+            "eval_count": 720,
+            "eval_duration": 5442740286
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1090",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3700000047683716,
+        "question": "You have 20 kg of aggregate. How many kilograms or more must pass through a 5 mm standard sieve by weight ratio to be considered as sand?",
+        "options": {
+            "A": "10 kg",
+            "B": "12 kg",
+            "C": "15 kg",
+            "D": "17 kg"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "17 kg"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 10 kg",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:04.495873296Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) 10 kg",
+                "thinking": "The question: \"You have 20 kg of aggregate. How many kilograms or more must pass through a 5 mm standard sieve by weight ratio to be considered as sand?\"\n\nInterpretation: There is a standard sieve test for sand content. Usually, for sand, the passing through 5 mm sieve must be at least a certain percentage of the total mass? In aggregate grading, the fine fraction passing through a 5 mm sieve is considered as sand. The usual specification: For sand, the passing on 5mm sieve must be at least 50% of the aggregate? Wait.\n\nLet's recall: In construction aggregate grading, the percentage passing 5 mm sieve: For aggregate to be considered as \"sand\", the amount passing through a 5 mm sieve should be at least 50% (some references say 50% or more). However, some may require 10%? Wait.\n\nThe question: \"How many kilograms or more must pass through a 5 mm standard sieve by weight ratio to be considered as sand?\" They give options: 10 kg, 12 kg, 15 kg, 17 kg, out of 20 kg aggregate. So they ask for the weight threshold.\n\nIf the standard requires 50% passing through 5 mm sieve: then at least 10 kg of 20 kg must pass. Option A: 10 kg. That seems plausible.\n\nBut there might be different standard: According to Indian Standard IS 2389-1:2017, \"the percentage passing through a 5mm sieve should be at least 50%\" for sand. For aggregates, maybe for sand, the passing should be 50% or more. So answer 10 kg.\n\nThus answer (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2995271132,
+            "load_duration": 180818882,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 46325524,
+            "eval_count": 364,
+            "eval_duration": 2763862501
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1239",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "In the LDK type among the unit floor plan types of apartment housing, what does the 'D' stand for?",
+        "options": {
+            "A": "Living room",
+            "B": "Kitchen",
+            "C": "Dining room",
+            "D": "Bedroom"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Dining room"
+            },
+            "explanation": "LDK stands for Living room, Dining room, and Kitchen."
+        },
+        "image_path": null,
+        "model_answer": "(C) Dining room",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:05.424175517Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) Dining room",
+                "thinking": "The question: \"In the LDK type among the unit floor plan types of apartment housing, what does the 'D' stand for?\" It refers to LDK, commonly used in Japan to denote a type of apartment floor plan: L=Living, D=Dining, K=Kitchen. The 'D' stands for Dining room. So answer: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 894764367,
+            "load_duration": 181886717,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 40546985,
+            "eval_count": 88,
+            "eval_duration": 666810914
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1089",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "What is the appropriate thickness for the concrete footing (footing) AB shown in the drawing?",
+        "options": {
+            "A": "20cm",
+            "B": "15cm",
+            "C": "10cm",
+            "D": "5cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20cm"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20010429/jj20010429m55.gif?1622013050",
+        "model_answer": "(B) 15cm",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:07.79024348Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) 15cm",
+                "thinking": "We need to answer based on some drawing presumably showing concrete footing AB. Without drawing, we need to infer typical thickness for footing? The question: \"What is the appropriate thickness for the concrete footing (footing) AB shown in the drawing?\" Options: 20cm, 15cm, 10cm, 5cm. Usually footings for small buildings might be 15cm? But we need context: the drawing may show an abutment? \"Footing AB\" maybe a single footing at a wall? Possibly a footing for a building foundation. The correct thickness might be 20 cm. But we need more context: It's likely a typical footings are 15 cm thick for 1-2 meter spans. The question maybe part of a structural design exam: the correct answer might be 15 cm (i.e., 0.15 m). But I'd lean 15 cm.\n\nAlternatively, could be 20 cm because of load? The typical footings for a single column might be 15cm. But for a building with heavy load, might be 20 cm. The drawing might show a footing AB with dimensions? Might show a foot area 1000x500 mm? Eh.\n\nGiven the options, I'd choose 15 cm.\n\nThus answer: (B) 15cm."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2332113196,
+            "load_duration": 183387994,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 40057189,
+            "eval_count": 282,
+            "eval_duration": 2103355225
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_69",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is not included in the design documents required for a building permit application?",
+        "options": {
+            "A": "Site plan",
+            "B": "Floor plan",
+            "C": "Perspective drawing",
+            "D": "Building plan document"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Perspective drawing"
+            },
+            "explanation": "A perspective drawing is a diagram used for reference during construction or for explaining to the building owner."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:09.141586071Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have a question: \"Which of the following is not included in the design documents required for a building permit application?\" Options: (A) Site plan, (B) Floor plan, (C) Perspective drawing, (D) Building plan document.\n\nWe need to know typical required documents: Usually building permits require site plan, floor plan, building plan (also known as construction documents), and may also include perspective drawings. But the question: \"not included in the design documents required for a building permit application?\" It likely refers to perspective drawing not required. So answer C. But check: building plan document likely includes all drawings? Perspective drawing is optional. So C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1321470555,
+            "load_duration": 183423738,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 47696579,
+            "eval_count": 146,
+            "eval_duration": 1086033671
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_579",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following is least related to the cause of trap seal loss?",
+        "options": {
+            "A": "Capillary action",
+            "B": "Evaporation",
+            "C": "Induced siphonage",
+            "D": "Indirect drainage"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Indirect drainage"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Capillary action",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:11.651742709Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) Capillary action",
+                "thinking": "We need to interpret the question: \"Which of the following is least related to the cause of trap seal loss?\" Options: (A) Capillary action, (B) Evaporation, (C) Induced siphonage, (D) Indirect drainage.\n\nIn plumbing, a trap seal is the water that sits in the U-shaped pipe to prevent sewer gases from entering the building. The cause of trap seal loss includes evaporation, siphoning (induced siphonage), and indirect drainage. Capillary action is not usually a cause of trap seal loss? Let's think.\n\nCapillary action: refers to the ability of a liquid to flow in narrow spaces without external forces. In traps, capillary action can sometimes help maintain water seal? Actually capillary action can cause water to \"pull\" into small pipes. But I'm not sure if it's a cause of seal loss. Evaporation can cause water to evaporate, reducing seal. Induced siphonage: due to a suction head or negative pressure that draws water out. Indirect drainage: draining of water from trap due to other drains. So the least related: Capillary action. So answer A. Let's confirm.\n\nIn the context of plumbing, typical causes of trap seal loss: Evaporation, siphonage, and indirect drainage. Capillary action is not normally considered a cause. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2463706559,
+            "load_duration": 184971809,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 37044914,
+            "eval_count": 294,
+            "eval_duration": 2229055483
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_611",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7200000286102295,
+        "question": "Which of the following statements about unit space planning in housing is NOT correct?",
+        "options": {
+            "A": "A rectangular living room shape is generally more advantageous than a square shape for furniture arrangement and space utilization.",
+            "B": "For convenience, the dining room should basically be located close to the kitchen.",
+            "C": "To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan.",
+            "D": "It is recommended that bedrooms be situated away from sources of noise and face open spaces such as gardens."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "To minimize the space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:14.204261523Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to choose the statement that is NOT correct. Let's analyze each.\n\nWe need knowledge of unit space planning. Common guidelines:\n\n- Rectangular living room shape is generally more advantageous than square for furniture arrangement and space utilization: I think rectangular is better because you can have a defined area for seating, easier arrangement. Square might be less efficient. So that statement seems correct.\n\n- Dining room should be located close to the kitchen: that's standard, yes.\n\n- To minimize space used as a passageway, it is preferable to place the living room far from the entrance or at the center of the floor plan. Hmm: Minimizing passage space: if living room is far from entrance, you have longer corridor. But placing living room at center reduces hallway length maybe. Actually to minimize passageway, you want living room near entrance to reduce corridor? Or maybe you want living room far from entrance to avoid people passing through? Wait: typical advice: \"minimize space used as a passageway by placing rooms that have high traffic close to each other, or placing them near entrance.\" So statement says \"preferable to place living room far from entrance or at the center of the floor plan.\" That seems contradictory: far from entrance means more hallway. That would increase passage. So that statement is likely incorrect. So option (C) is NOT correct.\n\n- Bedrooms away from noise and face open spaces: yes.\n\nThus answer: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2517880732,
+            "load_duration": 179894089,
+            "prompt_eval_count": 196,
+            "prompt_eval_duration": 46947868,
+            "eval_count": 299,
+            "eval_duration": 2286842130
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1659",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8899999856948853,
+        "question": "Which school operation method has the following characteristics?",
+        "options": {
+            "A": "Comprehensive classroom type",
+            "B": "Subject-specific classroom type",
+            "C": "Platoon type",
+            "D": "Dalton type"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Comprehensive classroom type"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110320/bt20110320m5.gif?1526080845",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:17.655372452Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to identify which school operation method has following characteristics: It lists (A) Comprehensive classroom type, (B) Subject-specific classroom type, (C) Platoon type, (D) Dalton type. The question: \"Which school operation method has the following characteristics?\" but we don't have details of the characteristics; maybe in exam question they provide some description and ask which method corresponds. However we only have choices. We must guess? But the instruction says \"Answer with the option's letter from the given choices directly.\" Without context, we can't. Possibly the question expects answer: \"C\" because Platoon type has characteristics described earlier? But we don't know. Let's think: In school operation methods: comprehensive classroom type (all subjects in same classroom), subject-specific classroom type (different subjects taught in specialized rooms), platoon type (students are divided into groups that rotate through subject classes), Dalton type (students work independently). The question likely asks which of these has certain characteristics described earlier. Without description, guess? The typical MCQ with these options might ask: \"Which school operation method has the following characteristics: subject-specific classroom type? It might be (B). But the question says \"Which school operation method has the following characteristics?\" So they list options; maybe each option is a method; need to pick one that matches described characteristics.\n\nCould be a Korean educational terminology: \"comprehensive classroom type\" = \"통합 교실형\", \"subject-specific classroom type\" = \"전과목 별 교실형\", \"platoon type\" = \"플래툰형\", \"Dalton type\" = \"달튼형\". The question might refer to \"platoon type\" has characteristics such as \"교과별 수업은 교실 교차 학습 방식\" etc. Actually, the platoon type (플래툰형) uses rotation: each platoon of students attend different subject classes. This matches the description \"교실 교차 수업 방식을 사용\". So maybe answer is (C).\n\nLet's answer (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3419438761,
+            "load_duration": 183636124,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 36402972,
+            "eval_count": 426,
+            "eval_duration": 3194655243
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_212",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5799999833106995,
+        "question": "What is the minimum effective width required for a corridor jointly used by two or more households in an apartment building? (In the case of a side corridor)",
+        "options": {
+            "A": "90cm",
+            "B": "120cm",
+            "C": "150cm",
+            "D": "180cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "120cm"
+            },
+            "explanation": "The width of the corridor in an apartment building must be at least 1.2m, and corridors with living rooms on both sides must be at least 1.8m wide."
+        },
+        "image_path": null,
+        "model_answer": "(B) 120 cm",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:22.021879973Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) 120 cm",
+                "thinking": "We need to recall building codes: Minimum corridor width for side corridor usage by multiple households. The question is presumably referencing some building regulation, maybe local building code in Canada? In residential apartment building, corridor width for two or more households? It might be 120 cm or 150 cm. Let’s think.\n\nIn Canada, National Building Code (NBC) requires that corridors be at least 1.1 meters (110 cm) wide for one occupant; but for multi-occupant corridor, at least 1.4 meters (140 cm). But I'm not sure.\n\nIn US, e.g., International Residential Code (IRC) requires minimum width of 36 inches (91.44 cm) for hallway. For dwelling units that contain 2 or more units, corridor width is 36 inches. But the code for multi-unit building might require 3 feet? Wait: IRC 2018 3-402.5: Minimum width of corridor: 36 inches. 3-402.5 says corridor width is 36 inches for a corridor serving two or more dwelling units. Hmm. But the question likely is referencing local building codes in Philippines or something else? The question: \"What is the minimum effective width required for a corridor jointly used by two or more households in an apartment building? (In the case of a side corridor)\" The term \"effective width\" suggests maybe the Philippines Building Code or some local guidelines. In the Philippines, the Minimum Effective Width is defined. For side corridors in multi-occupancy building, I recall it might be 90 cm for single household, 120 cm for multiple households, 150 cm for special. Let’s search memory: In the Philippines Building Code, the corridor width is measured as effective width (i.e., after subtracting door widths, columns etc). For side corridor, the minimum effective width required is 90 cm for a corridor serving a single household, and 120 cm for two or more households. Actually I think 120 cm is for corridor serving two or more households. Wait the options include 90, 120, 150, 180. So the answer likely is 120 cm. Let's double-check: The \"minimum effective width\" for side corridors is 90 cm for corridors serving single household. For corridors serving multiple households, 120 cm. For corridor width of 150 cm for certain high occupancy. The code: \"Effective width for side corridor: 90 cm for a single dwelling unit; 120 cm for two or more dwelling units; 150 cm for other occupancy (special)\".\n\nThus answer (B) 120cm."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4331351177,
+            "load_duration": 184950461,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 45328370,
+            "eval_count": 546,
+            "eval_duration": 4097195063
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_374",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8700000047683716,
+        "question": "Which of the following statements about interior color planning is incorrect?",
+        "options": {
+            "A": "Clearly select the main color.",
+            "B": "Use as many colors as possible.",
+            "C": "Take into account the location, brightness, and lighting of each room.",
+            "D": "Be mindful of the feeling of expansion or contraction depending on the expansiveness or compactness of colors."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Use as many colors as possible."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:23.451012547Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a multiple choice question. It says: \"Which of the following statements about interior color planning is incorrect?\" Options: (A) Clearly select the main color. (B) Use as many colors as possible. (C) Take into account the location, brightness, and lighting of each room. (D) Be mindful of the feeling of expansion or contraction depending on the expansiveness or compactness of colors.\n\nWe need to pick which statement is incorrect. Let's analyze interior color planning. Common guidelines: choose a main color palette, use limited colors (not many), consider lighting, and consider psychological effects of color. So option B: \"Use as many colors as possible\" is incorrect. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1389424753,
+            "load_duration": 185035317,
+            "prompt_eval_count": 154,
+            "prompt_eval_duration": 42830633,
+            "eval_count": 155,
+            "eval_duration": 1156708829
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_617",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7699999809265137,
+        "question": "The following is the definition of a basement floor according to the Building Act. What is the correct content to fill in the blank ( )?",
+        "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "1/4",
+            "D": "1/5"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1/2"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20090118/jj20090118m60.gif?1348115407",
+        "model_answer": "(A) 1/2",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:27.697666819Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) 1/2",
+                "thinking": "The question: \"The following is the definition of a basement floor according to the Building Act. What is the correct content to fill in the blank ( )?\" They present options: (A) 1/2, (B) 1/3, (C) 1/4, (D) 1/5.\n\nWe need to know which proportion in the Building Act? Possibly regarding the floor area ratio? Basement floor area? In many building codes, a basement floor's area can be counted as 1/2 of its area for floor area calculations. Or something like 1/3? Let's think. In Japanese Building Act (建築基準法), basement floors (地下室) may be counted as half (1/2) for floor area calculations for the calculation of building coverage ratio or floor area ratio? Actually the Japanese Building Act: basement area counted as 1/2 of its area for floor area ratio. But I'm not certain. Let me recall: The \"floor area ratio\" (建築面積率) uses the sum of floor area of all floors. For basement floors, the area is counted at a reduced rate: 1/2 of the actual area? Actually reading: In Japan, \"地下室\" can be counted as 1/2 of the area for the calculation of the floor area ratio. For \"地下階\" (basement floor) they might have special measurement. In the Building Act, basement floors are counted at 1/2 the actual floor area. The same for ground floor? Let me confirm: The building coverage ratio (建築面積率) uses floor area. For basement floors, the area is counted at 1/2? Another possibility: The basement area counts as 1/2 in the calculation of the floor area ratio. But some codes might use 1/3? Let me think: The \"Building Code of Japan\" defines \"basement floor\" (地下室) as a floor below ground level. In the context of the Building Act, for floor area ratio, basement floor is counted as 1/2. I'm fairly certain it's 1/2.\n\nThus the correct answer: (A) 1/2. Let's check if any nuance: The question: \"The following is the definition of a basement floor according to the Building Act. What is the correct content to fill in the blank ( )?\" It likely refers to the ratio of floor area counted. So answer: (A) 1/2."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4218777071,
+            "load_duration": 189055278,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 48260633,
+            "eval_count": 530,
+            "eval_duration": 3977740422
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_900",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which projection method is used when drawing architectural plans?",
+        "options": {
+            "A": "First-angle projection",
+            "B": "Second-angle projection",
+            "C": "Third-angle projection",
+            "D": "Fourth-angle projection"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Third-angle projection"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:30.532129689Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have a question: \"Which projection method is used when drawing architectural plans?\" The choices: (A) First-angle projection, (B) Second-angle projection, (C) Third-angle projection, (D) Fourth-angle projection.\n\nIn engineering drawing, I think there are standard projection methods: In US and Canada, third-angle projection is used. In Europe, first-angle projection is used. In architecture? It depends. Usually in architectural plans, especially in the U.S., third-angle projection is used. But if it's about drawing architectural plans in a general sense? The typical used method: Third angle. Let's think: \"Architectural plans\" often refer to drawing by architects for building design. In the US, they use third angle projection for drawings. The standard is ISO 5455 or ANSI Y14.5. For architecture, third angle is standard in US. In many countries, first angle is used. But the question likely expects third angle. Because it's the most common in the US.\n\nBut the question might be referencing \"first angle projection\" as used in many countries for architectural drawings. The context: \"Which projection method is used when drawing architectural plans?\" Could be \"First-angle projection\" used in Europe? But typical exam: For architectural drawings, third angle projection. But let’s recall typical test: Many engineering exam questions ask: \"Which projection method is used for architectural drawings?\" The answer is \"Third-angle projection.\" In engineering, they use third-angle in the US, first-angle in Europe. Architecture uses third-angle in US. So answer: (C) Third-angle projection.\n\nThus letter: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2803156182,
+            "load_duration": 187914730,
+            "prompt_eval_count": 120,
+            "prompt_eval_duration": 37223838,
+            "eval_count": 339,
+            "eval_duration": 2573655181
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_96",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8700000047683716,
+        "question": "When residential spaces are divided into personal spaces, social spaces, and work spaces according to their main functions, which of the following is NOT considered a social space?",
+        "options": {
+            "A": "Living room",
+            "B": "Dining room",
+            "C": "Study",
+            "D": "Reception room"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Study"
+            },
+            "explanation": "Personal spaces include bathrooms, bedrooms, and studies. Work spaces include kitchens, laundry rooms, and utility rooms. Social spaces include living rooms, reception rooms, dining rooms, and terraces."
+        },
+        "image_path": null,
+        "model_answer": "(C) Study",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:31.843289835Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) Study",
+                "thinking": "We need to choose which of these is NOT considered a social space. The question: \"When residential spaces are divided into personal spaces, social spaces, and work spaces according to their main functions, which of the following is NOT considered a social space?\" So categorize: personal spaces (private), social spaces (for interaction), work spaces. Which one is NOT considered a social space? Options: (A) Living room – typically a social space. (B) Dining room – social space. (C) Study – likely a work space. (D) Reception room – social space. So the answer is (C) Study."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1282493991,
+            "load_duration": 203547055,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 42056400,
+            "eval_count": 139,
+            "eval_duration": 1033185061
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_188",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8199999928474426,
+        "question": "In the case of a building where the distinction between floors is unclear, at what building height is one floor counted?",
+        "options": {
+            "A": "3m",
+            "B": "5m",
+            "C": "4m",
+            "D": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:34.823361878Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We have a question: \"In the case of a building where the distinction between floors is unclear, at what building height is one floor counted?\" Options: A) 3m B) 5m C) 4m D) 5m. Wait B and D both 5m. Might be a typo. We need pick answer. This likely refers to civil engineering building code: floor height thresholds for counting floors. In some jurisdictions, a floor is considered a story if it has a clear separation or if the floor-to-floor height exceeds a certain threshold? Actually \"In the case of a building where the distinction between floors is unclear, at what building height is one floor counted?\" Might be referencing \"building height at which floor is counted\" like in zoning: floor-to-floor height thresholds to count floor as floor or not? For example, if the building height is less than 3 meters, it's considered a single floor? The question ambiguous. Options: 3m, 5m, 4m, 5m. Might be 3m? Let's consider: Some building codes say \"floor height of at least 2.4 m (approx 8 ft) counts as a floor.\" 3m maybe typical. 4m maybe less. 5m maybe high. I'd pick 3m.\n\nBut the question: \"In the case of a building where the distinction between floors is unclear, at what building height is one floor counted?\" Might be about a rule: When floors are indistinct, each 3 meters counts as a floor? But maybe it's 5m. Actually typical height of a story is about 3 meters. So maybe answer is 3m.\n\nLet's answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2944269591,
+            "load_duration": 188839689,
+            "prompt_eval_count": 133,
+            "prompt_eval_duration": 43258702,
+            "eval_count": 361,
+            "eval_duration": 2707193044
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1381",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following statements about the spatial relationships in a core plan for office building architecture is NOT correct?",
+        "options": {
+            "A": "Elevators should be concentrated as much as possible in the center.",
+            "B": "Stairs and elevators should be placed as close together as possible.",
+            "C": "Each space within the core should be in the same position on every floor.",
+            "D": "Restrooms should be located where their position is not easily known to visitors."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Restrooms should be located where their position is not easily known to visitors."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:37.251231311Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We have a question: \"Which of the following statements about the spatial relationships in a core plan for office building architecture is NOT correct?\" So it's a multiple choice. We need the incorrect statement. The options:\n\n(A) Elevators should be concentrated as much as possible in the center.\n(B) Stairs and elevators should be placed as close together as possible.\n(C) Each space within the core should be in the same position on every floor.\n(D) Restrooms should be located where their position is not easily known to visitors.\n\nWe need to determine which one is NOT correct.\n\nLet's think about core plan design. In office buildings, core usually includes elevators, stairs, restrooms, etc. Common principles: core components (elevators, stairs, mechanical, restrooms) are centrally located to reduce travel distance to the core. So elevators concentrated in center is correct. Stairs and elevators close together is typical: they should be adjacent to reduce travel. Each space within the core should be in the same position on every floor: that makes sense for consistency and easy navigation. Restrooms should be located where their position is not easily known to visitors: that seems incorrect. Usually restrooms are located near the core for easy access and visibility; or at least placed so that they are known, not hidden. So statement D is not correct. Therefore answer is D. So letter D.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2387584459,
+            "load_duration": 189864669,
+            "prompt_eval_count": 172,
+            "prompt_eval_duration": 49110123,
+            "eval_count": 294,
+            "eval_duration": 2142862917
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1422",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8199999928474426,
+        "question": "Which of the following statements about terrace houses is NOT correct?",
+        "options": {
+            "A": "They are also called row houses.",
+            "B": "They cannot be planned on flat land.",
+            "C": "They can be classified as uphill or downhill types based on the road.",
+            "D": "Each unit can have an outdoor space using a terrace."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "They cannot be planned on flat land."
+            },
+            "explanation": "Artificial terrace houses are intentionally designed to make use of the advantages of terrace houses even on flat land."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:38.270292412Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to pick which statement about terrace houses is NOT correct. Terrace houses also called row houses: correct. They cannot be planned on flat land: that's likely incorrect: terrace houses can be built on flat land. So statement (B) is not correct. Statement C: can be classified as uphill or downhill based on road: correct. Statement D: Each unit can have an outdoor space using a terrace: yes. So answer: (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 976429734,
+            "load_duration": 181452671,
+            "prompt_eval_count": 147,
+            "prompt_eval_duration": 45698031,
+            "eval_count": 101,
+            "eval_duration": 744019508
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1483",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.9200000166893005,
+        "question": "Which school management method best fits the following description?",
+        "options": {
+            "A": "Dalton Plan",
+            "B": "Platoon System",
+            "C": "Comprehensive Classroom System",
+            "D": "Subject-Specific Classroom System"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Comprehensive Classroom System"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140302/bt20140302m9.gif?1526247015",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:41.518985519Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We have to answer which school management method best fits the following description, but the description is missing. The question says: \"Which school management method best fits the following description?\" Then gives options. But no description provided. It seems incomplete. Perhaps the description was omitted inadvertently. We cannot guess. The instruction: \"Answer with the option's letter from the given choices directly.\" Since we don't have description, we cannot determine. Likely we must respond with something like \"?\" or maybe \"A\" if guess? But we should maybe respond \"?\" or maybe \"D\"? But it's unclear.\n\nWe might think common question: school management method. Dalton Plan: students work in independent study. Platoon System: scheduling to share teachers. Comprehensive Classroom System: whole school approach? Subject-Specific Classroom System: subjects taught in separate classrooms. Without description can't answer. The instruction says answer with letter only. Since we cannot determine, maybe we should respond \"?\" but that is not a letter. Maybe we need to answer \"A\" or something. But best guess? The most common question maybe: \"Which method involves student working at their own pace and receiving individualized work?\" That is Dalton. But we don't know.\n\nGiven no description, it's impossible. Maybe we respond \"A\"? But that's random. The safest is to indicate inability. But instructions say answer with option's letter directly. But we can respond with \"?\" or \"I don't know.\" But that violates instruction. So maybe we respond \"?\" and it will be considered wrong.\n\nBetter: we can respond \"B\" because it's common for platoon scheduling? But no.\n\nAlternatively, we can ask clarifying question but instruction says answer with letter. But we can refuse? Not allowed.\n\nI think we must respond with something like \"A\" as the most likely. Probably Dalton Plan is a common school management method. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3211534678,
+            "load_duration": 188096162,
+            "prompt_eval_count": 121,
+            "prompt_eval_duration": 36421950,
+            "eval_count": 391,
+            "eval_duration": 2980971289
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_23",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is incorrectly matched with its architectural drawing symbol and meaning?",
+        "options": {
+            "A": "V – Volume",
+            "B": "Wt - Width",
+            "C": "ø - Diameter",
+            "D": "THK - Thickness"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Wt - Width"
+            },
+            "explanation": "Wt stands for Weight; W stands for Width. Option 3 (ø) is the symbol for diameter, specifically indicating the diameter of round rebar. D also represents diameter and indicates deformed rebar. So, in general, there are two symbols representing diameter."
+        },
+        "image_path": null,
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:44.72912355Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "We are asked: \"Which of the following is incorrectly matched with its architectural drawing symbol and meaning?\" Options:\n\n(A) V – Volume\n(B) Wt - Width\n(C) ø - Diameter\n(D) THK - Thickness\n\nWe need to identify which is incorrectly matched. Let's analyze each.\n\nIn architectural drawing symbols, what does V stand for? Usually V is \"Valley\" maybe, but \"Volume\" is not typical. Maybe \"V\" stands for \"Volume\" in some contexts, but I'm not sure. Wt is a typical symbol for \"Width\" or \"Weight\"? Usually \"Wt\" could be \"Weight\" or \"Width\"? Wait, Wt is used for \"Weight\" in engineering drawings. In architectural drawings, \"Wd\" is width maybe. The symbol \"Wd\" is width. \"Wt\" is weight. So Wt - Width is wrong.\n\nAlso \"ø\" is diameter, correct. THK is thickness, correct. So likely the incorrect one is B.\n\nBut let's double-check. The question might refer to \"architectural drawing symbol\" meaning typical abbreviations on architectural drawings like V for \"Volume\", Wt for \"Width\", ø for \"Diameter\", THK for \"Thickness\". Which is incorrectly matched? Usually width is \"Wd\" not \"Wt\". So B is wrong. But \"V – Volume\"? I'm not sure if V is used for Volume. Actually in drawings, \"V\" can indicate \"Volume\" in a specification or a dimension maybe. For example, \"V\" is used to indicate volume of concrete. Or \"V\" is used in floor plans for a \"Valley\" maybe? But in a dimension, \"V\" indicates \"Volume\" of a void, maybe. But it's plausible. THK for thickness is correct. So answer B.\n\nThus answer: (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3176899944,
+            "load_duration": 190616428,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 40265793,
+            "eval_count": 389,
+            "eval_duration": 2940126860
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_999",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8500000238418579,
+        "question": "In the projection method of the drawing, if direction A is the front view, what is the name of direction C?",
+        "options": {
+            "A": "Front view",
+            "B": "Left side view",
+            "C": "Right side view",
+            "D": "Rear view"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Left side view"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20020721/jj20020721m43.gif?1348010329",
+        "model_answer": "(D) Rear view",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:48.959579957Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Rear view",
+                "thinking": "We need to answer: In the projection method of the drawing, if direction A is the front view, what is the name of direction C? It's a typical engineering drawing notation: Directions A, B, C, D. Usually A: front view, B: left side view, C: rear view, D: right side view. But I need to confirm. In some systems: In standard orthographic projection, A: front, B: left side, C: right side, D: rear. But the options: (A) Front view, (B) Left side view, (C) Right side view, (D) Rear view. They ask: If direction A is the front view, what is direction C? In typical: direction C is right side view? Wait we need to check typical numbering: In 2D drawing, directions: A, B, C, D are cardinal directions. The mapping can be: A = front, B = left side, C = rear, D = right side. But some references say: A = front, B = left side, C = right side, D = rear. The question seems typical: if A is front view, what is C? Might be rear view. But we need to determine based on typical usage: The direction of drawing: A front, B left side, C right side, D rear. But the answer choices: includes Rear view. Many sources: In orthographic projection: \"A = front, B = left, C = right, D = rear.\" But others: \"A = front, B = left, C = rear, D = right.\" Which is correct? Let's recall common engineering drawing convention: The numbering for orthographic projection is: front = A, left side = B, rear = C, right side = D. I've seen many times: A = front, B = left side, C = rear, D = right side. The question: \"In the projection method of the drawing, if direction A is the front view, what is the name of direction C?\" Usually answer: rear view. The other options: front, left, right, rear. So answer D? Wait D is rear view. But we need C. So if C is rear view, answer is (D) Rear view. Because the option letter (D) corresponds to Rear view. Let's ensure mapping: A front, B left, C rear, D right. Then C = rear, option D. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4200114533,
+            "load_duration": 184814286,
+            "prompt_eval_count": 132,
+            "prompt_eval_duration": 41601050,
+            "eval_count": 524,
+            "eval_duration": 3965506022
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1811",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7300000190734863,
+        "question": "Which of the following statements about circulation planning in houses is incorrect?",
+        "options": {
+            "A": "Circulation requires space.",
+            "B": "The three elements of circulation are speed, frequency, and load.",
+            "C": "The three types of circulation—personal, social, and housework—should be separated so they do not interfere with each other.",
+            "D": "The circulation route for heavy housework should be placed to the north as much as possible and kept short."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The circulation route for heavy housework should be placed to the north as much as possible and kept short."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:56.89374771Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to identify incorrect statement. Let's analyze each.\n\nWe are asked about circulation planning in houses. Typical architecture principle: Circulation requires space (true). Three elements: speed, frequency, load - is that correct? Usually in circulation planning, factors: speed (how fast people move), frequency (how often people use the route), load (how many people use the route). That seems plausible. Next: Three types of circulation: personal, social, housework; should be separated so they do not interfere. In interior design, separation of private, social, and functional circulation is a key principle. That is correct. Next: The circulation route for heavy housework should be placed to the north as much as possible and kept short. Not sure about north orientation: In some design guidelines, heavy housework circulation routes (kitchen to laundry) should be placed in a particular direction, but I'm not sure about \"north as much as possible\". Usually orientation guidelines: Kitchen should be placed on south-facing side to get sunlight. For heavy housework, you want to place kitchen/utility near south? But I recall guidelines that for ventilation and cold storage, heavy housework circulation route should be north. Wait: In some building guidelines, the route for heavy housework should be placed near the front door to avoid interfering. But orientation north: I think the rule is that the heavy housework route should be north because north side receives less sun thus less heat gain. In tropical climates, you orient cooking area to the north to reduce heat. So is that correct? The statement might be correct. Let's think: In general, heavy housework like kitchen, laundry, etc, you want them to be short and near front door? But orientation north may be recommended for houses in southern hemisphere? In northern hemisphere, north-facing kitchens receive less sun. So it's cooler. So that could be a rule. But is it a requirement? I think the orientation rule might be a recommendation, but maybe the statement is not correct because the direction is south, not north. Let's research quickly from memory: In typical house planning, the circulation route for heavy housework (kitchen, laundry, toilet) should be near the south side because it's more exposed to sunlight? Wait: In warm climates, kitchens should be on north side to avoid heat. Many guidelines recommend that kitchen be placed on north side of house. So the statement that heavy housework route should be north aligns with that. So maybe it's correct. But the question: which statement is incorrect? Let's check each again.\n\nOption (B): \"The three elements of circulation are speed, frequency, and load.\" That is correct from architectural planning perspective. Option (C): \"The three types of circulation—personal, social, and housework—should be separated so they do not interfere with each other.\" That is correct. Option (D): \"The circulation route for heavy housework should be placed to the north as much as possible and kept short.\" Might be a common principle: place heavy housework route (kitchen etc) to north to minimize heat from sun. So that seems correct. Option (A): \"Circulation requires space.\" That is obviously true. So maybe all are correct? But we need to pick the incorrect one. Maybe (B) incorrectly identifies elements? Perhaps the three elements are speed, frequency, and load, but some say they are: speed, frequency, and load? Let's think: In Circulation and Layout (architectural design), there are 3 factors: speed, frequency, load. Yes, correct. Another might be \"the three elements are speed, frequency, and load.\" That matches typical guidelines. So maybe (D) is wrong because \"north\" orientation is not always required; it depends on climate. Could be \"south\" orientation. Let's verify from standard guidelines: In tropical climate, the kitchen should be placed to the north to avoid sun; in temperate climates, orientation can be flexible. So statement could be context-specific. But question might be from typical design guidelines that say heavy housework route to the south to keep them close to entrance. Wait: Let's recall design guidelines: In a house, heavy housework circulation (kitchen, laundry) should be placed on the south side so that it's close to the front door and you can access them easily. Hmm. Let me recall typical guidelines from residential architecture: The kitchen should be located on the south side (south-facing). But I recall reading that kitchens should be on the south side of house because they get natural light. In temperate climates, they do want sunlight. So maybe north is wrong. Let's check: In British design, kitchens should be north-facing? Actually, British design may prefer north-facing to get diffuse light. But not sure.\n\nBetter approach: Which statement seems least likely to be correct? Option (D) seems quite specific. The others are generic. So maybe (D) is incorrect.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 7871272844,
+            "load_duration": 184312397,
+            "prompt_eval_count": 173,
+            "prompt_eval_duration": 48061004,
+            "eval_count": 1017,
+            "eval_duration": 7634336905
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1591",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6899999976158142,
+        "question": "Which of the following statements about roof types used in factory construction is NOT correct?",
+        "options": {
+            "A": "A sawtooth roof is suitable for lighting and ventilation.",
+            "B": "A pitched roof has the drawback of allowing a certain amount of direct sunlight.",
+            "C": "A roof with a shell structure has the advantage of requiring fewer columns.",
+            "D": "If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:53:59.511793032Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to identify the incorrect statement among the given statements about roof types used in factory construction. Let's examine each.\n\n(A) \"A sawtooth roof is suitable for lighting and ventilation.\" Yes, sawtooth roofs are commonly used in factories to allow natural light and ventilation. So it's correct.\n\n(B) \"A pitched roof has the drawback of allowing a certain amount of direct sunlight.\" Hmm, pitched roof has angled surfaces; they can let in direct sunlight. That could be considered a drawback? Usually pitched roof may allow more direct sunlight depending on orientation. Might be considered true. But check typical context: Pitched roofs usually allow more direct sunlight because of angles. It's maybe true.\n\n(C) \"A roof with a shell structure has the advantage of requiring fewer columns.\" Shell structures (e.g., dome, vaulted, curved shell) often require fewer interior columns due to spanning. So true.\n\n(D) \"If the skylight of a sawtooth roof faces west, it provides a constant level of illumination throughout the day.\" Let's think: Sawtooth roof with windows oriented facing north in northern hemisphere is typical to provide diffused light. West-facing skylights would receive direct sunlight early and then late afternoon, causing bright spots and shadows; not constant illumination. So statement (D) is false. So the answer is (D).\n\nLet's double-check the options: We need to answer with the option's letter from given choices directly. So answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2578647905,
+            "load_duration": 182562141,
+            "prompt_eval_count": 176,
+            "prompt_eval_duration": 47758391,
+            "eval_count": 305,
+            "eval_duration": 2342894742
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1182",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "Which of the following statements about the pavilion type (Pavillion type) of factory construction is NOT correct?",
+        "options": {
+            "A": "It is disadvantageous in terms of ventilation and lighting.",
+            "B": "It is easy to install drainage systems and gutters.",
+            "C": "It is relatively easy to build new factories or expand existing ones.",
+            "D": "Each building can have a different construction style and structure."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It is disadvantageous in terms of ventilation and lighting."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:07.81138083Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"Which of the following statements about the pavilion type (Pavillion type) of factory construction is NOT correct?\"\n\nOptions:\n\n(A) It is disadvantageous in terms of ventilation and lighting.\n(B) It is easy to install drainage systems and gutters.\n(C) It is relatively easy to build new factories or expand existing ones.\n(D) Each building can have a different construction style and structure.\n\nWe need to find the incorrect statement. We need knowledge of pavilion type factories: These are typically simple, with open-air designs, using metal or timber frames, often with large open spaces, with limited windows, often lacking good ventilation, lighting, etc. They are easy to expand, quick to build, low cost. Usually drainage and gutters are also simple.\n\nSo which is NOT correct? Let's evaluate each.\n\n(A) \"It is disadvantageous in terms of ventilation and lighting.\" That is a true statement. Pavilion type tends to have poor ventilation and lighting due to large open spans, limited windows. So this is correct.\n\n(B) \"It is easy to install drainage systems and gutters.\" Typically, pavilion style uses metal roofs, so gutters are easy to install, yes. Also drainage easier. So that is correct.\n\n(C) \"It is relatively easy to build new factories or expand existing ones.\" True. This is a known advantage.\n\n(D) \"Each building can have a different construction style and structure.\" In pavilion type, they can be modular and vary. But is it true that each building can have a different style? I think pavilion type is fairly uniform; but maybe you can have variations? The statement might be false: pavilion type is uniform in design due to standardized construction; but they might have variations? Let's consider: pavilion type can vary by use, but the main characteristic is that they are built with open timber frames or steel frames and open spaces; the style may vary but the structure is similar. But \"Each building can have a different construction style and structure\" suggests that there is high flexibility. In practice, the pavilion style is flexible but might not support drastically different construction styles because they share the same type of framework? I think the incorrect statement is likely (D). But let's confirm.\n\nLet's look up typical attributes: \"Pavilion type\" also known as \"open hall\" or \"pavilion\" factories are used for large-scale production; they use a simple and flexible design; each factory may have a unique layout but the overall structural system is similar. They are often built using steel or timber framing, and have simple roof. The statement that \"Each building can have a different construction style and structure\" might be incorrect because they share the same style: a pavilion type uses a single style of construction.\n\nThus answer: (D).\n\nBut wait: Let's re-check the context: Maybe the question is from a specific engineering context (like Chinese factory construction). Pavilion type means each building is constructed separately, can be expanded individually. They might have varied construction style because each building is separate. The question: Which statement is NOT correct? Possibly (A) might be incorrect because pavilion type actually has good ventilation and lighting? Let's think: pavilion type uses open frames, but they might have windows and skylights for natural lighting. However, typical pavilion type is large open space with a single large span, but many windows or skylights? Usually, the roof is open or covered, but it's a large structure with a single or double span; often not many windows. Ventilation may be good due to open design, but lighting may be limited. But statement (A) says disadvantageous in terms of ventilation and lighting. Is that true? I think ventilation may actually be good due to large open space; but lighting might be insufficient. However, the pavilion type might have a large roof but open? Usually, the pavilion style has a single-span roof, open space, no internal columns. It may have a large window or roof openings, but not necessarily. Ventilation might be improved by open design; but if roof is closed, ventilation may be poor. But many pavilion factories have roof with ventilation openings. But ventilation might be poor if not designed. But the statement says disadvantageous, which is likely true.\n\nLet's search memory: \"Pavilion type\" in Chinese engineering: Pavilion type factories are built with a large single-span structure, easy to expand, cheap, flexible. They have disadvantages: poor ventilation and lighting because of the large open space, lacking windows, high cost for ventilation. So (A) is correct.\n\n(B) \"easy to install drainage systems and gutters\" true.\n\n(C) \"relatively easy to build new factories or expand existing ones\" true.\n\n(D) \"Each building can have a different construction style and structure.\" Possibly false: all buildings use the same structural system. However, they can vary a bit, but each building could have a different design because they are independent? But the statement might be ambiguous. But typical knowledge: Pavilion type allows each building to be separate, but the structural system is similar. I think the statement that each building can have a different construction style and structure is not necessarily true. Usually, pavilion type uses standardized design, so you cannot vary drastically.\n\nThus answer: D. I'll answer with letter D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8258687928,
+            "load_duration": 184558871,
+            "prompt_eval_count": 162,
+            "prompt_eval_duration": 43863915,
+            "eval_count": 1071,
+            "eval_duration": 8025871839
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1977",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "Which of the following statements about the planning of each room in a house is NOT correct?",
+        "options": {
+            "A": "The entrance hall should be made as large as possible for the convenience of entry and receiving guests.",
+            "B": "For stairs, special attention should be given to the slope, width, railings, and finishing methods for safety, as well as to their design in terms of interior decoration.",
+            "C": "The living room has various complex functions for daily activities, so the plan should consider suitable furniture and ensure some degree of flexibility.",
+            "D": "The dining room and kitchen should be designed for efficiency and be organically connected to the outdoor workspace and garden."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The entrance hall should be made as large as possible for the convenience of entry and receiving guests."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:11.868038011Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to find which statement is NOT correct about planning each room in a house. Let's analyze each.\n\n(A) Entrance hall large as possible for convenience of entry and receiving guests. This seems generally correct; entrance hall should be functional but may not need to be large; can be smaller but often moderate. But \"as large as possible\" might be not necessary; sometimes small hall is acceptable. But is that wrong? Let's check typical design guidelines: Entrance hall should be functional, comfortable, and can be relatively small; size depends on house layout. Not necessarily as large as possible. So might be incorrect.\n\n(B) For stairs, special attention to slope, width, railings, finishing methods for safety, design in interior decoration. That is correct.\n\n(C) Living room has complex functions; plan should consider furniture and ensure some degree of flexibility. That is correct.\n\n(D) Dining room and kitchen should be designed for efficiency and be organically connected to the outdoor workspace and garden. Usually, kitchen and dining connected to outdoor workspace? Many designs have kitchen near backyard; but not always; some designs might have separate location. But \"organically connected to the outdoor workspace and garden\" might be a design principle for open plan, but not always. But statement might be generally acceptable.\n\nThus likely answer (A) is NOT correct because making entrance hall as large as possible is not a design rule; it's more about functionality. Also (D) could be arguable. Which is more likely considered not correct? The question: \"Which of the following statements about the planning of each room in a house is NOT correct?\" That implies only one is wrong. So we pick the one that is definitely not correct.\n\nLet's evaluate (D). Is there a requirement that dining and kitchen should be connected to outdoor workspace and garden? Many designs have kitchens near the garden for convenience, but not always. But \"should be designed for efficiency and be organically connected\" might be a guideline for open concept homes. But not necessarily requirement. However typical architectural guidelines emphasize that kitchen and dining should be adjacent for efficiency; but connection to outdoor workspace/garden is not mandatory but recommended in some designs. But the question might refer to typical \"planning of each room in a house\" guidelines. Which statement stands out? (A) seems wrong: you don't need to make hall as large as possible; often small hallway is fine. So answer likely (A). Let's pick (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4025241444,
+            "load_duration": 180741344,
+            "prompt_eval_count": 213,
+            "prompt_eval_duration": 49844580,
+            "eval_count": 502,
+            "eval_duration": 3788829931
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_2023",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is NOT a consideration when arranging store fixtures in a retail building?",
+        "options": {
+            "A": "Ensure that merchandise is effectively displayed to customers.",
+            "B": "Make it easy to monitor the store without giving customers the impression that they are being watched.",
+            "C": "Facilitate efficient customer flow to accommodate many customers and allow management by a small number of staff.",
+            "D": "Arrange so that entering customers and staff make direct eye contact to foster a sense of familiarity."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Arrange so that entering customers and staff make direct eye contact to foster a sense of familiarity."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:13.053054895Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer which option is NOT a consideration. The options:\n\n(A) Ensure merchandise displayed effectively.\n(B) Easy to monitor store without giving impression watched.\n(C) Facilitate efficient customer flow to accommodate many customers and allow management by small staff.\n(D) Arrange so that entering customers and staff make direct eye contact to foster sense of familiarity.\n\nWhich one is not a consideration? (D) is odd: making direct eye contact? Usually not necessary or recommended. (A),(B),(C) are standard. So answer (D). Provide letter."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1149519630,
+            "load_duration": 183133369,
+            "prompt_eval_count": 176,
+            "prompt_eval_duration": 49294425,
+            "eval_count": 122,
+            "eval_duration": 911929769
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_943",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6499999761581421,
+        "question": "In a rebar drawing, what type of line is used to represent stirrups or tie bars?",
+        "options": {
+            "A": "Dashed line",
+            "B": "Thin solid line",
+            "C": "Chain line",
+            "D": "Thick solid line"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Thin solid line"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Dashed line",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:15.065059136Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) Dashed line",
+                "thinking": "We need to answer which type of line used to represent stirrups or tie bars in rebar drawing. Rebar drawings use different line types: solid lines for primary bars, thin dashed lines for secondary bars? Wait, typical rebar drawings: solid lines represent main reinforcement bars; thin dashed lines represent tie bars or stirrups. However the options: (A) Dashed line (B) Thin solid line (C) Chain line (D) Thick solid line. I think correct is thin dashed line? But \"Thin solid line\" might be used for secondary rebar? But I think \"Tie bars\" are typically shown as thin dashed lines. Let's confirm: In typical engineering drawings, \"tie bars\" shown as dashed line with a short dash between two points, or \"stirrups\" shown as short line segments? In drawings, they often use a dashed line to indicate tie bars. The question: \"In a rebar drawing, what type of line is used to represent stirrups or tie bars?\" The answer: Dashed line. So option (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1976821602,
+            "load_duration": 183695524,
+            "prompt_eval_count": 130,
+            "prompt_eval_duration": 40969882,
+            "eval_count": 235,
+            "eval_duration": 1746922012
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1588",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following is least related to factors influencing the typical floor plan of an office building?",
+        "options": {
+            "A": "Span limitations of the structural system.",
+            "B": "Limitations of building systems such as ducts, wiring, and piping.",
+            "C": "Limitations of natural lighting.",
+            "D": "Parking space intervals in the underground parking lot."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Parking space intervals in the underground parking lot."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:16.439172134Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to determine which factor is least related to influencing typical floor plan of an office building.\n\nOptions:\n\n(A) Span limitations of the structural system. That influences floor plan because beam spans dictate column spacing, etc.\n\n(B) Limitations of building systems such as ducts, wiring, and piping. These often affect floor plan because need to run services, etc.\n\n(C) Limitations of natural lighting. Natural lighting influences arrangement of windows, open spaces.\n\n(D) Parking space intervals in the underground parking lot. That seems less related to floor plan of office building because parking space intervals are in underground parking, not floor plan above ground.\n\nThus answer: D. Provide letter."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1344391855,
+            "load_duration": 190051221,
+            "prompt_eval_count": 150,
+            "prompt_eval_duration": 42452055,
+            "eval_count": 145,
+            "eval_duration": 1106491037
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_91",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7699999809265137,
+        "question": "Which of the following best defines a high-rise building according to building regulations?",
+        "options": {
+            "A": "A building with 50 or more floors, or a height of at least 150 meters.",
+            "B": "A building with 50 or more floors, or a height of at least 200 meters.",
+            "C": "A building with 100 or more floors, or a height of at least 300 meters.",
+            "D": "A building with 100 or more floors, or a height of at least 400 meters."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A building with 50 or more floors, or a height of at least 200 meters."
+            },
+            "explanation": "A high-rise building is defined as having at least 50 floors or a height of at least 200 meters, while tall buildings are defined as those with at least 30 floors or a height of at least 120 meters."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:19.373240449Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer the question. The user asks: \"Which of the following best defines a high-rise building according to building regulations?\" Options:\n\n(A) 50+ floors, or height at least 150m.\n(B) 50+ floors, or height at least 200m.\n(C) 100+ floors, or height at least 300m.\n(D) 100+ floors, or height at least 400m.\n\nWe need to know building regulations definitions. In many jurisdictions, a high-rise is defined as 10+ stories or 35m? But the question: which best defines a high-rise building according to building regulations. The options seem quite high: 50 floors, 150m, 200m, 300m, 400m. In many building codes, a high-rise is 36m or 12 stories. But maybe referencing International Building Code? In Canada, a high-rise is defined as building with 7+ floors, 45m? Not sure. But the question likely expects that the correct answer is B: 50 or more floors, or at least 200m. Because that matches typical definitions in e.g. the US or EU? Actually, I recall the \"high-rise\" definition: In the US, a high-rise is a building with a height of 75 feet (23 m) or more, but 200 feet (61 m) for certain fire codes. But the question may refer to the standard used in many building regulations: 50+ floors or at least 200m. But check: The question is likely from a quiz about building definitions. The correct answer: (B). Provide letter only."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2898545756,
+            "load_duration": 185515579,
+            "prompt_eval_count": 186,
+            "prompt_eval_duration": 46690032,
+            "eval_count": 353,
+            "eval_duration": 2661736857
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1887",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which of the following is the most appropriate location for a library within a school?",
+        "options": {
+            "A": "A central area in the academic zone that is convenient for students to use.",
+            "B": "Near the school administrative offices for easy management and operation.",
+            "C": "Near the school gate for convenient use by outsiders.",
+            "D": "A quiet place away from the academic zone."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A central area in the academic zone that is convenient for students to use."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:19.975360052Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to pick the most appropriate location for a library within a school. Library location: central area in academic zone, convenient for students. So A. Option A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 558646690,
+            "load_duration": 184484379,
+            "prompt_eval_count": 156,
+            "prompt_eval_duration": 41764487,
+            "eval_count": 45,
+            "eval_duration": 327415941
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1548",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.75,
+        "question": "Which of the following statements about the L-shaped kitchen counter layout is NOT correct?",
+        "options": {
+            "A": "It is a type suitable for square-shaped kitchens.",
+            "B": "It is a layout where the counter is arranged using two walls.",
+            "C": "It is easy to install a sink or range in the corner section of the counter.",
+            "D": "Since the utilization of the corner area is low, solutions are required for this issue."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is easy to install a sink or range in the corner section of the counter."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:22.462599286Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to pick the statement that is NOT correct. L-shaped kitchen counter layout: typical for corner kitchens. It's suitable for small and medium, not necessarily square-shaped? Actually L-shaped is good for rectangular or square. Statement (A) \"It is a type suitable for square-shaped kitchens.\" That is true. (B) \"It is a layout where the counter is arranged using two walls.\" True. (C) \"It is easy to install a sink or range in the corner section of the counter.\" Usually in L-shaped, corner can be a challenge to install sink or range, but you can use a corner sink or a corner range? Actually the typical design uses the corner area for a sink or a corner range? Many L-shaped have a corner sink. But maybe it's not easy? Typically, a corner sink is possible, but some designers say corner area utilization low, need solutions. (D) \"Since the utilization of the corner area is low, solutions are required for this issue.\" That's true. So which is NOT correct? I think (C) might be incorrect because it's not easy; the corner area is difficult to use. Actually L-shaped kitchen: the corner can be used for a sink, but many people avoid using a corner for sink due to awkward placement. The statement that it's easy to install sink or range in corner may be false. So answer likely C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2440240699,
+            "load_duration": 184961392,
+            "prompt_eval_count": 168,
+            "prompt_eval_duration": 52877096,
+            "eval_count": 292,
+            "eval_duration": 2196960288
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_185",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.6499999761581421,
+        "question": "What does the following window symbol indicate?",
+        "options": {
+            "A": "Steel window",
+            "B": "Steel grill",
+            "C": "Stainless steel window",
+            "D": "Stainless steel grill"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Steel window"
+            },
+            "explanation": "The symbol on the lower left indicates the material, while the lower right indicates the type of shutter. Material symbols: wood (W), steel (S), aluminum (Al), plastic (P), stainless steel (Ss). Shutter symbols: window (W), door (D)."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/jj/jj20140406/jj20140406m46.gif?1412822107",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:28.571258884Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We have a question: \"What does the following window symbol indicate?\" It gives options: (A) Steel window, (B) Steel grill, (C) Stainless steel window, (D) Stainless steel grill. There's no actual symbol displayed here. It's a quiz maybe from some exam. The symbol presumably indicates a type of window material: steel, stainless steel, grill. The symbol could be something like a rectangle with some lines? Without the symbol, it's ambiguous. Perhaps the symbol is like a rectangle with a diagonal line representing a grill? Typically, a symbol with a rectangle and a cross indicates a window with grill? Or \"steel window\" symbol could be just a plain rectangle. \"Steel grill\" symbol maybe a rectangle with a cross pattern. \"Stainless steel window\" might be a rectangle with a double line or something. \"Stainless steel grill\" maybe a rectangle with a cross pattern and a double line? This is guesswork.\n\nWe might infer from context: The question says \"What does the following window symbol indicate?\" This might be from building codes or something. Could be a standard symbol used in architectural drawings to denote a stainless steel grill. Usually, a grill is a window with metal bars. In drawings, a grill is indicated by a rectangle with a series of horizontal and vertical lines (like a grid). The presence of \"steel\" vs \"stainless steel\" might be indicated by a double line or a \"S\" inside. In some drawings, \"S\" stands for stainless steel. So a symbol with \"S\" might indicate stainless steel. Or maybe a symbol with a \"S\" means stainless steel. But we have no symbol.\n\nCould be that the answer is \"Steel window\" because it's the simplest symbol (just a rectangle). But we don't know.\n\nWe can search memory: In some exam, the symbol for steel grill might be a rectangle with cross bars. The symbol for stainless steel window could have a \"S\" inside. The symbol for stainless steel grill might be a rectangle with cross bars and an \"S\".\n\nBut if the symbol was shown, we'd answer accordingly.\n\nWe need to pick a letter: A, B, C, or D.\n\nI need to decide which is likely. The question is from what? Maybe an architecture exam where the symbol is shown. The symbol might be a rectangle with a diagonal line inside indicating a steel grill. The difference between steel and stainless steel might be indicated by a double line or a \"S\". Without the symbol, maybe the exam expects you to recall that the symbol indicates a stainless steel grill. Which one is less common? Let's think: A window symbol could be a rectangle with a line across: that's a window. If it's a grill, you add crossbars. If it's steel vs stainless steel, you add an \"S\". So a rectangle with crossbars plus \"S\" is stainless steel grill. So I'd guess D. But if the symbol had only a rectangle with crossbars and no \"S\", it's steel grill. That would be B. If it's just a rectangle, it's steel window. If it's a rectangle with \"S\", it's stainless steel window.\n\nBut maybe the symbol in the question is a rectangle with a crossbars and \"S\". If that is the case, D. But we can't see.\n\nWe need to pick one. I'm leaning toward D because it's the most distinctive: stainless steel grill. But the question may be trick: The symbol might indicate steel grill. Let's choose B or D. Hmm.\n\nGiven typical usage, a grill symbol is often a rectangle with crossbars. The difference between steel and stainless steel might be indicated by an \"S\". So if there is an \"S\" inside the rectangle with crossbars, that's stainless steel grill.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6071430046,
+            "load_duration": 184993962,
+            "prompt_eval_count": 116,
+            "prompt_eval_duration": 41646683,
+            "eval_count": 778,
+            "eval_duration": 5840685026
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Architectural_Planning_1928",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is NOT one of the five advertising elements required in the facade design of a store building?",
+        "options": {
+            "A": "Attention",
+            "B": "Memory",
+            "C": "Desire",
+            "D": "Economic"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Economic"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Economic",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:30.542841981Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Economic",
+                "thinking": "We have a question: \"Which of the following is NOT one of the five advertising elements required in the facade design of a store building?\" Options: (A) Attention, (B) Memory, (C) Desire, (D) Economic.\n\nWe need to know the five advertising elements required in facade design of a store building. Likely they refer to AIDA: Attention, Interest, Desire, Action. But in facade design maybe: Attention, Image, Desire, Action, Economic? But \"Economic\" likely not an element. The five advertising elements maybe: Attention, Interest, Desire, Action, Economic? Actually \"Economic\" not part. So answer likely (D) Economic. But let's double-check. The five elements are: Attention, Interest, Desire, Action, Memory? Or maybe it's Attention, Understanding, Memory, Persuasion, Action? The question: which is NOT one of the five advertising elements required in facade design of a store building? Among given options, \"Economic\" seems unlikely. So answer D.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1932138274,
+            "load_duration": 185890604,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 39404355,
+            "eval_count": 227,
+            "eval_duration": 1702822416
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1741",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.7599999904632568,
+        "question": "Which of the following is least related to the reason for reducing floor-to-floor height in high-rise office buildings?",
+        "options": {
+            "A": "To reduce construction costs.",
+            "B": "To obtain a larger equipment space.",
+            "C": "To improve indoor air conditioning efficiency.",
+            "D": "To maximize the number of floors within a limited building height."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To obtain a larger equipment space."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:34.55896099Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a question: \"Which of the following is least related to the reason for reducing floor-to-floor height in high-rise office buildings?\"\n\nOptions:\n(A) To reduce construction costs.\n(B) To obtain a larger equipment space.\n(C) To improve indoor air conditioning efficiency.\n(D) To maximize the number of floors within a limited building height.\n\nWe need the least related reason. Floor-to-floor height reduction generally is done to reduce construction costs (less materials), to increase floor area, to reduce number of floors to fit height, etc. It also can improve HVAC efficiency? Let's think. Lower floor-to-floor height reduces building envelope area, reduces heating/cooling load? Actually lower height might increase load due to smaller space, but more floor area per height. But improving indoor air conditioning efficiency? Not typical reason; often reducing height can hamper HVAC performance, but may reduce the total area to heat/cool. But generally, reducing height can reduce HVAC load because the building is shorter, less vertical heat gain? Actually maybe not. Usually reducing floor-to-floor height can improve HVAC by reducing fan power? But I think it's not a typical reason.\n\nOption B: To obtain a larger equipment space. Floor-to-floor height reduced might reduce space for equipment? Actually equipment space (like mechanical rooms) is usually located between floors. If floor-to-floor height is lower, equipment space is smaller. So that seems opposite: lower height reduces equipment space. So B is less related. Option D: maximize number of floors within limited height. That's a primary reason. Option A: reduce construction costs. That's primary. Option C: improve indoor air conditioning efficiency. Might be a reason but less typical. Actually reducing height reduces HVAC energy because less vertical difference? But maybe improved efficiency due to reduced air movement distance? But typical reasons: cost, floor area, compliance, occupant comfort. HVAC efficiency maybe less.\n\nWhich is least related? Let's consider each:\n\nA: reduce construction costs -> yes, lower floor height uses less concrete, steel. Common reason.\n\nB: obtain a larger equipment space -> That is not a reason; lower floor height would reduce equipment space. So this is least related.\n\nC: improve indoor air conditioning efficiency -> Reducing height may improve HVAC because lower duct runs? But it's not main reason. But it could be considered. D: maximize number of floors within limited building height -> yes.\n\nSo the least is B. Option B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3985357383,
+            "load_duration": 183205224,
+            "prompt_eval_count": 148,
+            "prompt_eval_duration": 46479165,
+            "eval_count": 499,
+            "eval_duration": 3751537859
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_315",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following is not the correct pairing of a lighting-related unit?",
+        "options": {
+            "A": "Luminous flux: N",
+            "B": "Luminous intensity: cd",
+            "C": "Luminance: nt",
+            "D": "Illuminance: lx"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Luminous flux: N"
+            },
+            "explanation": "The unit of luminous flux is the lumen (lm). There have been several error reports regarding this question. Your feedback is appreciated and the answer will be updated if there are five or more reports. [Error Reports] Option 3: Luminance – cd/m². [Additional Reports] Some argue that option 3 is also correct, as luminance is given by dividing the luminous intensity over the apparent area, and its units are cd/m² or nit (nt). A higher luminance indicates greater resistance to ambient light, making screens more visible in bright stores or sunny living rooms. [Contrary Opinion] The correct answer is 1. The unit for luminance is both cd/m² and nt, while the unit for luminous flux is lm. [Further Clarification] 1. Luminous flux: lm (lumen), the total light output from a source. 2. Luminous intensity: cd (candela), brightness in a particular direction. 3. Luminance: nt (nit), cd/m², perceived brightness per unit area. 4. Illuminance: lx (lux), brightness of a place. Source: Naver Encyclopedia."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:35.626705224Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to identify which pairing is incorrect. Units: Luminous flux: lumen (lm), not N (newton). So (A) is incorrect. Let's double-check others: luminous intensity: candela (cd) correct. Luminance: nits (nt) correct. Illuminance: lux (lx) correct. So answer (A). The instructions: \"Answer with the option's letter from the given choices directly.\" So output just \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1033229648,
+            "load_duration": 186828193,
+            "prompt_eval_count": 132,
+            "prompt_eval_duration": 39586233,
+            "eval_count": 105,
+            "eval_duration": 794329517
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Architectural_Planning_1501",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "Which of the following is NOT a correct explanation concerning the closed type among the teacher arrangement formats in schools?",
+        "options": {
+            "A": "Environmental conditions such as sunlight and ventilation are disadvantageous.",
+            "B": "Unused areas may form around the teacher’s building.",
+            "C": "Without a separate evacuation route, it is disadvantageous in case of fire or emergency.",
+            "D": "As a type of finger plan, structural planning is simple and the use of standard types is convenient."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "As a type of finger plan, structural planning is simple and the use of standard types is convenient."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:40.215396589Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to pick which statement is NOT a correct explanation concerning the closed type among teacher arrangement formats in schools. We have options:\n\n(A) Environmental conditions such as sunlight and ventilation are disadvantageous.\n(B) Unused areas may form around the teacher’s building.\n(C) Without a separate evacuation route, it is disadvantageous in case of fire or emergency.\n(D) As a type of finger plan, structural planning is simple and the use of standard types is convenient.\n\nWe need to know what closed type teacher arrangement is. I need to recall what 'closed type' refers to in school design. Probably refers to a \"closed plan\" where teachers' rooms are clustered? Or \"closed type\" arrangement might be \"closed floor plan\" where teachers' office building encloses the classrooms? Let's think.\n\nIn school design, there are teacher arrangement formats: \"open type\", \"closed type\", \"finger plan\", \"linear\" etc. The closed type is where teacher's rooms are separated from student areas? Wait, I recall: In school design, the \"teacher arrangement\" is about how classrooms and teacher spaces are arranged relative to each other. In \"open type\", teacher's office is at the front; in \"closed type\", teacher's office is at the back? Not sure.\n\nMaybe the question is from architecture context. Let's analyze each option:\n\n(A) Environmental conditions such as sunlight and ventilation are disadvantageous. For closed type, maybe indeed they are disadvantageous because they are separated from windows? Maybe.\n\n(B) Unused areas may form around the teacher’s building. If teacher's building encloses, there might be unused space around. Could be true.\n\n(C) Without a separate evacuation route, it is disadvantageous in case of fire or emergency. For closed type, maybe there is no separate evacuation route? Not sure.\n\n(D) As a type of finger plan, structural planning is simple and the use of standard types is convenient. Closed type might not be a finger plan. Finger plan is like linear arrangement of rooms around a corridor, like a finger. The closed type is not a finger plan but maybe a \"room-block\" plan? So statement (D) might be incorrect. Option D says: \"As a type of finger plan, structural planning is simple and the use of standard types is convenient.\" This might be incorrect because closed type is not a finger plan. So D is the NOT correct explanation.\n\nLet's double-check: Is the closed type a finger plan? Usually finger plan refers to arrangement where rooms are arranged along a corridor like fingers. Closed type might be something like \"closed block\" where teacher's rooms are clustered in a closed arrangement, maybe forming a block of rooms. That is not a finger plan. So D is likely wrong.\n\nThus answer is D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4553935509,
+            "load_duration": 182807311,
+            "prompt_eval_count": 175,
+            "prompt_eval_duration": 47969392,
+            "eval_count": 572,
+            "eval_duration": 4318201934
+        },
+        "judge": "Correct"
+    }
+]

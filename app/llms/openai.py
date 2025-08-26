@@ -116,7 +116,19 @@ class OpenAI(LLMBase):
                 text_cached_input=0.05,
                 text_output=4.00
             )
-        ),
+        )
+    ]
+
+
+
+class OpenAIOSS(LLMBase):
+    def __init__(self, 
+        provider: str = "gpt-oss", 
+        docs: str = "https://platform.openai.com/docs/models"
+    ):
+        super().__init__(provider, docs)
+
+    models = [
         LanguageModel(
             name="gpt-oss-120b",
             description="Most powerful open-weight model, fits into an H100 GPU",
@@ -163,4 +175,4 @@ class OpenAI(LLMBase):
 
 
 
-__all__ = ['OpenAI']
+__all__ = ['OpenAI', 'OpenAIOSS']

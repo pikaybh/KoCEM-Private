@@ -1,5 +1,7 @@
 import base64, os, json, time
 from typing import List, Union
+from io import BytesIO
+from PIL import Image
 
 from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 from datasets import load_dataset
@@ -7,11 +9,13 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_core.runnables import Runnable
 from tqdm import tqdm
 
+import llms
 from schemas.kocem import LocaleType
 from utils.data import save_json
 from utils.ds import call_features
 from utils.eval import evaluate, evaluate_difficulties, parse_multi_choice_response, parse_open_response
 from utils.logs import set_logger
+# from llms import llm_models
 
 from .prompt import PromptManager
 
@@ -114,6 +118,52 @@ class APIBase:
             options, 
             image_bytes=None
         ) -> List[Union[SystemMessage, HumanMessage]]:
+        def _supports_image_input() -> bool:
+            try:
+                target_full = str(self.model_id)
+                target_last = target_full.split("/")[-1]
+                targets = {target_full.lower(), target_last.lower()}
+                for fam in llms.llm_models:
+                    for lm in getattr(fam, "models", []):
+                        names = set()
+                        n0 = getattr(lm, "name", "")
+                        if n0:
+                            names.add(n0)
+                        ver = getattr(lm, "version", None)
+                        if ver:
+                            s0 = getattr(ver, "stable", "")
+                            if s0:
+                                names.add(s0)
+                            for r in getattr(ver, "releases", []) or []:
+                                names.add(r)
+                        # Compare against full and last segments (case-insensitive)
+                        matchable = set()
+                        for nm in names:
+                            if not nm:
+                                continue
+                            matchable.add(nm.lower())
+                            matchable.add(nm.split("/")[-1].lower())
+                        if targets & matchable:
+                            modality = getattr(lm, "modality", None)
+                            inputs = getattr(modality, "input_type", []) if modality else []
+                            return "image" in [str(x).lower() for x in inputs]
+            except Exception:
+                pass
+            return False
+        def _detect_image_mime(b: bytes) -> str:
+            try:
+                if b.startswith(b"\xFF\xD8\xFF"):
+                    return "image/jpeg"
+                if b.startswith(b"\x89PNG\r\n\x1a\n"):
+                    return "image/png"
+                if b.startswith(b"GIF8"):
+                    return "image/gif"
+                if b.startswith(b"RIFF") and b[8:12] == b"WEBP":
+                    return "image/webp"
+            except Exception:
+                pass
+            return "application/octet-stream"
+        
         # Build textual portion
         text_prompt = self.prompt.human.format(
             question=question,
@@ -121,20 +171,30 @@ class APIBase:
         )
         logger.debug(f"Prompt: {text_prompt}")
 
-        if image_bytes and image_bytes != "null":
+        if image_bytes and image_bytes != "null" and _supports_image_input():
+            mime = _detect_image_mime(image_bytes)
             b64 = base64.b64encode(image_bytes).decode()
             # OpenAI-compatible multi-modal content structure
             content = [
                 {"type": "text", "text": text_prompt},
-                {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{b64}"}},
+                {"type": "image_url", "image_url": {"url": f"data:{mime};base64,{b64}"}},
             ]
+        elif image_bytes and image_bytes != "null":
+            logger.debug("Skipping image content: model does not support image input modality.")
+            content = text_prompt
         else:
             content = text_prompt
 
-        return [
-            SystemMessage(content=self.prompt.system),
-            HumanMessage(content=content)
-        ]
+        if "gpt-5" in self.model_id:
+            return [
+                {"role": "system", "content": self.prompt.system},
+                {"role": "user", "content": content}
+            ]
+        else:
+            return [
+                SystemMessage(content=self.prompt.system),
+                HumanMessage(content=content)
+            ]
     
     # def _load_dataset(self, subset: str, split: str):
     #     """Load a dataset split with safe fallbacks to handle empty/invalid splits.
@@ -227,7 +287,9 @@ class APIBase:
         max_retries: int = 5,
         max_timeout: int = 60,
         calculate_difficulty: bool = False,
-        override: bool = False
+        override: bool = False,
+        reduce_image_on_retry: bool = True,
+        reduce_scale: float = 0.5,
     ) -> dict[str, str]:
         """
         Run MCQA inference over configured splits/subsets.
@@ -274,16 +336,88 @@ class APIBase:
             handler = self.construct_data(sample)
             logger.debug(f"Sample ID: {handler['id']}")
             image_bytes = handler.pop('image_bytes', None)
-            prompt_msgs = self.construct_prompt(
-                question=handler['question'],
-                options=handler['options'],
-                image_bytes=image_bytes
-            )
-            response = self._invoke_with_retry(
-                prompt_msgs=prompt_msgs, 
-                max_retries=max_retries, 
-                max_timeout=max_timeout
-            )
+
+            def _shrink_image_bytes(b: bytes, scale: float = 0.5, target_max_bytes: int | None = None) -> bytes:
+                try:
+                    with Image.open(BytesIO(b)) as img:
+                        img = img.convert("RGB")
+                        w, h = img.size
+                        # Start with initial scale
+                        cur_scale = max(0.05, min(1.0, scale))
+                        qualities = [85, 75, 65, 55, 45]
+                        for _ in range(6):  # up to 6 scale steps
+                            nw = max(8, int(w * cur_scale))
+                            nh = max(8, int(h * cur_scale))
+                            resized = img.resize((nw, nh), Image.LANCZOS)
+                            # Try multiple JPEG qualities
+                            for q in qualities:
+                                out = BytesIO()
+                                resized.save(out, format="JPEG", quality=q, optimize=True)
+                                data = out.getvalue()
+                                if target_max_bytes is None or len(data) <= target_max_bytes:
+                                    return data
+                            # If still too big, reduce scale further
+                            cur_scale *= 0.8
+                        # Fallback to final attempt PNG at smallest size
+                        out = BytesIO()
+                        resized.save(out, format="PNG", optimize=True)
+                        return out.getvalue()
+                except Exception as e:
+                    logger.warning(f"Image downscale failed; using original. Reason: {e}")
+                    return b
+
+            response = None
+            if reduce_image_on_retry and image_bytes and max_retries >= 2:
+                # Manual control: first attempt original image, on first failure retry with downscaled image.
+                attempts_left = max_retries
+                current_bytes = image_bytes
+                attempt_idx = 1
+                while attempts_left > 0:
+                    prompt_msgs = self.construct_prompt(
+                        question=handler['question'],
+                        options=handler['options'],
+                        image_bytes=current_bytes
+                    )
+                    try:
+                        # Delegate per-attempt execution to model, with inner retries disabled
+                        response = self._invoke_with_retry(
+                            prompt_msgs=prompt_msgs,
+                            max_retries=1,
+                            max_timeout=max_timeout,
+                        )
+                        break
+                    except Exception as e:
+                        attempts_left -= 1
+                        if attempt_idx == 1 and attempts_left > 0:
+                            # Prepare reduced image and retry once
+                            logger.warning("First attempt failed; retrying once with downscaled image bytes.")
+                            # If provider is Anthropic/Claude, respect ~5MB cap
+                            limit = None
+                            mid_lower = str(self.model_id).lower()
+                            if ("anthropic" in mid_lower) or ("claude" in mid_lower):
+                                limit = 5 * 1024 * 1024
+                            current_bytes = _shrink_image_bytes(image_bytes, scale=reduce_scale, target_max_bytes=limit)
+                            attempt_idx += 1
+                            continue
+                        # No special handling left; re-raise on last failure
+                        if attempts_left == 0:
+                            raise
+                        attempt_idx += 1
+                if response is None:
+                    # Shouldn't happen; safeguard
+                    raise RuntimeError("Model invocation failed with image-retry logic.")
+            else:
+                # Original behavior
+                prompt_msgs = self.construct_prompt(
+                    question=handler['question'],
+                    options=handler['options'],
+                    image_bytes=image_bytes
+                )
+                response = self._invoke_with_retry(
+                    prompt_msgs=prompt_msgs,
+                    max_retries=max_retries,
+                    max_timeout=max_timeout
+                )
             answer = str(getattr(response, "content", str(response))).strip()
             logger.debug(f"Model response: {answer}")
 

@@ -1,0 +1,82 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4000000059604645,
+        "question": "What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)",
+        "options": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "400mm"
+            },
+            "explanation": "The maximum spacing is determined by the smallest of the following three values: 1. 25 x 16 = 400mm, 2. 10 x 48 = 480mm, 3. no more than the shorter side of the column’s cross-section = 500mm. Therefore, the correct answer is 400mm."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m52.gif?1527167378",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T15:15:52.818056235Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)\n\n(A) 350mm\n(B) 400mm\n(C) 480mm\n(D) 500mm\"\n\nWe need to answer with the option's letter directly.\n\nWe need to determine the code rule for spacing of ties in a column with main bars of 4-25mm and tie diameter 10mm. Likely referencing IS 456:2000 (Indian code) or similar. The maximum spacing of ties in columns is the lesser of:\n\n- 16 times the diameter of the longitudinal bar (16 db), and\n- 300 mm, and\n- 0.75 times the clear distance between the sides of the column.\n\nBut I need to recall: IS 456 (2000) clause 26.5.2: For columns, maximum spacing of ties shall not exceed 300 mm or 16 times the diameter of the main bar, whichever is less. Also the spacing shall not exceed the effective depth of the member. For footings, etc. Additionally, the tie spacing may be limited by the minimum of 300 mm, 16*db (where db is main bar dia). The clear cover also matters.\n\nGiven main bars are 25mm, 16*25 = 400 mm. So the limiting factor is min(300mm, 400mm) = 300 mm. However there may be other provisions: For columns with diameters of tie less than 6mm, maximum spacing = 200mm. But D10 is 10mm > 6mm.\n\nBut there is also clause: For columns, max spacing of ties shall not exceed 300 mm or 16db whichever is less, also not exceed the distance between the two sides of the column (i.e., not more than the clear distance). If column width is unknown, we assume typical maybe 300 mm? The options are 350,400,480,500. 300 not present. Perhaps the code used is ACI or British. Let's consider ACI 318: For columns, the spacing of ties shall be limited to max 16 times the bar diameter of the smallest longitudinal bar, and also not exceed 48 inches (≈ 1220 mm). Also max 48 inches and also less than the clear spacing between sides of column. So 16*25 = 400 mm, which is allowed. So max spacing = 400 mm. Option B.\n\nThus answer likely B.\n\nTherefore answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8944231919,
+            "load_duration": 97502515,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 328506144,
+            "eval_count": 547,
+            "eval_duration": 8507435773
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.41999998688697815,
+        "question": "What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?",
+        "options": {
+            "A": "50.8kN",
+            "B": "51.4kN",
+            "C": "51.5kN",
+            "D": "52.1kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "51.5kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m53.gif?1527167378",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T15:15:55.504974398Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option letter directly (A, B, C, D). The question: \"What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?\" We don't have the drawing. Need to infer likely answer based on typical values? Possibly compute using statics. Without diagram, guess? Could be 51.5kN (C). Let's think: The options close: 50.8, 51.4, 51.5, 52.1. Probably answer is 51.5kN (C). I'll answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2652924920,
+            "load_duration": 89207293,
+            "prompt_eval_count": 152,
+            "prompt_eval_duration": 346178702,
+            "eval_count": 144,
+            "eval_duration": 2213373400
+        },
+        "judge": "Correct"
+    }
+]

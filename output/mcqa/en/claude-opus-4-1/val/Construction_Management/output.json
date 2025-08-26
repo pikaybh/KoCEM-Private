@@ -1,0 +1,2144 @@
+[
+    {
+        "id": "val_Construction_Management_31",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following is least relevant to the items that must be specified in a construction contract?",
+        "options": {
+            "A": "Details of the construction work",
+            "B": "The start and completion dates of the construction",
+            "C": "Defect liability period and warranty method",
+            "D": "Method of preparing design drawings based on the site conditions"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Method of preparing design drawings based on the site conditions"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the options, I need to identify which item is least relevant to what must be specified in a construction contract.\n\n(A) Details of the construction work - This is essential. The contract must clearly define what work is to be performed.\n\n(B) The start and completion dates of the construction - This is crucial. Timeline specifications are fundamental contract elements.\n\n(C) Defect liability period and warranty method - This is important. Contracts need to specify warranty terms and liability for defects after completion.\n\n(D) Method of preparing design drawings based on the site conditions - This is typically part of the design phase that occurs before the construction contract is finalized. Design drawings are usually already prepared and incorporated into the contract as specifications, not something whose preparation method needs to be detailed in the construction contract itself.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at the options, I need to identify which item is least relevant to what must be specified in a construction contract.\n\n(A) Details of the construction work - This is essential. The contract must clearly define what work is to be performed.\n\n(B) The start and completion dates of the construction - This is crucial. Timeline specifications are fundamental contract elements.\n\n(C) Defect liability period and warranty method - This is important. Contracts need to specify warranty terms and liability for defects after completion.\n\n(D) Method of preparing design drawings based on the site conditions - This is typically part of the design phase that occurs before the construction contract is finalized. Design drawings are usually already prepared and incorporated into the contract as specifications, not something whose preparation method needs to be detailed in the construction contract itself.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_012rer8GoqgrhzHx6qDC2KJf",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 85,
+                    "output_tokens": 180,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--582c5a17-1eef-400e-ba91-8847990564f8-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 85,
+                "output_tokens": 180,
+                "total_tokens": 265,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_76",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following statements about methods for preventing corrosion of metals is NOT correct?",
+        "options": {
+            "A": "Items that have undergone significant deformation should, if possible, be annealed before use.",
+            "B": "A watertight protective coating is created by using paint or highly corrosion-resistant metals.",
+            "C": "If rust occurs in some areas, wait until the rust has fully developed before removing it all at once.",
+            "D": "Keep the surface smooth, clean, and as dry as possible."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If rust occurs in some areas, wait until the rust has fully developed before removing it all at once."
+            },
+            "explanation": "Rust should be removed immediately if it occurs, even in part."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about preventing metal corrosion:\n\n(A) Annealing deformed items is correct - deformation creates internal stresses and defects that can accelerate corrosion. Annealing relieves these stresses.\n\n(B) Using protective coatings like paint or corrosion-resistant metals is correct - this is a standard corrosion prevention method.\n\n(C) Waiting for rust to fully develop before removal is INCORRECT - this is poor practice. Rust should be removed immediately when detected because:\n- Rust spreads and penetrates deeper into the metal over time\n- Early intervention prevents extensive damage\n- Delaying removal allows corrosion to compromise structural integrity\n\n(D) Keeping surfaces smooth, clean, and dry is correct - these conditions minimize corrosion by reducing moisture retention and contamination.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each statement about preventing metal corrosion:\n\n(A) Annealing deformed items is correct - deformation creates internal stresses and defects that can accelerate corrosion. Annealing relieves these stresses.\n\n(B) Using protective coatings like paint or corrosion-resistant metals is correct - this is a standard corrosion prevention method.\n\n(C) Waiting for rust to fully develop before removal is INCORRECT - this is poor practice. Rust should be removed immediately when detected because:\n- Rust spreads and penetrates deeper into the metal over time\n- Early intervention prevents extensive damage\n- Delaying removal allows corrosion to compromise structural integrity\n\n(D) Keeping surfaces smooth, clean, and dry is correct - these conditions minimize corrosion by reducing moisture retention and contamination.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_019E5gsSk3n6vQeBoL3UKkzb",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 127,
+                    "output_tokens": 193,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--212c30e6-140f-4142-a919-c4d302ae1b54-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 127,
+                "output_tokens": 193,
+                "total_tokens": 320,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_770",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "The following describes the lump-sum contract method for construction work. Which of the following is NOT appropriate?",
+        "options": {
+            "A": "Drawings, specifications, and estimates must be fully prepared before bidding.",
+            "B": "Disputes may arise between the client and the contractor due to changes in design that affect construction costs or disagreements regarding the quality of the work.",
+            "C": "It is a favorable contract method for urgent projects.",
+            "D": "The client can predict the total construction cost up to completion at the time of contract."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is a favorable contract method for urgent projects."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each option regarding lump-sum contracts:\n\n(A) This is appropriate - lump-sum contracts require complete drawings, specifications, and estimates before bidding so contractors can provide a fixed price.\n\n(B) This is appropriate - disputes commonly arise in lump-sum contracts when design changes occur (affecting costs) or when there are disagreements about work quality meeting specifications.\n\n(C) This is NOT appropriate - lump-sum contracts require extensive preparation time for complete documentation before bidding can begin. This makes them unsuitable for urgent projects where construction needs to start quickly.\n\n(D) This is appropriate - a key advantage of lump-sum contracts is that the client knows the total construction cost at contract signing (barring any changes).\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each option regarding lump-sum contracts:\n\n(A) This is appropriate - lump-sum contracts require complete drawings, specifications, and estimates before bidding so contractors can provide a fixed price.\n\n(B) This is appropriate - disputes commonly arise in lump-sum contracts when design changes occur (affecting costs) or when there are disagreements about work quality meeting specifications.\n\n(C) This is NOT appropriate - lump-sum contracts require extensive preparation time for complete documentation before bidding can begin. This makes them unsuitable for urgent projects where construction needs to start quickly.\n\n(D) This is appropriate - a key advantage of lump-sum contracts is that the client knows the total construction cost at contract signing (barring any changes).\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_016ArsSPnrUQ9GNufp9NJDPn",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 128,
+                    "output_tokens": 169,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--939dfc93-38a9-45be-90d5-506501b29fd4-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 128,
+                "output_tokens": 169,
+                "total_tokens": 297,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_924",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "At what height from the floor should the handle of a mortise lock typically be installed?",
+        "options": {
+            "A": "70 cm",
+            "B": "90 cm",
+            "C": "110 cm",
+            "D": "130 cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "90 cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The standard height for installing a mortise lock handle from the floor is typically around 90-100 cm (approximately 36-40 inches). This height is ergonomically comfortable for most adults to operate the door handle without having to bend down or reach up uncomfortably.\n\nAmong the given options, 90 cm is the standard height that falls within this typical range.\n\nThe answer is **(B) 90 cm**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "The standard height for installing a mortise lock handle from the floor is typically around 90-100 cm (approximately 36-40 inches). This height is ergonomically comfortable for most adults to operate the door handle without having to bend down or reach up uncomfortably.\n\nAmong the given options, 90 cm is the standard height that falls within this typical range.\n\nThe answer is **(B) 90 cm**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01Am3UCe7vVnaBCNzFdAngYW",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 69,
+                    "output_tokens": 95,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--975e957b-a9d6-44a4-824a-dd4a4f23163d-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 69,
+                "output_tokens": 95,
+                "total_tokens": 164,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_54",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following statements about water-based paint is NOT correct?",
+        "options": {
+            "A": "It is easy to handle and dries relatively quickly.",
+            "B": "It is mainly used on concrete or cement walls.",
+            "C": "Emulsion paint is a type of water-based paint.",
+            "D": "Pigment is dissolved using a small amount of boiled oil."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Pigment is dissolved using a small amount of boiled oil."
+            },
+            "explanation": "Water-based paint is diluted with water, while boiled oil is an ingredient in oil-based paints. Adding oil to water-based paint is contradictory."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about water-based paint:\n\n(A) Water-based paints are indeed easy to handle and dry relatively quickly - this is one of their main advantages.\n\n(B) Water-based paints are commonly used on concrete or cement walls, especially for interior applications.\n\n(C) Emulsion paint is indeed a type of water-based paint where pigments are suspended in a water-based emulsion.\n\n(D) This statement describes oil-based paint preparation, not water-based paint. In water-based paints, pigments are dispersed in water or water-based emulsions, not dissolved in boiled oil (linseed oil). Boiled oil is specifically used in oil-based paints.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at each statement about water-based paint:\n\n(A) Water-based paints are indeed easy to handle and dry relatively quickly - this is one of their main advantages.\n\n(B) Water-based paints are commonly used on concrete or cement walls, especially for interior applications.\n\n(C) Emulsion paint is indeed a type of water-based paint where pigments are suspended in a water-based emulsion.\n\n(D) This statement describes oil-based paint preparation, not water-based paint. In water-based paints, pigments are dispersed in water or water-based emulsions, not dissolved in boiled oil (linseed oil). Boiled oil is specifically used in oil-based paints.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01SWjvozgEi4zKyK9oPDGagt",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 97,
+                    "output_tokens": 169,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--4c4880bd-55e2-44ea-b1b8-ac54caa293ee-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 97,
+                "output_tokens": 169,
+                "total_tokens": 266,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_334",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following is NOT a method to reduce segregation of concrete materials?",
+        "options": {
+            "A": "Reduce the proportion of fine aggregate.",
+            "B": "Lower the water-cement ratio.",
+            "C": "Increase the amount of fine particles sized 15–3 mm among the fine aggregate."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reduce the proportion of fine aggregate."
+            },
+            "explanation": "[Methods to prevent segregation] - Improve concrete workability. - Reduce the water-cement ratio. - Increase the proportion of fine aggregate. - Use admixtures such as AE agents or fly ash."
+        },
+        "image_path": null,
+        "model_answer": "To answer this question, I need to understand what segregation in concrete means and what methods help reduce it.\n\nSegregation in concrete refers to the separation of concrete components (coarse aggregates, fine aggregates, cement paste) during handling, placing, or compaction, which results in non-uniform distribution and affects concrete quality.\n\nMethods to reduce segregation typically include:\n- Using well-graded aggregates\n- Maintaining proper water-cement ratio (not too high)\n- Having adequate fine particles to help bind the mix\n- Using appropriate amount of fine aggregate to fill voids\n\nLet me analyze each option:\n\n(A) Reduce the proportion of fine aggregate - This would actually INCREASE segregation because fine aggregates help bind the mix together and fill voids between coarse aggregates. Reducing fine aggregate would make the mix more prone to separation.\n\n(B) Lower the water-cement ratio - This helps reduce segregation because excess water causes materials to separate more easily. A lower (but workable) water-cement ratio keeps the mix more cohesive.\n\n(C) Increase the amount of fine particles sized 15-3 mm among the fine aggregate - This improves gradation and helps reduce segregation by providing better particle packing and cohesion.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "To answer this question, I need to understand what segregation in concrete means and what methods help reduce it.\n\nSegregation in concrete refers to the separation of concrete components (coarse aggregates, fine aggregates, cement paste) during handling, placing, or compaction, which results in non-uniform distribution and affects concrete quality.\n\nMethods to reduce segregation typically include:\n- Using well-graded aggregates\n- Maintaining proper water-cement ratio (not too high)\n- Having adequate fine particles to help bind the mix\n- Using appropriate amount of fine aggregate to fill voids\n\nLet me analyze each option:\n\n(A) Reduce the proportion of fine aggregate - This would actually INCREASE segregation because fine aggregates help bind the mix together and fill voids between coarse aggregates. Reducing fine aggregate would make the mix more prone to separation.\n\n(B) Lower the water-cement ratio - This helps reduce segregation because excess water causes materials to separate more easily. A lower (but workable) water-cement ratio keeps the mix more cohesive.\n\n(C) Increase the amount of fine particles sized 15-3 mm among the fine aggregate - This improves gradation and helps reduce segregation by providing better particle packing and cohesion.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01WmsP3wuTzq52diRCwZas8f",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 81,
+                    "output_tokens": 283,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--008639a2-056d-496a-bb42-198fc6c1cdec-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 81,
+                "output_tokens": 283,
+                "total_tokens": 364,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_787",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "When there is a stiff clay layer during pile driving, which construction method involves inserting a small steel pipe next to the pile and injecting water through it to soften the ground using water pressure before driving the pile?",
+        "options": {
+            "A": "Grouting method",
+            "B": "Caisson method",
+            "C": "Well-point method",
+            "D": "Water-jetting method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Water-jetting method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The construction method that involves inserting a small steel pipe next to the pile and injecting water through it to soften stiff clay ground using water pressure before driving the pile is the water-jetting method.\n\nThe answer is **(D) Water-jetting method**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The construction method that involves inserting a small steel pipe next to the pile and injecting water through it to soften stiff clay ground using water pressure before driving the pile is the water-jetting method.\n\nThe answer is **(D) Water-jetting method**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01QWBj3M1ghGxAVbG9aw1otp",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 97,
+                    "output_tokens": 60,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--073e581f-fcb2-4448-912f-ecf57212ecda-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 97,
+                "output_tokens": 60,
+                "total_tokens": 157,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_39",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5299999713897705,
+        "question": "Which of the following is least related to the indicated items of the concrete mix design?",
+        "options": {
+            "A": "Mixing strength",
+            "B": "Air content",
+            "C": "Chloride content",
+            "D": "Unit water content"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Chloride content"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the options in relation to concrete mix design:\n\n(A) **Mixing strength** - This is not a standard term in concrete mix design. The correct term would be \"mix strength\" or \"compressive strength,\" which is a fundamental parameter in mix design.\n\n(B) **Air content** - This is a critical parameter in concrete mix design, especially for freeze-thaw durability. It's typically specified and controlled during mix design.\n\n(C) **Chloride content** - This is an important consideration in mix design, particularly for reinforced concrete to prevent corrosion of steel reinforcement.\n\n(D) **Unit water content** - This is one of the most fundamental parameters in concrete mix design, directly affecting the water-cement ratio and thus the strength and durability of concrete.\n\n\"Mixing strength\" appears to be either a mistranslation or incorrect terminology. The standard concrete mix design parameters include compressive strength, but not \"mixing strength.\" The mixing process has parameters like mixing time and speed, but \"mixing strength\" is not a recognized concrete mix design term.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the options in relation to concrete mix design:\n\n(A) **Mixing strength** - This is not a standard term in concrete mix design. The correct term would be \"mix strength\" or \"compressive strength,\" which is a fundamental parameter in mix design.\n\n(B) **Air content** - This is a critical parameter in concrete mix design, especially for freeze-thaw durability. It's typically specified and controlled during mix design.\n\n(C) **Chloride content** - This is an important consideration in mix design, particularly for reinforced concrete to prevent corrosion of steel reinforcement.\n\n(D) **Unit water content** - This is one of the most fundamental parameters in concrete mix design, directly affecting the water-cement ratio and thus the strength and durability of concrete.\n\n\"Mixing strength\" appears to be either a mistranslation or incorrect terminology. The standard concrete mix design parameters include compressive strength, but not \"mixing strength.\" The mixing process has parameters like mixing time and speed, but \"mixing strength\" is not a recognized concrete mix design term.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01GuCAQ3X5X9qpaEbxMFT6PX",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 64,
+                    "output_tokens": 242,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--8bfbaa60-3af4-4825-afc7-0ba31a73117e-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 64,
+                "output_tokens": 242,
+                "total_tokens": 306,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_139",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following statements about steel structural members is NOT correct?",
+        "options": {
+            "A": "A stiffener is used to reinforce the web.",
+            "B": "A flange plate is a reinforcement for the flange of a plate girder.",
+            "C": "A gusset plate is attached to the base of a column to anchor it to the foundation.",
+            "D": "In a truss structure, members arranged at the top and bottom are called chords."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A gusset plate is attached to the base of a column to anchor it to the foundation."
+            },
+            "explanation": "A gusset plate is used at joints between columns and beams or at the nodes of truss-type structures."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about steel structural members:\n\n(A) A stiffener is used to reinforce the web - This is CORRECT. Stiffeners are plates attached perpendicular to the web of beams or girders to prevent web buckling and increase stability.\n\n(B) A flange plate is a reinforcement for the flange of a plate girder - This is CORRECT. Flange plates (also called cover plates) are additional plates welded or bolted to flanges to increase the moment capacity of the girder.\n\n(C) A gusset plate is attached to the base of a column to anchor it to the foundation - This is NOT CORRECT. A gusset plate is a flat steel plate used to connect multiple structural members together, typically at joints in trusses or braced frames. The plate described for anchoring a column to a foundation is called a BASE PLATE, not a gusset plate.\n\n(D) In a truss structure, members arranged at the top and bottom are called chords - This is CORRECT. The top chord and bottom chord are the horizontal or inclined members that form the upper and lower boundaries of a truss.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each statement about steel structural members:\n\n(A) A stiffener is used to reinforce the web - This is CORRECT. Stiffeners are plates attached perpendicular to the web of beams or girders to prevent web buckling and increase stability.\n\n(B) A flange plate is a reinforcement for the flange of a plate girder - This is CORRECT. Flange plates (also called cover plates) are additional plates welded or bolted to flanges to increase the moment capacity of the girder.\n\n(C) A gusset plate is attached to the base of a column to anchor it to the foundation - This is NOT CORRECT. A gusset plate is a flat steel plate used to connect multiple structural members together, typically at joints in trusses or braced frames. The plate described for anchoring a column to a foundation is called a BASE PLATE, not a gusset plate.\n\n(D) In a truss structure, members arranged at the top and bottom are called chords - This is CORRECT. The top chord and bottom chord are the horizontal or inclined members that form the upper and lower boundaries of a truss.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_019gGMZWA26NjMrd32ohZM35",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 116,
+                    "output_tokens": 265,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f0f32129-e1b1-40df-9470-3f2cb230fb79-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 116,
+                "output_tokens": 265,
+                "total_tokens": 381,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_633",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is not a vertical lifting device?",
+        "options": {
+            "A": "Fork lift",
+            "B": "Tower crane",
+            "C": "Hoist car",
+            "D": "Jib crane"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Fork lift"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each option:\n\n(A) Fork lift - This is primarily a horizontal material handling device that moves materials across floors/ground, though it can lift loads vertically to limited heights.\n\n(B) Tower crane - This is a vertical lifting device used in construction to lift materials to great heights.\n\n(C) Hoist car - This is a vertical lifting device, typically part of an elevator or lift system that moves materials/people vertically.\n\n(D) Jib crane - This is a vertical lifting device with a horizontal arm (jib) that can lift loads vertically and move them horizontally within its radius.\n\nA fork lift is primarily designed for horizontal transportation and material handling at ground/floor level, with limited vertical lifting capability compared to its main horizontal function. The other options are all primarily vertical lifting devices.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at each option:\n\n(A) Fork lift - This is primarily a horizontal material handling device that moves materials across floors/ground, though it can lift loads vertically to limited heights.\n\n(B) Tower crane - This is a vertical lifting device used in construction to lift materials to great heights.\n\n(C) Hoist car - This is a vertical lifting device, typically part of an elevator or lift system that moves materials/people vertically.\n\n(D) Jib crane - This is a vertical lifting device with a horizontal arm (jib) that can lift loads vertically and move them horizontally within its radius.\n\nA fork lift is primarily designed for horizontal transportation and material handling at ground/floor level, with limited vertical lifting capability compared to its main horizontal function. The other options are all primarily vertical lifting devices.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01SYv2QDYCngQAe2ew8DQpce",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 58,
+                    "output_tokens": 185,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--d1cf3fa1-5e39-4894-9c72-c1b3e418cb7b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 58,
+                "output_tokens": 185,
+                "total_tokens": 243,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_411",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is NOT a fireproofing method that prevents the temperature of steel structures from rising for a certain period required for evacuation?",
+        "options": {
+            "A": "Rock wool spray method",
+            "B": "Anti-corrosion treatment method",
+            "C": "Attaching ALC panels method",
+            "D": "Casting method"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Anti-corrosion treatment method"
+            },
+            "explanation": "The anti-corrosion treatment method is used to remove rust from steel during manufacturing or to prevent rust from forming at the factory."
+        },
+        "image_path": null,
+        "model_answer": "Looking at the options, I need to identify which one is NOT a fireproofing method for steel structures.\n\n(A) Rock wool spray method - This involves spraying rock wool (mineral wool) onto steel structures, which provides thermal insulation and fire resistance. This IS a fireproofing method.\n\n(C) Attaching ALC panels method - ALC (Autoclaved Lightweight Concrete) panels can be attached to steel structures to provide fire protection through their insulating properties. This IS a fireproofing method.\n\n(D) Casting method - This involves encasing steel structures in concrete or other fire-resistant materials. This IS a fireproofing method.\n\n(B) Anti-corrosion treatment method - This is designed to prevent rust and corrosion of steel structures, not to provide fire protection or prevent temperature rise during a fire. This is NOT a fireproofing method.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at the options, I need to identify which one is NOT a fireproofing method for steel structures.\n\n(A) Rock wool spray method - This involves spraying rock wool (mineral wool) onto steel structures, which provides thermal insulation and fire resistance. This IS a fireproofing method.\n\n(C) Attaching ALC panels method - ALC (Autoclaved Lightweight Concrete) panels can be attached to steel structures to provide fire protection through their insulating properties. This IS a fireproofing method.\n\n(D) Casting method - This involves encasing steel structures in concrete or other fire-resistant materials. This IS a fireproofing method.\n\n(B) Anti-corrosion treatment method - This is designed to prevent rust and corrosion of steel structures, not to provide fire protection or prevent temperature rise during a fire. This is NOT a fireproofing method.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01C41AuKAPs9iwHc7xsPDc97",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 86,
+                    "output_tokens": 207,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--17df9a7d-60d2-4b06-9622-52488552a3d2-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 86,
+                "output_tokens": 207,
+                "total_tokens": 293,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_66",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about hardware used in finishing work is NOT correct?",
+        "options": {
+            "A": "A corner bead is hardware installed on the edges of columns and walls to protect plastered surfaces.",
+            "B": "Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding.",
+            "C": "Inserts are used to suspend ceiling frames or other structures beneath concrete floors.",
+            "D": "Perforated metal refers to thin sheets with various shapes cut out."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding."
+            },
+            "explanation": "Metal lath is made by cutting and stretching thin steel sheets and is used in plastering work on walls or ceilings. A wire mesh, not metal lath, is created by welding steel wires into a grid with electric welding."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about hardware used in finishing work:\n\n(A) Corner beads are indeed installed on edges of columns and walls to protect plastered surfaces and provide clean, straight corners - this is correct.\n\n(B) Metal lath is actually made by cutting and stretching sheet metal to create a diamond mesh pattern (expanded metal lath) or by weaving/welding wires together. The description of \"arranging steel wires in a grid and joining their intersections with electric resistance welding\" more accurately describes welded wire mesh or welded wire fabric, not metal lath. This statement is incorrect.\n\n(C) Inserts (concrete inserts) are embedded in concrete during pouring and used to suspend ceiling frames, hangers, and other structures from concrete floors/ceilings - this is correct.\n\n(D) Perforated metal is indeed thin sheet metal with various shapes (circles, squares, slots, etc.) punched or cut out - this is correct.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at each statement about hardware used in finishing work:\n\n(A) Corner beads are indeed installed on edges of columns and walls to protect plastered surfaces and provide clean, straight corners - this is correct.\n\n(B) Metal lath is actually made by cutting and stretching sheet metal to create a diamond mesh pattern (expanded metal lath) or by weaving/welding wires together. The description of \"arranging steel wires in a grid and joining their intersections with electric resistance welding\" more accurately describes welded wire mesh or welded wire fabric, not metal lath. This statement is incorrect.\n\n(C) Inserts (concrete inserts) are embedded in concrete during pouring and used to suspend ceiling frames, hangers, and other structures from concrete floors/ceilings - this is correct.\n\n(D) Perforated metal is indeed thin sheet metal with various shapes (circles, squares, slots, etc.) punched or cut out - this is correct.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01AAQaKRkjd13u37gygKs7x1",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 126,
+                    "output_tokens": 221,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--00550435-d2a6-43b9-bef0-08b110c3763b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 126,
+                "output_tokens": 221,
+                "total_tokens": 347,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_462",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.75,
+        "question": "Which of the following is NOT a roofing material?",
+        "options": {
+            "A": "Pressed cement tile",
+            "B": "Glazed tile",
+            "C": "Slate",
+            "D": "Asphalt felt"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Asphalt felt"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each option:\n\n(A) Pressed cement tile - This is a common roofing material made from cement\n(B) Glazed tile - This is used as a roofing material, often clay or ceramic with a glazed finish\n(C) Slate - This is a traditional and durable roofing material made from natural stone\n(D) Asphalt felt - This is typically used as an underlayment beneath roofing materials, not as the primary roofing material itself\n\nWhile asphalt felt is used in roofing systems, it serves as a water-resistant barrier under the actual roofing materials rather than being a roofing material on its own.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at each option:\n\n(A) Pressed cement tile - This is a common roofing material made from cement\n(B) Glazed tile - This is used as a roofing material, often clay or ceramic with a glazed finish\n(C) Slate - This is a traditional and durable roofing material made from natural stone\n(D) Asphalt felt - This is typically used as an underlayment beneath roofing materials, not as the primary roofing material itself\n\nWhile asphalt felt is used in roofing systems, it serves as a water-resistant barrier under the actual roofing materials rather than being a roofing material on its own.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01JNdUr1A6pREuCegYeKPgUT",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 62,
+                    "output_tokens": 162,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--ebfbabda-3b2a-4189-8ab4-6a530223a397-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 62,
+                "output_tokens": 162,
+                "total_tokens": 224,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_947",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is the most accurate estimation method for calculating construction costs during building works?",
+        "options": {
+            "A": "Detailed estimate",
+            "B": "Rough estimate",
+            "C": "Bid estimate",
+            "D": "Design estimate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Detailed estimate"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The most accurate estimation method for calculating construction costs during building works is:\n\n(A) Detailed estimate\n\nA detailed estimate involves a comprehensive analysis of all construction elements, including precise quantities of materials, labor costs, equipment needs, and overhead expenses. It requires complete drawings and specifications, making it the most accurate method among the options provided.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The most accurate estimation method for calculating construction costs during building works is:\n\n(A) Detailed estimate\n\nA detailed estimate involves a comprehensive analysis of all construction elements, including precise quantities of materials, labor costs, equipment needs, and overhead expenses. It requires complete drawings and specifications, making it the most accurate method among the options provided.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01NkdcChrwCykfAj5Gi3kRPF",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 64,
+                    "output_tokens": 80,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c3c47534-f98e-466f-b67d-2f1b78eb1b49-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 64,
+                "output_tokens": 80,
+                "total_tokens": 144,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_365",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following is incorrect regarding the surcharge rates for steel materials as specified in the Standard Method of Measurement for Construction Works?",
+        "options": {
+            "A": "Small-sized steel sections: 5%",
+            "B": "Round bars: 3%",
+            "C": "High-strength bolts: 3%",
+            "D": "Steel plate: 10%"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Round bars: 3%"
+            },
+            "explanation": "*Surcharge rates for steel materials - Steel plate: 10% - Large-sized steel sections: 7% - High-strength bolts: 3% - All other steel materials: 5%"
+        },
+        "image_path": null,
+        "model_answer": "Looking at the standard surcharge rates for steel materials in the Standard Method of Measurement for Construction Works:\n\n- Small-sized steel sections typically have a surcharge rate of 5%\n- Round bars typically have a surcharge rate of 5% (not 3%)\n- High-strength bolts typically have a surcharge rate of 3%\n- Steel plates typically have a surcharge rate of 10%\n\nThe incorrect statement is about round bars having a 3% surcharge rate when it should be 5%.\n\nThe answer is (B).",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at the standard surcharge rates for steel materials in the Standard Method of Measurement for Construction Works:\n\n- Small-sized steel sections typically have a surcharge rate of 5%\n- Round bars typically have a surcharge rate of 5% (not 3%)\n- High-strength bolts typically have a surcharge rate of 3%\n- Steel plates typically have a surcharge rate of 10%\n\nThe incorrect statement is about round bars having a 3% surcharge rate when it should be 5%.\n\nThe answer is (B).",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01YB9Akr8Q9UJn6o3HW9FKeq",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 92,
+                    "output_tokens": 121,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--dc54b22a-fb93-4b3a-80d1-c78d5379a17c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 92,
+                "output_tokens": 121,
+                "total_tokens": 213,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_604",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "Which of the following is NOT a correct statement about the Benoto method among the cast-in-place concrete pile methods?",
+        "options": {
+            "A": "It can be constructed safely without affecting the surroundings.",
+            "B": "It can be used to construct long piles with lengths of 50~60m.",
+            "C": "By examining the excavated soil, you can determine the soil properties and judge if the bearing layer has been reached.",
+            "D": "Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the Benoto method for cast-in-place concrete piles:\n\nThe Benoto method involves:\n- Using a steel casing tube that is driven into the ground\n- Excavating soil from inside the casing using a grab bucket (Benoto hammer)\n- Placing reinforcement and concrete\n- Extracting the casing tube while compacting the concrete\n\nLet me evaluate each statement:\n\n(A) **Correct** - The method uses casing tubes which prevent soil collapse and minimize vibration/disturbance to surroundings.\n\n(B) **Correct** - The Benoto method can indeed construct piles up to 50-60m in length, though this is approaching its practical limits.\n\n(C) **Correct** - Since soil is excavated using a grab bucket, the excavated material can be examined to verify soil properties and confirm the bearing layer has been reached.\n\n(D) **NOT correct** - Extracting the casing tube actually requires **significant** reaction force, not low force. The casing must be pulled against the friction of surrounding soil and the weight/pressure of fresh concrete. This high extraction force requirement makes it **unsuitable** for very weak ground or over-water construction where adequate reaction cannot be obtained.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at the Benoto method for cast-in-place concrete piles:\n\nThe Benoto method involves:\n- Using a steel casing tube that is driven into the ground\n- Excavating soil from inside the casing using a grab bucket (Benoto hammer)\n- Placing reinforcement and concrete\n- Extracting the casing tube while compacting the concrete\n\nLet me evaluate each statement:\n\n(A) **Correct** - The method uses casing tubes which prevent soil collapse and minimize vibration/disturbance to surroundings.\n\n(B) **Correct** - The Benoto method can indeed construct piles up to 50-60m in length, though this is approaching its practical limits.\n\n(C) **Correct** - Since soil is excavated using a grab bucket, the excavated material can be examined to verify soil properties and confirm the bearing layer has been reached.\n\n(D) **NOT correct** - Extracting the casing tube actually requires **significant** reaction force, not low force. The casing must be pulled against the friction of surrounding soil and the weight/pressure of fresh concrete. This high extraction force requirement makes it **unsuitable** for very weak ground or over-water construction where adequate reaction cannot be obtained.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01JUVeHAh4QZFtvfzsUh3aMS",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 140,
+                    "output_tokens": 285,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--41a8ebf4-14d9-4f3f-af44-619485e0580c-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 140,
+                "output_tokens": 285,
+                "total_tokens": 425,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_318",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "What is the estimated hourly excavation capacity of a power shovel under the following conditions?",
+        "options": {
+            "A": "89.6m3/h",
+            "B": "90.6m3/h",
+            "C": "91.6m3/h",
+            "D": "92.6m3/h"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "89.6m3/h"
+            },
+            "explanation": "[Power shovel hourly working volume]\n- Work volume per cycle = 1.2 x 1.28 x 0.9 x 0.9 = 1.244m3\n- Number of cycles per hour = 3600 ÷ 50 = 72 cycles\n- Hourly working volume = 1.244 x 72 = 89.568m3"
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20150531/bt20150531m39.gif?1526305800",
+        "model_answer": "I need to calculate the hourly excavation capacity of a power shovel given the conditions.\n\nGiven information:\n- Q = 1.2 m³ (bucket capacity)\n- f = 1.28 (fill factor)\n- E = 0.9 (efficiency factor)\n- K = 0.9 (soil loosening factor)\n- Cm = 50 seconds (cycle time)\n\nThe formula for hourly excavation capacity is:\nQ_hourly = (Q × f × E × K × 3600) / Cm\n\nWhere:\n- Q = bucket capacity (m³)\n- f = fill factor\n- E = efficiency\n- K = soil factor\n- 3600 = seconds per hour\n- Cm = cycle time (seconds)\n\nSubstituting the values:\nQ_hourly = (1.2 × 1.28 × 0.9 × 0.9 × 3600) / 50\n\nCalculating step by step:\n- 1.2 × 1.28 = 1.536\n- 1.536 × 0.9 = 1.3824\n- 1.3824 × 0.9 = 1.24416\n- 1.24416 × 3600 = 4478.976\n- 4478.976 / 50 = 89.57952 ≈ 89.6 m³/h\n\nThe answer is **(A) 89.6m³/h**",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "I need to calculate the hourly excavation capacity of a power shovel given the conditions.\n\nGiven information:\n- Q = 1.2 m³ (bucket capacity)\n- f = 1.28 (fill factor)\n- E = 0.9 (efficiency factor)\n- K = 0.9 (soil loosening factor)\n- Cm = 50 seconds (cycle time)\n\nThe formula for hourly excavation capacity is:\nQ_hourly = (Q × f × E × K × 3600) / Cm\n\nWhere:\n- Q = bucket capacity (m³)\n- f = fill factor\n- E = efficiency\n- K = soil factor\n- 3600 = seconds per hour\n- Cm = cycle time (seconds)\n\nSubstituting the values:\nQ_hourly = (1.2 × 1.28 × 0.9 × 0.9 × 3600) / 50\n\nCalculating step by step:\n- 1.2 × 1.28 = 1.536\n- 1.536 × 0.9 = 1.3824\n- 1.3824 × 0.9 = 1.24416\n- 1.24416 × 3600 = 4478.976\n- 4478.976 / 50 = 89.57952 ≈ 89.6 m³/h\n\nThe answer is **(A) 89.6m³/h**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01RwxPndqWMrX7PVW6njf1wu",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 103,
+                    "output_tokens": 355,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--13b5dd13-d9ef-45da-94f5-6f955d1d317a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 103,
+                "output_tokens": 355,
+                "total_tokens": 458,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is NOT a correct precaution to take during plastering work?",
+        "options": {
+            "A": "Moisten the base surface as needed.",
+            "B": "For each stage of wall plastering, the coat thickness should be less than 6㎜.",
+            "C": "As soon as the moisture disappears after the first coat, immediately apply the second and finish coats.",
+            "D": "Roughen the base surface to improve mortar adhesion."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "As soon as the moisture disappears after the first coat, immediately apply the second and finish coats."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each option to identify which is NOT a correct precaution:\n\n(A) Moistening the base surface is a correct practice - it prevents rapid water absorption from the plaster and ensures proper hydration.\n\n(B) Limiting coat thickness to less than 6mm per layer is correct - this prevents cracking, ensures proper drying, and maintains structural integrity.\n\n(C) Applying the second and finish coats immediately after moisture disappears from the first coat is INCORRECT. Proper curing time must be allowed between coats. Each coat needs time to set, gain strength, and cure properly before the next coat is applied. Rushing this process can lead to poor adhesion, cracking, and structural weakness.\n\n(D) Roughening the base surface is correct - it provides mechanical bonding and improves mortar adhesion.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each option to identify which is NOT a correct precaution:\n\n(A) Moistening the base surface is a correct practice - it prevents rapid water absorption from the plaster and ensures proper hydration.\n\n(B) Limiting coat thickness to less than 6mm per layer is correct - this prevents cracking, ensures proper drying, and maintains structural integrity.\n\n(C) Applying the second and finish coats immediately after moisture disappears from the first coat is INCORRECT. Proper curing time must be allowed between coats. Each coat needs time to set, gain strength, and cure properly before the next coat is applied. Rushing this process can lead to poor adhesion, cracking, and structural weakness.\n\n(D) Roughening the base surface is correct - it provides mechanical bonding and improves mortar adhesion.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01SC6ELUq5QpbTR8T57CQaLW",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 117,
+                    "output_tokens": 192,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f5b49f9f-43ad-4615-9888-05a58a68e747-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 117,
+                "output_tokens": 192,
+                "total_tokens": 309,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_535",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "Which of the following statements about asphalt waterproofing is NOT correct?",
+        "options": {
+            "A": "It has the advantage of producing little odor during application.",
+            "B": "It is widely used on rooftops, flat roofs, and basements.",
+            "C": "It is not easy to identify defective areas.",
+            "D": "It provides reliable waterproofing and is durable if properly protected."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It has the advantage of producing little odor during application."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "To answer this question, I need to evaluate each statement about asphalt waterproofing to identify which one is NOT correct.\n\nLet me analyze each option:\n\n(A) \"It has the advantage of producing little odor during application.\"\n- This is NOT correct. Asphalt waterproofing, especially hot-applied asphalt, typically produces strong, unpleasant odors during application due to the heating of bituminous materials. This is actually considered one of the disadvantages of asphalt waterproofing.\n\n(B) \"It is widely used on rooftops, flat roofs, and basements.\"\n- This is correct. Asphalt waterproofing is indeed commonly used in these applications.\n\n(C) \"It is not easy to identify defective areas.\"\n- This is correct. Once installed, it can be difficult to locate specific areas of failure in asphalt waterproofing systems, especially when they're covered or buried.\n\n(D) \"It provides reliable waterproofing and is durable if properly protected.\"\n- This is correct. Asphalt waterproofing is known for its reliability and durability when properly installed and maintained.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "To answer this question, I need to evaluate each statement about asphalt waterproofing to identify which one is NOT correct.\n\nLet me analyze each option:\n\n(A) \"It has the advantage of producing little odor during application.\"\n- This is NOT correct. Asphalt waterproofing, especially hot-applied asphalt, typically produces strong, unpleasant odors during application due to the heating of bituminous materials. This is actually considered one of the disadvantages of asphalt waterproofing.\n\n(B) \"It is widely used on rooftops, flat roofs, and basements.\"\n- This is correct. Asphalt waterproofing is indeed commonly used in these applications.\n\n(C) \"It is not easy to identify defective areas.\"\n- This is correct. Once installed, it can be difficult to locate specific areas of failure in asphalt waterproofing systems, especially when they're covered or buried.\n\n(D) \"It provides reliable waterproofing and is durable if properly protected.\"\n- This is correct. Asphalt waterproofing is known for its reliability and durability when properly installed and maintained.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01BckZrzBcdZgEjwie3zU1M8",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 106,
+                    "output_tokens": 271,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--e5aebc22-ec87-4f1a-8836-bb348bf26f01-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 106,
+                "output_tokens": 271,
+                "total_tokens": 377,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_868",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which cast-in-place concrete pile method has the following characteristics?",
+        "options": {
+            "A": "Benoto method",
+            "B": "ECOS method",
+            "C": "Earth drill method",
+            "D": "Reverse circulation method"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Benoto method"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20040523/bt20040523m29.gif?1525988101",
+        "model_answer": "Looking at the characteristics listed:\n- A casing is driven into the ground using a vibro-hammer\n- Soil is excavated\n- Concrete is poured while the casing is being withdrawn\n- Reinforcement cage is inserted into the concrete\n\nThese characteristics describe a method where:\n1. A temporary casing is vibrated into the ground\n2. Soil inside the casing is removed\n3. Concrete is placed while simultaneously extracting the casing\n4. Reinforcement is placed in the fresh concrete\n\nThis process matches the **Benoto method**, which is a cast-in-place pile construction technique that uses a temporary casing driven by vibratory hammer, excavates soil from within the casing, and then places concrete while withdrawing the casing.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "Looking at the characteristics listed:\n- A casing is driven into the ground using a vibro-hammer\n- Soil is excavated\n- Concrete is poured while the casing is being withdrawn\n- Reinforcement cage is inserted into the concrete\n\nThese characteristics describe a method where:\n1. A temporary casing is vibrated into the ground\n2. Soil inside the casing is removed\n3. Concrete is placed while simultaneously extracting the casing\n4. Reinforcement is placed in the fresh concrete\n\nThis process matches the **Benoto method**, which is a cast-in-place pile construction technique that uses a temporary casing driven by vibratory hammer, excavates soil from within the casing, and then places concrete while withdrawing the casing.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01LYUZeDixW9PP8BZgCoZbAX",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 107,
+                    "output_tokens": 179,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--3d739c16-3aa2-4404-8ef5-acd7098a0321-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 107,
+                "output_tokens": 179,
+                "total_tokens": 286,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_450",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "What is the contract method used in recent schools, military facilities, and similar settings, in which a private operator provides funding and constructs the facility, then transfers ownership to the government or client agency, and recoups their investment by receiving rental payments from the government or agency?",
+        "options": {
+            "A": "BOT (Build-Operate-Transfer)",
+            "B": "BTO (Build-Transfer-Operate)",
+            "C": "BTL (Build-Transfer-Lease)",
+            "D": "BLT (Build-Lease-Transfer)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "BTL (Build-Transfer-Lease)"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the described contract method:\n- Private operator provides funding and constructs the facility\n- Transfers ownership to the government/client agency\n- Recoups investment through rental payments from the government/agency\n\nThis matches the BTL (Build-Transfer-Lease) model where:\n1. Build: Private operator constructs the facility\n2. Transfer: Ownership is transferred to the government\n3. Lease: The government leases back the facility, paying rent to the private operator\n\nThis differs from:\n- BOT: Operator retains ownership during operation period\n- BTO: Operator receives payments through operation, not lease\n- BLT: Typically involves leasing before transfer\n\nThe answer is **(C) BTL (Build-Transfer-Lease)**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at the described contract method:\n- Private operator provides funding and constructs the facility\n- Transfers ownership to the government/client agency\n- Recoups investment through rental payments from the government/agency\n\nThis matches the BTL (Build-Transfer-Lease) model where:\n1. Build: Private operator constructs the facility\n2. Transfer: Ownership is transferred to the government\n3. Lease: The government leases back the facility, paying rent to the private operator\n\nThis differs from:\n- BOT: Operator retains ownership during operation period\n- BTO: Operator receives payments through operation, not lease\n- BLT: Typically involves leasing before transfer\n\nThe answer is **(C) BTL (Build-Transfer-Lease)**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01SABxBtUa5hpedJ2VWkgE5x",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 132,
+                    "output_tokens": 170,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f4d7d748-d2b1-4e1f-8f57-963ab0be1dc7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 132,
+                "output_tokens": 170,
+                "total_tokens": 302,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_500",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following statements about the application of cement mortar is incorrect?",
+        "options": {
+            "A": "The order of plastering indoors is ceiling, walls, then floor.",
+            "B": "For the first coat, water should be applied to a dry base.",
+            "C": "After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.",
+            "D": "For the finishing coat, since using a wooden trowel can leave the surface rough and marked, a steel trowel should be used."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about cement mortar application:\n\n(A) The order of plastering indoors (ceiling, walls, then floor) is correct - this prevents damage to completed surfaces below.\n\n(B) Water should be applied to a dry base before the first coat - this is correct as it helps with adhesion and prevents the dry substrate from absorbing water too quickly from the mortar.\n\n(C) This statement claims you should wait two weeks to allow \"sufficient cracking\" before the second coat - this is incorrect. In proper plastering practice, you want to prevent cracking, not encourage it. The waiting period between coats is for proper curing and drying, not to allow cracking to develop.\n\n(D) Using a steel trowel for the finishing coat to achieve a smooth surface (versus a rougher wooden trowel finish) is correct standard practice.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each statement about cement mortar application:\n\n(A) The order of plastering indoors (ceiling, walls, then floor) is correct - this prevents damage to completed surfaces below.\n\n(B) Water should be applied to a dry base before the first coat - this is correct as it helps with adhesion and prevents the dry substrate from absorbing water too quickly from the mortar.\n\n(C) This statement claims you should wait two weeks to allow \"sufficient cracking\" before the second coat - this is incorrect. In proper plastering practice, you want to prevent cracking, not encourage it. The waiting period between coats is for proper curing and drying, not to allow cracking to develop.\n\n(D) Using a steel trowel for the finishing coat to achieve a smooth surface (versus a rougher wooden trowel finish) is correct standard practice.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01EBRssYh1y3useDXDByeVnV",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 131,
+                    "output_tokens": 197,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--83fe9ba0-81da-4199-a4d7-8fe703dbbc5b-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 131,
+                "output_tokens": 197,
+                "total_tokens": 328,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_371",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "Which of the following is incorrect regarding general matters of painting work?",
+        "options": {
+            "A": "Iron is generally painted in two stages: intermediate and finish coats.",
+            "B": "The later coats are applied with a deeper color to distinguish unpainted areas.",
+            "C": "Work should be suspended when the ambient temperature is below 5℃ or the relative humidity exceeds 85%.",
+            "D": "Each coat should be applied thinly in multiple layers, and rapid drying should be avoided."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Iron is generally painted in two stages: intermediate and finish coats."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each option:\n\n(A) Iron painting typically involves primer, intermediate, and finish coats - so saying \"two stages: intermediate and finish\" omits the crucial primer stage, but this could be considered a simplified statement that's not necessarily incorrect.\n\n(B) In standard painting practice, later coats are typically applied in the same or lighter colors to ensure proper coverage and finish. Applying deeper/darker colors in later coats would be contrary to normal practice, as it could lead to uneven appearance and make it harder to achieve a uniform finish. The purpose is to build up a consistent coating, not to distinguish unpainted areas through color variation.\n\n(C) These environmental conditions (temperature above 5°C and humidity below 85%) are standard requirements for proper paint application and curing.\n\n(D) Applying thin coats in multiple layers and avoiding rapid drying are correct practices to prevent defects like cracking, bubbling, or poor adhesion.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at each option:\n\n(A) Iron painting typically involves primer, intermediate, and finish coats - so saying \"two stages: intermediate and finish\" omits the crucial primer stage, but this could be considered a simplified statement that's not necessarily incorrect.\n\n(B) In standard painting practice, later coats are typically applied in the same or lighter colors to ensure proper coverage and finish. Applying deeper/darker colors in later coats would be contrary to normal practice, as it could lead to uneven appearance and make it harder to achieve a uniform finish. The purpose is to build up a consistent coating, not to distinguish unpainted areas through color variation.\n\n(C) These environmental conditions (temperature above 5°C and humidity below 85%) are standard requirements for proper paint application and curing.\n\n(D) Applying thin coats in multiple layers and avoiding rapid drying are correct practices to prevent defects like cracking, bubbling, or poor adhesion.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01C6oFxBWMumCFayqNcJ3pSk",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 122,
+                    "output_tokens": 215,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b1f11476-e233-407c-bc8d-3ab38b3f3331-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 122,
+                "output_tokens": 215,
+                "total_tokens": 337,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_467",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following statements about terms used in CPM network schedules is incorrect?",
+        "options": {
+            "A": "Activity: a work unit that makes up the project",
+            "B": "Float: the amount of free time in a task",
+            "C": "Critical path: the longest path from the start node to the end node",
+            "D": "Slack: the time needed to perform a task"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Slack: the time needed to perform a task"
+            },
+            "explanation": "Slack refers to the amount of free time a node has, not the time required to complete a task."
+        },
+        "image_path": null,
+        "model_answer": "Let me analyze each statement about CPM (Critical Path Method) network schedule terms:\n\n(A) Activity: a work unit that makes up the project - This is CORRECT. Activities are indeed the individual work units or tasks that comprise a project.\n\n(B) Float: the amount of free time in a task - This is CORRECT. Float (or slack) represents the amount of time an activity can be delayed without affecting the project completion date.\n\n(C) Critical path: the longest path from the start node to the end node - This is CORRECT. The critical path is the sequence of activities that determines the minimum project duration, and it is the longest path through the network.\n\n(D) Slack: the time needed to perform a task - This is INCORRECT. Slack (like float) refers to the amount of time an activity can be delayed without affecting the project completion. The time needed to perform a task is called the \"duration\" of the activity, not slack.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Let me analyze each statement about CPM (Critical Path Method) network schedule terms:\n\n(A) Activity: a work unit that makes up the project - This is CORRECT. Activities are indeed the individual work units or tasks that comprise a project.\n\n(B) Float: the amount of free time in a task - This is CORRECT. Float (or slack) represents the amount of time an activity can be delayed without affecting the project completion date.\n\n(C) Critical path: the longest path from the start node to the end node - This is CORRECT. The critical path is the sequence of activities that determines the minimum project duration, and it is the longest path through the network.\n\n(D) Slack: the time needed to perform a task - This is INCORRECT. Slack (like float) refers to the amount of time an activity can be delayed without affecting the project completion. The time needed to perform a task is called the \"duration\" of the activity, not slack.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01M3Y3t6L2AA4Phb6pMBwMZz",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 96,
+                    "output_tokens": 217,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--4a337772-3e1b-4043-9f52-cffc59e96256-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 96,
+                "output_tokens": 217,
+                "total_tokens": 313,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_133",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "What is the main purpose of using a vibrator when pouring concrete?",
+        "options": {
+            "A": "To prevent segregation of materials.",
+            "B": "To improve work efficiency.",
+            "C": "To accelerate the hardening process.",
+            "D": "To maintain the density of the concrete."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "To maintain the density of the concrete."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The main purpose of using a vibrator when pouring concrete is to consolidate the concrete by removing trapped air bubbles and voids. This process ensures that the concrete completely fills the formwork and surrounds any reinforcement, resulting in a denser, stronger, and more durable final product.\n\nWhile vibration does help prevent segregation to some extent (A), improve work efficiency (B), and relate to density (D), the primary purpose is most closely aligned with maintaining and achieving proper concrete density by eliminating air pockets and ensuring full compaction.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The main purpose of using a vibrator when pouring concrete is to consolidate the concrete by removing trapped air bubbles and voids. This process ensures that the concrete completely fills the formwork and surrounds any reinforcement, resulting in a denser, stronger, and more durable final product.\n\nWhile vibration does help prevent segregation to some extent (A), improve work efficiency (B), and relate to density (D), the primary purpose is most closely aligned with maintaining and achieving proper concrete density by eliminating air pockets and ensuring full compaction.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01BAAQUDhkVBWXaGgWcGQHZN",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 78,
+                    "output_tokens": 127,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--a45d238d-253a-45b7-8222-b60c27b69970-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 78,
+                "output_tokens": 127,
+                "total_tokens": 205,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_618",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following is NOT a correct description of asphalt primer?",
+        "options": {
+            "A": "It is a dark brown liquid obtained by dissolving asphalt in a volatile solvent.",
+            "B": "It is the first waterproofing material applied in asphalt waterproofing methods.",
+            "C": "It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity.",
+            "D": "It is used to enhance the adhesion between concrete and asphalt."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity."
+            },
+            "explanation": "Asphalt compound is the material made by improving blown asphalt."
+        },
+        "image_path": null,
+        "model_answer": "Looking at each option:\n\n(A) Describes asphalt primer as a dark brown liquid made by dissolving asphalt in volatile solvent - this is a correct description of asphalt primer.\n\n(B) States it's the first waterproofing material applied in asphalt waterproofing methods - this is correct, as primer is indeed applied first to prepare the surface.\n\n(C) Claims it's made by mixing plant fibers to improve heat and weather resistance of blown asphalt and give it fluidity - this description doesn't match asphalt primer. Plant fibers are typically used in modified asphalt products or reinforced asphalt sheets, not in primers. Primers are solutions of asphalt in solvents, not fiber-modified products.\n\n(D) Says it's used to enhance adhesion between concrete and asphalt - this is correct, as this is one of the primary functions of asphalt primer.\n\nThe answer is **(C)**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at each option:\n\n(A) Describes asphalt primer as a dark brown liquid made by dissolving asphalt in volatile solvent - this is a correct description of asphalt primer.\n\n(B) States it's the first waterproofing material applied in asphalt waterproofing methods - this is correct, as primer is indeed applied first to prepare the surface.\n\n(C) Claims it's made by mixing plant fibers to improve heat and weather resistance of blown asphalt and give it fluidity - this description doesn't match asphalt primer. Plant fibers are typically used in modified asphalt products or reinforced asphalt sheets, not in primers. Primers are solutions of asphalt in solvents, not fiber-modified products.\n\n(D) Says it's used to enhance adhesion between concrete and asphalt - this is correct, as this is one of the primary functions of asphalt primer.\n\nThe answer is **(C)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01NcZyz4TStL3ChAQvgmUoXh",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 131,
+                    "output_tokens": 215,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--cd12207c-9a91-49fd-9056-34c973c0d545-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 131,
+                "output_tokens": 215,
+                "total_tokens": 346,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_169",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "When attaching 108mm square tiles with a grout width of 6mm, which of the following is the correct number of tiles (net quantity) per 1m²?",
+        "options": {
+            "A": "72 tiles",
+            "B": "73 tiles",
+            "C": "75 tiles",
+            "D": "77 tiles"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "77 tiles"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at this problem, I need to calculate how many 108mm square tiles with 6mm grout joints fit in 1m² (1000mm × 1000mm).\n\nWhen tiles are installed with grout, each tile effectively occupies:\n- Width: 108mm (tile) + 6mm (grout) = 114mm\n- Height: 108mm (tile) + 6mm (grout) = 114mm\n\nTo find how many tiles fit along each dimension:\n- Horizontal: 1000mm ÷ 114mm = 8.77 → 8 complete tiles (with some space left)\n- Vertical: 1000mm ÷ 114mm = 8.77 → 8 complete tiles (with some space left)\n\nLet me verify this fits:\n- 8 tiles × 114mm = 912mm (leaving 88mm unused space)\n\nTotal number of tiles:\n8 × 8 = 64 tiles\n\nWait, this seems too low compared to the options. Let me reconsider the problem.\n\nActually, for tiling calculations, the \"net quantity\" typically refers to the theoretical coverage without considering edge conditions. Using the standard formula:\n\nArea per tile including grout = 114mm × 114mm = 12,996mm²\nNumber of tiles = 1,000,000mm² ÷ 12,996mm² = 76.95 ≈ 77 tiles\n\nThis matches option (D).\n\nThe answer is **(D) 77 tiles**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at this problem, I need to calculate how many 108mm square tiles with 6mm grout joints fit in 1m² (1000mm × 1000mm).\n\nWhen tiles are installed with grout, each tile effectively occupies:\n- Width: 108mm (tile) + 6mm (grout) = 114mm\n- Height: 108mm (tile) + 6mm (grout) = 114mm\n\nTo find how many tiles fit along each dimension:\n- Horizontal: 1000mm ÷ 114mm = 8.77 → 8 complete tiles (with some space left)\n- Vertical: 1000mm ÷ 114mm = 8.77 → 8 complete tiles (with some space left)\n\nLet me verify this fits:\n- 8 tiles × 114mm = 912mm (leaving 88mm unused space)\n\nTotal number of tiles:\n8 × 8 = 64 tiles\n\nWait, this seems too low compared to the options. Let me reconsider the problem.\n\nActually, for tiling calculations, the \"net quantity\" typically refers to the theoretical coverage without considering edge conditions. Using the standard formula:\n\nArea per tile including grout = 114mm × 114mm = 12,996mm²\nNumber of tiles = 1,000,000mm² ÷ 12,996mm² = 76.95 ≈ 77 tiles\n\nThis matches option (D).\n\nThe answer is **(D) 77 tiles**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01RCMYQ8Xo9uKDEzfwHNETfn",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 89,
+                    "output_tokens": 355,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f79a6908-b2c0-4ff1-b2f7-50877a75aa67-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 89,
+                "output_tokens": 355,
+                "total_tokens": 444,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_24",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is not included as a component of construction cost in the total construction expenses?",
+        "options": {
+            "A": "Material costs",
+            "B": "Labor costs",
+            "C": "Overhead costs",
+            "D": "General administrative expenses"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "General administrative expenses"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the components typically included in construction costs:\n\n- **Material costs** - Direct cost of materials used in construction (included)\n- **Labor costs** - Direct cost of workers performing construction work (included)  \n- **Overhead costs** - Indirect costs related to the construction project like site supervision, temporary facilities, equipment (included)\n- **General administrative expenses** - These are company-wide expenses not directly related to a specific construction project, such as corporate office expenses, executive salaries, accounting, etc. These are typically excluded from construction costs and are instead part of the company's overall operating expenses.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at the components typically included in construction costs:\n\n- **Material costs** - Direct cost of materials used in construction (included)\n- **Labor costs** - Direct cost of workers performing construction work (included)  \n- **Overhead costs** - Indirect costs related to the construction project like site supervision, temporary facilities, equipment (included)\n- **General administrative expenses** - These are company-wide expenses not directly related to a specific construction project, such as corporate office expenses, executive salaries, accounting, etc. These are typically excluded from construction costs and are instead part of the company's overall operating expenses.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01RePHThwkDYZVwJK4EGum2t",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 64,
+                    "output_tokens": 140,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--7dfc4eda-4255-453a-bc44-05fbb9653ca0-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 64,
+                "output_tokens": 140,
+                "total_tokens": 204,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_644",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about carpentry work is NOT correct?",
+        "options": {
+            "A": "The cross-section of joints and fittings should be aligned with the direction of stress.",
+            "B": "Joint surfaces should be machined accurately so that they fit closely together without any gaps.",
+            "C": "The length of the nail should be",
+            "D": "about 3 to 5 times the thickness of the board.",
+            "E": "It is best to make joints and fittings in areas where stress is low."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The cross-section of joints and fittings should be aligned with the direction of stress."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about carpentry work:\n\n(A) \"The cross-section of joints and fittings should be aligned with the direction of stress\" - This is correct. Proper alignment with stress direction ensures optimal strength.\n\n(B) \"Joint surfaces should be machined accurately so that they fit closely together without any gaps\" - This is correct. Tight-fitting joints are essential for strength and quality.\n\n(C) & (D) appear to be one statement split across two lines: \"The length of the nail should be about 3 to 5 times the thickness of the board\" - This is correct. This is a standard carpentry guideline for proper nail penetration.\n\n(E) \"It is best to make joints and fittings in areas where stress is low\" - This is NOT correct. While it might seem logical to avoid high-stress areas, in carpentry, joints are often necessary at critical structural points where forces meet. The key is to design strong joints that can handle the stress, not to avoid these areas entirely. Joints are frequently required at load-bearing connections and stress concentration points.\n\nThe answer is **(E)**.",
+        "parsed_pred": "E",
+        "full_response": {
+            "content": "Looking at each statement about carpentry work:\n\n(A) \"The cross-section of joints and fittings should be aligned with the direction of stress\" - This is correct. Proper alignment with stress direction ensures optimal strength.\n\n(B) \"Joint surfaces should be machined accurately so that they fit closely together without any gaps\" - This is correct. Tight-fitting joints are essential for strength and quality.\n\n(C) & (D) appear to be one statement split across two lines: \"The length of the nail should be about 3 to 5 times the thickness of the board\" - This is correct. This is a standard carpentry guideline for proper nail penetration.\n\n(E) \"It is best to make joints and fittings in areas where stress is low\" - This is NOT correct. While it might seem logical to avoid high-stress areas, in carpentry, joints are often necessary at critical structural points where forces meet. The key is to design strong joints that can handle the stress, not to avoid these areas entirely. Joints are frequently required at load-bearing connections and stress concentration points.\n\nThe answer is **(E)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01GuAJA7Taf8XRikZqTC4RAU",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 127,
+                    "output_tokens": 250,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--2a08b045-ecac-4679-b820-6479b511ed8a-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 127,
+                "output_tokens": 250,
+                "total_tokens": 377,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following is NOT a mandatory item to check when applying the sprayed fireproofing method in fireproof coating work?",
+        "options": {
+            "A": "Checking the thickness",
+            "B": "Checking the density",
+            "C": "Checking the adhesion strength",
+            "D": "Checking for removal of anti-corrosive paint"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Checking for removal of anti-corrosive paint"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "When applying sprayed fireproofing in fireproof coating work, the mandatory quality control checks typically include:\n\n- **Thickness checking** - Essential to ensure the fireproofing meets the required fire resistance rating\n- **Density checking** - Critical for verifying the material's fire resistance properties and structural integrity\n- **Adhesion strength checking** - Important to ensure the fireproofing material properly bonds to the substrate and won't fall off\n\nRegarding anti-corrosive paint, the standard practice is actually to apply fireproofing directly over properly prepared primers or anti-corrosive coatings. Most fireproofing materials are designed to adhere to primed steel surfaces. Removing anti-corrosive paint would expose the steel to potential corrosion and is generally not required or recommended.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "When applying sprayed fireproofing in fireproof coating work, the mandatory quality control checks typically include:\n\n- **Thickness checking** - Essential to ensure the fireproofing meets the required fire resistance rating\n- **Density checking** - Critical for verifying the material's fire resistance properties and structural integrity\n- **Adhesion strength checking** - Important to ensure the fireproofing material properly bonds to the substrate and won't fall off\n\nRegarding anti-corrosive paint, the standard practice is actually to apply fireproofing directly over properly prepared primers or anti-corrosive coatings. Most fireproofing materials are designed to adhere to primed steel surfaces. Removing anti-corrosive paint would expose the steel to potential corrosion and is generally not required or recommended.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01VvfhH1YAPK7v3rSf4Fus4o",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 88,
+                    "output_tokens": 185,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c6bde9df-fd98-40e5-b536-58b69b2972be-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 88,
+                "output_tokens": 185,
+                "total_tokens": 273,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_409",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "In foundation pile driving work, what is the correct minimum spacing for precast concrete piles? (Here, d is the diameter of the pile head.)",
+        "options": {
+            "A": "2.4d",
+            "B": "2.3d",
+            "C": "2.5d",
+            "D": "2.2d"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2.5d"
+            },
+            "explanation": "2.5d"
+        },
+        "image_path": null,
+        "model_answer": "Looking at standard pile driving specifications and codes for precast concrete piles, the minimum center-to-center spacing between piles is typically specified to prevent interference during driving and to avoid excessive stress in the soil.\n\nFor precast concrete piles, most international codes and standards (including ACI, European standards, and various national building codes) specify a minimum spacing of **2.5 times the pile diameter (or diagonal dimension for square piles)** measured at the pile head.\n\nThis 2.5d spacing ensures:\n- Adequate room for pile driving equipment\n- Prevention of damage to adjacent piles during driving\n- Proper load distribution in the soil\n- Avoidance of group effect issues\n\nThe answer is **(C) 2.5d**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "Looking at standard pile driving specifications and codes for precast concrete piles, the minimum center-to-center spacing between piles is typically specified to prevent interference during driving and to avoid excessive stress in the soil.\n\nFor precast concrete piles, most international codes and standards (including ACI, European standards, and various national building codes) specify a minimum spacing of **2.5 times the pile diameter (or diagonal dimension for square piles)** measured at the pile head.\n\nThis 2.5d spacing ensures:\n- Adequate room for pile driving equipment\n- Prevention of damage to adjacent piles during driving\n- Proper load distribution in the soil\n- Avoidance of group effect issues\n\nThe answer is **(C) 2.5d**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01Se6oukV9x6m93QN9aHi8Vr",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 86,
+                    "output_tokens": 166,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f9650e74-d7e6-430b-a7af-ab3faf0fa48f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 86,
+                "output_tokens": 166,
+                "total_tokens": 252,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_336",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Among retaining wall construction methods, which method forms the retaining wall of the underground main structure itself?",
+        "options": {
+            "A": "H-pile and lagging",
+            "B": "Soil nailing method",
+            "C": "Soil cement wall",
+            "D": "Slurry wall method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Slurry wall method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The method that forms the retaining wall of the underground main structure itself is the **slurry wall method**.\n\nIn the slurry wall method (also known as diaphragm wall method), a reinforced concrete wall is constructed in the ground that serves dual purposes:\n1. It acts as a temporary earth retaining structure during excavation\n2. It becomes a permanent part of the underground structure (such as basement walls)\n\nThe other methods are typically temporary or separate from the main structure:\n- H-pile and lagging is a temporary retaining system\n- Soil nailing is a reinforcement method for existing slopes\n- Soil cement wall is typically a temporary retaining structure\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The method that forms the retaining wall of the underground main structure itself is the **slurry wall method**.\n\nIn the slurry wall method (also known as diaphragm wall method), a reinforced concrete wall is constructed in the ground that serves dual purposes:\n1. It acts as a temporary earth retaining structure during excavation\n2. It becomes a permanent part of the underground structure (such as basement walls)\n\nThe other methods are typically temporary or separate from the main structure:\n- H-pile and lagging is a temporary retaining system\n- Soil nailing is a reinforcement method for existing slopes\n- Soil cement wall is typically a temporary retaining structure\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01BUMtTw6ossDFxyHKfrLwbW",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 77,
+                    "output_tokens": 157,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--4365362b-1f1e-4285-b166-d1744aadbc05-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 77,
+                "output_tokens": 157,
+                "total_tokens": 234,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_892",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1899999976158142,
+        "question": "Which of the following is NOT a type of curtain wall classified by its appearance?",
+        "options": {
+            "A": "Mullion type",
+            "B": "Spandrel type",
+            "C": "Grid type",
+            "D": "Wall type"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Wall type"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at the classification of curtain walls by appearance, the common types include:\n\n- **Mullion type**: Features visible vertical mullions on the exterior\n- **Spandrel type**: Has distinct spandrel panels between vision areas\n- **Grid type**: Shows a grid pattern of horizontal and vertical mullions\n\n\"Wall type\" is not a standard classification for curtain walls based on appearance. This term is too generic and doesn't describe a specific visual characteristic like the other options do. Curtain walls are typically classified by their structural systems (stick-built, unitized, etc.) or by their appearance (mullion, spandrel, grid, etc.), but \"wall type\" is not a recognized category in either classification system.\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "Looking at the classification of curtain walls by appearance, the common types include:\n\n- **Mullion type**: Features visible vertical mullions on the exterior\n- **Spandrel type**: Has distinct spandrel panels between vision areas\n- **Grid type**: Shows a grid pattern of horizontal and vertical mullions\n\n\"Wall type\" is not a standard classification for curtain walls based on appearance. This term is too generic and doesn't describe a specific visual characteristic like the other options do. Curtain walls are typically classified by their structural systems (stick-built, unitized, etc.) or by their appearance (mullion, spandrel, grid, etc.), but \"wall type\" is not a recognized category in either classification system.\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01H8tFg1QLL8S3cKYyvXFtVX",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 65,
+                    "output_tokens": 167,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--677e58aa-1cae-4930-88d8-38d9249af3f1-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 65,
+                "output_tokens": 167,
+                "total_tokens": 232,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_678",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following statements about network schedules is incorrect?",
+        "options": {
+            "A": "The CPM schedule is a type of network schedule.",
+            "B": "The start, duration, and completion points of each activity are represented with bar diagrams.",
+            "C": "The PERT schedule focuses on events (milestones) when calculating timelines.",
+            "D": "It is easy to grasp the overall construction plan and the entire scope of the project."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The start, duration, and completion points of each activity are represented with bar diagrams."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "Looking at each statement about network schedules:\n\n(A) CPM (Critical Path Method) schedule is indeed a type of network schedule - this is correct.\n\n(B) Bar diagrams (like Gantt charts) show start, duration, and completion of activities using horizontal bars, NOT network schedules. Network schedules use nodes and arrows to show relationships between activities, not bar diagrams - this appears incorrect.\n\n(C) PERT (Program Evaluation and Review Technique) does focus on events/milestones in its calculations - this is correct.\n\n(D) Network schedules do provide a good overview of the construction plan and project scope through their visual representation of activity relationships - this is correct.\n\nThe answer is **(B)**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "Looking at each statement about network schedules:\n\n(A) CPM (Critical Path Method) schedule is indeed a type of network schedule - this is correct.\n\n(B) Bar diagrams (like Gantt charts) show start, duration, and completion of activities using horizontal bars, NOT network schedules. Network schedules use nodes and arrows to show relationships between activities, not bar diagrams - this appears incorrect.\n\n(C) PERT (Program Evaluation and Review Technique) does focus on events/milestones in its calculations - this is correct.\n\n(D) Network schedules do provide a good overview of the construction plan and project scope through their visual representation of activity relationships - this is correct.\n\nThe answer is **(B)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01BoNo77jSU4XdsAtLsEgHiY",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 112,
+                    "output_tokens": 162,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--129b0384-372b-4a03-9685-f33ad2142ae2-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 112,
+                "output_tokens": 162,
+                "total_tokens": 274,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

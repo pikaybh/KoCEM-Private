@@ -1,0 +1,176 @@
+[
+    {
+        "id": "dev_Architectural_Planning_1222",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6800000071525574,
+        "question": "In office building construction, what does 'efficiency rate' refer to?",
+        "options": {
+            "A": "The ratio of building area to total floor area.",
+            "B": "The ratio of rentable area to total floor area.",
+            "C": "The ratio of rentable area to building area.",
+            "D": "The ratio of rentable area to standard floor area."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The ratio of rentable area to total floor area."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "id": "chatcmpl-C86AsHeZ6xu4HixrcL3ALLfFBxgsn",
+            "object": "chat.completion",
+            "created": 1756046394,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "No image provided",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 130,
+                "completion_tokens": 76,
+                "total_tokens": 206,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Architectural_Planning_1067",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.75,
+        "question": "Which projection method is used in our country's architectural system?",
+        "options": {
+            "A": "First-angle projection",
+            "B": "Second-angle projection",
+            "C": "Third-angle projection",
+            "D": "Fourth-angle projection"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Third-angle projection"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "id": "chatcmpl-C86AxwiSwg0sqGOQl6p9m13gR3DPw",
+            "object": "chat.completion",
+            "created": 1756046399,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "No image provided",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 102,
+                "completion_tokens": 140,
+                "total_tokens": 242,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 128,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Architectural_Planning_303",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which of the following is NOT a unit of residential area within a neighborhood living zone?",
+        "options": {
+            "A": "Housing Cluster",
+            "B": "Street district",
+            "C": "Neighborhood subdistrict",
+            "D": "Neighborhood block"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Street district"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "No image provided",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "id": "chatcmpl-C86B0RkKtnNNgbx2vklKdV8I0tCBq",
+            "object": "chat.completion",
+            "created": 1756046402,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "No image provided",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 105,
+                "completion_tokens": 204,
+                "total_tokens": 309,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 192,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    }
+]

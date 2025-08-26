@@ -1,0 +1,207 @@
+{
+    "val_Architectural_Planning_289": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_1629": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_998": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_237": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_1151": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_1362": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_2088": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_613": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_1090": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1239": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_1089": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_69": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_579": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_611": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_1659": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_212": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_374": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_617": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_900": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_96": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_188": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1381": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_1422": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_1483": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_23": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_999": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_1811": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_1591": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_1182": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1977": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_2023": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_943": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_1588": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_91": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1887": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1548": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Architectural_Planning_185": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1928": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Architectural_Planning_1741": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Architectural_Planning_315": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Architectural_Planning_1501": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    }
+}

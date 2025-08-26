@@ -10,6 +10,11 @@
             "std_dev": 0.44245900954962103,
             "num_example": 2798
         },
+        "Drawing Interpretation": {
+            "acc": 0.48360655737704916,
+            "std_dev": 0.5017919386645341,
+            "num_example": 122
+        },
         "Exper-level Comprehension": {
             "acc": 0.45962732919254656,
             "std_dev": 0.49992235421958,
@@ -19,11 +24,6 @@
             "acc": 0.47843137254901963,
             "std_dev": 0.500516947525176,
             "num_example": 255
-        },
-        "Drawing Interpretation": {
-            "acc": 0.48360655737704916,
-            "std_dev": 0.5017919386645341,
-            "num_example": 122
         },
         "Domain-specific Terminology": {
             "acc": 0.9955555555555555,

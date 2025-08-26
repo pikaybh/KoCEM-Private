@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Determine whether the strength reduction factor $\\phi = 0.85$ is appropriate for a reinforced concrete beam like the one shown in the figure, with $f_{ck} = 21$ MPa, $f_y = 400$ MPa, and D22 bars (cross-sectional area 387mm$^2$).",
+        "options": {
+            "A": "Appropriate",
+            "B": "Inappropriate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Appropriate"
+            },
+            "explanation": "(1) Determining $\\beta_1$ and $\\varepsilon_{cu}$\n\nSince $f_{ck} \\leq 40$MPa, $\\beta_1 = 0.80$ and $\\varepsilon_{cu} = 0.0033$.\n\n(2) Calculating the depth of the equivalent rectangular stress block $a$\n\n$ a = \\frac{A_s f_y}{0.85 f_{ck} b} = \\frac{(387 \\times 3) \\times 400}{0.85 \\times 21 \\times 300} = 86.7 $ mm\n\n(3) Strength reduction factor $\\phi$\n\n$ c = \\frac{a}{\\beta_1} = \\frac{86.7}{0.80} = 108.4 $ mm\n\n$ \\varepsilon_t = \\left( \\frac{d_t - c}{c} \\right) \\varepsilon_{cu} = \\left( \\frac{550 - 108.4}{108.4} \\right) \\times 0.0033 = 0.0134 $\n\nSince $\\varepsilon_t = 0.0134 \\geq \\varepsilon_{tt} = 0.0050$, the section is tension-controlled.\n\nTherefore, $\\phi = 0.85$ (appropriate).\n\nNote: If the net tensile strain of the outermost tension reinforcement $\\varepsilon_t$ is greater than or equal to 0.0050, the section is tension-controlled, and the strength reduction factor $\\phi = 0.85$ is appropriate."
+        },
+        "image_path": "스크린샷 2024-10-19 231620.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:31.870893226Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a question: Determine whether strength reduction factor φ=0.85 appropriate for reinforced concrete beam like figure, with f_ck=21 MPa, f_y=400 MPa, D22 bars cross-sectional area 387mm^2.\n\nWe need to decide A: Appropriate, B: Inappropriate.\n\nWe need to know relevant codes: For reinforced concrete beams, strength reduction factor φ for flexure is typically 0.90 in many codes, but 0.85 is often used for yield line analysis or for ultimate limit states for some design. However, for concrete beams, the φ factor is 0.90 for flexure for design in many codes (e.g., ACI 318 uses φ=0.90 for flexure, φ=0.80 for shear). But some design codes may use φ=0.85. For instance, in EN 1992-1-1 (Eurocode 2) φ=0.90 for flexure. In UBC/BC, φ=0.90. In India, φ=0.85? Let’s recall: In IS 456:2000, φ=0.85 for bending.\n\nBut the question: \"strength reduction factor φ = 0.85 is appropriate for a reinforced concrete beam like the one shown in the figure\" with f_ck=21 MPa, f_y=400 MPa, D22 bars (cross-sectional area 387 mm^2). The beam might be a typical structural beam. The factor φ used in limit state design is determined by code.\n\nBut the question might be from an exam about \"strength reduction factor φ = 0.85 for reinforced concrete beam? Inappropriate?\" For bending, φ is typically 0.90. So maybe they want to check if using 0.85 is correct. The answer is \"Inappropriate\" because φ for flexure should be 0.90 per the code.\n\nAlternatively, if the code being used is IS 456, the φ is 0.85. But the question didn't specify code. It might be from some standard exam about \"phii=0.85 is appropriate for reinforced concrete beams?\" We need to consider that D22 bars have high yield strength relative to concrete, but that doesn't affect φ. φ depends on load combinations, ultimate limit state, and is specified by code.\n\nThe question likely tests understanding that φ for flexure is 0.90 in most codes, so φ=0.85 is inappropriate. So answer: B. But the question might be trick: For beams, φ is 0.90 but for ultimate limit state design in certain codes, φ=0.85 for some scenarios. However, the typical design factor for flexure is 0.90 (ACI, Eurocode). So likely answer B: Inappropriate.\n\nGiven the context: The figure shows a beam with D22 bars (size 22 mm). The cross-sectional area 387 mm^2. f_ck 21 MPa, f_y 400 MPa. The φ=0.85 used for flexure is wrong. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5110861512,
+            "load_duration": 184124153,
+            "prompt_eval_count": 163,
+            "prompt_eval_duration": 45853167,
+            "eval_count": 649,
+            "eval_duration": 4876786581
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When calculating a two-way slab with beams by the direct design method from the strength design method, $M_0$ is determined to be $900 \\, \\text{kN} \\cdot \\text{m}$. Calculate the negative moment for the interior span ($\\text{kN} \\cdot \\text{m}$).",
+        "options": {
+            "A": "$ M_u^- = 600 \\, \\text{kN} \\cdot \\text{m} $",
+            "B": "$ M_u^+ = 310 \\, \\text{kN} \\cdot \\text{m} $",
+            "C": "$ M_u^+ = 320 \\, \\text{kN} \\cdot \\text{m} $",
+            "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $",
+            "E": "$ M_u^- = 550 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $"
+            },
+            "explanation": "$ M_u^- = 0.65 M_0 = 0.65 \\times 900 = 585 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "image_path": null,
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:47.759997948Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A)",
+                "thinking": "We need to parse the question. It's about two-way slab with beams by direct design method from strength design method. M0 determined to be 900 kN·m. Calculate the negative moment for the interior span. They give options for M_u^- and M_u^+? The question: \"When calculating a two-way slab with beams by the direct design method from the strength design method, M0 is determined to be 900 kN·m. Calculate the negative moment for the interior span (kN·m).\"\n\nWe have options for negative moment M_u^-: (A) 600, (D) 585, (E) 550. Positive moment options: (B) 310, (C) 320. Which one corresponds? We need to derive negative moment for interior span given M0=900. But we need formula: For slab between beams, direct design, the negative moment (at the slab midspan interior) is M0 * something. Typically, for a simply supported slab with beams, the negative moment at the midspan is M0 * (some ratio). The direct design method: For interior slab, negative moment at midspan (M-) = 0.1 * M0? Not sure. But we need to recall: In 2-way slab, negative moment at interior span is about 0.25 M0? Actually, the typical ratio for a slab between beams with fixed edges (or beams) is negative moment of 0.05 to 0.2 times the beam moment? Wait.\n\nLet's think: The \"M0\" might be the design moment at the support of the slab? Or maybe M0 is the positive moment at the midspan? Actually, typical \"M0\" is the positive moment at slab midspan. But we need negative moment for interior span: M0? Let's recall typical formulas: For a one-way slab (simply supported on beams), the negative moment at the slab-beam interface is 0.05* w*L^2? Not that.\n\nIn the direct design method, we treat the slab as a plate with beams providing support. M0 is a parameter representing the design positive moment. For two-way slab, M0 is defined by the design equation: M0 = w*L^2/24 * something. But not sure.\n\nHowever, the options: Negative moment values 600, 585, 550. M0 is 900. So negative moment is roughly 650-590? Actually, ratio around 0.66 to 0.75 of M0. So negative moment is about 2/3 of M0. That seems plausible if negative moment is about 2/3 of positive moment? Let's see typical values: For interior slab with beams, negative moment at slab-beam interface is about 0.1 * M0? No, negative moment maybe 0.05? Not 0.66. But we need to be careful.\n\nBut the given options for negative moment: 600, 585, 550. Which one is 2/3 of 900? 900 * 2/3 = 600. So (A) 600. So maybe the correct answer is 600. But is there any other logic? Maybe negative moment is M0/1.5 = 600. But we need to confirm typical negative moment formula. Let's search memory: For a 2-way slab with beams, the negative moment at the slab-beam interface can be approximated as M0 * (0.25). But not 0.66.\n\nActually, there is \"M0\" used in design of two-way slabs by direct design: For a slab supported by beams, the moment at slab-beam interface is M0 * something. For interior span, negative moment = M0 * (1 - a/b)? Not.\n\nLet's recall: In \"direct design\" method, M0 is a parameter to calculate both positive and negative moments: M+ = M0 * a, M- = M0 * (1-a). Where a is ratio of beam spacing? I'm not sure.\n\nBetter to examine the typical approach:\n\nFrom \"Design of reinforced concrete slabs\" (e.g., ACI 318 or Eurocode 2), the direct design method uses M0 as the design moment for interior slab midspan. Then negative moment at beam support is M0 * (1/4). Wait.\n\nActually, typical design of two-way slab with beams: For interior slab, negative moment at midspan (at interior span) is about 0.1 M0? Hmm.\n\nBut the question likely expects using a ratio of 2/3 or 0.75 or 0.8? Because options 600, 585, 550 are close to 0.75, 0.65, 0.61 of 900. 600 is exactly 2/3. 585 is 65%. 550 is 61%. Which is more plausible? Usually negative moment is smaller than positive? Actually, for a two-way slab, the negative moment at the midspan between beams is usually smaller magnitude than the positive moment at midspan of the slab. But here M0 is 900. That might be the positive moment? Or maybe M0 is a design parameter. The negative moment for interior span is smaller? Let's check typical values: For a simply supported slab, positive moment at midspan is w L^2 / 8. Negative moment at supports is w L^2 / 48. So ratio 1:3. So negative is smaller.\n\nBut here we have negative moment about 0.6 * M0? That seems not smaller but similar magnitude. That suggests that M0 might be something else: maybe M0 is the maximum moment at the support, and negative moment at interior span is about 0.75 of that? Let's think: In a two-way slab with beams, the maximum negative moment occurs at the beam-slab interface, while the maximum positive moment occurs at the slab midspan. The magnitude of negative moment is typically less than positive moment. Actually, in a one-way slab, negative moment at support is about 0.25 of positive moment. In two-way slab with beams, negative moment at beam interface might be 0.125 of positive? Not.\n\nBut the question uses \"interior span\" negative moment. So interior span refers to negative moment at the middle of the interior slab between two beams. For a slab between two beams, negative moment occurs at the midspan between beams? Wait, for two-way slab with beams on all sides, negative moment appears near the center of interior slab? Actually, negative moment occurs near the supports: at the slab-beam interface. The interior span negative moment might be at the middle of interior slab? Hmm.\n\nLet's consider a typical slab: a rectangular slab supported by beams on all four sides. The negative moment occurs near the beam support, while positive moment occurs at the slab center. The negative moment for interior span likely at the slab-beam interface? Actually, interior span refers to the area between two beams along the shorter span. Negative moment at interior span would be near the support (beam). But they may refer to negative moment at the middle of interior slab (between beams). But that would be positive.\n\nSo maybe the negative moment for interior span is the negative moment at the interior slab between beams along the shorter span? Actually, interior span negative moment is at the midspan of interior slab along the shorter span, where the slab has negative curvature due to the beams on both sides. In a 2-way slab, the negative moment can occur at the interior slab edges (midspan between beams). But it's ambiguous.\n\nNevertheless, the exam likely uses formula: M- = (M0)/1.5? If M0 = 900, M- ~ 600. That is option A. So I'd pick (A). Let's check if there might be any other nuance: The negative moment for interior span may be M0 / 1.5? 900/1.5 = 600. That seems plausible if ratio is 2/3. But maybe the ratio is 0.65? 900 * 0.65 = 585. Option D. Or ratio 0.61? 900*0.61 = 549. Option E. Which ratio is used? We need to recall typical ratio of negative to positive moment for interior slab of 2-way slab with beams: I think negative moment at slab-beam interface is about 0.1 to 0.2 times positive? Not.\n\nBut wait: In two-way slab, negative moment is about 0.1-0.2 times positive moment if beams are stiff? Actually, no, I recall that negative moment is smaller.\n\nLet's search memory: In \"Reinforced Concrete Design\" by R. C. M. B. (?), for a two-way slab with beams, the negative moment at the slab-beam interface is about 0.5 times the positive moment at the slab center? Not sure.\n\nThe question likely expects a specific formula: For a two-way slab with beams, the negative moment at interior span is M0 * 0.65? Actually, I've seen the ratio 0.65 for negative moment at interior slab? Wait, maybe the ratio 0.65 arises from M- = M0 * (1 - a/b)? If a=1, b=1? No.\n\nMaybe the ratio 0.75 arises from M- = M0 * (1/4)? No.\n\nLet's attempt to derive using standard 2-way slab formulas: For a plate supported on four sides, the negative moment at the support (beam) is about 0.025 w L^2 for fixed edges? But we need M0 = (w L^2)/ (something). If M0 is 900, w L^2? We can't compute.\n\nThe simplest is choose A (600). The exam might have answer A.\n\nThus answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 15860166326,
+            "load_duration": 182010005,
+            "prompt_eval_count": 283,
+            "prompt_eval_duration": 68972602,
+            "eval_count": 2081,
+            "eval_duration": 15603647912
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "As a result of conducting density and absorption ratio tests on an undisturbed clay specimen, the following test results were obtained. Based on these results, write the absorption ratio, void ratio, and degree of saturation. (6 points)\n\n| Type of Test   | Test Result                                   |\n|---------------|-----------------------------------------------|\n| Particle Density | Particle volume: 11.06cm³                    |\n| Absorption Ratio | Mass of soil and container: 92.58g<br>Mass of dry soil and container: 78.95g<br>Mass of container: 49.32g |\n| Wet Density     | Volume of soil: 26.22cm³                      |",
+        "options": {
+            "A": "0.7271",
+            "B": "0.2482",
+            "C": "0.8991",
+            "D": "0.5533",
+            "E": "0.6329"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "0.8991"
+            },
+            "explanation": "1g of water = 1cm$^3$. That is, the volume and weight of water are the same.\n\n1. Absorption Ratio\n   $\n   \\text{Absorption Ratio} = \\left( \\frac{\\text{Mass of water}}{\\text{Mass of soil}} \\right) \\times 100 = \\left( \\frac{M_W}{M_S} \\right) \\times 100\n   $\n   $\n   = \\left( \\frac{92.58 - 78.95}{78.95 - 49.32} \\right) \\times 100 = 46.0\\%$\n\n2. Void Ratio\n   $\n   \\text{Void Ratio} = \\left( \\frac{\\text{Volume of voids}}{\\text{Volume of soil particles}} \\right) = \\frac{V_V}{V_S} = \\frac{26.22 - 11.06}{11.06} = 1.37\n   $\n\n3. Degree of Saturation\n   $\n   \\text{Degree of Saturation} = \\left( \\frac{\\text{Volume of water}}{\\text{Volume of voids}} \\right) \\times 100 = \\left( \\frac{V_W}{V_V} \\right) \\times 100\n   $\n\n$\n= \\left( \\frac{92.58 - 78.95}{26.22 - 11.06} \\right) \\times 100 = 89.91\\%$\n"
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:58.141084594Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to compute absorption ratio (AR), void ratio (e), degree of saturation (S). But the question says: \"Based on these results, write the absorption ratio, void ratio, and degree of saturation. (6 points)\". But the answer choices are single numeric values (0.7271 etc). It likely expects one of these numbers as a combined result? Maybe it's multiple choice: pick one correct numeric answer? The table gives data to compute AR, e, S. Perhaps they ask to compute absorption ratio, void ratio, and degree of saturation, but maybe they ask to provide these values. However the answer format: \"Answer with the option's letter from the given choices directly.\" So choose one of (A)-(E). So one of these is the correct answer.\n\nWe need to calculate AR, e, S. Let's compute.\n\nGiven:\n\nParticle density: particle volume: 11.06 cm^3. This likely gives particle density? They didn't give mass of particles. But maybe we can get mass from dry mass? Wait we have mass of soil and container, mass of dry soil and container, mass of container. We can compute mass of wet soil = mass of soil and container - mass of container = 92.58 - 49.32 = 43.26 g. Mass of dry soil = 78.95 - 49.32 = 29.63 g.\n\nMass of water = mass of wet soil - mass of dry soil = 43.26 - 29.63 = 13.63 g. Or we can compute water mass via absorption ratio: AR = mass of water / mass of dry soil = (mass wet - mass dry)/mass dry.\n\nSo AR = 13.63 / 29.63 = 0.460.\n\nWait let's compute: 13.63/29.63=0.4603. That's not one of the options. Options are ~0.24, 0.55, 0.62, 0.73, 0.90. So AR not matching.\n\nWait maybe they defined absorption ratio differently: AR = mass of water / mass of dry soil? Yes. So AR = 13.63/29.63=0.460. Not match.\n\nAlternatively maybe absorption ratio is mass of water / mass of soil in container? Unlikely.\n\nLet's double-check numbers.\n\nMass of soil and container: 92.58 g. Mass of dry soil and container: 78.95 g. Mass of container: 49.32 g.\n\nThus mass of wet soil = 92.58 - 49.32 = 43.26 g. Dry soil mass = 78.95 - 49.32 = 29.63 g. Water mass = 43.26 - 29.63 = 13.63 g. AR = water mass / dry soil mass = 13.63/29.63 = 0.460.\n\nAbsorption ratio not matching any option. Maybe they ask for absorption ratio, void ratio, and degree of saturation. Perhaps the combined result is a single number? Maybe they ask for absorption ratio only? No, they ask for all three. The answer choices likely are values for each? But each option is single number. So maybe the answer choices represent the absorption ratio? But the absorption ratio we found 0.460, not in list.\n\nCheck void ratio. Compute density values.\n\nWet density: volume of soil = 26.22 cm^3. Wet density ρw = mass of wet soil / volume = 43.26 g / 26.22 cm^3 = 1.650 g/cm^3.\n\nDry density ρd = mass of dry soil / volume = 29.63 / 26.22 = 1.129 g/cm^3.\n\nParticle density (ρp) presumably = mass of dry soil / particle volume? But particle volume given: 11.06 cm^3. But particle density can be computed as ρp = mass of dry soil / particle volume? Wait, the mass of dry soil is 29.63 g. Particle density = 29.63 g / 11.06 cm^3 = 2.678 g/cm^3.\n\nNow void ratio e = (Vv / Vs) = (Vtotal - Vp) / Vp. Or e = (ρp/ρd) - 1? Actually relationship: ρd = ρp/(1+e). So e = (ρp/ρd) - 1. Let's compute: ρp/ρd = 2.678 / 1.129 = 2.371. e = 1.371. Wait 2.371-1 = 1.371.\n\nAlternatively compute directly: Vp = 11.06 cm^3, Vtotal = 26.22 cm^3, so Vv = 15.16 cm^3. Then e = Vv / Vp = 15.16 / 11.06 = 1.371. Yes matches.\n\nNow degree of saturation S = (volume of water / volume of voids) *100% = (Vw/Vv)*100%. We need Vw. Water density ρw=1.0 g/cm^3? Actually water density is ~1 g/cm^3. Water mass = 13.63 g, so volume of water = 13.63 cm^3 (assuming water density = 1 g/cm^3). Then S = (13.63 / 15.16) *100% = 0.899 *100% = 89.9%. So S = 0.899 (or 89.9%). That's option (C) 0.8991.\n\nThus the degree of saturation matches option C.\n\nBut question: \"Based on these results, write the absorption ratio, void ratio, and degree of saturation.\" So likely they want all three values. However answer choices only give a single numeric value. Possibly they want the degree of saturation? But the wording \"write the absorption ratio, void ratio, and degree of saturation\" suggests all three. But given answer choices are numeric options, maybe they want just the degree of saturation? But that seems odd.\n\nCheck if any of the other options match AR or e? AR ~0.460 (none). e ~1.371 (none). S ~0.899 (option C). So C matches degree of saturation.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 10349733784,
+            "load_duration": 186831437,
+            "prompt_eval_count": 266,
+            "prompt_eval_duration": 63668388,
+            "eval_count": 1355,
+            "eval_duration": 10094658956
+        },
+        "judge": "Correct"
+    }
+]

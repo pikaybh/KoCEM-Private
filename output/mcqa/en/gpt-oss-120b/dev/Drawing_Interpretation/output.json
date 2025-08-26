@@ -1,0 +1,125 @@
+[
+    {
+        "id": "dev_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the structural type of the community center?",
+        "options": {
+            "A": "Reinforced concrete structure",
+            "B": "Steel frame structure",
+            "C": "Wooden structure",
+            "D": "Aluminum frame structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reinforced concrete structure"
+            },
+            "explanation": "The structural system is specified as reinforced concrete structure in the design conditions section of the architectural overview."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "I’m sorry, but I don’t have enough information to determine the structural type of the community center.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:27:29.503855874Z",
+            "message": {
+                "role": "assistant",
+                "content": "I’m sorry, but I don’t have enough information to determine the structural type of the community center.",
+                "thinking": "The user asks: \"What is the structural type of the community center?\" with multiple choice options. We need to answer with the option's letter directly.\n\nBut we have no context about the community center. Possibly this is a question from a specific document. As ChatGPT, we don't have the info. According to policy, we should say we don't know. However the instruction from developer says \"Answer with the option's letter from the given choices directly.\" That's a direct instruction that conflicts with lack of knowledge. The user asks for specific factual answer that we don't have. We cannot guess. According to policy, we must not provide a possibly incorrect answer. We must refuse or ask for clarification. The developer instruction says to answer with a letter. That conflicts with correctness requirement. We must prioritize policy: we cannot provide possibly inaccurate info. So we should respond that we don't have enough info.\n\nThus we should say we don't have enough context."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3717075071,
+            "load_duration": 93020958,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 252743340,
+            "eval_count": 219,
+            "eval_duration": 3365866678
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Considering the required evacuation capacity for the 5th floor of the training facility, what is the minimum total effective width of stairs 1 and 2?",
+        "options": {
+            "A": "4,200 mm",
+            "B": "4,800 mm",
+            "C": "5,400 mm",
+            "D": "6,000 mm",
+            "E": "7,200 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "4,800 mm"
+            },
+            "explanation": "The maximum evacuation capacity per floor is 600 people, and with a minimum effective stair width of 7 mm per person, the minimum required width is 600 × 7 mm = 4,200 mm. However, since 4,200 mm is not listed among the options and to allow for a design margin, 4,800 mm or more is chosen."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:27:39.139435107Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to infer context: a training facility, 5th floor evacuation capacity, stairs 1 and 2. Likely some problem with required egress width based on occupant load. Need to compute minimum total effective width of stairs 1 and 2.\n\nProbably from a building code problem. Might be a question from a fire protection exam. Data missing? Possibly earlier in a set: e.g., each stair width needed per occupant is 0.2 m per 100 occupants? Or certain factor.\n\nWe need to guess based on typical answer values: 4,200 mm, 4,800, 5,400, 6,000, 7,200 mm. These are multiples of 600 mm. So maybe required width per occupant is 0.8 mm? No.\n\nIf each stair effective width is something like 2,100 mm each? Then total 4,200 mm = answer A.\n\nBut maybe each stair must be at least 3,000 mm? No.\n\nGiven typical building code: For stairs, required width = occupant load / 100 * 0.5 m? Not sure.\n\nLet's assume occupant load for 5th floor maybe 1,200 people? Then required width maybe 1,200/100*0.5m=6m = 6000 mm = D.\n\nOr maybe each stair width is 2,400 mm => total 4,800 mm = B.\n\nWe need more context. Could be that the effective width of each stair is 2,400 mm, so total 4,800 mm.\n\nGiven answer choices, I'd pick the middle? D 6000 mm? Hmm.\n\nOften egress width requirement: 0.2 m per person (200 mm). If occupant load 30, required width = 30*200 = 6000 mm? That's huge.\n\nMaybe occupant load is 36? Then 36*0.2=7.2m => 7200 mm.\n\nGiven typical 5th floor of training facility might have 150 occupants. 150*0.2=30m = 30,000 mm, too large.\n\nMaybe the question expects you to compute required width based on two stairs each having effective width of 2.4m (2400 mm) leading to total 4.8m. So answer B.\n\nI'll answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8136496122,
+            "load_duration": 93828067,
+            "prompt_eval_count": 157,
+            "prompt_eval_duration": 361157888,
+            "eval_count": 494,
+            "eval_duration": 7675956556
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is correct regarding the arrangement and cross-sectional dimensions of the columns on the first and second floors?",
+        "options": {
+            "A": "The arrangement of columns on the first and second floors should be different.",
+            "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor.",
+            "C": "There are more columns on the second floor than on the first floor.",
+            "D": "The columns on the second floor are not made of the same material as those on the first floor.",
+            "E": "The arrangement of columns on the first and second floors is unrelated."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor."
+            },
+            "explanation": "According to the guidelines, the arrangement and cross-sectional dimensions of the columns on the first and second floors must be the same."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T13:27:42.344158147Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter from given choices directly. The question: \"Which of the following is correct regarding the arrangement and cross-sectional dimensions of the columns on the first and second floors?\" Options A-E. We need to determine correct statement. However we have no context (a diagram?). Likely typical building design: arrangement of columns same on both floors? Usually columns line up vertically for structural continuity, and cross-section same for load. So correct likely B: cross-sectional dimensions same. Also arrangement likely same. Option B says dimensions same as those on first floor. That is correct. Option A says arrangement should be different - likely false. C says more columns on second floor - likely false. D says material different - false. E says arrangement unrelated - false. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3169502820,
+            "load_duration": 90241772,
+            "prompt_eval_count": 202,
+            "prompt_eval_duration": 419057400,
+            "eval_count": 172,
+            "eval_duration": 2654903209
+        },
+        "judge": "Correct"
+    }
+]

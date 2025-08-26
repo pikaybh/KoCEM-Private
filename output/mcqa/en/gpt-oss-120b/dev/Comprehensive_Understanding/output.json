@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:43:11.986872128Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Is the door swing direction appropriate in the rooftop core enlarged floor plan?\" with options (A) Yes (B) No. We need to answer with the option's letter directly. There's no context given. As ChatGPT, we cannot see the plan. We must answer based on insufficient info? Possibly we cannot determine; but the instruction says answer with the option's letter directly. We could guess? Probably answer \"B\" as default? But could be ambiguous. However instruction says answer with the letter directly. We must choose. Since we have no info, perhaps answer \"B\"? Or maybe \"A\"? Hard to know. In such ambiguous scenario, maybe answer \"B\" indicating not appropriate. I'll pick \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2757387566,
+            "load_duration": 86376388,
+            "prompt_eval_count": 108,
+            "prompt_eval_duration": 218327879,
+            "eval_count": 161,
+            "eval_duration": 2448577792
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:43:14.652727821Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer based on some context: \"What are the unit width and length of the AL ceiling panels on the first floor above ground?\" It's a specific question likely from a building plan or specification. The answer is one of the options: A 1200*600, B 1000*500, C 1500*700, D 1800*800, E 1400*750. Need to infer correct answer.\n\nWe don't have any source. Might be typical size for AL (Aluminum) ceiling panels. Common sizes: 600x1200 mm is common. So 1200*600 mm (A). So answer A. Probably that."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2629226738,
+            "load_duration": 97886216,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 296963829,
+            "eval_count": 149,
+            "eval_duration": 2230362009
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T11:43:17.44034798Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"What type of fluorescent light is used in the parking lot?\" and gives multiple-choice options. We need to answer with the option's letter directly. However, we don't have context. This seems like a quiz about perhaps a specific article or textbook. Without context, we might guess typical lighting for parking lots: High-output fluorescent light? Or LED? Actually LED is not fluorescent; LED is separate. Parking lots often use high-output (HO) fluorescent or high-intensity discharge (HID) lights, or LED nowadays. Traditional older parking lots used high-output fluorescent lights, often \"high-output\" (HO) or \"high-intensity discharge\". Among choices, \"High-output fluorescent light\" seems plausible. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2754673009,
+            "load_duration": 86257136,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 268768797,
+            "eval_count": 161,
+            "eval_duration": 2395047436
+        },
+        "judge": "Wrong"
+    }
+]

@@ -1,0 +1,1362 @@
+[
+    {
+        "id": "val_Construction_Management_31",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following is least relevant to the items that must be specified in a construction contract?",
+        "options": {
+            "A": "Details of the construction work",
+            "B": "The start and completion dates of the construction",
+            "C": "Defect liability period and warranty method",
+            "D": "Method of preparing design drawings based on the site conditions"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Method of preparing design drawings based on the site conditions"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:03.419575188Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to pick the least relevant item among those that must be specified in a construction contract. The choices:\n\nA: Details of construction work - relevant, yes.\n\nB: Start and completion dates - relevant, yes.\n\nC: Defect liability period and warranty method - relevant, yes.\n\nD: Method of preparing design drawings based on the site conditions - is this less relevant? Usually a construction contract includes details of design responsibilities, but \"method of preparing design drawings based on site conditions\" is more about design, not necessarily contract; the contract often deals with contract sum, schedule, quality, etc. The least relevant is D.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1306133974,
+            "load_duration": 181696736,
+            "prompt_eval_count": 147,
+            "prompt_eval_duration": 45219559,
+            "eval_count": 143,
+            "eval_duration": 1073859740
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_76",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following statements about methods for preventing corrosion of metals is NOT correct?",
+        "options": {
+            "A": "Items that have undergone significant deformation should, if possible, be annealed before use.",
+            "B": "A watertight protective coating is created by using paint or highly corrosion-resistant metals.",
+            "C": "If rust occurs in some areas, wait until the rust has fully developed before removing it all at once.",
+            "D": "Keep the surface smooth, clean, and as dry as possible."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If rust occurs in some areas, wait until the rust has fully developed before removing it all at once."
+            },
+            "explanation": "Rust should be removed immediately if it occurs, even in part."
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:05.024503988Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C)",
+                "thinking": "We need to choose which statement is NOT correct. Let's evaluate each:\n\n(A) Items that have undergone significant deformation should, if possible, be annealed before use. Is that correct? Yes, annealing relieves stresses and improves corrosion resistance. That's a good practice.\n\n(B) A watertight protective coating is created by using paint or highly corrosion-resistant metals. That's correct: painting or using corrosion-resistant metals like stainless steel.\n\n(C) If rust occurs in some areas, wait until the rust has fully developed before removing it all at once. This sounds wrong: you should remove rust promptly, not wait for it to fully develop. So statement C is NOT correct.\n\n(D) Keep the surface smooth, clean, and as dry as possible. That's correct.\n\nSo answer: C. Option letter: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1571702887,
+            "load_duration": 219830849,
+            "prompt_eval_count": 179,
+            "prompt_eval_duration": 47394813,
+            "eval_count": 175,
+            "eval_duration": 1300556382
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_770",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "The following describes the lump-sum contract method for construction work. Which of the following is NOT appropriate?",
+        "options": {
+            "A": "Drawings, specifications, and estimates must be fully prepared before bidding.",
+            "B": "Disputes may arise between the client and the contractor due to changes in design that affect construction costs or disagreements regarding the quality of the work.",
+            "C": "It is a favorable contract method for urgent projects.",
+            "D": "The client can predict the total construction cost up to completion at the time of contract."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is a favorable contract method for urgent projects."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:07.789766572Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to identify which statement is NOT appropriate about lump-sum contract method. Lump-sum contract: fixed price, client knows total cost, contractor does not get reimbursed beyond that. Drawings/specs need to be ready. Disputes may arise due to changes. It is favorable for urgent projects? Lump-sum is often used for fixed price and simple scope. For urgent projects, maybe not? Actually lump-sum can be favorable for urgent projects because the contractor can schedule quickly. But not necessarily: The contractor may want to avoid uncertainties. But \"urgent projects\" may benefit from \"Design-Build\" method. Lump-sum might not be suitable for urgent projects if design is not finalized. The question: \"Which of the following is NOT appropriate?\" So we must pick the wrong statement.\n\nLet's analyze each:\n\n(A) Drawings, specifications, and estimates must be fully prepared before bidding. True for lump-sum. It is appropriate.\n\n(B) Disputes may arise between the client and the contractor due to changes in design that affect construction costs or disagreements regarding the quality of the work. True, that is typical.\n\n(C) It is a favorable contract method for urgent projects. Lump-sum is not necessarily favorable for urgent projects because the design might not be finished. For urgent projects, \"fast-track\" or \"design-build\" may be better. So this statement may be incorrect.\n\n(D) The client can predict the total construction cost up to completion at the time of contract. True. So the incorrect is (C). So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2735243450,
+            "load_duration": 184216885,
+            "prompt_eval_count": 186,
+            "prompt_eval_duration": 47041089,
+            "eval_count": 327,
+            "eval_duration": 2499108450
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_924",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "At what height from the floor should the handle of a mortise lock typically be installed?",
+        "options": {
+            "A": "70 cm",
+            "B": "90 cm",
+            "C": "110 cm",
+            "D": "130 cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "90 cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:08.587836264Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "We need answer: typical handle height for mortise lock. Common standard: handle at 90 cm (36 inches) from floor. Actually typical lock height: 90 cm (~36\"). Some sources: 90-110 cm. But typical: 90 cm. So answer (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 761653092,
+            "load_duration": 182758853,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 40922712,
+            "eval_count": 71,
+            "eval_duration": 532355667
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_54",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following statements about water-based paint is NOT correct?",
+        "options": {
+            "A": "It is easy to handle and dries relatively quickly.",
+            "B": "It is mainly used on concrete or cement walls.",
+            "C": "Emulsion paint is a type of water-based paint.",
+            "D": "Pigment is dissolved using a small amount of boiled oil."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Pigment is dissolved using a small amount of boiled oil."
+            },
+            "explanation": "Water-based paint is diluted with water, while boiled oil is an ingredient in oil-based paints. Adding oil to water-based paint is contradictory."
+        },
+        "image_path": null,
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:10.871781004Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D)",
+                "thinking": "We need to choose which statement about water-based paint is NOT correct. Let's evaluate each.\n\n(A) \"It is easy to handle and dries relatively quickly.\" That is correct: water-based paint is easy to handle and dries relatively quickly.\n\n(B) \"It is mainly used on concrete or cement walls.\" Water-based paint can be used on various surfaces, but it's not mainly used on concrete or cement walls. It can be used but is not mainly used? The question might be about common usage; water-based paint is often used on interior walls, including concrete. However \"mainly used on concrete or cement walls\" could be considered wrong because it's used on wood, plaster, etc. So maybe B is incorrect.\n\n(C) \"Emulsion paint is a type of water-based paint.\" Yes, emulsion paint is water-based.\n\n(D) \"Pigment is dissolved using a small amount of boiled oil.\" In water-based paint, pigment is suspended or dispersed; not dissolved in oil. Boiled oil would be for oil-based paint. So D is incorrect.\n\nThus two options wrong: B and D. Which is \"NOT correct\"? Probably D is obviously wrong. B maybe also wrong but less obvious. The question likely expects D. So answer: (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2243671322,
+            "load_duration": 185831597,
+            "prompt_eval_count": 151,
+            "prompt_eval_duration": 41412489,
+            "eval_count": 265,
+            "eval_duration": 2001745567
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_334",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following is NOT a method to reduce segregation of concrete materials?",
+        "options": {
+            "A": "Reduce the proportion of fine aggregate.",
+            "B": "Lower the water-cement ratio.",
+            "C": "Increase the amount of fine particles sized 15–3 mm among the fine aggregate."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reduce the proportion of fine aggregate."
+            },
+            "explanation": "[Methods to prevent segregation] - Improve concrete workability. - Reduce the water-cement ratio. - Increase the proportion of fine aggregate. - Use admixtures such as AE agents or fly ash."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:13.431979658Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which of the following is NOT a method to reduce segregation of concrete materials?\" Options: A) Reduce the proportion of fine aggregate. B) Lower the water-cement ratio. C) Increase the amount of fine particles sized 15–3 mm among the fine aggregate.\n\nWe need to recall methods to reduce segregation: segregation occurs when coarse particles separate from fine. To reduce segregation, you can increase fine aggregate proportion (i.e., more fines to hold the mix). So reducing proportion of fine aggregate would increase segregation, so A is NOT a method to reduce segregation (it's a method to increase). Lower water-cement ratio reduces segregation? Lower w/c ratio increases workability? Actually lowering w/c ratio makes mix less fluid, so it might reduce segregation? Lower w/c reduces segregation but also reduces flow. But typical methods to reduce segregation: adding more fines, adding cement, adding water reducers, adding fibers, using proper mix design, etc. So B might reduce segregation? But generally low w/c ratio leads to more cohesive mix, less segregation, but too low may cause workability issues. The question is about reducing segregation. So B is indeed a method to reduce segregation. Option C: Increase amount of fine particles sized 15–3 mm among the fine aggregate. That increases fines, which reduces segregation. So C is a method to reduce segregation. Therefore A is NOT a method. So answer is A.\n\nThus output letter A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2527512296,
+            "load_duration": 181722963,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 41928577,
+            "eval_count": 304,
+            "eval_duration": 2298839781
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_787",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "When there is a stiff clay layer during pile driving, which construction method involves inserting a small steel pipe next to the pile and injecting water through it to soften the ground using water pressure before driving the pile?",
+        "options": {
+            "A": "Grouting method",
+            "B": "Caisson method",
+            "C": "Well-point method",
+            "D": "Water-jetting method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Water-jetting method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Water-jetting method",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:15.237585415Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Water-jetting method",
+                "thinking": "We need to choose correct option: The scenario: stiff clay layer during pile driving; method involves inserting a small steel pipe next to the pile and injecting water through it to soften the ground using water pressure before driving the pile. This is a known method: \"water jetting\" or \"water jetting method\"? Wait: Let's think. When a stiff clay layer resists pile driving, a technique called \"Water jetting\" uses high-pressure water jets to fluidize soil ahead of the pile. There's also \"water jetting method\" or \"water jetting\" as part of pile driving. There is also \"Caisson method\" but that is for creating caissons. \"Well-point method\" is used for dewatering. \"Grouting method\" is injection of grout to improve soil. In this case, injecting water to soften the ground: that is water jetting. So answer: (D) Water-jetting method."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1770030361,
+            "load_duration": 182763241,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 41492326,
+            "eval_count": 206,
+            "eval_duration": 1540900416
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_39",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5299999713897705,
+        "question": "Which of the following is least related to the indicated items of the concrete mix design?",
+        "options": {
+            "A": "Mixing strength",
+            "B": "Air content",
+            "C": "Chloride content",
+            "D": "Unit water content"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Chloride content"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:18.516340663Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have a question: \"Which of the following is least related to the indicated items of the concrete mix design?\" Items: (A) Mixing strength, (B) Air content, (C) Chloride content, (D) Unit water content.\n\nWe need to know which is least related to concrete mix design. Let's analyze.\n\nConcrete mix design involves determining proportions of cement, aggregates, water to meet required compressive strength, durability, workability, etc. Mixing strength? Maybe not a standard term. Could refer to strength of mix? Actually, \"mixing strength\" is not a typical item. Air content is definitely important for durability and workability, especially for freeze-thaw. Chloride content is related to durability but is more about concrete's resistance to chloride penetration, but not directly part of mix design? However, the mix design does consider chloride penetration via use of supplementary cementitious materials to reduce permeability. But chloride content is more a result of environment and not design.\n\nUnit water content is definitely part of mix design (water-cement ratio).\n\nWhich is least related? Likely \"Chloride content\" as it's not directly part of mix design. Alternatively \"Mixing strength\" is not a term. But mixing strength? Let's think. In mix design, we consider water-cement ratio, aggregate size, strength grade of concrete, etc. \"Mixing strength\" might be a misunderstanding. It's not typical. So which is least related? The answer likely is (C) Chloride content.\n\nBut check context: \"indicated items of the concrete mix design\" could refer to items listed on a specification: Mixing strength, Air content, Chloride content, Unit water content. Among these, which is least related? Usually, \"Chloride content\" is not part of mix design; it's a characteristic of the concrete after casting or environmental exposure. So answer is C.\n\nThus respond with letter: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3247004015,
+            "load_duration": 184676833,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 39100937,
+            "eval_count": 400,
+            "eval_duration": 3012289450
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_139",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following statements about steel structural members is NOT correct?",
+        "options": {
+            "A": "A stiffener is used to reinforce the web.",
+            "B": "A flange plate is a reinforcement for the flange of a plate girder.",
+            "C": "A gusset plate is attached to the base of a column to anchor it to the foundation.",
+            "D": "In a truss structure, members arranged at the top and bottom are called chords."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A gusset plate is attached to the base of a column to anchor it to the foundation."
+            },
+            "explanation": "A gusset plate is used at joints between columns and beams or at the nodes of truss-type structures."
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:20.571909107Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C)",
+                "thinking": "We need to identify which statement is NOT correct regarding steel structural members. Let's analyze each statement:\n\n(A) A stiffener is used to reinforce the web. That's correct: web stiffeners are used to increase web strength and reduce buckling.\n\n(B) A flange plate is a reinforcement for the flange of a plate girder. That is also correct: flange plates are used to reinforce flanges.\n\n(C) A gusset plate is attached to the base of a column to anchor it to the foundation. Gusset plates are typically used to connect members (like beam-column connections, truss joints). They can be attached at the base of a column, but is that typical? A base plate is used to anchor a column to foundation, not a gusset plate. Gusset plate is a triangular plate connecting the column to a beam or slab. The base plate is the one that attaches to foundation. So statement C might be wrong.\n\n(D) In a truss structure, members arranged at the top and bottom are called chords. That's correct: top and bottom chords.\n\nThus the incorrect statement likely (C).\n\nThus answer: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2022953798,
+            "load_duration": 187251407,
+            "prompt_eval_count": 169,
+            "prompt_eval_duration": 44997722,
+            "eval_count": 240,
+            "eval_duration": 1785462982
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_633",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is not a vertical lifting device?",
+        "options": {
+            "A": "Fork lift",
+            "B": "Tower crane",
+            "C": "Hoist car",
+            "D": "Jib crane"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Fork lift"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Jib crane",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:22.373520019Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Jib crane",
+                "thinking": "We need to determine which is not a vertical lifting device. Fork lift: lifts vertically. Tower crane: vertical lifting. Hoist car: vertical. Jib crane: Typically used for horizontal movement? A jib crane has a boom that moves horizontally, but still lifts vertically. However, vertical lifting device: used for lifting vertically. Jib crane can lift vertically but also horizontally. The question likely expects that a jib crane is a horizontal lifting device? But I think the only one that isn't strictly vertical is \"Jib crane\" as it's a horizontal moving device? However, tower crane lifts vertically. A hoist car lifts vertically. Fork lift lifts vertically. Jib crane has a horizontal arm that can move and also lift. But is it considered vertical lifting device? Usually vertical lifting devices: hoists, lifts, etc. Jib crane is considered a crane that lifts loads horizontally. So answer: (D) Jib crane."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1771578115,
+            "load_duration": 184979586,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 41172641,
+            "eval_count": 203,
+            "eval_duration": 1540429927
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_411",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is NOT a fireproofing method that prevents the temperature of steel structures from rising for a certain period required for evacuation?",
+        "options": {
+            "A": "Rock wool spray method",
+            "B": "Anti-corrosion treatment method",
+            "C": "Attaching ALC panels method",
+            "D": "Casting method"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Anti-corrosion treatment method"
+            },
+            "explanation": "The anti-corrosion treatment method is used to remove rust from steel during manufacturing or to prevent rust from forming at the factory."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:24.026216761Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a multiple-choice question: Which of the following is NOT a fireproofing method that prevents the temperature of steel structures from rising for a certain period required for evacuation? Options: (A) Rock wool spray method (B) Anti-corrosion treatment method (C) Attaching ALC panels method (D) Casting method\n\nWe need to choose the one that is NOT a fireproofing method.\n\nFireproofing methods for steel include spray-on rock wool (intumescent coatings, etc), attaching ALC panels (autoclaved lime cement panels) as thermal insulation, and casting (cast-in-place fireproofing, e.g., cementitious coatings). Anti-corrosion treatment is to protect steel from corrosion but not specifically fireproofing (though it may indirectly help). So likely answer: (B) Anti-corrosion treatment method.\n\nThus output: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1616426431,
+            "load_duration": 187022916,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 43980159,
+            "eval_count": 186,
+            "eval_duration": 1380627924
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_66",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about hardware used in finishing work is NOT correct?",
+        "options": {
+            "A": "A corner bead is hardware installed on the edges of columns and walls to protect plastered surfaces.",
+            "B": "Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding.",
+            "C": "Inserts are used to suspend ceiling frames or other structures beneath concrete floors.",
+            "D": "Perforated metal refers to thin sheets with various shapes cut out."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding."
+            },
+            "explanation": "Metal lath is made by cutting and stretching thin steel sheets and is used in plastering work on walls or ceilings. A wire mesh, not metal lath, is created by welding steel wires into a grid with electric welding."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:27.733861001Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to choose which statement is NOT correct about hardware used in finishing work. Let's analyze each:\n\n(A) A corner bead is hardware installed on edges of columns and walls to protect plastered surfaces. That is correct.\n\n(B) Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding. Is that correct? Metal lath: typically a metal mesh used in plastering, wires may be welded or not. However, it's often not welded but rather twisted or stapled. But electric resistance welding is a method used to join wires. Is that standard? Many laths are made by twisting wires together and then stapling or screwing. But some high quality laths are welded. I'm not sure if it's typical. Let's consider.\n\n(C) Inserts are used to suspend ceiling frames or other structures beneath concrete floors. Inserts are used for attaching a metal bracket or support in concrete floor. That is correct.\n\n(D) Perforated metal refers to thin sheets with various shapes cut out. That is correct: perforated metal sheet.\n\nThus the only questionable one is (B). However, is that false? \"Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding.\" Are there laths made by resistance welding? I think typical laths are made by twisting the wires into a mesh or by joining with staples. But there is also a method of \"welded lath\" in some applications. But typical \"metal lath\" used in plastering is made of 18-gauge wire formed into a mesh. The wires are twisted together. They might be joined by twisting the wires. Some laths are welded at the intersections. But the statement might be considered not correct because it's not common to join them with electric resistance welding. The typical method is to twist the wires into a mesh. So I'd choose (B) as NOT correct.\n\nLet's double-check: The question: Which of the following statements about hardware used in finishing work is NOT correct? The options: A, B, C, D. Only one is wrong. I think B is wrong. So answer: B.\n\nThus output letter: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3670546144,
+            "load_duration": 192357428,
+            "prompt_eval_count": 178,
+            "prompt_eval_duration": 48008673,
+            "eval_count": 455,
+            "eval_duration": 3424405841
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_462",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.75,
+        "question": "Which of the following is NOT a roofing material?",
+        "options": {
+            "A": "Pressed cement tile",
+            "B": "Glazed tile",
+            "C": "Slate",
+            "D": "Asphalt felt"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Asphalt felt"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Asphalt felt",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:29.193577675Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Asphalt felt",
+                "thinking": "We need to answer which is NOT a roofing material. Options: A: Pressed cement tile - yes roofing material. B: Glazed tile - used for roofing? Glazed tile can be decorative but is often used as roofing tile. C: Slate - roofing. D: Asphalt felt - that's underlayment, not considered a roofing material? Asphalt felt is a felt used as a base layer, but is that considered a roofing material? It is used as a roofing material? Usually roofing materials: shingles, tiles, metal, etc. Asphalt felt is underlayment; but still considered a roofing material? The question likely expects D. Asphalt felt is underlayment, not a roofing material. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1429640270,
+            "load_duration": 185414578,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 41937248,
+            "eval_count": 159,
+            "eval_duration": 1198280231
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_947",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is the most accurate estimation method for calculating construction costs during building works?",
+        "options": {
+            "A": "Detailed estimate",
+            "B": "Rough estimate",
+            "C": "Bid estimate",
+            "D": "Design estimate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Detailed estimate"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Detailed estimate",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:30.673487747Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) Detailed estimate",
+                "thinking": "We need to choose from four options. The question: \"Which of the following is the most accurate estimation method for calculating construction costs during building works?\" They provide options:\n\n(A) Detailed estimate\n(B) Rough estimate\n(C) Bid estimate\n(D) Design estimate\n\nWe need to choose which method gives most accurate estimation of construction costs during building works. In construction estimating, the \"detailed estimate\" (or \"quantitative estimate\") uses actual quantities, detailed drawings, etc. That tends to be most accurate. Rough estimate is preliminary, less accurate. Bid estimate is an estimate used for bidding and often uses cost data. Design estimate maybe from design stage. Most accurate would be detailed estimate.\n\nThus answer: (A) Detailed estimate."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1442136460,
+            "load_duration": 184333742,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 45690170,
+            "eval_count": 163,
+            "eval_duration": 1207637414
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_365",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following is incorrect regarding the surcharge rates for steel materials as specified in the Standard Method of Measurement for Construction Works?",
+        "options": {
+            "A": "Small-sized steel sections: 5%",
+            "B": "Round bars: 3%",
+            "C": "High-strength bolts: 3%",
+            "D": "Steel plate: 10%"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Round bars: 3%"
+            },
+            "explanation": "*Surcharge rates for steel materials - Steel plate: 10% - Large-sized steel sections: 7% - High-strength bolts: 3% - All other steel materials: 5%"
+        },
+        "image_path": null,
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:14:53.492846986Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "We have to answer which option is incorrect regarding surcharge rates for steel materials as specified in the Standard Method of Measurement for Construction Works.\n\nWe need to recall what the Standard Method of Measurement (SMM) for Construction Works indicates for surcharge rates for steel materials.\n\nThis seems to be a question about Indian construction measurement standards. The Standard Method of Measurement (SMM) for construction works (like SMM 2017 maybe) lists rates for materials like small steel sections, round bars, high-strength bolts, steel plate. Surcharge rates: typically the SMM has surcharge rates for certain items like steel. Let's think.\n\nStandard Method of Measurement (SMM) has a table for surcharge rates for various materials. The surcharge rates for steel materials might be:\n\n- Small sized steel sections: 5%\n- Round bars: 3%\n- High-strength bolts: 3%\n- Steel plate: 10%\n\nBut we need to check if any is incorrect.\n\nWe might consider the standard: SMM 2017 says for steel, surcharge rates: small steel sections: 5%; round bars: 3%; high-strength bolts: 3%; steel plate: 10%. But we need to confirm if the rates are correct.\n\nAlternatively, maybe steel plate has a surcharge of 2% or 5%? Let's recall typical surcharge rates: In SMM 2017, for steel, the surcharge rates are: Small sized steel sections - 5%; Round bars - 5%? Or maybe round bars 3%? High strength bolts - 3%? Steel plate - 10%? Possibly all are correct except one. Which one is incorrect?\n\nWe need to think: In SMM 2017, the surcharge rates for steel are:\n\n- Small sized steel sections: 5% (correct)\n- Round bars: 3% (correct)\n- High strength bolts: 3% (correct)\n- Steel plate: 10% (correct)\n\nAlternatively, maybe round bars have a surcharge of 5%, not 3%. That might be the wrong one.\n\nLet's check memory: For steel, small steel sections: 5%; round bars: 3%; high strength bolts: 3%; steel plate: 10%. I think these are correct.\n\nBut the question asks which of the following is incorrect regarding the surcharge rates for steel materials as specified in the SMM. We need to find the incorrect one. Which one is not in the standard?\n\nLet's check each:\n\n(A) Small-sized steel sections: 5% - likely correct.\n\n(B) Round bars: 3% - I'm not sure; could be 5%. Let's research memory: Standard Surcharge rates in SMM for steel. I recall reading that for steel, the surcharge rates are: small steel sections 5%, round bars 3%, high strength bolts 3%, steel plate 10%. That seems right.\n\nBut maybe the standard is that steel plate has a surcharge of 5% not 10%. But steel plate is typically heavier; but I'm not sure.\n\nMaybe the correct rates: small steel sections 5%, round bars 3%, high strength bolts 3%, steel plate 10%. So all are correct. So the question might be a trick: maybe all are correct and none is incorrect? But the question says \"Which of the following is incorrect\". So one of them is incorrect. We need to find which is incorrect.\n\nLet's look for standard values:\n\nSMM 2017: Surcharge rates for steel: small steel sections 5%, round bars 3%, high strength bolts 3%, steel plate 10%.\n\nAlternatively, SMM 2007 maybe had different rates: small steel sections 5%, round bars 3%, high strength bolts 3%, steel plate 10%. So likely all correct. But maybe in some version, steel plate surcharge is 5% not 10%. But I'm not sure.\n\nAlternatively, maybe high strength bolts have a surcharge of 5% not 3%. Let's think: high strength bolts are used in structural connections; maybe they are more expensive; but not sure.\n\nLet's quickly search memory: In SMM for measurement, for steel materials, the surcharge rates are:\n\n- Small steel sections: 5%\n- Round bars: 3%\n- High strength bolts: 5%\n- Steel plate: 10%\n\nMaybe high strength bolts are 5% rather than 3%. That could be the incorrect option: (C).\n\nBut I need to confirm.\n\nLet's think: The Standard Method of Measurement for Construction Works (SMM) 2017 might list surcharge rates for steel. Usually, the surcharge rates for steel are:\n\n- Small sized steel sections: 5%\n- Round bars: 3%\n- High strength bolts: 3%\n- Steel plate: 10%\n\nAlternatively, maybe the correct values: small steel sections 5%, round bars 5%, high strength bolts 3%, steel plate 10%. If round bars is 5% not 3%, then option B is incorrect. That seems plausible: round bars might have 5% surcharge. But I'm not sure.\n\nLet's check typical values: The Surcharge rates for steel in SMM are:\n\nFor small steel sections (e.g., L-shaped, C-shaped, H-shaped), the surcharge is 5%. For round bars used in reinforcement or for structural connections, surcharge is 3%. For high strength bolts, surcharge is 3%. For steel plates, surcharge is 10%. These are all known values. This suggests all options are correct. So why ask which is incorrect? Maybe the trick is that steel plate is actually 5% not 10%. Let's search memory: In SMM, the surcharge rates for steel plate might be 10% due to high cost. That seems plausible. But maybe the standard says steel plate surcharge 10% for structural steel plate. So that seems correct.\n\nAlternatively, maybe high strength bolts have 10% surcharge? Let's recall: In SMM, high strength bolts (like 10mm diameter) may have surcharge 3%. That seems correct.\n\nLet's consider that SMM uses surcharge rates for certain categories. The question likely expects that one of the rates is wrong. Let's recall a typical exam question: \"Which of the following is incorrect regarding the surcharge rates for steel materials as specified in SMM for construction works?\" The options likely include: small steel sections 5%, round bars 3%, high strength bolts 3%, steel plate 10%. The answer is probably (B) Round bars: 3% is incorrect; it's 5%. Wait, I'm not sure.\n\nLet's check typical SMM 2017: The Surcharge rates for steel are as follows (table in SMM 2017, Chapter 13 maybe):\n\n- Small steel sections: 5%\n- Round bars: 5%\n- High strength bolts: 3%\n- Steel plate: 10%\n\nIf round bars is 5% instead of 3%, then option B is incorrect.\n\nAlternatively, maybe small steel sections are 3% instead of 5%. But I think small steel sections are 5% surcharge.\n\nAlso high strength bolts: 5% maybe. Let's think: For high strength bolts, maybe surcharge is 3%? Honestly, I think it's 5%. But I'm not sure.\n\nLet's recall some reading: The Surcharge rates for steel materials in SMM 2017 are given in Chapter 10: \"Surcharge rates for steel\". The table might show:\n\n- Small steel sections: 5%\n- Round bars: 5%\n- High strength bolts: 5%\n- Steel plate: 10%\n\nBut perhaps high strength bolts 3%? Let's think: If they are expensive, maybe 5%. But I need to recall actual values.\n\nLet's try to search memory: I recall that SMM 2017 surcharge rates for steel are: small steel sections 5%; round bars 3%; high strength bolts 3%; steel plate 10%. That was a test question before.\n\nBut the exam might have used SMM 2007 where the rates are slightly different.\n\nI can search mental memory: In SMM 2007, surcharge rates for steel:\n\n- Small steel sections: 5%\n- Round bars: 3%\n- High strength bolts: 3%\n- Steel plate: 10%\n\nSo maybe all options are correct. But the question might ask which is incorrect, and the correct answer could be none? But they don't provide that option. So maybe one is wrong.\n\nMaybe steel plate surcharge is 5% instead of 10%? That could be incorrect.\n\nLet's check standard values for steel plate in SMM: The surcharge rate for steel plate might be 10%. I'm quite sure.\n\nAnother possibility: The surcharge rate for high strength bolts is 5% not 3%. Let's think: In SMM, high strength bolts might have a surcharge of 3% for bolts of grade 10.5 or 12.5. But high strength bolts could have a surcharge of 3% if they are used as structural bolts. But maybe it's 5% for special bolts. Hmm.\n\nMaybe the correct values: small steel sections 5%; round bars 3%; high strength bolts 5%; steel plate 10%. If high strength bolts is 5% not 3%, then option C is incorrect.\n\nLet's recall: In SMM, there is a table for steel: \"Surcharge rates for steel materials\" with a note that for small steel sections and round bars, surcharge is 5%? Wait, but I think small steel sections 5% and round bars 3%. But high strength bolts maybe 5%. That seems plausible.\n\nLet's examine typical numbers: The standard Surcharge rates for steel:\n\n- Steel structural members: 5% for small sections, 5% for round bars, 5% for high strength bolts, 10% for steel plates.\n\nBut I'm not sure.\n\nLet's check memory of typical exam Q: \"Surcharge rate for steel plate is ________.\" The answer: 10%. That seems widely known. Also \"Surcharge rate for small steel sections is 5%.\" Yes. \"Surcharge rate for round bars is 3%.\" Yes. \"Surcharge rate for high strength bolts is 3%.\" Yes. So maybe all are correct.\n\nBut the question says which is incorrect. So maybe one of these is a trick: For round bars, the surcharge is 5% not 3%. I'm leaning that (B) is incorrect.\n\nLet's examine the context: \"Standard Method of Measurement for Construction Works\" SMM 2017. In SMM 2017, there is a Table for Surcharge rates for steel materials: \"Small sized steel sections – 5%\" (makes sense). \"Round bars – 3%\" (makes sense). \"High strength bolts – 3%\" (makes sense). \"Steel plate – 10%\" (makes sense). That all looks correct.\n\nBut the exam might ask: Which of the following is incorrect? The answer might be none of them, but they didn't give that option. But maybe there is an error in one of them. Possibly the error: steel plate is 5% not 10%? But I think steel plate is 10%. Let’s double-check: In SMM, steel plate surcharge is 10% because it is heavier. Yes.\n\nAlternatively, maybe high strength bolts are 5% not 3%. But that seems less plausible.\n\nLet's search memory: The Surcharge rates for steel in SMM 2017: I found a PDF earlier: \"Surcharge Rates for Steel\" table shows: \"Small sized steel sections: 5%\". \"Round bars: 3%\". \"High strength bolts: 3%\". \"Steel plate: 10%\". So these are exactly the options. So the question might be a trick to test knowledge: All of the above are correct. But maybe the exam expects that (C) high strength bolts are 5% not 3%. But that contradicts the actual table. So which one is incorrect? Actually, if we consider SMM 2017, all are correct. So maybe the question is flawed. But maybe the correct answer is (C) because high strength bolts are actually 5%. Let's verify by referencing typical guidelines: The Surcharge rates for high strength bolts might be 5% due to their cost. But I'm not sure.\n\nLet's think of typical cost of high strength bolts: They are expensive. They might be considered high strength bolts: 5% surcharge. But in SMM, they might categorize them with standard bolts, which are 3%. I think 3% is correct.\n\nLet's find a source: For SMM 2017, \"Surcharge rates for steel\" table is on page 27: Table: \"Surcharge rates for steel\" - small steel sections: 5%; round bars: 3%; high strength bolts: 3%; steel plate: 10%. So all are correct. So the answer would be none. But we must choose one. Possibly the exam has a different version (SMM 2007) where round bars are 5%? But I'd need to confirm.\n\nActually, in SMM 2007, the surcharge rates might differ: For steel, small steel sections: 5%; round bars: 5%; high strength bolts: 5%; steel plate: 10%. That might be the case. Then (B) and (C) would be wrong. But maybe one of them is wrong.\n\nLet's check typical guidelines: In SMM 2007, \"Surcharge rates for steel\" might show small steel sections 5%; round bars 5%; high strength bolts 3%; steel plate 10%. So maybe round bars 5% not 3%. That would make (B) incorrect. That seems plausible.\n\nWhich year is being used? The question says \"Standard Method of Measurement for Construction Works\". It doesn't specify year. Could be 2007. If it's 2007, the rates might be: small steel sections: 5%; round bars: 5%; high strength bolts: 3%; steel plate: 10%. That would mean option (B) is incorrect. That matches my earlier assumption.\n\nAlternatively, if it's 2017, all options are correct.\n\nThus the safest answer likely (B) Round bars: 3% is incorrect. But I'm not entirely certain. However, given typical exam patterns, they likely want (B) as incorrect.\n\nLet's answer (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 22782521006,
+            "load_duration": 179659061,
+            "prompt_eval_count": 147,
+            "prompt_eval_duration": 44899846,
+            "eval_count": 2995,
+            "eval_duration": 22552151232
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_604",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "Which of the following is NOT a correct statement about the Benoto method among the cast-in-place concrete pile methods?",
+        "options": {
+            "A": "It can be constructed safely without affecting the surroundings.",
+            "B": "It can be used to construct long piles with lengths of 50~60m.",
+            "C": "By examining the excavated soil, you can determine the soil properties and judge if the bearing layer has been reached.",
+            "D": "Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:04.414735743Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is NOT a correct statement about the Benoto method among the cast-in-place concrete pile methods?\" Options:\n\n(A) It can be constructed safely without affecting the surroundings.\n(B) It can be used to construct long piles with lengths of 50~60m.\n(C) By examining the excavated soil, you can determine the soil properties and judge if the bearing layer has been reached.\n(D) Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water.\n\nWe need to know about Benoto method. The Benotto method? Actually Benot or Benotto? It's a type of cast-in-place pile with a steel casing inserted, concrete poured inside, then casing removed. Benot method maybe is a \"casing pile\" method.\n\nThe Benoto method: It's a cast-in-place concrete pile where a steel casing is used. The method allows for a relatively small extraction force to remove the casing, so can be used in water and weak soils. It's also possible to get soil info. It can be used for long piles up to 50-60m. It's safe and minimal impact. But which statement is NOT correct? Let's think.\n\nOption (A) \"It can be constructed safely without affecting the surroundings.\" Likely true, as cast-in-place piles have less disturbance. So (A) correct.\n\nOption (B) \"It can be used to construct long piles with lengths of 50~60m.\" Many cast-in-place piles can reach up to 50-60m? I think the Benotto method can go up to 50m, maybe less. But maybe it's not that long? The method uses a steel tube that can be extracted at the top, so it can be used for long piles. Might be correct.\n\nOption (C) \"By examining the excavated soil, you can determine the soil properties and judge if the bearing layer has been reached.\" With cast-in-place piles, you do have access to the soil. So true.\n\nOption (D) \"Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water.\" Wait, the reaction force required to extract the casing tube is high? Actually the Benotto method involves a steel pipe (casing) that is pulled out after concreting. The extraction force depends on friction between the pipe and soil, which can be high. But the Benotto method has a tapered casing that reduces friction? Or maybe the extraction force is low relative to other methods? I'm not sure. But the statement says \"Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water.\" That could be true or false. The extraction force can be low because of design. However, the method might not be suitable for weak ground or water? Let's check. In weak soils, you might want to avoid large extraction forces to avoid disturbing. So low extraction force is beneficial. So statement might be correct.\n\nLet's look at known facts: The Benotto method is a \"casement pipe\" method used for deep piles, typically up to 50m. It's a cast-in-place concrete pile with a removable steel casing. It can be used in weak ground because the removal of the casing is low force, not requiring large hydraulic jack. It is suitable for water as it can be used under water. So statement D likely correct.\n\nOption B: 50-60m? Some say Benotto piles can go up to 80m, but typical 50-60m. Might be correct.\n\nOption A: safe, minimal disturbance. True.\n\nOption C: you can examine excavated soil. True.\n\nWhich is NOT correct? Might be option D? Let's research memory: The Benotto method is sometimes called \"Benotto method of casting-in-place concrete piles\" using a steel pipe with internal formwork. Extraction of casing after concrete sets uses a hydraulic jack. The reaction force required is not very low; it's a bit high. Actually removal force depends on soil friction. The friction may be significant in weak soils, requiring high extraction force. So the statement might be false.\n\nAlso, the Benotto method is not particularly suited to weak ground or water? Actually it can be used in water, but extraction force might be high, but the method uses a \"tapered\" pipe so friction is low. Might be low.\n\nLet's see typical exam knowledge: The Benotto method is a \"casing pile\" method. It uses a steel pipe that is inserted, concrete poured, pipe extracted. It is suitable for deep piles, low disturbance. Because the pipe is relatively thin and tapered, the extraction force is low, thus can be used in weak soils and water. So statement D could be correct.\n\nOption B: length of 50-60m: Usually the maximum length for Benotto piles is about 50m, but can be longer? I think 50-60m is correct. So option B likely correct.\n\nOption C: by examining excavated soil, can determine soil properties: Because we excavate soil to a certain depth, yes, we can get soil samples. So correct.\n\nOption A: safe, minimal disturbance: correct.\n\nThus all statements appear correct. But the question says which is NOT correct. So maybe one is false. Let's think again: Benotto piles: \"The Benotto method is a cast-in-place concrete pile method that uses a steel casing with a tapered shape to reduce the extraction force required.\" The extraction force can be high if the pipe is thick and long. But if tapered, it's less. The method is used for deep piles up to 60m. It provides ground conditions because you can examine excavated soil. It's suitable for weak ground? Possibly. However, the extraction force may be high in weak soils, making removal difficult. So maybe the statement about low reaction force is wrong. But which is less likely? Let's check known typical property: Benotto piles have a steel pipe that is 4-6 mm thick. The removal force is relatively low compared to the pipe and other methods. So the statement might be correct.\n\nOption B: length 50-60m. Might be too long. Many sources say Benotto piles can be used up to 40m only. But I'm not sure. The maximum length of cast-in-place piles depends on the diameter and concrete strength. But Benotto piles can go 40-50m. So 50-60m might be too long.\n\nThus the false statement could be (B). Which is NOT correct: \"It can be used to construct long piles with lengths of 50~60m.\" The Benotto method typically is used for piles up to 30-40m, not 50-60m. So I'd pick B.\n\nThus answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 10889145162,
+            "load_duration": 182829316,
+            "prompt_eval_count": 193,
+            "prompt_eval_duration": 51188284,
+            "eval_count": 1415,
+            "eval_duration": 10649640907
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_318",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "What is the estimated hourly excavation capacity of a power shovel under the following conditions?",
+        "options": {
+            "A": "89.6m3/h",
+            "B": "90.6m3/h",
+            "C": "91.6m3/h",
+            "D": "92.6m3/h"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "89.6m3/h"
+            },
+            "explanation": "[Power shovel hourly working volume]\n- Work volume per cycle = 1.2 x 1.28 x 0.9 x 0.9 = 1.244m3\n- Number of cycles per hour = 3600 ÷ 50 = 72 cycles\n- Hourly working volume = 1.244 x 72 = 89.568m3"
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20150531/bt20150531m39.gif?1526305800",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:05.641524022Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"What is the estimated hourly excavation capacity of a power shovel under the following conditions?\" Likely a formula. We need to guess correct answer among options. Let's recall typical capacity: Power shovel capacity maybe around 90 m^3/h. Need context: They might provide conditions like bucket size, speed, load. But not provided. So guess average maybe 90.6? Let's examine options: 89.6, 90.6, 91.6, 92.6. Likely approximate maybe 90.6 m3/h. I'll answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1188720224,
+            "load_duration": 181727796,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 47927632,
+            "eval_count": 130,
+            "eval_duration": 954634666
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is NOT a correct precaution to take during plastering work?",
+        "options": {
+            "A": "Moisten the base surface as needed.",
+            "B": "For each stage of wall plastering, the coat thickness should be less than 6㎜.",
+            "C": "As soon as the moisture disappears after the first coat, immediately apply the second and finish coats.",
+            "D": "Roughen the base surface to improve mortar adhesion."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "As soon as the moisture disappears after the first coat, immediately apply the second and finish coats."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:10.662764961Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have a question about plastering work. They ask which is NOT a correct precaution. So which of the options is incorrect.\n\nOptions:\n\n(A) Moisten the base surface as needed. Usually you moisten the base surface before applying plaster to avoid excessive absorption and cracking? I think you typically do keep it moist until plaster dries. So that's correct.\n\n(B) For each stage of wall plastering, the coat thickness should be less than 6㎜. In plastering, typically each coat is 3-4mm maybe less than 6 mm. That seems correct.\n\n(C) As soon as the moisture disappears after the first coat, immediately apply the second and finish coats. That seems incorrect because you shouldn't apply next coat until first coat is dry enough? Actually you might apply second coat before fully dried but not when moisture disappears. Moisture disappearance means dried? Typically you wait until the first coat is dry but not fully hardened? Actually the correct precaution: Wait for the first coat to dry enough before applying next coat, not too soon after moisture disappears? I'm not fully sure. But the phrase \"as soon as the moisture disappears after the first coat, immediately apply the second and finish coats.\" That seems incorrect because you should allow some time between coats, maybe 2-3 days? But I'm not certain.\n\n(D) Roughen the base surface to improve mortar adhesion. That is correct: roughening helps adhesion.\n\nThus the incorrect one is (C).\n\nLet's double-check: In plastering, you moisten the base, roughen, apply first coat, wait until it sets (but not fully dried?), then apply second coat. Many guidelines: \"Apply the first coat when the surface is damp; wait 24-48 hours before applying subsequent coats.\" So \"as soon as moisture disappears\" means it's dry, then apply second coat. Actually you want the first coat to dry somewhat but not fully hardened; you might apply second coat when the first coat is tacky? Wait maybe you should wait until the first coat is completely dry before applying second coat. Some guidelines say apply second coat when the first coat is dry to the touch. That is \"when moisture disappears.\" So maybe that is correct. Hmm.\n\nBut option B: coat thickness less than 6mm. Usually each coat is 3-4 mm, so less than 6 is correct. Option A: moisten base surface as needed. Yes. Option D: roughen base surface. Yes.\n\nOption C: \"As soon as the moisture disappears after the first coat, immediately apply the second and finish coats.\" In practice, you might need to wait for the first coat to dry, but you don't apply all the way immediately after moisture disappears? Actually you would apply second coat after the first coat has dried enough. The phrase \"as soon as the moisture disappears after the first coat\" suggests that moisture is gone, it's dry. Then apply second coat immediately. That might be too quick? I'm leaning that it's wrong.\n\nThus answer is C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4991160878,
+            "load_duration": 182838155,
+            "prompt_eval_count": 168,
+            "prompt_eval_duration": 44890047,
+            "eval_count": 621,
+            "eval_duration": 4757536468
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_535",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "Which of the following statements about asphalt waterproofing is NOT correct?",
+        "options": {
+            "A": "It has the advantage of producing little odor during application.",
+            "B": "It is widely used on rooftops, flat roofs, and basements.",
+            "C": "It is not easy to identify defective areas.",
+            "D": "It provides reliable waterproofing and is durable if properly protected."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It has the advantage of producing little odor during application."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:13.488830365Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer which statement is NOT correct about asphalt waterproofing. Let's analyze each:\n\nA) It has the advantage of producing little odor during application. Is that true? Asphalt coatings can produce fumes, but maybe less odor than bitumen? Usually asphalt (bitumen) has strong odor when heated. So \"little odor\" maybe incorrect. But I'm not sure.\n\nB) Widely used on rooftops, flat roofs, and basements. Yes, asphalt waterproofing is used in many buildings. True.\n\nC) It is not easy to identify defective areas. Is that true? Asphalt waterproofing can be hard to detect defects because of uniform surface? Could be.\n\nD) Provides reliable waterproofing and durable if properly protected. True.\n\nThus A seems suspicious: asphalt usually has strong odor. But maybe after curing it's less. Asphalt roofing products are often low odor. I'm not 100% sure. Let's think: The question likely from a standard exam about waterproofing. In typical textbooks, asphalt waterproofing advantages include: low cost, easy application, good adhesion, high UV resistance, low odor? I'm not certain. Actually, bitumen is known for strong odor during curing, but maybe after it's cured it doesn't smell.\n\nBut option A says \"producing little odor during application.\" Many water-based systems have low odor. Asphalt may produce some fumes. The statement may be wrong. So the NOT correct is (A). Let's double-check: Option C says not easy to identify defective areas. That could be true because asphalt coatings can look uniform; but you might need special techniques. So it's plausible. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2788137921,
+            "load_duration": 182987178,
+            "prompt_eval_count": 155,
+            "prompt_eval_duration": 42501124,
+            "eval_count": 338,
+            "eval_duration": 2557426873
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_868",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which cast-in-place concrete pile method has the following characteristics?",
+        "options": {
+            "A": "Benoto method",
+            "B": "ECOS method",
+            "C": "Earth drill method",
+            "D": "Reverse circulation method"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Benoto method"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20040523/bt20040523m29.gif?1525988101",
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:16.286876458Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A)",
+                "thinking": "The question: \"Which cast-in-place concrete pile method has the following characteristics?\" Options: (A) Benoto method, (B) ECOS method, (C) Earth drill method, (D) Reverse circulation method.\n\nWe need to pick which method has the following characteristics, but the characteristics are not provided in the prompt. The user likely omitted the description. We need to infer based on typical exam style: There might be a description in a previous part, but here we don't have. Without the characteristics, can't choose. Possibly the answer is ECOS method? Or Benoto? Earth drill? Reverse circulation?\n\nMaybe they want the correct method that is cast-in-place concrete pile. The Benoto method is a form of cast-in-place concrete pile. The ECOS method is also a cast-in-place method. Earth drill method is a drilling method. Reverse circulation method is also drilling. So only Benoto and ECOS are cast-in-place. So maybe the question wants either (A) or (B). Without characteristics, guess? We could respond that only Benoto and ECOS are cast-in-place; but need one. The Benoto method is older, using a steel tube and rotating, etc. ECOS method is a form of cast-in-place with steel reinforcement inserted. The question might refer to \"characteristics\" such as: It uses a tubular shaft, uses drilling fluid to remove cuttings, uses a cement slurry, etc. That is Reverse circulation. But reverse circulation is drilling, not cast-in-place. So likely Benoto method.\n\nThus answer: (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2767054853,
+            "load_duration": 182711398,
+            "prompt_eval_count": 122,
+            "prompt_eval_duration": 36535023,
+            "eval_count": 333,
+            "eval_duration": 2542736972
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_450",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "What is the contract method used in recent schools, military facilities, and similar settings, in which a private operator provides funding and constructs the facility, then transfers ownership to the government or client agency, and recoups their investment by receiving rental payments from the government or agency?",
+        "options": {
+            "A": "BOT (Build-Operate-Transfer)",
+            "B": "BTO (Build-Transfer-Operate)",
+            "C": "BTL (Build-Transfer-Lease)",
+            "D": "BLT (Build-Lease-Transfer)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "BTL (Build-Transfer-Lease)"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:20.885785442Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"What is the contract method used in recent schools, military facilities, and similar settings, in which a private operator provides funding and constructs the facility, then transfers ownership to the government or client agency, and recoups their investment by receiving rental payments from the government or agency?\"\n\nWe need to pick the correct acronym. Options: A) BOT, B) BTO, C) BTL, D) BLT.\n\nWe need to recall which model fits: private operator funds construction, then transfers ownership, and recoups investment by rental payments. That is Build-Transfer-Lease? Or Build-Lease-Transfer? Actually the common models: BOT: Build-Operate-Transfer: private builds, operates for some period to recoup investment, then transfers ownership. BTO: Build-Transfer-Operate: private builds and transfers immediately, then operates? That seems unusual. BTL: Build-Transfer-Lease: private builds, transfers ownership, then leases? That could be relevant: private constructs, transfers ownership to government, then leases it back to recoup costs. BLT: Build-Lease-Transfer: private builds, leases to government, then transfers ownership at end of lease? That also could be similar.\n\nLet's parse each:\n\nBOT: Build-Operate-Transfer: private builds, operates for period, then transfers ownership. In question, it says \"private operator provides funding and constructs the facility, then transfers ownership to the government or client agency, and recoups their investment by receiving rental payments from the government or agency.\" So the private operator provides funding and constructs, then transfers ownership, then recoups by rental payments. That is Build-Transfer-Lease (BTL). Because they build, transfer, then lease.\n\nIn the usual terminology, BTL is \"Build-Transfer-Lease.\" But some might call it \"Build-Lease-Transfer\" (BLT). Let's see: The question says \"private operator provides funding and constructs the facility, then transfers ownership to the government or client agency, and recoups their investment by receiving rental payments from the government or agency.\" That is \"Build-Transfer-Lease\" (BTL). But the question options have BTL. So answer C.\n\nAlternatively, \"Build-Lease-Transfer\" would be Build (construct), Lease (receive payments), Transfer (ownership). That could also fit: private builds, then leases out to government, then eventually transfers ownership. But the order of lease vs transfer might matter. The description says they provide funding and construct, then transfer ownership, then recoup by rental payments. So they transfer ownership first, then get rental payments? That is Build-Transfer-Lease: after transfer, they get rental payments. Yes, so BTL. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4567520849,
+            "load_duration": 212188221,
+            "prompt_eval_count": 185,
+            "prompt_eval_duration": 47546027,
+            "eval_count": 574,
+            "eval_duration": 4302333293
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_500",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following statements about the application of cement mortar is incorrect?",
+        "options": {
+            "A": "The order of plastering indoors is ceiling, walls, then floor.",
+            "B": "For the first coat, water should be applied to a dry base.",
+            "C": "After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.",
+            "D": "For the finishing coat, since using a wooden trowel can leave the surface rough and marked, a steel trowel should be used."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:35.987810016Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer which statement about cement mortar application is incorrect. We have four statements (A)-(D). We need to pick which is incorrect. Let's evaluate each.\n\nContext: In construction, plastering indoors: usually order is floor, walls, ceiling? Or maybe floor first? Standard practice: Floor first, then walls, then ceiling? But I recall that typical interior plastering is done floor, walls, ceiling? Let's recall. Actually in many construction practices, plastering goes in this order: first floor, then walls, then ceiling. But some say ceiling first? Let’s research from memory: In plastering, order can be floor, walls, ceiling. But is it the correct? The question says \"The order of plastering indoors is ceiling, walls, then floor.\" That seems wrong; it should be floor, walls, ceiling. So statement (A) seems incorrect.\n\nCheck others: Statement (B) \"For the first coat, water should be applied to a dry base.\" In plastering, first coat is the base coat, we apply wet plaster onto a dry substrate. The dry base? In plastering, you apply the base coat on dry surface (the wall is dry). Then you apply water to wet plaster. So statement B seems correct.\n\n(C) \"After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.\" In plastering, you usually allow 1-2 days for the first coat to dry before applying second coat. Two weeks is too long. Usually 1-2 days to allow proper setting, not cracking. So statement C seems incorrect.\n\n(D) \"For the finishing coat, since using a wooden trowel can leave the surface rough and marked, a steel trowel should be used.\" Finishing coat uses a trowel; wooden trowels produce marks; steel trowel gives smooth finish. That is correct.\n\nThus, we have two statements that seem incorrect: (A) and (C). But maybe (A) is wrong but maybe (C) is not; maybe they use 1 week to allow cracking? Let's think deeper.\n\nPlastering: First coat is base coat; then middle coat; finishing coat. After leveling, you let it cure for about 2-3 days? Not 2 weeks. So (C) is definitely wrong. (A) is also wrong. But maybe the question expects only one incorrect statement. Which one? Maybe they consider that typical order is floor, walls, ceiling. So (A) is wrong. But if (C) is wrong too, they'd have to phrase question: Which of the following statements is incorrect? But multiple wrong? Could be a trick: The order of plastering indoors is floor, walls, ceiling. So (A) is incorrect. But the question states \"Which of the following statements about the application of cement mortar is incorrect?\" Maybe only one is incorrect. Let's verify each.\n\n(A) \"The order of plastering indoors is ceiling, walls, then floor.\" In plastering, we typically do floor first? Actually plastering is done on walls and ceilings. Floor is usually not plastered? Wait, cement mortar for flooring? Usually floor is finished with cement screed or cement mortar. In interior, we often plaster walls and ceilings. The order could be wall, ceiling? Floor is maybe not plastered. But the order of plastering might be wall, ceiling. So \"ceiling, walls, then floor\" is wrong.\n\n(B) \"For the first coat, water should be applied to a dry base.\" That is correct: first coat is a wet coat applied to a dry base.\n\n(C) \"After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.\" That is wrong: usually 2-3 days.\n\n(D) \"For the finishing coat, since using a wooden trowel can leave the surface rough and marked, a steel trowel should be used.\" That is correct.\n\nThus two incorrect. But maybe the exam expects answer (A) because (C) might be considered correct if they refer to a \"cement mortar\" for flooring? Wait, in cement mortar, maybe after leveling, you wait for 14 days for mortar to set before applying next coat? But that seems too long. Let's recall: In cement mortar plastering, after leveling the first coat, you wait for 2-3 days for it to set. But 2 weeks? Usually for cement mortar, the first coat may need longer? Let's check typical schedule: For cement plaster, after first coat, allow 1-2 days before second coat. For lime plaster, maybe more. But not 2 weeks.\n\nThus I think the exam answer might be (C) is wrong. But also (A) is wrong. Which one is more obviously wrong? Let's see the phrasing: \"The order of plastering indoors is ceiling, walls, then floor.\" That might be an odd order. Usually you plaster floor first, then walls, then ceiling? But typical plastering of interior walls and ceilings: you plaster floor? Actually you might plaster floor too? But it's unusual to plaster floor; floors often get screeds. But maybe they include floor plaster? The typical order: walls, then ceiling, then floor? But they say ceiling, walls, floor. That is wrong. So maybe that's the answer.\n\nHowever, maybe they ask about cement mortar application specifically: When applying cement mortar to floors? The order: first floor, then walls, then ceilings? But maybe the correct order is floor, walls, ceiling. So (A) is wrong.\n\nBut if the question is about cement mortar application, maybe they want (C). Let's examine the context: cement mortar is used to plaster surfaces. For cement plaster, the sequence: first coat, second coat, finishing coat. After leveling, you wait about 1-2 days for the first coat to set, then apply second coat. The question: \"After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.\" That's incorrect. So answer C.\n\nWe need to decide which one is the \"incorrect\" statement. Usually there is only one wrong. So we need to pick the most incorrect one. Which one is more obviously incorrect? I think (C) is more obviously wrong due to the timeframe. (A) could be arguable but still wrong. But maybe the exam expects (C). Let's think: If they ask \"Which of the following statements about the application of cement mortar is incorrect?\" They might have multiple statements that are all correct except one. Let's check each again for correctness:\n\n(A) \"The order of plastering indoors is ceiling, walls, then floor.\" Actually, typical order for plastering: floor, walls, ceiling. So this statement is incorrect. So (A) is wrong. But (C) is also wrong. So maybe they are both wrong? But maybe the question's answer expects a single letter. In exam, maybe they had multiple-choice with single best answer. So only one is incorrect. So which is more obviously incorrect? (A) has order of plastering; maybe typical practice is floor, walls, ceiling. So it's wrong. (C) has \"two weeks\" which is also wrong. Which one is more wrong? Let's think: In cement mortar plaster, the correct wait time between coats is about 1-2 days. So saying 2 weeks is clearly wrong. In practice, 2 weeks is too long. So (C) is wrong. Meanwhile (A) could be also wrong, but perhaps the exam expects (A) is wrong because the order of plastering indoors is floor, walls, ceiling. But maybe some contexts the order is ceiling first? Let's check typical interior plastering order: Many guidelines: \"For interior plastering, start with the walls, then ceilings, then floors.\" But sometimes you plaster the floor first, then walls, then ceilings. I'm not fully sure.\n\nLet's look at typical practice: For interior plaster, you first plaster the floor, then walls, then ceilings. Actually I recall that floor plastering is done first to create a level base. Then walls, then ceilings. So the given order (ceiling, walls, floor) is definitely wrong.\n\nThus both (A) and (C) are wrong. But maybe the question is about cement mortar application, maybe (C) is correct because you do let it set for about 2 weeks? Let's consider: When using cement mortar as a base coat for flooring, you might leave it for a longer period for cracking? Hmm. But typical mortar for flooring: you might apply a base coat of mortar, let it cure for 2-3 days. But not 2 weeks.\n\nThus I'm leaning that (C) is wrong, but also (A). But we need to pick one. Let's examine the nuance: \"After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.\" In cement plaster, cracking is not necessary before applying second coat. In fact, you want it dry and set. So the correct statement would be \"Leave about 1-2 days for the first coat to dry before applying second coat.\" So (C) is wrong.\n\nTherefore, I'd answer (C). But if exam expects only one answer, then (C). Let's check answer options: The question says \"Which of the following statements about the application of cement mortar is incorrect?\" So choose one letter. I will answer (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 15071842497,
+            "load_duration": 183465315,
+            "prompt_eval_count": 187,
+            "prompt_eval_duration": 52215673,
+            "eval_count": 1967,
+            "eval_duration": 14830967874
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_371",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "Which of the following is incorrect regarding general matters of painting work?",
+        "options": {
+            "A": "Iron is generally painted in two stages: intermediate and finish coats.",
+            "B": "The later coats are applied with a deeper color to distinguish unpainted areas.",
+            "C": "Work should be suspended when the ambient temperature is below 5℃ or the relative humidity exceeds 85%.",
+            "D": "Each coat should be applied thinly in multiple layers, and rapid drying should be avoided."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Iron is generally painted in two stages: intermediate and finish coats."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:51.186410997Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a multiple-choice question: Which of the following is incorrect regarding general matters of painting work? We need to find the incorrect statement among four options. So we need knowledge about painting work, specifically iron painting: two stages: intermediate and finish coats; later coats with deeper color to distinguish unpainted areas; suspend work when ambient temperature below 5°C or relative humidity >85%; each coat applied thinly in multiple layers, rapid drying avoided.\n\nWhich is incorrect? Let's analyze each.\n\n(A) \"Iron is generally painted in two stages: intermediate and finish coats.\" That seems correct: paint primer (intermediate) then finish coat. So (A) is correct.\n\n(B) \"The later coats are applied with a deeper color to distinguish unpainted areas.\" This statement seems odd: \"later coats are applied with a deeper color to distinguish unpainted areas.\" Typically, the finish coat might be the same color, not deeper. The concept of \"deeper color\" to distinguish unpainted areas: maybe for some industrial painting, the later coats are darker to make peeling or defects visible. But I'm not sure. Usually, if a surface is unpainted, the paint may appear as a darker patch. But standard practice: intermediate coat is light, finish coat is final color. The intermediate coat may be slightly lighter or darker? But \"deeper color\" to distinguish unpainted areas\" is suspicious.\n\n(C) \"Work should be suspended when the ambient temperature is below 5℃ or the relative humidity exceeds 85%.\" That seems correct: painting requires certain temperature/humidity.\n\n(D) \"Each coat should be applied thinly in multiple layers, and rapid drying should be avoided.\" That is correct: thin coats to avoid drips, rapid drying can cause issues.\n\nThus the incorrect one is (B). But let's double-check knowledge: In painting work, intermediate coat is usually light color, finish coat is final color. But \"later coats are applied with a deeper color to distinguish unpainted areas\" - why would you choose deeper color to distinguish unpainted? That would make unpainted areas lighter, making difference. Wait: Suppose intermediate coat is light grey. The finish coat is deeper dark color. If you have an area that hasn't been painted, the finish coat would be missing and the intermediate coat would show through as lighter. So indeed, deeper color finish coat would make any unpainted area appear lighter and easily seen. So that might be correct.\n\nBut is it standard? Let's think: For steel painting, sometimes a two-coat system: a primer (intermediate) that is lighter and a topcoat that is darker. If the topcoat doesn't cover some area, you'll see a lighter patch. So deeper color helps detect defects. So that is correct. But maybe they say \"later coats are applied with a deeper color to distinguish unpainted areas.\" That may be correct.\n\nWait: The question: Which of the following is incorrect regarding general matters of painting work? Let's analyze each option carefully for correctness:\n\n(A) Iron is generally painted in two stages: intermediate and finish coats. That is standard for iron: primer (intermediate) then topcoat. Correct.\n\n(B) The later coats are applied with a deeper color to distinguish unpainted areas. Actually, the intermediate coat might be lighter, the top coat deeper. This practice ensures defects visible. That is correct.\n\n(C) Work should be suspended when ambient temp below 5°C or RH >85%. Standard: painting not allowed below 5°C (or 10°C for epoxy) and high humidity >85%. So correct.\n\n(D) Each coat should be applied thinly in multiple layers, and rapid drying should be avoided. Standard: thin coats, avoid rapid drying. Correct.\n\nSo none appears obviously wrong. But maybe one is wrong: The statement \"later coats are applied with a deeper color to distinguish unpainted areas\" might be wrong because usually the topcoat has the same color as the desired finish. But in many systems, intermediate is lighter, topcoat matches desired final color, which could be deeper. But the idea that deeper color distinguishes unpainted areas is true. So it's not obviously wrong.\n\nLet's consider standard painting guidelines: For protective paint, usually the primer is lighter to show coverage, the topcoat matches final color. The \"deeper color\" is relative to the intermediate coat. So it's normal.\n\nOption (B) might be phrased incorrectly: \"later coats are applied with a deeper color to distinguish unpainted areas.\" Might be incorrectly stating that the later coats are deeper than the intermediate, which is normal. So it's correct.\n\nOption (C) says \"Work should be suspended when ambient temperature below 5°C or relative humidity exceeds 85%.\" Actually, for painting steel, the recommended minimum temperature is 5°C, but sometimes higher, like 10°C for epoxy. But 5°C is borderline. However, the guideline might be that painting should be suspended when ambient temp below 5°C, yes. And humidity >85% yes. So correct.\n\nOption (D) \"Each coat should be applied thinly in multiple layers, and rapid drying should be avoided.\" That's also standard: multiple thin layers ensure better coverage and avoid defects; rapid drying should be avoided to allow proper adhesion. So correct.\n\nOption (A) \"Iron is generally painted in two stages: intermediate and finish coats.\" This is also correct.\n\nThus all options seem correct. But the question asks which is incorrect. Maybe one of them is incorrect: maybe (B) is incorrectly stating \"later coats are applied with a deeper color\" - maybe it's actually \"later coats are applied with a shallower color\" or \"the same color\" - so that might be incorrect.\n\nLet's think if there's any nuance: The \"intermediate\" coat is often a primer or a coat that is light in color to allow coverage detection. The \"finish\" coat is the final color. The finish coat could be same color or darker than the intermediate. But the intermediate is usually a light primer, e.g., white. So the finish coat is the final color, often dark. So the statement that later coats are applied with a deeper color to distinguish unpainted areas is correct.\n\nCould the question be referencing a different standard: maybe they refer to \"The later coats are applied with a lighter color\" to highlight unpainted areas? But no, that doesn't make sense: if the later coat is lighter than intermediate, then unpainted area would look darker (intermediate coat would show through). So you wouldn't notice.\n\nAlternatively, maybe the standard is \"later coats are applied with a slightly deeper color to provide better coverage.\" That is true.\n\nLet's double-check the phrase \"deeper color\" maybe means \"more intense\" rather than \"darker\". Could be correct.\n\nThus maybe the answer is none. But the question likely expects one wrong option. Which one is likely incorrectly phrased? Let's check (C) again: \"Work should be suspended when the ambient temperature is below 5℃ or the relative humidity exceeds 85%.\" Actually, if humidity exceeds 85% it's not advisable to paint. But the threshold might be 90% relative humidity. But many guidelines say 85% is too high. So 85% seems correct.\n\nBut maybe the threshold for temperature is above 10°C. Some guidelines: for epoxy, don't paint below 10°C; for other paints maybe 5°C. But typical paint guidelines: The minimum temperature for painting steel is 5°C for water-based; for solvent-based maybe 10°C. So 5°C might be the lower threshold. So (C) correct.\n\nOption (D) says \"Each coat should be applied thinly in multiple layers, and rapid drying should be avoided.\" Standard: multiple thin layers; avoid rapid drying to avoid defects like cracking. So correct.\n\nOption (A) \"Iron is generally painted in two stages: intermediate and finish coats.\" That is correct. The intermediate is often a primer.\n\nThus maybe (B) is incorrect. But we need to decide. Let's consider that the question might be about \"general matters of painting work\" - maybe referring to guidelines in a specific manual. The statement (B) \"later coats are applied with a deeper color to distinguish unpainted areas.\" Might be incorrectly implying that the later coats are deeper to distinguish unpainted areas. But actually, to distinguish unpainted areas, the intermediate coat is typically lighter. But if the top coat is deeper, unpainted area would be lighter. So it is indeed deeper to highlight. So that seems correct.\n\nAlternatively, maybe the guidelines say that later coats are applied with a lighter color to highlight unpainted areas. Let's examine: Suppose the intermediate coat is white; the finish coat is dark. If you fail to apply finish coat to some area, that area will be white, and you can see. So deeper finish coat helps highlight unpainted. So that's correct.\n\nThus all statements seem correct. Maybe (B) is ambiguous, but likely the intended wrong answer is (B). Let's think of other nuance: Could it be that the statement \"The later coats are applied with a deeper color\" is not necessarily standard practice. Usually the intermediate is light, finish is desired color, which may not be deeper than the intermediate. So maybe the statement is wrong. For instance, if the desired finish color is light (e.g., yellow), the intermediate might be white or light gray; the finish might be yellow, not deeper. So you can't say later coats are deeper. So the statement is too general. So answer (B).\n\nThus answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 15168519222,
+            "load_duration": 182742902,
+            "prompt_eval_count": 176,
+            "prompt_eval_duration": 50976841,
+            "eval_count": 1985,
+            "eval_duration": 14930737166
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_467",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following statements about terms used in CPM network schedules is incorrect?",
+        "options": {
+            "A": "Activity: a work unit that makes up the project",
+            "B": "Float: the amount of free time in a task",
+            "C": "Critical path: the longest path from the start node to the end node",
+            "D": "Slack: the time needed to perform a task"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Slack: the time needed to perform a task"
+            },
+            "explanation": "Slack refers to the amount of free time a node has, not the time required to complete a task."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:54.432914797Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to determine which statement is incorrect regarding terms used in CPM network schedules. Let's examine each:\n\n(A) Activity: a work unit that makes up the project. That is correct: in CPM, an activity is a work unit, a job.\n\n(B) Float: the amount of free time in a task. In CPM, float (also called slack) is the amount of time that an activity can be delayed without affecting the project's end date. It's the difference between earliest start and latest start, or earliest finish and latest finish. But \"float\" is the amount of time a task can be delayed without affecting subsequent tasks or the project duration. \"Free time\" is somewhat like \"free float\" meaning the amount of time an activity can be delayed without delaying the early start of its successor. But \"float\" is a general term for slack. It can refer to \"total float\" (also called \"slack\"). The statement: \"Float: the amount of free time in a task\" This is ambiguous but might be partially correct: Float is amount of time a task can be delayed. However, \"free time\" could be a subset of float. The statement might be considered correct.\n\n(C) Critical path: the longest path from the start node to the end node. That's correct: the critical path is the longest path through the network, determining the project duration.\n\n(D) Slack: the time needed to perform a task. Slack is the time a task can be delayed without delaying the project. But \"time needed to perform a task\" is not slack; that's the activity duration. Slack is additional time beyond needed. So statement D is incorrect.\n\nThus answer is (D). But check B: maybe float is indeed amount of free time, but free time might be used for free float. But the question asks which statement is incorrect. The only obviously incorrect is D.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3209878930,
+            "load_duration": 182997924,
+            "prompt_eval_count": 156,
+            "prompt_eval_duration": 41813799,
+            "eval_count": 395,
+            "eval_duration": 2980586774
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_133",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "What is the main purpose of using a vibrator when pouring concrete?",
+        "options": {
+            "A": "To prevent segregation of materials.",
+            "B": "To improve work efficiency.",
+            "C": "To accelerate the hardening process.",
+            "D": "To maintain the density of the concrete."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "To maintain the density of the concrete."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:56.133785622Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"What is the main purpose of using a vibrator when pouring concrete?\" The options:\n\n(A) To prevent segregation of materials.\n(B) To improve work efficiency.\n(C) To accelerate the hardening process.\n(D) To maintain the density of the concrete.\n\nWhich is the main purpose? Vibrators are used to remove entrapped air, consolidate concrete, ensure proper compaction, reduce segregation. So main purpose is to prevent segregation of materials (or to consolidate). Option A: \"To prevent segregation of materials.\" That sounds correct. Option D: \"To maintain the density of the concrete.\" Also correct? But \"prevent segregation\" is more specific. The main purpose of vibrator: to ensure proper compaction by removing entrapped air and preventing segregation. So answer A. The instruction: \"Answer with the option's letter from the given choices directly.\" So just \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1664870046,
+            "load_duration": 181847345,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 42174390,
+            "eval_count": 190,
+            "eval_duration": 1435240818
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_618",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following is NOT a correct description of asphalt primer?",
+        "options": {
+            "A": "It is a dark brown liquid obtained by dissolving asphalt in a volatile solvent.",
+            "B": "It is the first waterproofing material applied in asphalt waterproofing methods.",
+            "C": "It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity.",
+            "D": "It is used to enhance the adhesion between concrete and asphalt."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity."
+            },
+            "explanation": "Asphalt compound is the material made by improving blown asphalt."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:15:57.667125573Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to pick the option that is NOT a correct description of asphalt primer. Let's think.\n\nAsphalt primer: used for concrete waterproofing; it's a dark brown liquid made by dissolving asphalt in volatile solvent, like petroleum solvent; applied as primer. So A seems correct. B: \"It is the first waterproofing material applied in asphalt waterproofing methods.\" That sounds correct: primer is first layer. C: \"It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity.\" That sounds incorrect: asphalt primer does not involve plant fibers. It's just asphalt dissolved in solvent. D: \"It is used to enhance the adhesion between concrete and asphalt.\" That is correct. So C is incorrect description. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1502332362,
+            "load_duration": 182851306,
+            "prompt_eval_count": 174,
+            "prompt_eval_duration": 47916709,
+            "eval_count": 169,
+            "eval_duration": 1266713983
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_169",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "When attaching 108mm square tiles with a grout width of 6mm, which of the following is the correct number of tiles (net quantity) per 1m²?",
+        "options": {
+            "A": "72 tiles",
+            "B": "73 tiles",
+            "C": "75 tiles",
+            "D": "77 tiles"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "77 tiles"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) 77 tiles",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:01.049778396Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) 77 tiles",
+                "thinking": "We need to compute net quantity per 1 m^2. Tile size 108mm square => side length = 108 mm. Grout width 6 mm between tiles. Net area of tile including grout? Usually net area includes tile plus grout? Net quantity per square meter: number of tiles needed to cover 1 m^2 of area considering grout. For square tiles with grout width g between tiles: effective pitch = tile size + grout width. So pitch = 108 mm + 6 mm = 114 mm. In each direction, number of tiles per meter = 1000 mm / 114 mm = 8.7719 tiles. But integer count? For area, we consider tiles cover area 1 m^2, but you cannot have fractional tile. Net quantity means number of tiles needed to cover 1 m^2 of floor area including grout spaces. So use floor: number of tiles per side = ceil(1000 / (108+6)). Ceil of 8.77 is 9 tiles per side. So area covered by 9x9 tiles = 81 tiles. But this covers 9*114 = 1026 mm in each direction, so area 1.052 m^2. Not exactly 1 m^2. But net quantity maybe rounding down? They may consider net area tile area per 1 m^2: (tile side)/(tile side+grout)^2? Let's compute: area per tile including grout = (108+6)^2 = 114^2 = 12996 mm^2. 1 m^2 = 1,000,000 mm^2. Number tiles = 1,000,000 / 12996 = 76.88. So net quantity per 1 m^2 = 76.9 → approx 77 tiles. So answer (D) 77 tiles. That matches option D. Probably correct."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3324319310,
+            "load_duration": 184210068,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 47615615,
+            "eval_count": 409,
+            "eval_duration": 3087617496
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_24",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is not included as a component of construction cost in the total construction expenses?",
+        "options": {
+            "A": "Material costs",
+            "B": "Labor costs",
+            "C": "Overhead costs",
+            "D": "General administrative expenses"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "General administrative expenses"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:01.852312137Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We have a multiple choice question. Which of the following is NOT included as a component of construction cost in the total construction expenses?\n\nConstruction costs typically include material costs, labor costs, overhead costs. General administrative expenses are usually not considered part of direct construction costs; they are separate. So answer is (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 765199309,
+            "load_duration": 189553930,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 40062209,
+            "eval_count": 73,
+            "eval_duration": 529111026
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_644",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about carpentry work is NOT correct?",
+        "options": {
+            "A": "The cross-section of joints and fittings should be aligned with the direction of stress.",
+            "B": "Joint surfaces should be machined accurately so that they fit closely together without any gaps.",
+            "C": "The length of the nail should be",
+            "D": "about 3 to 5 times the thickness of the board.",
+            "E": "It is best to make joints and fittings in areas where stress is low."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The cross-section of joints and fittings should be aligned with the direction of stress."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:10.855254935Z",
+            "message": {
+                "role": "assistant",
+                "content": "E",
+                "thinking": "We need to choose the statement that is NOT correct about carpentry work. The options:\n\n(A) The cross-section of joints and fittings should be aligned with the direction of stress.\n(B) Joint surfaces should be machined accurately so that they fit closely together without any gaps.\n(C) The length of the nail should be\n(D) about 3 to 5 times the thickness of the board.\n(E) It is best to make joints and fittings in areas where stress is low.\n\nOption (C) seems incomplete: \"The length of the nail should be\" is incomplete; it's missing the rest. But maybe it's a formatting issue: Option C is incomplete, so maybe it's a trick. The question asks which statement is NOT correct. Let's analyze each:\n\n(A) Cross-section of joints/fittings aligned with direction of stress. That is correct: you want to resist forces along the joint.\n\n(B) Joint surfaces machined accurately so they fit closely without gaps: correct.\n\n(C) The length of the nail should be ... incomplete. If it's incomplete, it's not correct. But maybe the original had \"The length of the nail should be\" and then a missing value; but maybe the next line (D) \"about 3 to 5 times the thickness of the board\" is meant to complete C? But the question shows (C) The length of the nail should be (line break) (D) about 3 to 5 times the thickness of the board. So maybe (C) and (D) are one statement split across lines, but it's written as two separate options. Actually the formatting: It shows (C) The length of the nail should be (blank) and (D) about 3 to 5 times the thickness of the board. That might be the same statement broken incorrectly. But in multiple choice, each is separate. So maybe option C is incomplete, not correct. Also option E: \"It is best to make joints and fittings in areas where stress is low.\" That might be incorrect because you want to make joints where stress is high, not low, because joints should be strong. Wait, we need to think: In carpentry, joints and fittings should be located where the stress is high? Or maybe you want to place joints where the stress is low to reduce chances of failure? Let's consider typical carpentry: Joints are points of stress concentration. Usually you design joints to handle the stress, you want to place them where stress is high because you need them to be robust? But I think you want joints where stress is low to reduce failure? However, typical advice: In wooden construction, you want to minimize stress on joints by placing them in areas of low stress, or making them strong where stress is high? Actually, for a frame, the joints (like truss joints) experience loads, so they are high stress. But the statement says it's best to make joints and fittings in areas where stress is low. That might be incorrect because joints should be in areas where stress is high to handle the load. But the alternative could be to locate joints in low-stress areas to avoid failure due to stress concentration. However, I think the more correct principle: You design joints to resist expected loads. So you want to place them where load is applied. But if you place them in low stress areas, they might not be needed. But maybe the recommended practice is to avoid placing joints in high-stress areas? Actually, if a joint experiences high stress, it is a potential failure point. So you may want to design the joint to handle high stress. But is there a rule that says \"make joints in low stress areas\"? I'm not entirely sure. Let's examine the typical guidelines: In woodworking, you want the joints to be strong, so the cross-section of joints should be aligned with direction of stress. That is (A). Joints should be tight. (B). Nail length: typical rule: nail length should be 1.5 times the board thickness? Wait, typical rule: Nail length should be at least 3 times board thickness? Let’s check: For structural timber, nail length recommended: 1.5 times thickness? Actually, for typical building: the nail should drive into the substrate; typical rule: nail length 1.5 times board thickness to be secure. But some say 3 times thickness. I'm not certain. Option (D) says about 3 to 5 times thickness of board. That might be too long. But maybe it's correct: For a nail, the embedment depth should be 3 to 5 times the thickness to hold properly. That seems plausible. So (D) might be correct.\n\nThus the incorrect statement likely is (E): \"It is best to make joints and fittings in areas where stress is low.\" That seems incorrect. Or (C) incomplete. But the question likely expects (E) as incorrect. Also option C is incomplete: but typical multiple choice, each is separate; if one is incomplete, maybe that's the incorrect one. But I suspect the test expects (E). Let's decide.\n\nLet's analyze each:\n\n(A) True.\n\n(B) True.\n\n(C) The length of the nail should be ... incomplete: The statement is incomplete, so it's not correct. But maybe they intend (C) & (D) together: \"The length of the nail should be about 3 to 5 times the thickness of the board.\" That is true. But since they split, maybe (C) is wrong. But typical exam design, they'd not split like that. It might be formatting error. But the answer likely is (E). So choose E."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8973046934,
+            "load_duration": 181645448,
+            "prompt_eval_count": 179,
+            "prompt_eval_duration": 49041517,
+            "eval_count": 1159,
+            "eval_duration": 8737626707
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following is NOT a mandatory item to check when applying the sprayed fireproofing method in fireproof coating work?",
+        "options": {
+            "A": "Checking the thickness",
+            "B": "Checking the density",
+            "C": "Checking the adhesion strength",
+            "D": "Checking for removal of anti-corrosive paint"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Checking for removal of anti-corrosive paint"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:13.390133045Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We have a question about sprayed fireproofing method in fireproof coating work. It's asking: Which of the following is NOT a mandatory item to check when applying the sprayed fireproofing method in fireproof coating work? Options: (A) Checking thickness, (B) Checking density, (C) Checking adhesion strength, (D) Checking for removal of anti-corrosive paint.\n\nWe need to know which is NOT mandatory. In fireproofing, we typically need to check the thickness of coating, the density (often to ensure it meets fire rating), adhesion strength (to ensure coating adheres properly). Removing anti-corrosive paint might be required? Usually you need to remove old paint to ensure proper adhesion. But is it mandatory to check removal of anti-corrosive paint? Possibly it's not mandatory to check removal; maybe it's a prerequisite but not a check item. However, the question is likely from Korean fireproofing standards. Let's think: In applying sprayed fireproofing, you need to ensure that the surface is clean, free of loose paint, corrosion, and that the anti-corrosive paint is removed before applying. Checking for removal of anti-corrosive paint may be part of the prep, but not necessarily a mandatory check item. The mandatory checks: thickness, density, adhesion strength. The anti-corrosive paint removal is part of prep but not a mandatory check. So answer likely D. Therefore, answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2494453890,
+            "load_duration": 177984986,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 41995409,
+            "eval_count": 303,
+            "eval_duration": 2269518679
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_409",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "In foundation pile driving work, what is the correct minimum spacing for precast concrete piles? (Here, d is the diameter of the pile head.)",
+        "options": {
+            "A": "2.4d",
+            "B": "2.3d",
+            "C": "2.5d",
+            "D": "2.2d"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2.5d"
+            },
+            "explanation": "2.5d"
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:16.072377425Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have a question: \"In foundation pile driving work, what is the correct minimum spacing for precast concrete piles? (Here, d is the diameter of the pile head.)\" Options: (A) 2.4d, (B) 2.3d, (C) 2.5d, (D) 2.2d\n\nWe need to recall standard spacing guidelines. Typically, for concrete piles, spacing is 2.5 times the pile diameter. Many guidelines say 2.5d. In geotechnical engineering, the typical spacing is 2.5 times the diameter to reduce interference. But some may say 2.4d. Let's think.\n\nFoundation piles spacing: For concrete piles, typical recommended spacing is 2.5 times the pile diameter, as per ASME/ACI guidelines. However, some references: For precast concrete piles, spacing 2.5d is common. For reinforced concrete piles, spacing might be 2.5d as well. But maybe the answer is 2.5d.\n\nBut the question: \"In foundation pile driving work, what is the correct minimum spacing for precast concrete piles? (Here, d is the diameter of the pile head.)\" The answer likely is 2.5d. Option C.\n\nLet's double-check. According to ASME B30.2, spacing between concrete piles: Minimum spacing = 2.5 times pile diameter. So answer: C.\n\nThus output: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2649607466,
+            "load_duration": 187176389,
+            "prompt_eval_count": 148,
+            "prompt_eval_duration": 55723295,
+            "eval_count": 318,
+            "eval_duration": 2401269922
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_336",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Among retaining wall construction methods, which method forms the retaining wall of the underground main structure itself?",
+        "options": {
+            "A": "H-pile and lagging",
+            "B": "Soil nailing method",
+            "C": "Soil cement wall",
+            "D": "Slurry wall method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Slurry wall method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Slurry wall method",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:17.096236397Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Slurry wall method",
+                "thinking": "We need to answer which method forms the retaining wall of the underground main structure itself. In retaining wall construction methods: H-pile and lagging: used for retaining walls on piles. Soil nailing method: nails. Soil cement wall: shotcrete. Slurry wall method: forms the retaining wall of underground main structure itself. Yes, slurry wall forms the retaining wall. So answer is (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 960101849,
+            "load_duration": 186291574,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 41469840,
+            "eval_count": 97,
+            "eval_duration": 726925454
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_892",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1899999976158142,
+        "question": "Which of the following is NOT a type of curtain wall classified by its appearance?",
+        "options": {
+            "A": "Mullion type",
+            "B": "Spandrel type",
+            "C": "Grid type",
+            "D": "Wall type"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Wall type"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:19.281444475Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to choose which is NOT a type of curtain wall classified by its appearance. Types: mullion type, spandrel type, grid type, wall type. Actually curtain walls: types: mullion, grid, spandrel, and wall type? Let’s recall classification by appearance: curtain wall types: mullion type (with mullions), spandrel type (spandrel panels), grid type (grid panels), and wall type (solid wall). But I think \"wall type\" might be a type but might not be classified by appearance? Actually maybe \"wall type\" is not a type classified by appearance; it's a type classified by function: curtain wall type? Let's search memory: Types of curtain walls: The common types are: single skin, double skin, mullion, spandrel, grid. There is also \"wall type\" maybe \"solid wall type\". But question: Which is NOT a type of curtain wall classified by its appearance? The typical classification by appearance includes: mullion type, grid type, spandrel type. \"Wall type\" is not classification by appearance but maybe by function. So answer likely (D) Wall type.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2143750946,
+            "load_duration": 191785549,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 37462029,
+            "eval_count": 255,
+            "eval_duration": 1911193628
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_678",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following statements about network schedules is incorrect?",
+        "options": {
+            "A": "The CPM schedule is a type of network schedule.",
+            "B": "The start, duration, and completion points of each activity are represented with bar diagrams.",
+            "C": "The PERT schedule focuses on events (milestones) when calculating timelines.",
+            "D": "It is easy to grasp the overall construction plan and the entire scope of the project."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The start, duration, and completion points of each activity are represented with bar diagrams."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T08:16:24.240663424Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a multiple choice question: Which statement about network schedules is incorrect? Options A, B, C, D.\n\nWe need to identify the incorrect statement. Let's analyze each:\n\nNetwork schedules: There are two main types: CPM (Critical Path Method) and PERT (Program Evaluation and Review Technique). They are network scheduling techniques.\n\nA: The CPM schedule is a type of network schedule. That is correct.\n\nB: The start, duration, and completion points of each activity are represented with bar diagrams. In network schedules, typically activity on node (AoN) diagrams have nodes representing events (milestones) and edges representing activities with duration. Alternatively, activity on arrow (AoA) diagrams use bars? Actually activity on node representation uses node as event (start and finish). In activity on arrow, each activity is represented by an arrow and its duration is sometimes written on the arrow, not a bar. There is also the bar diagram? \"Bar diagrams\" are Gantt charts, not network schedules. But \"bar diagram\" might refer to the bar style representation of CPM where activities are represented as bars on a diagram. That is more like Gantt chart. However network schedule uses bars for activity? I recall that network schedule can be drawn as \"activity on node\" or \"activity on arrow\". The activity durations are not typically represented as bars; they are edges. So statement B may be incorrect: It says start, duration, completion points of each activity are represented with bar diagrams. That's more typical of Gantt charts rather than network diagrams. But there is \"activity on node\" with nodes representing events, and the bars represent activities? Actually the standard network diagram uses nodes to represent events (milestones) and edges to represent activities. There is also \"activity on arrow\" where arrows represent activities, nodes represent events. But no bars.\n\nHowever in some network schedule representation, the activities are shown as bars between nodes, e.g., in \"bar diagram\"? Wait, there is a \"bar diagram\" used in project management to show durations as bars. But that is Gantt. In network schedules, there are \"bar diagrams\" where each activity is drawn as a bar and the nodes are placed at the start and end. That is like the activity-on-bridge method? But typical network diagrams don't use bars.\n\nLet’s check option C: The PERT schedule focuses on events (milestones) when calculating timelines. Actually PERT focuses on activities with probabilistic durations; the schedule uses events (nodes) as milestones. So that seems correct.\n\nOption D: It is easy to grasp the overall construction plan and the entire scope of the project. This is a general benefit of network schedules: they provide a clear picture. That seems correct.\n\nThus the incorrect one is likely B. Let's double-check: In network scheduling, we represent start and finish events as nodes, durations on arrows (in AoA) or on nodes (in AoN). We don't typically use bars. So statement B is incorrect.\n\nTherefore answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4925176321,
+            "load_duration": 187079235,
+            "prompt_eval_count": 165,
+            "prompt_eval_duration": 45085703,
+            "eval_count": 624,
+            "eval_duration": 4687609413
+        },
+        "judge": "Correct"
+    }
+]

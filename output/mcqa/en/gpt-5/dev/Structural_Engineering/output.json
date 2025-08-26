@@ -1,0 +1,118 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4000000059604645,
+        "question": "What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)",
+        "options": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "400mm"
+            },
+            "explanation": "The maximum spacing is determined by the smallest of the following three values: 1. 25 x 16 = 400mm, 2. 10 x 48 = 480mm, 3. no more than the shorter side of the column’s cross-section = 500mm. Therefore, the correct answer is 400mm."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m52.gif?1527167378",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "id": "chatcmpl-C8WLvOLskracgVh53vGO7fk2Umw2u",
+            "object": "chat.completion",
+            "created": 1756147023,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "B",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 289,
+                "completion_tokens": 522,
+                "total_tokens": 811,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 512,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.41999998688697815,
+        "question": "What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?",
+        "options": {
+            "A": "50.8kN",
+            "B": "51.4kN",
+            "C": "51.5kN",
+            "D": "52.1kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "51.5kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m53.gif?1527167378",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C8WM8JHwiuar0a4B7TiDDyZIbePqF",
+            "object": "chat.completion",
+            "created": 1756147036,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 297,
+                "completion_tokens": 4234,
+                "total_tokens": 4531,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 4224,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    }
+]

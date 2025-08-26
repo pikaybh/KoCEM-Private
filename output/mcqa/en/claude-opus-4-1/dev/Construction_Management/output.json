@@ -1,0 +1,317 @@
+[
+    {
+        "id": "dev_Construction_Management_328",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8299999833106995,
+        "question": "What is the name of the hardware used for plastering applied to the corners of columns, walls, and similar edges?",
+        "options": {
+            "A": "Corner bead",
+            "B": "Non-slip",
+            "C": "Insert",
+            "D": "Dryvit"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Corner bead"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The hardware used for plastering that is applied to the corners of columns, walls, and similar edges to create clean, straight corners and protect them from damage is called a corner bead.\n\nThe answer is **(A) Corner bead**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The hardware used for plastering that is applied to the corners of columns, walls, and similar edges to create clean, straight corners and protect them from damage is called a corner bead.\n\nThe answer is **(A) Corner bead**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01WribNhjGRQ1MVN1agnyGrz",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 70,
+                    "output_tokens": 53,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--f5c2349b-1e89-46af-a4fc-57e33f7a3831-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 70,
+                "output_tokens": 53,
+                "total_tokens": 123,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Construction_Management_291",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "What is the type of concrete that contains aggregates like barite or other metallic materials for the purpose of radiation shielding?",
+        "options": {
+            "A": "Heavyweight concrete",
+            "B": "Mass concrete",
+            "C": "Expansive concrete",
+            "D": "Waterproof concrete"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Heavyweight concrete"
+            },
+            "explanation": "[Heavyweight concrete] is concrete used for the purpose of blocking radiation, and it mainly utilizes heavyweight aggregates."
+        },
+        "image_path": null,
+        "model_answer": "The type of concrete that contains aggregates like barite or other metallic materials specifically for radiation shielding purposes is heavyweight concrete. This type of concrete has a higher density than normal concrete due to the use of heavy aggregates such as barite, magnetite, or steel shot, which makes it effective for blocking radiation in applications like nuclear facilities and medical radiation rooms.\n\nThe answer is **(A)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The type of concrete that contains aggregates like barite or other metallic materials specifically for radiation shielding purposes is heavyweight concrete. This type of concrete has a higher density than normal concrete due to the use of heavy aggregates such as barite, magnetite, or steel shot, which makes it effective for blocking radiation in applications like nuclear facilities and medical radiation rooms.\n\nThe answer is **(A)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01RQiraotJaidpxnGg1SPKZy",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 76,
+                    "output_tokens": 87,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--82799636-a189-4a42-9615-edf7e3b1c626-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 76,
+                "output_tokens": 87,
+                "total_tokens": 163,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Construction_Management_682",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "What is the appropriate purpose for using a dowel in wood construction?",
+        "options": {
+            "A": "Fireproofing",
+            "B": "Preservation",
+            "C": "Pest control",
+            "D": "Joining"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Joining"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The appropriate purpose for using a dowel in wood construction is for joining pieces of wood together. A dowel is a cylindrical wooden pin that is inserted into corresponding holes drilled in two pieces of wood to create a strong joint between them. This is a common woodworking technique used in furniture making and carpentry.\n\nThe answer is **(D) Joining**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "The appropriate purpose for using a dowel in wood construction is for joining pieces of wood together. A dowel is a cylindrical wooden pin that is inserted into corresponding holes drilled in two pieces of wood to create a strong joint between them. This is a common woodworking technique used in furniture making and carpentry.\n\nThe answer is **(D) Joining**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_016vauS3HUB6JhkM4bjiSrvq",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 61,
+                    "output_tokens": 79,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b31ec529-bad0-4f17-abcd-4e801e82a539-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 61,
+                "output_tokens": 79,
+                "total_tokens": 140,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Construction_Management_324",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which term represents the specific surface area of cement?",
+        "options": {
+            "A": "Fineness modulus (FM)",
+            "B": "Hydration modulus (HM)",
+            "C": "Fineness",
+            "D": "Slump"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Fineness"
+            },
+            "explanation": "[Cement fineness (specific surface area: cm2/g)] Cement fineness indicates the degree of fineness of cement particles; higher fineness means smaller particles and a larger specific surface area."
+        },
+        "image_path": null,
+        "model_answer": "The specific surface area of cement is represented by the term **Fineness**.\n\nFineness refers to the particle size of cement, which is typically measured as the total surface area of cement particles per unit mass (cm²/g or m²/kg). This property is crucial because it affects the rate of hydration, strength development, and other properties of cement. Common methods to measure fineness include the Blaine air permeability test and sieve analysis.\n\nThe answer is **(C) Fineness**.",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "The specific surface area of cement is represented by the term **Fineness**.\n\nFineness refers to the particle size of cement, which is typically measured as the total surface area of cement particles per unit mass (cm²/g or m²/kg). This property is crucial because it affects the rate of hydration, strength development, and other properties of cement. Common methods to measure fineness include the Blaine air permeability test and sieve analysis.\n\nThe answer is **(C) Fineness**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01TK7B4r53rQBZUmEGSDzeTP",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 68,
+                    "output_tokens": 112,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b2ed3369-b3e7-4498-89d5-2ddf23c4e3c7-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 68,
+                "output_tokens": 112,
+                "total_tokens": 180,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Construction_Management_431",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5299999713897705,
+        "question": "What is the joint called that is installed in advance at members of a structure where cracks in concrete are likely to occur, in order to induce cracks to concentrate at these predetermined locations?",
+        "options": {
+            "A": "Control joint (조절줄눈)",
+            "B": "Construction joint (시공줄눈)",
+            "C": "Expansion joint (신축줄눈)",
+            "D": "Cold joint (콜드조인트)"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Control joint (조절줄눈)"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The joint that is installed in advance at locations where cracks are likely to occur in concrete structures, in order to induce cracks to concentrate at these predetermined locations, is a control joint.\n\nControl joints are deliberately placed weak planes in concrete that are designed to control where cracking occurs due to shrinkage and temperature changes. By creating these weakened sections at regular intervals, random cracking throughout the concrete is prevented, and any cracks that do form will occur along these predetermined lines where they can be properly sealed and maintained.\n\nThe answer is **(A) Control joint (조절줄눈)**.",
+        "parsed_pred": "A",
+        "full_response": {
+            "content": "The joint that is installed in advance at locations where cracks are likely to occur in concrete structures, in order to induce cracks to concentrate at these predetermined locations, is a control joint.\n\nControl joints are deliberately placed weak planes in concrete that are designed to control where cracking occurs due to shrinkage and temperature changes. By creating these weakened sections at regular intervals, random cracking throughout the concrete is prevented, and any cracks that do form will occur along these predetermined lines where they can be properly sealed and maintained.\n\nThe answer is **(A) Control joint (조절줄눈)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01G8S4APK1td1jCysezFcqin",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 115,
+                    "output_tokens": 130,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--4dd0ad09-b89a-46ac-b4fc-10859371ceaa-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 115,
+                "output_tokens": 130,
+                "total_tokens": 245,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

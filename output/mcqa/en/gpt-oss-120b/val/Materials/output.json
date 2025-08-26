@@ -1,0 +1,1722 @@
+[
+    {
+        "id": "val_Materials_4913",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which of the following statements about various adhesives is NOT correct?",
+        "options": {
+            "A": "Urea resin adhesive is made using urea and formaldehyde and is suitable for woodworking.",
+            "B": "Melamine resin adhesive has excellent water resistance and is used for metals, rubber, and glass.",
+            "C": "Silicone resin adhesive has excellent water resistance and electrical insulating properties and is used for bonding glass fiber boards, leather, and similar materials.",
+            "D": "Epoxy resin adhesive is a versatile adhesive with excellent water resistance, chemical resistance, and electrical insulation."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Melamine resin adhesive has excellent water resistance and is used for metals, rubber, and glass."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:31:41.649703875Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to pick which statement is NOT correct. Evaluate each.\n\n(A) Urea resin adhesive: made from urea and formaldehyde, used for woodworking? Actually urea-formaldehyde (UF) resin used as adhesive in wood products, like plywood, particleboard. Yes correct.\n\n(B) Melamine resin adhesive: melamine-formaldehyde resin, known for water resistance, heat resistance, used in laminates, plastics, not typically for metals, rubber, glass? It is used as a surface coating, laminates, but adhesives for metal? Typically melamine adhesives are used for wood, laminates, not metals. So statement may be inaccurate.\n\n(C) Silicone resin adhesive: silicone adhesives have excellent water resistance, electrical insulation, used for glass, metal, ceramics, etc. Bonding glass fiber boards, leather? Yes plausible.\n\n(D) Epoxy resin adhesive: versatile, excellent water resistance, chemical resistance, electrical insulation. True.\n\nThus (B) seems not correct. Answer letter B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3767670808,
+            "load_duration": 88440908,
+            "prompt_eval_count": 191,
+            "prompt_eval_duration": 385778139,
+            "eval_count": 215,
+            "eval_duration": 3289066244
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_5061",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.38999998569488525,
+        "question": "Which of the following is NOT correct regarding dolomitic plaster?",
+        "options": {
+            "A": "It has higher viscosity compared to slaked lime.",
+            "B": "Since glue is unnecessary, there is no discoloration, odor, or mold.",
+            "C": "It has lower early and final strength compared to lime mortar.",
+            "D": "Due to high drying shrinkage, shrinkage cracking occurs."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It has lower early and final strength compared to lime mortar."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:31:50.416948489Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter that is NOT correct regarding dolomitic plaster. So we need to know properties of dolomitic plaster. Dolomitic plaster is a type of lime plaster made from dolomitic lime (contains calcium and magnesium). It typically has higher early strength? Let's recall: Dolomitic lime (CaMg(CO3)2) when slaked gives a mixture with MgO, which may lead to higher strength? Actually, dolomitic lime has higher strength than pure calcium lime, but lower than hydraulic lime? Also has higher shrinkage? Let's evaluate statements:\n\nA) It has higher viscosity compared to slaked lime. Possibly true: Dolomitic plaster may be more viscous due to Mg content? Not sure.\n\nB) Since glue is unnecessary, there is no discoloration, odor, or mold. Typically, dolomitic plaster can be used without glue? But still may have odor? The statement seems suspect.\n\nC) It has lower early and final strength compared to lime mortar. That seems false: Dolomitic plaster may have higher strength than lime mortar? Actually, lime mortar (hydraulic) maybe stronger? Need knowledge. I think dolomitic plaster is less strong? Not sure.\n\nD) Due to high drying shrinkage, shrinkage cracking occurs. Possibly true: high shrinkage is a known drawback.\n\nWe need the NOT correct statement. Which is false.\n\nLet's quickly search memory: Dolomitic plaster (also called \"lime plaster\") is used historically, has high workability, less shrinkage? Actually, lime plaster shrinks less than gypsum? Not sure.\n\nBetter to evaluate each:\n\nA) higher viscosity than slaked lime: Slaked lime is calcium hydroxide slurry, low viscosity? Dolomitic plaster is mixture of lime and sand? Might have higher viscosity. Likely true.\n\nB) No glue needed, so no discoloration, odor, mold. Typically lime plaster can be applied without additives; it does not have odor or mold? Actually lime can cause odor due to carbonation? But maybe statement is true.\n\nC) lower early and final strength compared to lime mortar. Dolomitic plaster is not used for structural strength; it's more for finishing. Lime mortar used for bonding bricks has higher strength. So C could be true.\n\nD) high drying shrinkage leads to cracking. Does dolomitic plaster have high shrinkage? Lime plaster does have shrinkage, but maybe not high? Might be moderate. Could be false.\n\nThus maybe D is NOT correct. So answer D.\n\nThus output letter D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8728468115,
+            "load_duration": 95309373,
+            "prompt_eval_count": 158,
+            "prompt_eval_duration": 349337980,
+            "eval_count": 535,
+            "eval_duration": 8279490179
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Materials_168",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following statements about building stones is incorrect?",
+        "options": {
+            "A": "They have greater tensile strength than compressive strength.",
+            "B": "They are non-combustible and have excellent water and chemical resistance.",
+            "C": "Granite cracks and breaks when exposed to intense heat.",
+            "D": "Most stones have high density and are difficult to work with."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "They have greater tensile strength than compressive strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:31:53.180979179Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter that is incorrect statement about building stones.\n\nLet's evaluate each:\n\n(A) \"They have greater tensile strength than compressive strength.\" Usually stones have much higher compressive strength than tensile strength (tensile is much lower). So A is incorrect.\n\n(B) \"They are non-combustible and have excellent water and chemical resistance.\" That's generally true.\n\n(C) \"Granite cracks and breaks when exposed to intense heat.\" Granite can crack under intense heat due to thermal expansion; it's true.\n\n(D) \"Most stones have high density and are difficult to work with.\" Generally true.\n\nThus the incorrect is A. So answer \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2727008701,
+            "load_duration": 86900351,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 339292689,
+            "eval_count": 148,
+            "eval_duration": 2294582888
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4516",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following statements about the characteristics of stone is NOT correct?",
+        "options": {
+            "A": "It has relatively high compressive strength.",
+            "B": "It is non-combustible.",
+            "C": "It has low specific gravity.",
+            "D": "It is difficult to process."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It has low specific gravity."
+            },
+            "explanation": "Stone has high compressive strength, is non-combustible, has excellent durability, abrasion resistance, and water resistance, and has a grand and beautiful appearance. However, its disadvantages include being heavy, difficult to process, having low fire resistance, and low tensile strength, and it is difficult to obtain in large sizes."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:31:55.07115557Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. The question: Which statement about characteristics of stone is NOT correct? Options:\n\nA: high compressive strength - true.\nB: non-combustible - true.\nC: low specific gravity - stone generally has high specific gravity (density), so low specific gravity is false. D: difficult to process - true.\n\nThus the incorrect is C. So answer \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1856694425,
+            "load_duration": 93367828,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 272492057,
+            "eval_count": 97,
+            "eval_duration": 1485677863
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4785",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "Which of the following is least relevant when designing the mix proportions of concrete?",
+        "options": {
+            "A": "Fine aggregate ratio",
+            "B": "Curing",
+            "C": "Admixture amount",
+            "D": "Water-cement ratio"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Curing"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:31:56.885990128Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is least relevant when designing the mix proportions of concrete?\" Options: A Fine aggregate ratio, B Curing, C Admixture amount, D Water-cement ratio. Designing mix proportions deals with component ratios (cement, water, aggregates, admixtures). Curing is not a proportion; it's a process after casting. So least relevant is curing. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1780116423,
+            "load_duration": 96478262,
+            "prompt_eval_count": 126,
+            "prompt_eval_duration": 257503714,
+            "eval_count": 93,
+            "eval_duration": 1422039559
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4698",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following statements about clay-fired products is correct?",
+        "options": {
+            "A": "Tiles for interior use are made with low absorption and high resistance to the exterior.",
+            "B": "Glazed bricks refer to the thick bricks used for roads and floors.",
+            "C": "Decorative terracotta is often used for parapet walls, capitals, and window sills.",
+            "D": "Lightweight bricks are mainly used for building the interiors of chimneys and stoves."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Decorative terracotta is often used for parapet walls, capitals, and window sills."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:01.910118428Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter (A, B, C, or D) that is correct. The question: \"Which of the following statements about clay-fired products is correct?\" Need to evaluate each statement.\n\nWe need knowledge about clay-fired products: tiles, bricks, terracotta, lightweight bricks.\n\nLet's recall: Tiles for interior use are made with low absorption and high resistance to the exterior. Hmm interior tiles need low water absorption, but \"high resistance to the exterior\"? That seems contradictory. Usually interior tiles have low absorption but are not necessarily designed for exterior resistance. Exterior tiles need low absorption and frost resistance. So statement (A) seems off.\n\n(B) \"Glazed bricks refer to the thick bricks used for roads and floors.\" Glazed bricks are bricks with a glaze surface, often used for decorative surfaces, not thick bricks for roads/floors. So false.\n\n(C) \"Decorative terracotta is often used for parapet walls, capitals, and window sills.\" Terracotta decorative elements are used for architectural details like capitals, sills, parapets. That sounds plausible.\n\n(D) \"Lightweight bricks are mainly used for building the interiors of chimneys and stoves.\" Lightweight bricks are low density, good for insulation, not for high temperature interior of chimneys? Actually refractory bricks are used for chimneys, not lightweight. So D likely false.\n\nThus answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4991803089,
+            "load_duration": 90278167,
+            "prompt_eval_count": 171,
+            "prompt_eval_duration": 354957774,
+            "eval_count": 294,
+            "eval_duration": 4540422075
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_2792",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following statements about the fineness of cement is NOT correct?",
+        "options": {
+            "A": "The finer the powder, the smaller the specific surface area.",
+            "B": "The finer the powder, the faster the rate of hydration.",
+            "C": "If the powder is excessively fine, it weathers easily.",
+            "D": "The finer the powder, the faster the development of strength."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The finer the powder, the smaller the specific surface area."
+            },
+            "explanation": "The larger the fineness of the cement, the greater the surface area that comes into contact with water, which accelerates the hydration reaction."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:03.417344298Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter that is NOT correct. Statement about fineness of cement: (A) The finer the powder, the smaller the specific surface area. Actually finer means larger specific surface area, not smaller. So A is incorrect. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1478811326,
+            "load_duration": 102133801,
+            "prompt_eval_count": 158,
+            "prompt_eval_duration": 337621302,
+            "eval_count": 68,
+            "eval_duration": 1034698595
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_2417",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "Which of the following statements about the properties of aluminum is NOT correct?",
+        "options": {
+            "A": "Aluminum is lightweight—its specific gravity is about one third that of iron—while having high thermal and electrical conductivity and a high reflectivity.",
+            "B": "Aluminum is highly corrosion resistant because a dense oxide film forms on its surface, making it hardly susceptible to corrosion and resistant to alkalis and seawater.",
+            "C": "The corrosion rate of aluminum is related to factors such as humidity, salt content, and the type and amount of impurities in the atmosphere.",
+            "D": "When aluminum is processed into sheets or wires at room temperature, its hardness and tensile strength increase while its ductility decreases."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Aluminum is highly corrosion resistant because a dense oxide film forms on its surface, making it hardly susceptible to corrosion and resistant to alkalis and seawater."
+            },
+            "explanation": "Aluminum can be corroded by alkalis and seawater, so it should not be used in contact with concrete, seawater, or when buried in soil."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:08.110083707Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to pick which statement is NOT correct about properties of aluminum.\n\nLet's analyze each:\n\nA: Aluminum lightweight, specific gravity ~2.7 vs iron ~7.8, so about 1/3. High thermal and electrical conductivity, high reflectivity. That's correct.\n\nB: \"Aluminum is highly corrosion resistant because a dense oxide film forms on its surface, making it hardly susceptible to corrosion and resistant to alkalis and seawater.\" Aluminum does form protective oxide, but it is not resistant to alkalis (strong bases) – actually aluminum is attacked by alkalis, dissolves in NaOH. Also seawater (chlorides) can cause pitting corrosion. So statement B is not correct. It says \"hardly susceptible to corrosion and resistant to alkalis and seawater\" – that's false. So B is the incorrect statement.\n\nC: Corrosion rate related to humidity, salt content, impurities – correct.\n\nD: When processed into sheets or wires at room temperature, its hardness and tensile strength increase while ductility decreases. Cold working (cold rolling, drawing) indeed increases strength and hardness, reduces ductility. That's correct.\n\nThus answer is B. The prompt: \"Answer with the option's letter from the given choices directly.\" So output \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4655860291,
+            "load_duration": 88321726,
+            "prompt_eval_count": 218,
+            "prompt_eval_duration": 413879282,
+            "eval_count": 268,
+            "eval_duration": 4148953023
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_3105",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following statements about the workability of concrete is NOT correct?",
+        "options": {
+            "A": "If the mixing time is excessively long, it accelerates the hydration of cement and reduces workability.",
+            "B": "If the unit water content is increased too much, material separation may occur, so it cannot be said that workability improves.",
+            "C": "Adding an air-entraining agent (AE agent) improves workability.",
+            "D": "When using crushed stone or crushed sand, reducing the fine aggregate ratio and decreasing the unit water content will improve workability."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "When using crushed stone or crushed sand, reducing the fine aggregate ratio and decreasing the unit water content will improve workability."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:12.353268717Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to pick which statement about workability of concrete is NOT correct. Evaluate each.\n\nA: If mixing time excessively long, accelerates hydration and reduces workability. Typically longer mixing can cause water absorption by cement, increase temperature, reduce slump? Actually overmixing can lead to loss of workability due to water being absorbed and early hydration. So A seems correct.\n\nB: If unit water content increased too much, material separation may occur, so cannot say workability improves. Excess water leads to segregation; indeed workability may be high but segregation risk. So statement that cannot say workability improves is correct.\n\nC: Adding an air-entraining agent improves workability. AE agents introduce tiny air bubbles, increase workability, yes. So correct.\n\nD: When using crushed stone or crushed sand, reducing the fine aggregate ratio and decreasing the unit water content will improve workability. Typically, with angular aggregates, workability is poorer; reducing fine aggregate ratio (i.e., less sand) and decreasing water content would actually reduce workability, not improve. So D is NOT correct. Therefore answer D. Option letter is D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4209312400,
+            "load_duration": 92549590,
+            "prompt_eval_count": 194,
+            "prompt_eval_duration": 399038631,
+            "eval_count": 240,
+            "eval_duration": 3713233983
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1244",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following statements about concrete with AE admixture is incorrect?",
+        "options": {
+            "A": "When the water-cement ratio is constant, increasing the air content increases the compressive strength.",
+            "B": "Improved workability reduces material segregation.",
+            "C": "It increases resistance to wear caused by freeze-thaw action.",
+            "D": "The bond strength with rebar decreases."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "When the water-cement ratio is constant, increasing the air content increases the compressive strength."
+            },
+            "explanation": "When the water-cement ratio is constant, increasing air content actually decreases compressive strength."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:15.872822592Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which of the following statements about concrete with AE admixture is incorrect?\" Options A-D.\n\nAE admixture likely refers to Air-Entraining admixture. Air-entraining admixture introduces microscopic air bubbles to improve freeze-thaw resistance, workability, reduce segregation, but it reduces compressive strength (more air reduces strength). So A says: When w/c constant, increasing air content increases compressive strength. That's false (it decreases). So A is incorrect.\n\nCheck others: B: Improved workability reduces material segregation. That seems correct. C: It increases resistance to wear caused by freeze-thaw action. Air entrainment does increase freeze-thaw durability. So correct. D: The bond strength with rebar decreases. Air entrainment can reduce bond strength due to air voids near rebar. That's generally true. So D is correct. So the incorrect is A. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3484346170,
+            "load_duration": 95369805,
+            "prompt_eval_count": 155,
+            "prompt_eval_duration": 342062514,
+            "eval_count": 198,
+            "eval_duration": 3042637721
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_3543",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements correctly describes the characteristics of clay ceramic products?",
+        "options": {
+            "A": "They lack heat resistance and electrical insulation.",
+            "B": "They have excellent chemical resistance and weather resistance.",
+            "C": "There is little risk of efflorescence.",
+            "D": "They are ductile and easy to process."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "They have excellent chemical resistance and weather resistance."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:19.260659168Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Which of the following statements correctly describes the characteristics of clay ceramic products? (A) They lack heat resistance and electrical insulation. (B) They have excellent chemical resistance and weather resistance. (C) There is little risk of efflorescence. (D) They are ductile and easy to process.\"\n\nWe need to answer with the option's letter directly. So we need to know correct characteristic of clay ceramic products. Clay ceramics are generally heat resistant, good electrical insulation, good chemical resistance, but they can have efflorescence? Typically ceramic materials are resistant to chemicals, have good weather resistance, low water absorption, but efflorescence is more of a problem in some clays? I think they have good chemical resistance and weather resistance, so B seems correct. They are not ductile; they're brittle. So answer B. Provide just \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3358195389,
+            "load_duration": 89001805,
+            "prompt_eval_count": 145,
+            "prompt_eval_duration": 309587851,
+            "eval_count": 191,
+            "eval_duration": 2955276608
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_2873",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3199999928474426,
+        "question": "Which of the following is NOT used as a paint drier?",
+        "options": {
+            "A": "Litharge",
+            "B": "Naphtha",
+            "C": "Red lead",
+            "D": "Manganese peroxide"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Naphtha"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:21.142021719Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer with the option's letter that is NOT used as a paint drier. Paint driers are substances that accelerate drying of oil-based paints. Common driers: lead naphthenate, cobalt, manganese, zirconium, calcium, lead oxide (litharge), red lead (Pb3O4), manganese peroxide, etc. Naphtha is a solvent, not a drier. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1849374163,
+            "load_duration": 98957508,
+            "prompt_eval_count": 122,
+            "prompt_eval_duration": 234771834,
+            "eval_count": 98,
+            "eval_duration": 1501868808
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1564",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8799999952316284,
+        "question": "Which wallpaper is made by spinning yarn and weaving it on a loom?",
+        "options": {
+            "A": "Fabric wallpaper",
+            "B": "Vinyl wallpaper",
+            "C": "Paper wallpaper",
+            "D": "Foamed wallpaper"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Fabric wallpaper"
+            },
+            "explanation": "* Fabric (textile) wallpaper: wallpaper made by spinning yarn and weaving it on a loom."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:22.7629331Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"Which wallpaper is made by spinning yarn and weaving it on a loom?\" Options: A Fabric wallpaper, B Vinyl wallpaper, C Paper wallpaper, D Foamed wallpaper. The answer is Fabric wallpaper. So respond with letter A. The instruction: \"Answer with the option's letter from the given choices directly.\" So just output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1584211342,
+            "load_duration": 86312239,
+            "prompt_eval_count": 121,
+            "prompt_eval_duration": 233563582,
+            "eval_count": 83,
+            "eval_duration": 1260451900
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_3063",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following statements about copper is NOT correct?",
+        "options": {
+            "A": "It is ductile and highly workable, making it easy to manufacture into sheets, wires, rods, etc.",
+            "B": "It has excellent alkali resistance and is well-suited for use in places that come into contact with cement or concrete.",
+            "C": "It is non-magnetic and has high electrical conductivity.",
+            "D": "It does not rust in clean water but corrodes in saltwater."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "It has excellent alkali resistance and is well-suited for use in places that come into contact with cement or concrete."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:29.223477087Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following statements about copper is NOT correct?\" Options A-D.\n\nWe need to pick the incorrect statement about copper.\n\nLet's evaluate each:\n\nA: \"It is ductile and highly workable, making it easy to manufacture into sheets, wires, rods, etc.\" That's true: copper is ductile, malleable.\n\nB: \"It has excellent alkali resistance and is well-suited for use in places that come into contact with cement or concrete.\" Copper is actually susceptible to alkaline environments? I recall that copper can be attacked by ammonia and some alkali? But in concrete, there is high pH (alkaline) which can cause corrosion of copper? Actually copper is relatively resistant to alkalis, but I think the issue is that copper can be attacked by alkaline solutions? Let’s think: Copper is not resistant to ammonia; but alkaline conditions may cause copper oxide formation? However, the phrase \"excellent alkali resistance\" might be questionable. I think copper does have good resistance to alkalis, but is it used in concrete? Typically, copper is not recommended for reinforcement in concrete due to corrosion from high alkalinity? Actually steel is used; copper maybe for water pipes? In contact with cement, copper may be attacked due to high pH causing corrosion. I suspect statement B is not correct.\n\nC: \"It is non-magnetic and has high electrical conductivity.\" Copper is non-ferromagnetic (diamagnetic), and high conductivity, true.\n\nD: \"It does not rust in clean water but corrodes in saltwater.\" Copper does not rust (rust is iron oxide). Copper forms a patina. In clean water, copper corrosion is minimal; in seawater, copper does corrode more. So D is correct.\n\nThus the NOT correct is B. So answer letter B.\n\nThus output: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6429135746,
+            "load_duration": 96681109,
+            "prompt_eval_count": 177,
+            "prompt_eval_duration": 392708251,
+            "eval_count": 385,
+            "eval_duration": 5935484673
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1487",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.44999998807907104,
+        "question": "Which of the following synthetic resins is a thermoplastic resin?",
+        "options": {
+            "A": "Phenolic resin",
+            "B": "Epoxy resin",
+            "C": "Polyvinyl acetate resin",
+            "D": "Polyester resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Polyvinyl acetate resin"
+            },
+            "explanation": "Thermoplastic resins include polyvinyl chloride resin, polyethylene resin, polypropylene resin, acrylic resin, and polystyrene resin. Thermosetting resins do not soften again when reheated after they are molded; they cannot be reshaped because their polymer chains have a cross-linked structure, and they cannot be dissolved in solvents. Examples of thermosetting resins are phenolic resins and urea resins."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:30.688712487Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. The question: Which synthetic resin is a thermoplastic resin? Options: Phenolic (thermoset), Epoxy (thermoset), Polyvinyl acetate (thermoplastic), Polyester (could be thermoset). So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1431012451,
+            "load_duration": 108370523,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 226413910,
+            "eval_count": 72,
+            "eval_duration": 1092185429
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1025",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which of the following statements about the required performance of flooring materials is NOT correct?",
+        "options": {
+            "A": "Abrasion resistance: The ability to withstand wear from foot traffic.",
+            "B": "Airtightness: The ability to resist deformation and deterioration caused by sunlight and air.",
+            "C": "Heat resistance: The ability to withstand deformation or damage caused by heat.",
+            "D": "Chemical resistance: The ability to avoid corrosion from acids, alkalis, and other chemicals."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Airtightness: The ability to resist deformation and deterioration caused by sunlight and air."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:33.576287522Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to select which statement about required performance of flooring materials is NOT correct. Options:\n\nA: Abrasion resistance: ability to withstand wear from foot traffic. That's correct.\n\nB: Airtightness: ability to resist deformation and deterioration caused by sunlight and air. \"Airtightness\" usually refers to preventing air passage, not about sunlight. Deformation from sunlight and air is more about UV resistance, weatherability, not airtightness. So B is incorrect.\n\nC: Heat resistance: ability to withstand deformation or damage caused by heat. That's correct.\n\nD: Chemical resistance: ability to avoid corrosion from acids, alkalis, and other chemicals. That's correct.\n\nThus answer B. So letter: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2851749888,
+            "load_duration": 88573772,
+            "prompt_eval_count": 173,
+            "prompt_eval_duration": 368166871,
+            "eval_count": 154,
+            "eval_duration": 2390275551
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4864",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8600000143051147,
+        "question": "Which type of stone is not suitable for outdoor use due to its tendency to weather easily, but is dense, durable, and takes on a beautiful polish, making it suitable for indoor decoration?",
+        "options": {
+            "A": "Marble",
+            "B": "Serpentine",
+            "C": "Andesite",
+            "D": "Slate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Marble"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:36.262758732Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter. The question: Which type of stone is not suitable for outdoor use due to its tendency to weather easily, but is dense, durable, and takes on a beautiful polish, making it suitable for indoor decoration?\n\nOptions: A Marble, B Serpentine, C Andesite, D Slate.\n\nMarble weathers easily outdoors, but is dense, can be polished, used indoor. Serpentine? Not sure. Andesite is volcanic, used outdoors perhaps. Slate is good outdoors. The description matches marble: not suitable outdoor because it weathers, dense, durable, polished, indoor decoration. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2649866085,
+            "load_duration": 102871728,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 322149657,
+            "eval_count": 145,
+            "eval_duration": 2220474401
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1144",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which metal fitting is used to resist shear forces when joining wood?",
+        "options": {
+            "A": "Bracket",
+            "B": "Dowel",
+            "C": "Clamp",
+            "D": "Coach bolt"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Dowel"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:38.617779543Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The question: \"Which metal fitting is used to resist shear forces when joining wood?\" Options: A Bracket, B Dowel, C Clamp, D Coach bolt. A bracket is metal L-shaped for supporting joints, resists shear? Dowel is wood peg, not metal. Clamp holds temporarily. Coach bolt is a type of bolt used in furniture, also called \"coach bolt\" used to resist shear? Actually a coach bolt (also called carriage bolt) has a domed head and square neck to prevent turning. It's used to join wood, resisting shear forces. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2319066733,
+            "load_duration": 88491269,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 233776775,
+            "eval_count": 130,
+            "eval_duration": 1991636080
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Materials_65",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following statements about ALC lightweight aerated concrete products is NOT correct?",
+        "options": {
+            "A": "They have low water absorption.",
+            "B": "They have low dry density.",
+            "C": "They have excellent thermal insulation performance.",
+            "D": "They have excellent healing properties."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "They have low water absorption."
+            },
+            "explanation": "Lightweight aerated concrete has high water absorption, so waterproofing and moisture-proofing treatments are needed to prevent frost damage."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:44.191391273Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which of the following statements about ALC lightweight aerated concrete products is NOT correct?\" Options: A low water absorption, B low dry density, C excellent thermal insulation performance, D excellent healing properties. I need to know about ALC (autoclaved lightweight aerated concrete). ALC typically has low density, good thermal insulation, low water absorption? Actually ALC has higher water absorption than ordinary concrete, but still relatively low? Let's recall: ALC has porous structure, water absorption is relatively high (e.g., 10-15%?), not low. Healing properties? Concrete doesn't have self-healing unless special additives. ALC maybe not known for healing. So which is NOT correct? Probably D, because healing properties not a feature. However ALC does have relatively high water absorption compared to other lightweight concrete? The statement \"low water absorption\" might be false. Which is more false? ALC typical water absorption is moderate, not low. So A is not correct. But the question: which statement is NOT correct? Options: A low water absorption, B low dry density, C excellent thermal insulation, D excellent healing properties. I think D is also not correct because no healing. But which is more obviously false? ALC is known for low density, good thermal insulation, but water absorption is relatively high (e.g., 10-15%). So statement A is incorrect. Healing property is not a standard attribute; might be trick. However maybe they claim ALC has self-healing due to moisture and carbonation? Not typical. I'd answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5543294171,
+            "load_duration": 96926721,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 309921141,
+            "eval_count": 332,
+            "eval_duration": 5130842372
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_932",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct location for using the main column?",
+        "options": {
+            "A": "At the corner",
+            "B": "Between the purlin and the eaves purlin",
+            "C": "Where concentrated loads occur",
+            "D": "At the intersection with the partition wall"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Between the purlin and the eaves purlin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:46.965095908Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is NOT a correct location for using the main column?\" Options: A corner, B between purlin and eaves purlin, C where concentrated loads occur, D intersection with partition wall.\n\nWe need to know structural engineering: Main column typically placed at corners, at points of concentrated loads, at intersection of partition walls? Actually main columns are primary structural members carrying loads to foundations, typically at corners, at points of heavy loads, at intersections of main beams, etc. Between purlin and eaves purlin? That seems like a location within roof framing, not typical for main column. So likely B is NOT correct. So answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2739220913,
+            "load_duration": 88046550,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 307633640,
+            "eval_count": 153,
+            "eval_duration": 2338406926
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4537",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about wood is NOT correct?",
+        "options": {
+            "A": "The earlywood has thin, soft cell walls, while the latewood has thick, dense cell walls.",
+            "B": "The heartwood is located near the center of the wood and generally has greater strength than the sapwood.",
+            "C": "Flat grain wood is generally more attractive in appearance and less prone to shrinkage and deformation than straight grain wood.",
+            "D": "The most suitable season for logging among the four seasons is winter."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Flat grain wood is generally more attractive in appearance and less prone to shrinkage and deformation than straight grain wood."
+            },
+            "explanation": "Heartwood is located near the center of the wood and is darker in color. Compared to sapwood, heartwood has less shrinkage and greater weather resistance, durability, and strength. Sapwood is found near the outer bark and is lighter in color. It has greater shrinkage and lower weather resistance, durability, and strength compared to heartwood. Straight grain runs perpendicular to the annual rings, is linear and even, has an attractive appearance, and is commonly used for structural materials. Flat grain runs tangentially to the annual rings, is rough and irregular, and is used for board lumber."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:32:59.684680367Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to choose which statement about wood is NOT correct. Evaluate each.\n\nA: earlywood vs latewood description: earlywood (spring) has larger cells, thin walls, less dense; latewood (summer) has smaller cells, thick walls, denser. That is correct.\n\nB: Heartwood is inner, non-living, often more decay resistant but generally lower strength than sapwood? Actually heartwood is often weaker mechanically because it's dead and may have lower strength, but it is more resistant to decay. Sapwood is living, more moisture, higher strength. So statement that heartwood generally has greater strength than sapwood is likely incorrect. So B is likely NOT correct.\n\nC: Flat grain wood vs straight grain: flat grain means growth rings are more horizontal, can be more attractive, but I think flat grain is more prone to checking, splitting, warping due to moisture, maybe less stable? Straight grain is generally more stable and less prone to shrinkage. So the statement that flat grain is less prone to shrinkage and deformation than straight grain might be false. Need to verify. In timber, flat grain (also called interlocked grain) can cause warping, but is often considered more stable? Actually flat grain: the grain direction is more parallel to the board surface, leading to less shrinkage? Wait typical: radial vs tangential shrinkage: wood shrinks more tangentially; flat grain is when growth rings are at an angle (more than 5 degrees) to the face, leading to \"flat grain\" boards where the grain is not perfectly vertical, can lead to warping when drying, and can be more attractive. Straight grain is more stable. So statement C likely incorrect.\n\nD: Most suitable season for logging among four seasons is winter. Generally, winter is best because ground is frozen, less damage to roots and soil, and sap flow low, less weight. That is correct.\n\nThus which is NOT correct? Possibly both B and C are incorrect. Need to pick the single best answer. Which one is more clearly false? B says heartwood has greater strength than sapwood. That's generally false. C says flat grain wood is less prone to shrinkage and deformation than straight grain wood. I think it's also false. Which is more likely to be considered not correct in a typical wood science context? Probably B is the main false statement because many think heartwood is stronger, but it's actually weaker. Flat grain being less prone to shrinkage is also false. Might be a trick. The question: \"Which of the following statements about wood is NOT correct?\" If multiple are false, but they intend one. Let's evaluate C more: Flat grain wood is generally more attractive in appearance and less prone to shrinkage and deformation than straight grain wood. Flat grain (also called flat-sawn) is considered less stable than quarter-sawn (straight grain). Actually flat-sawn boards have more dimensional stability problems (warping) due to tangential shrinkage, while quarter-sawn (straight grain) are more stable. So C is false.\n\nThus both B and C false. Which one is more obviously false? B: heartwood generally has greater strength than sapwood. In many species, heartwood can be stronger in some aspects (e.g., modulus of elasticity) but generally weaker in hardness and bending? I recall heartwood has lower moisture and may be denser, sometimes higher strength. Actually heartwood often has higher density and may have higher strength, but sapwood is more elastic? Let's check typical: In many species, heartwood is denser and has higher compressive strength, but lower bending strength? Not sure. But textbook may state heartwood is not as strong as sapwood. I think typical answer they'd expect: B is NOT correct. So answer B.\n\nThus output letter: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 12687551783,
+            "load_duration": 92069094,
+            "prompt_eval_count": 183,
+            "prompt_eval_duration": 369771158,
+            "eval_count": 788,
+            "eval_duration": 12221524365
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Materials_2309",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "In brickwork, what is the projection length when laying each course one at a time?",
+        "options": {
+            "A": "1/2 B",
+            "B": "1/4 B",
+            "C": "1/8 B",
+            "D": "1 B"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1/8 B"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:02.150236993Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"In brickwork, what is the projection length when laying each course one at a time?\" Options: A 1/2 B, B 1/4 B, C 1/8 B, D 1 B. Probably refers to the projection (offset) of bricks for a stretcher bond? The projection length (or reveal) when each course is laid one half brick offset? In brickwork, each course is laid with a half brick offset to maintain a running bond. Projection length is half the brick length? So 1/2 B. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2430852864,
+            "load_duration": 87166565,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 310977040,
+            "eval_count": 132,
+            "eval_duration": 2028302852
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Materials_3557",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the boundary between elastic and plastic behavior in a tensile test of steel?",
+        "options": {
+            "A": "Proportional limit",
+            "B": "Strain hardening point",
+            "C": "Yield point",
+            "D": "Tensile strength point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Yield point"
+            },
+            "explanation": "Yield point - the point at which the specimen begins to undergo permanent deformation and does not return to its original shape after the load is removed."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:03.808557734Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"What is the boundary between elastic and plastic behavior in a tensile test of steel?\" Options given. The correct answer: The yield point (or yield strength) is the transition between elastic and plastic deformation. So answer: (C). The instruction: \"Answer with the option's letter from the given choices directly.\" So just output \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1624793707,
+            "load_duration": 94448151,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 258270389,
+            "eval_count": 84,
+            "eval_duration": 1268004596
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_227",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about the fineness of cement is NOT correct?",
+        "options": {
+            "A": "The greater the fineness, the slower the setting.",
+            "B": "If the fineness is too high, it weathers easily.",
+            "C": "It is indicated by the specific surface area per unit weight.",
+            "D": "It can be measured by the Blaine method or the standard sieve method."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The greater the fineness, the slower the setting."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:08.334373247Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly (A, B, C, or D). The question: \"Which of the following statements about the fineness of cement is NOT correct?\" So we need to find which statement is false.\n\nLet's evaluate each.\n\nA) \"The greater the fineness, the slower the setting.\" Is that correct? Typically, higher fineness leads to faster hydration, faster setting, not slower. So this statement is likely NOT correct. So A is false.\n\nB) \"If the fineness is too high, it weathers easily.\" I think high fineness means high surface area, can lead to more rapid hydration but also can cause higher water demand, maybe cause shrinkage, but \"weathers easily\" not typical. However \"weathering\" maybe refers to durability? Not sure. But likely not correct? But A is clearly false.\n\nC) \"It is indicated by the specific surface area per unit weight.\" Yes, fineness measured as specific surface area (cm^2/g). That's correct.\n\nD) \"It can be measured by the Blaine method or the standard sieve method.\" Yes, both used. So D correct.\n\nThus the NOT correct statement is A.\n\nThus answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4489547516,
+            "load_duration": 86964997,
+            "prompt_eval_count": 161,
+            "prompt_eval_duration": 362413902,
+            "eval_count": 262,
+            "eval_duration": 4034483182
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4716",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "What is the main reason for using lime in plaster materials?",
+        "options": {
+            "A": "To color with oil paint.",
+            "B": "To prevent cracking.",
+            "C": "To increase viscosity.",
+            "D": "To increase the surface hardness."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To prevent cracking."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:10.379967422Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What is the main reason for using lime in plaster materials?\" Options A-D. The correct answer: Lime is added to plaster to improve workability, reduce cracking, and increase flexibility. Actually, lime in plaster is used to improve workability and reduce shrinkage cracking, also to increase breathability. The main reason is to prevent cracking (increase flexibility). So answer B.\n\nWe need to respond with the option's letter directly. So output: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2009141336,
+            "load_duration": 94332083,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 267225241,
+            "eval_count": 107,
+            "eval_duration": 1643511774
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_2980",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4099999964237213,
+        "question": "What is the main drawback when using crushed stone, obtained by breaking generally sound rock, in concrete?",
+        "options": {
+            "A": "Reduced compressive strength",
+            "B": "Reduced bonding strength",
+            "C": "Increased water demand",
+            "D": "Reduced resistance to freeze-thaw cycles"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Increased water demand"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:11.66160043Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need answer letter. The question: main drawback when using crushed stone (obtained by breaking generally sound rock) in concrete? Likely increased water demand due to higher surface area, leading to higher water demand. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1250457603,
+            "load_duration": 86612894,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 266686650,
+            "eval_count": 58,
+            "eval_duration": 891532272
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_3628",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is NOT a characteristic of liquid-applied waterproofing materials?",
+        "options": {
+            "A": "They are easy to apply to complex areas.",
+            "B": "They enable quick application and have good adhesion.",
+            "C": "They are resistant to fine cracks in the substrate.",
+            "D": "It is difficult to find defects in case of leakage and local repairs are hard."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "It is difficult to find defects in case of leakage and local repairs are hard."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:16.326606899Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. The question: Which is NOT a characteristic of liquid-applied waterproofing materials? Options: A, B, C, D. We need to know typical characteristics: Liquid-applied waterproofing are easy to apply to complex areas (true). They enable quick application and have good adhesion (true). They are resistant to fine cracks in the substrate? Actually liquid membranes can accommodate substrate movement, but they may not be resistant to fine cracks? Typically they can bridge small cracks but not fine cracks? Hmm. Option D says \"It is difficult to find defects in case of leakage and local repairs are hard.\" That seems like a drawback of liquid-applied waterproofing: because it's a seamless membrane, defects are hard to locate and repair. So D is a characteristic (a negative) of liquid-applied waterproofing. The question asks NOT a characteristic. Which statement is false about liquid-applied waterproofing? Option C says \"They are resistant to fine cracks in the substrate.\" I think liquid-applied membranes are not particularly resistant to fine cracks; they may crack themselves or not accommodate fine cracks well. Actually many liquid membranes are flexible, but fine cracks in substrate can propagate. So C likely is NOT a characteristic. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4634148068,
+            "load_duration": 96484658,
+            "prompt_eval_count": 155,
+            "prompt_eval_duration": 356743327,
+            "eval_count": 269,
+            "eval_duration": 4176192790
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Materials_1860",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Who developed the practical use of reinforced concrete in the mid-19th century?",
+        "options": {
+            "A": "Monnier",
+            "B": "Cheops",
+            "C": "Aspdin",
+            "D": "Antonio"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Monnier"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:18.29372721Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Who developed the practical use of reinforced concrete in the mid-19th century?\" Options: A Monnier, B Cheops, C Aspdin, D Antonio. Need to recall history. Reinforced concrete practical use was pioneered by Joseph Monier, a French gardener who patented reinforced concrete in 1867. So answer: Monnier? Wait spelling: Joseph Monier. Option A says Monnier (maybe a typo). So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1935461272,
+            "load_duration": 87718729,
+            "prompt_eval_count": 121,
+            "prompt_eval_duration": 255639662,
+            "eval_count": 104,
+            "eval_duration": 1586401578
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4201",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.25999999046325684,
+        "question": "Which of the following moisture contents in wood corresponds to the highest compressive strength?",
+        "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "20%",
+            "D": "30%"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "10%"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:19.317644692Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need answer with letter. Moisture content: lower moisture generally higher strength. So 10% highest compressive strength. Answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 990779649,
+            "load_duration": 95938680,
+            "prompt_eval_count": 123,
+            "prompt_eval_duration": 276054895,
+            "eval_count": 40,
+            "eval_duration": 614717485
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_2227",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6800000071525574,
+        "question": "Which type of cement is most suitable for emergency construction in cold or underwater conditions?",
+        "options": {
+            "A": "Ordinary Portland cement",
+            "B": "Moderate heat Portland cement",
+            "C": "Rapid-hardening Portland cement",
+            "D": "White Portland cement"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Rapid-hardening Portland cement"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:21.316722751Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which type of cement is most suitable for emergency construction in cold or underwater conditions?\" Options: A Ordinary Portland cement, B Moderate heat Portland cement, C Rapid-hardening Portland cement, D White Portland cement. For cold or underwater, need rapid setting, high early strength, resistance to low temperature: rapid-hardening Portland cement is used for emergency repairs, cold weather, underwater. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1964908119,
+            "load_duration": 87129266,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 270695107,
+            "eval_count": 105,
+            "eval_duration": 1602781190
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1200",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is NOT a factor in determining the workability of concrete?",
+        "options": {
+            "A": "Salinity in the water",
+            "B": "Amount of cement",
+            "C": "Aggregate gradation",
+            "D": "Admixtures"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Salinity in the water"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:23.216343795Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the option's letter directly. The question: Which is NOT a factor in determining the workability of concrete? Factors affecting workability include water-cement ratio, amount of cement, aggregate gradation, admixtures, water temperature, etc. Salinity in water? Typically, salinity (i.e., presence of salts) might affect setting time but not directly workability. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1866168201,
+            "load_duration": 95289461,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 281998390,
+            "eval_count": 96,
+            "eval_duration": 1484121679
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_2328",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6200000047683716,
+        "question": "Which thermoplastic resin is widely used as an insulating material after being formed into boards as a foaming agent, and is also commonly used in building ceilings, blinds, etc.?",
+        "options": {
+            "A": "Alkyd resin",
+            "B": "Urea resin",
+            "C": "Polystyrene resin",
+            "D": "Silicone resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Polystyrene resin"
+            },
+            "explanation": "Polystyrene resin (styrene resin) is a thermoplastic resin that is colorless, transparent, and has excellent electrical insulation, water resistance, and chemical resistance. It is widely used as insulation material in foamed products and is also used for pipes and skylights."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:25.083112879Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The question: \"Which thermoplastic resin is widely used as an insulating material after being formed into boards as a foaming agent, and is also commonly used in building ceilings, blinds, etc.?\" Options: Alkyd resin, Urea resin, Polystyrene resin, Silicone resin.\n\nPolystyrene resin is used as expanded polystyrene (EPS) boards for insulation, ceilings, etc. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1838355270,
+            "load_duration": 88151687,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 291445822,
+            "eval_count": 95,
+            "eval_duration": 1452991289
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4684",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "What is the name of the board-shaped product made by applying synthetic resin adhesive to small pieces of wood and other plant fibers, then molding them under heat and pressure?",
+        "options": {
+            "A": "Particle board",
+            "B": "Cement-bonded wood panel",
+            "C": "Laminated wood",
+            "D": "Plywood"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Particle board"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:27.408724145Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks a multiple choice question: \"What is the name of the board-shaped product made by applying synthetic resin adhesive to small pieces of wood and other plant fibers, then molding them under heat and pressure?\" Options: Particle board, Cement-bonded wood panel, Laminated wood, Plywood.\n\nThe description matches particle board (also known as chipboard) which is made from wood particles and resin, pressed. So answer: (A). The instruction: \"Answer with the option's letter from the given choices directly.\" So just \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2291102796,
+            "load_duration": 86948238,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 317541481,
+            "eval_count": 122,
+            "eval_duration": 1875050799
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_3133",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following statements about various types of glass is incorrect?",
+        "options": {
+            "A": "Heat-resistant glass contains a lot of silica and is similar in composition to quartz glass.",
+            "B": "Heat-absorbing glass is also called insulating glass and contains iron, Ni, Cr, etc., and absorbs the long-wave part of sunlight.",
+            "C": "Laminated glass is the most effective glass for insulation, soundproofing, and condensation prevention.",
+            "D": "Ultraviolet-blocking glass is used to prevent the chemical effects of UV rays, such as in display windows for clothing and storage for food or medicines."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Laminated glass is the most effective glass for insulation, soundproofing, and condensation prevention."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:33.612687314Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to pick which statement is incorrect. Let's analyze each.\n\n(A) Heat-resistant glass contains a lot of silica and is similar in composition to quartz glass. Heat-resistant glass (e.g., borosilicate) does have high silica, but quartz glass is pure silica. Borosilicate has silica plus boron oxide, etc. Heat-resistant (tempered) glass maybe not same as quartz. Could be somewhat correct? Typically heat-resistant glass (e.g., Pyrex) is borosilicate, high silica content, similar to quartz? Might be considered correct.\n\n(B) Heat-absorbing glass is also called insulating glass and contains iron, Ni, Cr, etc., and absorbs the long-wave part of sunlight. Heat-absorbing glass usually called solar control glass, low-E, tinted, etc. Insulating glass is double-glazed unit, not necessarily heat-absorbing. It may contain metal oxides for coloration. But calling heat-absorbing glass \"insulating glass\" seems wrong. Also absorbing long-wave? Usually low-E reflects infrared, not absorb. So B likely incorrect.\n\n(C) Laminated glass is the most effective glass for insulation, soundproofing, and condensation prevention. Laminated glass does provide sound insulation and safety, but not necessarily the most effective for thermal insulation; double glazing is better. So claim might be exaggerated but could be considered true? Usually laminated glass is used for safety, acoustic insulation, but not best thermal. Might be questionable.\n\n(D) Ultraviolet-blocking glass is used to prevent chemical effects of UV rays, such as in display windows for clothing and storage for food or medicines. That is true.\n\nThus likely the incorrect statement is B. So answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6172854785,
+            "load_duration": 88482104,
+            "prompt_eval_count": 204,
+            "prompt_eval_duration": 426433642,
+            "eval_count": 362,
+            "eval_duration": 5651083082
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Materials_4384",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is not an advantage of synthetic resin?",
+        "options": {
+            "A": "It is easy to process.",
+            "B": "It has high fire resistance.",
+            "C": "It is highly water-resistant.",
+            "D": "It has a wide range of uses."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "It has high fire resistance."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:36.050948767Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Which of the following is not an advantage of synthetic resin? (A) It is easy to process. (B) It has high fire resistance. (C) It is highly water-resistant. (D) It has a wide range of uses.\"\n\nWe need to answer with the option's letter directly. The question asks which is NOT an advantage. Synthetic resins typically are easy to process, water-resistant, have many uses. Fire resistance is generally not a strong point; many synthetic resins are flammable. So answer B.\n\nThus respond with \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2390127829,
+            "load_duration": 94705453,
+            "prompt_eval_count": 133,
+            "prompt_eval_duration": 259986862,
+            "eval_count": 129,
+            "eval_duration": 2030656774
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_553",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about steel structures is NOT correct?",
+        "options": {
+            "A": "A steel structure is a structure in which main components that transfer loads, such as columns, are made using steel.",
+            "B": "Steel structures can be classified by material as rigid frames, braced frames, tube structures, and truss structures.",
+            "C": "Steel structures are generally frame structures assembled by joining members to form a skeleton.",
+            "D": "The foundation consists of base plates, rib plates, wing plates, and so on."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Steel structures can be classified by material as rigid frames, braced frames, tube structures, and truss structures."
+            },
+            "explanation": "Not by material, but by structural form."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:39.506540481Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"Which of the following statements about steel structures is NOT correct?\" Options A, B, C, D. Need to pick the incorrect statement.\n\nWe need knowledge: Steel structures: main components made of steel, yes. Classification by material? Usually classification by structural form: Rigid frames, braced frames, tube structures, truss structures. Those are forms, not material classification. The statement says \"Steel structures can be classified by material as rigid frames, braced frames, tube structures, and truss structures.\" That seems wrong because those are classification by structural system, not by material. So B is incorrect.\n\nOption D: foundation consists of base plates, rib plates, wing plates... That sounds like steel base plates etc. Might be correct.\n\nThus answer: B.\n\nThe instruction: Answer with the option's letter from the given choices directly. So just \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3423811432,
+            "load_duration": 97814875,
+            "prompt_eval_count": 185,
+            "prompt_eval_duration": 382196083,
+            "eval_count": 191,
+            "eval_duration": 2938910472
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_3669",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "What percentage of the total cells in coniferous trees are wood cells that serve as tracheids?",
+        "options": {
+            "A": "90~97",
+            "B": "75~90",
+            "C": "40~45",
+            "D": "30~40"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "90~97"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:42.014834661Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The user asks: \"What percentage of the total cells in coniferous trees are wood cells that serve as tracheids? (A) 90 97 (B) 75 90 (C) 40 45 (D) 30 40\"\n\nWe need to answer with the option's letter directly. The question: what percentage of total cells in coniferous trees are wood cells that serve as tracheids? I think conifer wood is mostly tracheids, around 90% of cells. The range maybe 90-97%. So answer (A). Provide just \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2478084790,
+            "load_duration": 87725460,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 301732645,
+            "eval_count": 136,
+            "eval_duration": 2084458615
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_1370",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "What is the most important purpose of using an AE agent in concrete?",
+        "options": {
+            "A": "To increase the strength of the concrete.",
+            "B": "To provide durability against freeze-thaw action.",
+            "C": "To reduce bleeding.",
+            "D": "To greatly enhance chemical resistance to salts."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "To provide durability against freeze-thaw action."
+            },
+            "explanation": "An AE agent (air-entraining agent) is an admixture used in concrete construction to evenly distribute small air bubbles throughout the concrete. Concrete mixed with an AE agent is called AE concrete. As a surfactant with excellent foaming properties, the AE agent creates fine bubbles in the concrete, thereby improving durability, including resistance to freezing and thawing and to corrosion. Freeze-thaw action refers to the expansion that occurs when water within materials such as concrete or soil freezes and thaws, which can generate significant pressure and cause material failure."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:44.157842483Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What is the most important purpose of using an AE agent in concrete?\" Options: A: increase strength, B: durability freeze-thaw, C: reduce bleeding, D: enhance chemical resistance.\n\nAE agent likely means air-entraining agent. Purpose: to provide durability against freeze-thaw action (by entraining tiny air bubbles). So answer: B.\n\nBut the developer says: Answer with the option's letter from the given choices directly. So just \"B\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2110265343,
+            "load_duration": 100869734,
+            "prompt_eval_count": 138,
+            "prompt_eval_duration": 308323447,
+            "eval_count": 110,
+            "eval_duration": 1697007687
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_199",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4099999964237213,
+        "question": "Which of the following statements about dolomite plaster, among plastering materials, is NOT correct?",
+        "options": {
+            "A": "It is an air-hardening plaster material.",
+            "B": "It is more viscous than slaked lime.",
+            "C": "It sets faster than gypsum plaster.",
+            "D": "It has a drawback of large drying shrinkage, leading to shrinkage cracks."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It sets faster than gypsum plaster."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:33:54.428850003Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer with the option's letter that is NOT correct about dolomite plaster among plastering materials.\n\nWe need knowledge: Dolomite plaster is a type of lime plaster made from dolomite (CaMg(CO3)2). Characteristics: It is air-hardening? Actually lime plaster (non-hydraulic) hardens by carbonation with CO2. Dolomite plaster may be hydraulic? I'm not fully sure. Dolomite plaster is known for low shrinkage? Let's recall: Dolomite (magnesium carbonate) addition reduces shrinkage? I think dolomite plaster has less shrinkage than ordinary lime. It sets slower than gypsum plaster. It is less viscous? I need to check each statement.\n\n(A) It is an air-hardening plaster material. Air-hardening means it sets by carbonation (exposure to air). Lime plaster is air-hardening. Dolomite plaster is also a lime-based plaster, so likely air-hardening. So A is correct.\n\n(B) It is more viscous than slaked lime. Dolomite plaster may be more viscous? Slaked lime is quite fluid. Adding dolomite might increase viscosity? Not sure. Could be more viscous. Might be correct.\n\n(C) It sets faster than gypsum plaster. Gypsum plaster (Plaster of Paris) sets quickly (within minutes). Dolomite plaster likely sets slower, not faster. So this statement is likely NOT correct.\n\n(D) It has a drawback of large drying shrinkage, leading to shrinkage cracks. I think dolomite plaster has less shrinkage compared to lime plaster, but not large. However, could have some shrinkage? I recall that lime plaster has high shrinkage, but dolomite reduces shrinkage. So statement D might be NOT correct as well. Need decide which is NOT correct: only one answer.\n\nLet's verify: Dolomite plaster properties: used for interior wall finishing, has high compressive strength, low shrinkage, good workability, breathability. It is air-hardening (like lime). It has higher viscosity than slaked lime (makes it easier to apply). Sets slower than gypsum plaster (so C false). Shrinkage is low, not large. So D also false. But maybe the exam expects only one false statement; maybe they consider D false because shrinkage is large? Let's check typical exam material: In Japanese building materials? Dolomite plaster is known as \"dolomite lime plaster\" used in Japan. I think its drawback is \"large drying shrinkage\" indeed? Actually maybe they consider that dolomite plaster has high shrinkage due to high magnesium content causing drying shrinkage. I'm not certain.\n\nLet's search memory: In construction textbooks, \"Dolomite plaster (dolomite lime)\" - disadvantages: large drying shrinkage leading to cracks. Yes I recall reading that as a disadvantage. So D might be correct (i.e., it indeed has large shrinkage). Meanwhile C (sets faster than gypsum) is definitely wrong because gypsum sets faster. So answer C.\n\nThus the NOT correct statement is (C). Return letter C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 10236953748,
+            "load_duration": 86824159,
+            "prompt_eval_count": 156,
+            "prompt_eval_duration": 361058053,
+            "eval_count": 631,
+            "eval_duration": 9783068700
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4827",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5099999904632568,
+        "question": "Which of the following statements about the moisture content of wood is NOT correct?",
+        "options": {
+            "A": "There is little change in strength when the moisture content is above 30%, regardless of further changes in moisture content.",
+            "B": "The moisture content of air-dried wood is about 15%.",
+            "C": "The true specific gravity of wood is generally about 54.",
+            "D": "A moisture content of about 30% in wood is called the fiber saturation point."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "About 54."
+            },
+            "explanation": "The true specific gravity of wood averages between 1.5 and 1.56, with an average of 1.53, but for convenience in calculations, a value of 1.5 is often used."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:03.104425671Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to select which statement is NOT correct about moisture content of wood.\n\nLet's evaluate each.\n\nA: \"There is little change in strength when the moisture content is above 30%, regardless of further changes in moisture content.\" In wood, strength properties are relatively stable above the fiber saturation point (FSP) which is around 30% MC. Above FSP, the wood's strength does not change much because cell walls are saturated; further water is in cell cavities. So statement A is correct.\n\nB: \"The moisture content of air-dried wood is about 15%.\" Air-dried wood is typically about 12-15% depending on climate, but commonly around 12% (in temperate climates). 15% could be a bit high but still within range? Usually equilibrium moisture content (EMC) at 60% RH ~12-13%. At 80% RH ~16-18%. Air-dried often 12-15%. So statement B seems generally correct.\n\nC: \"The true specific gravity of wood is generally about 54.\" Specific gravity (SG) of wood (true SG, i.e., oven-dry weight divided by water weight) varies widely among species, from around 0.3 to 0.9. Average maybe about 0.5-0.6. Saying \"generally about 54\" maybe they meant 0.54? Might be correct.\n\nD: \"A moisture content of about 30% in wood is called the fiber saturation point.\" Yes, FSP is around 30% (range 20-30%). So D is correct.\n\nWhich is NOT correct? Possibly B is questionable because air-dried wood moisture content is about 12% not 15%. But many textbooks say 15% is typical for air-dried wood. Let's recall: Air-dried wood is wood that has been dried in the open air to equilibrium with ambient conditions; typical MC around 12-15% (maybe 12% in many climates). So statement B is not definitively false.\n\nC: \"The true specific gravity of wood is generally about 54.\" Might be a typo: should be 0.54 (dimensionless). If they wrote 54 (no decimal), that's incorrect because SG can't be >1 for most woods (except some dense like lignum vitae ~1.3). So 54 is obviously wrong. Likely they meant 0.54 but wrote 54. So that statement is NOT correct.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8646779248,
+            "load_duration": 93352227,
+            "prompt_eval_count": 175,
+            "prompt_eval_duration": 382318002,
+            "eval_count": 526,
+            "eval_duration": 8166772042
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4169",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which material is made by dissolving blown asphalt in a solvent to form a liquid, and is used as a primer for asphalt waterproofing?",
+        "options": {
+            "A": "Asphalt felt",
+            "B": "Coal tar",
+            "C": "Asphalt primer",
+            "D": "Pitch"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Asphalt primer"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:04.619894886Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need answer letter. The question: \"Which material is made by dissolving blown asphalt in a solvent to form a liquid, and is used as a primer for asphalt waterproofing?\" Options: Asphalt felt, Coal tar, Asphalt primer, Pitch. The description matches \"Asphalt primer\". So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1483291562,
+            "load_duration": 87661155,
+            "prompt_eval_count": 133,
+            "prompt_eval_duration": 254095949,
+            "eval_count": 74,
+            "eval_duration": 1137483080
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_5181",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following statements about primer in painting work is incorrect?",
+        "options": {
+            "A": "Primer is used to increase adhesion to the substrate and to facilitate subsequent undercoating and finish coating.",
+            "B": "For steel surfaces, the primer used is an anti-corrosive paint.",
+            "C": "Oil-based paint is used as the primer for concrete and mortar walls.",
+            "D": "Primer for wood surfaces blocks absorption into the wood, enhances adhesion, and also prevents leaching of sap or resin."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Oil-based paint is used as the primer for concrete and mortar walls."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:08.896565148Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "The user asks: \"Which of the following statements about primer in painting work is incorrect?\" Provide the option's letter. We need to find the incorrect statement among A-D.\n\nLet's examine each:\n\nA: Primer is used to increase adhesion to the substrate and to facilitate subsequent undercoating and finish coating. That's correct.\n\nB: For steel surfaces, the primer used is an anti-corrosive paint. That seems correct; primers for steel often are anti-corrosive (e.g., zinc-rich primers). So likely correct.\n\nC: Oil-based paint is used as the primer for concrete and mortar walls. Typically, for concrete and mortar, a cement-based primer or alkyd or latex is used, but oil-based can be used? Usually, a sealer or bonding primer is used; oil-based is not typical because of compatibility, may cause peeling. Many guidelines say use a cementitious primer or acrylic. So statement may be incorrect.\n\nD: Primer for wood surfaces blocks absorption into the wood, enhances adhesion, and also prevents leaching of sap or resin. That is correct.\n\nThus the incorrect statement is C. Answer: C.\n\nReturn only letter."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4227673919,
+            "load_duration": 96829343,
+            "prompt_eval_count": 180,
+            "prompt_eval_duration": 361116108,
+            "eval_count": 244,
+            "eval_duration": 3765537701
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Materials_4400",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.2199999988079071,
+        "question": "Which of the following statements about asphalt waterproofing compared to liquid cement waterproofing is NOT correct?",
+        "options": {
+            "A": "The application process is complicated.",
+            "B": "The construction period is short.",
+            "C": "Repairs are inconvenient.",
+            "D": "It is highly durable."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The construction period is short."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:120b",
+            "created_at": "2025-08-25T14:34:15.383520721Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to answer with the option's letter directly. The question: \"Which of the following statements about asphalt waterproofing compared to liquid cement waterproofing is NOT correct?\" Options:\n\nA: The application process is complicated.\nB: The construction period is short.\nC: Repairs are inconvenient.\nD: It is highly durable.\n\nWe need to identify which statement is NOT correct about asphalt waterproofing compared to liquid cement waterproofing.\n\nWe need knowledge: Asphalt waterproofing vs liquid cement waterproofing. Typically, asphalt waterproofing (like bitumen) is applied hot, may require multiple layers, is relatively quick? Actually, liquid cement waterproofing (e.g., cementitious waterproofing) often requires longer curing times and thicker layers. Asphalt waterproofing is known for quick application and curing, but may have complicated process? Let's think.\n\nAsphalt waterproofing (bituminous membrane) requires heating, surface preparation, may be more complex? The process may be more complicated than liquid cement? Possibly. Construction period: asphalt is quick, so B (short period) is correct. Repairs are inconvenient: asphalt membranes require heat or special repair methods, so C is correct (inconvenient). It is highly durable: bitumen is durable, but maybe less durable than cement? Actually, bitumen can be durable but subject to UV, etc. However, typical statements: Asphalt waterproofing is quick to construct, but the process is complicated (need heating), repairs are inconvenient, and durability is high? The NOT correct would be something that is false. The statement that the application process is complicated may be correct (it is). The construction period is short - correct. Repairs are inconvenient - correct. It is highly durable - maybe not as durable as cement? Actually cementitious waterproofing is known for high durability and long life; bituminous may degrade. So D might be NOT correct. So answer D.\n\nThus output \"D\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6457476989,
+            "load_duration": 87136025,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 255321357,
+            "eval_count": 395,
+            "eval_duration": 6109970639
+        },
+        "judge": "Wrong"
+    }
+]

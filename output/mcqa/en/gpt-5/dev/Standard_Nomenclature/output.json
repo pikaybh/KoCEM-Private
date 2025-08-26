@@ -1,0 +1,297 @@
+[
+    {
+        "id": "dev_Standard_Nomenclature_1",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction or architecture term refers to the process by which water vapor spreads or moves through permeable materials due to a difference in water vapor pressure?",
+        "options": {
+            "A": "air quality standards",
+            "B": "expiration file",
+            "C": "voluntary reserve",
+            "D": "commutation",
+            "E": "Water Vapor Diffusion"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Water Vapor Diffusion"
+            },
+            "explanation": "Water Vapor Diffusion describes the movement of water vapor through materials as a result of vapor pressure differences, a key concept in building science for managing moisture."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "id": "chatcmpl-C8VxZS59iBLyqfwumwki3VnA1Ie8D",
+            "object": "chat.completion",
+            "created": 1756145513,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "E",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 78,
+                "completion_tokens": 74,
+                "total_tokens": 152,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_2",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'Damming' refer to?",
+        "options": {
+            "A": "Damming",
+            "B": "return on equity (ROE)",
+            "C": "Kickplate",
+            "D": "scheduled loss",
+            "E": "Elastomeric"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Damming"
+            },
+            "explanation": "Damming is the use of a substance to support firestopping materials until they are cured, ensuring proper placement and effectiveness."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C8Vxb2CHOKbU2q41gThBF8yC6IejI",
+            "object": "chat.completion",
+            "created": 1756145515,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 67,
+                "completion_tokens": 842,
+                "total_tokens": 909,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 832,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_3",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to a material property that quantifies its ability to resist crack propagation and failure under applied stress, specifically measuring the critical stress intensity factor where a sharp crack rapidly propagates?",
+        "options": {
+            "A": "ICBO",
+            "B": "Construction build out",
+            "C": "fracture toughness",
+            "D": "Master Schedule",
+            "E": "futures contract"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "fracture toughness"
+            },
+            "explanation": "Fracture toughness is a measure of a material's ability to resist the propagation of cracks under stress, making it essential for assessing structural integrity in construction and architecture."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C8Vxmn6KKlZGl02lVTqcbkxlCFXMc",
+            "object": "chat.completion",
+            "created": 1756145526,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "C",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 84,
+                "completion_tokens": 10,
+                "total_tokens": 94,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 0,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_4",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which organization is a not-for-profit research institute focused on conducting and supporting research in the transportation field, particularly emphasizing the trucking industry's role in the US and international marketplace?",
+        "options": {
+            "A": "American Transportation Research Institute (ATRI)",
+            "B": "funds withheld",
+            "C": "misrepresentation",
+            "D": "Cross-Site Request Forgery",
+            "E": "minor's compromise"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "American Transportation Research Institute (ATRI)"
+            },
+            "explanation": "The American Transportation Research Institute (ATRI) is dedicated to research in transportation, especially regarding the trucking industry, while the other options are unrelated legal or technical terms."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C8VxpY2Yogr09gCHYq4o3J5XPukjR",
+            "object": "chat.completion",
+            "created": 1756145529,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "A",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 89,
+                "completion_tokens": 74,
+                "total_tokens": 163,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 64,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_5",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction management term refers to a backend configuration option in Procore that automatically calculates estimated response due dates for submittals using a predefined lead time to facilitate timely responses from reviewers?",
+        "options": {
+            "A": "proximate cause",
+            "B": "agent",
+            "C": "PVC (poly vinyl chloride)",
+            "D": "Household Goods Transportation Act of 1980",
+            "E": "Submittal Schedule Calculations"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Submittal Schedule Calculations"
+            },
+            "explanation": "Submittal Schedule Calculations is a feature in Procore that automates the calculation of response due dates for submittals, ensuring reviewers respond within the required timeframe. The other options are unrelated to this process."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "id": "chatcmpl-C8VxrhZCgIUzz0nGz0zQztIHYyGeB",
+            "object": "chat.completion",
+            "created": 1756145531,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "E",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 95,
+                "completion_tokens": 138,
+                "total_tokens": 233,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 128,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    }
+]

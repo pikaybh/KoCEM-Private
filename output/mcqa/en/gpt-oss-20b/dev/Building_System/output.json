@@ -1,0 +1,202 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an appropriate method for zoning in air conditioning planning?",
+        "options": {
+            "A": "Classify according to the purpose of each room.",
+            "B": "Classify according to the usage time of each room.",
+            "C": "Create internal zones for each floor.",
+            "D": "Create external zones according to orientation."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Create internal zones for each floor."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:45.081790262Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C)",
+                "thinking": "We need to choose the option that is NOT an appropriate method for zoning in air conditioning planning. We have four options.\n\nLet's analyze each:\n\n(A) Classify according to the purpose of each room. That makes sense: zoning by room purpose.\n\n(B) Classify according to the usage time of each room. That also makes sense: usage time can influence heating/cooling needs.\n\n(C) Create internal zones for each floor. That seems less typical? \"Internal zones for each floor\" meaning internal zone? But \"internal zones\" might be like interior zones? Not sure.\n\n(D) Create external zones according to orientation. That also is typical: orientation influences solar gain.\n\nWhich one is NOT appropriate? Typically zoning is done by room function, usage time, orientation, internal zones? Possibly (C) might be incorrect. Let's think: Zoning in HVAC planning includes \"internal zones\" which are inside the building; external zones refer to orientation of surfaces. \"Internal zones for each floor\" maybe not a typical approach. Usually you might have floor zones, but internal zones refers to internal surfaces. The phrasing \"internal zones for each floor\" may be wrong. So answer likely (C). Let's confirm: Option (C) \"Create internal zones for each floor.\" That seems ambiguous. Actually \"internal zones\" usually refers to internal walls or interior surfaces, not floors. So it's likely not appropriate. So answer: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2470937430,
+            "load_duration": 185015349,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 42566070,
+            "eval_count": 299,
+            "eval_duration": 2236791890
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?",
+        "options": {
+            "A": "20 minutes",
+            "B": "30 minutes",
+            "C": "40 minutes",
+            "D": "50 minutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20 minutes"
+            },
+            "explanation": "The indoor firefighting water supply should last 20 minutes, because this is the average time it takes for the fire department to arrive at the scene."
+        },
+        "image_path": null,
+        "model_answer": "(B) 30 minutes",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:47.293595964Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) 30 minutes",
+                "thinking": "We need to know the standard for fire pump: Usually, for a pump serving a fire sprinkler or hydrant, the pump should provide minimum flow and pressure for at least 30 minutes. The NFPA 20 (Standard for fire pumps) requires that a pump serving a fire hydrant should be able to provide at least the required flow and pressure for a minimum of 30 minutes. NFPA 25? Let's recall: NFPA 20 states that pump should be capable of providing the required flow and pressure for 30 minutes, or 20 minutes for some? In certain small systems, 30 min is typical. For sprinkler systems, usually 30 min. But for a fire hydrant system, maybe 30 minutes. However the question specifically: \"If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?\" That is the pump must maintain for at least 30 minutes. So answer B. Check: Option A 20, B 30, C 40, D 50. Standard: 30 minutes. So B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2176208079,
+            "load_duration": 184170606,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 41886678,
+            "eval_count": 257,
+            "eval_duration": 1937918193
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "When the local resistance coefficient of a rectangular cross-section 4-sided elbow is 0.5 and the wind speed is 6 m/s, what is the local resistance at this elbow? (Assume the air density is 1.2 kg/m3.)",
+        "options": {
+            "A": "10.1Pa",
+            "B": "10.2Pa",
+            "C": "10.8Pa",
+            "D": "10.6Pa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10.8Pa"
+            },
+            "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa"
+        },
+        "image_path": null,
+        "model_answer": "(C) 10.8Pa",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:49.05883202Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) 10.8Pa",
+                "thinking": "We need to compute local resistance coefficient multiplied by dynamic pressure? The \"local resistance coefficient\" might refer to pressure coefficient or loss coefficient? Usually local loss coefficient K is used, then pressure loss Δp = 0.5 * ρ * V^2 * K. They give coefficient 0.5. V=6 m/s, ρ=1.2 kg/m3. Compute dynamic pressure: 0.5*ρ*V^2 = 0.5*1.2*36 = 0.6*36? Wait 0.5*1.2=0.6. 0.6*36 = 21.6 Pa. Multiply by K=0.5: Δp = 0.5*21.6 = 10.8 Pa. That matches option (C) 10.8 Pa. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1729775012,
+            "load_duration": 185232461,
+            "prompt_eval_count": 171,
+            "prompt_eval_duration": 49516189,
+            "eval_count": 198,
+            "eval_duration": 1489513485
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is classified as a digital method in building automation control systems?",
+        "options": {
+            "A": "Electrical method",
+            "B": "Pneumatic method",
+            "C": "Magnetic method",
+            "D": "DDC method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "DDC method"
+            },
+            "explanation": "DDC stands for Direct Digital Control, which is a common type of automation control system."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:50.107673336Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need answer letter. Question: \"Which of the following is classified as a digital method in building automation control systems?\" Options: A Electrical method, B Pneumatic method, C Magnetic method, D DDC method. Digital method is DDC (Direct Digital Control). So answer is D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 747548070,
+            "load_duration": 182016636,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 42856320,
+            "eval_count": 70,
+            "eval_duration": 517031360
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "In an autotransformer, if the number of turns in the primary winding is 100 and the number of turns in the common coil (secondary coil) is 60, what is the secondary voltage? (Assume the primary voltage is 100[V].)",
+        "options": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "60[V]"
+            },
+            "explanation": "Voltage (V) is proportional to the number of turns. In an autotransformer, the relationship between primary and secondary voltage, number of turns, and current is: V1/N1 = V2/N2 = I2/I1."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T06:54:54.017878289Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to interpret the question: autotransformer. Primary winding has 100 turns. Common coil (secondary coil) has 60 turns. Primary voltage 100 V. The secondary voltage? For autotransformer, the output voltage is determined by the ratio of turns times input? The autotransformer uses one winding with taps. In an autotransformer, the input is applied across the full winding, and the output is taken from a tap. The turns ratio between primary and secondary? But the wording: \"primary winding is 100 turns and the number of turns in the common coil (secondary coil) is 60.\" That implies the autotransformer has a primary coil of 100 turns and a common coil of 60 turns? Actually common coil is the secondary coil? The question maybe about using the same winding as primary and secondary, but with common coil being 60 turns. So the ratio between 60 and 100 is 0.6. If the primary voltage is 100 V applied across the 100-turn winding, then the induced voltage on the 60-turn secondary is 60 V. However, autotransformer also can step up or down by using a tap. If we connect the primary voltage across the entire 100 turns, the secondary output is across the 60 turns. That would be 60 V. That seems to be option B.\n\nAlternatively, could the secondary voltage be 160 V? Because autotransformer step-up ratio: 100-60=40? The common coil is the overlap? Let's think: In an autotransformer, we have one winding that is partially shared by primary and secondary. The voltage ratio V_secondary / V_primary = N_secondary / N_primary? Actually if it's a simple autotransformer with taps: the primary input across entire winding N_total. The secondary output across a portion N_out. The output voltage = V_primary * (N_out/N_total). If N_total=100 turns, N_out=60 turns, V_out=100*0.6=60 V. That is straightforward.\n\nThus answer: B.\n\nCheck the options: (A) 40[V], (B) 60[V], (C) 100[V], (D) 160[V]. So answer B.\n\nYes.\n\nTherefore respond with letter B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3877685580,
+            "load_duration": 184674775,
+            "prompt_eval_count": 164,
+            "prompt_eval_duration": 45508523,
+            "eval_count": 480,
+            "eval_duration": 3641748840
+        },
+        "judge": "Correct"
+    }
+]

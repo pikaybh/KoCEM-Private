@@ -1,0 +1,191 @@
+[
+    {
+        "id": "dev_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Determine whether the strength reduction factor $\\phi = 0.85$ is appropriate for a reinforced concrete beam like the one shown in the figure, with $f_{ck} = 21$ MPa, $f_y = 400$ MPa, and D22 bars (cross-sectional area 387mm$^2$).",
+        "options": {
+            "A": "Appropriate",
+            "B": "Inappropriate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Appropriate"
+            },
+            "explanation": "(1) Determining $\\beta_1$ and $\\varepsilon_{cu}$\n\nSince $f_{ck} \\leq 40$MPa, $\\beta_1 = 0.80$ and $\\varepsilon_{cu} = 0.0033$.\n\n(2) Calculating the depth of the equivalent rectangular stress block $a$\n\n$ a = \\frac{A_s f_y}{0.85 f_{ck} b} = \\frac{(387 \\times 3) \\times 400}{0.85 \\times 21 \\times 300} = 86.7 $ mm\n\n(3) Strength reduction factor $\\phi$\n\n$ c = \\frac{a}{\\beta_1} = \\frac{86.7}{0.80} = 108.4 $ mm\n\n$ \\varepsilon_t = \\left( \\frac{d_t - c}{c} \\right) \\varepsilon_{cu} = \\left( \\frac{550 - 108.4}{108.4} \\right) \\times 0.0033 = 0.0134 $\n\nSince $\\varepsilon_t = 0.0134 \\geq \\varepsilon_{tt} = 0.0050$, the section is tension-controlled.\n\nTherefore, $\\phi = 0.85$ (appropriate).\n\nNote: If the net tensile strain of the outermost tension reinforcement $\\varepsilon_t$ is greater than or equal to 0.0050, the section is tension-controlled, and the strength reduction factor $\\phi = 0.85$ is appropriate."
+        },
+        "image_path": "스크린샷 2024-10-19 231620.png",
+        "model_answer": "I need to determine if φ = 0.85 is appropriate for this reinforced concrete beam by checking if it's tension-controlled.\n\nGiven information:\n- f_ck = 21 MPa (characteristic compressive strength)\n- f_y = 400 MPa (yield strength of steel)\n- 3-D22 bars (As = 3 × 387 = 1161 mm²)\n- b = 300 mm (width)\n- d = 550 mm (effective depth)\n\nStep 1: Calculate the neutral axis depth at balanced condition.\nFor rectangular stress block (assuming f'c ≈ 0.85f_ck = 17.85 MPa):\n\nεy = fy/Es = 400/200000 = 0.002\n\nAt balanced condition:\ncb/d = 0.003/(0.003 + εy) = 0.003/(0.003 + 0.002) = 0.6\n\ncb = 0.6 × 550 = 330 mm\n\nStep 2: Calculate actual neutral axis depth.\nUsing equilibrium:\nAs × fy = 0.85 × f'c × β₁ × c × b\n\nWhere β₁ = 0.85 for f'c ≤ 28 MPa\n\n1161 × 400 = 0.85 × 17.85 × 0.85 × c × 300\n\n464,400 = 3,874.875 × c\n\nc = 119.9 mm ≈ 120 mm\n\nStep 3: Check if section is tension-controlled.\nc/d = 120/550 = 0.218\n\nSince c/d = 0.218 < 0.375 (typical limit for tension-controlled sections), the section is tension-controlled.\n\nFor tension-controlled sections, φ = 0.90 should be used, not φ = 0.85.\n\nφ = 0.85 is typically used for compression-controlled sections (like columns).\n\nThe answer is **(B) Inappropriate**.",
+        "parsed_pred": "B",
+        "full_response": {
+            "content": "I need to determine if φ = 0.85 is appropriate for this reinforced concrete beam by checking if it's tension-controlled.\n\nGiven information:\n- f_ck = 21 MPa (characteristic compressive strength)\n- f_y = 400 MPa (yield strength of steel)\n- 3-D22 bars (As = 3 × 387 = 1161 mm²)\n- b = 300 mm (width)\n- d = 550 mm (effective depth)\n\nStep 1: Calculate the neutral axis depth at balanced condition.\nFor rectangular stress block (assuming f'c ≈ 0.85f_ck = 17.85 MPa):\n\nεy = fy/Es = 400/200000 = 0.002\n\nAt balanced condition:\ncb/d = 0.003/(0.003 + εy) = 0.003/(0.003 + 0.002) = 0.6\n\ncb = 0.6 × 550 = 330 mm\n\nStep 2: Calculate actual neutral axis depth.\nUsing equilibrium:\nAs × fy = 0.85 × f'c × β₁ × c × b\n\nWhere β₁ = 0.85 for f'c ≤ 28 MPa\n\n1161 × 400 = 0.85 × 17.85 × 0.85 × c × 300\n\n464,400 = 3,874.875 × c\n\nc = 119.9 mm ≈ 120 mm\n\nStep 3: Check if section is tension-controlled.\nc/d = 120/550 = 0.218\n\nSince c/d = 0.218 < 0.375 (typical limit for tension-controlled sections), the section is tension-controlled.\n\nFor tension-controlled sections, φ = 0.90 should be used, not φ = 0.85.\n\nφ = 0.85 is typically used for compression-controlled sections (like columns).\n\nThe answer is **(B) Inappropriate**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01PbETiJyCmEgWsqMwGuKxbf",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 140,
+                    "output_tokens": 497,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--b3f5c79c-90a0-4a89-aa4f-1b6f19fa3f99-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 140,
+                "output_tokens": 497,
+                "total_tokens": 637,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When calculating a two-way slab with beams by the direct design method from the strength design method, $M_0$ is determined to be $900 \\, \\text{kN} \\cdot \\text{m}$. Calculate the negative moment for the interior span ($\\text{kN} \\cdot \\text{m}$).",
+        "options": {
+            "A": "$ M_u^- = 600 \\, \\text{kN} \\cdot \\text{m} $",
+            "B": "$ M_u^+ = 310 \\, \\text{kN} \\cdot \\text{m} $",
+            "C": "$ M_u^+ = 320 \\, \\text{kN} \\cdot \\text{m} $",
+            "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $",
+            "E": "$ M_u^- = 550 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ M_u^- = 585 \\, \\text{kN} \\cdot \\text{m} $"
+            },
+            "explanation": "$ M_u^- = 0.65 M_0 = 0.65 \\times 900 = 585 \\, \\text{kN} \\cdot \\text{m} $"
+        },
+        "image_path": null,
+        "model_answer": "In the direct design method for two-way slabs, the total static moment $M_0$ is distributed between positive and negative moments according to specific coefficients.\n\nFor an interior span in a two-way slab system, the moment distribution follows these standard coefficients:\n\n- Negative moment at interior support: $M_u^- = 0.65 M_0$\n- Positive moment at midspan: $M_u^+ = 0.35 M_0$\n\nGiven that $M_0 = 900 \\, \\text{kN} \\cdot \\text{m}$\n\nThe negative moment for the interior span is:\n$M_u^- = 0.65 \\times 900 = 585 \\, \\text{kN} \\cdot \\text{m}$\n\nThe answer is **(D)**.",
+        "parsed_pred": "D",
+        "full_response": {
+            "content": "In the direct design method for two-way slabs, the total static moment $M_0$ is distributed between positive and negative moments according to specific coefficients.\n\nFor an interior span in a two-way slab system, the moment distribution follows these standard coefficients:\n\n- Negative moment at interior support: $M_u^- = 0.65 M_0$\n- Positive moment at midspan: $M_u^+ = 0.35 M_0$\n\nGiven that $M_0 = 900 \\, \\text{kN} \\cdot \\text{m}$\n\nThe negative moment for the interior span is:\n$M_u^- = 0.65 \\times 900 = 585 \\, \\text{kN} \\cdot \\text{m}$\n\nThe answer is **(D)**.",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01HuqRbb5see2Wok664UHs23",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 251,
+                    "output_tokens": 197,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--5d82dc93-6320-49b7-9dd1-d3db3616318f-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 251,
+                "output_tokens": 197,
+                "total_tokens": 448,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "As a result of conducting density and absorption ratio tests on an undisturbed clay specimen, the following test results were obtained. Based on these results, write the absorption ratio, void ratio, and degree of saturation. (6 points)\n\n| Type of Test   | Test Result                                   |\n|---------------|-----------------------------------------------|\n| Particle Density | Particle volume: 11.06cm³                    |\n| Absorption Ratio | Mass of soil and container: 92.58g<br>Mass of dry soil and container: 78.95g<br>Mass of container: 49.32g |\n| Wet Density     | Volume of soil: 26.22cm³                      |",
+        "options": {
+            "A": "0.7271",
+            "B": "0.2482",
+            "C": "0.8991",
+            "D": "0.5533",
+            "E": "0.6329"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "0.8991"
+            },
+            "explanation": "1g of water = 1cm$^3$. That is, the volume and weight of water are the same.\n\n1. Absorption Ratio\n   $\n   \\text{Absorption Ratio} = \\left( \\frac{\\text{Mass of water}}{\\text{Mass of soil}} \\right) \\times 100 = \\left( \\frac{M_W}{M_S} \\right) \\times 100\n   $\n   $\n   = \\left( \\frac{92.58 - 78.95}{78.95 - 49.32} \\right) \\times 100 = 46.0\\%$\n\n2. Void Ratio\n   $\n   \\text{Void Ratio} = \\left( \\frac{\\text{Volume of voids}}{\\text{Volume of soil particles}} \\right) = \\frac{V_V}{V_S} = \\frac{26.22 - 11.06}{11.06} = 1.37\n   $\n\n3. Degree of Saturation\n   $\n   \\text{Degree of Saturation} = \\left( \\frac{\\text{Volume of water}}{\\text{Volume of voids}} \\right) \\times 100 = \\left( \\frac{V_W}{V_V} \\right) \\times 100\n   $\n\n$\n= \\left( \\frac{92.58 - 78.95}{26.22 - 11.06} \\right) \\times 100 = 89.91\\%$\n"
+        },
+        "image_path": null,
+        "model_answer": "I need to calculate the absorption ratio, void ratio, and degree of saturation from the given data.\n\n**Given Data:**\n- Particle volume: Vₛ = 11.06 cm³\n- Mass of soil and container: 92.58 g\n- Mass of dry soil and container: 78.95 g\n- Mass of container: 49.32 g\n- Volume of soil (total): V = 26.22 cm³\n\n**Step 1: Calculate masses**\n- Mass of wet soil: Mwet = 92.58 - 49.32 = 43.26 g\n- Mass of dry soil: Mdry = 78.95 - 49.32 = 29.63 g\n- Mass of water: Mw = 43.26 - 29.63 = 13.63 g\n\n**Step 2: Calculate water content (absorption ratio)**\nWater content (w) = Mw/Mdry = 13.63/29.63 = 0.460 = 46.0%\n\n**Step 3: Calculate void ratio**\n- Volume of voids: Vv = V - Vₛ = 26.22 - 11.06 = 15.16 cm³\n- Void ratio (e) = Vv/Vₛ = 15.16/11.06 = 1.371\n\n**Step 4: Calculate degree of saturation**\n- Volume of water: Vw = Mw/ρw = 13.63/1.0 = 13.63 cm³ (assuming ρw = 1.0 g/cm³)\n- Degree of saturation (S) = Vw/Vv = 13.63/15.16 = 0.8991\n\nThe degree of saturation is **0.8991**.\n\nThe answer is **(C) 0.8991**",
+        "parsed_pred": "C",
+        "full_response": {
+            "content": "I need to calculate the absorption ratio, void ratio, and degree of saturation from the given data.\n\n**Given Data:**\n- Particle volume: Vₛ = 11.06 cm³\n- Mass of soil and container: 92.58 g\n- Mass of dry soil and container: 78.95 g\n- Mass of container: 49.32 g\n- Volume of soil (total): V = 26.22 cm³\n\n**Step 1: Calculate masses**\n- Mass of wet soil: Mwet = 92.58 - 49.32 = 43.26 g\n- Mass of dry soil: Mdry = 78.95 - 49.32 = 29.63 g\n- Mass of water: Mw = 43.26 - 29.63 = 13.63 g\n\n**Step 2: Calculate water content (absorption ratio)**\nWater content (w) = Mw/Mdry = 13.63/29.63 = 0.460 = 46.0%\n\n**Step 3: Calculate void ratio**\n- Volume of voids: Vv = V - Vₛ = 26.22 - 11.06 = 15.16 cm³\n- Void ratio (e) = Vv/Vₛ = 15.16/11.06 = 1.371\n\n**Step 4: Calculate degree of saturation**\n- Volume of water: Vw = Mw/ρw = 13.63/1.0 = 13.63 cm³ (assuming ρw = 1.0 g/cm³)\n- Degree of saturation (S) = Vw/Vv = 13.63/15.16 = 0.8991\n\nThe degree of saturation is **0.8991**.\n\nThe answer is **(C) 0.8991**",
+            "additional_kwargs": {},
+            "response_metadata": {
+                "id": "msg_01467wwtPHuwsrSF7uRS4MQa",
+                "model": "claude-opus-4-1-20250805",
+                "stop_reason": "end_turn",
+                "stop_sequence": null,
+                "usage": {
+                    "cache_creation": {
+                        "ephemeral_1h_input_tokens": 0,
+                        "ephemeral_5m_input_tokens": 0
+                    },
+                    "cache_creation_input_tokens": 0,
+                    "cache_read_input_tokens": 0,
+                    "input_tokens": 221,
+                    "output_tokens": 457,
+                    "server_tool_use": null,
+                    "service_tier": "standard"
+                },
+                "model_name": "claude-opus-4-1-20250805"
+            },
+            "type": "ai",
+            "name": null,
+            "id": "run--c1ec3651-7706-45dc-8815-c11a9567b637-0",
+            "example": false,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": {
+                "input_tokens": 221,
+                "output_tokens": 457,
+                "total_tokens": 678,
+                "input_token_details": {
+                    "cache_read": 0,
+                    "cache_creation": 0,
+                    "ephemeral_5m_input_tokens": 0,
+                    "ephemeral_1h_input_tokens": 0
+                }
+            }
+        },
+        "judge": "Correct"
+    }
+]

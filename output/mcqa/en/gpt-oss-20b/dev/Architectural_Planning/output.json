@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Architectural_Planning_1222",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6800000071525574,
+        "question": "In office building construction, what does 'efficiency rate' refer to?",
+        "options": {
+            "A": "The ratio of building area to total floor area.",
+            "B": "The ratio of rentable area to total floor area.",
+            "C": "The ratio of rentable area to building area.",
+            "D": "The ratio of rentable area to standard floor area."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The ratio of rentable area to total floor area."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T05:29:02.751131361Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer the question: In office building construction, what does 'efficiency rate' refer to? Options:\n\n(A) The ratio of building area to total floor area.\n(B) The ratio of rentable area to total floor area.\n(C) The ratio of rentable area to building area.\n(D) The ratio of rentable area to standard floor area.\n\nWe need correct definition of \"efficiency rate\" in office building construction. Let's think. Efficiency rate typically refers to the proportion of rentable area relative to the total floor area of a building or a floor. In real estate, efficiency is defined as net rentable area / total floor area. The \"gross floor area\" is the total floor area including common spaces, while rentable area is excluding common areas. So efficiency rate is ratio of rentable area to total floor area.\n\nOption B says ratio of rentable area to total floor area. That matches definition. Option A: building area to total floor area? That seems wrong. Option C: rentable area to building area? \"Building area\" is ambiguous. Option D: rentable area to standard floor area. Not typical.\n\nThus answer B. We just need to output letter.\n\nAnswer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 53812509548,
+            "load_duration": 2102696397,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 14680921773,
+            "eval_count": 249,
+            "eval_duration": 36951577603
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Architectural_Planning_1067",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.75,
+        "question": "Which projection method is used in our country's architectural system?",
+        "options": {
+            "A": "First-angle projection",
+            "B": "Second-angle projection",
+            "C": "Third-angle projection",
+            "D": "Fourth-angle projection"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Third-angle projection"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T05:29:45.776366142Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer: \"Which projection method is used in our country's architectural system?\" The country is unspecified. But likely referencing the \"our country's architectural system\" meaning the user might be from a specific country. But we need to guess which projection method is used. Common usage: In the United States, the standard is Third-angle projection. In many countries including Canada, Australia, and European countries, the standard is First-angle projection. In the US, the third-angle projection is used. The question might be from a Chinese perspective? Let's think: The question appears in Chinese? The phrase \"our country's architectural system\" might refer to China. But what projection method does China use? According to standards, China uses first-angle projection. Actually, I recall that China uses first-angle projection. In the Chinese standard GB/T 1490-2009, it uses first-angle projection. So likely the answer is (A) First-angle projection. However, if the country is US, answer would be third-angle. But the phrase \"our country's architectural system\" is ambiguous. The question may come from an exam for architecture in China: They ask which projection method is used in our country's architectural system. The answer is first-angle projection. So choose (A).\n\nThus output \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 42988542024,
+            "load_duration": 62326448,
+            "prompt_eval_count": 121,
+            "prompt_eval_duration": 3664174057,
+            "eval_count": 268,
+            "eval_duration": 39258510881
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Architectural_Planning_303",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which of the following is NOT a unit of residential area within a neighborhood living zone?",
+        "options": {
+            "A": "Housing Cluster",
+            "B": "Street district",
+            "C": "Neighborhood subdistrict",
+            "D": "Neighborhood block"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Street district"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T05:32:48.101650944Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The question: \"Which of the following is NOT a unit of residential area within a neighborhood living zone?\" Options: (A) Housing Cluster, (B) Street district, (C) Neighborhood subdistrict, (D) Neighborhood block.\n\nWe need to determine which is NOT a unit of residential area within a neighborhood living zone.\n\nThis is likely about urban planning terminology. Usually, \"neighborhood block\" is a unit. \"Street district\" maybe? \"Housing cluster\" maybe? \"Neighborhood subdistrict\" maybe? Which is not? I'm not sure. Could be a trick.\n\nLet's think: In city planning, \"neighborhood\" is a larger area, subdivided into \"subdistricts\"? There is \"housing cluster\" or \"housing block\"? \"Street district\" might refer to a street area. But \"Neighborhood subdistrict\" might be a smaller unit within a neighborhood living zone. So which is not a unit? Perhaps \"Street district\" is not? Let's search memory: In Chinese urban planning, they talk about \"住宅区\" (housing area), \"街区\" (street block), \"居住区\" subdivided into \"住宅小区\" (housing cluster) and \"街道\" (street). \"街道\" is \"street\" which is a unit of neighborhood. \"街区\" means \"street block\". \"住宅区\" may include \"住宅区\", \"居住区\", \"街区\". The term \"neighborhood subdistrict\" maybe \"居住区\"? I think \"neighborhood subdistrict\" is a subdivision of neighborhood, maybe yes.\n\n\"Neighborhood block\" definitely is a unit. \"Housing cluster\" definitely. \"Street district\" might be \"street district\" is not used. The term \"街区\" is block, not district. \"Street district\" maybe a term but not used in this context.\n\nThus answer: (B) Street district.\n\nI'll answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 59135325127,
+            "load_duration": 53248167,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 134824888,
+            "eval_count": 401,
+            "eval_duration": 58943051801
+        },
+        "judge": "Correct"
+    }
+]

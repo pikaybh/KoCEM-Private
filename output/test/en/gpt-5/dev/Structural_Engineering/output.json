@@ -1,0 +1,118 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4000000059604645,
+        "question": "What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)",
+        "options": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "400mm"
+            },
+            "explanation": "The maximum spacing is determined by the smallest of the following three values: 1. 25 x 16 = 400mm, 2. 10 x 48 = 480mm, 3. no more than the shorter side of the column’s cross-section = 500mm. Therefore, the correct answer is 400mm."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m52.gif?1527167378",
+        "model_answer": "The image is visible.\n\nIt shows a simple line drawing of a square column cross-section. The outer boundary is a square labeled 50 cm on both the horizontal and vertical sides. Inside, there is a smaller concentric square representing the tie/hoop reinforcement. At the four corners of the inner square are four circular symbols indicating the main longitudinal bars, one near each corner. The drawing is monochrome and schematic, with no visible text inside the figure other than the 50 cm dimension marks. The image appears valid and clear.",
+        "parsed_pred": "A",
+        "full_response": {
+            "id": "chatcmpl-C86b0g81NXELysjE1rTw6LvhJO1LC",
+            "object": "chat.completion",
+            "created": 1756048014,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "The image is visible.\n\nIt shows a simple line drawing of a square column cross-section. The outer boundary is a square labeled 50 cm on both the horizontal and vertical sides. Inside, there is a smaller concentric square representing the tie/hoop reinforcement. At the four corners of the inner square are four circular symbols indicating the main longitudinal bars, one near each corner. The drawing is monochrome and schematic, with no visible text inside the figure other than the 50 cm dimension marks. The image appears valid and clear.",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 335,
+                "completion_tokens": 1524,
+                "total_tokens": 1859,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1408,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.41999998688697815,
+        "question": "What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?",
+        "options": {
+            "A": "50.8kN",
+            "B": "51.4kN",
+            "C": "51.5kN",
+            "D": "52.1kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "51.5kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m53.gif?1527167378",
+        "model_answer": "Image description:\n- A planar truss spans 4 m between supports A (left, pin/hinge) and B (right, roller). The vertical height is 3 m.\n- The top chord is horizontal; there is a central top joint where two diagonals from A and B meet, and a vertical member drops from that top joint to the bottom chord midspan.\n- Loads: 100 kN vertical downward at the top middle joint (2 m from A), and a 50 kN horizontal load to the right applied at the top left joint (3 m above A).\n- Dimensions shown: 2 m + 2 m along the span, 3 m height.\nThe image is clear and valid for analysis.\n\nSolution:\n- Sum of moments about A: 4 By − 100×2 − 50×3 = 0 ⇒ By = 87.5 kN (up).\n- Vertical equilibrium: Ay + By = 100 ⇒ Ay = 12.5 kN (up).\n- Horizontal equilibrium: Ax + 50 = 0 ⇒ Ax = −50 kN (50 kN to the left).\n\nResultant reaction at A:\nR_A = sqrt(Ax^2 + Ay^2) = sqrt(50^2 + 12.5^2) ≈ 51.5 kN.\n\nAnswer: (C) 51.5 kN",
+        "parsed_pred": "C",
+        "full_response": {
+            "id": "chatcmpl-C86bdxjhrqKF2rGmB02x56EslwViV",
+            "object": "chat.completion",
+            "created": 1756048053,
+            "model": "gpt-5-2025-08-07",
+            "choices": [
+                {
+                    "index": 0,
+                    "message": {
+                        "role": "assistant",
+                        "content": "Image description:\n- A planar truss spans 4 m between supports A (left, pin/hinge) and B (right, roller). The vertical height is 3 m.\n- The top chord is horizontal; there is a central top joint where two diagonals from A and B meet, and a vertical member drops from that top joint to the bottom chord midspan.\n- Loads: 100 kN vertical downward at the top middle joint (2 m from A), and a 50 kN horizontal load to the right applied at the top left joint (3 m above A).\n- Dimensions shown: 2 m + 2 m along the span, 3 m height.\nThe image is clear and valid for analysis.\n\nSolution:\n- Sum of moments about A: 4 By − 100×2 − 50×3 = 0 ⇒ By = 87.5 kN (up).\n- Vertical equilibrium: Ay + By = 100 ⇒ Ay = 12.5 kN (up).\n- Horizontal equilibrium: Ax + 50 = 0 ⇒ Ax = −50 kN (50 kN to the left).\n\nResultant reaction at A:\nR_A = sqrt(Ax^2 + Ay^2) = sqrt(50^2 + 12.5^2) ≈ 51.5 kN.\n\nAnswer: (C) 51.5 kN",
+                        "refusal": null,
+                        "annotations": []
+                    },
+                    "finish_reason": "stop"
+                }
+            ],
+            "usage": {
+                "prompt_tokens": 343,
+                "completion_tokens": 2216,
+                "total_tokens": 2559,
+                "prompt_tokens_details": {
+                    "cached_tokens": 0,
+                    "audio_tokens": 0
+                },
+                "completion_tokens_details": {
+                    "reasoning_tokens": 1920,
+                    "audio_tokens": 0,
+                    "accepted_prediction_tokens": 0,
+                    "rejected_prediction_tokens": 0
+                }
+            },
+            "service_tier": "default",
+            "system_fingerprint": null
+        },
+        "judge": "Correct"
+    }
+]
