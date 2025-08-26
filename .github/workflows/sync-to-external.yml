@@ -192,15 +192,43 @@ jobs:
           echo "---- last commit ----"
           git --no-pager log -1 --stat || true
 
+      - name: Check base vs head divergence
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' }}
+        id: divergence
+        working-directory: target_repo
+        run: |
+          set -e
+          BRANCH="${{ steps.prep_branch.outputs.branch }}"
+          git fetch --no-tags --depth=1 origin "${TARGET_BASE}:${TARGET_BASE}" || true
+          BASE_SHA=$(git rev-parse --verify "${TARGET_BASE}" || echo "")
+          HEAD_SHA=$(git rev-parse --verify HEAD)
+          echo "base_sha=$BASE_SHA" >> $GITHUB_OUTPUT
+          echo "head_sha=$HEAD_SHA" >> $GITHUB_OUTPUT
+          # Count commits unique to each side
+          COUNTS=$(git rev-list --left-right --count "${TARGET_BASE}...HEAD" || echo "0\t0")
+          L_COUNT=$(echo "$COUNTS" | awk '{print $1}')
+          R_COUNT=$(echo "$COUNTS" | awk '{print $2}')
+          echo "base_unique=$L_COUNT" >> $GITHUB_OUTPUT
+          echo "head_unique=$R_COUNT" >> $GITHUB_OUTPUT
+          # If HEAD has no unique commits vs base and the trees are equal, mark empty
+          if git diff --quiet "${TARGET_BASE}" HEAD; then
+            echo "empty_diff=true" >> $GITHUB_OUTPUT
+          else
+            echo "empty_diff=false" >> $GITHUB_OUTPUT
+          fi
+          # Write a compare URL to the job summary
+          echo "### Compare" >> $GITHUB_STEP_SUMMARY
+          echo "https://github.com/${REPO}/compare/${TARGET_BASE}...${BRANCH}" >> $GITHUB_STEP_SUMMARY
+
       - name: Create pull request in target repository
-        if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' }}
+        if: ${{ steps.commit_push.outputs.no_changes != 'true' && steps.commit_push.outputs.pushed_to_base != 'true' && steps.divergence.outputs.empty_diff != 'true' }}
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.TARGET_REPO_TOKEN }}
           path: target_repo
           branch: ${{ steps.prep_branch.outputs.branch }}
           base: ${{ env.TARGET_BASE }}
-          title: "KoCEM: Sync ${TARGET_PATH_IN_REPO}"
+          title: "KoCEM: Sync ${TARGET_PATH_IN_REPO} (${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER})"
           body: |
             This PR syncs `${{ env.TARGET_PATH_IN_REPO }}` from `${{ github.repository }}` at commit `${{ github.sha }}`.
             Generated automatically by the `sync-code-to-external` workflow.
