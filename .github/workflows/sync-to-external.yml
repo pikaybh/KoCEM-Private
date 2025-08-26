@@ -102,31 +102,30 @@ jobs:
 
       - name: Copy repository contents into target repository (exclude data/output)
         run: |
-          # Sync all code/config except large or sensitive data and caches
-          rsync -a --delete --prune-empty-dirs \
-            --exclude 'target_repo' \
-            --exclude '.git' \
-            # Whitelist begins
-            --include '/app/' \
-            --include '/app/***' \
-            --include '/prompts/' \
-            --include '/prompts/***' \
-            --include '/output/' \
-            --include '/output/mcqa/' \
-            --include '/output/mcqa/en/' \
-            --include '/output/mcqa/en/gpt-4.1/***' \
-            --include '/.env.example' \
-            --include '/.gitignore' \
-            --include '/.python-version' \
-            --include '/pyproject.toml' \
-            --include '/README.md' \
-            --include '/requirements.txt' \
-            # Common junk still excluded
-            --exclude '**/__pycache__/**' \
-            --exclude '*.pyc' \
-            # Everything else excluded
-            --exclude '*' \
-            ./ target_repo/
+          # Sync all code/config except large or sensitive data and caches (whitelist only)
+          RSYNC_SYNC_FLAGS=(
+            -a --delete --prune-empty-dirs
+            --exclude 'target_repo'
+            --exclude '.git'
+            --include '/app/'
+            --include '/app/***'
+            --include '/prompts/'
+            --include '/prompts/***'
+            --include '/output/'
+            --include '/output/mcqa/'
+            --include '/output/mcqa/en/'
+            --include '/output/mcqa/en/gpt-4.1/***'
+            --include '/.env.example'
+            --include '/.gitignore'
+            --include '/.python-version'
+            --include '/pyproject.toml'
+            --include '/README.md'
+            --include '/requirements.txt'
+            --exclude '**/__pycache__/**'
+            --exclude '*.pyc'
+            --exclude '*'
+          )
+          rsync "${RSYNC_SYNC_FLAGS[@]}" ./ target_repo/
 
 
       - name: Show diff summary (debug)
