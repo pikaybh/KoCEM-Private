@@ -63,7 +63,9 @@ jobs:
         working-directory: target_repo
         run: |
           set -e
-          BRANCH="${BRANCH_PREFIX}-${GITHUB_SHA::7}"
+          # Use a unique branch per run to avoid reusing an old branch that may already match base
+          # This prevents PRs that appear empty because the head equals the current base
+          BRANCH="${BRANCH_PREFIX}-${GITHUB_SHA::7}-${GITHUB_RUN_NUMBER}"
           echo "branch=$BRANCH" >> $GITHUB_OUTPUT
           git checkout -B "$BRANCH"
 
@@ -166,6 +168,13 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "KoCEM: sync ${TARGET_PATH_IN_REPO} from ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+            # If the resulting tree matches the base branch, skip push/PR to avoid empty PRs
+            git fetch --no-tags --depth=1 origin "${TARGET_BASE}:${TARGET_BASE}" || true
+            if git diff --quiet HEAD "${TARGET_BASE}"; then
+              echo "Branch content is identical to ${TARGET_BASE}; skipping push and PR."
+              echo "no_changes=true" >> $GITHUB_OUTPUT
+              exit 0
+            fi
             # If this is the first-time bootstrap (base just created), push directly to base and skip PR
             if [ "${{ steps.ensure_base.outputs.created_base }}" = "true" ]; then
               git push origin "${{ steps.prep_branch.outputs.branch }}:${TARGET_BASE}"
