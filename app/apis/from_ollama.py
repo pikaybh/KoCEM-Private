@@ -28,8 +28,12 @@ class OllamaAPI(APIBase):
     ):
         super().__init__(**kwargs)
         self.model_id = model_id
-        # Normalize model id to Ollama tag format
-        tag = model_id.replace("gpt-oss-", "gpt-oss:") if model_id.startswith("gpt-oss") else model_id
+        # Normalize model id to Ollama tag format: always replace only the last '-' with ':' if present
+        if "-" in model_id:
+            _idx = model_id.rfind("-")
+            tag = model_id[:_idx] + ":" + model_id[_idx + 1:]
+        else:
+            tag = model_id
         self._model_tag = tag.split("/")[-1]
         self._base_url = (base_url or endpoint).rstrip("/")
         self._cookie = cookie
@@ -54,18 +58,47 @@ class OllamaAPI(APIBase):
         return {"Cookie": c}
 
     def _to_ollama_messages(self, msgs):
+        def _content_to_text(content) -> str:
+            # Ollama expects a string; strip non-text parts (e.g., images) if present
+            try:
+                if isinstance(content, str):
+                    return content
+                if isinstance(content, list):
+                    texts = []
+                    for part in content:
+                        if isinstance(part, str):
+                            texts.append(part)
+                        elif isinstance(part, dict):
+                            if "text" in part and isinstance(part["text"], str):
+                                texts.append(part["text"])
+                            elif part.get("type") == "text" and isinstance(part.get("text"), str):
+                                texts.append(part.get("text", ""))
+                            elif isinstance(part.get("content"), str):
+                                texts.append(part["content"]) 
+                            # ignore non-text (e.g., image_url)
+                    return "\n".join(t for t in texts if t).strip()
+                if isinstance(content, dict):
+                    if "text" in content and isinstance(content["text"], str):
+                        return content["text"]
+                    if isinstance(content.get("content"), str):
+                        return content["content"]
+                return str(content)
+            except Exception:
+                return str(content)
+
         out = []
         if isinstance(msgs, list):
             for m in msgs:
-                if isinstance(m, dict) and "role" in m and "content" in m:
-                    out.append({"role": m["role"], "content": m["content"]})
+                if isinstance(m, dict) and "role" in m:
+                    text = _content_to_text(m.get("content", ""))
+                    out.append({"role": m["role"], "content": text})
                 else:
                     name = m.__class__.__name__.lower()
                     role = "system" if "system" in name else ("assistant" if "ai" in name else "user")
                     content = getattr(m, "content", str(m))
-                    out.append({"role": role, "content": content})
+                    out.append({"role": role, "content": _content_to_text(content)})
         else:
-            out.append({"role": "user", "content": str(msgs)})
+            out.append({"role": "user", "content": _content_to_text(msgs)})
         return out
 
     def _post_chat(self, messages, timeout: int | None):
