@@ -37,7 +37,8 @@ class APIBase:
         locale: LocaleType = "en",
         task: str = "mcqa",
         prompt: str = "mcqa",
-        prompt_version: str = "latest"
+        prompt_version: str = "latest",
+        **kwargs
     ):
         self.locale = locale
         self.task = task
@@ -121,7 +122,7 @@ class APIBase:
         def _supports_image_input() -> bool:
             try:
                 target_full = str(self.model_id)
-                target_last = target_full.split("/")[-1]
+                target_last = target_full if "grok" in target_full else target_full.split("/")[-1]
                 targets = {target_full.lower(), target_last.lower()}
                 for fam in llms.llm_models:
                     for lm in getattr(fam, "models", []):

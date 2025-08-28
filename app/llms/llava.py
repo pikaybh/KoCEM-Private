@@ -45,15 +45,15 @@ class LlavaModels(LLMBase):
             pricing="open-source"
         ),
         LanguageModel(
-            name="llava-v1.6-7b",
+            name="llava-v1.6:7b",
             description="Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.",
             version=ModelVersion(
                 releases=[],
-                stable="llava-v1.6-7b"
+                stable="llava-7b"
             ),
             size=ModelSize(
                 parameters={
-                    "llava-v1.6-7b": 7_000_000
+                    "llava-7b": 7_000_000
                 }, 
                 aunounced=True
             ),
@@ -65,15 +65,15 @@ class LlavaModels(LLMBase):
             pricing="open-source"
         ),
         LanguageModel(
-            name="llava-v1.6-13b",
+            name="llava-v1.6:13b",
             description="Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.",
             version=ModelVersion(
                 releases=[],
-                stable="llava-v1.6-13b"
+                stable="llava-13b"
             ),
             size=ModelSize(
                 parameters={
-                    "llava-v1.6-13b": 13_000_000
+                    "llava-13b": 13_000_000
                 }, 
                 aunounced=True
             ),

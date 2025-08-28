@@ -43,13 +43,13 @@ class OllamaAPI(APIBase):
         if not self._cookie:
             return {}
         c = self._cookie.strip()
-        try:
-            if c.startswith("{") and c.endswith("}"):
-                obj = json.loads(c)
-                if isinstance(obj, dict) and obj:
-                    return {"Cookie": "; ".join(f"{k}={v}" for k, v in obj.items())}
-        except Exception:
-            logger.warning("OLLAMA cookie JSON parse failed; using raw value.")
+        # try:
+        #     if c.startswith("{") and c.endswith("}"):
+        #         obj = json.loads(c)
+        #         if isinstance(obj, dict) and obj:
+        #             return {"Cookie": "; ".join(f"{k}={v}" for k, v in obj.items())}
+        # except Exception:
+        #     logger.warning("OLLAMA cookie JSON parse failed; using raw value.")
         if "=" in c:
             return {"Cookie": c}
         if self._cookie_key:

@@ -74,8 +74,8 @@ class MetaLlama(LLMBase):
             name="llama4:maverick",
             description="A class-leading natively multimodal model that offers superior text and visual intelligence.",
             version=ModelVersion(
-                releases=["llama4-scout"],
-                stable="llama4-scout"
+                releases=["llama4-maverick"],
+                stable="llama4-maverick"
             ),
             size=ModelSize(parameters=400_000_000, aunounced=True),
             modality=Modality(

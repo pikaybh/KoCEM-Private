@@ -13,6 +13,9 @@ module = {
     'gpt-oss': OllamaAPI,
     "Qwen": VLLMAPI,
     "meta": OllamaAPI,
+    "liuhaotian": OllamaAPI,
+    "deepseek": OllamaAPI,
+    "xai": OllamaAPI,
 }
 
 for kprovider, vapi in module.items():
