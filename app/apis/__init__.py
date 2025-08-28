@@ -12,7 +12,7 @@ module = {
     "openai": GPUFreeAPI,
     'gpt-oss': OllamaAPI,
     "Qwen": VLLMAPI,
-    "meta": VLLMAPI,
+    "meta": OllamaAPI,
 }
 
 for kprovider, vapi in module.items():

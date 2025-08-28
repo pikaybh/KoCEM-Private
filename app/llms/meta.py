@@ -51,6 +51,42 @@ class MetaLlama(LLMBase):
                 "mixture_of_experts": 16,
             },
             pricing="open-source"
+        ),
+        LanguageModel(
+            name="llama4:scout",
+            description="A class-leading natively multimodal model that offers superior text and visual intelligence.",
+            version=ModelVersion(
+                releases=["llama4-scout"],
+                stable="llama4-scout"
+            ),
+            size=ModelSize(parameters=109_000_000, aunounced=True),
+            modality=Modality(
+                input_type=["text", "image"],
+                output_type=["text"]
+            ),
+            features={
+                "context_window": 128_000,
+                "mixture_of_experts": 16,
+            },
+            pricing="open-source"
+        ),
+        LanguageModel(
+            name="llama4:maverick",
+            description="A class-leading natively multimodal model that offers superior text and visual intelligence.",
+            version=ModelVersion(
+                releases=["llama4-scout"],
+                stable="llama4-scout"
+            ),
+            size=ModelSize(parameters=400_000_000, aunounced=True),
+            modality=Modality(
+                input_type=["text", "image"],
+                output_type=["text"]
+            ),
+            features={
+                "context_window": 128_000,
+                "mixture_of_experts": 16,
+            },
+            pricing="open-source"
         )
     ]
 

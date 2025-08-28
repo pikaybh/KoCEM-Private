@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the structural type of the community center?",
+        "options": {
+            "A": "Reinforced concrete structure",
+            "B": "Steel frame structure",
+            "C": "Wooden structure",
+            "D": "Aluminum frame structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reinforced concrete structure"
+            },
+            "explanation": "The structural system is specified as reinforced concrete structure in the design conditions section of the architectural overview."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "## Step 1: Analyzing the given options\nThe question asks for the structural type of the community center but does not provide specific details about the community center's construction or context.\n\n## 2: Considering common structural types\nCommon structural types for buildings like community centers include reinforced concrete, steel frame, wooden, aluminum frame, and brick structures. Each has its own advantages and typical applications.\n\n## 3: Evaluating the likelihood of each option\n- Reinforced concrete (A) is a common choice for large public buildings due to its durability and fire resistance.\n- Steel frame (B) is often used for large spans and flexibility in design.\n- Wooden (C) structures are sustainable and can be used for various building types but might not be as common for large community centers due to cost and durability concerns.\n- Aluminum frame (D) structures are lightweight and corrosion-resistant, often used in specific contexts like greenhouses or certain types of industrial buildings.\n- Brick (E) structures, while traditional, are less common for large, modern community centers due to construction time and cost.\n\n## 4: Making an educated guess\nWithout specific information about the community center, one might lean towards reinforced concrete (A) or steel frame (B) structures, as these are commonly used for public and large buildings due to their strength, durability, and flexibility in design.\n\n## 5: Conclusion based on typical applications\nGiven that the question does not provide specific details, we must consider what is most commonly used for community centers. Reinforced concrete and steel frames are very common, but without more context, we must choose based on prevalence in modern construction.\n\nThe best answer is A.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T15:04:13.419545826Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Analyzing the given options\nThe question asks for the structural type of the community center but does not provide specific details about the community center's construction or context.\n\n## 2: Considering common structural types\nCommon structural types for buildings like community centers include reinforced concrete, steel frame, wooden, aluminum frame, and brick structures. Each has its own advantages and typical applications.\n\n## 3: Evaluating the likelihood of each option\n- Reinforced concrete (A) is a common choice for large public buildings due to its durability and fire resistance.\n- Steel frame (B) is often used for large spans and flexibility in design.\n- Wooden (C) structures are sustainable and can be used for various building types but might not be as common for large community centers due to cost and durability concerns.\n- Aluminum frame (D) structures are lightweight and corrosion-resistant, often used in specific contexts like greenhouses or certain types of industrial buildings.\n- Brick (E) structures, while traditional, are less common for large, modern community centers due to construction time and cost.\n\n## 4: Making an educated guess\nWithout specific information about the community center, one might lean towards reinforced concrete (A) or steel frame (B) structures, as these are commonly used for public and large buildings due to their strength, durability, and flexibility in design.\n\n## 5: Conclusion based on typical applications\nGiven that the question does not provide specific details, we must consider what is most commonly used for community centers. Reinforced concrete and steel frames are very common, but without more context, we must choose based on prevalence in modern construction.\n\nThe best answer is A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5462056912,
+            "load_duration": 180065468,
+            "prompt_eval_count": 64,
+            "prompt_eval_duration": 104629590,
+            "eval_count": 337,
+            "eval_duration": 5172626787
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Considering the required evacuation capacity for the 5th floor of the training facility, what is the minimum total effective width of stairs 1 and 2?",
+        "options": {
+            "A": "4,200 mm",
+            "B": "4,800 mm",
+            "C": "5,400 mm",
+            "D": "6,000 mm",
+            "E": "7,200 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "4,800 mm"
+            },
+            "explanation": "The maximum evacuation capacity per floor is 600 people, and with a minimum effective stair width of 7 mm per person, the minimum required width is 600 × 7 mm = 4,200 mm. However, since 4,200 mm is not listed among the options and to allow for a design margin, 4,800 mm or more is chosen."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "## Step 1: Determine the required evacuation capacity\nTo find the minimum total effective width of stairs 1 and 2 for the 5th floor of the training facility, we first need to understand the requirements for evacuation capacity. This typically involves calculating the total occupant load for the area and then determining the required egress width based on that load.\n\n## 2: Understand occupant load and egress requirements\nThe occupant load is usually calculated based on the square footage of the area and the occupant load factor for that type of space. However, without specific details on the occupant load or the exact usage of the 5th floor, we must infer that the question implies a standard or given occupant load that needs to be evacuated.\n\n## 3: Recall standard egress width requirements\nTypically, building codes (such as the International Building Code or IBC) specify that for most occupancies, the minimum required egress width is based on the occupant load. A common requirement is 0.3 inches (7.62 mm) of egress width per occupant.\n\n## 4: Consider the given options in relation to common codes\nWithout the exact occupant load, we consider that the options given (A: 4,200 mm, B: 4,800 mm, C: 5,400 mm, D: 6,000 mm, E: 7,200 mm) need to correspond to a calculated requirement based on occupant load and egress codes.\n\n## 5: Apply general knowledge of egress requirements\nFor many buildings, a common approach is to have stairs that can accommodate a certain number of people per minute. The International Building Code (IBC) suggests that for most buildings, 0.3 inches per person is used for calculating egress width, which translates to approximately 1 mm per person for simplicity in some calculations.\n\n## 6: Make an educated estimation\nGiven that a typical stair width is around 1,200 mm to 1,500 mm for a single stair and assuming a need for multiple stairs to meet egress requirements, the total width would need to accommodate a significant number of people.\n\n## 7: Choose the most appropriate answer\nWithout specific occupant load numbers or more detailed code requirements provided in the question, we rely on general principles. For a significant number of occupants, such as in a large office or training facility, a wider stair or multiple stairs are necessary.\n\n## 8: Consider typical stair widths and capacities\nA standard stair can handle about 60 people per minute per 12 inches (30 cm or 300 mm) of width. If we assume a need for a higher capacity, multiple stairs or wider stairs are required.\n\nThe best answer is B.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T15:04:22.177107792Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Determine the required evacuation capacity\nTo find the minimum total effective width of stairs 1 and 2 for the 5th floor of the training facility, we first need to understand the requirements for evacuation capacity. This typically involves calculating the total occupant load for the area and then determining the required egress width based on that load.\n\n## 2: Understand occupant load and egress requirements\nThe occupant load is usually calculated based on the square footage of the area and the occupant load factor for that type of space. However, without specific details on the occupant load or the exact usage of the 5th floor, we must infer that the question implies a standard or given occupant load that needs to be evacuated.\n\n## 3: Recall standard egress width requirements\nTypically, building codes (such as the International Building Code or IBC) specify that for most occupancies, the minimum required egress width is based on the occupant load. A common requirement is 0.3 inches (7.62 mm) of egress width per occupant.\n\n## 4: Consider the given options in relation to common codes\nWithout the exact occupant load, we consider that the options given (A: 4,200 mm, B: 4,800 mm, C: 5,400 mm, D: 6,000 mm, E: 7,200 mm) need to correspond to a calculated requirement based on occupant load and egress codes.\n\n## 5: Apply general knowledge of egress requirements\nFor many buildings, a common approach is to have stairs that can accommodate a certain number of people per minute. The International Building Code (IBC) suggests that for most buildings, 0.3 inches per person is used for calculating egress width, which translates to approximately 1 mm per person for simplicity in some calculations.\n\n## 6: Make an educated estimation\nGiven that a typical stair width is around 1,200 mm to 1,500 mm for a single stair and assuming a need for multiple stairs to meet egress requirements, the total width would need to accommodate a significant number of people.\n\n## 7: Choose the most appropriate answer\nWithout specific occupant load numbers or more detailed code requirements provided in the question, we rely on general principles. For a significant number of occupants, such as in a large office or training facility, a wider stair or multiple stairs are necessary.\n\n## 8: Consider typical stair widths and capacities\nA standard stair can handle about 60 people per minute per 12 inches (30 cm or 300 mm) of width. If we assume a need for a higher capacity, multiple stairs or wider stairs are required.\n\nThe best answer is B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8713504266,
+            "load_duration": 187050653,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 129738053,
+            "eval_count": 543,
+            "eval_duration": 8391745669
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is correct regarding the arrangement and cross-sectional dimensions of the columns on the first and second floors?",
+        "options": {
+            "A": "The arrangement of columns on the first and second floors should be different.",
+            "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor.",
+            "C": "There are more columns on the second floor than on the first floor.",
+            "D": "The columns on the second floor are not made of the same material as those on the first floor.",
+            "E": "The arrangement of columns on the first and second floors is unrelated."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor."
+            },
+            "explanation": "According to the guidelines, the arrangement and cross-sectional dimensions of the columns on the first and second floors must be the same."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "## Step 1: Understanding the question\nThe question asks about the correct statement regarding the arrangement and cross-sectional dimensions of columns on the first and second floors of a building.\n\n## 2: Analyzing option A\nOption A suggests that the arrangement of columns on the first and second floors should be different. This could be a plausible statement depending on architectural or structural requirements, but without specific context, it's hard to judge its correctness directly.\n\n## 3: Analyzing option B\nOption B states that the cross-sectional dimensions of the columns on the second floor are the same as those on the first floor. This would typically not be the case in many building designs because the loads and structural requirements can differ between floors, often necessitating different column sizes.\n\n## 4: Analyzing option C\nOption C mentions that there are more columns on the second floor than on the first floor. This could be true in certain designs, especially if the second floor has a different layout or requires more support, but it's not universally applicable.\n\n## 5: Analyzing option D\nOption D suggests that the columns on the second floor are not made of the same material as those on the first floor. While possible, this is less common and usually not necessary unless there are specific reasons such as fire resistance, durability, or aesthetic requirements.\n\n## 6: Analyzing option E\nOption E states that the arrangement of columns on the first and second floors is unrelated. This seems unlikely as buildings are designed with structural integrity in mind, and column arrangements are typically planned to support loads efficiently.\n\n## 7: Making an informed choice\nGiven typical architectural and engineering practices, the most generally applicable and correct principle is that the arrangement and dimensions of columns are designed to meet specific structural needs, which can vary by floor. However, without specific details about the building's design or purpose, we must consider what is commonly true or required in construction.\n\n## 8: Conclusion based on common practices\nIn many cases, especially for simplicity and structural integrity, columns are often arranged and sized based on the loads they need to support. The first floor often has larger or more columns to support the weight of the building and any heavy loads from the ground, while upper floors might have similar or slightly different arrangements based on their use and load requirements.\n\nThe best answer is B.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T15:04:29.865158103Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Understanding the question\nThe question asks about the correct statement regarding the arrangement and cross-sectional dimensions of columns on the first and second floors of a building.\n\n## 2: Analyzing option A\nOption A suggests that the arrangement of columns on the first and second floors should be different. This could be a plausible statement depending on architectural or structural requirements, but without specific context, it's hard to judge its correctness directly.\n\n## 3: Analyzing option B\nOption B states that the cross-sectional dimensions of the columns on the second floor are the same as those on the first floor. This would typically not be the case in many building designs because the loads and structural requirements can differ between floors, often necessitating different column sizes.\n\n## 4: Analyzing option C\nOption C mentions that there are more columns on the second floor than on the first floor. This could be true in certain designs, especially if the second floor has a different layout or requires more support, but it's not universally applicable.\n\n## 5: Analyzing option D\nOption D suggests that the columns on the second floor are not made of the same material as those on the first floor. While possible, this is less common and usually not necessary unless there are specific reasons such as fire resistance, durability, or aesthetic requirements.\n\n## 6: Analyzing option E\nOption E states that the arrangement of columns on the first and second floors is unrelated. This seems unlikely as buildings are designed with structural integrity in mind, and column arrangements are typically planned to support loads efficiently.\n\n## 7: Making an informed choice\nGiven typical architectural and engineering practices, the most generally applicable and correct principle is that the arrangement and dimensions of columns are designed to meet specific structural needs, which can vary by floor. However, without specific details about the building's design or purpose, we must consider what is commonly true or required in construction.\n\n## 8: Conclusion based on common practices\nIn many cases, especially for simplicity and structural integrity, columns are often arranged and sized based on the loads they need to support. The first floor often has larger or more columns to support the weight of the building and any heavy loads from the ground, while upper floors might have similar or slightly different arrangements based on their use and load requirements.\n\nThe best answer is B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 7645791740,
+            "load_duration": 180275213,
+            "prompt_eval_count": 140,
+            "prompt_eval_duration": 185334947,
+            "eval_count": 466,
+            "eval_duration": 7274461340
+        },
+        "judge": "Correct"
+    }
+]

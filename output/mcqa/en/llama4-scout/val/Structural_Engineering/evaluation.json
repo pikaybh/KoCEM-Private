@@ -1,0 +1,172 @@
+{
+    "val_Structural_Engineering_136": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_964": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_428": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_101": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_650": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_535": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_529": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_716": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_689": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_882": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_398": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_44": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_60": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_110": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_831": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_352": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_914": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_761": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_707": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_292": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_2": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_361": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_974": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_494": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_328": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_938": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_300": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "val_Structural_Engineering_424": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_570": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_404": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "val_Structural_Engineering_220": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Structural_Engineering_940": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_24": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "val_Structural_Engineering_543": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    }
+}

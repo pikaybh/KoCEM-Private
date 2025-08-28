@@ -1,0 +1,371 @@
+[
+    {
+        "id": "val_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should the ground level (GL) be for the floor of the underground parking lot at the community center?",
+        "options": {
+            "A": "-2.5m",
+            "B": "-3.0m",
+            "C": "-3.5m",
+            "D": "-4.0m",
+            "E": "-4.5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-3.5m"
+            },
+            "explanation": "According to the guidelines, the underground parking lot must be planned at GL –3.5m."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:23.634825922Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need context: likely ground level is defined relative to street or basement. Without additional context, must guess. Maybe typical ground level for parking floor: -3.0m? However could be -3.5m. We need reasoning: For underground parking at a community center, ground level likely around -3m from grade to floor, because typical depth for parking is around 2.7m. Option B -3.0m seems plausible. I'll answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1053637805,
+            "load_duration": 182367181,
+            "prompt_eval_count": 148,
+            "prompt_eval_duration": 46917348,
+            "eval_count": 107,
+            "eval_duration": 819053992
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which floor structure is most suitable for the second floor above ground of a village library?",
+        "options": {
+            "A": "Reinforced concrete slab",
+            "B": "Wood truss",
+            "C": "Large-span air delivery structure using steel plates",
+            "D": "Ceiling finish with gypsum board",
+            "E": "Composite metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Large-span air delivery structure using steel plates"
+            },
+            "explanation": "The design guidelines specify that the second floor above ground should use a large-span air delivery structure using steel plates. This is interpreted as a construction method utilizing steel structures."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:25.537179237Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A)",
+                "thinking": "We need to determine which floor structure is most suitable for the second floor above ground of a village library. Options: A) reinforced concrete slab, B) wood truss, C) large-span air delivery structure using steel plates, D) ceiling finish with gypsum board, E) composite metal panel.\n\nThe question: Which floor structure is most suitable for the second floor above ground of a village library? A library is a public building, likely need a sturdy floor, can accommodate people, books, maybe a reading area. The second floor might be used for reading rooms, offices. It's above ground: so must be able to support loads. Usually reinforced concrete slab is typical. Wood truss may be used for lighter loads but maybe not best for library. Large-span air delivery structure using steel plates sounds more like HVAC system? Not a floor. Ceiling finish with gypsum board is only a finish, not a structural floor. Composite metal panel maybe for industrial? So best is reinforced concrete slab.\n\nThus answer: (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1868175544,
+            "load_duration": 184654327,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 45660576,
+            "eval_count": 216,
+            "eval_duration": 1632661770
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Select the correct statement regarding the placement of cantilevers in structural planning.",
+        "options": {
+            "A": "Cantilevers are used on every floor.",
+            "B": "Cantilevers are only used on the first floor.",
+            "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+            "D": "No special structural planning is needed for cantilevers, and they can be placed freely.",
+            "E": "Cantilevers can be placed anywhere for space efficiency."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing."
+            },
+            "explanation": "According to the design guidelines, cantilevers are only placed in specific areas on the second floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "(C) Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:27.042895422Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+                "thinking": "We need to pick the correct statement regarding placement of cantilevers in structural planning. The context: likely about cantilevers in architecture/engineering. Common practice: cantilevers require special structural planning and are typically present only in specified areas, not arbitrarily. They need structural support, and usually only on specific floors, as indicated in drawings. Among options: A: used on every floor – unlikely. B: only used on first floor – unlikely. C: only present in areas specified in second floor plan and sectional conceptual drawing – plausible. D: no special planning needed – false. E: can be placed anywhere – false. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1471498576,
+            "load_duration": 181719130,
+            "prompt_eval_count": 181,
+            "prompt_eval_duration": 59293038,
+            "eval_count": 164,
+            "eval_duration": 1226311322
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In this architectural design, what is the value defined as the floor structure level (SL) for the basement?",
+        "options": {
+            "A": "-1,200mm",
+            "B": "-1,600mm",
+            "C": "0mm",
+            "D": "-2,000mm",
+            "E": "-800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "-1,600mm"
+            },
+            "explanation": "According to the design specifications, the floor structure level (SL) for the basement and penthouse is set at -1,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "(A) -1,200 mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:30.224180642Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) -1,200 mm",
+                "thinking": "We need to interpret the question: \"In this architectural design, what is the value defined as the floor structure level (SL) for the basement?\" We have options: (A) -1,200mm, (B) -1,600mm, (C) 0mm, (D) -2,000mm, (E) -800mm. There must be some context: maybe a design drawing where basement floor structure level is defined. We don't have the drawing. But typical basement floor structure level is the level of the concrete floor slab relative to ground level or to reference. In many drawings, floor level numbers: ground floor is 0 mm; basement floor may be -1,200 mm if 1.2 m below ground. Could be -800 mm if 0.8 m below. Or -1,600 mm if 1.6 m below. Without more context, maybe typical depth for basement is -1,200 mm (1.2 m). So answer likely (A). But let's think: typical basement floor thickness maybe 300 mm, plus subgrade. But the question: \"In this architectural design, what is the value defined as the floor structure level (SL) for the basement?\" Usually the \"SL\" is a reference datum: \"SL\" might refer to \"Slab Level\"? Actually in drawings, \"SL\" stands for \"Structure Level\" maybe. Could be the level of the slab. The basement may be at -1,200 mm. Many design drawings have ground floor at 0 mm, basement at -1,200 mm. So answer (A). But if it's a 2-level basement (two basement floors) maybe -1,600 mm. But likely a single basement. So I'll choose (A) -1,200mm."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3153468458,
+            "load_duration": 182429578,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 47554904,
+            "eval_count": 387,
+            "eval_duration": 2918577704
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?",
+        "options": {
+            "A": "2,500mm",
+            "B": "3,000mm",
+            "C": "3,500mm",
+            "D": "4,000mm",
+            "E": "4,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3,000mm"
+            },
+            "explanation": "According to the design guidelines, the floor-to-ceiling height of the rooftop floor of the neighborhood culture center is 3,000mm. This value represents the height of the building's topmost space, including the rooftop floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:37.012809269Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to answer a question: \"What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?\" Provide a letter. So we need to know the floor-to-ceiling height of rooftop floor of neighborhood culture center. This is likely a reference to a specific building or project. The question: \"designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center\" probably refers to some building project in a city. Could be from a competition or known project: e.g., \"Neighborhood Culture Center\" might be a building design by a firm? The question likely expects knowledge of some project specs. I need to guess.\n\nLet's think: A rooftop floor is like a roof deck with a certain height between floor and ceiling of that rooftop floor. The height might be around 3.5m or 4m typical. The options are 2500mm, 3000mm, 3500mm, 4000mm, 4500mm. A typical residential ceiling height is about 2400mm. But rooftop floor could be a mezzanine or observation deck, maybe 3m. For a \"neighborhood culture center\" perhaps it has a roof deck that is 3m high? Could be 3.5m.\n\nWe need to guess. Let's think if we can deduce from known data. The question might come from a known design competition for a culture center (like \"New Neighborhood Culture Center\" maybe in a city like Seoul, or \"Neighborhood Culture Center\" in a particular city). Let's imagine it's a typical building with 12m high roof.\n\nLet's consider typical floor-to-ceiling height of rooftop floor: If the building is a 2-3 story, the rooftop floor might have a higher ceiling for open space, maybe 3.5m. 4.0m also plausible. Let's see options: 2500mm (2.5m) is low; 3000mm (3.0m) moderate; 3500mm (3.5m) high; 4000mm (4.0m) very high; 4500mm (4.5m) extremely high.\n\nGiven it's a \"neighborhood culture center\", maybe the rooftop is a roof terrace for community gatherings, so it might have a high clearance for events, maybe 3.5-4m. I'd lean toward 3,500mm or 4,000mm. Which is more typical? Many event spaces have 4m high ceilings. So 4,000mm. But rooftop floor might be less; perhaps 3,500mm.\n\nLet's try to search memory: There is a \"Neighborhood Culture Center\" in Seoul called \"Neighborhood Culture Center\" for the \"Daehangno\"? But I don't know. There's a \"Neighborhood Culture Center\" in Tübingen? Eh.\n\nAlternatively, maybe the question is from a specific architecture exam, where a known design had a specified floor-to-ceiling height of the rooftop floor: The answer might be 3,500mm. I've seen some designs specifying 3,500mm for roof floor. I'm leaning 3,500mm. But let's examine: The floor-to-ceiling height of the rooftop floor: The rooftop floor is likely a \"rooftop terrace\" that might not have a ceiling, so floor-to-ceiling would be meaningless unless there's a roof covering. But if it's a covered rooftop with a roof deck, they specify height between the floor and the roof of that deck.\n\nThe question likely expects a single letter. We need to guess. My gut says 3,500mm. Let's answer C.\n\nHowever, I should check if there is any reason to choose D. If the design is for a community center, perhaps they want a high height for a roof terrace to accommodate stage or community events. 4,000mm is plausible. But 4,500mm is extremely tall.\n\nGiven typical design guidelines, 3,500mm is used often for interior spaces. 4,000mm might be for large event halls. Since it's a \"rooftop floor\" not an interior hall, maybe 3,500mm. So answer C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6756481903,
+            "load_duration": 179241893,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 41400619,
+            "eval_count": 870,
+            "eval_duration": 6530713321
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the exterior wall finishing material of the Community Service Center?",
+        "options": {
+            "A": "Brick finish",
+            "B": "Stucco",
+            "C": "Exposed concrete finish",
+            "D": "Marble finish",
+            "E": "Metal panel finish"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Exposed concrete finish"
+            },
+            "explanation": "The design guide for the Community Service Center specifies exposed concrete for the exterior wall finish."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "(C) Exposed concrete finish",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:43.36864288Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) Exposed concrete finish",
+                "thinking": "The user asks: \"What is the exterior wall finishing material of the Community Service Center?\" Choices: A) Brick finish, B) Stucco, C) Exposed concrete finish, D) Marble finish, E) Metal panel finish.\n\nWe need to answer with the letter.\n\nWe need to know what is the exterior wall finishing material. This might refer to a specific building, maybe a known Community Service Center? The question is ambiguous. Possibly from some architectural competition? Or a known community center? Might be a known building: \"Community Service Center\" could be a building at a school? Or maybe it's referring to a specific building described earlier? We don't have context. We need to guess.\n\nWe might consider typical finish for community service centers: Brick is common, stucco also common, concrete finish maybe for modern minimalistic design, marble less likely for a community center due to cost, metal panel finish maybe for modern.\n\nWe need more context. The question is likely part of a larger set of building design details. Might refer to a \"Community Service Center\" in a particular project like \"Davao City Community Service Center\" or something.\n\nAlternatively, maybe from a competition: \"The Community Service Center\" in the \"Southeast Asia Design Competition\"? The typical finish might be stucco. But not sure.\n\nCould it be a trick question: The finish is exposed concrete? Many modern community centers use exposed concrete for an industrial look. But marble finish is improbable.\n\nMetal panel finish also possible.\n\nWe can try to find clues: The question: \"What is the exterior wall finishing material of the Community Service Center?\" The answer likely is (B) Stucco. Why? Because stucco is common for community centers, especially in warm climates. Brick is also common, but stucco is more flexible. Exposed concrete is used for minimalistic modern design.\n\nAlternatively, maybe the building is in the Philippines, so stucco is common for the \"Davao Community Service Center\"? But the question is too generic.\n\nCould it be a known project: The \"Community Service Center\" in \"Cebu City\"? I recall a project with an exposed concrete finish. But not sure.\n\nBetter to look at patterns: In many questions, the answer is stucco. Because stucco is common in many designs.\n\nBut I want to be more certain. Let's think: The options: Brick, Stucco, Exposed concrete, Marble, Metal panel. For a community service center, the best might be \"Exposed concrete finish\" because it's low cost, durable, modern aesthetic. But brick also low cost, durable. Marble is too expensive. Metal panel might be used but less common.\n\nBetween brick and stucco: Both are common. Brick can be more expensive. Stucco can be cheaper.\n\nIf it's a modern design, they might choose exposed concrete. Many modern community centers use concrete. But the question likely expects a simple answer: Brick finish.\n\nBut if the question is from a design exam, they might ask about \"The Community Service Center's exterior wall finishing material is Exposed concrete finish\" as part of a case study. Because the finishing is described as \"exposed concrete\" in the design.\n\nAlternatively, could be a specific building: \"The Community Service Center (CSC) at University of Texas\" has brick finish. Or \"CSC in Singapore\" has metal panels.\n\nThe question likely from a quiz about \"Architecture of the City: Community Service Center\" maybe part of a set of questions about a design competition.\n\nAlternatively, maybe the answer is (C) Exposed concrete finish because it's a key design feature.\n\nLet's assume the building is a modern community service center with an exposed concrete finish for an industrial aesthetic. So answer (C). However, I'm not entirely sure. But we need to answer.\n\nI think answer is (C) Exposed concrete finish. Let's answer that."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6319770665,
+            "load_duration": 186631416,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 36518568,
+            "eval_count": 799,
+            "eval_duration": 6083249437
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the maximum span length in the structural design of a small gallery?",
+        "options": {
+            "A": "2500mm",
+            "B": "3000mm",
+            "C": "3500mm",
+            "D": "4000mm",
+            "E": "4500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3500mm"
+            },
+            "explanation": "The design conditions specify that the span should be planned to be no more than 3,500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:45.015144386Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "The question: \"What should be the maximum span length in the structural design of a small gallery?\" Options: 2500mm, 3000mm, 3500mm, 4000mm, 4500mm. This is ambiguous. Likely a design standard: small gallery might refer to exhibition space? Typically design codes? The maximum span length for floor beams? Many codes limit spans to about 3m or 4m for floor beams without intermediate supports. For a small gallery, maybe 3m. Option B: 3000mm.\n\nBut maybe 3500mm? Let's think: In structural design for galleries, the maximum span might be about 3.5m. If it's a small gallery, maybe 3m to avoid heavy support. I'd lean 3000mm.\n\nThus answer (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1613517857,
+            "load_duration": 183460888,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 43618125,
+            "eval_count": 182,
+            "eval_duration": 1382184568
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the appropriate design method for the south exterior wall?",
+        "options": {
+            "A": "Single skin",
+            "B": "Double skin",
+            "C": "Brick finish",
+            "D": "Glass curtain wall",
+            "E": "Metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Double skin"
+            },
+            "explanation": "It is specified that the south exterior wall should be designed with a double skin that allows for ventilation and solar control."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:48.301552668Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "The user asks: \"What is the appropriate design method for the south exterior wall? (A) Single skin (B) Double skin (C) Brick finish (D) Glass curtain wall (E) Metal panel\"\n\nWe need to answer with a letter. But we don't have context: what building? This seems like a design choice question perhaps based on building orientation, climate, etc. We don't know. Might be a trick: maybe \"Single skin\" or \"Double skin\" are methods, \"brick finish\" is a finish, \"glass curtain wall\" and \"metal panel\" are materials.\n\nWe need to guess. Perhaps typical for south exterior wall: need high solar gain, so a glass curtain wall for daylighting? Or brick finish for thermal mass? In hot climates, south wall often uses shading and high thermal mass, so brick.\n\nBut the question likely expects \"Double skin\" for energy efficiency? Double skin facade provides thermal control, especially in hot climates.\n\nGiven no context, maybe the appropriate design method is \"Glass curtain wall\" as it's a south wall for maximizing daylight. But that may lead to overheating. Alternatively \"Brick finish\" gives mass.\n\nBut the options: Single skin (just one layer of façade), Double skin (two layers separated by air), Brick finish (a finish), Glass curtain wall (transparent), Metal panel (cladding). The question: \"What is the appropriate design method for the south exterior wall?\" The phrase \"design method\" implies approach: maybe \"Double skin\" is a method, whereas brick finish is a material.\n\nBut we need a letter. Maybe the correct answer is (B) Double skin.\n\nAlternatively maybe it's (D) Glass curtain wall because of south orientation for natural light.\n\nBut if it's a high-performance building, double skin is often used to reduce energy consumption.\n\nI think likely the answer is (B) Double skin. Let's go with that."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3248718567,
+            "load_duration": 212701401,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 37730124,
+            "eval_count": 396,
+            "eval_duration": 2992273999
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Drawing_Interpretation_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the specified stress (f_py) value for prestressed concrete?",
+        "options": {
+            "A": "1,200 MPa",
+            "B": "1,500 MPa",
+            "C": "1,860 MPa",
+            "D": "2,000 MPa",
+            "E": "2,400 MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,860 MPa"
+            },
+            "explanation": "According to the material specifications for design conditions, the specified stress for prestressed concrete is set at 1,860 MPa."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:50.660152681Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "The user asks: \"What is the specified stress (f_py) value for prestressed concrete? Options: (A) 1,200 MPa (B) 1,500 MPa (C) 1,860 MPa (D) 2,000 MPa (E) 2,400 MPa\". They want the letter. We need to recall standard f_py for prestressed steel. Usually f_py = 1.45 × 10^3 MPa? Actually f_py for prestressing steel is 1.45 GPa? Wait: f_py = 1.5 GPa? The common value used: 1.45 GPa (1.45 × 10^3 MPa). In SI units: 1.45 GPa = 1,450 MPa. But options: 1,200, 1,500, 1,860, 2,000, 2,400 MPa. So the closest is 1,500 MPa (B). However, some standards (e.g., Eurocode 2) specify f_py = 1,500 MPa. Others specify 1.86 GPa for high-strength steel. The question probably expects 1,500 MPa. So answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2325508769,
+            "load_duration": 184517173,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 45743921,
+            "eval_count": 277,
+            "eval_duration": 2084365011
+        },
+        "judge": "Wrong"
+    }
+]

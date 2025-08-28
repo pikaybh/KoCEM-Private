@@ -1,0 +1,162 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1599999964237213,
+        "question": "Which of the following is information needed for biomechanical analysis?",
+        "options": {
+            "A": "Heart rate, calories per minute, oxygen uptake",
+            "B": "Distance, weight, angle",
+            "C": "Temperature, noise level, illumination",
+            "D": "Height, waist circumference"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Distance, weight, angle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T16:26:41.554343722Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to answer: Which of the following is information needed for biomechanical analysis? They want options that include relevant data for biomechanical analysis. Biomechanics deals with movement, forces, body segment lengths, angles, forces, etc. Typically, needed info includes body weight, segment lengths, joint angles, force data, distance? Option B: Distance, weight, angle. Option D: Height, waist circumference. Height and waist circumference are anthropometric data. For biomechanical analysis, we need body dimensions, joint angles, weight, distance. Option B includes weight and angle and distance, likely more appropriate. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1256495114,
+            "load_duration": 187589997,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 40382599,
+            "eval_count": 138,
+            "eval_duration": 1021984905
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?",
+        "options": {
+            "A": "When snowfall exceeds 1 cm per minute",
+            "B": "When rainfall exceeds 1 cm per hour",
+            "C": "When wind speed exceeds 10 meters per second",
+            "D": "When the temperature exceeds 28°C"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When wind speed exceeds 10 meters per second"
+            },
+            "explanation": "- When wind speed exceeds 10 meters per second\n- When rainfall exceeds 1 mm per hour\n- When snowfall exceeds 1 cm per hour"
+        },
+        "image_path": null,
+        "model_answer": "(C) When wind speed exceeds 10 meters per second",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T16:26:43.326686826Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) When wind speed exceeds 10 meters per second",
+                "thinking": "We have a question: \"When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?\" Options:\n\n(A) When snowfall exceeds 1 cm per minute\n(B) When rainfall exceeds 1 cm per hour\n(C) When wind speed exceeds 10 meters per second\n(D) When the temperature exceeds 28°C\n\nWe need to pick correct criterion for stopping steel frame work due to severe weather. The context: steel framing is sensitive to high winds due to risk of falling or structural instability. Typically, a wind speed threshold of 10 m/s (around 22 mph) is common for stopping work. Snowfall and rainfall rates are not typical. Temperature 28°C also not typical. So answer C. The correct criterion: wind speed exceeds 10 meters per second.\n\nThus answer: (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1738102733,
+            "load_duration": 182301952,
+            "prompt_eval_count": 155,
+            "prompt_eval_duration": 42093524,
+            "eval_count": 196,
+            "eval_duration": 1509278460
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.44999998807907104,
+        "question": "The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?",
+        "options": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20080907/bj20080907m83.gif?1522617633",
+        "model_answer": "(A) 5",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T16:26:53.672363503Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) 5",
+                "thinking": "We need context: \"regulation on the prohibition of use for wire ropes with splices.\" They ask \"What is the appropriate number to fill in the blank?\" Likely referring to some regulation like \"The maximum number of splices allowed per rope\" or \"The length of rope segment between splices\" etc. The answer options 5,7,10,15.\n\nWe need to think of specific regulation: Could be referring to \"Prohibition of use for wire ropes with splices\" maybe in the context of safety regulation for rope in Japan or EU? There is a standard for wire rope splicing: For safety, a maximum number of splices allowed: maybe 1 splice allowed per rope, but certain circumstances allow 2. But options 5-15 are too high.\n\nAlternatively, regulation on prohibition of use for wire ropes with splices: maybe \"Do not use wire rope that has more than 5 splices\" or \"No more than 5 splices per rope\" or \"The rope should have at most 5 splices.\" In some contexts, a rope with a splice is considered \"unsafe\" for certain applications. The regulation may say: \"Wire ropes with splices are prohibited for use in construction if the total number of splices is 5 or more\" or \"if the number of splices is 7 or more.\" Which is correct? We need to recall standard: For rope used in cranes, splicing is often prohibited due to risk of failure; some codes allow spliced rope but only in certain situations.\n\nLet's search memory: In the UK, the regulation \"UK regulations on lifting equipment\" maybe states that spliced rope may be used only if splicing is done by certified splicers and certain conditions. But I'm not sure.\n\nLet's parse the question: \"The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?\" So there's probably a statement like: \"Wire ropes with splices are prohibited for use in X except when the number of splices does not exceed ____.\" The blank needs a number: 5,7,10,15.\n\nWhat regulation? Could be from OSHA? The \"Wire rope splices must not exceed 5 splices\" ?\n\nIn the U.S. OSHA standard for hoists? OSHA standard 1910.176 covers hoisting. It might have a rule about spliced ropes: \"A rope with a splice shall not be used for lifting except under certain conditions.\" There's no numeric limit I recall.\n\nAlternatively, maybe it's a Japanese standard: \"電気機器用ワイヤーロープの使用において、スパルス (splice) があるワイヤーロープの使用は、5本まで\" ?\n\nWait, maybe it's about \"wire ropes used for cable cranes\" - there's a regulation that prohibits the use of spliced wire ropes for cable cranes because spliced rope cannot guarantee the required tensile strength. But if you want to use them, the total number of splices must not exceed 5. That might be from the \"Japanese standard for cable cranes\" or \"JIS A 1502\".\n\nLet's research memory: The JIS A 1005? I'm not sure.\n\nAlternatively, the number could be 15. Some standard might allow up to 15 splices if they are in a specific location.\n\nLet's think of known regulations: For example, in the European Standard EN 13444: \"Cable cranes - cable rope specification\". This standard may specify that the cable rope should have no more than 5 splices. Let me recall: EN 13444-1:2007 \"Cable cranes - cable rope specification - Part 1: Design, testing and certification.\" It might mention splices. In the EN 13444, it says that \"The cable rope shall have at most 5 splices\" or \"If the cable rope has splices, it shall not be used for cable cranes.\" Hmm.\n\nLet’s consider that the regulation might be about \"lifting equipment, rope and rope accessories\" and the number of splices allowed is 5.\n\nAlternatively, the number might be 10. There is a rule: \"If a rope contains splices, it must not exceed 10 splices\" to maintain strength.\n\nLet's examine the options: 5, 7, 10, 15. The smallest is 5. Usually safety regulations are conservative, so 5 is plausible. 7 is less common. 10 could be plausible if the regulation tries to limit but still allow some. 15 is high, but some regulations might allow up to 15 splices.\n\nLet's recall: For \"wire rope with splices used in hoist systems\" there is a rule that \"the number of splices must not exceed 5.\" That seems plausible.\n\nLet's also recall a known rule: \"If a wire rope has a splice, it may only be used for a limited period and must be inspected.\" That doesn't give a number.\n\nAnother possibility: The regulation might say \"Spliced wire rope is prohibited for use in certain applications except when the number of splices is less than or equal to 10.\" That is also plausible.\n\nWe need to pick the appropriate number. Without context, it's guess.\n\nWe can look at the question text: \"The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?\" It might be a fill-in-the-blank question from a multiple choice. The question expects a specific number. Which one is likely correct? Usually exam question for Japanese \"電気機器\" maybe about \"Spliced wire rope used in lifting equipment is prohibited if the number of splices exceeds ___\" The correct number might be 5 because that's a typical limit.\n\nLet's search memory: In the \"Japanese Industrial Standard JIS A 1001\" for \"Cable crane rope\" or \"Wire rope for lifting equipment.\" There is a statement: \"Spliced wire rope is prohibited for use in lifting equipment, except when the number of splices does not exceed 5.\" That seems plausible.\n\nAlternatively, the regulation could be from \"JIS T 9102\" which states \"wire rope with splices shall not be used for lifting if the number of splices is 5 or more.\" So the number is 5.\n\nHence answer likely (A) 5.\n\nLet's answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 10312773566,
+            "load_duration": 184438922,
+            "prompt_eval_count": 134,
+            "prompt_eval_duration": 42118478,
+            "eval_count": 1335,
+            "eval_duration": 10081265712
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is the correct safety rule when pouring concrete?",
+        "options": {
+            "A": "Concrete should be poured all to one side.",
+            "B": "Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation.",
+            "C": "Concrete that has spilled onto the floor should be left to cure as is.",
+            "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T16:26:56.760655352Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "The user asks: \"Which of the following is the correct safety rule when pouring concrete?\" Options: (A) Concrete should be poured all to one side. (B) Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation. (C) Concrete that has spilled onto the floor should be left to cure as is. (D) For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once.\n\nWe need to pick the correct safety rule. Let's think.\n\nSafety rule: When pouring concrete, you should not pour all to one side. You should pour evenly to avoid weak points. Option A seems incorrect.\n\nOption B: If there is risk of formwork collapse, you should assess situation before finishing. The rule says \"the work should be completed first before assessing the situation\" which is dangerous. So B is incorrect.\n\nOption C: Concrete that spilled onto floor should be left to cure as is. That could be a safety hazard because of slip hazard and chemical. Usually you should clean up concrete spills promptly; if it can't be cleaned, treat with concrete remover. So C is incorrect.\n\nOption D: For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once. This is a construction rule to avoid weak spots and ensure proper curing, but not necessarily a safety rule? But among given options, D is the most plausible correct rule. The safety rule might refer to not leaving concrete spilled to cure because that could create a slip hazard. The best rule is to avoid cold joints. So D seems correct.\n\nThus answer: D.\n\nThe instructions: \"Answer with the option's letter from the given choices directly.\" So output: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3056732849,
+            "load_duration": 186345292,
+            "prompt_eval_count": 178,
+            "prompt_eval_duration": 48868932,
+            "eval_count": 370,
+            "eval_duration": 2815725939
+        },
+        "judge": "Correct"
+    }
+]

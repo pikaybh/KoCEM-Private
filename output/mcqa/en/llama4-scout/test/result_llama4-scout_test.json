@@ -1,0 +1,34 @@
+{
+    "model": "llama4-scout",
+    "split": "test",
+    "acc": 0.5544109878499736,
+    "std_dev": 0.4970962808332053,
+    "num_example": 3786,
+    "by_dimension": {
+        "Domain-specific Knowledge": {
+            "acc": 0.5850607576840601,
+            "std_dev": 0.4927996166429704,
+            "num_example": 2798
+        },
+        "Drawing Interpretation": {
+            "acc": 0.319672131147541,
+            "std_dev": 0.46827260271830734,
+            "num_example": 122
+        },
+        "Exper-level Comprehension": {
+            "acc": 0.18012422360248448,
+            "std_dev": 0.38548992784773206,
+            "num_example": 161
+        },
+        "Expert-level Reasoning": {
+            "acc": 0.5294117647058824,
+            "std_dev": 0.5001157809440088,
+            "num_example": 255
+        },
+        "Domain-specific Terminology": {
+            "acc": 0.5755555555555556,
+            "std_dev": 0.4948084849445045,
+            "num_example": 450
+        }
+    }
+}

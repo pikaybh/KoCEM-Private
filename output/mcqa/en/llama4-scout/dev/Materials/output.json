@@ -1,0 +1,314 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "What is the main use of terra-cotta?",
+        "options": {
+            "A": "Reinforcement of structural materials",
+            "B": "Waterproofing",
+            "C": "Insulation",
+            "D": "Decoration"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Decoration"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "## Step 1: Understanding Terra-Cotta\nTerra-cotta, which is Italian for \"baked earth,\" is a material made from clay and other minerals. It is often used in construction and decorative applications.\n\n## 2: Examining the Options\nOption (A) Reinforcement of structural materials - This is typically done with materials like steel or fiberglass, not terra-cotta.\nOption (B) Waterproofing - While terra-cotta can be used in applications where water resistance is needed, it's not primarily used for waterproofing.\nOption (C) Insulation - Terra-cotta can be used in insulation applications, especially in certain types of construction, but it's not its main use.\nOption (D) Decoration - Terra-cotta is widely used for decorative purposes, such as in pottery, sculptures, and architectural features like tiles and planters.\n\n## 3: Identifying the Main Use\nGiven the common applications of terra-cotta, such as making pots, planters, and certain types of roofing and flooring materials, it's clear that decoration and construction are significant uses. However, when considering the primary or most direct association, terra-cotta is often linked with decorative elements and structural components like bricks and tiles.\n\n## 4: Conclusion\nThe main use of terra-cotta is closely related to its aesthetic and structural applications. Among the given options, decoration stands out as a primary use, but in a broader sense, terra-cotta is also used in construction. However, the question seems to lean towards a more specific application.\n\nThe best answer is D.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:07:26.051908235Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Understanding Terra-Cotta\nTerra-cotta, which is Italian for \"baked earth,\" is a material made from clay and other minerals. It is often used in construction and decorative applications.\n\n## 2: Examining the Options\nOption (A) Reinforcement of structural materials - This is typically done with materials like steel or fiberglass, not terra-cotta.\nOption (B) Waterproofing - While terra-cotta can be used in applications where water resistance is needed, it's not primarily used for waterproofing.\nOption (C) Insulation - Terra-cotta can be used in insulation applications, especially in certain types of construction, but it's not its main use.\nOption (D) Decoration - Terra-cotta is widely used for decorative purposes, such as in pottery, sculptures, and architectural features like tiles and planters.\n\n## 3: Identifying the Main Use\nGiven the common applications of terra-cotta, such as making pots, planters, and certain types of roofing and flooring materials, it's clear that decoration and construction are significant uses. However, when considering the primary or most direct association, terra-cotta is often linked with decorative elements and structural components like bricks and tiles.\n\n## 4: Conclusion\nThe main use of terra-cotta is closely related to its aesthetic and structural applications. Among the given options, decoration stands out as a primary use, but in a broader sense, terra-cotta is also used in construction. However, the question seems to lean towards a more specific application.\n\nThe best answer is D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5139521618,
+            "load_duration": 182498888,
+            "prompt_eval_count": 56,
+            "prompt_eval_duration": 83022306,
+            "eval_count": 317,
+            "eval_duration": 4868009164
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?",
+        "options": {
+            "A": "Ultraviolet-blocking glass",
+            "B": "Heat-absorbing glass",
+            "C": "Heat-reflective glass",
+            "D": "Ultraviolet-transmitting glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Ultraviolet-blocking glass"
+            },
+            "explanation": "Ultraviolet rays have a shorter wavelength than visible light and cause chemical reactions, leading to transformation or disinfection. To prevent these effects, ultraviolet rays must be blocked."
+        },
+        "image_path": null,
+        "model_answer": "## Step 1: Understand the purpose of different types of glass\nTo solve this, let's first understand what each type of glass is used for. Ultraviolet-blocking glass is designed to block ultraviolet (UV) rays, heat-absorbing glass is used to reduce heat gain, heat-reflective glass is used to reflect heat, and ultraviolet-transmitting glass allows UV rays to pass through.\n\n## 2: Identify the specific need mentioned in the problem\nThe problem mentions the need to prevent chemical effects caused by ultraviolet rays in places like clothing displays and warehouses for food or medicine. This implies that the type of glass needed should block UV rays to prevent them from causing chemical reactions or degradation.\n\n## 3: Match the need with the type of glass\nGiven that UV rays can cause chemical reactions that lead to fading, degradation, or other forms of damage, the type of glass that would be most suitable for preventing these effects would be one that blocks UV rays.\n\n## 4: Select the appropriate type of glass\nUltraviolet-blocking glass is specifically designed to block UV rays. This would be ideal for protecting contents from the harmful effects of UV radiation, such as fading of colors or chemical degradation of materials.\n\n## 5: Choose the correct option\nBased on the need to block UV rays to prevent chemical effects, the correct option is the one that refers to glass that blocks UV rays.\n\nThe best answer is A.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:07:30.667573396Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Understand the purpose of different types of glass\nTo solve this, let's first understand what each type of glass is used for. Ultraviolet-blocking glass is designed to block ultraviolet (UV) rays, heat-absorbing glass is used to reduce heat gain, heat-reflective glass is used to reflect heat, and ultraviolet-transmitting glass allows UV rays to pass through.\n\n## 2: Identify the specific need mentioned in the problem\nThe problem mentions the need to prevent chemical effects caused by ultraviolet rays in places like clothing displays and warehouses for food or medicine. This implies that the type of glass needed should block UV rays to prevent them from causing chemical reactions or degradation.\n\n## 3: Match the need with the type of glass\nGiven that UV rays can cause chemical reactions that lead to fading, degradation, or other forms of damage, the type of glass that would be most suitable for preventing these effects would be one that blocks UV rays.\n\n## 4: Select the appropriate type of glass\nUltraviolet-blocking glass is specifically designed to block UV rays. This would be ideal for protecting contents from the harmful effects of UV radiation, such as fading of colors or chemical degradation of materials.\n\n## 5: Choose the correct option\nBased on the need to block UV rays to prevent chemical effects, the correct option is the one that refers to glass that blocks UV rays.\n\nThe best answer is A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4583576977,
+            "load_duration": 180782662,
+            "prompt_eval_count": 84,
+            "prompt_eval_duration": 117284568,
+            "eval_count": 286,
+            "eval_duration": 4278821727
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?",
+        "options": {
+            "A": "Urea resin",
+            "B": "Acrylic resin",
+            "C": "Silicone resin",
+            "D": "Melamine resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Silicone resin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "## Step 1: Analyzing the properties given\nThe problem describes a resin that has excellent heat and cold resistance, remains stable and elastic over a wide temperature range (-60 to 260℃), and also has outstanding weather and chemical resistance.\n\n## 2: Evaluating the options\n- **Urea resin (A)**: Known for its good electrical properties and resistance to many chemicals, but its temperature resistance range is not as broad as described.\n- **Acrylic resin (B)**: Has good weather resistance and can be formulated for various properties, but it might not fully match the described temperature stability and range.\n- **Silicone resin (C)**: Known for its excellent thermal stability, flexibility over a wide temperature range, and resistance to weather and chemicals, which aligns well with the description provided.\n- **Melamine resin (D)**: Offers good heat resistance and chemical resistance but might not fully match the broad temperature stability and elasticity described.\n\n## 3: Matching properties to the resin\nGiven the specific properties mentioned (excellent heat and cold resistance, stability and elasticity over -60 to 260℃, and outstanding weather and chemical resistance), silicone resin stands out. Silicone resins are well-known for their ability to maintain flexibility and performance over a wide range of temperatures, along with their resistance to weathering and chemicals.\n\nThe best answer is C.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:07:35.186294856Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Analyzing the properties given\nThe problem describes a resin that has excellent heat and cold resistance, remains stable and elastic over a wide temperature range (-60 to 260℃), and also has outstanding weather and chemical resistance.\n\n## 2: Evaluating the options\n- **Urea resin (A)**: Known for its good electrical properties and resistance to many chemicals, but its temperature resistance range is not as broad as described.\n- **Acrylic resin (B)**: Has good weather resistance and can be formulated for various properties, but it might not fully match the described temperature stability and range.\n- **Silicone resin (C)**: Known for its excellent thermal stability, flexibility over a wide temperature range, and resistance to weather and chemicals, which aligns well with the description provided.\n- **Melamine resin (D)**: Offers good heat resistance and chemical resistance but might not fully match the broad temperature stability and elasticity described.\n\n## 3: Matching properties to the resin\nGiven the specific properties mentioned (excellent heat and cold resistance, stability and elasticity over -60 to 260℃, and outstanding weather and chemical resistance), silicone resin stands out. Silicone resins are well-known for their ability to maintain flexibility and performance over a wide range of temperatures, along with their resistance to weathering and chemicals.\n\nThe best answer is C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4481764555,
+            "load_duration": 183664248,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 111065110,
+            "eval_count": 274,
+            "eval_duration": 4181242680
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?",
+        "options": {
+            "A": "Prism glass",
+            "B": "Insulating glass",
+            "C": "Wired glass",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prism glass"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "## Step1: Understand the purpose described in the question.\nThe question describes a specially-shaped glass product used to change the direction of projected light or to concentrate or diffuse it, mainly for daylighting in basements or roofs.\n\n## 1: Identify key characteristics mentioned.\nThe key characteristics mentioned are the ability to change the direction of projected light, concentrate, or diffuse it, and its primary use for daylighting in basements or roofs.\n\n## 2: Examine each option in relation to the characteristics.\n- (A) Prism glass: Prism glass or prismatic glass can refract light, changing its direction. It's used in applications where light needs to be redirected or concentrated, such as in lighting systems.\n- (B) Insulating glass: Primarily used for thermal insulation, reducing heat transfer between the inside and outside of a building. It doesn't specifically change the direction of light.\n- (C) Wired glass: Used for safety and security, wired glass has a wire mesh embedded within it. It doesn't have a primary function of altering light direction.\n- (D) Stained glass: Known for its decorative use, stained glass can filter and color light but isn't specifically designed for redirecting or concentrating light for daylighting purposes.\n\n## 3: Match the characteristics with the best option.\nGiven the need to change the direction of projected light or to concentrate or diffuse it for daylighting purposes, prism glass stands out. It is specifically designed to manipulate light in such a manner.\n\n## 4: Conclusion.\nBased on the description and the process of elimination, the best match for the description provided is prism glass.\n\nThe best answer is A.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:07:40.702702378Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step1: Understand the purpose described in the question.\nThe question describes a specially-shaped glass product used to change the direction of projected light or to concentrate or diffuse it, mainly for daylighting in basements or roofs.\n\n## 1: Identify key characteristics mentioned.\nThe key characteristics mentioned are the ability to change the direction of projected light, concentrate, or diffuse it, and its primary use for daylighting in basements or roofs.\n\n## 2: Examine each option in relation to the characteristics.\n- (A) Prism glass: Prism glass or prismatic glass can refract light, changing its direction. It's used in applications where light needs to be redirected or concentrated, such as in lighting systems.\n- (B) Insulating glass: Primarily used for thermal insulation, reducing heat transfer between the inside and outside of a building. It doesn't specifically change the direction of light.\n- (C) Wired glass: Used for safety and security, wired glass has a wire mesh embedded within it. It doesn't have a primary function of altering light direction.\n- (D) Stained glass: Known for its decorative use, stained glass can filter and color light but isn't specifically designed for redirecting or concentrating light for daylighting purposes.\n\n## 3: Match the characteristics with the best option.\nGiven the need to change the direction of projected light or to concentrate or diffuse it for daylighting purposes, prism glass stands out. It is specifically designed to manipulate light in such a manner.\n\n## 4: Conclusion.\nBased on the description and the process of elimination, the best match for the description provided is prism glass.\n\nThe best answer is A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5486644665,
+            "load_duration": 183479136,
+            "prompt_eval_count": 81,
+            "prompt_eval_duration": 115837401,
+            "eval_count": 332,
+            "eval_duration": 5181305572
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about the strength of wood is incorrect?",
+        "options": {
+            "A": "Of the various strengths of wood, the tensile strength parallel to the grain is the greatest.",
+            "B": "When wood is used as a column, it generally receives compressive force parallel to the grain.",
+            "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength.",
+            "D": "In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "## Step 1: Understanding the properties of wood strength\nWood has different strengths in different directions and under different types of loading, such as tension, compression, and shear. The strength of wood is influenced by its grain direction, moisture content, and the presence of knots or defects.\n\n## 2: Evaluating statement A about tensile strength parallel to the grain\nTensile strength parallel to the grain is indeed one of the highest strengths of wood, often greater than its compressive strength parallel to the grain but can be less than its compressive strength perpendicular to the grain in some cases. However, generally, tensile strength parallel to the grain is considered high.\n\n## 3: Evaluating statement B about compressive force parallel to the grain in columns\nWhen wood is used as a column, it typically receives compressive forces parallel to the grain. This is a common and efficient use of wood in construction because wood is stronger in compression parallel to the grain than in other directions.\n\n## 4: Evaluating statement C about the effect of moisture content on wood strength\nThe strength of wood is significantly affected by its moisture content, especially when the moisture content changes across the fiber saturation point (usually around 30% moisture content). Below this point, changes in moisture content have a more pronounced effect on wood's strength and dimensions.\n\n## 5: Evaluating statement D about tensile strength testing and net cross-sectional area\nIn tensile testing of wood, the calculation of tensile strength often considers the net cross-sectional area. However, for simplicity and standardization, the gross cross-sectional area is frequently used in calculations unless there are significant defects like large knots that would reduce the effective area.\n\n## 6: Identifying the incorrect statement\n- Statement A is generally correct as tensile strength parallel to the grain is one of the higher strengths.\n- Statement B is correct as columns made of wood do receive compressive forces parallel to the grain.\n- Statement C is correct in implying that moisture content affects wood strength, especially changes around the fiber saturation point.\n- Statement D suggests subtracting the area of dead knots from the cross-sectional area for tensile strength calculations, which might not always be the standard practice but could be considered for accuracy in certain contexts.\n\n## 7: Detailed consideration of statement A\nStatement A claims that the tensile strength parallel to the grain is the greatest. While tensile strength parallel to the grain is high, saying it is the greatest of all wood strengths might not always be accurate without context. Compressive strength perpendicular to the grain can sometimes be higher than tensile strength parallel to the grain for certain types of wood.\n\n## 8: Conclusion\nGiven the general understanding of wood properties:\n- The tensile strength parallel to the grain being the greatest might not hold universally true compared to other types of loading and grain directions.\n\nThe best answer is A.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:07:49.87477426Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Understanding the properties of wood strength\nWood has different strengths in different directions and under different types of loading, such as tension, compression, and shear. The strength of wood is influenced by its grain direction, moisture content, and the presence of knots or defects.\n\n## 2: Evaluating statement A about tensile strength parallel to the grain\nTensile strength parallel to the grain is indeed one of the highest strengths of wood, often greater than its compressive strength parallel to the grain but can be less than its compressive strength perpendicular to the grain in some cases. However, generally, tensile strength parallel to the grain is considered high.\n\n## 3: Evaluating statement B about compressive force parallel to the grain in columns\nWhen wood is used as a column, it typically receives compressive forces parallel to the grain. This is a common and efficient use of wood in construction because wood is stronger in compression parallel to the grain than in other directions.\n\n## 4: Evaluating statement C about the effect of moisture content on wood strength\nThe strength of wood is significantly affected by its moisture content, especially when the moisture content changes across the fiber saturation point (usually around 30% moisture content). Below this point, changes in moisture content have a more pronounced effect on wood's strength and dimensions.\n\n## 5: Evaluating statement D about tensile strength testing and net cross-sectional area\nIn tensile testing of wood, the calculation of tensile strength often considers the net cross-sectional area. However, for simplicity and standardization, the gross cross-sectional area is frequently used in calculations unless there are significant defects like large knots that would reduce the effective area.\n\n## 6: Identifying the incorrect statement\n- Statement A is generally correct as tensile strength parallel to the grain is one of the higher strengths.\n- Statement B is correct as columns made of wood do receive compressive forces parallel to the grain.\n- Statement C is correct in implying that moisture content affects wood strength, especially changes around the fiber saturation point.\n- Statement D suggests subtracting the area of dead knots from the cross-sectional area for tensile strength calculations, which might not always be the standard practice but could be considered for accuracy in certain contexts.\n\n## 7: Detailed consideration of statement A\nStatement A claims that the tensile strength parallel to the grain is the greatest. While tensile strength parallel to the grain is high, saying it is the greatest of all wood strengths might not always be accurate without context. Compressive strength perpendicular to the grain can sometimes be higher than tensile strength parallel to the grain for certain types of wood.\n\n## 8: Conclusion\nGiven the general understanding of wood properties:\n- The tensile strength parallel to the grain being the greatest might not hold universally true compared to other types of loading and grain directions.\n\nThe best answer is A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 9139145445,
+            "load_duration": 183394376,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 179298564,
+            "eval_count": 559,
+            "eval_duration": 8770828136
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct statement about the physical properties of wood?",
+        "options": {
+            "A": "Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+            "B": "The greater the specific gravity of the wood, the less it expands and contracts.",
+            "C": "Wood with a higher specific gravity also has greater strength.",
+            "D": "Wood with moisture content above the fiber saturation point is called green wood."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The greater the specific gravity of the wood, the less it expands and contracts."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "## Step 1: Understanding the properties of wood\nFirst, let's analyze each statement given in the options to assess their accuracy in relation to the physical properties of wood.\n\n## 2: Analyzing option A\nOption A mentions that the overall thermal conductivity of wood is low and that the lower the specific gravity, the lower the thermal conductivity. This statement is generally true because wood is a poor conductor of heat, and its thermal conductivity does indeed vary with specific gravity, among other factors. However, the relationship can be complex and influenced by moisture content and grain direction.\n\n## 3: Analyzing option B\nOption B states that the greater the specific gravity of the wood, the less it expands and contracts. This statement is not accurate. Generally, wood with higher specific gravity tends to have less shrinkage and swelling because it has a lower proportion of void spaces that can fill with water. However, the relationship between specific gravity and dimensional change is more nuanced, but typically, higher specific gravity woods do exhibit less movement with changes in moisture.\n\n## 4: Analyzing option C\nOption C suggests that wood with a higher specific gravity also has greater strength. This is generally true. Specific gravity is a measure of density, and denser woods tend to have higher strength properties. This is because the density is related to the amount of cell wall material, which contributes to strength.\n\n## 5: Analyzing option D\nOption D states that wood with a moisture content above the fiber saturation point is called green wood. This statement is true. The fiber saturation point is the moisture content at which the cell walls are fully saturated but the cell cavities are still air-filled. Wood above this point, but not yet waterlogged, is considered green.\n\n## 6: Identifying the incorrect statement\nGiven the explanations, option B seems to be the most questionable in its absolute wording. The relationship between specific gravity and dimensional change (expansion and contraction) is not straightforwardly inverse as implied. Higher specific gravity woods typically have less tendency to shrink or swell because they have fewer voids, but saying \"the greater the specific gravity of the wood, the less it expands and contracts\" could be misleading without context. However, considering common understandings and potential for misinterpretation, we need to assess if any statement fundamentally contradicts known properties of wood.\n\n## 7: Conclusion\nUpon review, option B (\"The greater the specific gravity of the wood, the less it expands and contracts.\") could be seen as generally true but might be considered less accurate or more context-dependent than the straightforward accuracy of the other statements regarding basic physical properties. However, the actual incorrectness or accuracy depends on understanding that wood's behavior is complex and influenced by many factors. The key is identifying a statement that is broadly recognized as incorrect.\n\nThe best answer is B.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:07:58.99500682Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Understanding the properties of wood\nFirst, let's analyze each statement given in the options to assess their accuracy in relation to the physical properties of wood.\n\n## 2: Analyzing option A\nOption A mentions that the overall thermal conductivity of wood is low and that the lower the specific gravity, the lower the thermal conductivity. This statement is generally true because wood is a poor conductor of heat, and its thermal conductivity does indeed vary with specific gravity, among other factors. However, the relationship can be complex and influenced by moisture content and grain direction.\n\n## 3: Analyzing option B\nOption B states that the greater the specific gravity of the wood, the less it expands and contracts. This statement is not accurate. Generally, wood with higher specific gravity tends to have less shrinkage and swelling because it has a lower proportion of void spaces that can fill with water. However, the relationship between specific gravity and dimensional change is more nuanced, but typically, higher specific gravity woods do exhibit less movement with changes in moisture.\n\n## 4: Analyzing option C\nOption C suggests that wood with a higher specific gravity also has greater strength. This is generally true. Specific gravity is a measure of density, and denser woods tend to have higher strength properties. This is because the density is related to the amount of cell wall material, which contributes to strength.\n\n## 5: Analyzing option D\nOption D states that wood with a moisture content above the fiber saturation point is called green wood. This statement is true. The fiber saturation point is the moisture content at which the cell walls are fully saturated but the cell cavities are still air-filled. Wood above this point, but not yet waterlogged, is considered green.\n\n## 6: Identifying the incorrect statement\nGiven the explanations, option B seems to be the most questionable in its absolute wording. The relationship between specific gravity and dimensional change (expansion and contraction) is not straightforwardly inverse as implied. Higher specific gravity woods typically have less tendency to shrink or swell because they have fewer voids, but saying \"the greater the specific gravity of the wood, the less it expands and contracts\" could be misleading without context. However, considering common understandings and potential for misinterpretation, we need to assess if any statement fundamentally contradicts known properties of wood.\n\n## 7: Conclusion\nUpon review, option B (\"The greater the specific gravity of the wood, the less it expands and contracts.\") could be seen as generally true but might be considered less accurate or more context-dependent than the straightforward accuracy of the other statements regarding basic physical properties. However, the actual incorrectness or accuracy depends on understanding that wood's behavior is complex and influenced by many factors. The key is identifying a statement that is broadly recognized as incorrect.\n\nThe best answer is B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 9085263999,
+            "load_duration": 179930871,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 151322116,
+            "eval_count": 562,
+            "eval_duration": 8747751895
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements about stone materials is incorrect?",
+        "options": {
+            "A": "Marble is strong but has low fire resistance and weathers easily.",
+            "B": "Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone.",
+            "C": "Travertine is a type of igneous rock and is used for interior decoration.",
+            "D": "Slate can be easily cut into thin sheets, making it suitable as a roofing material."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Travertine is a type of igneous rock and is used for interior decoration."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "## Step 1: Analyze option A about marble\nMarble is known for its aesthetic appeal and is often used in construction and decorative applications. It is a metamorphic rock that can be quite strong but has limitations in terms of durability when exposed to weathering due to its composition, primarily calcium carbonate, which reacts with acids. This makes option A seem generally correct in stating marble has low fire resistance and weathers easily.\n\n## 2: Examine option B about basalt\nBasalt is a type of igneous rock that is dark in color and has a fine-grained texture. It is known for its durability and resistance to weathering, which makes it suitable for a variety of construction applications. Basalt indeed has good fire resistance due to its high melting point. However, its suitability for processing can vary; it is often used in crushed form for aggregate but can also be used in dimension stone form for specific applications. This description seems mostly accurate.\n\n## 3: Evaluate option C about travertine\nTravertine is a type of sedimentary rock, not igneous. It is formed from the precipitation of calcium carbonate, often in areas around springs or caves. Travertine is commonly used for interior decoration due to its attractive appearance and is a popular choice for flooring, countertops, and wall coverings. The statement that travertine is a type of igneous rock is incorrect.\n\n## 4: Assess option D about slate\nSlate is a metamorphic rock that is known for its fine-grained texture and ability to be split into thin sheets. This property makes slate highly suitable for applications such as roofing, flooring, and blackboards. The statement that slate can be easily cut into thin sheets and is suitable as a roofing material is correct.\n\n## 5: Determine the incorrect statement\nGiven the information above, the statement about travertine being a type of igneous rock is incorrect. Igneous rocks are formed from the cooling and solidification of magma or lava, which is not how travertine is formed.\n\nThe best answer is C.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:08:05.94035935Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Analyze option A about marble\nMarble is known for its aesthetic appeal and is often used in construction and decorative applications. It is a metamorphic rock that can be quite strong but has limitations in terms of durability when exposed to weathering due to its composition, primarily calcium carbonate, which reacts with acids. This makes option A seem generally correct in stating marble has low fire resistance and weathers easily.\n\n## 2: Examine option B about basalt\nBasalt is a type of igneous rock that is dark in color and has a fine-grained texture. It is known for its durability and resistance to weathering, which makes it suitable for a variety of construction applications. Basalt indeed has good fire resistance due to its high melting point. However, its suitability for processing can vary; it is often used in crushed form for aggregate but can also be used in dimension stone form for specific applications. This description seems mostly accurate.\n\n## 3: Evaluate option C about travertine\nTravertine is a type of sedimentary rock, not igneous. It is formed from the precipitation of calcium carbonate, often in areas around springs or caves. Travertine is commonly used for interior decoration due to its attractive appearance and is a popular choice for flooring, countertops, and wall coverings. The statement that travertine is a type of igneous rock is incorrect.\n\n## 4: Assess option D about slate\nSlate is a metamorphic rock that is known for its fine-grained texture and ability to be split into thin sheets. This property makes slate highly suitable for applications such as roofing, flooring, and blackboards. The statement that slate can be easily cut into thin sheets and is suitable as a roofing material is correct.\n\n## 5: Determine the incorrect statement\nGiven the information above, the statement about travertine being a type of igneous rock is incorrect. Igneous rocks are formed from the cooling and solidification of magma or lava, which is not how travertine is formed.\n\nThe best answer is C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6911458996,
+            "load_duration": 187019038,
+            "prompt_eval_count": 114,
+            "prompt_eval_duration": 144731895,
+            "eval_count": 420,
+            "eval_duration": 6573850055
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "In the stress-strain curve diagram for steel, what do points A and C represent?",
+        "options": {
+            "A": "A: Proportional limit, C: Upper yield point",
+            "B": "A: Tensile strength, C: Proportional limit",
+            "C": "A: Proportional limit, C: Lower yield point",
+            "D": "A: Lower yield point, C: Fracture point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A: Proportional limit, C: Lower yield point"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20100307/bj20100307m72.gif?1522444684",
+        "model_answer": "## Step 1: Understand the stress-strain curve for steel\nThe stress-strain curve for steel typically has several key points that represent different stages of deformation under increasing stress. These points include the proportional limit, yield point (which can be upper and lower), tensile strength, and fracture point.\n\n## 2: Identify key points on the stress-strain curve\n- The proportional limit (or elastic limit) is the point up to which the material obeys Hooke's law, meaning stress is directly proportional to strain. Beyond this point, the material does not return to its original shape when the stress is removed, but up to this point, it does.\n- The yield point is where the material begins to deform plastically. For some materials like steel, there is an upper and a lower yield point. The upper yield point is the stress at which yielding first occurs, and the lower yield point is the stress at which the material continues to deform without a significant increase in stress.\n- The tensile strength is the maximum stress a material can withstand while being stretched or pulled before failing or breaking.\n- The fracture point is where the material breaks.\n\n## 3: Relate given points to the stress-strain curve\n- Point A is described in relation to the proportional limit because up to this point, the relationship between stress and strain is linear (Hooke's Law).\n- Point C, if related to a significant change or a specific point like yield, needs to be identified based on common stress-strain curve characteristics.\n\n## 4: Analyze the options\n- Option A suggests A is the proportional limit and C is the upper yield point.\n- Option B suggests A is the tensile strength and C is the proportional limit, which seems incorrect based on typical curve descriptions.\n- Option C suggests A is the proportional limit and C is the lower yield point.\n- Option D suggests A is the lower yield point and C is the fracture point.\n\n## 5: Determine the most accurate description\nGiven typical stress-strain curve characteristics:\n- The proportional limit is an early point (A).\n- The yield point (which can have upper and lower values) occurs after the proportional limit.\n\n## 6: Conclusion\nThe proportional limit is typically the first significant point on the stress-strain curve where the material's behavior changes from elastic to plastic deformation starting. The lower yield point is a point after which the material deforms plastically without a significant increase in stress. Thus, point A being the proportional limit and point C being a point like the lower yield point seems plausible.\n\nThe best answer is C.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llama4:scout",
+            "created_at": "2025-08-27T16:08:14.567265629Z",
+            "message": {
+                "role": "assistant",
+                "content": "## Step 1: Understand the stress-strain curve for steel\nThe stress-strain curve for steel typically has several key points that represent different stages of deformation under increasing stress. These points include the proportional limit, yield point (which can be upper and lower), tensile strength, and fracture point.\n\n## 2: Identify key points on the stress-strain curve\n- The proportional limit (or elastic limit) is the point up to which the material obeys Hooke's law, meaning stress is directly proportional to strain. Beyond this point, the material does not return to its original shape when the stress is removed, but up to this point, it does.\n- The yield point is where the material begins to deform plastically. For some materials like steel, there is an upper and a lower yield point. The upper yield point is the stress at which yielding first occurs, and the lower yield point is the stress at which the material continues to deform without a significant increase in stress.\n- The tensile strength is the maximum stress a material can withstand while being stretched or pulled before failing or breaking.\n- The fracture point is where the material breaks.\n\n## 3: Relate given points to the stress-strain curve\n- Point A is described in relation to the proportional limit because up to this point, the relationship between stress and strain is linear (Hooke's Law).\n- Point C, if related to a significant change or a specific point like yield, needs to be identified based on common stress-strain curve characteristics.\n\n## 4: Analyze the options\n- Option A suggests A is the proportional limit and C is the upper yield point.\n- Option B suggests A is the tensile strength and C is the proportional limit, which seems incorrect based on typical curve descriptions.\n- Option C suggests A is the proportional limit and C is the lower yield point.\n- Option D suggests A is the lower yield point and C is the fracture point.\n\n## 5: Determine the most accurate description\nGiven typical stress-strain curve characteristics:\n- The proportional limit is an early point (A).\n- The yield point (which can have upper and lower values) occurs after the proportional limit.\n\n## 6: Conclusion\nThe proportional limit is typically the first significant point on the stress-strain curve where the material's behavior changes from elastic to plastic deformation starting. The lower yield point is a point after which the material deforms plastically without a significant increase in stress. Thus, point A being the proportional limit and point C being a point like the lower yield point seems plausible.\n\nThe best answer is C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 8586823044,
+            "load_duration": 183318737,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 121475437,
+            "eval_count": 516,
+            "eval_duration": 8275737541
+        },
+        "judge": "Wrong"
+    }
+]

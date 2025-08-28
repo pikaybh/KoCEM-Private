@@ -1,0 +1,227 @@
+{
+    "val_Standard_Nomenclature_1": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_2": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_3": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_4": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_5": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_6": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_7": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_8": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Standard_Nomenclature_9": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Standard_Nomenclature_10": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Standard_Nomenclature_11": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_12": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_13": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_14": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_15": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_16": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_17": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_18": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_19": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Standard_Nomenclature_20": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Standard_Nomenclature_21": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_22": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_23": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_24": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Standard_Nomenclature_25": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "val_Standard_Nomenclature_26": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_27": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_28": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_29": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_30": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_31": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_32": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_33": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_34": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Standard_Nomenclature_35": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_36": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_37": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_38": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_39": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_40": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "val_Standard_Nomenclature_41": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "val_Standard_Nomenclature_42": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_43": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "val_Standard_Nomenclature_44": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "val_Standard_Nomenclature_45": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    }
+}

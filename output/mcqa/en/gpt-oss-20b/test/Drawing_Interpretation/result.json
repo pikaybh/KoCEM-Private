@@ -1,0 +1,20 @@
+{
+    "acc": 0.45901639344262296,
+    "std_dev": 0.500372439530227,
+    "num_example": 122,
+    "Easy": {
+        "acc": 0,
+        "std_dev": 0,
+        "num_example": 0
+    },
+    "Hard": {
+        "acc": 0,
+        "std_dev": 0,
+        "num_example": 0
+    },
+    "Medium": {
+        "acc": 0,
+        "std_dev": 0,
+        "num_example": 0
+    }
+}

@@ -1,0 +1,242 @@
+[
+    {
+        "id": "dev_Interior_816",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "Which of the following pairs of architect and work is incorrect?",
+        "options": {
+            "A": "Le Corbusier – Guggenheim Museum",
+            "B": "Frank Lloyd Wright – Fallingwater",
+            "C": "Antoni Gaudí – Casa Milà",
+            "D": "William Morris – Red House"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Le Corbusier – Guggenheim Museum"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:54.569339774Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to identify which pair is incorrect. Let's evaluate each.\n\nA) Le Corbusier – Guggenheim Museum. The Guggenheim Museum in New York was designed by Frank Lloyd Wright, not Le Corbusier. So that pair is incorrect. Let's check others.\n\nB) Frank Lloyd Wright – Fallingwater. That's correct. C) Antoni Gaudí – Casa Milà (also known as La Pedrera). Yes Gaudí designed that. D) William Morris – Red House. William Morris, along with Philip Webb, designed the Red House in Bexleyheath. So correct. So incorrect pair: A. So answer letter A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1350351608,
+            "load_duration": 234142781,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 43553776,
+            "eval_count": 144,
+            "eval_duration": 1067146149
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point half the span from the beam support.",
+            "B": "Where the compressive force is the least.",
+            "C": "Where the tensile force is the least.",
+            "D": "At a point one quarter of the span from the beam support."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is the least."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:57.239475101Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to pick the answer. The question: \"In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?\" Options: (A) At a point half the span from the beam support. (B) Where the compressive force is the least. (C) Where the tensile force is the least. (D) At a point one quarter of the span from the beam support.\n\nIn reinforced concrete beam splicing location typically near the mid-span or at the location of maximum tensile force? Actually splices should be placed in the region where the bending moment is maximum, i.e., midspan, or where the tension is highest. But the correct practice is to splice near the middle of the span where the bending moment is maximum? Let's think: For a simply supported beam under uniform load, maximum bending moment occurs at midspan, giving maximum tensile force at the bottom reinforcement. So splice location is recommended at midspan to reduce bending moment at splice. But some guidelines say splice should be located at the section where the bending moment is maximum or where tension is maximum. So answer would be (A) at half the span from support. That matches. But check alternative: Some say splicing should be where the tensile force is maximum to avoid reduction in moment. Option C says where tensile force is least, that seems wrong. Option B compressive force least - also wrong. Option D quarter span - less common.\n\nThus answer A. Let's answer \"A\".\n\n"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2632865257,
+            "load_duration": 185704755,
+            "prompt_eval_count": 159,
+            "prompt_eval_duration": 45585126,
+            "eval_count": 316,
+            "eval_duration": 2397629633
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_799",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "Which of the following bricklaying methods is the strongest?",
+        "options": {
+            "A": "Dutch bond",
+            "B": "English bond",
+            "C": "Flemish bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "English bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) English bond",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:18:58.19237578Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) English bond",
+                "thinking": "We need to choose the strongest bricklaying method. I know: English bond: alternating courses of headers and stretchers. Strongest. Dutch bond: similar? I'm not sure. American bond: American. Flemish bond: headers and stretchers in each course. Which is strongest? In masonry, English bond is considered strongest due to strong interlocking. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 901679735,
+            "load_duration": 182549354,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 38128541,
+            "eval_count": 90,
+            "eval_duration": 676342739
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_789",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "In the reinforcement arrangement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point halfway (1/2) along the span from the beam support",
+            "B": "Where the compressive force is minimal",
+            "C": "Where the tensile force is minimal",
+            "D": "At a point one-fourth (1/4) along the span from the beam support"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is minimal"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:19:03.955507865Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer: \"In the reinforcement arrangement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?\" Options: A) At a point halfway (1/2) along the span from the beam support, B) Where compressive force is minimal, C) Where tensile force is minimal, D) At a point one-fourth (1/4) along the span from the beam support.\n\nWe need to recall that splices in beams should be placed where bending moment is high? Actually, splicing main reinforcement bars: splice should be located in the region of maximum bending moment? Wait, the rule: \"Splices for longitudinal reinforcement should be placed at least a certain distance from the support, and usually in the region of maximum moment.\" For beams, the bending moment is highest near supports for simply supported beams with central load, but for symmetrical loads, midspan. Actually for a simply supported beam with uniform load, the bending moment is maximum at midspan. For a fixed-end beam with uniform load, maximum moment at supports. The idea: \"Splicing should be performed in the area of highest moment, not where moment is zero.\" And splices should not be placed where bending moment is zero, as that could cause stress concentration. Actually, the correct practice: splices for main bars should be placed at least 0.1d from the support, but ideally at the location of maximum moment. So the answer likely \"Where the tensile force is minimal\"? Wait, in a beam, tensile force is maximum at midspan for bending (when positive bending). Actually, for a simply supported beam, the top is in compression, bottom in tension. The tensile force is highest at midspan. So splicing where tensile force is minimal would be near supports. But typical guidelines: The splice should be in the middle of the beam's effective depth and near the region of maximum bending moment. Actually, let's research memory: According to ACI 318, splice location should be such that the splice and its bond length lie within the region of significant bending. The splice should not be placed where the moment is zero (like at the support for a simply supported beam). Wait, zero moment at support? For simply supported beam with uniformly distributed load, moment at support is zero indeed. So splicing near the support (where moment zero) is not recommended. So splice should be away from supports.\n\nHence the correct answer likely \"At a point halfway (1/2) along the span from the beam support\" or \"At a point one-fourth (1/4) along the span from the beam support\"? Which is best? Typically, the splice location should be at or near the middle of the beam for uniform loading. So 1/2 of span. However, guidelines say splice at or near the mid-span region (the maximum moment). So answer A.\n\nBut Option C says \"Where tensile force is minimal\" which would be near supports (like 0) but splicing near supports is not recommended. So that is wrong. Option B says \"Where compressive force is minimal\" which is same as tensile? Actually compressive force is maximal at midspan for bottom tension, top compression? For simply supported with central load, compression maximum at midspan too. So minimal at supports. So B also near supports. So not correct.\n\nOption D says 1/4 along span from support. That is not center. That is 1/4. So likely not the best.\n\nThus answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5730389531,
+            "load_duration": 190006027,
+            "prompt_eval_count": 169,
+            "prompt_eval_duration": 49077845,
+            "eval_count": 731,
+            "eval_duration": 5485777767
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_477",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT considered an evacuation device or equipment (devices or equipment used for evacuation) used in case of fire?",
+        "options": {
+            "A": "Automatic fire alarm system",
+            "B": "Artificial resuscitator",
+            "C": "Emergency lighting",
+            "D": "Emergency escape descent device"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Artificial resuscitator",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:19:07.401296549Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) Artificial resuscitator",
+                "thinking": "We need to determine which of the listed is NOT considered an evacuation device or equipment used in case of fire. Options:\n\n(A) Automatic fire alarm system - this alerts people to fire and triggers evacuation, but it's not necessarily a device for evacuation like a door or escape ladder? But it's used to notify. But the question says \"devices or equipment used for evacuation\". Automatic fire alarm system might not be an evacuation device; it's a detection and notification system. It could be considered part of fire safety but not a device that actually aids evacuation physically. But let's analyze others:\n\n(B) Artificial resuscitator - it's a medical device used to provide artificial respiration. Not necessarily for evacuation. Not used for evacuation physically. So maybe it's NOT considered an evacuation device. But the question: \"Which of the following is NOT considered an evacuation device or equipment (devices or equipment used for evacuation) used in case of fire?\" So we need the one that is not used for evacuation.\n\nOption (C) Emergency lighting: used to illuminate exit routes for evacuation. So it is used for evacuation.\n\nOption (D) Emergency escape descent device: obviously used for evacuation (like a rope or harness to descend in emergencies). So yes used for evacuation.\n\nNow (A) Automatic fire alarm system: used to detect fire and notify. It is used for evacuation because it triggers the evacuation. But the phrase \"devices or equipment used for evacuation\" might mean physically used by evacuees to leave. But the fire alarm system triggers the evacuation but is not used by evacuees to leave physically. However, it's part of fire safety. But maybe the answer is (B) artificial resuscitator, because it's a medical device, not part of evacuation. So which is NOT considered an evacuation device? Likely (B). But let's consider typical list of evacuation devices: fire alarm system, smoke alarm, exit sign, emergency lighting, fire hose, etc. Artificial resuscitator is not. So answer is B.\n\nThus answer: (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3415827447,
+            "load_duration": 181215384,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 42795889,
+            "eval_count": 426,
+            "eval_duration": 3187027912
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_852",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.28999999165534973,
+        "question": "Which of the following is least related to Byzantine architecture?",
+        "options": {
+            "A": "Pendentive dome",
+            "B": "Dosseret",
+            "C": "Flying buttress",
+            "D": "Mosaic"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Flying buttress"
+            },
+            "explanation": "The flying buttress is from Gothic architecture."
+        },
+        "image_path": null,
+        "model_answer": "(C) Flying buttress",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:19:10.781107428Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C) Flying buttress",
+                "thinking": "We need to pick which is least related to Byzantine architecture. By definition, Byzantine architecture features include: pendentive dome (like Hagia Sophia), mosaic decoration, and use of domes, use of marble. Dosseret? Actually \"Dosseret\" is a French term for a support or buttress? Let's examine: A dosseret is a buttress or a vertical support? In architecture, a \"dosseret\" is a type of buttress, maybe used in French Gothic? Wait: \"dosseret\" might be a type of buttress used in French church architecture. But we need to determine which of these is least related to Byzantine architecture.\n\nPendentive dome: definitely used. Mosaic: also used. Flying buttress: used in Gothic architecture. Dosseret: I'm not sure. But I think the least related would be flying buttress. Because Byzantine architecture does not use flying buttresses. They use support walls, but not flying buttresses. So answer: (C). But the question: \"Which of the following is least related to Byzantine architecture?\" Options: A Pendentive dome (used), B Dosseret (?), C Flying buttress (used in Gothic), D Mosaic (used). So least related: C.\n\nBut double-check: \"Dosseret\" is indeed a type of buttress, used in French Gothic. Not Byzantine. So also not. But the question might require one answer: \"Flying buttress\". But also \"Dosseret\" might also be less relevant. Let's research: Dosseret, also known as \"squat buttress\" or \"buttress\", used in French Gothic and Romanesque. But not in Byzantine. So both B and C are not used. But we must choose the least related. Among those, which is least related? The best answer is \"Flying buttress\" because it's typical of Gothic, not Byzantine. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3348558776,
+            "load_duration": 182568759,
+            "prompt_eval_count": 120,
+            "prompt_eval_duration": 55179201,
+            "eval_count": 411,
+            "eval_duration": 3105797994
+        },
+        "judge": "Correct"
+    }
+]

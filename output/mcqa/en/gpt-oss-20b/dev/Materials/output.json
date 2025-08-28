@@ -1,0 +1,322 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "What is the main use of terra-cotta?",
+        "options": {
+            "A": "Reinforcement of structural materials",
+            "B": "Waterproofing",
+            "C": "Insulation",
+            "D": "Decoration"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Decoration"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) Decoration",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:05.419306852Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Decoration",
+                "thinking": "We need to answer the question: \"What is the main use of terra-cotta?\" Options: (A) Reinforcement of structural materials, (B) Waterproofing, (C) Insulation, (D) Decoration.\n\nTerra-cotta is a fired clay product, used historically as decorative architectural elements, ceramic tiles, bricks. Main uses: decorative elements like ornamental architectural details, also used for roofing tiles, pottery. It can be used as a cladding material for exterior walls, but primarily decorative. It is also used for heat insulation? Actually terra cotta bricks used for masonry, but not primarily insulation. It is used as decorative plaster. So main use: Decoration.\n\nThus answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1427289186,
+            "load_duration": 182594107,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 42179695,
+            "eval_count": 155,
+            "eval_duration": 1197505562
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?",
+        "options": {
+            "A": "Ultraviolet-blocking glass",
+            "B": "Heat-absorbing glass",
+            "C": "Heat-reflective glass",
+            "D": "Ultraviolet-transmitting glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Ultraviolet-blocking glass"
+            },
+            "explanation": "Ultraviolet rays have a shorter wavelength than visible light and cause chemical reactions, leading to transformation or disinfection. To prevent these effects, ultraviolet rays must be blocked."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:06.186107609Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?\" So they want glass that blocks UV to prevent chemical degradation. That's Ultraviolet-blocking glass. So answer A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 736969415,
+            "load_duration": 190222028,
+            "prompt_eval_count": 150,
+            "prompt_eval_duration": 42534596,
+            "eval_count": 69,
+            "eval_duration": 498970373
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?",
+        "options": {
+            "A": "Urea resin",
+            "B": "Acrylic resin",
+            "C": "Silicone resin",
+            "D": "Melamine resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Silicone resin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:07.436727717Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to choose which resin meets description: excellent heat and cold resistance, remains stable and elastic from -60 to 260°C, outstanding weather and chemical resistance. Which resin? Among options: Urea, Acrylic, Silicone, Melamine.\n\nSilicone resin is known for high temperature stability (can withstand -60 to +260°C or more), flexible, excellent weather resistance and chemical resistance. Silicone also has good temperature range. Acrylic resin typically low temperature, not that high. Urea formaldehyde also not good. Melamine resin also not good. So answer is silicone resin (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1214834146,
+            "load_duration": 178873828,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 44220233,
+            "eval_count": 131,
+            "eval_duration": 986944169
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?",
+        "options": {
+            "A": "Prism glass",
+            "B": "Insulating glass",
+            "C": "Wired glass",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prism glass"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:08.40356586Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer which specially-shaped glass product is designed to change direction of projected light or to concentrate or diffuse it, mainly used for daylighting in basements or roofs. The options: Prism glass, Insulating glass, Wired glass, Stained glass. The description matches \"Prism glass\" which directs and diffuses light, used in daylighting basements and roofs. So answer: A.\n\nWe must answer with the letter. So \"A\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 936902194,
+            "load_duration": 145300479,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 45294705,
+            "eval_count": 103,
+            "eval_duration": 740796965
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about the strength of wood is incorrect?",
+        "options": {
+            "A": "Of the various strengths of wood, the tensile strength parallel to the grain is the greatest.",
+            "B": "When wood is used as a column, it generally receives compressive force parallel to the grain.",
+            "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength.",
+            "D": "In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:10.382144091Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to pick incorrect statement. Let's analyze each.\n\n(A) Tensile strength parallel to grain is the greatest of various strengths of wood. Typically, wood has highest tensile strength parallel to grain. That's true.\n\n(B) When wood used as a column, it generally receives compressive force parallel to grain. That's true: compression parallel to grain is high.\n\n(C) If moisture content higher than fiber saturation point, changes in moisture content greatly affect the strength. Actually fiber saturation point is ~25-30% moisture content. Above that, wood doesn't gain more water; moisture content changes above fiber saturation point don't significantly affect strength? Let's recall: Fiber saturation point ~25% moisture; above it, water is in cell cavities not bound to cellulose. So strength isn't affected as much by changes above fiber saturation point. Thus statement saying \"changes in moisture content greatly affect the strength\" is incorrect.\n\n(D) In tensile strength testing, net cross-sectional area assumed by subtracting area of dead knots. That is typical: test area subtracts knots? I'm not certain but seems plausible.\n\nThus incorrect is (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1947266099,
+            "load_duration": 183137532,
+            "prompt_eval_count": 189,
+            "prompt_eval_duration": 46798629,
+            "eval_count": 232,
+            "eval_duration": 1712979329
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct statement about the physical properties of wood?",
+        "options": {
+            "A": "Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+            "B": "The greater the specific gravity of the wood, the less it expands and contracts.",
+            "C": "Wood with a higher specific gravity also has greater strength.",
+            "D": "Wood with moisture content above the fiber saturation point is called green wood."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The greater the specific gravity of the wood, the less it expands and contracts."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:43.184443566Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to determine which statement is NOT correct about physical properties of wood.\n\nWe have options:\n\n(A) Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity. That sounds correct: low SG => less dense => lower thermal conductivity.\n\n(B) The greater the specific gravity of the wood, the less it expands and contracts. Usually, wood with higher specific gravity tends to be more dimensional stable (less shrinkage). So this seems correct.\n\n(C) Wood with a higher specific gravity also has greater strength. Higher SG => more dense => generally stronger. Correct.\n\n(D) Wood with moisture content above the fiber saturation point is called green wood. Actually, \"green wood\" refers to freshly cut wood, which has high moisture content, often above fiber saturation point? Wait: Fiber saturation point is about 25-30% moisture. Above that, wood is \"green\" (wet). But typical definition: green wood is wood that has not been dried, has moisture content above fiber saturation point, and is still pliable. Actually, fiber saturation point is 30% moisture. Above that, wood is \"green\". So statement D: \"Wood with moisture content above the fiber saturation point is called green wood.\" That is correct.\n\nBut maybe the nuance: \"green wood\" refers to wood that has just been cut, not yet cured; its moisture content is about 20-30% (near fiber saturation). Actually, green wood has moisture content above fiber saturation point? Let’s think: The fiber saturation point is about 25-30% moisture by weight. Above that, wood has no cell wall swelling; moisture is in intercellular spaces, so wood is still saturated but the cell walls are fully saturated. So green wood may indeed have moisture content above fiber saturation. But is the statement \"above fiber saturation point\" correct? I think yes, because green wood has moisture > 25%? Some definitions: \"green wood\" has moisture content > 25% or 30%, not necessarily above fiber saturation? Actually, fiber saturation is 25-30% by weight; beyond that, water is only intercellular. So green wood (fresh cut) has moisture > 25-30% (above FS). So D is correct.\n\nLet's double-check each statement for correctness:\n\n(A) Thermal conductivity low, lower SG => lower conductivity. True.\n\n(B) Greater SG => less expansion/ contraction. Usually, high density wood has less shrinkage, but is that always? I think yes: shrinkage decreases with increasing specific gravity. So B is correct.\n\n(C) Higher SG => greater strength. Yes.\n\n(D) Green wood definition. But I'm not 100% sure. Let's recall: \"green wood\" refers to wood that has not been dried or cured, typically has a moisture content above the fiber saturation point. Actually, I think the definition: Green wood is fresh cut wood, typically moisture content above fiber saturation (~25-30%). So D is correct.\n\nThus all statements seem correct. But the question: Which is NOT a correct statement? That implies one of them is incorrect. Which one? Maybe B is wrong? Let's re-evaluate B: \"The greater the specific gravity of the wood, the less it expands and contracts.\" Expansion and contraction due to moisture. Wood that has higher SG tends to shrink less; but does it expand less? Possibly. However, it's the inverse: higher SG -> less shrinkage and less swelling. So less expansion and contraction. That seems correct.\n\nMaybe D is wrong because \"green wood\" refers to wood that hasn't been dried, but its moisture content is actually above the fiber saturation point? Wait, typical fiber saturation point is the point at which the cell walls are saturated, but there may still be moisture in the lumen. Above FS, wood is still wet, but the term \"green wood\" might refer to wood that has moisture content > 25%. That is above FS. So D is correct.\n\nCould there be nuance: \"green wood\" is fresh cut wood with moisture content up to 30-40% but usually less than 25%? But typical wood moisture content of fresh cut is about 30-40% maybe. Yes.\n\nLet's look up standard definitions: \"Green wood\" is wood cut fresh and not yet seasoned, containing more moisture than seasoned wood. Usually moisture content is above 25-30%. So D is correct.\n\nWait, maybe the statement D is wrong because green wood is defined as wood with moisture content above the fiber saturation point (FS), but that's not exactly the definition: FS is about 25-30%; green wood can be above FS but often it's above 25% but not necessarily above FS. But it's still \"green\". The statement says \"above the fiber saturation point\" which is correct: green wood is above FS. So D correct.\n\nThus which statement is incorrect? Let's search memory: Wood's thermal conductivity: It's low, but the relationship with specific gravity is not always linear. But it's generally that lower SG => lower conductivity. So A seems correct.\n\nWood's dimensional stability: high SG -> less shrinkage? Actually, it's the opposite: low SG wood tends to shrink more. So B is correct.\n\nWood strength: high SG -> stronger. Yes.\n\nThus all correct. But we need one not correct. Possibly B? Wait: The statement: \"The greater the specific gravity of the wood, the less it expands and contracts.\" The phrase \"expands and contracts\" refers to swelling and shrinkage with moisture. Higher SG tends to have lower shrinkage and swelling, but does it \"less expand\" meaning less swelling? Yes. So B correct.\n\nMaybe D: The definition of green wood is wood that has not been dried; its moisture content is typically > 25% but below fiber saturation point? Actually, green wood is above fiber saturation? Let's check: According to Wood Handbook, the fiber saturation point is the moisture content at which all cell walls are saturated; above that, moisture is only in the lumen. Freshly cut wood (green wood) typically has moisture content above the fiber saturation point. So D correct.\n\nSo maybe the trick: Statement B is not correct because wood with greater SG actually expands more when wet? Wait, consider expansion in thickness due to moisture absorption: the dimensional changes are largely due to cell wall swelling, which is relatively independent of SG? But the ratio of swelling is lower for high density wood. So B stands.\n\nLet's double-check with wood science: Shrinkage values (radial, tangential) decrease as specific gravity increases. Similarly, modulus of elasticity increases. Thermal conductivity increases with SG. So A is correct.\n\nWait, the question: Which of the following is NOT a correct statement about the physical properties of wood? We might have misinterpreted D. Perhaps the definition is wrong: \"Wood with moisture content above the fiber saturation point is called green wood.\" Actually, \"green wood\" means fresh cut, which has moisture content above fiber saturation point. But is that always true? Let's think: Fiber saturation point (FS) is about 25% moisture. But green wood might have moisture content ~30-40%. So yes it's above FS. So D correct.\n\nIs there any nuance: Wood above FS is called \"wet wood\" or \"green wood\"? The term \"green wood\" may refer to wood that is fresh cut, meaning moisture content can be greater than FS. That seems correct.\n\nThus we must identify the incorrect statement; maybe it's B. Let's verify: \"The greater the specific gravity of the wood, the less it expands and contracts.\" In terms of swelling, the radial swelling is inversely proportional to density. But does higher SG also lead to less expansion? The swelling of high-density wood may actually be less, yes. So B is correct.\n\nWhat about A: \"Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.\" Thermal conductivity of wood increases with density. So low SG => low conductivity. So correct.\n\nC: Strength increases with SG. Correct.\n\nThus all are correct. But the question expects one not correct. Could be a trick: D says above FS is green wood; but actually \"green wood\" is wood that hasn't been dried, but its moisture content is typically less than FS? Let's check: According to ASTM D1037, green wood has moisture content above fiber saturation? Actually, standard: green wood has moisture content above the fiber saturation point. So D correct.\n\nLet's search memory: I think green wood is defined as wood that has moisture content higher than fiber saturation point. So D correct.\n\nWait maybe D is wrong: It should be \"Wood with moisture content above the fiber saturation point is called wet wood, not green wood.\" But I think it's still green. But I'm not fully sure.\n\nLet's think: The fiber saturation point is the point where the cell wall is saturated; above this point, the wood cannot swell further. Freshly cut wood is green and still has water in the lumen; moisture content above FS is indeed green wood. So D correct.\n\nMaybe the trick: The phrase \"green wood\" is ambiguous: Some definitions: green wood is wood cut fresh and still contains a high moisture content, typically above the fiber saturation point. So yes.\n\nThus I'm stuck. Maybe the answer is B because it says \"less expands and contracts\" but actually wood with higher SG expands more due to its higher density? But that seems wrong. Let's check: For swelling, the dimensional changes are due to changes in moisture. High density wood has lower swelling ratio. So less expands.\n\nBut maybe the statement is incomplete: It might refer to overall expansion vs. contraction relative to moisture content change? Wood expands when wet, contracts when dry. High SG wood may expand more because of the higher absolute mass of water absorbed? Actually, expansion is relative to the wood's dimensions. High density wood has less expansion ratio. So statement is correct.\n\nWait, maybe the phrase \"expands and contracts\" refers to thermal expansion? Wood's coefficient of thermal expansion is independent of SG? Actually, the coefficient of thermal expansion is not strongly dependent on SG, but the overall expansion may be more for lower SG wood? But I'm not sure.\n\nLet's double-check typical values: For hardwood, coefficient of linear thermal expansion (CLTE) is about 5-6 µm/m°C. It does not vary drastically with density. But maybe higher density wood expands less with temperature? I'd guess less.\n\nBut the statement refers to moisture expansion, not thermal.\n\nLet's re-express: The greater the specific gravity of the wood, the less it expands and contracts. This is correct for dimensional changes due to moisture.\n\nHence maybe the question purposely includes one false statement: Which is NOT correct? Perhaps D: \"Wood with moisture content above the fiber saturation point is called green wood.\" Actually, that's not true: Green wood is fresh cut wood, but moisture content above fiber saturation point is \"wet wood\". But typical classification: \"green wood\" is wood that hasn't been dried; the moisture content is high, above fiber saturation point. So D is correct. However, some may consider \"green wood\" as \"fresh-cut wood\" regardless of moisture content. But the phrase \"above the fiber saturation point\" might be considered incorrect: Because the fiber saturation point is around 25-30% moisture; wood above that is not \"green\" but \"wet\"? But I think it's still green.\n\nLet's consider a quick check: A wood with moisture content above the fiber saturation point is called \"green wood\". Many textbooks say: \"Green wood\" refers to wood freshly cut, with moisture content above fiber saturation point. So D correct.\n\nLet's examine B again: \"The greater the specific gravity of the wood, the less it expands and contracts.\" This statement may refer to linear thermal expansion. Actually, the coefficient of thermal expansion is relatively constant regardless of SG. But the actual expansion might be less for higher SG because the coefficient of thermal expansion is smaller for denser wood? Actually, CLTE of wood can vary but is usually between 5-8 µm/m°C, not strongly related to density. So the statement may be partially incorrect: specific gravity doesn't strongly affect thermal expansion. But the statement didn't specify thermal; it just says expands and contracts (maybe due to moisture). So okay.\n\nLet's check A: Thermal conductivity low, lower SG -> lower conductivity. This is true.\n\nC: Strength increases with SG. True.\n\nSo maybe the only potential false is B. Because high specific gravity does not necessarily mean less expansion and contraction (maybe due to temperature). But the phrase is ambiguous. But in wood science, dimensional changes due to moisture are less for high density wood. So still correct.\n\nHowever, the question likely expects D to be the incorrect statement. Let's test: Are we sure D is incorrect? Let's analyze: \"Wood with moisture content above the fiber saturation point is called green wood.\" According to some sources, green wood is defined as fresh-cut wood; its moisture content can be above fiber saturation point. But the phrase \"above fiber saturation point\" is not necessarily correct because fiber saturation point is 25-30%. Green wood might have moisture content of 30-60%? But \"above fiber saturation point\" might mean >25-30%? That is correct. But maybe the phrase is reversed: It might be \"below the fiber saturation point\" that is called green wood? Let's check: At moisture content above FS, the cell walls are saturated but the wood still holds water in the lumen. That is still green. So the statement is correct.\n\nLet's recall: Fiber saturation point is about 25-30% moisture. Green wood is above that. So D correct.\n\nWait, what if the definition used in many textbooks: Green wood is wood with moisture content > 25% and < 30%? Actually, no.\n\nLet's search memory: In \"Wood Handbook\" by US Forest Service, green wood is fresh-cut wood, moisture content typically 25-60% depending on species. So above FS indeed.\n\nThus all correct. But maybe the trick: The statement B might be wrong because the \"greater the specific gravity, the less it expands and contracts\" is not a general statement: Wood with high SG may actually expand and contract more due to moisture due to differences in cell wall composition? But that seems unlikely.\n\nLet's look at typical data: For softwoods, shrinkage rates (radial, tangential) correlate inversely with density. For hardwoods too. So B correct.\n\nThus the question likely expects the answer: D, because it's the only statement that might be wrong? Let's double-check D's wording: \"Wood with moisture content above the fiber saturation point is called green wood.\" The fiber saturation point is the moisture content at which the cell walls are fully saturated; above that point, water only exists in the lumen. The wood is considered \"green\" if moisture > FS. This is a correct definition. But sometimes wood above FS is \"green\" and \"wet.\" So D is correct.\n\nWait, what about the phrase \"above the fiber saturation point\" meaning above the fiber saturation point? But maybe it's \"below\" fiber saturation point? Let's check: In some literature, the fiber saturation point is ~25-30% moisture. Wood that has moisture content above FS is called \"green,\" but wood below FS is \"dry.\" So D correct.\n\nThus maybe the question purposely includes one false: Could be B because the wording is ambiguous. Let's examine B again: \"The greater the specific gravity of the wood, the less it expands and contracts.\" But consider thermal expansion: The coefficient of thermal expansion is indeed roughly constant across densities, so high SG wood may actually have similar expansion. But B refers to expansion and contraction maybe due to moisture: high SG wood has lower shrinkage but also lower swelling ratio. So B correct.\n\nMaybe A is wrong: Thermal conductivity is low; the lower the specific gravity, the lower the thermal conductivity. But is thermal conductivity proportional to specific gravity? Actually, thermal conductivity of wood is strongly related to density, but it's not linear: The relationship is not that low SG always low conductivity, because wood has anisotropy; but generally yes. So A is likely correct.\n\nLet's think of possible trick: Wood with moisture content above fiber saturation point is called green wood. Wait, maybe it's \"Wood with moisture content above fiber saturation point is called wet wood\" not green. But green refers to fresh-cut wood, which may be above FS. But perhaps the official definition is \"Wood with moisture content above fiber saturation point is called wet wood, not green.\" But I'm not certain.\n\nLet's search memory: In the American National Standard for wood: \"Green wood\" is freshly cut wood that has not been dried or seasoned. Its moisture content is usually above the fiber saturation point. So D correct.\n\nThus I'm stuck.\n\nMaybe the trick: The question is from a test for wood physics, and one statement is not correct: They may consider B wrong because the greater the specific gravity, the greater the shrinkage? But no.\n\nLet's check typical relationship: Shrinkage (radial, tangential) decreases with increasing density. So B correct.\n\nAlternatively, maybe they think D is wrong because \"green wood\" refers to fresh cut wood regardless of moisture, but it's not necessarily above fiber saturation point. Actually, fresh cut wood can have moisture content of ~10% or less if stored? No, fresh cut wood will have high moisture content. But there might be \"green wood\" used in green timber for construction, but the moisture content might be below FS? That seems unlikely.\n\nBut perhaps the correct answer is D because it's mis-stated: The fiber saturation point is about 25% moisture; above that, wood can still be green. But the statement says \"above fiber saturation point\" is called green wood. That is true. So it's not incorrect.\n\nLet's think again: The phrase \"above the fiber saturation point\" is somewhat ambiguous: If wood is above fiber saturation point, it means it's saturated, not green. But green wood might be \"dry\" if it's been dried, not above FS. But I'm not convinced.\n\nMaybe the best answer: B, because the phrase \"less expands and contracts\" could be misinterpreted; it's about dimensional stability. But it's still correct.\n\nWait, the statement B might be wrong in one context: \"The greater the specific gravity of the wood, the less it expands and contracts.\" Actually, in thermal expansion, high density wood may have a higher coefficient of thermal expansion. But the coefficient of thermal expansion is roughly constant, but the amount of expansion per degree may differ due to differences in moisture content? Hmm.\n\nLet's check: According to data, CLTE for spruce: 5-7 µm/m°C. For hardwoods: 7-8 µm/m°C. For high density hardwood: 8 µm/m°C. So indeed, CLTE may increase slightly with density. So B might be wrong in thermal context. But B didn't specify context. Usually wood expansion refers to moisture expansion. So maybe they intentionally left ambiguous.\n\nGiven typical wood property tests, they'd ask: \"Which of the following is NOT a correct statement about the physical properties of wood?\" They might be testing knowledge of \"green wood\" definition. Many might think green wood is wood above fiber saturation point, but actually it's wood above fiber saturation point that is considered \"wet,\" not necessarily \"green.\" But I'm not sure.\n\nLet's look up \"fiber saturation point definition.\" According to \"Wood Handbook,\" \"Green wood\" is wood that is fresh cut and hasn't been dried; its moisture content is typically above 25% (the fiber saturation point). So D correct.\n\nMaybe the answer is D is wrong because it uses \"above\" incorrectly; it should be \"below\"? Wait, let's examine: At fiber saturation point, the cell walls are saturated; above that, water is in the lumen. So if wood is above FS, it's saturated but still has free water. That is still considered \"green.\" So D correct.\n\nAnother thought: The phrase \"the greater the specific gravity, the less it expands and contracts.\" Could be misinterpreted as \"less expansion and contraction in terms of thermal expansion\"? Actually, the coefficient of thermal expansion is not strongly dependent on density. So the statement might be considered false if interpreted as thermal. But the question might not specify context. In a typical wood physical property test, they'd ask about dimensional stability due to moisture; the phrase \"expands and contracts\" is typical for moisture expansion. So B correct.\n\nLet's search memory: Which statement is NOT correct: Perhaps answer is D. Because wood with moisture content above the fiber saturation point is not green wood; it's \"wet wood\" (or \"green\" but they might differentiate). I'm leaning that D is the incorrect statement.\n\nGiven the typical exam answer patterns, I'd answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 32754462146,
+            "load_duration": 198818045,
+            "prompt_eval_count": 172,
+            "prompt_eval_duration": 46029889,
+            "eval_count": 4288,
+            "eval_duration": 32504281563
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements about stone materials is incorrect?",
+        "options": {
+            "A": "Marble is strong but has low fire resistance and weathers easily.",
+            "B": "Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone.",
+            "C": "Travertine is a type of igneous rock and is used for interior decoration.",
+            "D": "Slate can be easily cut into thin sheets, making it suitable as a roofing material."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Travertine is a type of igneous rock and is used for interior decoration."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:46.013562323Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to determine which statement is incorrect regarding stone materials. Options:\n\n(A) Marble is strong but has low fire resistance and weathers easily. Marble is a metamorphic rock. It is relatively strong (compressive strength high), but is susceptible to chemical weathering (acid attack) and is not fire resistant? Marble can withstand high temperatures, but I think it can soften or blacken. Marble is generally used in high-temperature environments? Actually, marble is a metamorphosed limestone, high carbonate content, so it's susceptible to acid rain and chemical weathering. Fire resistance: I think marble is not particularly fire resistant; it can be used in high-temperature but will eventually degrade. The statement \"low fire resistance\" may be correct. \"Weathers easily\" also correct. So A is likely correct.\n\n(B) Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone. Basalt is an igneous rock, dense, good fire resistance, used in roads as crushed stone. That is correct.\n\n(C) Travertine is a type of igneous rock and is used for interior decoration. Travertine is a type of limestone, a sedimentary rock formed by precipitation of calcium carbonate from mineral springs. It's not igneous. So statement is incorrect. So answer: C.\n\n(D) Slate can be easily cut into thin sheets, making it suitable as a roofing material. Slate is fine-grained metamorphic, foliated, cut into thin sheets, used as roofing. Correct.\n\nThus incorrect: C. So answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2786557035,
+            "load_duration": 182467510,
+            "prompt_eval_count": 175,
+            "prompt_eval_duration": 61607165,
+            "eval_count": 332,
+            "eval_duration": 2531477307
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "In the stress-strain curve diagram for steel, what do points A and C represent?",
+        "options": {
+            "A": "A: Proportional limit, C: Upper yield point",
+            "B": "A: Tensile strength, C: Proportional limit",
+            "C": "A: Proportional limit, C: Lower yield point",
+            "D": "A: Lower yield point, C: Fracture point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A: Proportional limit, C: Lower yield point"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20100307/bj20100307m72.gif?1522444684",
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T15:59:50.392120507Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A)",
+                "thinking": "The question: \"In the stress-strain curve diagram for steel, what do points A and C represent?\" We need to choose from options. Without diagram, but typical stress-strain curve: Point A usually is the proportional limit (on linear part). Point C often is the upper yield point? Wait typical points: On a typical stress-strain diagram, the proportional limit (point where linear relationship ends) is often labelled A. The yield point can have an upper yield point and lower yield point. Some diagrams label the upper yield point as point C, lower yield point as point B? But the question gives options: A: Proportional limit, C: Upper yield point. That matches typical. Another option says A: Proportional limit, C: Lower yield point. But typically lower yield point is after the drop? In a typical curve for mild steel, there is an upper yield point (a sudden drop), then a lower yield point at the end of the drop. The point before the drop is the proportional limit. So likely A is the proportional limit, C is the upper yield point. So answer (A). Let's double-check typical labeling: Some diagrams label the yield point as A. But here point A could be lower yield point? Hmm. The typical labeling: A is the proportional limit, B is the upper yield point, C is the lower yield point. Wait some sources label: point A is the proportional limit, point B is the upper yield point, point C is the lower yield point, point D is ultimate tensile strength. But given the options, A: Proportional limit, C: Upper yield point is plausible if they use different labeling. But let's think: Usually the upper yield point is a higher stress at the sudden drop, then the stress decreases to lower yield point. So upper yield point is the peak before drop, lower yield point is the bottom of drop. So if they label the lower yield point as C, that would be after the drop. But the question specifically: \"In the stress-strain curve diagram for steel, what do points A and C represent?\" Without diagram, but common multiple choice: Option A says A: Proportional limit, C: Upper yield point. Option B: A: Tensile strength, C: Proportional limit. Option C: A: Proportional limit, C: Lower yield point. Option D: A: Lower yield point, C: Fracture point. Likely answer is A: Proportional limit, C: Upper yield point. That matches typical exam question.\n\nThus answer: (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4342950105,
+            "load_duration": 188220981,
+            "prompt_eval_count": 164,
+            "prompt_eval_duration": 46212784,
+            "eval_count": 541,
+            "eval_duration": 4103354825
+        },
+        "judge": "Wrong"
+    }
+]

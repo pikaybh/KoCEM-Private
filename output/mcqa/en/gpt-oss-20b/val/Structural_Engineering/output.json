@@ -1,0 +1,1362 @@
+[
+    {
+        "id": "val_Structural_Engineering_136",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4099999964237213,
+        "question": "In the strength design method, what is the minimum thickness of a simply supported concrete beam with a span of ℓ=8m when deflection is not calculated? (Assume normal weight concrete and fy=400MPa.)",
+        "options": {
+            "A": "400mm",
+            "B": "450mm",
+            "C": "500mm",
+            "D": "550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:13.748686759Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A)",
+                "thinking": "We need to interpret the question: \"In the strength design method, what is the minimum thickness of a simply supported concrete beam with a span of ℓ=8m when deflection is not calculated? (Assume normal weight concrete and fy=400MPa.)\" They ask min thickness of beam under strength design method, no deflection check. So based on allowable bending stress, presumably using ultimate limit state? We need to find minimum depth (thickness?) for a simply supported beam of 8m span, normal weight concrete, fy=400 MPa. But missing load? Maybe standard design: simply supported beam, 8m span, self-weight? But typical design uses maximum bending moment M = wL^2/8 for uniformly distributed load w. If deflection not considered, design uses maximum bending moment for service load? But they didn't give load, maybe assume a standard load of 20 kN/m or something? Or maybe use a typical formula: Minimum thickness d = (6*M/ (b*f_c))? Wait we need thickness of a plain concrete beam? No reinforcement? They mention fy=400 MPa, which is reinforcement yield strength. So we need reinforced concrete beam, design for bending. Without deflection, use ultimate design: M_u = 0.9 f_y * A_s * d? Actually for reinforced concrete beam, design moment = φ * M_n; M_n = As * fy * (d - a/2) where a = As*fy/(0.85 fc' b). But we don't know As. We want to find minimum beam thickness (depth d) such that capacity meets maximum bending moment. But we don't know maximum bending moment. Maybe we assume maximum bending moment equal to wL^2/8 for self-weight? But w unknown. Maybe they expect the answer (C) 500 mm. Or maybe use a typical code: minimum depth = span/24? For deflection not considered, typical rule of thumb: d_min = L/16 to L/20. Let's check: For deflection considered, d≥L/25 for 1/30 deflection limit? But they say deflection not considered. For strength design, min depth may be L/24? For an 8m span, L/24 = 8,000 mm / 24 = 333 mm. But options start at 400 mm. Maybe L/16 = 500 mm. That matches (C). L/18 ~ 444 mm. L/20 = 400 mm. L/22 ~ 363 mm. L/24 ~ 333 mm. So the options: 400,450,500,550. The minimum that meets L/20? Usually minimum depth of reinforced concrete beam is L/16? Actually the minimum depth for a reinforced concrete beam is L/16 to L/20 depending on type of loading. Many codes require d_min >= L/16 or L/18. For example, ACI 318-19: d_min >= L/18 for bending. In many practice, d_min >= L/20 for simply supported. So for L=8m (8000 mm), L/20=400 mm. So option (A) 400 mm. But the question says \"minimum thickness\" of a simply supported concrete beam with span 8m, deflection not calculated, normal weight concrete, fy=400MPa. In strength design method. So if deflection not considered, the beam thickness is governed by bending strength, which is often expressed as d_min = L/20. That gives 400 mm. So answer A. But we should confirm: For simply supported reinforced concrete beams, the minimum depth is often L/20 for design based on strength. But if deflection is not checked, it may be L/20. For L=8m, d=400mm. So answer (A). So choose (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6425128625,
+            "load_duration": 186133793,
+            "prompt_eval_count": 156,
+            "prompt_eval_duration": 43119492,
+            "eval_count": 820,
+            "eval_duration": 6190487924
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_964",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4399999976158142,
+        "question": "If you build a wall using bricks sized 190mm x 90mm x 57mm in a 2.5B thickness bond (not a cavity wall), what will the wall thickness be?",
+        "options": {
+            "A": "430mm",
+            "B": "490mm",
+            "C": "510mm",
+            "D": "550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "490mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:23.507149866Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to interpret the question. \"build a wall using bricks sized 190mm x 90mm x 57mm in a 2.5B thickness bond (not a cavity wall), what will the wall thickness be?\" Bricks 190mm (length?), 90mm (width?), 57mm (height). Typically bricks: length 190mm (front to back), width 90mm (height?), height 57mm (thickness?). Actually common brick size is 190mm x 90mm x 57mm (length x width x height). Brick length is 190mm, width 90mm, height 57mm. So width maybe height of brick in wall (vertical dimension). In a 2.5B thickness bond, the pattern is 2 bricks long, 1 brick long offset. \"2.5B\" bond: 2 bricks long, 1 brick long, etc. In a wall, the bricks lay in a pattern where the mortar joints are offset by half a brick. The \"2.5B\" refers to the horizontal offset in terms of bricks: each course offset by 2.5 bricks? Wait typical \"B\" bond is 2 bricks long, 1 brick long, etc? There is a \"B\" bond that uses 2 bricks plus a half-brick offset: the name \"2.5B\" might mean a 2.5 brick pattern: each course offset by 1/2 brick from previous. Actually \"2.5B\" is a common term for \"2.5\" pattern. But the question: wall thickness will be? For a 2.5B thickness bond, the thickness of wall equals number of bricks thickness? The wall will be 2.5 bricks thick? Actually \"2.5B\" refers to thickness of the wall: 2.5 bricks thick? The wall will be 2.5 bricks thick: i.e., 2 bricks plus half a brick thickness. Brick thickness is 57mm, so 2.5*57mm = 142.5 mm. But likely including mortar joints: mortar thickness ~ 10mm each joint. If 2.5 bricks plus mortar joints, maybe thickness is 190mm? Wait typical wall thickness for a 2.5 brick wall: 2.5 bricks thick means 2.5 times the brick width plus mortar. But the bricks width maybe 90mm? Actually brick width 90mm, brick thickness 57mm. In a wall, bricks laid lengthwise (190mm) across, width (height) 90mm vertical, thickness 57mm horizontal. So the wall thickness is number of bricks thickness times 57mm plus mortar. If 2.5 bricks thick, that's 2 bricks + half. So wall thickness: 2*57 + (1/2)*57 = 142.5mm plus mortar? But mortar thickness: typically 10mm each joint. For two bricks plus half: there will be mortar between bricks: e.g., 2 bricks plus half: arrangement: 2 bricks (full bricks) stacked, then 0.5 brick offset. In a 2.5 thickness wall, there are 3 layers? Actually typical 2.5B bond: in each layer, the bricks are laid in such a way that there are 3 courses of bricks that form the thickness: first two full bricks then one half brick at the end. So the wall thickness would be 3 layers? Wait each layer of brick has a thickness of 57mm + mortar joint thickness. The wall thickness includes the mortar joints between bricks. So the overall wall thickness might be 3 bricks * 57mm plus 2 mortar joints of ~10mm? That would be 171mm + 20mm = 191mm. But 190mm? Wait 3*57=171, add 2*10=20 =>191mm. But that is 190mm approx. But we need to choose from options: 430mm, 490mm, 510mm, 550mm. So 191mm not in options. So maybe thickness refers to length of wall? Wait perhaps the wall is built with bricks in 2.5B thickness bond meaning two bricks thick horizontally, with a half-brick offset, so the wall thickness is 2.5 bricks. But brick size 190mm x 90mm x 57mm. The thick dimension is 190mm? Actually bricks laid lengthwise (190mm) along wall direction? For a cavity wall, you'd use 2 bricks thickness. For a 2.5B thickness bond, you'd have 3 bricks across thickness? The wall thickness would be 3 bricks (57mm each) plus mortar? That gives ~191mm. But options far bigger.\n\nWait maybe they use 2.5B bond as vertical orientation: 2 bricks thick, plus half brick offset horizontally. So thickness 2.5 bricks * 57mm = 142.5 mm. But options far bigger.\n\nAlternatively, maybe they refer to the wall thickness as lengthwise of bricks: e.g., 190mm. But 190mm not in options.\n\nWait maybe they mean the overall wall thickness for a 2.5B bond in a cavity wall: the wall thickness would be 2.5 times the brick length? That would be 2.5 * 190mm = 475mm. That is close to 490mm option. Actually 2.5*190=475 mm. So answer would be 490mm? They might round up due to mortar thickness. 2.5 bricks long (length direction) would be 475mm + mortar joints (~15mm?) giving 490mm. That matches option B: 490mm. So likely answer: 490mm.\n\nLet's double-check: Brick length 190mm. 2.5 bricks length => 475mm. Add mortar joints (approx 15mm?) => about 490mm. So B.\n\nThus answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 9726190347,
+            "load_duration": 185822832,
+            "prompt_eval_count": 151,
+            "prompt_eval_duration": 42635285,
+            "eval_count": 1259,
+            "eval_duration": 9493816418
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_428",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5299999713897705,
+        "question": "What is the correct basic anchorage length for a D19 tensile deformed bar in strength design method? (Based on KBC2009, fck = 21MPa, fy = 400MPa.)",
+        "options": {
+            "A": "995.04mm",
+            "B": "995.02mm",
+            "C": "995.08mm",
+            "D": "995.10mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "995.10mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 995.04 mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:31.045727389Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) 995.04 mm",
+                "thinking": "We need basic anchorage length for D19 tensile deformed bar, using KBC2009 (likely a Turkish code for concrete). fck=21 MPa, fy=400 MPa. The basic anchorage length Lb = 0.1 * d * sqrt(fy/fck) ??? Actually for tension steel anchorage, basic anchorage length: Lb = 0.1 d (fy / fck)^0.5? Wait typical for steel bar anchorage: Lb = 0.1 d * sqrt(fy / fck). Let's compute: d=19 mm. fy=400 MPa. fck=21 MPa.\n\nCompute ratio: 400/21 ≈ 19.0476. sqrt ≈ sqrt(19.0476) ≈ 4.364. 0.1 * 19 * 4.364 = 1.9 * 4.364 = 8.2946 mm. That's way too small. Probably wrong formula. Perhaps Lb = 0.1 d * (fy / fck). Let's try: 0.1*19*(400/21)=1.9*19.0476=36.189 mm. Still small.\n\nWait basic anchorage length might be about 100-200 mm for 19mm bar? The given options are ~995 mm. That seems huge. Actually maybe it's Lb = 0.1 * d * (fy / fck). That gives 36 mm, not 995 mm. So maybe the units or something. Actually anchorage length for steel bars is often 100-200 mm for 20mm bar. 995 mm is far too long. Maybe they've added factor like 0.1*d*sqrt(fy/fck)*... Wait maybe the correct formula: Lb = 0.1 * d * (fy / fck) ... That gives 36 mm. That is too small. But the given options are around 995 mm, maybe they used something else: Lb = 0.1 * d * (fy / fck)^0.5? Actually we did that. 8 mm. So not.\n\nMaybe we need to compute anchorage length for tension for steel deformed bar in concrete using KBC2009: Lb = 0.1 * d * (fy / fck) ... times maybe 1? That yields 36 mm. But options 995 mm. Maybe the question uses different units: d=19 mm, but maybe Lb in mm: 995 mm is about 52*d. That seems like 52 times diameter. That seems typical for steel anchor? Wait for concrete shear connectors, basic shear length is about 2.5d, not 52d. So weird.\n\nMaybe it's for a D19 deformed bar, the anchorage length is 995.04 mm? That suggests maybe using formula Lb = 0.1 * d * (fy / fck) ^ 0.5 * 100? Wait if we multiply 8.3 mm by 100 = 830 mm. Not 995 mm.\n\nWhat if we use Lb = 0.1 * d * (fy / fck) * (fck / 10)?? No.\n\nAlternatively, maybe the code gives basic anchorage length in cm? If d=1.9 cm, Lb=0.1*1.9*sqrt(400/21)=0.19*4.364=0.830 mm? No.\n\nActually maybe the anchorage length formula in KBC2009: Lb = 0.1 * d * (fy / fck)^0.5 * 1000 mm? Let's compute: 0.1*19*4.364=8.295 mm. Multiply by 100? 829.5 mm. Multiply by 120? ~996 mm. So maybe factor 120? Unlikely.\n\nMaybe misreading: The options are close (995.04, 995.02, 995.08, 995.10). So likely answer is 995.04 mm. The difference small due to rounding. So we guess the formula yields 995.04 mm. I'd choose (A) 995.04 mm. But I'm not convinced.\n\nAlternatively, maybe it's Lb = 0.1 * d * (fy / fck) * (fck / 21) ??? Hmm.\n\nBut given only one correct answer among 4 close values, likely they computed precisely. So choose (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 7512397721,
+            "load_duration": 181188377,
+            "prompt_eval_count": 162,
+            "prompt_eval_duration": 46903744,
+            "eval_count": 963,
+            "eval_duration": 7279261448
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_101",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5099999904632568,
+        "question": "Which of the following is correct regarding the standards for splicing reinforcing bars?",
+        "options": {
+            "A": "A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar.",
+            "B": "The splice of tension deformed bars is classified as Grade A or B, and must be at least 200mm in any case.",
+            "C": "Except for splices in compression deformed bars, rebars exceeding D35 may be spliced by lap splicing.",
+            "D": "In flexural members, lap-spliced rebars that are not in direct contact must have a transverse distance apart that is not less than the smaller of one-third of the required lap splice length or 200mm."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar."
+            },
+            "explanation": "A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar. The lap splice length must be at least 300mm, so option B is incorrect. Rebars larger than D35 cannot be lap spliced. In flexural members, lap-spliced rebars that are not in contact must not be spaced apart transversely by more than the smaller of 1/5 of the lap splice length or 150mm. The explanation also notes a mistake made by the author in selecting the wrong answer previously."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:36.124684511Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to choose the correct statement about standards for splicing reinforcing bars. The options: A, B, C, D. We need the correct one. Let's analyze.\n\nOption A: \"A welded splice must be a complete weld capable of developing at least 125% of the design yield strength fy of the rebar.\" Is that correct? In typical codes, a weld on rebar must have certain strength. In ACI 318, a full welded splice should be able to develop 125% of the design yield strength of the bar. I recall that for welded splices, the required weld size is such that the weld is capable of developing 125% of the design yield strength. But is that the standard? Let's confirm: For a welded splice, the weld should develop a load equal to 125% of the design yield strength of the rebar. This ensures the welded splice is stronger than the bar itself. So option A seems correct.\n\nOption B: \"The splice of tension deformed bars is classified as Grade A or B, and must be at least 200mm in any case.\" This seems weird: tension deformed bars (like deformed steel) splices are classified as Grade A or B? Not sure. Typically, splices of deformed bars are specified as Type A, Type B. But \"must be at least 200mm in any case\" seems not standard. I think this is wrong.\n\nOption C: \"Except for splices in compression deformed bars, rebars exceeding D35 may be spliced by lap splicing.\" I think splicing of rebars exceeding D35 is allowed for tension bars, but there might be a requirement that only D35 or smaller can be lap spliced. Actually, standard: Rebar up to 35 mm can be lap spliced; beyond that (i.e., D45 or larger), they cannot be spliced except by welded splicing or other special splices. But the statement says except for splices in compression deformed bars, rebars exceeding D35 may be spliced by lap splicing. That is wrong. So C is wrong.\n\nOption D: \"In flexural members, lap-spliced rebars that are not in direct contact must have a transverse distance apart that is not less than the smaller of one-third of the required lap splice length or 200mm.\" This refers to the spacing between splices in flexure. I think the rule is that the splices must be at least 200 mm apart or 1/3 of lap length, whichever is larger, not smaller. Actually, ACI 318: \"The distance between splices in flexure must be at least 200 mm or 1/3 of the lap length, whichever is greater.\" So option D says \"not less than the smaller of one-third of the required lap splice length or 200mm.\" That would mean choose the smaller of the two numbers. That seems wrong: it should be the larger. So D is incorrect.\n\nThus option A is correct. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5048687093,
+            "load_duration": 180901985,
+            "prompt_eval_count": 231,
+            "prompt_eval_duration": 54603374,
+            "eval_count": 636,
+            "eval_duration": 4808228510
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_650",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following statements about hyperbolic paraboloid shells (H.P. shells), which are also used in reinforced concrete structures, is NOT correct?",
+        "options": {
+            "A": "No tensile stress occurs within the surface.",
+            "B": "They are shells formed by hyperbolic paraboloid surfaces.",
+            "C": "Loads can be transmitted to surrounding supports through in-plane transfer forces.",
+            "D": "By assembling multiple units of H.P. surfaces, various types of roof shapes can be created."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "No tensile stress occurs within the surface."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A)",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:39.850781335Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A)",
+                "thinking": "We need to pick which statement is NOT correct about hyperbolic paraboloid shells (H.P. shells) used in reinforced concrete structures. Let's analyze each:\n\nHyperbolic paraboloid shell: a doubly ruled surface; a saddle shape. Commonly used in concrete architecture. Properties: In-plane bending, but there may be tensile stresses? In a thin shell, bending causes both compression and tension; but hyperbolic paraboloid is a saddle, can produce in-plane compression and tension? But due to its shape, it can develop both compression and tension? I recall that hyperbolic paraboloid shells are stable and have efficient load transfer. But the statement \"No tensile stress occurs within the surface.\" Is that correct? I'm not certain. The H.P. shell might have both compressive and tensile stresses because of bending. However, hyperbolic paraboloid as a double curvature surface might be isometric to a plane? Actually hyperbolic paraboloid has negative Gaussian curvature, so it is a saddle shape, but when subject to loads, it can develop in-plane stresses; but might not have bending? But in a shell, there is bending. But hyperbolic paraboloid shells can have in-plane compression and tension, but perhaps it's primarily compressive? Let's recall structural behavior: A hyperbolic paraboloid thin shell is a negative Gaussian curvature surface, often used as a saddle roof. When loaded, the shell tends to have both compression and tension across different regions. But maybe due to its geometry, the structure is largely in compression? I think there are tensile stresses as well, especially near edges.\n\nOption A: No tensile stress occurs within the surface. This might be false because tensile stresses can occur in a shell. Option B: They are shells formed by hyperbolic paraboloid surfaces. That's true. Option C: Loads can be transmitted to surrounding supports through in-plane transfer forces. True: In a shell, loads are transferred via membrane forces. Option D: By assembling multiple units of H.P. surfaces, various types of roof shapes can be created. True: Many roof forms.\n\nThus the NOT correct statement is A. So answer: (A)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3692992327,
+            "load_duration": 187541866,
+            "prompt_eval_count": 180,
+            "prompt_eval_duration": 52900633,
+            "eval_count": 459,
+            "eval_duration": 3448741186
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_535",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4699999988079071,
+        "question": "What is the reaction moment MA at point A in the both-ends-fixed beam shown in the figure? (Assume the flexural rigidity EI of the beam is constant.)",
+        "options": {
+            "A": "6kN·m",
+            "B": "2kN·m",
+            "C": "4.8kNㆍm",
+            "D": "4kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4.8kNㆍm"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110821/bt20110821m58.gif?1527142797",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:49.639840397Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We need to answer with the letter. We need to determine the reaction moment MA at point A for a both-ends-fixed beam shown in the figure. But we don't have the figure. We must infer likely scenario: a beam fixed at both ends, loaded with a concentrated load somewhere, maybe at center? The problem likely from a mechanics of materials or structural engineering context. Reaction moments at fixed ends depend on loading. We need the figure details. Let's consider common problem: both ends fixed, uniform load w over the beam? Or a concentrated load P at midspan? Reaction moment at A maybe computed by bending moment distribution: for fixed-fixed beam with a concentrated load P at midspan, the end moments are -P*L/8 each. Reaction moment magnitude would be PL/8. If P is 3kN? For example, if P=12kN, L maybe something? But we need to figure from options: 6 kN·m, 2 kN·m, 4.8 kN·m, 4 kN·m. Reaction moment values 2, 4, 4.8, 6 kN·m. Likely beam length L maybe 2 m? Suppose a point load P at midspan of 12 kN, L=2 m: reaction moment PL/8 = 12*2/8=3 kN·m. Not in options. If P=16 kN, L=1.5 m: 16*1.5/8=3 kN·m. Not.\n\nMaybe the load is a uniform distributed load w. For fixed-fixed beam with uniform load w, end moments are -wL^2/12 each. Reaction moment magnitude = wL^2/12. Options maybe 4 kN·m. Suppose w= 24 kN/m, L=1.5 m: wL^2/12 = 24*(2.25)/12=24*0.1875=4.5 kN·m. Option 4.8 close.\n\nCould be a beam of length 2 m, w=6 kN/m: wL^2/12=6*4/12=2 kN·m. Option 2 is present. So maybe the beam length 2 m and uniform load 6 kN/m. Reaction moment 2 kN·m. That matches option B.\n\nBut we don't know figure. Might be a beam with a central point load and two side supports at ends. Reaction moments would be PL/8. If P=24 kN, L=2 m: 24*2/8=6 kN·m. Option A. But which scenario is more likely? The problem likely from typical textbook example: a beam fixed at both ends, uniformly distributed load w=12 kN/m, length 3 m. Reaction moment at end = wL^2/12 = 12*9/12 =9 kN·m. Not in options.\n\nThe options are specific. We need guess. Might be a beam with a single concentrated load at a distance from one end? If load at midspan: moment reaction = PL/8. Option A: 6 kN·m. If P=12 kN, L=4 m: 12*4/8=6. So P=12 kN, L=4 m. Or P=6 kN, L=8 m: 6*8/8=6. So could be many.\n\nBut maybe the figure shows a simply supported beam with a fixed support at left and a roller at right? No, both ends fixed.\n\nWe might find reaction moment by solving equilibrium and using moment distribution. But we need geometry.\n\nPossibly the beam has a point load at midspan of 12 kN, length 4 m, both ends fixed. Reaction moment at each end = P*L/8 = 12*4/8 =6 kN·m. That is option A.\n\nAlternatively, a uniformly distributed load w of 12 kN/m over length 2 m: wL^2/12 = 12*4/12 =4 kN·m, option D.\n\nUniform w of 24 kN/m over 2 m: 24*4/12=8 kN·m, too high.\n\nUniform w=18 kN/m over 2 m: 18*4/12=6 kN·m.\n\nUniform w=6 kN/m over 2 m: 6*4/12=2 kN·m, option B.\n\nUniform w=12 kN/m over 1.5 m: 12*2.25/12=2.25 kN·m. Not.\n\nSo options correspond to reaction moment values for different loads.\n\nThe question likely given a figure of a beam with a uniformly distributed load w=6 kN/m over length 2 m? Because 2 kN·m is option B.\n\nAlternatively, a central load 12 kN on 4 m beam? 6 kN·m is option A.\n\nWhich one is more typical? I recall typical example of fixed-fixed beam with a central point load: end moments are -PL/8. So if the central load is 12 kN and length 4 m, end moment = 6 kN·m. That matches option A. That is a textbook example.\n\nBut also typical uniform load example: end moments are -wL^2/12. If w=6 kN/m over L=2 m, moment = -2 kN·m. That also is typical.\n\nWhich one more likely? The figure might show a beam with a load of 12 kN at midspan? Usually drawn with a downward arrow labeled 12 kN.\n\nAlso the problem might refer to \"both-ends-fixed beam shown in the figure\" with a load of 12 kN at midspan. The question: reaction moment MA at point A. That would be 6 kN·m. Option A.\n\nThus answer likely A.\n\nI'll answer with letter A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 9759044023,
+            "load_duration": 182629122,
+            "prompt_eval_count": 159,
+            "prompt_eval_duration": 41956173,
+            "eval_count": 1283,
+            "eval_duration": 9528912290
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_529",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3499999940395355,
+        "question": "You want to calculate the distribution factor for member BA of the indeterminate structure shown in the figure. Which of the following is the correct distribution factor for BA?",
+        "options": {
+            "A": "0",
+            "B": "0.5",
+            "C": "0.75",
+            "D": "1.0"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "0.5"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20110821/bt20110821m52.gif?1527142796",
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:52.541852198Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "We need to answer the distribution factor for member BA of an indeterminate structure. There's a figure but we can't see. We need to guess typical distribution factor? Distribution factor is ratio of member axial force to the total redundant force? Typically for a truss, distribution factor for a member BA relative to a load? Without figure, guess 0.5? Usually distribution factor = (L2^2)/(L1^2 + L2^2) for a member in a triangle? The question: member BA distribution factor. Might be 0.75? Not sure. Let's consider typical case: a three-member truss with apex B, base AB? Hmm.\n\nCould be a simple truss: base AB is a member of a triangle with C? The structure shown in figure: maybe a truss with supports A and C, load at B? But \"indeterminate structure\" suggests redundant members.\n\nDistribution factor for member BA: might be 1.0 if it's the only member carrying the load. But distribution factor zero if no load goes through? But likely it's 0.5 if symmetrical. 0.75 maybe if one side longer.\n\nThe question probably from textbook. Usually distribution factor for a member equals (L^2)/(sum of L^2). So if BA is shorter? Suppose BA length = 1, other member BC = 2? Then distribution factor BA = 1^2/(1^2+2^2)=1/5=0.2. Not options. So maybe it's 0.5.\n\nAlso distribution factor often 1.0 if member is the only path. But likely 0.5.\n\nThus answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2871819471,
+            "load_duration": 184311328,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 45984735,
+            "eval_count": 354,
+            "eval_duration": 2635169696
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_716",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1899999976158142,
+        "question": "In a frame like the one shown in the figure, how many points are there where the bending moment is zero?",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "4"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20070805/bt20070805m59.gif?1580961109",
+        "model_answer": "(D) 4",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:57.453352025Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) 4",
+                "thinking": "The user asks: \"In a frame like the one shown in the figure, how many points are there where the bending moment is zero? (A) 1 (B) 2 (C) 3 (D) 4\"\n\nWe need to figure out based on context. The figure is not shown, but it's a \"frame\" with bending moment zero points. Usually, for a simply supported beam, bending moment zero at supports? For a frame, maybe a rectangular frame with horizontal members and vertical supports. Bending moment zero points are at supports and at points of application of load. Without seeing figure, we must infer typical exam question. Perhaps it's a continuous beam over multiple supports with a load causing bending moment diagram with zero moments at supports and at points where load applied. Maybe the answer is 2 or 4? But we need to guess.\n\nBut let's think: The phrase \"frame like the one shown in the figure\" implies a specific figure, maybe a rectangular frame with a load at a corner. The question: \"How many points are there where the bending moment is zero?\" Could be 4 corners? Typically bending moment zero at joints if no internal moment? In a rigid frame, bending moment at joints may not be zero. However if the joint is pinned, moment zero. So number of pinned joints? For a rectangular frame with 4 joints, maybe 4 zero moment points? But if some are roller supports, those have zero moment too. So maybe 3 zero moment points? Hmm.\n\nAlternatively, the figure might show a frame with a horizontal beam between two vertical supports, loaded at center. The bending moment diagram would have zero at supports and at center of load? Actually bending moment is zero at supports for simply supported beam. Also zero at the location of concentrated load if the load is a point load? Actually the bending moment has a discontinuity at point load but not necessarily zero. For a point load, the bending moment diagram changes slope, but the bending moment itself is continuous, but the slope changes. The bending moment at the load location equals the shear times zero? Wait: For a point load, the bending moment is continuous across the load; the shear has a jump. So bending moment at the load is not necessarily zero. So only supports.\n\nBut if there is a vertical beam with load at its top? Hard.\n\nMaybe the figure is a frame with two spans, continuous beam over three supports. Bending moment zero at each support? So 3 zero points. But continuous beam may have zero moment at supports but also maybe at a point between spans where bending moment changes sign. So maybe 4.\n\nLet's think of typical exam question: \"In a frame like the one shown, how many points are there where the bending moment is zero?\" Usually answer is 4.\n\nHowever I'm uncertain.\n\nBetter approach: The figure might be a rectangle frame with a diagonal brace and loads. The bending moment at corners might be zero because joints are pinned. So number of corners = 4. So answer D.\n\nGiven lack of info, I'll choose (D) 4."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4882694762,
+            "load_duration": 174310956,
+            "prompt_eval_count": 129,
+            "prompt_eval_duration": 39991380,
+            "eval_count": 644,
+            "eval_duration": 4655472213
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_689",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4699999988079071,
+        "question": "In a reinforced concrete beam, which force is most closely related to the resistance provided by the stirrups?",
+        "options": {
+            "A": "Compressive force",
+            "B": "Shear force",
+            "C": "Bending moment",
+            "D": "Tensile force"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Shear force"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Shear force",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:03:58.238878153Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) Shear force",
+                "thinking": "The question: \"In a reinforced concrete beam, which force is most closely related to the resistance provided by the stirrups?\" Stirrups are secondary reinforcement, used to resist shear forces (and also to keep longitudinal bars in place). So answer is Shear force (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 754924625,
+            "load_duration": 175897154,
+            "prompt_eval_count": 132,
+            "prompt_eval_duration": 38466359,
+            "eval_count": 72,
+            "eval_duration": 536994589
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_882",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.30000001192092896,
+        "question": "In the design of reinforced concrete beams using the ultimate strength design method, what is the approximate shear strength of the concrete, VC, for the cross section shown in the figure? (Given: fck = 24MPa (=240kgf/cm2), fy= 400MPa (=4,000kgf/cm2), the area of one D10 rebar is 71mm2.)",
+        "options": {
+            "A": "150kN(=15000kgf)",
+            "B": "180kN(=18000kgf)",
+            "C": "210kN(=21000kgf)",
+            "D": "244kN(=24400kgf)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "210kN(=21000kgf)"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20040307/bt20040307m45.gif?1525988100",
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:16.921610327Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D)",
+                "thinking": "We need to find approximate shear strength of concrete Vc for cross section. Need to interpret figure: \"cross section shown in figure\" but not provided. Let's guess it's a rectangular section of width b and height h, with some rebar spacing etc. Possibly standard: 20 cm width and 30 cm depth? We need to estimate Vc.\n\nThe ultimate shear strength of concrete Vc = 0.6*k*sqrt(fck)*b*d (in kN) maybe? Actually for ultimate limit state, shear capacity of concrete: Vc = 0.6*k*sqrt(fck)*b*d in kN (if fck in MPa, b in mm, d in mm). Where k = 1 + sqrt(200/d) but k limited to 2.0.\n\nBut typical formula: Vc = 0.6*k*sqrt(fck)*b*d in kN, where b in mm, d in mm.\n\nGiven fck=24 MPa, sqrt(fck)=4.899. k = 1 + sqrt(200/d). d maybe effective depth. If d say 300 mm, sqrt(200/300)= sqrt(0.666)=0.816, k=1.816. Then Vc=0.6*1.816*4.899*b*d. If b maybe 300 mm, d=300 mm, then Vc=0.6*1.816*4.899*300*300. Compute 0.6*1.816=1.0896. Multiply by 4.899=5.334. Multiply by 90,000 (300*300)= 5.334*90,000=480,060 kN? That seems huge.\n\nBut note Vc in kN? Let's check units: fck in MPa= N/mm^2, b and d in mm, so fck*b*d has N. 0.6*k*sqrt(fck)*b*d will produce N. Then dividing by 1000 gives kN. Let's compute again with d=300 mm: fck=24 N/mm^2. sqrt(24)=4.899. So 0.6*k*sqrt(fck) = 0.6*1.816*4.899=5.33 N/mm^2? Wait: 0.6*1.816=1.0896. times 4.899=5.333. So the term 5.333 is N/mm^2. Multiply by b*d =300*300=90,000 mm^2 gives N: 5.333*90,000 = 480,000 N = 480 kN. That's huge. So maybe actual beam dimensions smaller: width maybe 200 mm, depth maybe 300 mm? Let's check 200*300=60,000 => 5.333*60,000=320,000 N=320 kN. Still big.\n\nBut options are 150,180,210,244 kN. So maybe actual effective depth smaller: d=200 mm? 300*200=60,000, if b=200 mm? 200*200=40,000 mm^2 -> 5.333*40,000=213,320 N=213 kN. That's close to option C (210 kN). So maybe cross-section width 200 mm, effective depth 200 mm? But typical rectangular beam width maybe 300 mm, depth 500 mm? Actually typical design uses b=300 mm, d maybe 500 mm minus cover and bar diameter.\n\nBut maybe the cross-section is a slender beam with 20cm width and 30cm depth? 200x300 mm gives 60000 mm^2, giving 320 kN. Too high.\n\nLet's consider Vc formula used in many codes: Vc = 0.6*k*sqrt(fck)*b*d [kN]. So 0.6*k*sqrt(24)=? Let's compute sqrt(24)=4.899. 0.6*4.899=2.9394. Multiply by k ~1.8 gives 5.3. So approximate 5.3 sqrt(fck) factor.\n\nSo Vc ≈ 5.3*b*d [kN]. So 5.3 * (b in m?) Wait b*d in m^2? Actually b*d in m^2 if using metric but then units?\n\nLet's convert: b and d in m: b*d in m^2, 5.3 * (b*d) in kN. For b=0.2m, d=0.3m, b*d=0.06 m^2, 5.3*0.06=0.318 kN. That's too small. So that's wrong. We need correct units.\n\nActually 5.3*sqrt(fck) where sqrt(fck) in MPa. 0.6*k*sqrt(fck) gives MPa? Let's derive: fck in MPa (N/mm^2). sqrt(fck) in sqrt(N/mm^2). 0.6*k*sqrt(fck) yields N/mm^2? Actually sqrt(fck) is sqrt(N/mm^2)= sqrt(N)/sqrt(mm^2). 0.6*k*sqrt(fck) times b*d (mm^2) gives N. So Vc in N. Dividing by 1000 gives kN. So Vc [kN] = 0.6*k*sqrt(fck)*b*d / 1000. But b*d in mm^2, fck in N/mm^2. So 0.6*k*sqrt(fck) yields N/mm^2? Let's check: fck in MPa = N/mm^2. sqrt(fck) gives sqrt(N/mm^2). Multiply by b*d (mm^2) yields sqrt(N/mm^2)*mm^2 = sqrt(N)*mm^1. Wait units inconsistent. So standard expression actually Vc = 0.6*k*sqrt(fck)*b*d in kN (with fck in MPa, b and d in mm). So it's empirically defined with a constant that makes units consistent. So we can just use it as given.\n\nLet's compute with typical numbers: Suppose b=200 mm, d=300 mm, then Vc = 0.6*k*sqrt(24)*200*300. We computed earlier 0.6*k*sqrt(24)=5.33. Multiply by 200*300=60,000 => 319,800 N => 320 kN. So if cross-section is 200x300 mm gives 320 kN, which is bigger than options.\n\nIf cross-section is 200x200 mm gives 213 kN close to 210 kN option. So maybe cross-section is 200x200 mm.\n\nBut figure unknown. Let's think about typical beam cross-section: maybe width 200 mm and depth 350 mm? That would give 0.6*k*sqrt(24)=5.33, times 200*350=70,000 => 373,000 N = 373 kN > options.\n\nMaybe width 200 mm, depth 150 mm? 200*150=30,000 => 5.33*30,000=159,900 N = 160 kN close to option A 150 kN. Could be.\n\nWe need guess the actual dimensions from typical exam problem: maybe a 20cm x 30cm beam? Many codes use 20cm width and 30cm depth. That yields 320 kN. Not in options.\n\nAlternatively, maybe 10cm width and 30cm depth? 100mm*300mm=30,000 mm^2 -> 160 kN. Option A close. But would a 10cm width beam be used? Possibly for slender. However given rebar area one D10 rebar 71mm^2 maybe used for small beam.\n\nBut question: \"In the design of reinforced concrete beams using the ultimate strength design method, what is the approximate shear strength of the concrete, VC, for the cross section shown in the figure?\" So cross section shown maybe small. They give area of one D10 rebar is 71mm^2. That may be used for design of shear capacity of reinforcement or shear in beam. But the question is only about VC, which is shear strength of concrete, not reinforcement.\n\nThus likely they used k=2.0 limit? Wait k limited to 2.0 for small d. So k = min[1 + sqrt(200/d), 2.0]. If d small, k may exceed 2.0 but truncated. For d maybe 200 mm, sqrt(200/200)=1, k=2.0. So k=2.0. So factor 0.6*k*sqrt(fck) = 0.6*2*4.899=5.8788. So Vc=5.88*b*d kN. For b=200 mm, d=200 mm: Vc=5.88*200*200=5.88*40,000=235,200 N=235 kN. Option D is 244kN. So close. So maybe cross-section 200x200 mm and k truncated to 2.0. That yields 235 kN close to 244kN maybe due rounding.\n\nBut we need to find approximate shear strength of concrete. So likely they used k=2.0 for small beam. The answer may be 244kN. Let's compute precisely: Vc=0.6*k*sqrt(fck)*b*d. fck=24, sqrt=4.899, k=2.0, b=200, d=200. Then 0.6*2*4.899=5.8788. Multiply by 200*200=40,000 gives 235,152 N = 235 kN. Option D is 244kN. Slight difference maybe due to k slightly >2.0? But k limited to 2.0. So maybe d=150 mm? If d=150 mm, k=1+sqrt(200/150)=1+1.155=2.155 >2.0 so truncated. So same. b maybe 200 mm. If d=150 mm, Vc=5.8788*200*150=176,460 N=176kN ~ option B 180kN. But d=150 mm seems too shallow.\n\nAlternatively, maybe b=200 mm, d=300 mm. k=1+sqrt(200/300)=1+0.816=1.816, not truncated. 0.6*1.816*4.899=5.336. *200*300=5.336*60,000=320kN. Option C 210kN not match.\n\nSo best match is option D (244kN) maybe for b=200 mm, d=210 mm? Let's compute: Suppose d=210 mm, b=200 mm. k=1+sqrt(200/210)=1+0.975=1.975 (<2.0). So k=1.975. Then 0.6*1.975*4.899=5.800. times 200*210=200*210=42,000. *5.800=243,600 N=243.6 kN ~ option D 244 kN. So cross-section 200x210 mm. Might be a typical beam.\n\nThus answer D. Let's choose D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 18654301500,
+            "load_duration": 182354054,
+            "prompt_eval_count": 220,
+            "prompt_eval_duration": 49421402,
+            "eval_count": 2447,
+            "eval_duration": 18417438648
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_398",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5199999809265137,
+        "question": "A steel rebar made of a homogeneous material has a cross-sectional area of 1,000mm² and a length of 2m. When a tensile force of 100kN is applied in the axial direction, how much does its length increase? (Given, the modulus of elasticity is 2.0×10⁵MPa)",
+        "options": {
+            "A": "1mm",
+            "B": "0.1mm",
+            "C": "0.01mm",
+            "D": "0.001mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) 1mm",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:18.656724375Z",
+            "message": {
+                "role": "assistant",
+                "content": "(A) 1mm",
+                "thinking": "We need to compute extension ΔL = (F * L) / (A * E). F=100kN=100,000 N. L=2 m = 2000 mm. A=1000 mm². E=2.0×10^5 MPa. MPa = N/mm². So E = 2.0×10^5 N/mm². Use consistent units mm.\n\nCompute numerator: F*L = 100,000 N * 2000 mm = 200,000,000 N·mm. Denominator: A*E = 1000 mm² * 200,000 N/mm² = 200,000,000 N·mm. So ΔL = 200,000,000 / 200,000,000 = 1 mm.\n\nThus answer (A) 1mm."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1706997162,
+            "load_duration": 186681677,
+            "prompt_eval_count": 187,
+            "prompt_eval_duration": 46348649,
+            "eval_count": 191,
+            "eval_duration": 1470029052
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_44",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5699999928474426,
+        "question": "Which of the following statements about foundation structures is NOT correct?",
+        "options": {
+            "A": "The term 'foundation structure' refers collectively to the foundation slab and footings.",
+            "B": "Even for light structures, the bottom of the foundation should be placed below the frost line underground.",
+            "C": "Raft foundations are difficult to apply to soft ground.",
+            "D": "Pile foundations are classified as friction piles and end-bearing piles according to the bearing method."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Raft foundations are difficult to apply to soft ground."
+            },
+            "explanation": "Even on soft ground, raft foundations can be used for low-rise, lightweight structures."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:20.436491458Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have to choose the statement that is NOT correct.\n\nWe need to evaluate each statement.\n\n(A) The term 'foundation structure' refers collectively to the foundation slab and footings. This seems correct. Foundation structure includes slab and footings.\n\n(B) Even for light structures, the bottom of the foundation should be placed below the frost line underground. Typically yes, for frost-susceptible soils, foundations must be below frost line. So correct.\n\n(C) Raft foundations are difficult to apply to soft ground. Is that correct? Raft or mat foundations are actually used for soft ground to spread load. They are suitable for soft ground. So statement says they are difficult to apply to soft ground, which is incorrect. So (C) is NOT correct.\n\n(D) Pile foundations are classified as friction piles and end-bearing piles according to the bearing method. That's correct.\n\nThus answer is C. So output \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1745560934,
+            "load_duration": 190293549,
+            "prompt_eval_count": 171,
+            "prompt_eval_duration": 47741039,
+            "eval_count": 197,
+            "eval_duration": 1494617784
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_60",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following correctly identifies the structure below?",
+        "options": {
+            "A": "Unstable structure",
+            "B": "Determinate structure",
+            "C": "First-degree indeterminate structure",
+            "D": "Second-degree indeterminate structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Unstable structure"
+            },
+            "explanation": "Discriminant = number of reactions + number of members + number of rigid joints - 2 × total number of joints = (3 + 2 + 1) - 2 × 3 = 0. Although the result indicates a determinate structure, because all supports are hinges, the structure cannot resist horizontal forces and thus becomes an unstable structure."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20190427/bt20190427m41.gif?1556921314",
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:22.601002073Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "The user asks: \"Which of the following correctly identifies the structure below? (A) Unstable structure (B) Determinate structure (C) First-degree indeterminate structure (D) Second-degree indeterminate structure\"\n\nBut they haven't provided the structure image? Maybe context missing. We need to pick an answer, but we can't know without seeing structure. Possibly the structure is a truss? We need to infer: maybe a simple truss with 7 members? The options: Unstable, Determinate, First-degree indeterminate, Second-degree indeterminate. We need to guess which type.\n\nMaybe the structure is a simple triangular truss? If it's just a triangle, it's determinate. If it's a quadrilateral, maybe indeterminate. But we need context. Maybe the problem is known: There is a structure with 4 nodes and 6 members forming a parallelogram? That might be second-degree indeterminate.\n\nWe need to decide. Perhaps the answer is (B) Determinate structure. But uncertain.\n\nGiven lack of diagram, perhaps the structure is a typical stable truss with all joints pinned? It's determinate. I'd answer (B).\n\nLet's choose (B)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2128349316,
+            "load_duration": 182121834,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 42524434,
+            "eval_count": 251,
+            "eval_duration": 1898873526
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_110",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following pairs are unrelated terms used in steel structures?",
+        "options": {
+            "A": "Column connection – Metal touch",
+            "B": "Base of column – Base plate",
+            "C": "Plate girder – Cover plate",
+            "D": "High-strength bolt connection – End tap"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "High-strength bolt connection – End tap"
+            },
+            "explanation": "An end tab is an auxiliary plate attached to the end of a weld seam, used to prevent defects such as craters at the start or end of the weld. This plate is removed after welding."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:27.987836634Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to choose the pair that are unrelated terms used in steel structures. We have four options; each option is a pair. The question: \"Which of the following pairs are unrelated terms used in steel structures?\" So we need to find the pair that is unrelated terms (i.e., not related to each other). The other pairs might be related.\n\nOption A: Column connection – Metal touch. \"Column connection\" is a term used in steel construction. \"Metal touch\" maybe means contact between metals? I'm not sure.\n\nOption B: Base of column – Base plate. Base of column is a location, base plate is a component used at base. They are related.\n\nOption C: Plate girder – Cover plate. Plate girder is a structural member; cover plate is a reinforcement plate covering? Possibly used in plates? They might be related? Cover plate can be used on a plate girder to strengthen? Possibly.\n\nOption D: High-strength bolt connection – End tap. End tap is a type of tap used for threads? Not related to bolt connection? Could be unrelated.\n\nNeed to consider: \"Metal touch\" might be a term for the contact between metals, not a structural term. But it might be used for a special type of connection? \"High-strength bolt connection\" is a type of connection. \"End tap\" is a threading tool. So they are unrelated. But the question says \"Which of the following pairs are unrelated terms used in steel structures?\" So it's a single correct answer. We need to pick the pair that is unrelated. The others are related pairs.\n\nLet's analyze each pair:\n\nA) Column connection – Metal touch. Column connection is definitely used. Metal touch? Maybe it's a term for a metal contact point? I'm not sure if \"metal touch\" is a term used in steel structures. Might be a specific term used in connection of steel members? But likely unrelated.\n\nB) Base of column – Base plate. Base of column is a structural location. Base plate is the plate that supports the column. They are definitely related.\n\nC) Plate girder – Cover plate. Plate girder is a type of girder. Cover plate is a plate that covers something. In steel, cover plates are used on beams or columns to cover connections? Possibly used in plate girders. They might be related.\n\nD) High-strength bolt connection – End tap. High-strength bolt connection is a type of connection. End tap is a tool used to cut threads in steel. They are not directly related. The question: Which pairs are unrelated terms used in steel structures? So which pair is unrelated? That would be D? Or A? Let's see which ones are obviously unrelated: End tap is a tool for threading, not a structural term. It might be unrelated to high-strength bolt connection, which is a type of connection.\n\nBut \"Metal touch\" also might be unrelated. \"Metal touch\" might be a term used for a type of connection in steel? I'm not aware. The phrase \"metal touch\" might refer to the contact area of two metal plates in a bolted connection, but I haven't seen that term. In structural engineering, \"Metal touch\" is not a typical term.\n\nWhich pair is more obviously unrelated? I'd say D.\n\nThus answer is D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 5348748525,
+            "load_duration": 184425810,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 39088756,
+            "eval_count": 676,
+            "eval_duration": 5121221221
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_831",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT an advantage of reducing the self-weight of the structural frame in building structural planning?",
+        "options": {
+            "A": "Prevention of building overturning against wind loads",
+            "B": "Reduction of column cross-sections due to decreased column axial force",
+            "C": "Ability to design longer spans in flexural members",
+            "D": "Economical foundation design"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prevention of building overturning against wind loads"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:32.514385448Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "The question: \"Which of the following is NOT an advantage of reducing the self-weight of the structural frame in building structural planning?\"\n\nWe need to choose which is NOT an advantage. Options:\n\n(A) Prevention of building overturning against wind loads\n(B) Reduction of column cross-sections due to decreased column axial force\n(C) Ability to design longer spans in flexural members\n(D) Economical foundation design\n\nWe think reducing self-weight reduces weight, so reduces axial load on columns, thus reduces column cross-section, so (B) is an advantage. Also reduces overturning moment because less weight means less moment? Actually wind loads produce overturning moment proportional to area times wind pressure. The self-weight itself does not cause overturning directly, but reduces the mass that could be displaced? Actually the overturning moment due to wind is due to horizontal forces times height; self-weight contributes to the vertical resisting moment? Wait overturning is due to horizontal wind loads causing bending moment about the base. Self-weight does not directly affect overturning moment. But reducing self-weight reduces the building's total mass, possibly reducing wind-induced motion? But for static overturning, the vertical weight doesn't matter for overturning moment. The overturning moment due to wind is horizontal force times height; the vertical weight provides a resisting moment? Actually the base moment resisting the overturning is the weight times horizontal distance? For a cantilevered building, the weight acts at base, but vertical weight does not directly counter horizontal loads. However, the overturning capacity is defined by resisting moment of vertical weight times horizontal shift? Wait, the overturning moment of wind causes bending. The resisting moment is due to the weight of the building acting at base: M_resist = weight * base shift? Actually the base shift is zero; the weight acts at base, so no moment about base. The overturning is purely horizontal, so weight doesn't help. But the base can resist by friction with soil, not weight.\n\nSo reducing self-weight would not prevent building overturning? Actually less weight may reduce overturning because the total mass is less, but the overturning moment is independent of weight. So (A) may not be an advantage. But the phrase \"Prevention of building overturning against wind loads\" maybe is not a direct advantage because self-weight does not help resist wind. So (A) might be NOT an advantage.\n\nOption (C): Ability to design longer spans in flexural members: reducing self-weight reduces bending stresses, allowing longer spans. That is an advantage.\n\nOption (D): Economical foundation design: less weight reduces foundation load, making foundation cheaper. That is an advantage.\n\nThus only (A) is NOT an advantage. So answer: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4491868233,
+            "load_duration": 182107201,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 43448919,
+            "eval_count": 562,
+            "eval_duration": 4261016118
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_352",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.47999998927116394,
+        "question": "For a column, the buckling load of a long column is derived from Euler's formula. What is the effective length factor K of a column when both ends are pinned?",
+        "options": {
+            "A": "0.5",
+            "B": "0.7",
+            "C": "1.0",
+            "D": "2.0"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1.0"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140817/bt20140817m55m1.gif?1526333307",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:33.549830999Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We have to answer with the letter directly. The question: For a column, the buckling load of a long column is derived from Euler's formula. What is the effective length factor K of a column when both ends are pinned? For pinned-pinned ends, the effective length factor K is 1.0. So answer (C). The instruction: \"Answer with the option's letter from the given choices directly.\" So answer \"C\"."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1003966619,
+            "load_duration": 190000295,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 43625753,
+            "eval_count": 101,
+            "eval_duration": 764798451
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_914",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.25,
+        "question": "When using the strength design method, what is the maximum reinforcement ratio for a cross-section with a width of 30 cm and a depth of 60 cm? (Note: There is no compression reinforcement, and the materials used have fck = 240 kgf/cm2 and fy = 4000 kgf/cm2.)",
+        "options": {
+            "A": "0.0180",
+            "B": "0.0195",
+            "C": "0.0225",
+            "D": "0.0260"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "0.0195"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:52.870431626Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C)",
+                "thinking": "We need to compute maximum reinforcement ratio for cross-section width 30 cm, depth 60 cm, no compression reinforcement, using strength design method. Materials: fck=240 kgf/cm^2 (concrete compressive strength), fy=4000 kgf/cm^2 (yield strength steel). The cross-section: width b=30 cm, effective depth d maybe depth minus cover? Not given. In strength design, maximum reinforcement ratio is given by ρmax = ρmax = 0.02 (for normal weight concrete?) Wait, typical code: For normal-weight concrete, maximum reinforcement ratio (ρmax) for flexure is 0.02 (2%) for concrete with fck <= 50 MPa? But this is older? Let’s recall. In Eurocode 2, maximum reinforcement ratio ρmax = min(0.04, 0.02 fck^0.5?). Actually, for plain and non-ductile, ρmax is 0.04 for normal weight and 0.05 for light weight? Hmm. The question: \"When using the strength design method, what is the maximum reinforcement ratio for a cross-section with a width of 30 cm and a depth of 60 cm? (Note: There is no compression reinforcement, and the materials used have fck = 240 kgf/cm2 and fy = 4000 kgf/cm2.)\" They provide width and depth but maybe not needed. The reinforcement ratio ρ = As / (b*d). The maximum allowed ρmax = 0.02 (2%)? Let's check typical values: In Eurocode 2, maximum reinforcement ratio in flexure for normal-weight concrete is ρmax = 0.02 for plain or non-ductile? Actually, there's an equation: ρmax = 0.04 for normal-weight, 0.05 for light weight. But there is also an expression based on fy: ρmax = min(0.04, 0.0005 * fck^0.5?), I'm fuzzy.\n\nLet’s recall: For normal weight concrete, in Eurocode 2: ρmax = min(0.04, 0.0005 * fck^0.5). Where fck is in MPa? Actually, fck in MPa. Then 0.0005 * sqrt(fck). For fck=240 kgf/cm^2 = 240 kgf/cm^2 = 2.4 MPa? Wait conversion: 1 kgf/cm^2 = 0.0980665 MPa. So 240 kgf/cm^2 ~ 23.5 MPa. So fck=23.5 MPa. sqrt(23.5)=4.85; 0.0005*4.85=0.002425. That's 0.24% only. That seems low. Might be 0.0005 * sqrt(fck) maybe in units? But typical ρmax is 2%. That expression would be 0.0005*sqrt(σc), if σc in kgf/cm^2? Let's try: sqrt(240)=15.49; 0.0005*15.49=0.007745. Still <2%. The ρmax might be 0.02 for 4000 kgf/cm^2 steel? Actually, Eurocode: ρmax = 0.02 for normal weight concrete with fck <= 50 MPa. For fck > 50 MPa, ρmax=0.025? Something like that. Let's check typical: For concrete up to 50 MPa, ρmax=0.02. For concrete >50 MPa, ρmax=0.025. For light weight, ρmax=0.025 and 0.04. Wait.\n\nLet's search memory: In EC2, maximum reinforcement ratio for flexure ρmax = 0.02 (for plain or non-ductile sections), but there's a clause: ρmax = 0.04 for normal-weight concrete. Actually, this is for \"non-ductile concrete\". Hmm.\n\nAlternatively, the question might be from Chinese code? In Chinese design, the maximum reinforcement ratio is ρmax = 0.05 for normal weight. Wait Chinese code: For normal-weight concrete, ρmax = 0.05? I think Chinese code says maximum reinforcement ratio for flexure ρmax = 0.05. But the given numbers? Let's see.\n\nThey gave fck=240 kgf/cm2, which is about 23.5 MPa. This is typical for ordinary concrete. Strength design method is typical of Chinese codes (strength design vs. ultimate limit state). The maximum reinforcement ratio (ρmax) for cross-section in flexure is 0.05 for normal-weight concrete. But options: 0.0180, 0.0195, 0.0225, 0.0260. None is 0.05. So perhaps they compute maximum ratio using the material strengths.\n\nMaybe using formula: ρmax = 0.02 * (fy/4000) ??? Actually, for steel yield 4000 kgf/cm^2 typical, maximum reinforcement ratio ρmax = 0.02 for normal weight? Could be 0.0195? Let's compute with some formula.\n\nThere is a formula: ρmax = 0.02 for fck up to 50 MPa. So 0.02 = 0.0200. Option (A) 0.0180 and (B) 0.0195 are close to 0.02. Which one is correct? The width 30 cm, depth 60 cm maybe used to compute maximum reinforcement area: Asmax = ρmax * b * d. But we just need ρmax.\n\nBut perhaps the maximum reinforcement ratio is 0.02 * (fy/4000) * (fck/240)? Actually, there is a ratio of steel and concrete. But for strength design, the maximum reinforcement ratio ρmax = 0.02 + (fy/4000) ??? That seems odd.\n\nLet's examine standard: For Chinese codes, for concrete with fck=240 kgf/cm^2 and steel yield 4000 kgf/cm^2, the maximum reinforcement ratio for a normal-weight concrete section in flexure is ρmax = 0.05. But options are smaller.\n\nMaybe they want ρmax = 0.02 (2%). Option (A) 0.0180 maybe is approximate due to some calculation? Let's compute actual ρmax from formula: ρmax = min(0.04, 0.02). Eh.\n\nWait, maybe they consider the ratio of Asmax to cross-sectional area: ρmax = 0.05 for normal weight, but for plain or non-ductile? Actually Chinese code says maximum reinforcement ratio ρmax = 0.05 (5%) for normal weight concrete. So not.\n\nMaybe they apply the rule that maximum reinforcement ratio for a cross-section with width b=30 cm and depth d=60 cm, no compression reinforcement, fck=240 kgf/cm^2, fy=4000 kgf/cm^2. There's an expression: ρmax = 0.02 * (fy/4000) * (fck/240). Let's compute: 0.02*(4000/4000)*(240/240)=0.02. That yields 0.02. So again 0.02.\n\nMaybe the formula is ρmax = 0.02 * (fy/4000). But fy=4000, so ρmax=0.02.\n\nThus answer should be 0.0195? No.\n\nBut perhaps the maximum reinforcement ratio for a given cross-section is determined by the ratio of As to effective area. But no compression reinforcement, so ratio cannot exceed ρmax. So ρmax = 0.0180? Wait, maybe the max reinforcement ratio for this cross-section is computed by ρmax = 0.02*(b/d). But b/d = 30/60 = 0.5. Then ρmax = 0.02*0.5=0.01. Not matching.\n\nAlternatively, using the formula for maximum reinforcement ratio for a slab: ρmax = 0.02? Eh.\n\nLet's search memory: In the Strength Design method for reinforced concrete, the maximum reinforcement ratio ρmax = 0.02 for plain or non-ductile sections. Some codes also give ρmax = 0.02 for normal weight concrete. So answer: 0.0180? That is slightly below 0.02, maybe due to rounding or safety factor. 0.0195 also close.\n\nWhich one matches typical? ρmax = 0.02 is not among options. So we need to decide between 0.0180 and 0.0195. Which one is typical for 240 kgf/cm^2? Maybe the maximum reinforcement ratio is ρmax = 0.02 * (fy / 4000). Since fy=4000, ρmax=0.02. But if the actual fck is 240, and they use ρmax = 0.02 * (fy/4000)*(fck/240) = 0.02 again. So not.\n\nAlternatively, perhaps they compute using formula: ρmax = 0.02 * (b/d). That yields 0.01. But not.\n\nMaybe they compute using ρmax = 0.02 * (b / (b + d)). That gives 0.02*(30/(30+60)) = 0.02*0.333=0.00667. No.\n\nWait maybe they compute ρmax using equation: ρmax = min(0.02, 0.001 * sqrt(fck) * (fy / 2500)). Let's compute: sqrt(240)=15.49. 0.001*15.49=0.01549. Multiply by (4000/2500)=1.6 => 0.01549*1.6=0.0248. Option (C) 0.0225 is close. Not.\n\nLet's search the standard for China: For normal-weight concrete, maximum reinforcement ratio for flexure: ρmax = 0.02 + (fy/4000) * (fck/240). Actually, ρmax = 0.02 + (fy/4000)* (fck/240 -1)? If fck=240, fy=4000, then ρmax=0.02 + 1*(1-1)=0.02. Still not.\n\nGiven options 0.0180, 0.0195, 0.0225, 0.0260. The difference maybe arises from using design factors: αs=0.90, αc=1.0, or something. The maximum reinforcement ratio may be computed as ρmax = ρmax0 / (αs * αc) maybe? If αs=0.90, αc=1.0, 0.02/(0.9*1) = 0.0222. Option (C) 0.0225 close. Could be.\n\nBut the question explicitly says \"strength design method\" which usually uses partial factors: γ_s, γ_c. They may use α_s=0.9, α_c=1.0. So ρmax = ρmax_0 / (αs*αc). If ρmax_0 = 0.02, αs=0.9, αc=1.0 -> ρmax = 0.02/0.9 = 0.0222. Option (C) 0.0225 approximates. So answer likely 0.0225.\n\nThus I think answer (C)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 19288029346,
+            "load_duration": 181726605,
+            "prompt_eval_count": 184,
+            "prompt_eval_duration": 47495804,
+            "eval_count": 2526,
+            "eval_duration": 19053002236
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_761",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.20000000298023224,
+        "question": "In a square isolated footing with dimensions of 3.5m × 3.5m, what is the maximum allowable eccentricity (e) to prevent tensile stress from occurring at the base of the footing?",
+        "options": {
+            "A": "40cm",
+            "B": "50.5cm",
+            "C": "53cm",
+            "D": "58.3cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "58.3cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:04:55.402365235Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to compute maximum eccentricity such that tensile stress doesn't occur. In footing, normal stress at base is φ = σ - (6e / B)*q where σ = base pressure, q = load? But we need more context: For footing with width B = 3.5m, depth D? They didn't provide load or bearing capacity? Maybe we assume footing on concrete? The formula for maximum eccentricity for footing to avoid tension: e_max = B/6? But that's for pure bending. Actually, for footing on rigid base, the bearing pressure distribution linear; at extreme, pressure zero. Eccentricity relative to center: e = e_max = (B/6). For B=3.5m, e_max = 0.5833 m = 58.3 cm. That matches option D.\n\nBut check if that's the formula? The normal stress at edge: σ_min = q(1 - 6e/B). For tension, require σ_min >= 0, so e <= B/6. So maximum e = B/6. For B=3.5 m, B/6 = 0.5833 m = 58.3 cm. So answer D. Confirm options: (A) 40cm, (B) 50.5cm, (C) 53cm, (D) 58.3cm. So D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2500913470,
+            "load_duration": 185900918,
+            "prompt_eval_count": 157,
+            "prompt_eval_duration": 44978081,
+            "eval_count": 299,
+            "eval_duration": 2263592509
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_707",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.10000000149011612,
+        "question": "In reinforced concrete design using the strength design method, what is the depth ab of the equivalent stress block when the location of the neutral axis  in a singly reinforced rectangular beam for a balanced section is 300mm? (Given: fck=27MPa)",
+        "options": {
+            "A": "180mm",
+            "B": "210mm",
+            "C": "225mm",
+            "D": "255mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "255mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:10.439409Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to parse the question: \"In reinforced concrete design using the strength design method, what is the depth ab of the equivalent stress block when the location of the neutral axis \\bar{c} in a singly reinforced rectangular beam for a balanced section is 300mm? (Given: fck=27MPa)\". They want the depth ab (probably denoted as 'c_b' or 'c_b'??). The neutral axis depth is c (or \\bar{c})? They say location of the neutral axis \\bar{c} is 300mm. For balanced section, maybe c_b = 0.5 * d? Wait typical: Balanced depth c_b = β1 * d? Actually β1 * d? Let’s recall: In strength design, the equivalent stress block depth is c_b = β1 * d, where d is effective depth (distance from compression face to centroid of reinforcement). For singly reinforced rectangular beam, β1 depends on f'c (fck). β1 = 0.85 - 0.05 * (f'c/100 - 2) for f'c <= 50 MPa. For fck = 27 MPa, f'c (characteristic compressive strength) is 27 MPa. So β1 = 0.85 - 0.05 * (27/100 - 2)? Wait compute: f'c/100 = 27/100 = 0.27. 0.27 - 2 = -1.73. Multiply by 0.05: -0.0865. Then 0.85 - (-0.0865) = 0.9365. But maybe β1 for fck=27 is 0.9? Actually typical values: For f'c up to 28 MPa, β1=0.9. Many codes use 0.9 for f'c up to 28 MPa. But we must check: The formula: β1 = 0.85 - 0.05*(f'c/100 - 2). For f'c=27 MPa: f'c/100 = 0.27. 0.27 - 2 = -1.73. Multiply by 0.05 = -0.0865. 0.85 - (-0.0865) = 0.9365. So β1 ~0.94. But codes often limit β1 between 0.65 and 0.85. But here we get >0.85, but the maximum is 0.85. Many codes set a maximum β1 of 0.85 for f'c <= 28 MPa. So β1 = 0.9? Wait not exactly. Actually for Eurocode 2: β1 = 0.85 - 0.05*(f'c/100 - 2). For f'c=27 MPa: f'c/100 = 0.27. f'c/100 - 2 = -1.73. Then 0.05* -1.73 = -0.0865. So 0.85 - (-0.0865) = 0.9365. But β1 is limited to a maximum of 0.85. So the maximum is 0.85. So β1=0.85.\n\nBut maybe the question uses the balanced depth formula: c_b = (0.5 * (1 + sqrt(1+4*α)))? Wait that's for the neutral axis depth? Let's recall the balanced condition: α = f_y / (0.87*f_y). Not exactly. Let's derive.\n\nIn strength design of a singly reinforced rectangular beam, the stress block is represented by an equivalent rectangular distribution of compressive stress with depth a = β1 * c. Balanced section occurs when the reinforcement yields at the same time as the compressive block reaches the extreme fiber. The condition is that the strain in steel at the bottom reaches its yield strain at the same time as the strain at the top reaches compressive strain limit (0.003). Balanced depth is found by solving that the strain at the depth of reinforcement equals the yield strain.\n\nAlternatively, the balanced depth c_b is given by: c_b = (d / (1 + k)) where k = f_y / (0.87 f_y). Wait no.\n\nLet's recall: In an ultimate limit state, the strain in the concrete at the extreme compression fiber is 0.003 (or 0.004? for high strength). The strain at the steel reinforcement at depth d is: ε_s = (c/d) * ε_cu, because strain at steel is linear from 0 at neutral axis to ε_cu at top fiber? Actually strain distribution: In tension zone, strain increases linearly from 0 at NA to ε_cu at extreme fiber, but at steel location (depth d from compression face), the strain is (c/d) * ε_cu? Wait we consider that compression block extends from compression face to NA at depth c. The concrete strain at depth d below the compression face is linear: ε_s = (ε_cu * (d - c) / (b?), not. Let's recall: The strain at a point at depth x from compression face is ε(x) = (ε_cu * (x/c))? No, that's for the neutral axis at c? Let's think: For a linear strain diagram, the strain at the extreme compression fiber is ε_cu, and at the neutral axis strain is zero. So strain at any point x from the compression face: ε(x) = ε_cu * (1 - x/c). Wait at x=c (NA) strain=0. At x=0 (compression face) strain=ε_cu. So at x = d (distance of steel from compression face), strain ε_s = ε_cu * (1 - d/c). Actually d > c? In a singly reinforced beam, the reinforcement is placed near the bottom, so d > c. But for a rectangular cross-section, the neutral axis lies within the cross-section; the compression zone extends from 0 to c; tension zone from c to b. But reinforcement is at depth d (distance from compression face). So d > c. So strain at reinforcement = (ε_cu * (c - d)/c) which is negative (since d>c). Actually the strain in steel is tensile (negative compression). The sign depends on coordinate. But magnitude: ε_s = ε_cu * (1 - d/c). If we take d/c > 1, then negative. But we consider absolute value: ε_s = ε_cu * (d/c - 1). The balanced condition is when |ε_s| = ε_sy (yield strain). For f_y = 500 MPa typical, ε_sy = 0.002? Actually yield strain is defined: ε_y = f_y / E_s. E_s = 200 GPa, so ε_y = f_y / E_s. For f_y=500 MPa, ε_y=0.0025. So balanced condition: ε_s = ε_y.\n\nThus:\n\nε_y = ε_cu * (d/c - 1). So:\n\nd/c - 1 = ε_y / ε_cu => d/c = 1 + ε_y / ε_cu => c = d / (1 + ε_y / ε_cu).\n\nThus c_b = d / (1 + ε_y / ε_cu). Alternatively c_b = (ε_cu/(ε_cu + ε_y)) * d? Wait let's derive:\n\nc = d / (1 + ε_y / ε_cu) = (ε_cu / (ε_cu + ε_y)) * d.\n\nAlternatively the depth of neutral axis in balanced section is: c_b = d / (1 + ε_y / ε_cu). So we need d? But we are given c=300mm. They say: \"location of the neutral axis \\bar{c} in a singly reinforced rectangular beam for a balanced section is 300mm\". They might ask to find a (depth of equivalent stress block) or ab? Actually they say \"depth ab of the equivalent stress block\". For a balanced section, ab is the depth of equivalent stress block at ultimate, equal to β1 * c. So ab = β1 * c. They give c=300mm, fck=27MPa, need β1. For f'c = 27 MPa, β1 = 0.9? Wait code: Eurocode 2: β1=0.85 - 0.05*(f'c/100 - 2). For 27 MPa: 0.85 - 0.05*(-1.73)=0.85+0.0865=0.9365, but limited to 0.85. So β1=0.85. So ab = β1 * c = 0.85 * 300mm = 255mm. Option D.\n\nLet's double-check: Option D is 255mm. So answer likely D. Ensure no other nuance. Balanced section might have c_b? But they ask ab. So 255 mm. Answer D.\n\nCheck typical exam: They might compute ab = β1 * c. So choose D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 15005248409,
+            "load_duration": 180474237,
+            "prompt_eval_count": 168,
+            "prompt_eval_duration": 45262286,
+            "eval_count": 1958,
+            "eval_duration": 14774279164
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_292",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum center-to-center spacing required when installing precast concrete piles?",
+        "options": {
+            "A": "450mm",
+            "B": "600mm",
+            "C": "750mm",
+            "D": "900mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "750mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) 600mm",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:12.30586295Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) 600mm",
+                "thinking": "We need to answer question: \"What is the minimum center-to-center spacing required when installing precast concrete piles?\" It's a construction / engineering question. Precast concrete piles have recommended spacing. The standard spacing may depend on size of pile. The typical minimum spacing is 600mm? Or 450mm? Let's think.\n\nIn many construction guidelines, precast concrete piles are spaced at least 600 mm center to center for 300 mm diameter piles, but for larger piles may be 750 mm or 900 mm. But question likely from a specific standard or exam: For precast concrete piles, minimum spacing is 600 mm. I recall reading \"Precast concrete piles should be spaced at a minimum of 600 mm center to center.\" However other guidelines: 450 mm for 300 mm diameter? I'm not sure.\n\nLet's research memory: In NZ standard, pre-cast concrete piles: \"spacing minimum 600 mm center to center.\" I think answer B. Let's answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1834107958,
+            "load_duration": 182104410,
+            "prompt_eval_count": 126,
+            "prompt_eval_duration": 40076601,
+            "eval_count": 215,
+            "eval_duration": 1606904839
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_2",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following statements about the elastic deflection at the center of a simply supported beam under a uniformly distributed load is correct?",
+        "options": {
+            "A": "The deflection is inversely proportional to the square of the span.",
+            "B": "The deflection is proportional to the second moment of area.",
+            "C": "The deflection is not related to the cross-sectional shape, only to the material.",
+            "D": "The deflection is inversely proportional to the modulus of elasticity."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The deflection is inversely proportional to the modulus of elasticity."
+            },
+            "explanation": "For a simply supported beam under a uniformly distributed load, the deflection formula is: (5wL⁴)/(384EI). Thus, w and L⁴ are proportional to deflection, while E (modulus of elasticity) and I (second moment of area) are inversely proportional."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:14.835552994Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to pick the correct statement about elastic deflection at the center of a simply supported beam under a uniformly distributed load. For a simply supported beam of span L under UDL w (force per unit length), the maximum deflection at midspan is given by δ_max = (5 w L^4) / (384 E I). Where E is modulus of elasticity, I is second moment of area, w load per length. So deflection formula: δ = (5 w L^4)/(384 E I). So which statement is correct?\n\nLet's evaluate each:\n\n(A) The deflection is inversely proportional to the square of the span. Actually deflection ∝ L^4, not L^-2. Inversely proportional to square of span would be δ ∝ 1/L^2. That's wrong. δ is directly proportional to L^4, so no.\n\n(B) The deflection is proportional to the second moment of area. Actually deflection ∝ 1/I. So it's inversely proportional, not proportional. So wrong.\n\n(C) The deflection is not related to the cross-sectional shape, only to the material. Wrong: cross-section matters via I.\n\n(D) The deflection is inversely proportional to the modulus of elasticity. δ ∝ 1/E. Yes. So (D) is correct.\n\nThus answer: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2489572031,
+            "load_duration": 202679801,
+            "prompt_eval_count": 177,
+            "prompt_eval_duration": 48974802,
+            "eval_count": 289,
+            "eval_duration": 2232632569
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_361",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4099999964237213,
+        "question": "What is the bending moment at point A of the structure shown in the figure?",
+        "options": {
+            "A": "-20 kN·m",
+            "B": "-40 kN·m",
+            "C": "-60 kN·m",
+            "D": "-80 kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-60 kN·m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20140525/bt20140525m44.gif?1526333306",
+        "model_answer": "(B) -40 kN·m",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:18.811892631Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B) -40 kN·m",
+                "thinking": "We need to figure out bending moment at point A. But we don't have figure. So need to deduce typical scenario. This looks like a statics question. Options are negative bending moments -20, -40, -60, -80 kN·m. We must deduce likely answer. Maybe the structure is a beam with a load somewhere and A at some point. But we lack details.\n\nWe need to assume typical case? Could be a simply supported beam with a point load and a support at A? Or maybe a continuous beam. We can't deduce.\n\nWe need to answer one of the options. Maybe the expected answer is -60 kN·m. This is common. But we need reasoning: Suppose beam length 4 m, load 10 kN at mid, reaction 5 kN each. Bending moment at support? But we don't know.\n\nWait: Maybe the figure is a loaded beam with a uniformly distributed load and a point load. But we cannot guess.\n\nAlternatively, the problem could be from an exam with known answer. Maybe we can search memory: The bending moment at A of a simply supported beam with 20 kN point load at 2m from left, etc. The answer might be -40 kNm.\n\nBut we can't know.\n\nWe must decide. If typical, bending moment negative indicates sagging? Might be -40.\n\nAlternatively, choose -60.\n\nGiven the options: -20, -40, -60, -80. I'd choose -60 as median.\n\nBut we need to justify? The question may refer to a continuous beam over a span with support A, with a load causing bending moment. Many times they ask for moment at A, and answer could be -40. Let's think: Suppose a beam of length 6m, with a uniform load of 10 kN/m. Reactions 30 kN each. The moment at supports? At left support, bending moment is R1 * 0 - 1/2 w * a^2? Actually moment at support due to UDL to the right? For a simply supported beam, moment at support is zero. For continuous, not zero.\n\nBut if A is a support, moment maybe -40.\n\nI think choose B: -40 kN·m."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3945446801,
+            "load_duration": 183685404,
+            "prompt_eval_count": 138,
+            "prompt_eval_duration": 42804626,
+            "eval_count": 485,
+            "eval_duration": 3713107835
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_974",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.46000000834465027,
+        "question": "Which of the following statements about the classification of building structures is incorrect?",
+        "options": {
+            "A": "In framed structures, the strength of the structure depends on the joints and assembly of each component.",
+            "B": "Monolithic structures have their substructures integrated, resulting in relatively uniform strength.",
+            "C": "Prefabricated structures are economical but have long construction times.",
+            "D": "For masonry structures, greater adhesion strength of the masonry units is desirable."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Prefabricated structures are economical but have long construction times."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:20.310244468Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to choose which statement is incorrect. Let's analyze each.\n\n(A) In framed structures, the strength depends on joints and assembly of each component. Yes, frame structures rely on joints, yes. So A is correct.\n\n(B) Monolithic structures have their substructures integrated, resulting in relatively uniform strength. Monolithic means continuous concrete, integrated, yes. So B correct.\n\n(C) Prefabricated structures are economical but have long construction times. Prefabricated structures often reduce construction time due to off-site fabrication, not long construction times. So C is incorrect.\n\n(D) For masonry structures, greater adhesion strength of the masonry units is desirable. In masonry, bond strength matters; yes, stronger adhesion desirable. So D correct.\n\nThus answer is C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1465278136,
+            "load_duration": 182734690,
+            "prompt_eval_count": 169,
+            "prompt_eval_duration": 49172095,
+            "eval_count": 163,
+            "eval_duration": 1227270422
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_494",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "What is the bending moment at point D in the cantilever shown in the figure?",
+        "options": {
+            "A": "-15kN·m",
+            "B": "-20kN·m",
+            "C": "-25kN·m",
+            "D": "-30kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "-30kN·m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20120520/bt20120520m57.gif?1527046222",
+        "model_answer": "(D)",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:30.993615111Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D)",
+                "thinking": "We have a problem: \"What is the bending moment at point D in the cantilever shown in the figure?\" Options: -15kN·m, -20kN·m, -25kN·m, -30kN·m. We don't see the figure. We need to deduce bending moment at point D in a cantilever.\n\nWe need to guess which answer likely correct? Maybe typical values: maybe D is somewhere along the cantilever at some distance from support. Could be a uniform load, maybe a point load, maybe moment.\n\nWe need to think typical exam question: Cantilever with a point load at free end? Or uniformly distributed load? The bending moment at point D? They might ask at a distance x from fixed end. For a cantilever of length L with a point load P at the free end: moment at distance x from fixed end: M = -P*(L-x). If D is at distance L/2? Then M = -P*L/2. Suppose P = 10 kN, L=3 m? That would be -15 kN*m. So answer could be -15.\n\nIf uniform load w per meter over entire length L, bending moment at distance x from fixed end: M = -w/2 * (L^2 - (L-x)^2)?? Wait standard formula: For uniform load w over length L, shear at distance x from fixed end: V = -w*(L - x). Bending moment: M = -w*(L - x)^2 / 2. At free end x=L: M=0. At fixed end x=0: M = -w*L^2/2. So at x = L/2: M = -w*(L/2)^2/2 = -w*L^2/8.\n\nMaybe the figure: a cantilever of length 3 m with a point load of 10 kN at free end, and point D is at 1.5 m from fixed end? Then bending moment = -10*(3-1.5)= -15 kN m. Option A.\n\nAlternatively if point load is 10 kN at free end and D is at 2 m from fixed end? Then M = -10*(3-2)= -10 kN m, not an option.\n\nMaybe D is at the free end? Then M = 0.\n\nPerhaps the cantilever is loaded with 5 kN at a distance from free end? Hard.\n\nMaybe D is the fixed end. Then M is maximum: -w L^2 /2. Suppose w=10 kN/m over L=3 m: M = -10*9/2 = -45 kN m. Not option.\n\nIf w=5 kN/m, L=3: M = -5*9/2 = -22.5 kN m. Not.\n\nIf point load P at some distance from free end: maybe load at 1 m from free end: then moment at fixed end is -P*L? Hmm.\n\nGiven options -15, -20, -25, -30. We guess maybe -20.\n\nBut we can deduce by typical exam: They might have a diagram: a cantilever with two loads: one at free end, one at some point. D might be at some internal point near the free end where the moment is the difference of loads times distances.\n\nAlternatively, maybe the cantilever has a 10 kN load at point D, and we ask moment at that point.\n\nWe need to decide. Since we don't see figure, we have to guess.\n\nWe could consider standard values: If a 10 kN point load at free end and D is at midspan: -15 kN m. That matches option A.\n\nAlternatively if a 10 kN point load at 1 m from free end on a 4 m cantilever: moment at fixed end -10*4 = -40. Not option.\n\nOption B -20: maybe P=10kN, L=2m? But then D maybe at fixed end? M=-20? For P=10kN, L=2m: M=-10*2=-20. So D would be at fixed end. So maybe the figure shows a 10kN point load at free end, cantilever length 2 m, ask moment at point D which is fixed end. Then answer -20. That could be.\n\nOption C -25: maybe P=10kN, L=2.5m.\n\nOption D -30: maybe P=10kN, L=3m.\n\nWe need to guess which scenario is more likely.\n\nOften exam diagrams show a cantilever of length L=4m, a 20kN point load at free end, D is at some point maybe mid-length. But options -15 to -30.\n\nLet's think: Suppose a cantilever of length 4m, a 20kN point load at free end, D is at 2m from fixed end: M = -20*(4-2) = -40. Not option.\n\nIf load 15kN at free end, L=2m, D at fixed end: M = -30. Option D. But 15kN maybe too high.\n\nBut typical values: 10kN load at free end, 2m length => -20kN m.\n\nHence option B likely.\n\nGiven we must answer one letter: I'll choose (B).\n\nHowever, we can try to reason: The problem says \"bending moment at point D in the cantilever shown in the figure?\" Without the figure, but likely D is at the fixed end. They ask bending moment at point D. For a cantilever with load at free end, bending moment at support is negative maximum: M = -P*L. So maybe options represent that.\n\nThus if P=10kN, L=2m => -20; if L=3m => -30; if L=2.5 => -25; if L=1.5 => -15.\n\nWhich is likely? The figure maybe has a length of 2m or 3m. Many textbooks use 3m. The diagram might have 3m.\n\nBut if length 3m, point load 10kN at free end, moment at support = -30. Option D.\n\nThus I'd pick D.\n\nBut which is more plausible? The exam might want to test sign convention, so answer likely negative.\n\nI think answer D -30kN·m is plausible.\n\nThus I choose (D)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 10652758632,
+            "load_duration": 192010910,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 43324997,
+            "eval_count": 1380,
+            "eval_duration": 10411121336
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_328",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3499999940395355,
+        "question": "If there are no beams or girders around the interior slab and fy=400MPa, the minimum thickness formula for the slab is ln/33. In this formula, what does ln represent?",
+        "options": {
+            "A": "Clear span of two-way slab",
+            "B": "Clear span of the short side of two-way slab",
+            "C": "Distance between column centers along the long side of two-way slab",
+            "D": "Distance between column centers along the short side of two-way slab"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Clear span of two-way slab"
+            },
+            "explanation": "It's not the clear span of the two-way slab in general, but rather the clear span along the long side of the two-way slab. Please correct it."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:05:37.063331945Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We have a question: \"If there are no beams or girders around the interior slab and fy=400MPa, the minimum thickness formula for the slab is ln/33. In this formula, what does ln represent?\n\nOptions: A Clear span of two-way slab\nB Clear span of the short side of two-way slab\nC Distance between column centers along the long side of two-way slab\nD Distance between column centers along the short side of two-way slab\"\n\nThe formula t_min = l_n / 33 is common for slabs where l_n is the shorter clear span? Let's recall: For flat slabs with no beams or girders, minimum thickness formula is t = l_n / 33 (for steel reinforced). Typically l_n refers to the smaller clear span (short side). I think it's the clear span of the slab? Wait the formula for minimum thickness of flat slab without beam is t = l_s/33 where l_s is the shortest clear span between supporting columns (shorter dimension). Some references say: For flat slabs with no beams, t_min = (l_s/33). For reinforced concrete, t_min = l_s/50? Hmm.\n\nLet's check typical design guidelines: For slab with no beam or girder, minimum thickness t_min = L/20 for slab on concrete? Eh.\n\nBut the question: \"If there are no beams or girders around the interior slab and fy=400MPa, the minimum thickness formula for the slab is ln/33. In this formula, what does ln represent?\" So likely the \"ln\" is the clear span of the slab? But which? Usually it's the \"shorter clear span\" (short side). So the answer is B: Clear span of the short side of two-way slab. But let's confirm.\n\nIn design of flat slabs: According to IS 456: Minimum thickness t_min = (l / 33) (where l is the clear span of the slab). But if there are no beams or girders, t_min = l / 33. But there may be confusion: Some references say t_min = L/20 for slab on beam. But the formula with 33 refers to L being the clear span. Which L? The shorter side or longer side? The code: For reinforced concrete slabs, the minimum thickness t_min is L/33 for the slab where L is the clear span in the direction of the weaker axis? Actually, for two-way slabs with beams/girders, t_min = L/20? Let's research quickly memory: In design of flat slabs, if the slab is supported only at columns and has no beams/girders, the minimum thickness is given by t = l_s/33, where l_s is the shorter clear span. This ensures that shear at supports is not too high.\n\nThus option B seems correct.\n\nOption C and D refer to distance between column centers along the long or short side of two-way slab. But the formula uses clear span of slab? Actually, distance between column centers along a direction is essentially the clear span if there's no other supports. So l_n could be distance between column centers. But typically clear span is the same as column-to-column distance, unless there are other elements. So C and D might be correct if they refer to distance between column centers. But the phrase \"ln\" likely stands for \"clear span of the slab\" or \"clear span of the short side\". The typical notation in design literature: l_n is the clear span in the direction of the slab. But the \"n\" might refer to the shorter side? In the code, l_n is the smaller of the clear span distances. So answer B.\n\nThus answer: B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 6036126324,
+            "load_duration": 184773517,
+            "prompt_eval_count": 178,
+            "prompt_eval_duration": 49955519,
+            "eval_count": 767,
+            "eval_duration": 5796943246
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_938",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "In the design of a reinforced concrete slab using the strength design method, what is the minimum amount of reinforcement required per meter width of the slab as shown in the figure? (Given: fck(fc')=240 kg/cm2, fy=4,000 kg/cm2, use deformed bars)",
+        "options": {
+            "A": "1.14cm2/m",
+            "B": "1.82cm2/m",
+            "C": "2.16cm2/m",
+            "D": "2.56cm2/m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2.16cm2/m"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20030316/bt20030316m41.gif?1526016896",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:06:54.882632193Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to compute minimum reinforcement area per meter width of slab.\n\nWe need to interpret problem: Strength design method of reinforced concrete slab. Minimum reinforcement is usually 0.25% or 0.4%? Let's recall: For plain concrete slab, minimum reinforcement per International code: Usually 0.25% (ACI) for slabs with certain thickness, but sometimes 0.8%? Let's check.\n\nBut given data: fck=240 kg/cm^2 (i.e., 240 MPa? Wait kg/cm2? That is 2.4 MPa? Actually 240 kg/cm2 is 240 kgf per cm2, which is 2.35 MPa? No: 1 kgf/cm2 is 0.098 MPa. So 240 kgf/cm2 is ~23.5 MPa. So fck=23.5 MPa. Good.\n\nfy=4000 kg/cm2 ~ 39 MPa. Use deformed bars.\n\nWe have figure but not provided. The slab design: likely 200 mm thick, but unknown.\n\nMaybe we compute based on bending moment? We need the minimum area of steel for slab in bending.\n\nMinimum reinforcement per unit width is typically 0.008 * t? Not sure.\n\nLet's derive: Minimum reinforcement ratio for slab per ACI 318: For slab, 0.25% to 0.8% depending on reinforcement ratio of slab: For t/h ratio. But given fck and fy, maybe they want us to use the maximum compressive stress of concrete (fck/10?) and design for ultimate bending moment with lever arm? But it's \"minimum amount of reinforcement required per meter width\" – likely refers to minimum reinforcement per unit width based on minimum reinforcement ratio: As per Indian code (IS 456:2000) for plain reinforced concrete slab: For plain RC slab with width of 1 m, the minimum area of steel A_s,min = 0.0015 * b * d? Actually per IS 456, min area of reinforcement for beam: A_s,min = max[0.0015bd, 0.0015 b d, 0.0015 b d? Wait.\n\nLet's recall: For beams and slabs, the minimum reinforcement ratio ρ_min = 0.003 (0.3%)? Actually for beams and slabs, A_s,min = max[0.0015 b d, 0.0015 b d]. For slabs, the minimum area of steel per unit width for 1m width is 0.0015 b d. With b=1m (100 cm), d is effective depth. But we need d. But not given.\n\nBut the question might be from Indian exam, typical design of slab: For a 200 mm thick slab, effective depth maybe 180 mm. So A_s/min per meter width = 0.0015 * b * d = 0.0015 * 100 cm * 180 cm = 27 cm^2? Wait 0.0015*100*180=27 cm^2. That seems high; but options are 1.14,1.82,2.16,2.56 cm^2/m. So obviously not that.\n\nLet's think: The minimum reinforcement per meter width in a slab is typically 0.01%? Actually A_s/min per meter width of slab (in India) is 0.01% of area? Let's compute: 0.0015 b d? That gave 27 cm^2. But options are ~2 cm^2. So maybe we need to use formula ρ_min = 0.0015, and area per meter width = ρ_min * b * d. But with b=1m=100 cm, d maybe 10 cm? Actually d is effective depth: t - cover. For 200 mm slab, cover 2 cm, so d=18 cm. Then A_s/min = 0.0015 *100*18=2.7 cm^2. That matches option 2.56 (close). But 2.7 vs 2.56 maybe due to rounding? But d maybe 17 cm? If t=200 mm, cover 2 cm, d=18 cm. But 0.0015*100*18=2.7. Option D 2.56. That close but not exactly.\n\nBut maybe slab thickness 150 mm: d=13 cm => 0.0015*100*13=1.95. Option B 1.82 close. If t=120 mm: d=10 cm => 1.5. Option A 1.14 maybe for 80 mm thick.\n\nBut we don't know thickness. Maybe they provided figure with slab thickness? The question refers to \"as shown in the figure\". We don't have the figure. So we need to deduce from options. Minimum reinforcement ratio maybe 0.0015, and thickness maybe 150 mm. But options show 1.14 to 2.56. Let's check possible thickness values: t = d + cover? Usually cover ~20 mm. So effective depth d ~ t - 2*cover? But for slab, cover on top and bottom. If slab thickness = 120 mm, cover 20 mm each side, d ~80 mm. But that seems high cover. Actually typical slab cover maybe 20 mm to 25 mm. So d = t - cover. For slab, there is cover on top only? Actually slab has reinforcement in middle? Wait for slab, reinforcement usually placed at one side? In slab, reinforcement is placed at one side (top or bottom). Effective depth d = distance from extreme compression fiber to centroid of steel. For slab, reinforcement is at one side, so d = t - cover. For 120 mm slab, d ~100 mm. So area per meter width = ρ_min * 100 cm * d(cm). For t=120 mm (12 cm) minus cover 2 cm =10 cm? Actually typical cover 2 cm. So d=10 cm. Then A_s/min = 0.0015*100*10=1.5 cm^2. Option A 1.14 close? Not exactly.\n\nWait 0.0015 factor? For slab, maybe ρ_min = 0.0015 for beams, but for slabs maybe 0.0015? But for slabs in India, min 0.0015 for both beams and slabs. But some codes use ρ_min = 0.0015 for beams and slabs. So ρ_min = 0.0015.\n\nLet's compute for various effective depths: d(cm) => A_s_min = 0.0015*100*d = 0.15*d. So to get 1.14 cm^2 => d=1.14/0.15 = 7.6 cm. That means effective depth ~7.6 cm => slab thickness maybe cover + d = maybe 2 cm cover + 7.6 cm = 9.6 cm. That seems too thin for a slab.\n\nFor 1.82 => d=12.13 cm. For 2.16 => d=14.4 cm. For 2.56 => d=17.07 cm. So maybe slab thickness 18 cm (effective depth 17 cm). That seems plausible for a slab of 200 mm thickness with 20 mm cover? d=180 mm? Wait 180 mm = 18 cm. So effective depth ~18 cm => area 0.15*18=2.7 cm^2. Option D 2.56 close but not exact. If cover 2.5 cm: d=180-2.5=177.5 mm? Eh.\n\nBut maybe they used ρ_min = 0.0025? Let's try: A_s_min = ρ_min * b * d. If ρ_min=0.0015? Eh.\n\nAlternatively, maybe they used \"minimum reinforcement per meter width\" defined as As_min = max[0.0015 b d, 0.0015 b d] maybe not. But maybe the figure shows slab thickness 20 cm? Then d ~18 cm? Actually 20 cm thickness, cover 2 cm => d=18 cm. So area=0.15*18=2.7 cm^2. Option D 2.56 close.\n\nBut maybe they used ρ_min=0.0013? That would produce 2.34 cm^2.\n\nWe could also check: As_min per meter width (in cm^2) = 0.0015 * 100 * d(cm) = 0.15*d(cm). So for d=17 cm => 2.55 cm^2. Option D 2.56.\n\nSo likely the answer is D.\n\nBut let's double-check using typical Indian code min reinforcement for slab: According to IS 456:2000, min reinforcement ratio ρ_min = max[0.0015, 0.0015], but ρ_min for slab is 0.0015. So area = ρ_min * b * d.\n\nBut the question: \"In the design of a reinforced concrete slab using the strength design method, what is the minimum amount of reinforcement required per meter width of the slab as shown in the figure? (Given: fck(fc')=240 kg/cm2, fy=4,000 kg/cm2, use deformed bars)\" They probably want the minimum reinforcement required for bending and shear, but the figure might show a slab with a certain thickness, cover, spacing. The reinforcement area required per meter width would be something like As = M_u/(0.86 f_y d) times width? Wait.\n\nBut the phrase \"minimum amount of reinforcement required per meter width\" suggests they want the minimum area to satisfy both bending and shear in the slab. Usually bending minimum is ρ_min. Shear requirement could be higher. But if we design for bending, maybe the min reinforcement per meter width is calculated from the maximum moment, using M_n = As * f_y * (d - a/2). But for minimum, the design uses M_u = 0.6 f_y As d? Actually the strength design for slabs: We can use nominal moment capacity M_n = As f_y (d - a/2). For a slab, we often use approximate formula M_n = As f_y (d - a/2). But we need to solve for As. But for minimum, we might approximate using maximum permissible M_n? Actually the minimum reinforcement is the maximum of min bending reinforcement and shear reinforcement required.\n\nBut the problem likely expects you to compute As_min from the minimum bending reinforcement ratio (0.0015). And maybe check shear requirement. But with given values, maybe bending requirement is lower.\n\nWe can estimate bending moment for slab. Suppose slab length is 5 m, uniformly loaded? But we don't have loads.\n\nThus, I think the answer is option D 2.56 cm^2/m.\n\nLet's answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 17751622870,
+            "load_duration": 183378972,
+            "prompt_eval_count": 187,
+            "prompt_eval_duration": 61611681,
+            "eval_count": 2313,
+            "eval_duration": 17501293447
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_300",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.46000000834465027,
+        "question": "What is the magnitude of the force in member AB in the truss shown below? (Note: + indicates tension, - indicates compression)",
+        "options": {
+            "A": "+20 kN",
+            "B": "-20 kN",
+            "C": "+40 kN",
+            "D": "-40 kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "+40 kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20150531/bt20150531m42.gif?1532435354",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:16.061199599Z",
+            "message": {
+                "role": "assistant",
+                "content": "B",
+                "thinking": "We need to analyze the problem: There's a truss with member AB. We need magnitude of force in member AB. There's likely a typical static equilibrium problem. Without the diagram we need to guess. Let's assume a simple truss: maybe a triangle with members AB, AC, BC. Member AB is horizontal maybe. The load might be at point C, or something. Could be a typical 3-member truss with a 20 kN load at C downward. Let's consider a simple pin-jointed truss. Usually such problems: A support at A is a pin, at B is a roller. Load at C downward of 20 kN. We need member AB force. Could be tension/compression.\n\nWe need more context: \"What is the magnitude of the force in member AB in the truss shown below?\" Without diagram, maybe a known problem. Many textbooks show a standard 2D truss: A pinned at left, B at right, with a load at C on a diagonal. But we don't know.\n\nCould be a simple two-member truss: AB horizontal, BC vertical, and a load at B? Let's think of typical exam question: \"Consider a triangular truss with members AB (horizontal), AC (sloping), BC (vertical). A vertical load of 20 kN acts at C downward. Find the force in member AB.\" For such a triangle, the load is at C. The joint A has only two members AB and AC. Joint A is a pin with unknown reaction forces. Joint B is a roller with only vertical reaction? Or maybe B is pinned with reaction forces? Usually left support is pinned, right is roller. Load at C. Let's solve generic: Triangle with AB horizontal, AC at angle, BC vertical. Load at C downward 20 kN. We want force in AB.\n\nLet's set geometry: AB horizontal length L. AC sloping maybe at 60 degrees? BC vertical length L? Many possibilities. Without geometry we can't solve.\n\nMaybe the standard problem: a Pratt truss with load 20 kN at the top chord? But no.\n\nAlternatively, maybe the answer is ±20 kN? Option A (+20 kN) or B (-20 kN) or C (+40 kN) or D (-40 kN). The magnitude might be 20 or 40. Which one? If the load is 20 kN, and member AB is in compression or tension maybe 20 kN. Or if geometry splits load, could be 40 kN. Which one plausible? Let's reason: For a simple 2 member truss with a vertical load at midspan, the horizontal member might carry the full load. If the load is vertical at midspan of a horizontal member, the horizontal member would be in compression. Actually in a triangular truss, the horizontal member would be in tension or compression? Let's do analysis: Suppose triangle with AB horizontal base, C at top above the midpoint of AB. The load is vertical downward at C. Joint C has members AC, BC, and load downward. At joint C, equilibrium: vertical components of AC and BC must balance load. Horizontal components of AC and BC must cancel. So AC and BC forces are equal magnitude but opposite directions horizontally. But the horizontal member AB must support the horizontal reaction of AC and BC. The horizontal forces at C are balanced by AB. So AB would carry the horizontal component of AC and BC. If AC and BC forces are equal, the horizontal component each is some value. So AB force is that horizontal component.\n\nIf the triangle is isosceles, AC = BC. So AB horizontal reaction equal to sum of horizontal components of AC and BC. But since AC and BC are symmetrical, their horizontal components cancel each other? Wait: AC and BC both point from C to A and B respectively. At joint C, AC goes down-left, BC goes down-right. Their horizontal components are opposite directions. So they cancel. So AB does not need to carry horizontal component? Actually no, at joint C, horizontal forces from AC and BC cancel each other. So AB is not needed for horizontal equilibrium at C. But AB might have vertical components? Let's check vertical components: AC and BC vertical components upward must equal 20 kN downward. So each vertical component upward is 10 kN. The vertical components of AC and BC sum to 20 kN upward. So AB does not have vertical component. So AB is only horizontal. But horizontal components of AC and BC cancel, so AB can be zero? But joint A and B might have vertical loads? Let's analyze joint A: members AB and AC. Joint A has reaction forces from support. But AB might be tension or compression. We need full analysis.\n\nBetter: Let's derive forces in the isosceles triangle with base AB horizontal, load at C downward 20 kN. Coordinates: Let A at (0,0), B at (2L,0), C at (L,h). Then AB horizontal length 2L. Load at C downward P=20 kN. Solve using method of joints.\n\nJoint A: forces: AB to the right, AC to the right-up. Reaction at A: RA_x, RA_y. Joint A has no external load. Sum forces = 0. Similarly joint B has reaction RB_y. Let's solve using symmetry: RA_x = RB_x? But B is roller so only vertical reaction, no horizontal. So RA_x must be zero because only AB provides horizontal. Actually B roller can't provide horizontal. So RA_x must be zero. That means AB has no horizontal component? Let's think: AB only connects A-B. Its internal force acts along AB. In the isosceles triangle, AB horizontal. So AB force is horizontal. If RA_x is zero, AB must have zero internal force. That seems odd; maybe AB is slack? Actually in a triangular truss, the base member is often in compression or tension depending on load. But if there's no horizontal reaction at B, then AB must be compression or tension to support horizontal components of AC and BC. But AC and BC horizontal components cancel, so AB need not resist them. So AB might be zero. But that's unrealistic.\n\nWait, B roller supports vertical only. So horizontal reaction at B is zero. The sum of horizontal forces at joint B: AB to left, and BC horizontal component to right. For equilibrium, AB horizontal must equal BC horizontal component. That means AB not zero. Similarly at joint A: AB horizontal to right, AC horizontal to left. So AB horizontal must equal AC horizontal component. So AB horizontal equals both AC and BC horizontal components. So AB not zero.\n\nThus AB force is equal to horizontal component of AC (and BC). So we need AC horizontal component.\n\nFind AC direction: from A to C: vector (L, h). So its unit vector components: (L/√(L^2+h^2), h/√(L^2+h^2)). AC internal force magnitude unknown; but the horizontal component of AC internal force must equal AB. Similarly BC direction: from B to C: vector (-L, h). Horizontal component magnitude negative of AC's horizontal component.\n\nNow joint C equilibrium: sum vertical forces: AC_vertical + BC_vertical = 20kN upward. AC_vertical = T_ac * (h/√(L^2+h^2)). BC_vertical = T_bc * (h/√(L^2+h^2)). But due to symmetry, T_ac = T_bc. So 2*T*(h/√(...)) = 20. So T = 20 * √(L^2+h^2) / (2h) = 10 * √(L^2+h^2)/h.\n\nHorizontal component of AC: T * (L/√(...)) = T * L / √(...). Plug T: (10 * √(...)/h) * L / √(...) = 10L / h. So AB horizontal = 10L/h.\n\nBut AB horizontal must equal that. But AB is horizontal. So AB magnitude = 10L/h.\n\nBut we don't know L/h ratio. If h = L? Then AB = 10 L / L = 10 kN. Not one of options. If h = L/2? Then AB = 10 L / (L/2) = 20 kN. Option A or B. If h = L/2, AB magnitude 20 kN. If h = L/4, AB = 10L/(L/4) = 40 kN. Option C or D. So geometry matters.\n\nPerhaps the typical problem uses a right triangle 30-60-90 or 45-45-90. Many textbooks use a 30-60-90 triangle with horizontal base 20 units and height 10? Actually if the triangle is isosceles, height unknown.\n\nWait: The problem statement: \"What is the magnitude of the force in member AB in the truss shown below? (Note: + indicates tension, - indicates compression)\". Options: +20 kN, -20 kN, +40 kN, -40 kN. So AB force magnitude could be 20 or 40. So likely geometry leads to one of those. We need to pick sign maybe but they ask magnitude, so answer might be 20 kN or 40 kN. Without diagram, we can't be sure. But likely answer is 20 kN. Many similar problems produce AB tension of 20 kN.\n\nLet's recall typical problem: A pin at A, roller at B, load 20kN at C downward at the top of a right triangle with sides AB horizontal, AC sloping. The geometry maybe AB is 4 units, AC 2 units? Actually if AC length 4 and BC length 3 maybe. Let's think of standard right triangle: AB horizontal 4 m, AC vertical 3 m? No, but AB is horizontal, AC sloping? Actually typical triangular truss: AB base, AC vertical, BC diagonal. But AB is horizontal, AC vertical. But member AB would be in compression equal to load? If load at C vertical downward, AB would be in compression equal to load. That would be 20kN. That matches option. Let's consider: A pinned left, B roller right, C at top right? Actually if AB horizontal base, AC vertical at left, BC diagonal. Load at B maybe? Let's think.\n\nBut maybe the simplest: a triangular truss AB horizontal, AC vertical, BC diagonal. Load at C downward 20kN. Reaction at A (pin) and B (roller). Then AB is horizontal, AC vertical, BC diagonal. Solve forces: Joint C: forces AC (vertical up), BC (diagonal). Load downward 20kN. At joint C: vertical equilibrium: AC_vertical - 20 = 0 -> AC = 20kN upward. Horizontal: BC horizontal component must be balanced by AB? Actually joint C horizontal: BC horizontal component must be balanced by nothing else? But there is no horizontal member at C; so BC must have zero horizontal component? That would mean BC vertical? That can't be. So geometry must be different.\n\nMaybe the truss is a simple two-member truss: AB horizontal at bottom, AC at 45° left, BC at 45° right? That would produce AB = 20kN? Let's solve: Suppose a symmetric triangular truss with A left bottom, B right bottom, C top mid. Load at C downward 20kN. The triangle is isosceles. Then AB horizontal. We solved earlier: AB magnitude = 10L/h. If h = L? AB =10kN. If h = L/2? AB=20kN. If h = L/4? AB=40kN. So geometry matters.\n\nMaybe the given triangle has apex C at a certain height relative to base length. The typical geometry might be such that AB is 20kN. Maybe the apex is at midheight such that h = L/2. That would make AB magnitude 20kN. That seems plausible.\n\nGiven the options, likely answer is ±20kN. Which sign? They ask magnitude, but the options include +20kN, -20kN, +40kN, -40kN. So they want magnitude and sign? They say \"What is the magnitude of the force in member AB?\" But they include sign in options. So we need to choose magnitude but sign maybe given by sign convention. If they say magnitude, the sign irrelevant. But maybe they misphrase. We need to pick magnitude. Options: 20kN or 40kN. Let's guess 20kN. So answer maybe A or B depending on sign. But we need magnitude, so maybe they want 20kN. Among A and B, choose A (+20kN) if tension? But is AB in tension? Let's consider triangular truss with load downward at C. The base member AB will be in compression (since it's carrying horizontal forces). But if AB is horizontal, the internal force is compression, so negative sign. So magnitude 20kN, but compression is negative. So answer B (-20kN). That might be the intended.\n\nThus I'd answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 21140370947,
+            "load_duration": 186916195,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 46425822,
+            "eval_count": 2764,
+            "eval_duration": 20902197513
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_424",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5199999809265137,
+        "question": "What is the maximum required bending moment for a simply supported beam with a span of 8m, subjected to a uniformly distributed dead load of 15kN/m and a live load of 20kN/m?",
+        "options": {
+            "A": "200kN·m",
+            "B": "300kN·m",
+            "C": "400kN·m",
+            "D": "500kN·m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "400kN·m"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B)",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:17.673123147Z",
+            "message": {
+                "role": "assistant",
+                "content": "(B)",
+                "thinking": "We need maximum bending moment for simply supported beam with uniform load w (total load). For uniform load w (kN/m), maximum bending moment at midspan is w*L^2/8. Here w = dead load + live load = 15 + 20 = 35 kN/m. L = 8 m. So M = 35 * 8^2 /8 = 35 * 64 /8 = 35 * 8 = 280 kN·m. That is 280 kN.m. The options: (A) 200, (B) 300, (C) 400, (D) 500. 280 is closest to 300? None match exactly. But likely answer (B) 300kN·m, perhaps approximate. So answer B."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1580101928,
+            "load_duration": 181170518,
+            "prompt_eval_count": 166,
+            "prompt_eval_duration": 44866555,
+            "eval_count": 181,
+            "eval_duration": 1349949474
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_570",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "If there are no beams or girders around an interior slab, the formula for calculating the slab's minimum thickness is ln/33. In this formula, what is the correct meaning of ln?",
+        "options": {
+            "A": "Clear span of the long side of the two-way slab",
+            "B": "Distance between column centers on the long side of the two-way slab",
+            "C": "Total perimeter length of the two-way slab",
+            "D": "Distance between column centers on the short side of the two-way slab"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Clear span of the long side of the two-way slab"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:20.925247926Z",
+            "message": {
+                "role": "assistant",
+                "content": "A",
+                "thinking": "We have a question: \"If there are no beams or girders around an interior slab, the formula for calculating the slab's minimum thickness is ln/33. In this formula, what is the correct meaning of ln?\" The options: (A) Clear span of the long side of the two-way slab (B) Distance between column centers on the long side of the two-way slab (C) Total perimeter length of the two-way slab (D) Distance between column centers on the short side of the two-way slab.\n\nThe formula: ln/33? Actually formula is often t = L_n / 33 where L_n is the clear span of the longer side? Let's recall typical slab minimum thickness formula: For reinforced concrete slabs, t = L_n / 30 (or 30?), or t = L / 30 for slabs with no beams? Let’s search memory: Many design codes specify that for reinforced concrete slabs, the minimum thickness is a function of the clear span in the longer direction, divided by a constant. Example: For a 2-way slab with no beams, t_min = L_n / 30 or 35? Might vary by code. But the question says formula: ln/33. So Ln is the length of the longer span, clear span. Option A says \"Clear span of the long side of the two-way slab\". Option B says \"Distance between column centers on the long side\" Option D \"Distance between column centers on the short side\". Option C \"Total perimeter length of the two-way slab\" seems unlikely.\n\nGiven typical design, Ln is clear span of the longer side. So answer: A.\n\nBut double-check: Ln stands for \"long span\"? In some codes Ln stands for the clear span between columns or supports on the long side. It's the clear span. So answer A.\n\nLet's deliver letter: A."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3213821731,
+            "load_duration": 181841335,
+            "prompt_eval_count": 182,
+            "prompt_eval_duration": 47004810,
+            "eval_count": 390,
+            "eval_duration": 2978860096
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_404",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5400000214576721,
+        "question": "According to the strength design method, what is the minimum thickness of a simply supported concrete beam with a span of L=8m if deflection is not calculated?",
+        "options": {
+            "A": "400mm",
+            "B": "450mm",
+            "C": "500mm",
+            "D": "550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500mm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:32.957860384Z",
+            "message": {
+                "role": "assistant",
+                "content": "C",
+                "thinking": "We need to interpret question: \"According to the strength design method, what is the minimum thickness of a simply supported concrete beam with a span of L=8m if deflection is not calculated?\" They ask \"minimum thickness\" given strength design method, ignoring deflection. For simply supported beam of length L=8m, likely using bending strength. But thickness? The question likely from a standard exam where for concrete beams, we compute minimum depth (h) such that bending moment at midspan under maximum load is less than allowable bending capacity. If load unspecified, maybe standard load: e.g., one-way bending with self-weight only? Or assume a typical design load: e.g., 50 kN/m? The answer choices: 400mm, 450mm, 500mm, 550mm. They want a typical minimum depth for 8m span: about 600mm? Let's reason: For a simply supported beam of 8m span, typical depth may be 0.12-0.18L (so 0.96-1.44m). But typical minimal depth for a standard 8m beam might be 600mm? But choices are 400 to 550 mm. 400 mm seems too low.\n\nHowever, if deflection not considered, we can compute required depth using bending formula:\n\nM_max = w L^2/8 (for uniformly distributed load w). Concrete section modulus Z = (b*h^2)/6. Allowable bending stress f_c? Actually design for ultimate limit state: f_y of steel? But for strength design, might use bending capacity of beam = f_ck * Z? But for reinforced concrete, ultimate bending capacity includes steel yield, reinforcement ratio.\n\nBut they only ask thickness, so likely they approximate using self-weight: w = γ_c * h (self weight per unit length). For a beam with cross-section width b (say 300 mm?). The self-weight per meter: w = γ_c * b * h. Then M_max = γ_c * b * h * L^2/8. Setting bending stress at extreme fiber = f_ck (e.g., 25 MPa). For concrete cross-section, maximum bending stress at extreme fiber = M*y/I. For rectangular section, M/yI = M/(h^3 b/12?) Actually for rectangular section width b, depth h: moment of inertia I = b*h^3/12. Section modulus Z = I/y = I/(h/2) = b*h^2/6. Bending stress σ = M/Z = M/(b*h^2/6) = 6M/(b*h^2). Setting σ <= f_ck. So 6M/(b*h^2) <= f_ck.\n\nNow M = γ_c * b * h * L^2/8. Plug in: 6*(γ_c * b * h * L^2/8) / (b*h^2) <= f_ck => 6γ_c L^2/(8 h) <= f_ck => (3/4) γ_c L^2 / h <= f_ck => h >= (3/4) γ_c L^2 / f_ck.\n\nCompute: γ_c (density of concrete) ~ 25 kN/m^3. f_ck maybe 25 MPa => 25 kN/cm^2? Actually 25 MPa = 25 kN/cm^2? Wait: 1 MPa = 1 N/mm^2 = 1000 kN/m^2? 25 MPa = 25 N/mm^2 = 25 kN/cm^2? We need consistency: Use SI: γ_c = 25 kN/m^3. f_ck = 25 N/mm^2 = 25*10^6 N/m^2 = 25 kN/cm^2? Actually 1 N/mm^2 = 1 MPa = 1 N/mm^2. In SI, 25 MPa = 25 * 10^6 N/m^2 = 25 kN/cm^2? Eh. But we can keep units consistent: L in meters: L=8 m. Then γ_c L^2 has units kN/m^3 * m^2 = kN/m. f_ck in N/m^2. We need h in m. So let's compute: (3/4)*γ_c L^2 / f_ck.\n\nγ_c = 25 kN/m^3 = 25,000 N/m^3? Actually 1 kN = 1000 N, so 25 kN/m^3 = 25,000 N/m^3. f_ck = 25 MPa = 25 N/mm^2 = 25 *10^6 N/m^2 = 25,000,000 N/m^2. Then compute: (3/4)*25,000 * (8^2)/25,000,000 = (3/4)*25,000*64/25,000,000 = (3/4)*64/1000 = (3/4)*0.064 = 0.048 m = 48 mm. That seems ridiculously small, meaning that self-weight alone yields very low required depth. But we didn't account reinforcement. So actual minimum depth may be larger.\n\nThe strength design method likely uses ultimate bending moment from design load, including dead + live loads. For typical design, consider uniform load from self-weight plus floor load. Let's assume a typical service load of w=10 kN/m? For L=8m, M = w L^2/8. If w=10 kN/m, M=10*64/8=80 kN·m. Then using bending stress for concrete? Actually design would consider reinforcement yield, so capacity depends on steel yield strength f_y, area of steel As, lever arm d. But they ask only thickness. Might be standard code minimum depth: 0.18L? For L=8m, 0.18*8=1.44m. That is too high relative to options.\n\nLet's think: The problem may be from a specific exam (e.g., IBC, Indian? The answer options 400-550 mm suggest typical beam depth for 8m span might be around 500 mm. So perhaps the correct answer is (C) 500 mm.\n\nWe can reason: For a simply supported beam of 8m, ignoring deflection, the minimum depth is governed by bending capacity. For typical concrete beams, a minimum depth of about 0.15 L is typical. 0.15*8 = 1.2m, too high. But the options are too small.\n\nWait maybe they refer to thickness of slab? \"Beam with a span of L=8m\" might be a concrete slab? But it's a beam. Thickness might refer to width? Actually \"thickness\" often refers to slab thickness, but for a beam it's depth. Maybe it's a slab. But \"simply supported concrete beam\" implies depth.\n\nCould be a \"slab\" loaded at one end? Not.\n\nLet's search memory: There is a typical problem: For a simply supported beam of 8m, design load 25 kN/m? The required minimum depth from strength design is 500 mm. Many examples produce 500 mm.\n\nGiven options, (C) 500 mm seems plausible.\n\nThus answer: C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 11998356209,
+            "load_duration": 180895481,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 46816895,
+            "eval_count": 1549,
+            "eval_duration": 11764976096
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_220",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5,
+        "question": "What is the method for determining deflection by changing the support conditions so that the principle of the elastic load method can be applied?",
+        "options": {
+            "A": "Three-moment equation method",
+            "B": "Slope-deflection method",
+            "C": "Moment distribution method",
+            "D": "Conjugate beam method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Conjugate beam method"
+            },
+            "explanation": "The conjugate beam method involves modifying the actual beam so that the principle of the elastic load method can be applied not only to simply supported beams but also to general beams with other support conditions. After transforming the actual beam, the principle of the elastic load method is applied to the conjugate beam."
+        },
+        "image_path": null,
+        "model_answer": "(D) Conjugate beam method",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:34.638211232Z",
+            "message": {
+                "role": "assistant",
+                "content": "(D) Conjugate beam method",
+                "thinking": "We need to identify the method for determining deflection by changing the support conditions so that the principle of the elastic load method can be applied. That refers to \"conjugate beam method\" or \"elastic load method\" is a method to determine deflections. The conjugate beam method uses imaginary or conjugate beam. The principle is that the bending moment in the conjugate beam equals the deflection in the real beam. Changing support conditions so that the principle of the elastic load method can be applied. That sounds like the \"conjugate beam method.\" Let's think: The elastic load method is a general principle used to compute deflection. The conjugate beam method is specifically a method that uses the conjugate beam with support conditions changed (i.e., fixed ends become free, etc). So the answer: (D) Conjugate beam method."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1649368879,
+            "load_duration": 179400759,
+            "prompt_eval_count": 142,
+            "prompt_eval_duration": 46531412,
+            "eval_count": 189,
+            "eval_duration": 1418534558
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_940",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT a correct reason for installing boundary beams in block masonry?",
+        "options": {
+            "A": "To prevent vertical cracks caused by lateral forces.",
+            "B": "To unify load-bearing walls and distribute loads evenly.",
+            "C": "To transfer the loads from roofs, floors, and walls to load-bearing walls.",
+            "D": "To anchor the ends of horizontal reinforcement bars."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "To anchor the ends of horizontal reinforcement bars."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:38.069599149Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We need to pick which is NOT correct reason for installing boundary beams in block masonry. The options:\n\nA) To prevent vertical cracks caused by lateral forces. \nB) To unify load-bearing walls and distribute loads evenly. \nC) To transfer the loads from roofs, floors, and walls to load-bearing walls. \nD) To anchor the ends of horizontal reinforcement bars.\n\nWe need knowledge of boundary beams (also called boundary or perimeter beams) used in masonry to support walls and load transfer. Typical reasons: to transfer loads to load-bearing walls, to unify walls, to distribute loads, to provide rigid frame, to reduce crack potential, to anchor reinforcement. Let's think:\n\nA) To prevent vertical cracks caused by lateral forces. Boundary beams can indeed prevent vertical cracks because they tie the walls together, creating a continuous structural system. They help resist lateral loads? They tie walls and can provide stiffness. Possibly yes.\n\nB) To unify load-bearing walls and distribute loads evenly. Yes.\n\nC) To transfer the loads from roofs, floors, and walls to load-bearing walls. Yes.\n\nD) To anchor the ends of horizontal reinforcement bars. This might not be a main reason; anchoring ends is more about reinforcing the beam itself; boundary beams might not necessarily anchor reinforcement bars. Actually, horizontal reinforcement bars may be anchored within the beam or at the wall. The beam may anchor the horizontal bars of wall or roof. But is that a reason? Let's see: Boundary beams provide a rigid frame and may anchor reinforcement bars between the walls and beam. But typical reason for boundary beams is load transfer and to unify walls, not specifically to anchor ends of horizontal reinforcement bars. But is that a wrong reason? Could be the answer. Let's consider typical design: In masonry, you might have horizontal reinforcement bars in walls, and boundary beams might anchor them at the ends? But I think the main reason is load transfer and unification. Anchoring reinforcement bars is a secondary or maybe not a reason. So answer D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3400902185,
+            "load_duration": 179340669,
+            "prompt_eval_count": 156,
+            "prompt_eval_duration": 42121075,
+            "eval_count": 414,
+            "eval_duration": 3174729562
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Structural_Engineering_24",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "If a shear force of 18kN is applied to a cross-section like the drawing, what is the maximum shear stress?",
+        "options": {
+            "A": "0.45MPa",
+            "B": "0.52MPa",
+            "C": "0.58MPa",
+            "D": "0.64MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "0.45MPa"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20200606/bt20200606m45.gif?1592947911",
+        "model_answer": "(C)",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:42.232294345Z",
+            "message": {
+                "role": "assistant",
+                "content": "(C)",
+                "thinking": "We don't have the drawing. Probably a rectangular cross-section? Shear stress formula τ = V * Q / (I * b). For a given cross-section shape. We need to compute maximum shear stress. Without drawing, maybe it's a rectangular cross-section 40mm wide, 20mm thick? But can't guess. But likely typical example: maybe a beam cross-section: width 100 mm, height 200 mm? Shear stress = V * Q/(I * t). Let's guess shape: maybe a rectangular 200x100 mm? Let's consider the formula for a rectangle: For maximum shear at centroid: τ_max = 3/2 * V/A for rectangular cross-section? Actually the maximum shear stress in a rectangular cross-section is (3/2)(V/A) at centroid. So compute A = b*h. τ_max = (3/2)(V/A). We need A. Maybe the drawing shows a shape with area maybe 0.005 m^2? Actually 18kN / (0.005 m^2) = 3.6 MPa times 1.5 = 5.4 MPa? Too high. The answer choices are 0.45 to 0.64 MPa. So area maybe ~0.05 m^2? Let's find area such that (3/2)(18kN / A) = 0.58 MPa (option C). So A = (3/2)*(18kN)/0.58MPa. 18kN=18000N. 0.58 MPa=0.58e6 Pa. So 18000/(0.58e6)=0.03103 m^2. Times (3/2)?? Wait compute: τ = (3/2)* V/A => A = (3/2)* V/τ? Actually rearr: τ = 1.5*V/A => A = 1.5*V/τ. So A = 1.5*18000/580000 ≈ 27000/580000 ≈ 0.04655 m^2. That's 46550 mm^2. So maybe cross-section area 0.0465 m^2. If rectangular, say width 200 mm, height 233 mm gives area 46600 mm^2. That seems plausible. So maximum shear stress around 0.58 MPa. Option C. So answer likely C."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4128108530,
+            "load_duration": 188951493,
+            "prompt_eval_count": 148,
+            "prompt_eval_duration": 46012650,
+            "eval_count": 519,
+            "eval_duration": 3888365315
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Structural_Engineering_543",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "In reinforced concrete design, which of the following does NOT affect the bond strength of reinforcement?",
+        "options": {
+            "A": "Thickness of concrete cover",
+            "B": "Compressive strength of concrete",
+            "C": "Ribbed surface of the rebar",
+            "D": "Strength of the rebar"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Strength of the rebar"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "gpt-oss:20b",
+            "created_at": "2025-08-26T18:07:44.31338678Z",
+            "message": {
+                "role": "assistant",
+                "content": "D",
+                "thinking": "We are asked: \"In reinforced concrete design, which of the following does NOT affect the bond strength of reinforcement?\" Options: (A) Thickness of concrete cover, (B) Compressive strength of concrete, (C) Ribbed surface of the rebar, (D) Strength of the rebar.\n\nBond strength depends on concrete strength, cover thickness (affects embedment length, not directly bond, but embedment length influences bond length; but thickness of cover can affect embedment, but generally bond strength is not directly dependent on cover thickness unless it reduces embedment). The ribbed surface definitely affects bond. Strength of the rebar itself doesn't directly affect bond; bond is due to friction and mechanical interlock, not steel yield. So answer likely (D). Let's confirm: Bond between concrete and steel is governed by concrete strength, cover thickness influences the embedment length needed for bond, but bond strength is not directly affected by cover thickness, but by cover thickness may reduce embedment length, but not bond per se. The question: \"does NOT affect the bond strength of reinforcement?\" Likely (D). So output: D."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2048943802,
+            "load_duration": 184476175,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 43346386,
+            "eval_count": 241,
+            "eval_duration": 1816318806
+        },
+        "judge": "Correct"
+    }
+]

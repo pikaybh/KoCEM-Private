@@ -1,0 +1,12 @@
+{
+    "dev_Structural_Engineering_589": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "dev_Structural_Engineering_590": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    }
+}
