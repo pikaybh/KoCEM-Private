@@ -1,0 +1,5036 @@
+[
+    {
+        "id": "val_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the total floor area that requires permeable waterproofing.",
+        "options": {
+            "A": "5097.21mm^2",
+            "B": "5197.21mm^2",
+            "C": "5297.21mm^2",
+            "D": "5497.21mm^2",
+            "E": "5597.21mm^2"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "5297.21mm^2"
+            },
+            "explanation": "Calculate the floor area for the relevant sections of B1 and B2. Refer to the note at the top right for the symbols."
+        },
+        "image_path": "A-109.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:41.508974504Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of Extruded Insulation Board No. 1 used on the lowest floor F7vc of the Visitor Center?",
+        "options": {
+            "A": "50mm",
+            "B": "65mm",
+            "C": "75mm",
+            "D": "85mm",
+            "E": "100mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "85mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:42.985076139Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "According to the basement level 1 waterproofing plan, what is the area where liquid waterproofing type 1 is used?",
+        "options": {
+            "A": "268.557m²",
+            "B": "368.557m²",
+            "C": "168.557m²",
+            "D": "68.557m²",
+            "E": "468.557m²"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "268.557m²"
+            },
+            "explanation": "You can find the symbol for liquid waterproofing type 1 in the NOTE at the upper right."
+        },
+        "image_path": "A-109.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:44.585626778Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_4",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the height of the foundation that can be found on the layout drawing for the outdoor unit equipment foundation?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": "It can be found in the NOTE at the top right."
+        },
+        "image_path": "A-1801.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:45.939781492Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_5",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the fourth floor interior space surrounded by fire compartments or fire shutters?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:47.736574515Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_6",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many sprinklers are required on the ceiling plan of the 3rd basement level?",
+        "options": {
+            "A": "204",
+            "B": "224",
+            "C": "234",
+            "D": "254",
+            "E": "274"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "234"
+            },
+            "explanation": "You can check the symbol for sprinklers in the NOTE at the upper right."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:50.112709654Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_7",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of lightweight foamed concrete (0.6 grade) used on the lowest floor F4vc of the Visitor Center?",
+        "options": {
+            "A": "150mm",
+            "B": "185mm",
+            "C": "200mm",
+            "D": "220mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "185mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:53.45385175Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_8",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the required thickness and quantity of aluminum used for the roof parapet.",
+        "options": {
+            "A": "0.5mm",
+            "B": "1mm",
+            "C": "1.5mm",
+            "D": "2mm",
+            "E": "2.5mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "2mm"
+            },
+            "explanation": "### R1) Roof Parapet-1 (Section)\n\n- THK2 aluminum sheet: THK means thickness.\n\nTherefore, 2mm."
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:54.943605698Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_9",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used at the lowest floor F3vc of the Visitor Center?",
+        "options": {
+            "A": "400mm",
+            "B": "500mm",
+            "C": "600mm",
+            "D": "700mm",
+            "E": "800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "600mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:56.472897078Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_10",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the ceiling height in the bathroom elevation drawing?",
+        "options": {
+            "A": "2300mm",
+            "B": "2350mm",
+            "C": "2400mm",
+            "D": "2450mm",
+            "E": "2500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2400mm"
+            },
+            "explanation": "You can determine this by referring to the value indicating the length from the bottom to the top of the elevation drawing."
+        },
+        "image_path": "A-701.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:57.831939327Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_11",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used on the lowest floor (F6vc) of the Visitor Center?",
+        "options": {
+            "A": "150mm",
+            "B": "180mm",
+            "C": "200mm",
+            "D": "220mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:46:59.330830026Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_12",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thermal conductivity of Extruded Insulation No. 1 used on the lowest floor F8vc of the Visitor Center?",
+        "options": {
+            "A": "$ 0.025 W / m \\cdot k $",
+            "B": "$ 0.026 W / m \\cdot k $",
+            "C": "$ 0.027 W / m \\cdot k $",
+            "D": "$ 0.028 W / m \\cdot k $",
+            "E": "$ 0.029 W / m \\cdot k $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ 0.028 W / m \\cdot k $"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:00.823582159Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_13",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Are the direction and slope in the rooftop rainwater drainage plan appropriate?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-405.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:02.658868104Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_14",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Tell me the types of rebar used for the upper and lower reinforcement in the mechanical equipment room.",
+        "options": {
+            "A": "D10 for the upper part, D13 for the lower part.",
+            "B": "D13 for the upper part.",
+            "C": "D10 for the lower part.",
+            "D": "D10 for both the upper and lower parts.",
+            "E": "D13 for both the upper and lower parts."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "D10 for the upper part, D13 for the lower part."
+            },
+            "explanation": "### Upper reinforcement\n\n- **Upper rebar:** D10\n\n### Lower reinforcement\n\n- **Lower rebar:** D13\n\nTherefore, D10 for the upper part and D13 for the lower part."
+        },
+        "image_path": "A1803.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:04.533682266Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_15",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the area where Type 1 liquid waterproofing is used on the basement level 1 waterproofing plan?",
+        "options": {
+            "A": "268.557m²",
+            "B": "308.557m²",
+            "C": "258.557m²",
+            "D": "288.557m²",
+            "E": "228.557m²"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "268.557m²"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-109.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:06.222606203Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_16",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of Extruded Insulation Board No. 1 used on the lowest floor F3vc of the Visitor Center?",
+        "options": {
+            "A": "50mm",
+            "B": "65mm",
+            "C": "85mm",
+            "D": "100mm",
+            "E": "120mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "85mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:07.687013005Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_17",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the length of the BW1 wall located between grid X1 and grid X2 on the B3 floor structural plan?",
+        "options": {
+            "A": "7800mm",
+            "B": "8000mm",
+            "C": "7500mm",
+            "D": "7900mm",
+            "E": "7700mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "7800mm"
+            },
+            "explanation": "It can be confirmed that the BW1 wall is on the Y1 grid. The length of the wall is the same as the distance between the two grids at each end."
+        },
+        "image_path": "S-111.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:09.351461426Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_18",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used on the lowest floor (F4vc) of the Visitor Center?",
+        "options": {
+            "A": "400mm",
+            "B": "500mm",
+            "C": "600mm",
+            "D": "700mm",
+            "E": "800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "600mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:11.074734008Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_19",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used at the lowest floor F2vc of the Visitor Center?",
+        "options": {
+            "A": "400mm",
+            "B": "500mm",
+            "C": "600mm",
+            "D": "700mm",
+            "E": "800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "600mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:13.585516296Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_21",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Are the direction and slope in the PIT drainage and runoff plan appropriate?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-405.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:14.913041164Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_22",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "According to the first floor finish plan, what are the finishing materials used for the floor and walls of the storage room, respectively?",
+        "options": {
+            "A": "Vinyl tile and water-based paint",
+            "B": "Carpet tile and oil-based paint",
+            "C": "Ceramic tile and wallpaper",
+            "D": "Concrete and gypsum board",
+            "E": "Wood flooring and silk wallpaper"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Vinyl tile and water-based paint"
+            },
+            "explanation": "You can find how the floor and wall finishes are indicated in the legend at the top right of AI-101. Looking at the finishes for the floor and walls of Storage-B11 on A-202 provides further detail."
+        },
+        "image_path": "AI-101.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:17.299460808Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_23",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the enlarged roof core plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:18.924546377Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_24",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What waterproofing material is commonly used in bathrooms according to the waterproofing plan?",
+        "options": {
+            "A": "Liquid waterproofing type 1",
+            "B": "Sheet waterproofing",
+            "C": "Waterproof mortar",
+            "D": "Epoxy resin",
+            "E": "Silicone coating"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Liquid waterproofing type 1"
+            },
+            "explanation": "- W-2: Liquid waterproofing type 1"
+        },
+        "image_path": "A-109.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:20.625107345Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_25",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the stairwell?",
+        "options": {
+            "A": "Recessed fluorescent light",
+            "B": "Exposed fluorescent light",
+            "C": "Wall-mounted fluorescent light",
+            "D": "LED fluorescent light",
+            "E": "Ceiling-mounted fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Exposed fluorescent light"
+            },
+            "explanation": "- Legend: Confirmed the symbol for exposed fluorescent light\n- Basement 3rd floor ceiling plan\n- Stairwell 1: Exposed fluorescent light\n- Stairwell 2: Exposed fluorescent light\n\nTherefore, the answer is exposed fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:22.019712721Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_26",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment layout on the third floor above ground comply with the relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:23.33784063Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_27",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used at the lowest floor F8vc of the Visitor Center?",
+        "options": {
+            "A": "150mm",
+            "B": "180mm",
+            "C": "200mm",
+            "D": "220mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:25.03996183Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_28",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment sections and the installation of fire shutters match the fire compartment diagram and the individual drawings?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-112.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:26.568236341Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_29",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Was sufficient insulation performance achieved at the lowest floor F5vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:28.065504482Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_30",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the soap dish height for accessible and standard restrooms?",
+        "options": {
+            "A": "700800",
+            "B": "800900",
+            "C": "9001000",
+            "D": "10001100",
+            "E": "11001200"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "800900"
+            },
+            "explanation": "The installation elevation drawing for restroom fixtures indicates the heights of the soap dishes."
+        },
+        "image_path": "A-704.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:57.969523821Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_31",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Do the fire protection facilities on the third basement level comply with the relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "EF-301.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:47:59.584490399Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_32",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of DF1 at the dry wall in the visitor center?",
+        "options": {
+            "A": "120mm",
+            "B": "130mm",
+            "C": "140mm",
+            "D": "150mm",
+            "E": "160mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "150mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:01.004529609Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_33",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Was adequate insulation performance secured at the lowest floor slab F4vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:02.622993307Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_34",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many recessed fluorescent lights are required in Graduate Research Room-A01 and Graduate Research Room-A02 according to the ceiling plan for the 4th floor above ground?",
+        "options": {
+            "A": "24 pieces",
+            "B": "25 pieces",
+            "C": "26 pieces",
+            "D": "27 pieces",
+            "E": "28 pieces"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "27 pieces"
+            },
+            "explanation": "You can find the total number by referring to the symbols for Recessed Fluorescent Light-1 and Recessed Fluorescent Light-2 in the NOTE at the top right."
+        },
+        "image_path": "A-1307.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:04.368731123Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_36",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the enlarged first-floor core plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:06.713745174Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_37",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Tell me the thickness of Sandtoplene sheet used on the roof parapet and the method of adhesion.",
+        "options": {
+            "A": "0.5mm, bonded with adhesive",
+            "B": "1mm, epoxy adhesion",
+            "C": "1.5mm, heat adhesion",
+            "D": "2mm, fixed with screws",
+            "E": "2.5mm, fixed with clamps"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "1mm, epoxy adhesion"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:08.298170597Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_38",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of the lowest floor F6vc in the Visitor Center?",
+        "options": {
+            "A": "320mm",
+            "B": "Maximum 357mm",
+            "C": "Maximum 375mm",
+            "D": "400mm",
+            "E": "Minimum 420mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Maximum 357mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:09.743486414Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_39",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the distance between the road boundary and the site boundary complies with building standards?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1151.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:11.462078519Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_40",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total number of toilets in Building 39?",
+        "options": {
+            "A": "72",
+            "B": "77",
+            "C": "82",
+            "D": "87",
+            "E": "92"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "82"
+            },
+            "explanation": "You can find the total number in item 1 of the restroom accessories list."
+        },
+        "image_path": "A-704.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:13.298079686Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_41",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the number of braille signs/blocks to be installed on the rooftop of basement level 1.",
+        "options": {
+            "A": "20",
+            "B": "21",
+            "C": "22",
+            "D": "23",
+            "E": "24"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "23"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:15.166428366Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_42",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the number of Braille signs/blocks to be installed on the rooftop of the second floor.",
+        "options": {
+            "A": "43.5 units",
+            "B": "45 units",
+            "C": "40 units",
+            "D": "50 units",
+            "E": "42.5 units"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "43.5 units"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:16.832238564Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_43",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the width and height of the ventilation window in the window elevation of the Visitor Center?",
+        "options": {
+            "A": "800mm, 1800mm",
+            "B": "1000mm, 2000mm",
+            "C": "1200mm, 2200mm",
+            "D": "1500mm, 2500mm",
+            "E": "1800mm, 2800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1200mm, 2200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A66-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:18.757407336Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_44",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many GHP indoor units are needed according to the basement level 2 ceiling plan?",
+        "options": {
+            "A": "3 units",
+            "B": "4 units",
+            "C": "5 units",
+            "D": "6 units",
+            "E": "7 units"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "5 units"
+            },
+            "explanation": "You can identify the GHP indoor unit symbols from the NOTE at the upper right."
+        },
+        "image_path": "A-1302.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:26.255017644Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_45",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the plain concrete used on the lowest floor F5vc of the Visitor Center?",
+        "options": {
+            "A": "65mm",
+            "B": "75mm",
+            "C": "85mm",
+            "D": "95mm",
+            "E": "105mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "85mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:32.548210515Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_46",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the number of Braille signs/blocks to be installed on the rooftop of the 5th floor.",
+        "options": {
+            "A": "35",
+            "B": "38",
+            "C": "41",
+            "D": "44",
+            "E": "47"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "41"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:34.804220647Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_47",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the enlarged plan of the 2nd floor core?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:36.540405055Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_48",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the number of braille signs/blocks to be installed on the rooftop of the first floor.",
+        "options": {
+            "A": "80 units",
+            "B": "90 units",
+            "C": "98 units",
+            "D": "110 units",
+            "E": "120 units"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "98 units"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:38.908948788Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_49",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of the F1vc floor at the lowest level of the Visitor Center?",
+        "options": {
+            "A": "750mm",
+            "B": "800mm",
+            "C": "850mm",
+            "D": "900mm",
+            "E": "950mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "850mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:40.681860354Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_50",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the name of the room located on the 4th floor above ground between Y5 and Y6 in Cross-section 4?",
+        "options": {
+            "A": "Conference Room",
+            "B": "Multipurpose Event Hall",
+            "C": "Lecture Room",
+            "D": "Staff Lounge",
+            "E": "Archive Room"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Multipurpose Event Hall"
+            },
+            "explanation": "Looking at the lower part of the drawing, Cross-section 4, you can see the vertical Y5 and Y6 grids. Between these grids and on the 4th floor above ground, you can find the Multipurpose Event Hall."
+        },
+        "image_path": "A-503.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:42.239976779Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_51",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the material order for DS1a in the Visitor Center dry wall correct?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "It is correct because the materials are arranged in the order of finish, base, insulation, base, and finish."
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:43.886982473Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_52",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the type and thickness of the handrail used on the visitor center stairs?",
+        "options": {
+            "A": "Round, 38mm",
+            "B": "Rectangular, 50mm",
+            "C": "Round, 45mm",
+            "D": "Rectangular, 38mm",
+            "E": "Round, 32mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Round, 38mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A43-002.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:46.234117884Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_53",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used in the lowest floor (F7vc) of the Visitor Center?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:47.911721587Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_54",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment plan for the second floor comply with relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:49.453604835Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_55",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Please check if there is one inspection opening in each room.",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1307.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:51.369987352Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_56",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the width and length of column C71 on the Visitor Center's first floor structural plan?",
+        "options": {
+            "A": "250mm, 250mm",
+            "B": "300mm, 300mm",
+            "C": "200mm, 200mm",
+            "D": "400mm, 400mm",
+            "E": "150mm, 150mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "250mm, 250mm"
+            },
+            "explanation": "Column C71 is located at (A1, B1), (A1, B2), (A2, B1), (A2, B2), (A3, B1), (A3, B2), and (A3, B3); all of these have member dimensions of 250mm × 250mm."
+        },
+        "image_path": "S22-202.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:53.104431816Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_57",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the standard tile size used in the restroom?",
+        "options": {
+            "A": "100mm*100mm",
+            "B": "150mm*300mm",
+            "C": "200mm*300mm",
+            "D": "250mm*400mm",
+            "E": "300mm*600mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm*300mm"
+            },
+            "explanation": "1) B1T07 Restroom (Men)\n- Ceramic tile: 200X300\nTherefore, 200X300."
+        },
+        "image_path": "A-701.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:54.832036992Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_58",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of DS1 in the dry wall system at the Visitor Center?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "180mm",
+            "D": "200mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:56.569350878Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_59",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Please check if the blinding concrete is drawn with a thickness of 60 on the basement floor.",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-902.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:48:58.319718929Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_60",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the plain concrete used in the lowest floor (F8vc) of the Visitor Center?",
+        "options": {
+            "A": "150mm",
+            "B": "160mm",
+            "C": "170mm",
+            "D": "180mm",
+            "E": "190mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "180mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:00.401541131Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_61",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "On which floor is the faculty research office located in the longitudinal section?",
+        "options": {
+            "A": "1st floor above ground",
+            "B": "2nd floor above ground",
+            "C": "3rd floor above ground",
+            "D": "1st basement level",
+            "E": "2nd basement level"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1st floor above ground"
+            },
+            "explanation": "In the longitudinal section, you can find the faculty research office on the far left of the 1st floor above ground."
+        },
+        "image_path": "A-501.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:02.011783315Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_62",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total number of recessed fluorescent lights needed on the second floor above ground?",
+        "options": {
+            "A": "300",
+            "B": "330",
+            "C": "360",
+            "D": "390",
+            "E": "420"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "360"
+            },
+            "explanation": "You can find the total number by referring to the symbols for Recessed Fluorescent Light-1 and Recessed Fluorescent Light-2 in the NOTE at the top right."
+        },
+        "image_path": "A-1305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:03.540774627Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_63",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of glass is used in the exterior wall plan detail?",
+        "options": {
+            "A": "THK24 clear double glazing",
+            "B": "THK24 opaque glass",
+            "C": "THK20 clear single glass",
+            "D": "THK20 tempered glass",
+            "E": "THK26 double glazing"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "THK24 clear double glazing"
+            },
+            "explanation": "If you look at the exterior wall plan detail on the right side of the drawing, you can see that THK24 clear double glazing is used in the partial floor plans for the 2nd floor and the 3rd to 5th floors."
+        },
+        "image_path": "A-801.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:04.963428633Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_64",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the Type 1 extruded insulation board used on the lowest floor F1vc of the Visitor Center?",
+        "options": {
+            "A": "50mm",
+            "B": "70mm",
+            "C": "85mm",
+            "D": "100mm",
+            "E": "120mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "85mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:06.772254762Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_66",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the material order of DF1b in the Visitor Center's drywall correct?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "It is correct because the materials are arranged in the order of finish, substrate, insulation, substrate, and finish."
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:08.595477163Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_67",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of DF1a in the visitor center's dry wall?",
+        "options": {
+            "A": "100mm",
+            "B": "120mm",
+            "C": "150mm",
+            "D": "180mm",
+            "E": "200mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "150mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:11.188247739Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_68",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the material order of DF1 correct in the Visitor Center's dry wall?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "It is correct because the materials are arranged in the order of finish, base, insulation, base, and finish."
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:13.124548574Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_69",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Did you ensure adequate insulation performance at the lowest floor F1vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:14.835517419Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_70",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the ceiling height of the fitness room in the longitudinal section?",
+        "options": {
+            "A": "3000mm",
+            "B": "2500mm",
+            "C": "3500mm",
+            "D": "4000mm",
+            "E": "2800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "3000mm"
+            },
+            "explanation": "According to Section 1, the ceiling height of the fitness room on Basement Level 1 (SGL-3900) is 3000mm. Therefore, the answer is 3000mm."
+        },
+        "image_path": "A-501.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:16.83354605Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_71",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Tell me the EJ spacing for the C1 ceiling.",
+        "options": {
+            "A": "25mm",
+            "B": "50mm",
+            "C": "75mm",
+            "D": "100mm",
+            "E": "125mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "50mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:18.456808956Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_72",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the number of braille signs/blocks to be installed on the B2 floor rooftop.",
+        "options": {
+            "A": "10",
+            "B": "12",
+            "C": "15",
+            "D": "18",
+            "E": "20"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "15"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:20.379862606Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_73",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the unreinforced concrete used at the lowest floor F7vc of the Visitor Center?",
+        "options": {
+            "A": "100mm",
+            "B": "110mm",
+            "C": "120mm",
+            "D": "130mm",
+            "E": "140mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "120mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:22.311884005Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_75",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "If you want to raise the installed height of the washbasin by 100, which parts of the bathroom elevation drawing need to be modified?",
+        "options": {
+            "A": "2, 3, 6, 7, 12, 15, 16, 17, 18, 20",
+            "B": "1, 4, 5, 6, 9, 10, 11, 13, 14, 19",
+            "C": "8, 21, 22, 25, 27, 28, 30, 33, 35, 37",
+            "D": "23, 26, 29, 31, 32, 36, 38, 40, 42, 45",
+            "E": "24, 34, 39, 41, 43, 44, 46, 48, 50, 52"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "2, 3, 6, 7, 12, 15, 16, 17, 18, 20"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-701.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:23.903032772Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_76",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the cement mortar used on the lowest floor F6vc of the Visitor Center?",
+        "options": {
+            "A": "Maximum 52mm",
+            "B": "Minimum 60mm",
+            "C": "Maximum 72mm",
+            "D": "80mm",
+            "E": "90mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Maximum 72mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:25.492986419Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_77",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of Extruded Insulation Board No. 1 used in the lowest floor F5vc of the Visitor Center?",
+        "options": {
+            "A": "75mm",
+            "B": "80mm",
+            "C": "85mm",
+            "D": "90mm",
+            "E": "95mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "85mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:27.073934922Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_78",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the material order of DF1a correct in the Visitor Center's dry wall?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "It is correct because the layers are arranged in the order of finish material, substrate, insulation, substrate, and finish material."
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:29.448395652Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_79",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the spacing of the vertical and horizontal reinforcing bars used for strengthening the internal wall blocks?",
+        "options": {
+            "A": "Vertical 400, Horizontal 300",
+            "B": "Vertical 600, Horizontal 400",
+            "C": "Vertical 800, Horizontal 600",
+            "D": "Vertical 1000, Horizontal 800",
+            "E": "Vertical 1200, Horizontal 1000"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Vertical 800, Horizontal 600"
+            },
+            "explanation": "According to the detailed reinforcement drawing of the D-17 block wall at the lower right of the plan, the spacing of the vertical bars is 800 and the spacing of the horizontal bars is 600, as indicated by the dotted lines."
+        },
+        "image_path": "A-1608.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:31.162107429Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_80",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness VAR of the glass surface in the detailed reinforcement drawing of the window frame?",
+        "options": {
+            "A": "At least 24K, at least 50",
+            "B": "At least 12K, at least 50",
+            "C": "At least 10K, at least 30",
+            "D": "At least 12K, at least 30",
+            "E": "At least 36K, at least 20"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "At least 24K, at least 50"
+            },
+            "explanation": "You can check this in the glass areas of the plan and section details."
+        },
+        "image_path": "A-1405.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:33.36720287Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_81",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Find the width size of the window bars used in this building.",
+        "options": {
+            "A": "500mm",
+            "B": "650mm",
+            "C": "750mm",
+            "D": "850mm",
+            "E": "950mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "650mm"
+            },
+            "explanation": "The only information related to the window bars is '방범-650'. This means that, regardless of the height, all window bars should have a width of 650mm."
+        },
+        "image_path": "입면도--annotation.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:35.24240143Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_82",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate on the B2 floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:37.001391662Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_83",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many types of steel door leaf shapes are there?",
+        "options": {
+            "A": "7",
+            "B": "8",
+            "C": "9",
+            "D": "10",
+            "E": "11"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "9"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1212_1.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:38.398105407Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_84",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Has the insulation performance been properly secured at the lowest floor F3vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:39.873972489Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_85",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the interior space on the third floor enclosed by fire partitions or fire shutters?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:41.631603888Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_86",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Please check if the equipment going into the fan room can be brought in and installed through the door after the structural work is completed.",
+        "options": {
+            "A": "Yes, it can.",
+            "B": "No, it cannot."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes, it can."
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1802.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:43.443314868Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_87",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Tell me the length of the mounting screw.",
+        "options": {
+            "A": "30mm",
+            "B": "40mm",
+            "C": "50mm",
+            "D": "60mm",
+            "E": "70mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "50mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:45.121724985Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_88",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the material sequence for DF2 correctly arranged in the visitor center's dry wall?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "The materials are arranged in the order of finish, base, insulation, base, and finish, so it is correct."
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:49:58.223242605Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_89",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "In the standard finishing detail, what is the innermost material in F-11?",
+        "options": {
+            "A": "Liquid waterproofing",
+            "B": "Cement mortar",
+            "C": "Insulation material",
+            "D": "Reinforced concrete",
+            "E": "Waterproof membrane"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Liquid waterproofing"
+            },
+            "explanation": "If you look at the diagram above the box marked F-11, you can see that the liquid waterproofing is inside the finishing material. For 11 F-11 and 11A, from the bottom up, it goes in the order of liquid waterproofing and then finishing material. Therefore, the answer is liquid waterproofing."
+        },
+        "image_path": "A-207.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:01.205226564Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_90",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the height of the baseboard in the SGP partition of the dry wall detail?",
+        "options": {
+            "A": "50mm",
+            "B": "75mm",
+            "C": "100mm",
+            "D": "125mm",
+            "E": "150mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "100mm"
+            },
+            "explanation": "You can find the height (H) of the baseboard by checking the parentheses next to the baseboard in the illustration of the G-SGP partition above."
+        },
+        "image_path": "A-1403.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:02.742208638Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_91",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the exterior wall concrete? (2 values)",
+        "options": {
+            "A": "600mm, 200mm",
+            "B": "200mm, 200mm",
+            "C": "200mm, 150mm",
+            "D": "200mm, 100mm",
+            "E": "250mm, 250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "600mm, 200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-221.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:04.182888806Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_92",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many window units with operable windows are shown in the drawings?",
+        "options": {
+            "A": "10 units",
+            "B": "20 units",
+            "C": "30 units",
+            "D": "40 units",
+            "E": "50 units"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "30 units"
+            },
+            "explanation": "- SWD-16: 1st floor, Y2 row, professor's office entrance (1 unit)\n- SWD-17: 2nd to 5th floors, Y6 row (south side), professor's office entrance (4 units)\n- SWD-17A: 1st floor, Y6 row (south side), professor's office entrance (1 unit)\n- SWD-18: 2nd to 5th floors, X2/X12 rows, professor's office entrance (8 units)\n- SWD-18A: 1st floor, X12 row (south side), professor's office entrance (1 unit)\n- SWD-19: 2nd to 5th floors, Y6 row (north side), professor's office entrance (4 units)\n- SWD-20: 1st floor, Y1 row, meeting/resource room (1 unit)\n- SWD-21: 1st to 5th floors, X2/X12 rows, meeting/resource room (9 units)\n- SWD-22: 1st floor, Y6 row, convenience store entrance (1 unit)\n\n$ 1 + 4 + 1 + 8 + 1 + 4 + 1 + 9 + 1 = 30 $\n\nTherefore, there are a total of 30 window units with operable windows."
+        },
+        "image_path": "A-1212_1.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:06.396124556Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_93",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Was sufficient insulation performance achieved in the lowest floor F8vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:07.915820099Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_94",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment plan for the 4th floor above ground comply with the relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:09.822646201Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_95",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the material of the wall between Professor's Office A01 and Professor's Office A02 on the 4th floor plan?",
+        "options": {
+            "A": "Cement brick",
+            "B": "Concrete",
+            "C": "Gypsum board",
+            "D": "Wood",
+            "E": "Glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Cement brick"
+            },
+            "explanation": "The professors' offices are located at the upper right of the 4th floor plan. The material of the wall between professor offices can be identified by the abbreviations in the NOTE section. The abbreviation for cement brick confirms this material."
+        },
+        "image_path": "A-307.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:11.667166398Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_96",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the indoor space on the first basement floor enclosed by fire compartments or fire shutters?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-112.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:13.352827682Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_97",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the first-floor interior space enclosed by a fire compartment or a fire shutter?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-112.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:15.223559167Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_98",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many type A fire doors should be installed according to the fire compartment plan for the first floor above ground?",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "4"
+            },
+            "explanation": "You can confirm in the NOTE at the upper right that type A fire doors are marked with 'A.'"
+        },
+        "image_path": "A-112.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:16.803258191Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_99",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Find the diameter of the anchor bolts used on the wall.",
+        "options": {
+            "A": "6mm",
+            "B": "8mm",
+            "C": "9mm",
+            "D": "10mm",
+            "E": "12mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "9mm"
+            },
+            "explanation": "### Sectional Detail Part 2-1\n\n- ∅9 anchor bolts\n\n### Sectional Detail Part 3\n\n- ∅9 anchor bolts @1000\n\n∅ means diameter and @ indicates the spacing between bolts.\n\nTherefore, 9mm."
+        },
+        "image_path": "A-1105.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:18.703189714Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_100",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of DS1a in the visitor center's dry wall?",
+        "options": {
+            "A": "150mm",
+            "B": "175mm",
+            "C": "200mm",
+            "D": "225mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:20.971447473Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_101",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Was adequate insulation performance ensured at the lowest floor F6vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:22.576605068Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_102",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of DF2 in the dry wall of the visitor center?",
+        "options": {
+            "A": "150mm",
+            "B": "160mm",
+            "C": "175mm",
+            "D": "185mm",
+            "E": "200mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "175mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:25.437706016Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_103",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate on the basement level 1 floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:27.212662541Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_104",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Tell me the quality grade of the Santoflen seal.",
+        "options": {
+            "A": "18K",
+            "B": "20K",
+            "C": "22K",
+            "D": "24K",
+            "E": "26K"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "24K"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:29.303658596Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_105",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the distance between the second-floor ceiling and the third-floor floor in the cross-section of the visitor center?",
+        "options": {
+            "A": "950mm",
+            "B": "1150mm",
+            "C": "1350mm",
+            "D": "1550mm",
+            "E": "1750mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "1150mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A34-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:32.042443794Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_106",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many pipes are there per trench in the electrical room and generator room?",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "2"
+            },
+            "explanation": "You can find out by looking at the pipes in Trench E of the cover trench for the electrical room and generator room No. 7 on drawing A1606."
+        },
+        "image_path": "A-1606.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:33.958056349Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_107",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the thickness and spacing of the reinforcement bars resisting lateral force in the detailed cross-section 1 of the B3 foundation reinforcement?",
+        "options": {
+            "A": "22mm, 200mm",
+            "B": "25mm, 250mm",
+            "C": "18mm, 300mm",
+            "D": "20mm, 150mm",
+            "E": "16mm, 100mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "22mm, 200mm"
+            },
+            "explanation": "In the upper right corner of the drawing, you can see detailed cross-section 1, where the black dots indicate the reinforcement bars resisting lateral force. The notation HD22@200 on these bars means that the thickness is 22mm and the spacing is 200mm."
+        },
+        "image_path": "S-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:37.32010165Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_108",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the distance between the first floor ceiling and the second floor floor in the cross-section of the visitor center?",
+        "options": {
+            "A": "500mm",
+            "B": "800mm",
+            "C": "1300mm",
+            "D": "1500mm",
+            "E": "1800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1300mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A34-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:39.066358412Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_109",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the diameter of the fixing screw?",
+        "options": {
+            "A": "3.5mm",
+            "B": "4.2mm",
+            "C": "4.8mm",
+            "D": "5.5mm",
+            "E": "6.0mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4.8mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:40.858332987Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_110",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the width of one stair in the Visitor Center?",
+        "options": {
+            "A": "260mm",
+            "B": "280mm",
+            "C": "310mm",
+            "D": "330mm",
+            "E": "350mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "310mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A43-002.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:42.514608422Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_111",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of gasket is used for the EJ on the F1 floor?",
+        "options": {
+            "A": "Santoprene gasket",
+            "B": "Neoprene gasket",
+            "C": "Silicone gasket",
+            "D": "PTFE gasket",
+            "E": "EPDM gasket"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Santoprene gasket"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:44.068542796Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_112",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the height of the ramp in the sectional development drawing from Basement Level 1 to Basement Level 2?",
+        "options": {
+            "A": "2400mm",
+            "B": "2700mm",
+            "C": "3000mm",
+            "D": "3300mm",
+            "E": "3600mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "2700mm"
+            },
+            "explanation": "When viewing the sectional development drawing of the ramp from Basement Level 1 to Basement Level 2 on the right side of the drawing, it shows that the starting height of the ramp is at Basement Level 2, and the end height is marked as 2700mm above Basement Level 2."
+        },
+        "image_path": "A-931.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:45.463712923Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_113",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the order of materials for DS1 in the Visitor Center's dry wall correct?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "It is correct because they are arranged in the order of finish, base, insulation, base, and finish."
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:46.954821541Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_114",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many photoelectric smoke detectors and differential spot-type detectors are required on the ceiling plan of Basement Level 1, respectively?",
+        "options": {
+            "A": "0 units, 50 units",
+            "B": "10 units, 60 units",
+            "C": "20 units, 70 units",
+            "D": "30 units, 80 units",
+            "E": "50 units, 90 units"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "0 units, 50 units"
+            },
+            "explanation": "You can identify the symbols for the photoelectric smoke detector and the differential spot-type detector in the NOTE at the top right."
+        },
+        "image_path": "A-1303.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:49.000720448Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_115",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many braille signboards/blocks are installed on the rooftop of the fourth floor?",
+        "options": {
+            "A": "45",
+            "B": "46",
+            "C": "47",
+            "D": "48",
+            "E": "49"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "47개"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:50.998380879Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_116",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the material used for the toilet partitions?",
+        "options": {
+            "A": "Marble",
+            "B": "Granite",
+            "C": "Concrete",
+            "D": "Ceramic tile",
+            "E": "Bamboo"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Granite"
+            },
+            "explanation": "You can find out the material of the partitions by referring to T10 on page 16."
+        },
+        "image_path": "A-703.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:52.566788677Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_117",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment layout of the first floor comply with relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:55.891903818Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_118",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the second floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "Reason: The door opens toward the room rather than the corridor, and it opens towards the wall, where the distance is shorter."
+        },
+        "image_path": "A-305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:57.823520501Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_120",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of glass is used in the visitor center canopy?",
+        "options": {
+            "A": "Low-E insulated glass unit",
+            "B": "Tempered glass",
+            "C": "Laminated glass",
+            "D": "Insulated glass",
+            "E": "Low-iron glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Low-E insulated glass unit"
+            },
+            "explanation": ""
+        },
+        "image_path": "A54-211.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:50:59.201851272Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_121",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Please check if all restrooms are marked with Liquid Waterproofing Type 1 (W-2).",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1105.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:00.759984564Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_122",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many columns are required in total on the basement level 1 structural floor plan?",
+        "options": {
+            "A": "89",
+            "B": "93",
+            "C": "97",
+            "D": "101",
+            "E": "105"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "97"
+            },
+            "explanation": "In the drawing, 'C' stands for 'Column', so you can determine the total number of columns."
+        },
+        "image_path": "S-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:02.499848386Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_123",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the plain concrete used in the lowest floor F2vc of the Visitor Center?",
+        "options": {
+            "A": "30mm",
+            "B": "40mm",
+            "C": "50mm",
+            "D": "60mm",
+            "E": "70mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "50mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:04.583551987Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_124",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Select the option that lists all the rooms on the second floor that use Type 1 THK120 bead insulation board for insulation according to the thermal and acoustic plan.",
+        "options": {
+            "A": "Common Equipment Room, Graduate Laboratory",
+            "B": "Graduate Laboratory, Conference Room",
+            "C": "Conference Room, Lounge",
+            "D": "Lounge, Office",
+            "E": "Common Equipment Room, Office"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Common Equipment Room, Graduate Laboratory"
+            },
+            "explanation": "According to the thermal and acoustic plan for the second floor, both the Common Equipment Room and the Graduate Laboratory are marked with D-7, which corresponds to the use of Type 1 THK120 bead insulation board. Therefore, the correct answer is the Common Equipment Room and the Graduate Laboratory."
+        },
+        "image_path": "A-107.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:21.750126778Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_125",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the number of indoor fire hydrant boxes meets the relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1051.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:23.552395899Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_126",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the plain concrete used in the lowest floor F3vc of the Visitor Center?",
+        "options": {
+            "A": "50mm",
+            "B": "75mm",
+            "C": "85mm",
+            "D": "100mm",
+            "E": "120mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "85mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:25.427716954Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_127",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the gypsum board used on the exterior wall in the dry wall detail drawing?",
+        "options": {
+            "A": "9.5mm",
+            "B": "10mm",
+            "C": "12.5mm",
+            "D": "15mm",
+            "E": "18mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "12.5mm"
+            },
+            "explanation": "As shown in the drawing of the exterior wall above, although there are different types of gypsum board, all have the same thickness of 12.5mm."
+        },
+        "image_path": "A-1403.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:27.114927934Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_128",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment diagram for the 5th floor above ground comply with relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:28.928779295Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_129",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Please check if the slope of the roof is designed at 1 in 50.",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "According to Partial Section Detail-3, the roof slope should be 1/50."
+        },
+        "image_path": "A-604.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:31.020318157Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_130",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door opening direction appropriate in the 4th floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:34.501760951Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_131",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the ceiling height of the graduate research laboratory in the longitudinal section?",
+        "options": {
+            "A": "2500mm",
+            "B": "2600mm",
+            "C": "2700mm",
+            "D": "2800mm",
+            "E": "2900mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2700mm"
+            },
+            "explanation": "### Longitudinal Section-1\n\n- **Basement 1F SGL-3900:** Graduate Research Laboratory-B13 ceiling height 2700mm\n- **2nd Floor SGL+4200:** Graduate Research Laboratory-B06, B03, B02, B01 ceiling height 2700mm\n- **3rd Floor SGL+7800:** Graduate Research Laboratory-B06, B03, B02, B01 ceiling height 2700mm\n- **4th Floor SGL+11400:** Graduate Research Laboratory-B06, B03, B02, B01 ceiling height 2700mm\n- **5th Floor SGL+15000:** Graduate Research Laboratory-B06, B03, B02, B01 ceiling height 2700mm\n\nTherefore, 2700mm."
+        },
+        "image_path": "A-501.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:36.24253078Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_132",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Tell me the sizes for each type of security grille.",
+        "options": {
+            "A": "1200*1500mm^2",
+            "B": "1300*1700mm^2",
+            "C": "1300*1800mm^2",
+            "D": "1400*1900mm^2",
+            "E": "1500*2000mm^2"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1300*1800mm^2"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1132.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:38.483996354Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_133",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total number of required elevators and what are their types?",
+        "options": {
+            "A": "1 unit, 24P-45 / 2.5 ton-15",
+            "B": "2 units, 12P-45 / 2.5 ton-30",
+            "C": "3 units, 24P-90 / 2.5 ton-30",
+            "D": "4 units, 12P-15 / 5.0 ton-5",
+            "E": "5 units, 24P-10 / 2.5 ton-10"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3 units, 24P-90 / 2.5 ton-30"
+            },
+            "explanation": "You can find this by locating the areas marked 'ELEV' on the floor plan."
+        },
+        "image_path": "A-308.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:40.332907417Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_134",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the Santoprene seal?",
+        "options": {
+            "A": "10T",
+            "B": "20T",
+            "C": "25T",
+            "D": "30T",
+            "E": "35T"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "25T"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:42.191281421Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_135",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the indoor space on the 5th floor enclosed by fire compartments or fire shutters?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:43.986240978Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_136",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the purpose of the room located above the lobby in the site section drawing?",
+        "options": {
+            "A": "Conference Room",
+            "B": "Multipurpose Event Hall",
+            "C": "Office",
+            "D": "Lecture Room",
+            "E": "Dining Room"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Multipurpose Event Hall"
+            },
+            "explanation": "In the site section drawing, the area between grid Y5 and Y6 is labeled as the lobby on the 1st floor and a multipurpose event hall on the 2nd floor. Therefore, the room above the lobby is the multipurpose event hall."
+        },
+        "image_path": "A-101.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:45.939247003Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_137",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the spacing between the mounting screws?",
+        "options": {
+            "A": "400mm",
+            "B": "600mm",
+            "C": "800mm",
+            "D": "1000mm",
+            "E": "1200mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "600mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A1502.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:47.427576078Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_138",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the total amount required to coat the ramp with a 5mm thick layer of foam.",
+        "options": {
+            "A": "Approximately 16,114.2410 mm^2",
+            "B": "Approximately 161,142.410 mm^2",
+            "C": "Approximately 1,611,424.10 mm^2",
+            "D": "Approximately 16,114.2410 mm^2",
+            "E": "Approximately 1,611.42410 mm^2"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Approximately 16,114.2410 mm^2"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-932.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:49.394277015Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_139",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the thickness of the concrete slab used on the lowest floor F5vc of the Visitor Center?",
+        "options": {
+            "A": "400mm",
+            "B": "500mm",
+            "C": "600mm",
+            "D": "700mm",
+            "E": "800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "600mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:50.706736436Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_140",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the name of the room on basement level 1 where the square diffuser is installed?",
+        "options": {
+            "A": "Integrated disaster prevention room, office",
+            "B": "Office, conference room",
+            "C": "Conference room, parking lot",
+            "D": "Parking lot, restroom",
+            "E": "Integrated disaster prevention room, restroom"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Integrated disaster prevention room, office"
+            },
+            "explanation": "- **Legend:** Check the symbol for the square diffuser (RA, SA)\n\n- **Basement Level 1 Ceiling Plan:**\n  - **Integrated disaster prevention room:** Square diffuser\n  - **Office:** Square diffuser\n\nTherefore, integrated disaster prevention room / office"
+        },
+        "image_path": "A-1303.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:52.294864125Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_141",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Please check if the interior space on the second floor is enclosed by fire compartments or fire shutters.",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:54.193653656Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_142",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the direction and slope of the gradient appropriate in the rainwater and drainage plan for the first floor?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": "It is appropriate because the STS vertical rainwater pipes are connected to the civil engineering stormwater pipes, and the PS room is well equipped with STS vertical rainwater pipes and trenches."
+        },
+        "image_path": "A17-405.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:55.853443322Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_143",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What material is used for waterproofing the restroom according to the Visitor Center's waterproofing plan?",
+        "options": {
+            "A": "Urethane membrane waterproofing (non-exposed)",
+            "B": "Asphalt waterproofing",
+            "C": "Synthetic polymer sheet waterproofing",
+            "D": "Rubber sheet waterproofing",
+            "E": "Cement liquid waterproofing"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Urethane membrane waterproofing (non-exposed)"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:57.262891028Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_144",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the fire detector installed correctly on the ceiling plan of the first basement level?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1303.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:51:58.660727749Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_145",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thickness of DF1b in the dry partition wall at the Visitor Center?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": ""
+        },
+        "image_path": "A71-001.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:02.681076689Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_146",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Indicate on the plan the areas to be sprayed with insulation, regardless of thickness.",
+        "options": {
+            "A": "D-6, D-8",
+            "B": "D-7, D-8",
+            "C": "D-8, D-10",
+            "D": "D-7, D-9",
+            "E": "D-6, D-10"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "D-6, D-8"
+            },
+            "explanation": "- D-6: THK100 rigid urethane spray + THK15 insulation spray\n- D-8: THK50 insulation spray\n\nTherefore, D-6 / D-8."
+        },
+        "image_path": "A-108.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:04.272866309Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_147",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Does the fire compartment layout on basement level 1 comply with the relevant regulations?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-113.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:05.991052692Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_148",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "On the rainwater and drainage plan for the second floor above ground, are the direction and degree of the slope appropriate?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-405.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:07.555882666Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_149",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the direction in which the door opens on the 3rd floor plan appropriate?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-305.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:09.787432442Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_150",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the floor area of the first floor above ground in the area calculation table?",
+        "options": {
+            "A": "2692.38m²",
+            "B": "2592.38m²",
+            "C": "2892.38m²",
+            "D": "3092.38m²",
+            "E": "2292.38m²"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "2692.38m²"
+            },
+            "explanation": "You can find this by looking at the total in the calculation reference at the bottom right."
+        },
+        "image_path": "A-104.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:11.700326828Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_151",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total number of elevators required, and what types are needed?",
+        "options": {
+            "A": "1 unit, 24P-45 / 2.5ton-15",
+            "B": "2 units, 12P-45 / 2.5ton-30",
+            "C": "3 units, 24P-90 / 2.5ton-30",
+            "D": "4 units, 12P-15 / 5.0ton-5",
+            "E": "5 units, 24P-10 / 2.5ton-10"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3 units, 24P-90 / 2.5ton-30"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-308.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:13.269799043Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_152",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the insulation performance properly secured in the lowest floor slab F2vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:15.718569978Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_153",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the total horizontal length of the windows used from Room 451 to Room 456 on the 4th floor.",
+        "options": {
+            "A": "13800mm",
+            "B": "15800mm",
+            "C": "17800mm",
+            "D": "19800mm",
+            "E": "21800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "19800mm"
+            },
+            "explanation": "According to drawing A-1203, the total length is the sum of the window lengths located on the exterior wall of each faculty office on the 4th floor."
+        },
+        "image_path": "A-1203.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:17.739218709Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_154",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "According to the Column Schedule-1, what type of main rebar is commonly used on the third floor above ground?",
+        "options": {
+            "A": "HD20",
+            "B": "HD22",
+            "C": "HD25",
+            "D": "HD10",
+            "E": "HD32"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "HD22"
+            },
+            "explanation": "Check the floor levels shown on the left side of the drawing. For example, if it says '14-HD22' for the main rebar, it means 14 rebars are used, and the type is HD22."
+        },
+        "image_path": "S-221.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:19.290590783Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_155",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is sufficient insulation performance achieved at the lowest floor F7vc?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:20.901316067Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_156",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the interior space on basement level 2 surrounded by fire compartments or fire shutters?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-112.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:22.785076158Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_157",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thermal resistance sum of the lowest floor F4vc in the visitor center?",
+        "options": {
+            "A": "$ 4.978 m^2 \\cdot k / W $",
+            "B": "$ 3.125 m^2 \\cdot k / W $",
+            "C": "$ 5.489 m^2 \\cdot k / W $",
+            "D": "$ 4.500 m^2 \\cdot k / W $",
+            "E": "$ 5.000 m^2 \\cdot k / W $"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "$ 4.978 m^2 \\cdot k / W $"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:24.645975071Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_158",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of railing is used in the architectural retaining wall elevation drawing?",
+        "options": {
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV",
+            "E": "V"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "I"
+            },
+            "explanation": "You can see this by checking the part labeled 'Railing TYPE' at the top of the drawing."
+        },
+        "image_path": "A-1151.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:26.222347263Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_159",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "According to the floor plan for basement level 3, how many fire hydrants are required in total?",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "5"
+            },
+            "explanation": "You can confirm in the NOTE at the top right that Type A fire doors are marked as '갑.'"
+        },
+        "image_path": "A-301.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:27.823314594Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_160",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What is the total thermal resistance of the lowest floor F2vc in the Visitor Center?",
+        "options": {
+            "A": "$ 3.678 m^2 \\cdot k / W $",
+            "B": "$ 2.345 m^2 \\cdot k / W $",
+            "C": "$ 5.123 m^2 \\cdot k / W $",
+            "D": "$ 4.678 m^2 \\cdot k / W $",
+            "E": "$ 3.012 m^2 \\cdot k / W $"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "$ 3.678 m^2 \\cdot k / W $"
+            },
+            "explanation": ""
+        },
+        "image_path": "A17-222.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:29.48010103Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_161",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Calculate the number of braille signs/blocks to be installed on the 3rd floor rooftop.",
+        "options": {
+            "A": "45",
+            "B": "46",
+            "C": "47",
+            "D": "48",
+            "E": "49"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "47"
+            },
+            "explanation": ""
+        },
+        "image_path": "03옥상__A-900 편의시설.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:31.048231617Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Comprehensive_Understanding_162",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "How many doors are needed in total according to the enlarged core plan on the 2nd floor above ground?",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "5"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T04:52:32.53312451Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    }
+]

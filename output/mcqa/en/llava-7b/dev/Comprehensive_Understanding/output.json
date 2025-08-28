@@ -1,0 +1,119 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:10:52.542453112Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 37086214,
+            "load_duration": 12155475,
+            "prompt_eval_count": 50,
+            "prompt_eval_duration": 6189110,
+            "eval_count": 3,
+            "eval_duration": 18080070
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:10:52.664490276Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41166702,
+            "load_duration": 12006707,
+            "prompt_eval_count": 106,
+            "prompt_eval_duration": 6124828,
+            "eval_count": 3,
+            "eval_duration": 22405939
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:10:52.754884389Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39160722,
+            "load_duration": 11568367,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 6046639,
+            "eval_count": 3,
+            "eval_duration": 20884036
+        },
+        "judge": "Wrong"
+    }
+]

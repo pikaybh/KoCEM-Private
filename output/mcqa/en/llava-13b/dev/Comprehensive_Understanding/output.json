@@ -1,0 +1,119 @@
+[
+    {
+        "id": "dev_Comprehensive_Understanding_1",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "Is the door swing direction appropriate in the rooftop core enlarged floor plan?",
+        "options": {
+            "A": "Yes",
+            "B": "No"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Yes"
+            },
+            "explanation": ""
+        },
+        "image_path": "A41-201.jpg",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:24:28.059236886Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41119598,
+            "load_duration": 11279742,
+            "prompt_eval_count": 53,
+            "prompt_eval_duration": 7282692,
+            "eval_count": 2,
+            "eval_duration": 21893368
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_2",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What are the unit width and length of the AL ceiling panels on the first floor above ground?",
+        "options": {
+            "A": "1200*600",
+            "B": "1000*500",
+            "C": "1500*700",
+            "D": "1800*800",
+            "E": "1400*750"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "1200*600"
+            },
+            "explanation": ""
+        },
+        "image_path": "A-1304.jpg",
+        "model_answer": "(A) 1200\\*600",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:24:28.282259287Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) 1200\\*600"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 126385361,
+            "load_duration": 11034866,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 9406256,
+            "eval_count": 14,
+            "eval_duration": 105349149
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Comprehensive_Understanding_3",
+        "question_type": "multiple-choice",
+        "difficulty": "0",
+        "human_acc": 0.0,
+        "question": "What type of fluorescent light is used in the parking lot?",
+        "options": {
+            "A": "RACE WAY TYPE fluorescent light",
+            "B": "LED fluorescent light",
+            "C": "Ceiling mount fluorescent light",
+            "D": "High-output fluorescent light",
+            "E": "Explosion-proof fluorescent light"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "RACE WAY TYPE fluorescent light"
+            },
+            "explanation": "According to the legend, the symbol for RACE WAY TYPE is used. In the ceiling plan for Basement Level 3, the parking lot is marked with RACE WAY TYPE fluorescent light. Therefore, the answer is RACE WAY TYPE fluorescent light."
+        },
+        "image_path": "A-1301.jpg",
+        "model_answer": "(B) LED fluorescent light",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:24:28.432041843Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) LED fluorescent light"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 94041209,
+            "load_duration": 11444215,
+            "prompt_eval_count": 99,
+            "prompt_eval_duration": 9671798,
+            "eval_count": 9,
+            "eval_duration": 72046096
+        },
+        "judge": "Wrong"
+    }
+]

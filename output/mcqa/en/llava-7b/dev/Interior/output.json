@@ -1,0 +1,236 @@
+[
+    {
+        "id": "dev_Interior_816",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "Which of the following pairs of architect and work is incorrect?",
+        "options": {
+            "A": "Le Corbusier – Guggenheim Museum",
+            "B": "Frank Lloyd Wright – Fallingwater",
+            "C": "Antoni Gaudí – Casa Milà",
+            "D": "William Morris – Red House"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Le Corbusier – Guggenheim Museum"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D. William Morris – Red House",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:07.813572842Z",
+            "message": {
+                "role": "assistant",
+                "content": " D. William Morris – Red House "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 65948287,
+            "load_duration": 12235656,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 6348644,
+            "eval_count": 9,
+            "eval_duration": 46583145
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point half the span from the beam support.",
+            "B": "Where the compressive force is the least.",
+            "C": "Where the tensile force is the least.",
+            "D": "At a point one quarter of the span from the beam support."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is the least."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:07.886519599Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 42484970,
+            "load_duration": 12109175,
+            "prompt_eval_count": 107,
+            "prompt_eval_duration": 6419371,
+            "eval_count": 3,
+            "eval_duration": 23103827
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_799",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "Which of the following bricklaying methods is the strongest?",
+        "options": {
+            "A": "Dutch bond",
+            "B": "English bond",
+            "C": "Flemish bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "English bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:07.957066099Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 37150420,
+            "load_duration": 11901072,
+            "prompt_eval_count": 60,
+            "prompt_eval_duration": 5942580,
+            "eval_count": 3,
+            "eval_duration": 18683493
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_789",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "In the reinforcement arrangement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point halfway (1/2) along the span from the beam support",
+            "B": "Where the compressive force is minimal",
+            "C": "Where the tensile force is minimal",
+            "D": "At a point one-fourth (1/4) along the span from the beam support"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is minimal"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:08.038516444Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44103747,
+            "load_duration": 12047265,
+            "prompt_eval_count": 115,
+            "prompt_eval_duration": 6264216,
+            "eval_count": 3,
+            "eval_duration": 25023019
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_477",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT considered an evacuation device or equipment (devices or equipment used for evacuation) used in case of fire?",
+        "options": {
+            "A": "Automatic fire alarm system",
+            "B": "Artificial resuscitator",
+            "C": "Emergency lighting",
+            "D": "Emergency escape descent device"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Artificial resuscitator",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:08.143375241Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) Artificial resuscitator "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 73023607,
+            "load_duration": 11749781,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 6076186,
+            "eval_count": 11,
+            "eval_duration": 54490231
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_852",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.28999999165534973,
+        "question": "Which of the following is least related to Byzantine architecture?",
+        "options": {
+            "A": "Pendentive dome",
+            "B": "Dosseret",
+            "C": "Flying buttress",
+            "D": "Mosaic"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Flying buttress"
+            },
+            "explanation": "The flying buttress is from Gothic architecture."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:08.220297601Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 35979083,
+            "load_duration": 11016394,
+            "prompt_eval_count": 67,
+            "prompt_eval_duration": 5827257,
+            "eval_count": 3,
+            "eval_duration": 18542550
+        },
+        "judge": "Correct"
+    }
+]

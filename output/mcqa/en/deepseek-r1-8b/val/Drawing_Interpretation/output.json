@@ -1,0 +1,299 @@
+[
+    {
+        "id": "val_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should the ground level (GL) be for the floor of the underground parking lot at the community center?",
+        "options": {
+            "A": "-2.5m",
+            "B": "-3.0m",
+            "C": "-3.5m",
+            "D": "-4.0m",
+            "E": "-4.5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "-3.5m"
+            },
+            "explanation": "According to the guidelines, the underground parking lot must be planned at GL –3.5m."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:37.53181939Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which floor structure is most suitable for the second floor above ground of a village library?",
+        "options": {
+            "A": "Reinforced concrete slab",
+            "B": "Wood truss",
+            "C": "Large-span air delivery structure using steel plates",
+            "D": "Ceiling finish with gypsum board",
+            "E": "Composite metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Large-span air delivery structure using steel plates"
+            },
+            "explanation": "The design guidelines specify that the second floor above ground should use a large-span air delivery structure using steel plates. This is interpreted as a construction method utilizing steel structures."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:38.980142566Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Select the correct statement regarding the placement of cantilevers in structural planning.",
+        "options": {
+            "A": "Cantilevers are used on every floor.",
+            "B": "Cantilevers are only used on the first floor.",
+            "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing.",
+            "D": "No special structural planning is needed for cantilevers, and they can be placed freely.",
+            "E": "Cantilevers can be placed anywhere for space efficiency."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Cantilevers are only present in the areas specified in the second floor plan and sectional conceptual drawing."
+            },
+            "explanation": "According to the design guidelines, cantilevers are only placed in specific areas on the second floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:40.581093403Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In this architectural design, what is the value defined as the floor structure level (SL) for the basement?",
+        "options": {
+            "A": "-1,200mm",
+            "B": "-1,600mm",
+            "C": "0mm",
+            "D": "-2,000mm",
+            "E": "-800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "-1,600mm"
+            },
+            "explanation": "According to the design specifications, the floor structure level (SL) for the basement and penthouse is set at -1,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:42.266036471Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the designed floor-to-ceiling height of the rooftop floor of the neighborhood culture center, in millimeters?",
+        "options": {
+            "A": "2,500mm",
+            "B": "3,000mm",
+            "C": "3,500mm",
+            "D": "4,000mm",
+            "E": "4,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3,000mm"
+            },
+            "explanation": "According to the design guidelines, the floor-to-ceiling height of the rooftop floor of the neighborhood culture center is 3,000mm. This value represents the height of the building's topmost space, including the rooftop floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:44.086242342Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the exterior wall finishing material of the Community Service Center?",
+        "options": {
+            "A": "Brick finish",
+            "B": "Stucco",
+            "C": "Exposed concrete finish",
+            "D": "Marble finish",
+            "E": "Metal panel finish"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Exposed concrete finish"
+            },
+            "explanation": "The design guide for the Community Service Center specifies exposed concrete for the exterior wall finish."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:45.517224615Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the maximum span length in the structural design of a small gallery?",
+        "options": {
+            "A": "2500mm",
+            "B": "3000mm",
+            "C": "3500mm",
+            "D": "4000mm",
+            "E": "4500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3500mm"
+            },
+            "explanation": "The design conditions specify that the span should be planned to be no more than 3,500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:49.074907726Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the appropriate design method for the south exterior wall?",
+        "options": {
+            "A": "Single skin",
+            "B": "Double skin",
+            "C": "Brick finish",
+            "D": "Glass curtain wall",
+            "E": "Metal panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Double skin"
+            },
+            "explanation": "It is specified that the south exterior wall should be designed with a double skin that allows for ventilation and solar control."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:51.09312737Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Drawing_Interpretation_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the specified stress (f_py) value for prestressed concrete?",
+        "options": {
+            "A": "1,200 MPa",
+            "B": "1,500 MPa",
+            "C": "1,860 MPa",
+            "D": "2,000 MPa",
+            "E": "2,400 MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,860 MPa"
+            },
+            "explanation": "According to the material specifications for design conditions, the specified stress for prestressed concrete is set at 1,860 MPa."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:23:52.738881878Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    }
+]

@@ -1,0 +1,47 @@
+{
+    "val_Drawing_Interpretation_1": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_2": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_3": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_5": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_6": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_7": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_8": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_9": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "val_Drawing_Interpretation_10": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    }
+}

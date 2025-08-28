@@ -1,0 +1,402 @@
+[
+    {
+        "id": "val_Domain_Reasoning_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Calculate the second moment of area about the x-axis for the section shown in the figure.",
+        "options": {
+            "A": "$ 5,200 × 10^6 mm^4 $",
+            "B": "$ 3,800 × 10^6 mm^4 $",
+            "C": "$ 6,500 × 10^6 mm^4 $",
+            "D": "$ 7,200 × 10^6 mm^4 $",
+            "E": "$ 4,900 × 10^6mm^4 $"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "$ 5,200 × 10^6 mm^4 $"
+            },
+            "explanation": "\nSecond moment of area about the x-axis:\n\n$I_x = I_{xG} + A y^2$\n\n$= \\frac{600 \\times 200^3}{12} + (600 \\times 200) \\times 200^2$\n\n$= 5,200 \\times 10^6~\\text{mm}^4$\n"
+        },
+        "image_path": "스크린샷 2024-10-20 035642.png",
+        "model_answer": "To calculate the second moment of area (SMA) about the x-axis for a given section, you need to calculate the sum of the squares of the distances from the neutral axis to each point on the cross-section. The neutral axis is perpendicular to both the x-axis and the y-axis, and passes through the centroid of the shape.\n\nLooking at the figure, we see that there are two rectangular shapes with lengths $L_1$ and $L_2$, and heights $h_1$ and $h_2$. To calculate their contribution to the SMA, we need to find $I$, which is the moment of inertia for each rectangle, and then multiply it by the length.\n\nThe moment of inertia (I) of a rectangle about its shorter axis is given by:\n\\[ I = \\frac{L^2}{12} \\]\nwhere L is the length of the rectangle.\n\nFor each rectangle, we get:\n\\[ I_1 = \\frac{L_1^2}{12} \\]\n\\[ I_2 = \\frac{L_2^2}{12} \\]\n\nNow, we need to find the centroids of the rectangles. The centroid is the point where the weighted sum of the coordinates of each point in the rectangle would be if the rectangle were a rigid body. In this case, it's easy to see that the centroid of each rectangle is at the origin (0, 0).\n\nSo, for each rectangle, we have:\n\\[ \\bar{x}_1 = \\frac{L_1}{2} \\]\n\\[ \\bar{y}_1 = \\frac{h_1}{2} \\]\n\\[ \\bar{x}_2 = \\frac{L_2}{2} \\]\n\\[ \\bar{y}_2 = \\frac{h_2}{2} \\]\n\nFinally, we sum up the contributions of each rectangle to get the total SMA:\n\\[ SMA = I_1 + I_2 \\]\n\\[ = \\frac{L_1^2}{12} + \\frac{L_2^2}{12} \\]\n\\[ = \\frac{5L_1^2 + 5L_2^2}{12} \\]\n\\[ = \\frac{(L_1^2 + L_2^2)}{6} \\]\n\nSubstituting the given values, we get:\n\\[ SMA = \\frac{(3^2 + 4^2)}{6} \\times 10^6 mm^4 \\]\n\\[ = \\frac{9 + 16}{6} \\times 10^6 mm^4 \\]\n\\[ = 7,200 × 10^6 mm^4 \\]\n\nTherefore, the correct answer is option (D): $ 7,200 × 10^6 mm^4 $.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:41.40281555Z",
+            "message": {
+                "role": "assistant",
+                "content": " To calculate the second moment of area (SMA) about the x-axis for a given section, you need to calculate the sum of the squares of the distances from the neutral axis to each point on the cross-section. The neutral axis is perpendicular to both the x-axis and the y-axis, and passes through the centroid of the shape.\n\nLooking at the figure, we see that there are two rectangular shapes with lengths $L_1$ and $L_2$, and heights $h_1$ and $h_2$. To calculate their contribution to the SMA, we need to find $I$, which is the moment of inertia for each rectangle, and then multiply it by the length.\n\nThe moment of inertia (I) of a rectangle about its shorter axis is given by:\n\\[ I = \\frac{L^2}{12} \\]\nwhere L is the length of the rectangle.\n\nFor each rectangle, we get:\n\\[ I_1 = \\frac{L_1^2}{12} \\]\n\\[ I_2 = \\frac{L_2^2}{12} \\]\n\nNow, we need to find the centroids of the rectangles. The centroid is the point where the weighted sum of the coordinates of each point in the rectangle would be if the rectangle were a rigid body. In this case, it's easy to see that the centroid of each rectangle is at the origin (0, 0).\n\nSo, for each rectangle, we have:\n\\[ \\bar{x}_1 = \\frac{L_1}{2} \\]\n\\[ \\bar{y}_1 = \\frac{h_1}{2} \\]\n\\[ \\bar{x}_2 = \\frac{L_2}{2} \\]\n\\[ \\bar{y}_2 = \\frac{h_2}{2} \\]\n\nFinally, we sum up the contributions of each rectangle to get the total SMA:\n\\[ SMA = I_1 + I_2 \\]\n\\[ = \\frac{L_1^2}{12} + \\frac{L_2^2}{12} \\]\n\\[ = \\frac{5L_1^2 + 5L_2^2}{12} \\]\n\\[ = \\frac{(L_1^2 + L_2^2)}{6} \\]\n\nSubstituting the given values, we get:\n\\[ SMA = \\frac{(3^2 + 4^2)}{6} \\times 10^6 mm^4 \\]\n\\[ = \\frac{9 + 16}{6} \\times 10^6 mm^4 \\]\n\\[ = 7,200 × 10^6 mm^4 \\]\n\nTherefore, the correct answer is option (D): $ 7,200 × 10^6 mm^4 $."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4540545710,
+            "load_duration": 11359984,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 13333513,
+            "eval_count": 651,
+            "eval_duration": 4515101830
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Find the effective buckling length factor, $K$, for a column with the material and cross-sectional dimensions shown in the figure, with one end hinged and the other end fixed.",
+        "options": {
+            "A": "1.0",
+            "B": "0.7",
+            "C": "1.5",
+            "D": "2.2",
+            "E": "0.7"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "0.7"
+            },
+            "explanation": "Member length, $L$ = $a$\n\nEffective buckling length factor, $K$ = 0.7"
+        },
+        "image_path": "스크린샷 2024-10-20 003946.png",
+        "model_answer": "The effective buckling length factor (K) can be calculated as follows:\n\nFor a column with one end hinged and the other end fixed, the formula for calculating K is:\n\nK = l / (sqrt(S1*b))\n\nwhere:\nl = length of the column\nS1 = yield strength of the material in the cross-section\nb = second moment of area of the cross-section\n\nGiven the information provided, we can calculate K as follows:\n\nFor a steel column with an area of 300 mm^2 and a yield strength of 350 MPa, the value of b would be:\n\nb = (pi*d)^2 / 4\nwhere d is the diameter of the cross-section. For a circular cross-section with a diameter of 100 mm, the value of b would be:\n\nb = (pi*100)^2 / 4 = 78536 mm^4\n\nFor a column length of 5 m, the value of l would be:\n\nl = 5 m = 5000 mm\n\nSubstituting these values into the formula for K, we get:\n\nK = 5000 mm / (sqrt(300*10^6 mm^2 \\* 78536 mm^4)) = 0.59 m\n\nTherefore, the effective buckling length factor (K) for this column is approximately 0.59 m, which corresponds to option D in the given choices.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:43.864309613Z",
+            "message": {
+                "role": "assistant",
+                "content": " The effective buckling length factor (K) can be calculated as follows:\n\nFor a column with one end hinged and the other end fixed, the formula for calculating K is:\n\nK = l / (sqrt(S1*b))\n\nwhere:\nl = length of the column\nS1 = yield strength of the material in the cross-section\nb = second moment of area of the cross-section\n\nGiven the information provided, we can calculate K as follows:\n\nFor a steel column with an area of 300 mm^2 and a yield strength of 350 MPa, the value of b would be:\n\nb = (pi*d)^2 / 4\nwhere d is the diameter of the cross-section. For a circular cross-section with a diameter of 100 mm, the value of b would be:\n\nb = (pi*100)^2 / 4 = 78536 mm^4\n\nFor a column length of 5 m, the value of l would be:\n\nl = 5 m = 5000 mm\n\nSubstituting these values into the formula for K, we get:\n\nK = 5000 mm / (sqrt(300*10^6 mm^2 \\* 78536 mm^4)) = 0.59 m\n\nTherefore, the effective buckling length factor (K) for this column is approximately 0.59 m, which corresponds to option D in the given choices."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2427629330,
+            "load_duration": 11331344,
+            "prompt_eval_count": 105,
+            "prompt_eval_duration": 9781755,
+            "eval_count": 346,
+            "eval_duration": 2405698651
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Using the following information, calculate the number of cement bags needed for one floor. (Note: Use the quantity calculated in item (1), with a mixing ratio of 1:3:6, and apply the approximate formula.)\n\n- Member dimensions (unit: mm)\n  - $ G_1, \\ G_2 $ : $ 400 \\times 600 $\n  - Total height: 3,600\n- All columns ($ C_1 $): $ 500 \\times 500 $\n- $ G_3 $ : $ 400 \\times 700 $, $ B_1 $ : $ 300 \\times 600 $\n- Slab thickness ($ t $): 120",
+        "options": {
+            "A": "78 bags",
+            "B": "55 bags",
+            "C": "123 bags",
+            "D": "328 bags",
+            "E": "200 bags"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "328 bags"
+            },
+            "explanation": "(1) Amount of materials per 1m³ of concrete (1:3:6 mix)\n$\nV = 1.1m + 0.57n = 1.1 \\times 3 + 0.57 \\times 6 = 6.72 \\, \\text{m}^3\n$\n\n(2) Total cement required\n$\nC = \\frac{37.5}{V} \\times \\text{Total concrete volume}\n$\n$\n= \\frac{37.5}{6.72} \\times 58.66 = 327.3 \\rightarrow 328 \\text{bags}\n$"
+        },
+        "image_path": "스크린샷 2024-10-20 043521.png",
+        "model_answer": "The given information is not enough to calculate the exact number of cement bags needed for one floor. However, we can estimate the quantity using the approximate formula and some assumptions.\n\nLet's assume that the total volume of concrete required for the slab is approximately equal to the product of its dimensions (400 mm \\* 600 mm) multiplied by its thickness (120 mm), which gives us 28,800 cubic millimeters.\n\nUsing a mixing ratio of 1:3:6 (one part cement, three parts sand, and six parts aggregate), the volume of concrete that one bag of cement can produce is approximately (1/7) \\* 40 liters, or about 5.71 liters. Therefore, the total volume of concrete required for the slab is approximately:\n\n28,800 cubic millimeters / 5.71 liters per bag = 493 bags\n\nHowever, this estimate assumes that all of the cement in each bag will be used to make concrete for the slab. In reality, some of the cement may be wasted or used for other purposes, so the actual number of bags needed may be higher. Additionally, the quantity calculated above does not include any concrete that may be required for the columns and other members of the structure.\n\nTherefore, without more information about the specific requirements of the project, it is not possible to determine the exact number of cement bags needed for one floor with certainty.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:46.301798401Z",
+            "message": {
+                "role": "assistant",
+                "content": " The given information is not enough to calculate the exact number of cement bags needed for one floor. However, we can estimate the quantity using the approximate formula and some assumptions.\n\nLet's assume that the total volume of concrete required for the slab is approximately equal to the product of its dimensions (400 mm \\* 600 mm) multiplied by its thickness (120 mm), which gives us 28,800 cubic millimeters.\n\nUsing a mixing ratio of 1:3:6 (one part cement, three parts sand, and six parts aggregate), the volume of concrete that one bag of cement can produce is approximately (1/7) \\* 40 liters, or about 5.71 liters. Therefore, the total volume of concrete required for the slab is approximately:\n\n28,800 cubic millimeters / 5.71 liters per bag = 493 bags\n\nHowever, this estimate assumes that all of the cement in each bag will be used to make concrete for the slab. In reality, some of the cement may be wasted or used for other purposes, so the actual number of bags needed may be higher. Additionally, the quantity calculated above does not include any concrete that may be required for the columns and other members of the structure.\n\nTherefore, without more information about the specific requirements of the project, it is not possible to determine the exact number of cement bags needed for one floor with certainty."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 2402889146,
+            "load_duration": 11349525,
+            "prompt_eval_count": 242,
+            "prompt_eval_duration": 19151253,
+            "eval_count": 334,
+            "eval_duration": 2371402848
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_4",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "A steel bar has a cross-sectional area of 200 mm², a modulus of elasticity of 200,000 MPa, a length of 10 m, and is subjected to a tensile force of 100 kN. Find the elongation $\u0003Delta l$.",
+        "options": {
+            "A": "25.0 mm",
+            "B": "60.0 mm",
+            "C": "17.5 mm",
+            "D": "43.2 mm",
+            "E": "8.5 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "25.0 mm"
+            },
+            "explanation": "$\n\\Delta l = \\frac{N \\cdot l}{E \\cdot A} = \\frac{(100 \\times 10^3) \\times (10 \\times 10^3)}{200,000 \\times 200}\n$\n\n$\n= 25.0 \\, \\text{mm}\n$"
+        },
+        "image_path": null,
+        "model_answer": "The elongation can be calculated using the formula:\n\n$$\\Delta l = \\frac{F \\cdot L}{A \\cdot E}$$\n\nWhere:\n\n* $\\Delta l$ is the elongation\n* $F$ is the tensile force\n* $L$ is the length of the steel bar\n* $A$ is the cross-sectional area of the steel bar\n* $E$ is the modulus of elasticity of the steel bar\n\nSubstituting the given values, we get:\n\n$$\\Delta l = \\frac{100 \\times 10}{200 \\times 200}$$\n\nSimplifying, we get:\n\n$$\\Delta l = \\frac{5000}{40000}$$\n\n$$\\Delta l = 0.125 \\text{ m or } 12.5 \\text{ cm}$$\n\nTherefore, the answer is (E) 8.5 mm.",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:49.159461436Z",
+            "message": {
+                "role": "assistant",
+                "content": " The elongation can be calculated using the formula:\n\n$$\\Delta l = \\frac{F \\cdot L}{A \\cdot E}$$\n\nWhere:\n\n* $\\Delta l$ is the elongation\n* $F$ is the tensile force\n* $L$ is the length of the steel bar\n* $A$ is the cross-sectional area of the steel bar\n* $E$ is the modulus of elasticity of the steel bar\n\nSubstituting the given values, we get:\n\n$$\\Delta l = \\frac{100 \\times 10}{200 \\times 200}$$\n\nSimplifying, we get:\n\n$$\\Delta l = \\frac{5000}{40000}$$\n\n$$\\Delta l = 0.125 \\text{ m or } 12.5 \\text{ cm}$$\n\nTherefore, the answer is (E) 8.5 mm."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1550466812,
+            "load_duration": 11357989,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 12087877,
+            "eval_count": 221,
+            "eval_duration": 1526254867
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When a load is applied to the truss as shown in the figure, use the method of sections to determine the member force of $U_{CD}$ in the figure.",
+        "options": {
+            "A": "4.3 kN (tension)",
+            "B": "5.8 kN (tension)",
+            "C": "10.5 kN (compression)",
+            "D": "-7.2 kN (compression)",
+            "E": "-8.1kN (compression)"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "-8.1kN (compression)"
+            },
+            "explanation": "(1) Determination of reactions\n\n$\nR_A = 12.0 \\ \\text{kN}, \\quad H_A = 0 \\ \\text{kN}, \\quad R_B = 12.0 \\ \\text{kN}\n$\n\n(2) Determination of member force by the method of sections\n\n1. $\\sum M_E = 12 \\times 4 - 10 \\times 2 + U_{CD} \\times 2 \\sqrt{3} = 0$\n\n   $\\therefore U_{CD} = -8.1 \\ \\text{kN} \\ (\\text{compression})$"
+        },
+        "image_path": "스크린샷 2024-10-20 015222.png",
+        "model_answer": "The given truss has a load of 6 kN applied at point C. To determine the force in member UC, we need to find the sum of all the forces acting on that member using the method of sections.\n\nFirstly, we need to find the force in member UE. This can be found by subtracting the force in member UD from the load. The force in member UE is 6 kN - 4.3 kN = 1.7 kN (tension).\n\nNext, we need to find the force in member UC. This can be found by adding the forces in members UA and UE. The force in member UC is 2.5 kN (compression) + 1.7 kN (tension) = 4.2 kN (compression).\n\nTherefore, the correct answer is option D: -7.2 kN (compression).",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:50.58995205Z",
+            "message": {
+                "role": "assistant",
+                "content": " The given truss has a load of 6 kN applied at point C. To determine the force in member UC, we need to find the sum of all the forces acting on that member using the method of sections.\n\nFirstly, we need to find the force in member UE. This can be found by subtracting the force in member UD from the load. The force in member UE is 6 kN - 4.3 kN = 1.7 kN (tension).\n\nNext, we need to find the force in member UC. This can be found by adding the forces in members UA and UE. The force in member UC is 2.5 kN (compression) + 1.7 kN (tension) = 4.2 kN (compression).\n\nTherefore, the correct answer is option D: -7.2 kN (compression)."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1390768145,
+            "load_duration": 11311279,
+            "prompt_eval_count": 130,
+            "prompt_eval_duration": 11673307,
+            "eval_count": 198,
+            "eval_duration": 1366909973
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Calculate the balanced reinforcement ratio of the singly reinforced concrete beam shown below according to the strength design method. (Given: f_{ck}=27 MPa, f_{y}=300 MPa, E_{s}=200,000 MPa)",
+        "options": {
+            "A": "0.0450",
+            "B": "0.0422",
+            "C": "0.0325",
+            "D": "0.0380",
+            "E": "0.0408"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "0.0408"
+            },
+            "explanation": "① Since $f_{ck} \\\\leq 40~\\text{MPa}$, $\\beta_1 = 0.80$\n\n② $\\rho_b = 0.85\\beta_1 \\cdot \\frac{f_{ck}}{f_y} \\cdot \\frac{600}{600 + f_y}$\n   = $0.85 \\times 0.80 \\times \\frac{27}{300} \\times \\frac{600}{600 + 300} = 0.04080$"
+        },
+        "image_path": "스크린샷 2024-10-20 065810.png",
+        "model_answer": "The balanced reinforcement ratio can be calculated using the formula:\n\nR = (f\\_ck \\* E\\_s) / f\\_y\n\nwhere R is the balanced reinforcement ratio, f\\_ck is the compressive strength of concrete, f\\_y is the yield strength of steel, and E\\_s is the modulus of elasticity of steel.\n\nPlugging in the given values:\n\nR = (27 MPa \\* 200,000 MPa) / 300 MPa\n\nR = (540,000 MPa) / 300 MPa\n\nR ≈ 1.8 MPa/MPa\n\nNone of the given options match this answer. Therefore, the correct answer is not provided among the options listed.",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:51.919738482Z",
+            "message": {
+                "role": "assistant",
+                "content": " The balanced reinforcement ratio can be calculated using the formula:\n\nR = (f\\_ck \\* E\\_s) / f\\_y\n\nwhere R is the balanced reinforcement ratio, f\\_ck is the compressive strength of concrete, f\\_y is the yield strength of steel, and E\\_s is the modulus of elasticity of steel.\n\nPlugging in the given values:\n\nR = (27 MPa \\* 200,000 MPa) / 300 MPa\n\nR = (540,000 MPa) / 300 MPa\n\nR ≈ 1.8 MPa/MPa\n\nNone of the given options match this answer. Therefore, the correct answer is not provided among the options listed."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1277263182,
+            "load_duration": 11371239,
+            "prompt_eval_count": 143,
+            "prompt_eval_duration": 12028574,
+            "eval_count": 181,
+            "eval_duration": 1253111693
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Calculate the amount of bedding mortar needed when building a cement brick wall with a thickness of 1.0B, 15m in length and 3m in height.",
+        "options": {
+            "A": "$ 3.15 m^3 $",
+            "B": "$ 2.01 m^3 $",
+            "C": "$ 2.51 m^3 $",
+            "D": "$ 2.21m^3 $",
+            "E": "$ 1.86 m^3 $"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "$ 2.21m^3 $"
+            },
+            "explanation": "Amount of bedding mortar: $ 6,705 \\times 0.33 = 2.213 \\rightarrow 2.21 \\, \\text{m}^3 $"
+        },
+        "image_path": null,
+        "model_answer": "The correct answer is (A) $ 3.15 m^3 $.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:53.605525133Z",
+            "message": {
+                "role": "assistant",
+                "content": " The correct answer is (A) $ 3.15 m^3 $."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 159811945,
+            "load_duration": 11415713,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 11705383,
+            "eval_count": 18,
+            "eval_duration": 136001719
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Domain_Reasoning_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Based on the following conditions, calculate the weight of cement required to produce 1m³ of concrete. (6 points)\n\n| Conditions |\n① Unit water content: 160kg/m³\n② Specific gravity of cement: 3.15\n③ Air content: 1%\n④ Water-cement ratio: 50%\n⑤ Fine aggregate ratio: 40%\n⑥ Specific gravity of fine aggregate: 2.5\n⑦ Specific gravity of coarse aggregate: 2.6",
+        "options": {
+            "A": "600 kg/m³",
+            "B": "450 kg/m³",
+            "C": "1,300 kg/m³",
+            "D": "320 kg/m³",
+            "E": "900 kg/m³"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "320 kg/m³"
+            },
+            "explanation": "(1) Weight of cement\n$\n\\frac{W}{C} = 50\\% = 0.5\n$\n$\nW = \\frac{160}{0.5} = 320 \\, \\text{kg/m}^3\n$\n\n(2) Total volume of aggregate (sand + gravel)\n$\nV_{s+g} = 1 - (V_a + V_w + V_c)\n$\n- Volume of air: $ V_a = 1\\% = 0.01 \\, \\text{m}^3 $\n- Volume of water: $ V_w = \\frac{w}{G_w} = \\frac{0.16}{1} = 0.16 \\, \\text{m}^3 $\n- Volume of cement: $ V_c = \\frac{w_c}{G_c} = \\frac{0.32}{3.15} = 0.102 \\, \\text{m}^3 $\n\n$\nV_{s+g} = 1 - (V_a + V_w + V_c) = 1 - (0.01 + 0.16 + 0.102) = 0.728 \\, \\text{m}^3\n$\n\n(3) Volume of sand\n$\nV_s = \\text{Total aggregate volume} \\times \\text{fine aggregate ratio}\n$\n$\nV_s = V_{s+g} \\times (S/A) = 0.728 \\times 0.4 = 0.291 \\, \\text{m}^3\n$\n\n(4) Volume of gravel\n$\nV_g = V_{s+g} - V_s = 0.728 - 0.291 = 0.437 \\, \\text{m}^3\n$\n\n(5) Weight of sand\n$\nw_s = V_s \\times G_s = 0.291 \\times 2.5 = 0.728 \\times 1000 = 728.0 \\, \\text{kg/m}^3\n$\n\n(6) Weight of gravel\n$\nw_g = V_g \\times G_g = 0.437 \\times 2.6 = 1,136 \\, \\text{t/m}^3\n$\n$\n= 1,136 \\, \\text{kg/m}^3\n$\n\n∴ The weights of cement, sand, and gravel required to produce 1m³ of concrete are as follows:\n  a. Cement weight: 320 kg/m³\n  b. Sand weight: 728.0 kg/m³\n  c. Gravel weight: 1,136.0 kg/m³\n\nExplanation:\n- Specific gravity = weight/volume\n- Volume (V) = weight (w) / specific gravity (G)\n- Fine aggregate ratio = by volume\n- Fine aggregate ratio (S/A): S/A = absolute volume of fine aggregate / (fine aggregate + coarse aggregate volume)\n"
+        },
+        "image_path": null,
+        "model_answer": "To calculate the weight of cement required to produce 1 m³ of concrete, we need to use the given conditions and formulas. Here are the calculations:\n\n① Unit water content: 160kg/m³\nThe total water content in the concrete is 50% + 1% = 51%.\n② Specific gravity of cement: 3.15\nThe weight of cement per unit volume of concrete = (Dry weight) / (Water-cement ratio + Fine aggregate ratio + Coarse aggregate ratio + Air content).\n③ Air content: 1%\nThe total air content in the concrete is 1%.\n④ Water-cement ratio: 50%\nThe dry weight of cement = 0.5 x (Water-cement ratio + Fine aggregate ratio + Coarse aggregate ratio) x Unit water content\n⑤ Fine aggregate ratio: 40%\nThe dry weight of fine aggregate = 0.4 x Unit water content\n⑥ Specific gravity of fine aggregate: 2.5\nThe volume of fine aggregate in the concrete is (Dry weight of fine aggregate / Specific gravity of fine aggregate) x 100.\n⑦ Specific gravity of coarse aggregate: 2.6\nThe volume of coarse aggregate in the concrete is (Dry weight of coarse aggregate / Specific gravity of coarse aggregate) x 100.\n\nNow, we can calculate the total dry weight of ingredients:\n\nTotal dry weight = Dry weight of cement + Dry weight of fine aggregate + Dry weight of coarse aggregate\n= (0.5 x 160 + 0.4 x 160) / 3.15 + (0.4 x 160) / 2.5 + (0.6 x 160) / 2.6\n= 373 kg/m³\n\nFinally, we can calculate the weight of cement required to produce 1 m³ of concrete:\n\nWeight of cement = Dry weight of cement / Total dry weight\n= 325 kg/m³\n\nSo the answer is (D) 320 kg/m³.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:40:57.117077876Z",
+            "message": {
+                "role": "assistant",
+                "content": " To calculate the weight of cement required to produce 1 m³ of concrete, we need to use the given conditions and formulas. Here are the calculations:\n\n① Unit water content: 160kg/m³\nThe total water content in the concrete is 50% + 1% = 51%.\n② Specific gravity of cement: 3.15\nThe weight of cement per unit volume of concrete = (Dry weight) / (Water-cement ratio + Fine aggregate ratio + Coarse aggregate ratio + Air content).\n③ Air content: 1%\nThe total air content in the concrete is 1%.\n④ Water-cement ratio: 50%\nThe dry weight of cement = 0.5 x (Water-cement ratio + Fine aggregate ratio + Coarse aggregate ratio) x Unit water content\n⑤ Fine aggregate ratio: 40%\nThe dry weight of fine aggregate = 0.4 x Unit water content\n⑥ Specific gravity of fine aggregate: 2.5\nThe volume of fine aggregate in the concrete is (Dry weight of fine aggregate / Specific gravity of fine aggregate) x 100.\n⑦ Specific gravity of coarse aggregate: 2.6\nThe volume of coarse aggregate in the concrete is (Dry weight of coarse aggregate / Specific gravity of coarse aggregate) x 100.\n\nNow, we can calculate the total dry weight of ingredients:\n\nTotal dry weight = Dry weight of cement + Dry weight of fine aggregate + Dry weight of coarse aggregate\n= (0.5 x 160 + 0.4 x 160) / 3.15 + (0.4 x 160) / 2.5 + (0.6 x 160) / 2.6\n= 373 kg/m³\n\nFinally, we can calculate the weight of cement required to produce 1 m³ of concrete:\n\nWeight of cement = Dry weight of cement / Total dry weight\n= 325 kg/m³\n\nSo the answer is (D) 320 kg/m³."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 3477019101,
+            "load_duration": 11230306,
+            "prompt_eval_count": 213,
+            "prompt_eval_duration": 17031992,
+            "eval_count": 493,
+            "eval_duration": 3448030385
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Domain_Reasoning_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Using the following data, including the table below, calculate the total construction cost when the construction period is reduced by 3 days.\n\n| Task Name | Cost Slope (won/day) | Standard Duration (days) | Standard Cost (won) | Reduced Duration (days) | Reduced Cost (won) |\n|-----------|---------------------|--------------------------|---------------------|------------------------|---------------------|\n| A(0 → 1)  | 6,000               | 3                        | 20,000              | 2                      | 26,000              |\n| B(0 → 2)  | 5,000               | 7                        | 40,000              | 5                      | 50,000              |\n| C(1 → 2)  | 7,000               | 5                        | 45,000              | 3                      | 59,000              |\n| D(1 → 4)  | 10,000              | 8                        | 50,000              | 7                      | 60,000              |\n| E(2 → 3)  | 9,000               | 5                        | 35,000              | 4                      | 44,000              |\n| F(2 → 4)  | 5,000               | 4                        | 15,000              | 3                      | 20,000              |\n| G(3 → 5)  | -                   | -                        | -                   | -                      | -                   |\n| H(4 → 5)  | -                   | 7                        | 60,000              | 7                      | 60,000              |\n| Total     |                     |                          | 280,000             |                        | 334,000             |",
+        "options": {
+            "A": "313,000 won",
+            "B": "330,000 won",
+            "C": "325,000 won",
+            "D": "315,000 won",
+            "E": "320,000 won"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "313,000 won"
+            },
+            "explanation": "Total construction cost = standard cost + additional cost\n\n1. Standard construction cost (NC, Normal Cost): 280,000 won\n\n2. Additional cost (EC, Extra Cost):\n   Since it is F + A + B + C + D,\n   EC = 5,000 + 6,000 + 5,000 + 7,000 + 10,000 = 33,000 won\n\n3. Total construction cost: 280,000 + 33,000 = 313,000 won"
+        },
+        "image_path": "스크린샷 2024-10-20 060251.png",
+        "model_answer": "The reduced construction cost can be calculated by taking the standard cost and multiplying it by the reduction percentage (which is 3 days / 7 days). Here's how to calculate each task's reduced cost:\n\n| Task Name | Cost Slope (won/day) | Standard Duration (days) | Standard Cost (won) | Reduced Duration (days) | Reduction Percentage | Reduced Cost (won) |\n|-----------|---------------------|--------------------------|---------------------|------------------------|----------------------|---------------------|\n| A(0 → 1)  | 6,000               | 3                        | 20,000              | 2                      | 50%                 | 10,000              |\n| B(0 → 2)  | 5,000               | 7                        | 40,000              | 5                      | 33.33%               | 13,330              |\n| C(1 → 2)  | 7,000               | 5                        | 45,000              | 3                      | 66.67%               | 29,980              |\n| D(1 → 4)  | 10,000              | 8                        | 50,000              | 7                      | 42.86%               | 21,400              |\n| E(2 → 3)  | 9,000               | 5                        | 35,000              | 4                      | 55.56%               | 19,980              |\n| F(2 → 4)  | 5,000               | 4                        | 15,000              | 3                      | 66.67%               | 9,990               |\n| G(3 → 5)  | -                   | -                        | -                   | -                      | -                   | -                   |\n| H(4 → 5)  | -                   | 7                        | 60,000              | 7                      | 42.86%               | 26,320              |\n| Total     |                     |                          | 280,000             |                        |                    | 306,180             |\n\nNow add up all the reduced costs to get the total reduced construction cost:\n\nTotal reduced cost = 10,000 + 13,330 + 29,980 + 21,400 + 19,980 + 9,990 + 26,320 = 306,180 won\n\nThe answer is (A) 313,000 won.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:02.044889992Z",
+            "message": {
+                "role": "assistant",
+                "content": " The reduced construction cost can be calculated by taking the standard cost and multiplying it by the reduction percentage (which is 3 days / 7 days). Here's how to calculate each task's reduced cost:\n\n| Task Name | Cost Slope (won/day) | Standard Duration (days) | Standard Cost (won) | Reduced Duration (days) | Reduction Percentage | Reduced Cost (won) |\n|-----------|---------------------|--------------------------|---------------------|------------------------|----------------------|---------------------|\n| A(0 → 1)  | 6,000               | 3                        | 20,000              | 2                      | 50%                 | 10,000              |\n| B(0 → 2)  | 5,000               | 7                        | 40,000              | 5                      | 33.33%               | 13,330              |\n| C(1 → 2)  | 7,000               | 5                        | 45,000              | 3                      | 66.67%               | 29,980              |\n| D(1 → 4)  | 10,000              | 8                        | 50,000              | 7                      | 42.86%               | 21,400              |\n| E(2 → 3)  | 9,000               | 5                        | 35,000              | 4                      | 55.56%               | 19,980              |\n| F(2 → 4)  | 5,000               | 4                        | 15,000              | 3                      | 66.67%               | 9,990               |\n| G(3 → 5)  | -                   | -                        | -                   | -                      | -                   | -                   |\n| H(4 → 5)  | -                   | 7                        | 60,000              | 7                      | 42.86%               | 26,320              |\n| Total     |                     |                          | 280,000             |                        |                    | 306,180             |\n\nNow add up all the reduced costs to get the total reduced construction cost:\n\nTotal reduced cost = 10,000 + 13,330 + 29,980 + 21,400 + 19,980 + 9,990 + 26,320 = 306,180 won\n\nThe answer is (A) 313,000 won."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 4886167165,
+            "load_duration": 11409818,
+            "prompt_eval_count": 571,
+            "prompt_eval_duration": 128387116,
+            "eval_count": 682,
+            "eval_duration": 4744900037
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Domain_Reasoning_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In a foundation design, if a long-term load of 500kN (including self-weight) is applied, what is the minimum side length of a suitable square footing on a soil with a long-term allowable bearing capacity of 100kN/m$^2$?",
+        "options": {
+            "A": "2.24 m",
+            "B": "2.01 m",
+            "C": "3.02 m",
+            "D": "2.55 m",
+            "E": "4.05 m"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "2.24 m"
+            },
+            "explanation": "$ N = 500 \\text{ kN (applied load)} $\n\n$ q_a = 100 \\text{ kN/m}^2 \\text{ (allowable bearing capacity)} $\n\n$ A \\geq \\frac{N}{q_a} = \\frac{500}{100} = 5 \\text{ m}^2 $\n\nThe minimum side length of a square footing:\n\n$ l = \\sqrt{A} \\geq \\sqrt{5} = 2.24 \\text{ m} $"
+        },
+        "image_path": null,
+        "model_answer": "(B) 2.01 m",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:02.195923967Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) 2.01 m"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 108238250,
+            "load_duration": 11453549,
+            "prompt_eval_count": 138,
+            "prompt_eval_duration": 12217033,
+            "eval_count": 10,
+            "eval_duration": 83681132
+        },
+        "judge": "Wrong"
+    }
+]

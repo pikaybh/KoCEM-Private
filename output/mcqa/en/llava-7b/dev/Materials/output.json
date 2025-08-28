@@ -1,0 +1,314 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "What is the main use of terra-cotta?",
+        "options": {
+            "A": "Reinforcement of structural materials",
+            "B": "Waterproofing",
+            "C": "Insulation",
+            "D": "Decoration"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Decoration"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:06.365373391Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 37746571,
+            "load_duration": 12059425,
+            "prompt_eval_count": 62,
+            "prompt_eval_duration": 6092800,
+            "eval_count": 3,
+            "eval_duration": 18879898
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?",
+        "options": {
+            "A": "Ultraviolet-blocking glass",
+            "B": "Heat-absorbing glass",
+            "C": "Heat-reflective glass",
+            "D": "Ultraviolet-transmitting glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Ultraviolet-blocking glass"
+            },
+            "explanation": "Ultraviolet rays have a shorter wavelength than visible light and cause chemical reactions, leading to transformation or disinfection. To prevent these effects, ultraviolet rays must be blocked."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:06.43989136Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45525870,
+            "load_duration": 15629760,
+            "prompt_eval_count": 102,
+            "prompt_eval_duration": 6248807,
+            "eval_count": 3,
+            "eval_duration": 22849614
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?",
+        "options": {
+            "A": "Urea resin",
+            "B": "Acrylic resin",
+            "C": "Silicone resin",
+            "D": "Melamine resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Silicone resin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:06.517082921Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 42412910,
+            "load_duration": 11913447,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 6186340,
+            "eval_count": 3,
+            "eval_duration": 23596394
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?",
+        "options": {
+            "A": "Prism glass",
+            "B": "Insulating glass",
+            "C": "Wired glass",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prism glass"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:06.589666601Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39371323,
+            "load_duration": 11698093,
+            "prompt_eval_count": 89,
+            "prompt_eval_duration": 6045165,
+            "eval_count": 3,
+            "eval_duration": 20902401
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about the strength of wood is incorrect?",
+        "options": {
+            "A": "Of the various strengths of wood, the tensile strength parallel to the grain is the greatest.",
+            "B": "When wood is used as a column, it generally receives compressive force parallel to the grain.",
+            "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength.",
+            "D": "In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:06.669762287Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45787762,
+            "load_duration": 11875481,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 6662520,
+            "eval_count": 3,
+            "eval_duration": 26365211
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct statement about the physical properties of wood?",
+        "options": {
+            "A": "Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+            "B": "The greater the specific gravity of the wood, the less it expands and contracts.",
+            "C": "Wood with a higher specific gravity also has greater strength.",
+            "D": "Wood with moisture content above the fiber saturation point is called green wood."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The greater the specific gravity of the wood, the less it expands and contracts."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Wood with a higher specific gravity also has greater strength.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:06.814153702Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) Wood with a higher specific gravity also has greater strength. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 102979909,
+            "load_duration": 12379506,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 6855326,
+            "eval_count": 16,
+            "eval_duration": 82783103
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements about stone materials is incorrect?",
+        "options": {
+            "A": "Marble is strong but has low fire resistance and weathers easily.",
+            "B": "Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone.",
+            "C": "Travertine is a type of igneous rock and is used for interior decoration.",
+            "D": "Slate can be easily cut into thin sheets, making it suitable as a roofing material."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Travertine is a type of igneous rock and is used for interior decoration."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C. Travertine is a type of igneous rock and is used for interior decoration.\n\nExplanation: The correct statement is A. Marble is strong but has low fire resistance and weathers easily.\n\nTravertine is not an igneous rock, it is a type of sedimentary rock that forms from water containing dissolved carbon dioxide, which as it cools loses its gas and precipitates calcium carbonate. It's commonly used for decorative purposes like sculptures, mosaics, wall tiles, and steps.\n\nMarble, on the other hand, is a metamorphic rock that forms from limestone through a process of heat and pressure. While marble is strong, it has low fire resistance and weathers easily. Basalt is an extrusive igneous rock formed by the eruption of magma, while slate is a fine-grained sedimentary rock that can be cut into thin sheets for roofing material.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:07.833053087Z",
+            "message": {
+                "role": "assistant",
+                "content": " C. Travertine is a type of igneous rock and is used for interior decoration.\n\nExplanation: The correct statement is A. Marble is strong but has low fire resistance and weathers easily.\n\nTravertine is not an igneous rock, it is a type of sedimentary rock that forms from water containing dissolved carbon dioxide, which as it cools loses its gas and precipitates calcium carbonate. It's commonly used for decorative purposes like sculptures, mosaics, wall tiles, and steps.\n\nMarble, on the other hand, is a metamorphic rock that forms from limestone through a process of heat and pressure. While marble is strong, it has low fire resistance and weathers easily. Basalt is an extrusive igneous rock formed by the eruption of magma, while slate is a fine-grained sedimentary rock that can be cut into thin sheets for roofing material. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 983029964,
+            "load_duration": 11946275,
+            "prompt_eval_count": 122,
+            "prompt_eval_duration": 7412384,
+            "eval_count": 214,
+            "eval_duration": 962791845
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "In the stress-strain curve diagram for steel, what do points A and C represent?",
+        "options": {
+            "A": "A: Proportional limit, C: Upper yield point",
+            "B": "A: Tensile strength, C: Proportional limit",
+            "C": "A: Proportional limit, C: Lower yield point",
+            "D": "A: Lower yield point, C: Fracture point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A: Proportional limit, C: Lower yield point"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20100307/bj20100307m72.gif?1522444684",
+        "model_answer": "(B) A: Proportional limit, C: Lower yield point",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:15:07.97024946Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) A: Proportional limit, C: Lower yield point "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 99821364,
+            "load_duration": 11884581,
+            "prompt_eval_count": 106,
+            "prompt_eval_duration": 6413979,
+            "eval_count": 17,
+            "eval_duration": 80888945
+        },
+        "judge": "Wrong"
+    }
+]

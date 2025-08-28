@@ -1,0 +1,42 @@
+{
+    "dev_Materials_1937": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "dev_Materials_1978": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Materials_107": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Materials_3874": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "dev_Materials_4941": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "dev_Materials_2240": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "dev_Materials_4127": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Materials_3950": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    }
+}

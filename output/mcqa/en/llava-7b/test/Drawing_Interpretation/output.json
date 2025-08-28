@@ -1,0 +1,4882 @@
+[
+    {
+        "id": "test_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is correct regarding the installation conditions for trusses in roof structural planning?",
+        "options": {
+            "A": "Trusses follow the one-way system.",
+            "B": "Only one truss is installed.",
+            "C": "The spacing between truss joints should be 3.5 meters or less.",
+            "D": "The spacing of the first truss is at least 5 meters.",
+            "E": "It is not necessary to indicate trusses on the roof plan."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "The spacing between truss joints should be 3.5 meters or less."
+            },
+            "explanation": "The guidelines specify that the spacing between truss joints should be planned at 3.5 meters or less, which is a design condition considering structural stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.429193667Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 51047903,
+            "load_duration": 18142979,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 6574779,
+            "eval_count": 3,
+            "eval_duration": 25471383
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the size of the column brace in the indoor gymnasium?",
+        "options": {
+            "A": "L=150 x 150 mm",
+            "B": "L=200 x 200 mm",
+            "C": "L=250 x 250 mm",
+            "D": "L=300 x 300 mm",
+            "E": "L=350 x 350 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "L=250 x 250 mm"
+            },
+            "explanation": "According to the structural plan, the size of the column brace is specified as L=250 x 250 mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_125.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.505728022Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40859412,
+            "load_duration": 11265127,
+            "prompt_eval_count": 112,
+            "prompt_eval_duration": 6091574,
+            "eval_count": 3,
+            "eval_duration": 22773091
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In the elementary school expansion project, what is the planned structure of the 'atrium' extension building?",
+        "options": {
+            "A": "RC structure",
+            "B": "Steel structure",
+            "C": "Wooden structure",
+            "D": "Reinforced concrete structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Steel structure"
+            },
+            "explanation": "According to the design guidelines, the atrium building is planned as a steel structure. This choice provides a lightweight structure and a sense of openness."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_357.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.598021904Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39184762,
+            "load_duration": 11710157,
+            "prompt_eval_count": 77,
+            "prompt_eval_duration": 6019571,
+            "eval_count": 3,
+            "eval_duration": 20738119
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_4",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What type of foundation is used in the center?",
+        "options": {
+            "A": "Isolated foundation",
+            "B": "Strip foundation",
+            "C": "Raft foundation",
+            "D": "Mat foundation",
+            "E": "Pile foundation"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Isolated foundation"
+            },
+            "explanation": "According to the design specifications, the foundation type for the building is an isolated foundation."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_25.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.702677802Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41619793,
+            "load_duration": 14845521,
+            "prompt_eval_count": 67,
+            "prompt_eval_duration": 5776970,
+            "eval_count": 3,
+            "eval_duration": 20376595
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_5",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "How is the central air conditioning system of the library described in the facility plan?",
+        "options": {
+            "A": "Underfloor air conditioning system",
+            "B": "Wall-mounted air conditioning system",
+            "C": "Ceiling duct system",
+            "D": "Individual air conditioner system",
+            "E": "Ductless system"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Ceiling duct system"
+            },
+            "explanation": "According to the design guidelines, the expanded library uses a central air conditioning system, which provides climate control through ceiling ducts and fan coil units."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_19.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.789688315Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39606624,
+            "load_duration": 12150587,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 5992168,
+            "eval_count": 3,
+            "eval_duration": 20774953
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_6",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the size of the isolated footing for the community self-governing facility?",
+        "options": {
+            "A": "1,000×1,000×400mm",
+            "B": "1,200×1,200×400mm",
+            "C": "1,500×1,500×400mm",
+            "D": "1,800×1,800×400mm",
+            "E": "2,000×2,000×400mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,500×1,500×400mm"
+            },
+            "explanation": "According to the design specifications, the foundation type is specified as an isolated footing, and its size is set at 1,500×1,500×400mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_7.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.87336605Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45933349,
+            "load_duration": 11804929,
+            "prompt_eval_count": 146,
+            "prompt_eval_duration": 6234380,
+            "eval_count": 3,
+            "eval_duration": 27371498
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_7",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "How should the second floor extension of an expanded building be structurally handled in relation to the existing building?",
+        "options": {
+            "A": "Plan so that it is attached to the existing building.",
+            "B": "Connect it internally with the existing building.",
+            "C": "Separate it structurally and independently.",
+            "D": "Connect it using piping.",
+            "E": "Attach it to the ground."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Separate it structurally and independently."
+            },
+            "explanation": "According to the design guidelines, the floor extension of an expanded building should be planned to be structurally separated and independent from the existing building. This is to maintain an independent structural system without affecting the structure of the existing building."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_367.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:52.955601826Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40940241,
+            "load_duration": 11637721,
+            "prompt_eval_count": 107,
+            "prompt_eval_duration": 6194921,
+            "eval_count": 3,
+            "eval_duration": 22386785
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_8",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the height of each floor in the above-ground parking lot?",
+        "options": {
+            "A": "3.0m",
+            "B": "3.3m",
+            "C": "3.6m",
+            "D": "4.0m",
+            "E": "4.5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3.6m"
+            },
+            "explanation": "According to design condition 3, the height of each floor is set to 3.6 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_31.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.035882572Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38683814,
+            "load_duration": 11759907,
+            "prompt_eval_count": 83,
+            "prompt_eval_duration": 5800023,
+            "eval_count": 3,
+            "eval_duration": 20611217
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_9",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the scale of the 4th floor structure plan?",
+        "options": {
+            "A": "1/100",
+            "B": "1/200",
+            "C": "1/300",
+            "D": "1/400",
+            "E": "1/500"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1/300"
+            },
+            "explanation": "The scale of the 4th floor structure plan is specified as 1/300 in the manual. This means the actual size is reduced in the drawing according to this ratio."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_103.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.112534125Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38621480,
+            "load_duration": 11736993,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5819863,
+            "eval_count": 3,
+            "eval_duration": 20549606
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_10",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What structural types are specified for use in research facilities?",
+        "options": {
+            "A": "Wood structure",
+            "B": "Steel structure",
+            "C": "Masonry structure",
+            "D": "Reinforced concrete structure",
+            "E": "Both B and D are allowed"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Both B and D are allowed"
+            },
+            "explanation": "According to the given design conditions, research facilities can be planned with either a steel structure or a reinforced concrete structure."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_265.png",
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.189345291Z",
+            "message": {
+                "role": "assistant",
+                "content": " E "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39451170,
+            "load_duration": 12190009,
+            "prompt_eval_count": 70,
+            "prompt_eval_duration": 5928337,
+            "eval_count": 3,
+            "eval_duration": 20712437
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_12",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "If the exterior roof insulation thickness of the existing building and the extension building are the same, what is that thickness?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": "From the summarized content, we can see that both the existing and extension buildings have an exterior roof insulation thickness of 200mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_215.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.271750513Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39940169,
+            "load_duration": 12405489,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 6019328,
+            "eval_count": 3,
+            "eval_duration": 20930603
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_13",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What are the eave height and the maximum gable height of the auditorium?",
+        "options": {
+            "A": "6.5m/8.5m",
+            "B": "7.0m/9.0m",
+            "C": "7.8m/10.5m",
+            "D": "8.0m/11.0m",
+            "E": "7.5m/10.0m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "7.8m/10.5m"
+            },
+            "explanation": "The eave height of the auditorium is planned to be 7.8m, and the maximum gable height is 10.5m. This is specified in the design guidelines."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_185.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.357793173Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40717357,
+            "load_duration": 11729788,
+            "prompt_eval_count": 113,
+            "prompt_eval_duration": 6014697,
+            "eval_count": 3,
+            "eval_duration": 22415572
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_14",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the guidelines, what is the thickness of the reinforced concrete slab on the fourth floor?",
+        "options": {
+            "A": "150mm",
+            "B": "200mm",
+            "C": "250mm",
+            "D": "300mm",
+            "E": "350mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "350mm"
+            },
+            "explanation": "The thickness of the reinforced concrete slab is specified as 350mm in the guidelines for other reinforced concrete structures."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_103.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.434685145Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38778660,
+            "load_duration": 11529250,
+            "prompt_eval_count": 88,
+            "prompt_eval_duration": 5806059,
+            "eval_count": 3,
+            "eval_duration": 20867435
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_15",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is the correct beam symbol used in the structural plan for the 6th floor above ground?",
+        "options": {
+            "A": "H-600×300",
+            "B": "H-500×300",
+            "C": "H-400×300",
+            "D": "H-300×200",
+            "E": "H-200×200"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "H-400×300"
+            },
+            "explanation": "In the structural plan for the 6th floor above ground, the beams and columns are specified with the cross-sectional dimensions and standards presented in Table 1. This question tests your understanding of the beam symbols used in the drawings. The correct answer is C: H-400×300, as indicated in Table 1. You must choose the beam symbol that is specified exactly in the plan."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_389.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.517548279Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40445074,
+            "load_duration": 11558334,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 6005267,
+            "eval_count": 3,
+            "eval_duration": 22319964
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_16",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the standard column size for community centers?",
+        "options": {
+            "A": "300×300mm",
+            "B": "400×400mm",
+            "C": "500×500mm",
+            "D": "600×600mm",
+            "E": "700×700mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500×500mm"
+            },
+            "explanation": "According to the design specifications, the standard column size is 500×500mm, except for the Y-axis rows where it is adjusted to 500×700mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_7.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.611946861Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38192470,
+            "load_duration": 10941891,
+            "prompt_eval_count": 97,
+            "prompt_eval_duration": 5901370,
+            "eval_count": 3,
+            "eval_duration": 20876539
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_17",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the floor height of a small-scale gallery building?",
+        "options": {
+            "A": "3.0m",
+            "B": "3.5m",
+            "C": "4.0m",
+            "D": "4.5m",
+            "E": "5.0m"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "4.5m"
+            },
+            "explanation": "The design specifications require that each floor have a height of 4.5 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.686261705Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38012697,
+            "load_duration": 11034932,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5817270,
+            "eval_count": 3,
+            "eval_duration": 20556990
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_18",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the floor slab set for each floor of the welfare center?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150mm"
+            },
+            "explanation": "According to the design specifications, the thickness of the floor slab on each floor is specified as 150mm. This is designed to meet standard structural requirements and reflects an appropriate thickness for stability and load-bearing in the building."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_95.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.764318152Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38746703,
+            "load_duration": 11826366,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5810413,
+            "eval_count": 3,
+            "eval_duration": 20592119
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_19",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum height allowed for the expanded library?",
+        "options": {
+            "A": "16m",
+            "B": "18m",
+            "C": "20m",
+            "D": "22m",
+            "E": "24m"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "18m"
+            },
+            "explanation": "According to the design guidelines, the expanded building is located in an area with a maximum height limit of 18 meters. Therefore, the height of the new addition to the library must be within this limit."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_19.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.842075101Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38444666,
+            "load_duration": 11827639,
+            "prompt_eval_count": 73,
+            "prompt_eval_duration": 5722989,
+            "eval_count": 3,
+            "eval_duration": 20376395
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_20",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the basic foundation type of the Community Service Center?",
+        "options": {
+            "A": "Independent footing",
+            "B": "Strip footing",
+            "C": "Mat foundation",
+            "D": "Slab foundation",
+            "E": "Cast-in-place foundation"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Mat foundation"
+            },
+            "explanation": "The design guidelines specify a mat foundation with a thickness of 500mm, which means the foundation is laid continuously across the entire building area."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:53.924184959Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38429347,
+            "load_duration": 11560846,
+            "prompt_eval_count": 72,
+            "prompt_eval_duration": 5818596,
+            "eval_count": 3,
+            "eval_duration": 20427766
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_21",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the slab in sections A and B?",
+        "options": {
+            "A": "120mm",
+            "B": "150mm",
+            "C": "180mm",
+            "D": "200mm",
+            "E": "220mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150mm"
+            },
+            "explanation": "According to item 4 of the design requirements, the slab in sections A and B is planned with a thickness of 150mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_31.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.016799103Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38532351,
+            "load_duration": 11737720,
+            "prompt_eval_count": 81,
+            "prompt_eval_duration": 5740336,
+            "eval_count": 3,
+            "eval_duration": 20560450
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_22",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the floor-to-ceiling height of the third floor above ground in the community center?",
+        "options": {
+            "A": "3,300mm",
+            "B": "3,600mm",
+            "C": "3,900mm",
+            "D": "4,000mm",
+            "E": "4,200mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3,600mm"
+            },
+            "explanation": "According to the design guidelines, the floor-to-ceiling height of the third above-ground floor in the community center is specified as 3,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.100803545Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39435367,
+            "load_duration": 11869948,
+            "prompt_eval_count": 98,
+            "prompt_eval_duration": 5914171,
+            "eval_count": 3,
+            "eval_duration": 21050496
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_23",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is NOT mentioned as a design element to maximize natural lighting?",
+        "options": {
+            "A": "Windows and doors",
+            "B": "Atrium",
+            "C": "Reflective surfaces",
+            "D": "Exterior wall panels",
+            "E": "Skylights"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Exterior wall panels"
+            },
+            "explanation": "The design guidelines focus on maximizing natural lighting through windows, doors, and atriums, so exterior wall panels are not mentioned, making D the correct answer."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_37.png",
+        "model_answer": "(D) Drapes",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.20446985Z",
+            "message": {
+                "role": "assistant",
+                "content": " (D) Drapes "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 61270923,
+            "load_duration": 12337717,
+            "prompt_eval_count": 75,
+            "prompt_eval_duration": 6283070,
+            "eval_count": 8,
+            "eval_duration": 41835225
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_24",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the slab thickness specified for the Youth Creator Startup Center?",
+        "options": {
+            "A": "150mm",
+            "B": "200mm",
+            "C": "250mm",
+            "D": "300mm",
+            "E": "350mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "200mm"
+            },
+            "explanation": "The slab thickness is specified as 200mm in the design guidelines, and this dimension must be maintained in the drawings to ensure structural stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_235.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.286952113Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38604658,
+            "load_duration": 11562572,
+            "prompt_eval_count": 83,
+            "prompt_eval_duration": 5822520,
+            "eval_count": 3,
+            "eval_duration": 20624814
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_25",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What type of building structure is used in the design guidelines provided?",
+        "options": {
+            "A": "Wooden structure",
+            "B": "Steel frame structure",
+            "C": "Reinforced concrete structure",
+            "D": "Masonry structure",
+            "E": "Metal structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Reinforced concrete structure"
+            },
+            "explanation": "The building overview specifies that the structure is reinforced concrete, so the correct answer is C."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_37.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.364001729Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39189506,
+            "load_duration": 11892617,
+            "prompt_eval_count": 70,
+            "prompt_eval_duration": 5878338,
+            "eval_count": 3,
+            "eval_duration": 20448939
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_26",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When designing a cross-section of the community center, what is the thickness of the insulation to be used on the exterior wall?",
+        "options": {
+            "A": "50mm",
+            "B": "100mm",
+            "C": "150mm",
+            "D": "200mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "100mm"
+            },
+            "explanation": "According to the design guidelines, a 100mm thick insulation must be used for exterior walls and the lowest floor slab."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.45199687Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39064964,
+            "load_duration": 11711213,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 5973993,
+            "eval_count": 3,
+            "eval_duration": 20802676
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_27",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the design guidelines, choose the correct size for the ceiling-concealed EHP in the heating and cooling system.",
+        "options": {
+            "A": "600×600×250 (W×D×H)",
+            "B": "700×700×300 (W×D×H)",
+            "C": "800×800×350 (W×D×H)",
+            "D": "900×900×350 (W×D×H)",
+            "E": "1000×1000×400 (W×D×H)"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "900×900×350 (W×D×H)"
+            },
+            "explanation": "The design guidelines specify the size of the ceiling-concealed EHP as 900×900×350 mm, which is designed to be suitable for installation in the space."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_295.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.541282015Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46780311,
+            "load_duration": 11891887,
+            "prompt_eval_count": 165,
+            "prompt_eval_duration": 6450089,
+            "eval_count": 3,
+            "eval_duration": 27849773
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_28",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum spacing between columns?",
+        "options": {
+            "A": "10m",
+            "B": "12m",
+            "C": "14m",
+            "D": "16m",
+            "E": "18m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "14m"
+            },
+            "explanation": "It is specified that the spacing between columns should not exceed 14 meters. This is a requirement for structural stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_103.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.619699968Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38774386,
+            "load_duration": 11941169,
+            "prompt_eval_count": 71,
+            "prompt_eval_duration": 5680544,
+            "eval_count": 3,
+            "eval_duration": 20634012
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_29",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the designated column size suitable for the structure of the 'cafeteria building' in the expansion project?",
+        "options": {
+            "A": "300×300mm",
+            "B": "400×400mm",
+            "C": "500×500mm",
+            "D": "600×600mm",
+            "E": "700×700mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500×500mm"
+            },
+            "explanation": "The cafeteria building is designed as an RC structure, and the columns used in RC structures are set to 500×500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_357.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.701173194Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40958715,
+            "load_duration": 11902395,
+            "prompt_eval_count": 111,
+            "prompt_eval_duration": 5972051,
+            "eval_count": 3,
+            "eval_duration": 22283210
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_30",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum span length of the prestressed deck plate shown on the second floor floor plan of the ○○ Office building?",
+        "options": {
+            "A": "2,400mm",
+            "B": "3,000mm",
+            "C": "3,600mm",
+            "D": "4,200mm",
+            "E": "4,800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3,600mm"
+            },
+            "explanation": "According to the design guidelines, the prestressed deck plate can support a maximum span of 3,600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_73.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.782223746Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40338502,
+            "load_duration": 11646244,
+            "prompt_eval_count": 104,
+            "prompt_eval_duration": 6069975,
+            "eval_count": 3,
+            "eval_duration": 22079923
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_31",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the planned slab thickness in the structural design of the ○○ retail facility?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150mm"
+            },
+            "explanation": "The specified floor slab thickness in the design requirements is set at 150mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.865673094Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38902893,
+            "load_duration": 11771808,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 5860503,
+            "eval_count": 3,
+            "eval_duration": 20684905
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_32",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Choose the incorrect statement about the floor height and usage of each floor.",
+        "options": {
+            "A": "The first floor has a floor height of 3.7m and is used for shops.",
+            "B": "The second floor has a floor height of 3.5m and is used for shops and parking.",
+            "C": "The third floor has a floor height of 3.7m and is used for residential purposes.",
+            "D": "The floor heights of the first and second floors are the same.",
+            "E": "The third floor is used for residential purposes."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The second floor has a floor height of 3.5m and is used for shops and parking."
+            },
+            "explanation": "The second floor is planned to have a floor height of 3.7m. Therefore, option B is incorrect."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:54.952778855Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45412684,
+            "load_duration": 12055716,
+            "prompt_eval_count": 139,
+            "prompt_eval_duration": 6406404,
+            "eval_count": 3,
+            "eval_duration": 26202727
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_33",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following facilities is appropriate to install on the roof of an existing building in the section design of an extended-type remodeling cultural facility?",
+        "options": {
+            "A": "Atrium",
+            "B": "Curtain wall system",
+            "C": "Green roof (green space on rooftop)",
+            "D": "External stairs",
+            "E": "Storage"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Green roof (green space on rooftop)"
+            },
+            "explanation": "The roof of an existing building can be designed to include features such as a green roof or rooftop parking."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_215.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.033138922Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39617339,
+            "load_duration": 11661699,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 6091079,
+            "eval_count": 3,
+            "eval_duration": 21123834
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_34",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What are the installation dimensions of the ceiling-mounted PAC system?",
+        "options": {
+            "A": "900×500×300(H) mm",
+            "B": "800×400×200(H) mm",
+            "C": "900×400×250(H) mm",
+            "D": "950×450×350(H) mm",
+            "E": "850×400×300(H) mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "900×400×250(H) mm"
+            },
+            "explanation": "The specification for PAC systems used in residential spaces is set at 900×400×250(H) mm in the design guidelines, and this dimension should also be indicated on the drawings."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_235.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.124913994Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45191580,
+            "load_duration": 11763985,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 6250979,
+            "eval_count": 3,
+            "eval_duration": 26147682
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_35",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the design guidelines, what is planned to be planted on the roof of the expanded library?",
+        "options": {
+            "A": "Trees",
+            "B": "Grass",
+            "C": "Flowers",
+            "D": "Vegetables",
+            "E": "Shrubs"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Grass"
+            },
+            "explanation": "The design guidelines specify that grass must be planted on the roof of the expanded section at a minimum soil depth of 300mm. This is part of an eco-friendly design intended to improve the environment through rooftop greening."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_19.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.200779617Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38829681,
+            "load_duration": 11706108,
+            "prompt_eval_count": 74,
+            "prompt_eval_duration": 5936735,
+            "eval_count": 3,
+            "eval_duration": 20600017
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_36",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which is the appropriate size and material for the columns in the extension?",
+        "options": {
+            "A": "600×600mm, reinforced concrete structure",
+            "B": "500×500mm, steel structure",
+            "C": "H-400×400, steel structure",
+            "D": "H-300×300, reinforced concrete structure",
+            "E": "400×400mm, steel SS400"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "H-400×400, steel structure"
+            },
+            "explanation": "According to the design guide's planning conditions, the columns in the extension should be H-400×400 in size and made of steel structure. One must check the requirements for members and materials used on each floor to make the correct selection."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_389.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.287346006Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43667046,
+            "load_duration": 11738233,
+            "prompt_eval_count": 123,
+            "prompt_eval_duration": 6132607,
+            "eval_count": 3,
+            "eval_duration": 25182647
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_37",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the height of the EHP (ceiling-mounted type) air conditioning and heating system that can be installed on each floor?",
+        "options": {
+            "A": "200mm",
+            "B": "250mm",
+            "C": "300mm",
+            "D": "350mm",
+            "E": "400mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "350mm"
+            },
+            "explanation": "According to the provided table, the size of the EHP (ceiling-mounted type) is specified as 900×900×350(H) mm. Therefore, the minimum height required in the ceiling space is 350mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_255.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.370098001Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39715361,
+            "load_duration": 12059734,
+            "prompt_eval_count": 97,
+            "prompt_eval_duration": 6015662,
+            "eval_count": 3,
+            "eval_duration": 21072799
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_38",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be considered when planning the column arrangement in the first-floor piloti structure?",
+        "options": {
+            "A": "Maximize the number of columns.",
+            "B": "Set the column center-to-center distance to at least 9 meters.",
+            "C": "Place columns in all cores.",
+            "D": "Consider adjusting the cross-sectional area.",
+            "E": "Place columns on load-bearing walls."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Set the column center-to-center distance to at least 9 meters."
+            },
+            "explanation": "According to the given design guidelines, the first-floor piloti structure should minimize the number of columns and plan for the column center-to-center distance to be at least 9 meters. Columns are not to be placed in the cores, and adjusting the cross-sectional area is not considered."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_285.png",
+        "model_answer": "(D) Consider adjusting the cross-sectional area.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.502012374Z",
+            "message": {
+                "role": "assistant",
+                "content": " (D) Consider adjusting the cross-sectional area. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 92172807,
+            "load_duration": 12057747,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 6239315,
+            "eval_count": 15,
+            "eval_duration": 73193944
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_39",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following statements about the structural floor plan of the first floor of a pilotis-type mixed-use residential building is incorrect?",
+        "options": {
+            "A": "The types and locations of columns are indicated as C1 and C2, and include the pedestrian passage.",
+            "B": "There are a total of six columns on the first floor, and columns are also placed within the core.",
+            "C": "The drawing must be prepared at a scale of 1:100.",
+            "D": "The parking block diagram must be included in the drawing.",
+            "E": "A pedestrian passage with a right-of-way width of at least 2 meters must be secured."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "While there are a total of six columns on the first floor, in principle, columns should not be placed within the core."
+            },
+            "explanation": "According to structural planning, columns should not be placed within the core wall, so option B is incorrect."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_347.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.588362785Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 47296608,
+            "load_duration": 11558111,
+            "prompt_eval_count": 162,
+            "prompt_eval_duration": 6815143,
+            "eval_count": 3,
+            "eval_duration": 27993545
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_40",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the most appropriate ceiling height for each floor when designing a main sectional drawing?",
+        "options": {
+            "A": "±1,000mm",
+            "B": "±2,000mm",
+            "C": "±3,000mm",
+            "D": "±4,000mm",
+            "E": "±5,000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "±3,000mm"
+            },
+            "explanation": "According to the given design conditions, each floor's ceiling beam must have a clearance of at least ±3,000mm, so C is the most appropriate height."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.676598705Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41522966,
+            "load_duration": 11565623,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 5938607,
+            "eval_count": 3,
+            "eval_duration": 23448924
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_41",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Select the correct structural system for the expanded building.",
+        "options": {
+            "A": "Steel frame + concrete slab",
+            "B": "Steel frame + deck plate slab",
+            "C": "Reinforced concrete structure",
+            "D": "Steel frame + wooden slab",
+            "E": "Reinforcement + steel structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Steel frame + deck plate slab"
+            },
+            "explanation": "According to the design conditions, the structural system for the expanded building is specified as 'steel frame + deck plate slab.'"
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_49.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.756865999Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38743071,
+            "load_duration": 11562585,
+            "prompt_eval_count": 81,
+            "prompt_eval_duration": 5883744,
+            "eval_count": 3,
+            "eval_duration": 20652095
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_42",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is NOT a factor to consider when designing a transfer beam in a second-floor structural plan?",
+        "options": {
+            "A": "The stiffness of the shear wall above the transfer beam",
+            "B": "The load on the transfer beam",
+            "C": "The cantilever length of a protruding transfer beam without lower support",
+            "D": "Selecting an appropriate cross-section for the transfer beam",
+            "E": "Load"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The stiffness of the shear wall above the transfer beam"
+            },
+            "explanation": "When designing a transfer beam, only the load is considered, not the shear wall stiffness. Therefore, option A is not a factor to consider."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_285.png",
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.837346416Z",
+            "message": {
+                "role": "assistant",
+                "content": " E "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40970547,
+            "load_duration": 11313345,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 6289944,
+            "eval_count": 3,
+            "eval_duration": 22602866
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_43",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the specified thickness set for the floor slab?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150mm"
+            },
+            "explanation": "According to the given design specifications, the thickness of the floor slab is specified as 150mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_79.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.91909748Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38320177,
+            "load_duration": 11159988,
+            "prompt_eval_count": 79,
+            "prompt_eval_duration": 5850563,
+            "eval_count": 3,
+            "eval_duration": 20668095
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_44",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the sequence for constructing a steel frame structure?",
+        "options": {
+            "A": "Steel work after concrete work",
+            "B": "Concrete work after steel work",
+            "C": "Steel work after foundation work",
+            "D": "Finishing work after rebar work",
+            "E": "Reinforcement work after finishing work"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Concrete work after steel work"
+            },
+            "explanation": "According to the guidelines, steel work is assumed to be carried out before concrete work."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_145.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:55.994535461Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38800437,
+            "load_duration": 11774640,
+            "prompt_eval_count": 84,
+            "prompt_eval_duration": 6005817,
+            "eval_count": 3,
+            "eval_duration": 20445950
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_45",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the floor height of the first-floor structure in the Neighborhood Culture Center?",
+        "options": {
+            "A": "EL + 350mm",
+            "B": "EL + 400mm",
+            "C": "EL + 450mm",
+            "D": "EL + 500mm",
+            "E": "EL + 550mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "EL + 450mm"
+            },
+            "explanation": "According to the design guidelines, the floor height of the first-floor structure in the Neighborhood Culture Center is set at EL + 450mm. This means the first floor is 450mm higher than the reference ground level."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.084119604Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39189439,
+            "load_duration": 11768572,
+            "prompt_eval_count": 96,
+            "prompt_eval_duration": 5924020,
+            "eval_count": 3,
+            "eval_duration": 20956989
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_46",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following statements about the required parking spaces and dimensions in the ground floor parking lot of a pilotis structure is NOT correct?",
+        "options": {
+            "A": "The total number of parking spaces is 8, including 1 disabled parking space and 1 parallel parking space.",
+            "B": "The standard size for a disabled parking space is 3.3m×5.0m.",
+            "C": "The standard size for perpendicular parking is 2.5m×5.0m.",
+            "D": "The standard size for parallel parking is 2.0m×4.0m.",
+            "E": "The arrangement of parking spaces is related to the road frontage on the first floor."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The standard size for parallel parking is 2.0m×4.0m."
+            },
+            "explanation": "The standard size for parallel parking is 2.0m×6.0m, so option D is incorrect."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_347.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.169957527Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 47545228,
+            "load_duration": 12114421,
+            "prompt_eval_count": 167,
+            "prompt_eval_duration": 6714502,
+            "eval_count": 3,
+            "eval_duration": 27881595
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_47",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In the cross-section design of a small and medium-sized enterprise (SME) office building, what should be the floor-to-ceiling height of the first basement level?",
+        "options": {
+            "A": "3.0m",
+            "B": "3.6m",
+            "C": "4.2m",
+            "D": "4.8m",
+            "E": "5.4m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4.2m"
+            },
+            "explanation": "According to the architectural guidelines, the floor-to-ceiling height of the first basement level should be set at 4.2 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_67.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.252881699Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40651308,
+            "load_duration": 11607570,
+            "prompt_eval_count": 105,
+            "prompt_eval_duration": 6074088,
+            "eval_count": 3,
+            "eval_duration": 22364164
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_48",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What material should be used for the side truss of an extension building?",
+        "options": {
+            "A": "Reinforced concrete",
+            "B": "Wooden truss",
+            "C": "Steel truss",
+            "D": "Aluminum truss",
+            "E": "Composite truss"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Wooden truss"
+            },
+            "explanation": "According to the design guidelines, the side truss of an extension building must be made of wood. This choice is due to the unique aesthetic value, light weight, and ease of use of wooden trusses."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_367.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.328601513Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38756425,
+            "load_duration": 11638760,
+            "prompt_eval_count": 76,
+            "prompt_eval_duration": 5864994,
+            "eval_count": 3,
+            "eval_duration": 20649452
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_49",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following statements about the column arrangement in the research building is incorrect?",
+        "options": {
+            "A": "The column arrangement on the first and second floors is identical.",
+            "B": "The strong axis of the columns runs parallel to the long side of the floor plan.",
+            "C": "In the research building, the weak axis of the columns is arranged parallel to the long side of the floor plan.",
+            "D": "The stairwell is structurally separated.",
+            "E": "Columns use SS275 steel."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "In the research building, the weak axis of the columns is arranged parallel to the long side of the floor plan."
+            },
+            "explanation": "In the research building, the strong axis of the columns should be arranged parallel to the long side of the floor plan. Therefore, option C is incorrect."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_225.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.414294842Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44423254,
+            "load_duration": 11986430,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 6382324,
+            "eval_count": 3,
+            "eval_duration": 25222417
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_50",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the required condition for column placement that must be considered in the structural plan for the second floor?",
+        "options": {
+            "A": "Columns must be placed only on the exterior of the building.",
+            "B": "Columns can be placed inside the building.",
+            "C": "The distance between columns is at least 3 meters.",
+            "D": "The cross-sectional dimensions of columns differ on each floor.",
+            "E": "Columns must only be placed on the second floor."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Columns must be placed only on the exterior of the building."
+            },
+            "explanation": "According to the design guidelines, it is specified that columns in the second floor structural plan must be placed only on the exterior of the building."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.501780303Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44113980,
+            "load_duration": 11847826,
+            "prompt_eval_count": 120,
+            "prompt_eval_duration": 6299382,
+            "eval_count": 3,
+            "eval_duration": 25199063
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_51",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What structural element is constructed between grid Y2 and grids X2 and X3?",
+        "options": {
+            "A": "Steel beam",
+            "B": "Prestressed deck plate",
+            "C": "Concrete shear wall",
+            "D": "Wall receiving earth pressure",
+            "E": "Steel column"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Concrete shear wall"
+            },
+            "explanation": "According to the guidelines, a concrete shear wall is assumed to be constructed between grid Y2 and grids X2 and X3."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_145.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.582962021Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38750941,
+            "load_duration": 11646728,
+            "prompt_eval_count": 77,
+            "prompt_eval_duration": 5891982,
+            "eval_count": 3,
+            "eval_duration": 20551406
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_52",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the ceiling height of the first-floor entrance area in the student community center design?",
+        "options": {
+            "A": "3,000 mm",
+            "B": "3,100 mm",
+            "C": "3,200 mm",
+            "D": "3,300 mm",
+            "E": "3,400 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "3,300 mm"
+            },
+            "explanation": "According to Table 2 in the guidelines on interior finishes, the ceiling height for the first-floor entrance area is specified as 3,300 mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.672069223Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39808438,
+            "load_duration": 11850391,
+            "prompt_eval_count": 96,
+            "prompt_eval_duration": 5929790,
+            "eval_count": 3,
+            "eval_duration": 20996878
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_53",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the ceiling height indicated for the first floor above ground at the neighborhood community center?",
+        "options": {
+            "A": "3,500mm",
+            "B": "4,000mm",
+            "C": "4,200mm",
+            "D": "4,500mm",
+            "E": "5,000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "4,500mm"
+            },
+            "explanation": "According to the design guideline, the ceiling height of the first floor above ground in the neighborhood community center is 4,500mm. Ceiling height refers to the distance between the floor and the ceiling of two levels, and the given value represents the structural space height of the first floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.76734771Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41434672,
+            "load_duration": 11755359,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 5989290,
+            "eval_count": 3,
+            "eval_duration": 23135122
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_54",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is NOT an intended use of a building for installing an exhibition hall?",
+        "options": {
+            "A": "Office",
+            "B": "Welfare space",
+            "C": "Exhibition/experience space",
+            "D": "Commercial space",
+            "E": "Performance space"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Performance space"
+            },
+            "explanation": "The intended uses that fit the design requirements are office, welfare space, and exhibition/experience space; performance space is not included."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_49.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.850799864Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38928995,
+            "load_duration": 11787465,
+            "prompt_eval_count": 75,
+            "prompt_eval_duration": 5863639,
+            "eval_count": 3,
+            "eval_duration": 20641589
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_55",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Choose the number of floors for the building to be remodeled according to the given design guidelines.",
+        "options": {
+            "A": "1 basement floor, 2 aboveground floors",
+            "B": "1 basement floor, 3 aboveground floors",
+            "C": "2 basement floors, 3 aboveground floors",
+            "D": "1 basement floor, 4 aboveground floors",
+            "E": "2 basement floors, 4 aboveground floors"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "1 basement floor, 3 aboveground floors"
+            },
+            "explanation": "According to the design guidelines, the building should have 1 basement floor and 3 aboveground floors."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_37.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:56.931344727Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41369157,
+            "load_duration": 12035726,
+            "prompt_eval_count": 112,
+            "prompt_eval_duration": 6164753,
+            "eval_count": 3,
+            "eval_duration": 22493618
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_56",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When designing the bottom frame (Sil) of the entrance door in the given area, what height reference should be considered?",
+        "options": {
+            "A": "External finish surface",
+            "B": "Structural baseline",
+            "C": "Internal finish surface (FL)",
+            "D": "Designed floor height",
+            "E": "Top frame of the entrance door"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Internal finish surface (FL)"
+            },
+            "explanation": "According to the design guidelines, the upper surface of the entrance door bottom frame (Sil) should be designed to be at the same level as the internal finish surface (FL)."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_317.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.012259945Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39355996,
+            "load_duration": 11702976,
+            "prompt_eval_count": 89,
+            "prompt_eval_duration": 6057352,
+            "eval_count": 3,
+            "eval_duration": 20902703
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_57",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be considered when adding shear walls to the education building?",
+        "options": {
+            "A": "Set the shear wall thickness to 150mm.",
+            "B": "Minimize torsion by considering the increase in lateral loads due to vertical extension.",
+            "C": "Install shear walls only on the first floor.",
+            "D": "Arrange at least three shear walls vertically on each floor.",
+            "E": "Use SD300 rebar for the shear walls."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Minimize torsion by considering the increase in lateral loads due to vertical extension."
+            },
+            "explanation": "According to the design guidelines, when adding shear walls to the education building, it is necessary to consider the increase in lateral loads due to vertical extension and arrange the walls to minimize torsion. In addition, the shear wall thickness should be 200mm and at least two shear walls should be arranged vertically on each floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_225.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.100204067Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44056057,
+            "load_duration": 11673963,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 6255586,
+            "eval_count": 3,
+            "eval_duration": 25342441
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_58",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Choose the correct statement about the placement of columns and beams on each floor in a structural plan that takes parking modules into consideration.",
+        "options": {
+            "A": "The positions of the columns and beams on each floor are arranged differently.",
+            "B": "The positions of the columns and beams on each floor are arranged identically.",
+            "C": "The center-to-center distance of the columns on the X-axis is always 9 meters.",
+            "D": "The center-to-center distance of the columns on the Y-axis is always 10 meters.",
+            "E": "All columns and beams are arranged non-linearly."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The positions of the columns and beams on each floor are arranged identically."
+            },
+            "explanation": "According to the guidelines provided in the question, the positions of the columns and beams on each floor must be arranged identically."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_245.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.187690464Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46881147,
+            "load_duration": 11655490,
+            "prompt_eval_count": 154,
+            "prompt_eval_duration": 6660316,
+            "eval_count": 3,
+            "eval_duration": 27738046
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_59",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum center-to-center spacing for columns in a research facility?",
+        "options": {
+            "A": "10m",
+            "B": "12m",
+            "C": "14m",
+            "D": "16m",
+            "E": "18m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "14m"
+            },
+            "explanation": "The task overview states that the center-to-center spacing for columns should be within 14 meters. This is a standard to ensure structural stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_265.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.266935639Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39245742,
+            "load_duration": 12230047,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5806989,
+            "eval_count": 3,
+            "eval_duration": 20675953
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_61",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following methods cannot be used to minimize thermal bridging during insulation design?",
+        "options": {
+            "A": "External insulation",
+            "B": "Internal insulation",
+            "C": "Use of continuous insulation materials",
+            "D": "Use of low thermal conductivity materials",
+            "E": "Increasing the thickness of the structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Increasing the thickness of the structure"
+            },
+            "explanation": "To minimize thermal bridging, it's best to ensure uniform insulation using external insulation or continuous insulation, as well as using materials with low thermal conductivity. Increasing the thickness of the structure is not a direct solution."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_317.png",
+        "model_answer": "(A) External insulation",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.378711938Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) External insulation "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 64534236,
+            "load_duration": 11931674,
+            "prompt_eval_count": 88,
+            "prompt_eval_duration": 6075854,
+            "eval_count": 9,
+            "eval_duration": 45817175
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_62",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which renewable energy source do you plan to use for zero energy?",
+        "options": {
+            "A": "Wind power",
+            "B": "Geothermal power",
+            "C": "Solar thermal power",
+            "D": "Hydropower",
+            "E": "Photovoltaic power"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Photovoltaic power"
+            },
+            "explanation": "The design guidelines specify the possibility of installing photovoltaic power facilities, so the correct answer is E."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_37.png",
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.462243294Z",
+            "message": {
+                "role": "assistant",
+                "content": " E "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38760758,
+            "load_duration": 11734570,
+            "prompt_eval_count": 75,
+            "prompt_eval_duration": 5914339,
+            "eval_count": 3,
+            "eval_duration": 20520623
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_63",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the required thickness of grade 'Ga' insulation for a living room exterior wall that is indirectly exposed to the outside air?",
+        "options": {
+            "A": "110mm",
+            "B": "130mm",
+            "C": "155mm",
+            "D": "190mm",
+            "E": "225mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "130mm"
+            },
+            "explanation": "When using grade 'Ga' insulation, the required thickness for a living room exterior wall that is indirectly exposed to the outside air is set at 130mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.546708192Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41845249,
+            "load_duration": 11886107,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 6117771,
+            "eval_count": 3,
+            "eval_duration": 23236308
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_64",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the compressive strength of concrete used in the structural plan for a small-scale gallery?",
+        "options": {
+            "A": "20 MPa",
+            "B": "24 MPa",
+            "C": "28 MPa",
+            "D": "32 MPa",
+            "E": "36 MPa"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "24 MPa"
+            },
+            "explanation": "The compressive strength of concrete (f_ck) is specified as 24 MPa in the design requirements."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.624801977Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39288392,
+            "load_duration": 12008652,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 5875214,
+            "eval_count": 3,
+            "eval_duration": 20794726
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_65",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following best describes the correct width of a stair landing?",
+        "options": {
+            "A": "At least half the effective stair width",
+            "B": "The same width as anterooms",
+            "C": "Equal width to the optimal evacuation space",
+            "D": "At least the effective stair width",
+            "E": "At least 1,000 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "At least the effective stair width"
+            },
+            "explanation": "It is specified among the design conditions for stair landings that the width must be at least equal to the effective stair width."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.704887527Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41911039,
+            "load_duration": 11882419,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 6082371,
+            "eval_count": 3,
+            "eval_duration": 23246346
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_66",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following correctly describes the size of the beam?",
+        "options": {
+            "A": "H-600X450 with 300X150/design",
+            "B": "H-450X300 with 250X150/design",
+            "C": "H-700X500 with 300X200/design",
+            "D": "H-500X400 with 350X200/design",
+            "E": "H-650X550 with 300X150/design"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "H-600X450 with 300X150/design"
+            },
+            "explanation": "According to the design specifications, the beam of the extended building is designed as an H-600X450 steel beam with 300X150/design specified."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_49.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.791634094Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46260971,
+            "load_duration": 11759161,
+            "prompt_eval_count": 154,
+            "prompt_eval_duration": 6237915,
+            "eval_count": 3,
+            "eval_duration": 27720105
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_67",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the specified thickness of the slab?",
+        "options": {
+            "A": "100 mm",
+            "B": "150 mm",
+            "C": "200 mm",
+            "D": "250 mm",
+            "E": "300 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150 mm"
+            },
+            "explanation": "Table 1 states that the slab thickness is specified as 150 mm in the design conditions."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.874938568Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38597220,
+            "load_duration": 11648990,
+            "prompt_eval_count": 77,
+            "prompt_eval_duration": 5723418,
+            "eval_count": 3,
+            "eval_duration": 20673037
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_68",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the size of the columns used in the extension building?",
+        "options": {
+            "A": "H-300X300 steel",
+            "B": "H-600X600 steel",
+            "C": "H-450X450 steel",
+            "D": "H-500X500 steel",
+            "E": "H-400X400 steel"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "H-450X450 steel"
+            },
+            "explanation": "The column specifications in the design conditions state that H-450X450 size steel columns are used."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_49.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:57.953093377Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40536543,
+            "load_duration": 11846644,
+            "prompt_eval_count": 105,
+            "prompt_eval_duration": 5998533,
+            "eval_count": 3,
+            "eval_duration": 22148869
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_69",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What are the dimensions of the columns in the community center?",
+        "options": {
+            "A": "300 × 300mm",
+            "B": "400 × 400mm",
+            "C": "500 × 500mm",
+            "D": "600 × 600mm",
+            "E": "700 × 700mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500 × 500mm"
+            },
+            "explanation": "According to the building summary, the reinforced concrete columns in the community center are specified as 500 × 500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.031761998Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40550058,
+            "load_duration": 11878606,
+            "prompt_eval_count": 104,
+            "prompt_eval_duration": 6020791,
+            "eval_count": 3,
+            "eval_duration": 22138669
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_70",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is the correct description regarding the transfer beams in the third floor structural plan?",
+        "options": {
+            "A": "The transfer beam has a maximum cantilever length of 2.0m.",
+            "B": "The stiffness of the upper shear wall must be considered in the design of the transfer beam.",
+            "C": "The symbol for the transfer beam is selected and indicated for large X-shaped beams supported by columns.",
+            "D": "The slab within the unit is designed with a three-sided support system.",
+            "E": "The positions of columns on the lower floor can be ignored."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "The symbol for the transfer beam is selected and indicated for large X-shaped beams supported by columns."
+            },
+            "explanation": "For transfer beam design, the maximum cantilever length is 1.5m, the stiffness of the upper shear wall is not considered, and the slab should have a four-sided support system. Therefore, option C is correct."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_347.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.122123301Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 47356424,
+            "load_duration": 11662110,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 6712150,
+            "eval_count": 3,
+            "eval_duration": 28014479
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_71",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What are the column cross-sectional dimensions shown in the second floor structural plan of the ○○ sales facility building?",
+        "options": {
+            "A": "300mm x 300mm",
+            "B": "400mm x 400mm",
+            "C": "600mm x 600mm",
+            "D": "800mm x 800mm",
+            "E": "1000mm x 1000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "600mm x 600mm"
+            },
+            "explanation": "According to the design specifications, the column cross-section is specified as 600mm x 600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_165.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.213220375Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43581743,
+            "load_duration": 11262160,
+            "prompt_eval_count": 124,
+            "prompt_eval_duration": 6356189,
+            "eval_count": 3,
+            "eval_duration": 25338818
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_72",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In the case where the roof of a small to medium-sized business building is constructed with reinforced concrete, what should the standard height of the rooftop railing be?",
+        "options": {
+            "A": "900mm",
+            "B": "1000mm",
+            "C": "1100mm",
+            "D": "1200mm",
+            "E": "1400mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "1200mm"
+            },
+            "explanation": "The height of the rooftop railing should be set at 1200mm according to standard safety regulations, as specified in the detailed sections of the guidelines."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_67.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.300540954Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41487904,
+            "load_duration": 11353102,
+            "prompt_eval_count": 107,
+            "prompt_eval_duration": 6334394,
+            "eval_count": 3,
+            "eval_duration": 22694860
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_73",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the external wall on the basement level 1 of the village library?",
+        "options": {
+            "A": "150mm",
+            "B": "250mm",
+            "C": "300mm",
+            "D": "400mm",
+            "E": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "400mm"
+            },
+            "explanation": "The basement level 1 of the library is designed with a reinforced concrete structure, and the external wall thickness is planned to be 400mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.383021188Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39783169,
+            "load_duration": 11990688,
+            "prompt_eval_count": 86,
+            "prompt_eval_duration": 6102287,
+            "eval_count": 3,
+            "eval_duration": 21056600
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_74",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which structural element is not installed inside the auditorium?",
+        "options": {
+            "A": "Column",
+            "B": "Beam",
+            "C": "Shear wall",
+            "D": "Slab",
+            "E": "Brace"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Column"
+            },
+            "explanation": "According to the design guidelines, columns are not planned to be installed inside the auditorium."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_185.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.460184782Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 37208033,
+            "load_duration": 11810910,
+            "prompt_eval_count": 64,
+            "prompt_eval_duration": 5959836,
+            "eval_count": 3,
+            "eval_duration": 18798366
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_75",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which structural system is used for the extended (added) building?",
+        "options": {
+            "A": "Timber structure",
+            "B": "Steel frame structure",
+            "C": "Reinforced concrete structure",
+            "D": "Masonry structure",
+            "E": "Steel panel structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Reinforced concrete structure"
+            },
+            "explanation": "According to the design conditions, the extended building uses a reinforced concrete structure."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_215.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.548912392Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39660602,
+            "load_duration": 12166814,
+            "prompt_eval_count": 71,
+            "prompt_eval_duration": 6075968,
+            "eval_count": 3,
+            "eval_duration": 20733185
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_76",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the planned direction of the slab to be applied to the entire second floor?",
+        "options": {
+            "A": "Two directions",
+            "B": "One direction",
+            "C": "Diagonal direction",
+            "D": "Any direction",
+            "E": "From top to bottom"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "One direction"
+            },
+            "explanation": "According to the design conditions, the truss deck plate slab should be planned in only one direction across the entire second floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_85.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.627257104Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39607663,
+            "load_duration": 12311584,
+            "prompt_eval_count": 73,
+            "prompt_eval_duration": 6046103,
+            "eval_count": 3,
+            "eval_duration": 20651412
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_77",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the mat foundation at the community center?",
+        "options": {
+            "A": "300mm",
+            "B": "400mm",
+            "C": "500mm",
+            "D": "600mm",
+            "E": "700mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "600mm"
+            },
+            "explanation": "The building summary specifies that the thickness of the mat foundation is 600mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_113.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.711223764Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39470479,
+            "load_duration": 11996163,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5994084,
+            "eval_count": 3,
+            "eval_duration": 20870939
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_78",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following correctly describes the parking space unit dimensions and driveway width for 9 parking spots?",
+        "options": {
+            "A": "Parking unit size is 3.0m × 6.0m, driveway width is at least 5.0m.",
+            "B": "Parking unit size is 2.5m × 5.0m, driveway width is at least 6.0m.",
+            "C": "Parking unit size is 2.8m × 5.5m, driveway width is at least 5.5m.",
+            "D": "Parking unit size is 2.5m × 5.0m, driveway width is at least 5.5m.",
+            "E": "Parking unit size is 2.6m × 5.2m, driveway width is at least 6.5m."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Parking unit size is 2.5m × 5.0m, driveway width is at least 6.0m."
+            },
+            "explanation": "According to the design guidelines, the parking unit size should be 2.5m × 5.0m and the driveway width should be at least 6.0m, so B is the correct answer."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_285.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.804818361Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 51081418,
+            "load_duration": 12138915,
+            "prompt_eval_count": 208,
+            "prompt_eval_duration": 7205236,
+            "eval_count": 3,
+            "eval_duration": 30942561
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_79",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "How many floors is the community center designed to have?",
+        "options": {
+            "A": "2 floors",
+            "B": "3 floors",
+            "C": "4 floors",
+            "D": "5 floors",
+            "E": "6 floors"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3 floors"
+            },
+            "explanation": "It is specified as three stories above ground in the building scale section of the design conditions."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.897029963Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39394561,
+            "load_duration": 11956967,
+            "prompt_eval_count": 68,
+            "prompt_eval_duration": 5965102,
+            "eval_count": 3,
+            "eval_duration": 20827739
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_80",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the size (cross-section) of the columns in the structural frame of the Startup Support Center?",
+        "options": {
+            "A": "300×300mm",
+            "B": "400×400mm",
+            "C": "500×500mm",
+            "D": "600×600mm",
+            "E": "700×700mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "500×500mm"
+            },
+            "explanation": "According to the table, the size of the columns is set at 500×500mm. This means that the building is designed with reinforced concrete columns of this size to support loads and ensure stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_255.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:58.978911124Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41988421,
+            "load_duration": 12277777,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 6337343,
+            "eval_count": 3,
+            "eval_duration": 22774665
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_81",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the plans, what is the thickness of the exterior wall of the Youth Creator Startup Center?",
+        "options": {
+            "A": "550mm",
+            "B": "400mm",
+            "C": "600mm",
+            "D": "500mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "550mm"
+            },
+            "explanation": "The design guidelines specify that the exterior wall thickness is 550mm, which is different from timber panel structures, and this thickness is clearly indicated in the drawings."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_235.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.061847085Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39791385,
+            "load_duration": 11970240,
+            "prompt_eval_count": 89,
+            "prompt_eval_duration": 6065784,
+            "eval_count": 3,
+            "eval_duration": 21089718
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_82",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum allowable distance between the centers of building columns?",
+        "options": {
+            "A": "5m",
+            "B": "6m",
+            "C": "7m",
+            "D": "8m",
+            "E": "9m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "7m"
+            },
+            "explanation": "According to the architectural design guidelines, the distance between column centers must be planned to be no more than 7 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_347.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.139838165Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38718505,
+            "load_duration": 11782855,
+            "prompt_eval_count": 71,
+            "prompt_eval_duration": 5808589,
+            "eval_count": 3,
+            "eval_duration": 20517267
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_83",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum width of the short side of the classroom building's slab?",
+        "options": {
+            "A": "2.5m",
+            "B": "3.0m",
+            "C": "3.5m",
+            "D": "4.0m",
+            "E": "5.0m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3.5m"
+            },
+            "explanation": "The design guidelines state that the short side width of the classroom building's slab should be planned to be 3.5m or less."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_185.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.215396361Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38782223,
+            "load_duration": 11727965,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5895995,
+            "eval_count": 3,
+            "eval_duration": 20640319
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_84",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the floor height of the first floor of the community self-governance facility above GL (Ground Level)?",
+        "options": {
+            "A": "+100mm",
+            "B": "+300mm",
+            "C": "+500mm",
+            "D": "+1,000mm",
+            "E": "+1,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "+300mm"
+            },
+            "explanation": "The first-floor height is determined according to the design specification, which states \"1st floor: EL + 300mm.\""
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_7.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.300938245Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41826745,
+            "load_duration": 12062124,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 5948503,
+            "eval_count": 3,
+            "eval_duration": 23203098
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_85",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What type of structural system was used for the third floor of the remodeled senior welfare center?",
+        "options": {
+            "A": "Steel frame structure",
+            "B": "Steel structure",
+            "C": "Reinforced concrete (RC) structure",
+            "D": "Concrete structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Steel structure"
+            },
+            "explanation": "According to the design manual, the third floor is specified to use a steel structure (H-beam 300×300×10×15). This refers to a structure made of steel, which may have been selected to reduce the weight of the third floor."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_295.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.382822574Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39159348,
+            "load_duration": 11994912,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5909345,
+            "eval_count": 3,
+            "eval_duration": 20556741
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_86",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the foundation used in the basic design of the welfare center?",
+        "options": {
+            "A": "400mm",
+            "B": "500mm",
+            "C": "600mm",
+            "D": "700mm",
+            "E": "800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "600mm"
+            },
+            "explanation": "According to the design conditions shown in the drawings, the foundation of the welfare center is a mat foundation, and its thickness is specified as 600mm. This thickness was chosen as the standard to ensure structural stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_95.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.467679654Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39062719,
+            "load_duration": 12135443,
+            "prompt_eval_count": 84,
+            "prompt_eval_duration": 5815845,
+            "eval_count": 3,
+            "eval_duration": 20560067
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_87",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is NOT a factor to consider when designing the atrium and curtain wall system of an extension building?",
+        "options": {
+            "A": "Solar control",
+            "B": "Ventilation",
+            "C": "Waterproofing",
+            "D": "View",
+            "E": "Heating"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Heating"
+            },
+            "explanation": "When designing an atrium and curtain wall system, solar control, ventilation, and view should be considered. Heating should be handled by separate equipment."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_215.png",
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.54995505Z",
+            "message": {
+                "role": "assistant",
+                "content": " E "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38932610,
+            "load_duration": 11523981,
+            "prompt_eval_count": 77,
+            "prompt_eval_duration": 5865898,
+            "eval_count": 3,
+            "eval_duration": 20550301
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_88",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Where in the welfare center is the insulation thickness set to 250mm?",
+        "options": {
+            "A": "External wall",
+            "B": "Lowest floor",
+            "C": "Roof and floors exposed to the outside air",
+            "D": "Stairs",
+            "E": "Internal wall"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Roof and floors exposed to the outside air"
+            },
+            "explanation": "According to the design guidelines, the insulation thickness for the roof and floors exposed to outside air is specified as 250mm. This is designed to improve thermal performance in areas especially prone to heat loss."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_95.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.631540979Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39356992,
+            "load_duration": 11756489,
+            "prompt_eval_count": 79,
+            "prompt_eval_duration": 6304308,
+            "eval_count": 3,
+            "eval_duration": 20493832
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_89",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the design standards for stair railings, what should be the diameter range, in millimeters, for each stair railing handrail?",
+        "options": {
+            "A": "28 ~ 150 mm",
+            "B": "32 ~ 160 mm",
+            "C": "30 ~ 160 mm",
+            "D": "28 ~ 140 mm",
+            "E": "34 ~ 158 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "32 ~ 160 mm"
+            },
+            "explanation": "According to the design guidelines, the diameter of stair railing handrails should be at least 32 mm and no more than 160 mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.717517399Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43898684,
+            "load_duration": 12157672,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 6261691,
+            "eval_count": 3,
+            "eval_duration": 24895750
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_90",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is NOT a factor to consider when designing windows in the given section drawing?",
+        "options": {
+            "A": "Insulation",
+            "B": "Waterproofing",
+            "C": "Ventilation",
+            "D": "Floor height",
+            "E": "Center of the structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Center of the structure"
+            },
+            "explanation": "When designing windows, insulation, waterproofing, and ventilation should be considered. However, the 'center of the structure' is a criterion related to structural design, not window design."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_317.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.798531897Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39178336,
+            "load_duration": 11989717,
+            "prompt_eval_count": 74,
+            "prompt_eval_duration": 6021225,
+            "eval_count": 3,
+            "eval_duration": 20537611
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_91",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the effective height of the stair handrail at the Youth Volunteer Center, in millimeters?",
+        "options": {
+            "A": "1,000mm",
+            "B": "1,200mm",
+            "C": "1,500mm",
+            "D": "1,700mm",
+            "E": "2,000mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "1,200mm"
+            },
+            "explanation": "According to the design conditions, the effective height of the stair handrail is 1,200mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_25.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.881912101Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40849160,
+            "load_duration": 11813109,
+            "prompt_eval_count": 101,
+            "prompt_eval_duration": 6024660,
+            "eval_count": 3,
+            "eval_duration": 22407726
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_92",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In the structural plan for the construction of a new research facility, what is the minimum number of vehicles that must be accommodated in the first-floor pilotis parking lot?",
+        "options": {
+            "A": "10 vehicles",
+            "B": "15 vehicles",
+            "C": "20 vehicles",
+            "D": "25 vehicles",
+            "E": "30 vehicles"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "20 vehicles"
+            },
+            "explanation": "The project outline specifies that the design must allow parking for at least 20 vehicles (including 1 space for the disabled) within the pilotis."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_265.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:13:59.958527368Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40256718,
+            "load_duration": 11939675,
+            "prompt_eval_count": 97,
+            "prompt_eval_duration": 6223172,
+            "eval_count": 3,
+            "eval_duration": 21203578
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_93",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the given design guidelines, what should be the thickness of the mat foundation?",
+        "options": {
+            "A": "350mm",
+            "B": "500mm",
+            "C": "650mm",
+            "D": "700mm",
+            "E": "800mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "650mm"
+            },
+            "explanation": "According to the design guidelines, the thickness of the mat foundation should be set to 650mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_145.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.03769298Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39450461,
+            "load_duration": 12210148,
+            "prompt_eval_count": 84,
+            "prompt_eval_duration": 6004074,
+            "eval_count": 3,
+            "eval_duration": 20631515
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_94",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What are the dimensions of the pedestal used for isolated footings in an indoor gymnasium?",
+        "options": {
+            "A": "500mm x 1000mm",
+            "B": "600mm x 1100mm",
+            "C": "700mm x 1200mm",
+            "D": "800mm x 1400mm",
+            "E": "900mm x 1500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "600mm x 1100mm"
+            },
+            "explanation": "According to the architectural summary, the size of the pedestal is set to 600mm x 1100mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_125.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.121891471Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43831456,
+            "load_duration": 12075883,
+            "prompt_eval_count": 122,
+            "prompt_eval_duration": 6189055,
+            "eval_count": 3,
+            "eval_duration": 24987907
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_95",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the material used for the roof of the indoor gymnasium?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": "According to the architectural outline, a sandwich panel is used for the roof of the indoor gymnasium, and its thickness is specified as 200mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_125.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.210163213Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38825632,
+            "load_duration": 11758951,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5936476,
+            "eval_count": 3,
+            "eval_duration": 20649369
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_96",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which option should you select to check the thickness of the reinforced concrete wall in millimeters on the drawing?",
+        "options": {
+            "A": "100mm",
+            "B": "200mm",
+            "C": "250mm",
+            "D": "300mm",
+            "E": "350mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "200mm"
+            },
+            "explanation": "The design manual specifies that the thickness of the reinforced concrete wall is 200mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_73.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.289738111Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38955927,
+            "load_duration": 11714588,
+            "prompt_eval_count": 90,
+            "prompt_eval_duration": 6001617,
+            "eval_count": 3,
+            "eval_duration": 20706466
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_97",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the planned floor height for the classroom building at ○○ High School?",
+        "options": {
+            "A": "2.8m",
+            "B": "3.0m",
+            "C": "3.3m",
+            "D": "3.5m",
+            "E": "4.0m"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "3.5m"
+            },
+            "explanation": "According to the design guidelines, the floor height for each level of the classroom building is planned to be 3.5 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_185.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.370158748Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38613918,
+            "load_duration": 11690497,
+            "prompt_eval_count": 84,
+            "prompt_eval_duration": 5870957,
+            "eval_count": 3,
+            "eval_duration": 20555411
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_98",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the design guideline regarding the minimum height that must be considered at the entrance on basement level 1?",
+        "options": {
+            "A": "2,400mm",
+            "B": "3,500mm",
+            "C": "3,800mm",
+            "D": "4,000mm",
+            "E": "4,300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "4,300mm"
+            },
+            "explanation": "The design guideline specifies that the entrance to basement level 1 must secure a minimum passage width of 4,300mm in consideration of accessibility for people with disabilities and the multipurpose hall."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_377.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.450856903Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39142657,
+            "load_duration": 11748945,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 5891313,
+            "eval_count": 3,
+            "eval_duration": 20916764
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_99",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What should be the thickness of the interior walls in a small to medium-sized company office building, measured in millimeters?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "300mm",
+            "E": "400mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150mm"
+            },
+            "explanation": "According to the design guidelines, the thickness of the interior walls should be set at 150mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_67.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.540028814Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39221436,
+            "load_duration": 11801086,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 5934342,
+            "eval_count": 3,
+            "eval_duration": 20881075
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_100",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In the main section drawing of a small to medium-sized company building, what should the riser height of the stairs be set to in millimeters?",
+        "options": {
+            "A": "150mm",
+            "B": "180mm",
+            "C": "200mm",
+            "D": "220mm",
+            "E": "250mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "180mm"
+            },
+            "explanation": "According to building standards, the ideal riser height for stairs is 180mm, which is a common design standard considering safety and ease of use."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_67.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.624067487Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40330333,
+            "load_duration": 11597744,
+            "prompt_eval_count": 99,
+            "prompt_eval_duration": 5992682,
+            "eval_count": 3,
+            "eval_duration": 22166496
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_101",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the required insulation thickness for the roof of the top floor for thermal insulation?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "50mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "200mm"
+            },
+            "explanation": "According to the design guidelines, the insulation thickness for the roof of the top floor and the floor of the bottom floor is specified as 200mm. This thickness is required to ensure effective thermal insulation."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_235.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.736155025Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39228950,
+            "load_duration": 12069970,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5966711,
+            "eval_count": 3,
+            "eval_duration": 20607624
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_102",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What type of structure was used for the roof and slab in Section C?",
+        "options": {
+            "A": "Steel structure",
+            "B": "Reinforced concrete structure",
+            "C": "Prestressed concrete structure",
+            "D": "Masonry",
+            "E": "Wooden structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Prestressed concrete structure"
+            },
+            "explanation": "According to Design Condition 2, Section C is planned with beams and slabs made of prestressed concrete."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_31.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.819183714Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38854930,
+            "load_duration": 11734775,
+            "prompt_eval_count": 73,
+            "prompt_eval_duration": 5985265,
+            "eval_count": 3,
+            "eval_duration": 20528415
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_103",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "According to the architectural summary, what is the floor height of the second floor?",
+        "options": {
+            "A": "2m",
+            "B": "2.5m",
+            "C": "3m",
+            "D": "4m",
+            "E": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "3m"
+            },
+            "explanation": "The design guideline specifies the floor height of the second floor as 3 meters in the basic planning section."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.895260761Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38743428,
+            "load_duration": 11820202,
+            "prompt_eval_count": 76,
+            "prompt_eval_duration": 5850748,
+            "eval_count": 3,
+            "eval_duration": 20492060
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_104",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the device that is fundamentally applied to all rooms as the heating method installed at the neighborhood cultural center?",
+        "options": {
+            "A": "Floor-standing boiler",
+            "B": "Ceiling-concealed EHP",
+            "C": "Wall-mounted heater",
+            "D": "Radiator heater",
+            "E": "Air blower"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Ceiling-concealed EHP"
+            },
+            "explanation": "The heating system plan for the neighborhood cultural center basically applies a ceiling-concealed EHP in all rooms. This equipment was chosen to improve heating efficiency within the indoor spaces."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_55.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:00.983805306Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39779804,
+            "load_duration": 12013355,
+            "prompt_eval_count": 92,
+            "prompt_eval_duration": 6175808,
+            "eval_count": 3,
+            "eval_duration": 20914689
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_105",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the planned thickness of the external wall insulation for the remodeled building?",
+        "options": {
+            "A": "100mm",
+            "B": "150mm",
+            "C": "200mm",
+            "D": "250mm",
+            "E": "300mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "150mm"
+            },
+            "explanation": "According to the design specifications, the thickness of the external wall insulation is specified as 150mm. This is intended to reduce heat loss and improve energy efficiency."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_295.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.069098725Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38503647,
+            "load_duration": 11627558,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5919618,
+            "eval_count": 3,
+            "eval_duration": 20446959
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_106",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the appropriate exterior finishing material for the Culture Sarangbang?",
+        "options": {
+            "A": "Exposed concrete",
+            "B": "Brick finish",
+            "C": "Aluminum panel",
+            "D": "Wood",
+            "E": "Glass curtain wall"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Aluminum panel"
+            },
+            "explanation": "According to the design guidelines, the main exterior wall of the Culture Sarangbang should be finished with a material different from reinforced concrete in order to emphasize unity. Among the modern options that meet this requirement, aluminum panel is a representative and suitable choice."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_95.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.148801851Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39473056,
+            "load_duration": 12104498,
+            "prompt_eval_count": 72,
+            "prompt_eval_duration": 5940732,
+            "eval_count": 3,
+            "eval_duration": 20800671
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_107",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which structural type is correctly applied to the expanded library?",
+        "options": {
+            "A": "Reinforced concrete structure only",
+            "B": "Steel structure only",
+            "C": "A combination of reinforced concrete and steel structures",
+            "D": "Wooden structure",
+            "E": "A combination of reinforced concrete and wooden structures"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A combination of reinforced concrete and steel structures"
+            },
+            "explanation": "The existing structure uses reinforced concrete, while the new double-skin façade section is designed with a steel structure, meeting various design and functional requirements."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_19.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.22851056Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39752876,
+            "load_duration": 11740093,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 6072540,
+            "eval_count": 3,
+            "eval_duration": 21273409
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_108",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "In the given sectional drawing of the Youth Volunteer Center, the elevation of the first floor is specified as EL+300mm. Then, what is the elevation of the second floor?",
+        "options": {
+            "A": "EL+3,000mm",
+            "B": "EL+5,500mm",
+            "C": "EL+7,900mm",
+            "D": "EL+9,700mm",
+            "E": "EL+13,900mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "EL+5,500mm"
+            },
+            "explanation": "As specified in the design requirements, the elevation of the second floor is EL+5,500mm."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_25.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.317996802Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45776246,
+            "load_duration": 11797187,
+            "prompt_eval_count": 126,
+            "prompt_eval_duration": 6213046,
+            "eval_count": 3,
+            "eval_duration": 27125124
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_110",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the correct structural system used for the ○○ building?",
+        "options": {
+            "A": "Only reinforced concrete is used.",
+            "B": "Only steel frame is used.",
+            "C": "A combination of reinforced concrete and steel frame is used.",
+            "D": "Wooden structure is used.",
+            "E": "A combination of reinforced concrete and wooden structure is used."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A combination of reinforced concrete and steel frame is used."
+            },
+            "explanation": "According to this design guideline, the structural system is composed using a combination of reinforced concrete and steel frame."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_73.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.399005579Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44280789,
+            "load_duration": 12078430,
+            "prompt_eval_count": 99,
+            "prompt_eval_duration": 9471110,
+            "eval_count": 3,
+            "eval_duration": 22005452
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_111",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the primary structural material of the community center?",
+        "options": {
+            "A": "Steel frame structure",
+            "B": "Wooden structure",
+            "C": "Reinforced concrete structure",
+            "D": "Masonry structure",
+            "E": "Lightweight steel frame structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Reinforced concrete structure"
+            },
+            "explanation": "According to the design guidelines, the community center is specified to use a reinforced concrete structure, which combines reinforcing bars and concrete."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_175.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.485488585Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38935268,
+            "load_duration": 11859509,
+            "prompt_eval_count": 71,
+            "prompt_eval_duration": 5983153,
+            "eval_count": 3,
+            "eval_duration": 20441726
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_112",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which mechanical device should be installed on the upper right side of the atrium?",
+        "options": {
+            "A": "Central air conditioning system",
+            "B": "Mechanical ventilation system",
+            "C": "Electric heater",
+            "D": "Hot water boiler",
+            "E": "Solar panel"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Mechanical ventilation system"
+            },
+            "explanation": "The design manual specifies that a mechanical ventilation system should be installed on the upper right side of the atrium. This is an essential facility element to maintain air quality and provide a comfortable environment within the space."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_357.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.568871932Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39391311,
+            "load_duration": 12167725,
+            "prompt_eval_count": 77,
+            "prompt_eval_duration": 6027667,
+            "eval_count": 3,
+            "eval_duration": 20521435
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_113",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the thickness of the exterior wall insulation, and what is the main benefit it provides?",
+        "options": {
+            "A": "100mm, reduction of heat loss",
+            "B": "150mm, noise insulation",
+            "C": "200mm, improved fire safety",
+            "D": "250mm, increased durability",
+            "E": "300mm, reduced construction cost"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "100mm, reduction of heat loss"
+            },
+            "explanation": "The thickness of the exterior wall insulation is 100mm, which helps reduce heat loss by increasing the building's thermal efficiency and saving energy for heating and cooling."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_255.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.655895302Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41666358,
+            "load_duration": 12314062,
+            "prompt_eval_count": 108,
+            "prompt_eval_duration": 6212752,
+            "eval_count": 3,
+            "eval_duration": 22518768
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_114",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the minimum number of vehicles that each floor of the parking lot can accommodate?",
+        "options": {
+            "A": "80 vehicles",
+            "B": "100 vehicles",
+            "C": "120 vehicles",
+            "D": "150 vehicles",
+            "E": "200 vehicles"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "120 vehicles"
+            },
+            "explanation": "According to design condition 5, each floor must be planned to accommodate at least 120 vehicles."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_31.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.736747694Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38092382,
+            "load_duration": 11009289,
+            "prompt_eval_count": 83,
+            "prompt_eval_duration": 5947889,
+            "eval_count": 3,
+            "eval_duration": 20613566
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_115",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What are the dimensions of the indoor gymnasium?",
+        "options": {
+            "A": "20m x 40m x 9m",
+            "B": "25m x 50m x 9m",
+            "C": "30m x 60m x 9m",
+            "D": "35m x 70m x 9m",
+            "E": "40m x 80m x 9m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "30m x 60m x 9m"
+            },
+            "explanation": "According to the architectural summary, the size of the indoor gymnasium is 30 meters wide, 60 meters long, and 9 meters high at the eaves."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_125.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:01.819723868Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43728373,
+            "load_duration": 12096906,
+            "prompt_eval_count": 118,
+            "prompt_eval_duration": 6105559,
+            "eval_count": 3,
+            "eval_duration": 25037757
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_116",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the planned height of each floor on the four above-ground levels in the factory's structural plan?",
+        "options": {
+            "A": "3m",
+            "B": "3.5m",
+            "C": "4m",
+            "D": "4.5m",
+            "E": "5m"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "4m"
+            },
+            "explanation": "According to the design guidelines, the height of each floor is planned to be 4 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_103.png",
+        "model_answer": "The planned height of each floor on the four above-ground levels in the factory's structural plan is:\n\n1st Floor - A (3m)\n2nd Floor - D (4.5m)\n3rd Floor - B (3.5m)\n4th Floor - C (4m)",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.179381775Z",
+            "message": {
+                "role": "assistant",
+                "content": " The planned height of each floor on the four above-ground levels in the factory's structural plan is:\n\n1st Floor - A (3m)\n2nd Floor - D (4.5m)\n3rd Floor - B (3.5m)\n4th Floor - C (4m) "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 322758004,
+            "load_duration": 11625279,
+            "prompt_eval_count": 84,
+            "prompt_eval_duration": 5960850,
+            "eval_count": 69,
+            "eval_duration": 304570741
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_117",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "When preparing a partial section drawing, which factor influences the design of ceiling height?",
+        "options": {
+            "A": "Thickness of floor finishes",
+            "B": "Mechanical space",
+            "C": "Size of windows",
+            "D": "Location of balcony drain",
+            "E": "Height of door handles"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Mechanical space"
+            },
+            "explanation": "It is stated that the ceiling height is determined with consideration for the mechanical space during design."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_317.png",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.266034295Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39141639,
+            "load_duration": 11897036,
+            "prompt_eval_count": 81,
+            "prompt_eval_duration": 6073588,
+            "eval_count": 3,
+            "eval_duration": 20497246
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_118",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the elevation of the basement floor in the section drawing of the Youth Volunteer Center?",
+        "options": {
+            "A": "EL+9,700mm",
+            "B": "EL+13,900mm",
+            "C": "EL+16,300mm",
+            "D": "EL+300mm",
+            "E": "EL+5,500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "EL+13,900mm"
+            },
+            "explanation": "The elevation of the basement floor is EL+13,900mm, as specified in the design conditions."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_25.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.355898092Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40669229,
+            "load_duration": 11978091,
+            "prompt_eval_count": 103,
+            "prompt_eval_duration": 5963121,
+            "eval_count": 3,
+            "eval_duration": 22155289
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_119",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the slab thickness of the RC structure among the structural conditions for the senior welfare center remodeling?",
+        "options": {
+            "A": "150mm",
+            "B": "200mm",
+            "C": "250mm",
+            "D": "300mm",
+            "E": "350mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "200mm"
+            },
+            "explanation": "According to the design specifications, the slab thickness of the RC structure is 200mm. The RC structure must be constructed to the precise thickness in order to maintain the designed strength."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_295.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.44445614Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38755804,
+            "load_duration": 11616347,
+            "prompt_eval_count": 90,
+            "prompt_eval_duration": 5976668,
+            "eval_count": 3,
+            "eval_duration": 20592593
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_120",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the minimum size that should be designed for the spare space on a landing for evacuation of people with disabilities?",
+        "options": {
+            "A": "1,000 × 1,000 mm",
+            "B": "1,200 × 1,200 mm",
+            "C": "1,000 × 1,500 mm",
+            "D": "1,500 × 1,500 mm",
+            "E": "1,200 × 1,500 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "1,000 × 1,500 mm"
+            },
+            "explanation": "According to design guidelines, a spare space of 1,000 × 1,500 mm must be secured to accommodate a metal evacuation platform for people with disabilities."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.528100354Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44783638,
+            "load_duration": 11796528,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 6205956,
+            "eval_count": 3,
+            "eval_duration": 25884753
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_121",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "On the 5th and 6th floors above ground, how many meters or more of column-free interior space must be secured in the X direction?",
+        "options": {
+            "A": "5m",
+            "B": "10m",
+            "C": "15m",
+            "D": "20m",
+            "E": "25m"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "10m"
+            },
+            "explanation": "In the structural plan for the extension, it is required to secure column-free interior spaces of at least 10 meters in the X direction and 20 meters in the Y direction on the 5th and 6th floors above ground. This reflects a design standard aimed at maximizing spatial usability; therefore, the distance between columns in the X direction must be at least 10 meters."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_389.png",
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.609171091Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39155946,
+            "load_duration": 11554989,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 6000265,
+            "eval_count": 3,
+            "eval_duration": 21023509
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_122",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the ceiling finish material of the atrium?",
+        "options": {
+            "A": "Gypsum board only",
+            "B": "Wood panels",
+            "C": "Metal ceiling material and gypsum board",
+            "D": "PVC tiles",
+            "E": "Paint finish"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Metal ceiling material and gypsum board"
+            },
+            "explanation": "According to the guidelines, the atrium ceiling uses metal ceiling materials finished with gypsum board. These materials were chosen to provide a modern and sophisticated appearance."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_357.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.687760159Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39722983,
+            "load_duration": 12274242,
+            "prompt_eval_count": 74,
+            "prompt_eval_duration": 6102672,
+            "eval_count": 3,
+            "eval_duration": 20657357
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_123",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the maximum center-to-center distance between columns that should be planned for an extension building?",
+        "options": {
+            "A": "8m",
+            "B": "10m",
+            "C": "12m",
+            "D": "15m",
+            "E": "No limit"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "10m"
+            },
+            "explanation": "According to the design guidelines, the center-to-center distance between columns in extension buildings should be planned to be no more than 10 meters. This restriction considers both space utilization and structural stability."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_367.png",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.769216326Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39220261,
+            "load_duration": 12118586,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5973019,
+            "eval_count": 3,
+            "eval_duration": 20498846
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "test_Drawing_Interpretation_124",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "The floor height of each floor in the ○○ building is 4.5m. Which of the following is NOT correct?",
+        "options": {
+            "A": "The floor height of the first floor is 4.5m.",
+            "B": "The floor height of the second floor is 4.5m.",
+            "C": "The floor height of the third floor is 4.5m.",
+            "D": "The floor height of the auditorium is 5.0m.",
+            "E": "The floor height of the basement floor is not specified."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "The floor height of the auditorium is 5.0m."
+            },
+            "explanation": "According to the design guidelines, the floor height for the first floor, second floor, third floor, and auditorium is all specified as 4.5m."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_73.png",
+        "model_answer": "(D) The floor height of the auditorium is 5.0m.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:02.926080924Z",
+            "message": {
+                "role": "assistant",
+                "content": " (D) The floor height of the auditorium is 5.0m. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 116867641,
+            "load_duration": 11822166,
+            "prompt_eval_count": 137,
+            "prompt_eval_duration": 6310004,
+            "eval_count": 20,
+            "eval_duration": 98019467
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "test_Drawing_Interpretation_125",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the height of the rooftop of the community self-governance facility from the EL (reference level)?",
+        "options": {
+            "A": "+14,900mm",
+            "B": "+15,200mm",
+            "C": "+15,500mm",
+            "D": "+15,900mm",
+            "E": "+16,200mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "+15,900mm"
+            },
+            "explanation": "The height of the rooftop is specified as \"Rooftop: EL + 15,900mm\" in the design conditions."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_7.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:14:03.004704018Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40847559,
+            "load_duration": 11725258,
+            "prompt_eval_count": 106,
+            "prompt_eval_duration": 6130627,
+            "eval_count": 3,
+            "eval_duration": 22431473
+        },
+        "judge": "Wrong"
+    }
+]

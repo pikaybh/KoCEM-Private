@@ -1,0 +1,314 @@
+[
+    {
+        "id": "dev_Materials_1937",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.800000011920929,
+        "question": "What is the main use of terra-cotta?",
+        "options": {
+            "A": "Reinforcement of structural materials",
+            "B": "Waterproofing",
+            "C": "Insulation",
+            "D": "Decoration"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Decoration"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:00.239411335Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43475079,
+            "load_duration": 12051625,
+            "prompt_eval_count": 65,
+            "prompt_eval_duration": 7699305,
+            "eval_count": 2,
+            "eval_duration": 22929610
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_1978",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which type of glass is used in places like clothing displays, and warehouses for food or medicine, in order to prevent chemical effects caused by ultraviolet rays?",
+        "options": {
+            "A": "Ultraviolet-blocking glass",
+            "B": "Heat-absorbing glass",
+            "C": "Heat-reflective glass",
+            "D": "Ultraviolet-transmitting glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Ultraviolet-blocking glass"
+            },
+            "explanation": "Ultraviolet rays have a shorter wavelength than visible light and cause chemical reactions, leading to transformation or disinfection. To prevent these effects, ultraviolet rays must be blocked."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:00.319246165Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48890197,
+            "load_duration": 11249022,
+            "prompt_eval_count": 108,
+            "prompt_eval_duration": 9603375,
+            "eval_count": 2,
+            "eval_duration": 26868959
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_107",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "Which resin has excellent heat and cold resistance, remains stable and elastic in the temperature range of -60 to 260℃, and also has outstanding weather and chemical resistance?",
+        "options": {
+            "A": "Urea resin",
+            "B": "Acrylic resin",
+            "C": "Silicone resin",
+            "D": "Melamine resin"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Silicone resin"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:00.402564175Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48118678,
+            "load_duration": 11132797,
+            "prompt_eval_count": 101,
+            "prompt_eval_duration": 9379888,
+            "eval_count": 2,
+            "eval_duration": 26722639
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3874",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6600000262260437,
+        "question": "Which specially-shaped glass product is designed to change the direction of projected light or to concentrate or diffuse it, and is mainly used for daylighting in basements or roofs?",
+        "options": {
+            "A": "Prism glass",
+            "B": "Insulating glass",
+            "C": "Wired glass",
+            "D": "Stained glass"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Prism glass"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:00.487777972Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46732585,
+            "load_duration": 11451619,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 8792934,
+            "eval_count": 2,
+            "eval_duration": 25436299
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_4941",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following statements about the strength of wood is incorrect?",
+        "options": {
+            "A": "Of the various strengths of wood, the tensile strength parallel to the grain is the greatest.",
+            "B": "When wood is used as a column, it generally receives compressive force parallel to the grain.",
+            "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength.",
+            "D": "In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If the moisture content is higher than the fiber saturation point, changes in moisture content greatly affect the strength."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The correct statement about the strength of wood is (D). In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:00.839799624Z",
+            "message": {
+                "role": "assistant",
+                "content": " The correct statement about the strength of wood is (D). In tensile strength testing of wood, the net cross-sectional area is assumed by subtracting the area of dead knots."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 318539611,
+            "load_duration": 11129783,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 13180392,
+            "eval_count": 40,
+            "eval_duration": 293277035
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_2240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "Which of the following is NOT a correct statement about the physical properties of wood?",
+        "options": {
+            "A": "Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+            "B": "The greater the specific gravity of the wood, the less it expands and contracts.",
+            "C": "Wood with a higher specific gravity also has greater strength.",
+            "D": "Wood with moisture content above the fiber saturation point is called green wood."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The greater the specific gravity of the wood, the less it expands and contracts."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:01.09380114Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) Overall, thermal conductivity is low, and the lower the specific gravity, the lower the thermal conductivity."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 220452088,
+            "load_duration": 11205211,
+            "prompt_eval_count": 127,
+            "prompt_eval_duration": 11063376,
+            "eval_count": 27,
+            "eval_duration": 197239867
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Materials_4127",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following statements about stone materials is incorrect?",
+        "options": {
+            "A": "Marble is strong but has low fire resistance and weathers easily.",
+            "B": "Basalt has good fire resistance but is difficult to process, so it is often used as crushed stone.",
+            "C": "Travertine is a type of igneous rock and is used for interior decoration.",
+            "D": "Slate can be easily cut into thin sheets, making it suitable as a roofing material."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Travertine is a type of igneous rock and is used for interior decoration."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:01.1869202Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 52540699,
+            "load_duration": 11339121,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 11000578,
+            "eval_count": 2,
+            "eval_duration": 29208479
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Materials_3950",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "In the stress-strain curve diagram for steel, what do points A and C represent?",
+        "options": {
+            "A": "A: Proportional limit, C: Upper yield point",
+            "B": "A: Tensile strength, C: Proportional limit",
+            "C": "A: Proportional limit, C: Lower yield point",
+            "D": "A: Lower yield point, C: Fracture point"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A: Proportional limit, C: Lower yield point"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20100307/bj20100307m72.gif?1522444684",
+        "model_answer": "The correct answer is (A) A: Proportional limit, C: Upper yield point.\n\nIn the stress-strain curve diagram for steel, point A represents the proportional limit, which is the highest stress that can be obtained for a given strain rate. Point C represents the upper yield point, which is the highest stress that can be obtained by applying a large enough load to the material before it begins to plastically deform.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:44:01.875600031Z",
+            "message": {
+                "role": "assistant",
+                "content": " The correct answer is (A) A: Proportional limit, C: Upper yield point.\n\nIn the stress-strain curve diagram for steel, point A represents the proportional limit, which is the highest stress that can be obtained for a given strain rate. Point C represents the upper yield point, which is the highest stress that can be obtained by applying a large enough load to the material before it begins to plastically deform."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 658315367,
+            "load_duration": 11180457,
+            "prompt_eval_count": 108,
+            "prompt_eval_duration": 9571676,
+            "eval_count": 93,
+            "eval_duration": 636805305
+        },
+        "judge": "Wrong"
+    }
+]

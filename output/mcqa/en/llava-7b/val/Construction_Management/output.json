@@ -1,0 +1,1328 @@
+[
+    {
+        "id": "val_Construction_Management_31",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following is least relevant to the items that must be specified in a construction contract?",
+        "options": {
+            "A": "Details of the construction work",
+            "B": "The start and completion dates of the construction",
+            "C": "Defect liability period and warranty method",
+            "D": "Method of preparing design drawings based on the site conditions"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Method of preparing design drawings based on the site conditions"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:32.484694769Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40836213,
+            "load_duration": 12375398,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 6390878,
+            "eval_count": 3,
+            "eval_duration": 21122702
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_76",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following statements about methods for preventing corrosion of metals is NOT correct?",
+        "options": {
+            "A": "Items that have undergone significant deformation should, if possible, be annealed before use.",
+            "B": "A watertight protective coating is created by using paint or highly corrosion-resistant metals.",
+            "C": "If rust occurs in some areas, wait until the rust has fully developed before removing it all at once.",
+            "D": "Keep the surface smooth, clean, and as dry as possible."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "If rust occurs in some areas, wait until the rust has fully developed before removing it all at once."
+            },
+            "explanation": "Rust should be removed immediately if it occurs, even in part."
+        },
+        "image_path": null,
+        "model_answer": "(C) If rust occurs in some areas, wait until the rust has fully developed before removing it all at once.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:32.663701953Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) If rust occurs in some areas, wait until the rust has fully developed before removing it all at once. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 145272570,
+            "load_duration": 11608106,
+            "prompt_eval_count": 136,
+            "prompt_eval_duration": 6682056,
+            "eval_count": 26,
+            "eval_duration": 125974783
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_770",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3400000035762787,
+        "question": "The following describes the lump-sum contract method for construction work. Which of the following is NOT appropriate?",
+        "options": {
+            "A": "Drawings, specifications, and estimates must be fully prepared before bidding.",
+            "B": "Disputes may arise between the client and the contractor due to changes in design that affect construction costs or disagreements regarding the quality of the work.",
+            "C": "It is a favorable contract method for urgent projects.",
+            "D": "The client can predict the total construction cost up to completion at the time of contract."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is a favorable contract method for urgent projects."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:32.749983266Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45791687,
+            "load_duration": 11970614,
+            "prompt_eval_count": 136,
+            "prompt_eval_duration": 6516460,
+            "eval_count": 3,
+            "eval_duration": 26340320
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_924",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "At what height from the floor should the handle of a mortise lock typically be installed?",
+        "options": {
+            "A": "70 cm",
+            "B": "90 cm",
+            "C": "110 cm",
+            "D": "130 cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "90 cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:32.827945259Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38762608,
+            "load_duration": 11722506,
+            "prompt_eval_count": 74,
+            "prompt_eval_duration": 5854583,
+            "eval_count": 3,
+            "eval_duration": 20646133
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_54",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "Which of the following statements about water-based paint is NOT correct?",
+        "options": {
+            "A": "It is easy to handle and dries relatively quickly.",
+            "B": "It is mainly used on concrete or cement walls.",
+            "C": "Emulsion paint is a type of water-based paint.",
+            "D": "Pigment is dissolved using a small amount of boiled oil."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Pigment is dissolved using a small amount of boiled oil."
+            },
+            "explanation": "Water-based paint is diluted with water, while boiled oil is an ingredient in oil-based paints. Adding oil to water-based paint is contradictory."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:32.919577686Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41160178,
+            "load_duration": 11867999,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 6152451,
+            "eval_count": 3,
+            "eval_duration": 22367503
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_334",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following is NOT a method to reduce segregation of concrete materials?",
+        "options": {
+            "A": "Reduce the proportion of fine aggregate.",
+            "B": "Lower the water-cement ratio.",
+            "C": "Increase the amount of fine particles sized 15–3 mm among the fine aggregate."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reduce the proportion of fine aggregate."
+            },
+            "explanation": "[Methods to prevent segregation] - Improve concrete workability. - Reduce the water-cement ratio. - Increase the proportion of fine aggregate. - Use admixtures such as AE agents or fly ash."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:32.99481674Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39651278,
+            "load_duration": 11915557,
+            "prompt_eval_count": 86,
+            "prompt_eval_duration": 6061164,
+            "eval_count": 3,
+            "eval_duration": 20988482
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_787",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "When there is a stiff clay layer during pile driving, which construction method involves inserting a small steel pipe next to the pile and injecting water through it to soften the ground using water pressure before driving the pile?",
+        "options": {
+            "A": "Grouting method",
+            "B": "Caisson method",
+            "C": "Well-point method",
+            "D": "Water-jetting method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Water-jetting method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.077200643Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40103426,
+            "load_duration": 11755360,
+            "prompt_eval_count": 97,
+            "prompt_eval_duration": 6256878,
+            "eval_count": 3,
+            "eval_duration": 21341694
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_39",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5299999713897705,
+        "question": "Which of the following is least related to the indicated items of the concrete mix design?",
+        "options": {
+            "A": "Mixing strength",
+            "B": "Air content",
+            "C": "Chloride content",
+            "D": "Unit water content"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Chloride content"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.157045403Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39059542,
+            "load_duration": 11894126,
+            "prompt_eval_count": 67,
+            "prompt_eval_duration": 5920977,
+            "eval_count": 3,
+            "eval_duration": 20405583
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_139",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5400000214576721,
+        "question": "Which of the following statements about steel structural members is NOT correct?",
+        "options": {
+            "A": "A stiffener is used to reinforce the web.",
+            "B": "A flange plate is a reinforcement for the flange of a plate girder.",
+            "C": "A gusset plate is attached to the base of a column to anchor it to the foundation.",
+            "D": "In a truss structure, members arranged at the top and bottom are called chords."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "A gusset plate is attached to the base of a column to anchor it to the foundation."
+            },
+            "explanation": "A gusset plate is used at joints between columns and beams or at the nodes of truss-type structures."
+        },
+        "image_path": null,
+        "model_answer": "(A) A stiffener is used to reinforce the web.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.291932949Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) A stiffener is used to reinforce the web. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 94783949,
+            "load_duration": 12048275,
+            "prompt_eval_count": 117,
+            "prompt_eval_duration": 6280782,
+            "eval_count": 15,
+            "eval_duration": 75620157
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_633",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is not a vertical lifting device?",
+        "options": {
+            "A": "Fork lift",
+            "B": "Tower crane",
+            "C": "Hoist car",
+            "D": "Jib crane"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Fork lift"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) Hoist car",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.387727092Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) Hoist car "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 60272698,
+            "load_duration": 11996238,
+            "prompt_eval_count": 62,
+            "prompt_eval_duration": 5746559,
+            "eval_count": 8,
+            "eval_duration": 41739127
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_411",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which of the following is NOT a fireproofing method that prevents the temperature of steel structures from rising for a certain period required for evacuation?",
+        "options": {
+            "A": "Rock wool spray method",
+            "B": "Anti-corrosion treatment method",
+            "C": "Attaching ALC panels method",
+            "D": "Casting method"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Anti-corrosion treatment method"
+            },
+            "explanation": "The anti-corrosion treatment method is used to remove rust from steel during manufacturing or to prevent rust from forming at the factory."
+        },
+        "image_path": null,
+        "model_answer": "(B) Anti-corrosion treatment method",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.501320208Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) Anti-corrosion treatment method "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 79889692,
+            "load_duration": 11969499,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 6034482,
+            "eval_count": 12,
+            "eval_duration": 61165565
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_66",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about hardware used in finishing work is NOT correct?",
+        "options": {
+            "A": "A corner bead is hardware installed on the edges of columns and walls to protect plastered surfaces.",
+            "B": "Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding.",
+            "C": "Inserts are used to suspend ceiling frames or other structures beneath concrete floors.",
+            "D": "Perforated metal refers to thin sheets with various shapes cut out."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Metal lath is made by arranging steel wires in a grid and joining their intersections with electric resistance welding."
+            },
+            "explanation": "Metal lath is made by cutting and stretching thin steel sheets and is used in plastering work on walls or ceilings. A wire mesh, not metal lath, is created by welding steel wires into a grid with electric welding."
+        },
+        "image_path": null,
+        "model_answer": "(A) A corner bead is hardware installed on the edges of columns and walls to protect plastered surfaces.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.679785691Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) A corner bead is hardware installed on the edges of columns and walls to protect plastered surfaces. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 142771001,
+            "load_duration": 12102645,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 6444945,
+            "eval_count": 26,
+            "eval_duration": 123339227
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_462",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.75,
+        "question": "Which of the following is NOT a roofing material?",
+        "options": {
+            "A": "Pressed cement tile",
+            "B": "Glazed tile",
+            "C": "Slate",
+            "D": "Asphalt felt"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Asphalt felt"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.751609137Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 36644616,
+            "load_duration": 11861948,
+            "prompt_eval_count": 62,
+            "prompt_eval_duration": 5791258,
+            "eval_count": 3,
+            "eval_duration": 18442191
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_947",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is the most accurate estimation method for calculating construction costs during building works?",
+        "options": {
+            "A": "Detailed estimate",
+            "B": "Rough estimate",
+            "C": "Bid estimate",
+            "D": "Design estimate"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Detailed estimate"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.822840959Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 36765739,
+            "load_duration": 11613364,
+            "prompt_eval_count": 68,
+            "prompt_eval_duration": 5811492,
+            "eval_count": 3,
+            "eval_duration": 18704449
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_365",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following is incorrect regarding the surcharge rates for steel materials as specified in the Standard Method of Measurement for Construction Works?",
+        "options": {
+            "A": "Small-sized steel sections: 5%",
+            "B": "Round bars: 3%",
+            "C": "High-strength bolts: 3%",
+            "D": "Steel plate: 10%"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Round bars: 3%"
+            },
+            "explanation": "*Surcharge rates for steel materials - Steel plate: 10% - Large-sized steel sections: 7% - High-strength bolts: 3% - All other steel materials: 5%"
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:33.901815791Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41959653,
+            "load_duration": 12317276,
+            "prompt_eval_count": 98,
+            "prompt_eval_duration": 6719545,
+            "eval_count": 3,
+            "eval_duration": 21599663
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_604",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "Which of the following is NOT a correct statement about the Benoto method among the cast-in-place concrete pile methods?",
+        "options": {
+            "A": "It can be constructed safely without affecting the surroundings.",
+            "B": "It can be used to construct long piles with lengths of 50~60m.",
+            "C": "By examining the excavated soil, you can determine the soil properties and judge if the bearing layer has been reached.",
+            "D": "Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Because the reaction force required to extract the casing tube is low, it is suitable for weak ground or for construction over water."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) It can be used to construct long piles with lengths of 50~60m.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.096972561Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) It can be used to construct long piles with lengths of 50~60m. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 143726817,
+            "load_duration": 11941494,
+            "prompt_eval_count": 144,
+            "prompt_eval_duration": 6671379,
+            "eval_count": 25,
+            "eval_duration": 124072657
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_318",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "What is the estimated hourly excavation capacity of a power shovel under the following conditions?",
+        "options": {
+            "A": "89.6m3/h",
+            "B": "90.6m3/h",
+            "C": "91.6m3/h",
+            "D": "92.6m3/h"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "89.6m3/h"
+            },
+            "explanation": "[Power shovel hourly working volume]\n- Work volume per cycle = 1.2 x 1.28 x 0.9 x 0.9 = 1.244m3\n- Number of cycles per hour = 3600 ÷ 50 = 72 cycles\n- Hourly working volume = 1.244 x 72 = 89.568m3"
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20150531/bt20150531m39.gif?1526305800",
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.176326845Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41712836,
+            "load_duration": 11822923,
+            "prompt_eval_count": 95,
+            "prompt_eval_duration": 6042801,
+            "eval_count": 3,
+            "eval_duration": 23265143
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "Which of the following is NOT a correct precaution to take during plastering work?",
+        "options": {
+            "A": "Moisten the base surface as needed.",
+            "B": "For each stage of wall plastering, the coat thickness should be less than 6㎜.",
+            "C": "As soon as the moisture disappears after the first coat, immediately apply the second and finish coats.",
+            "D": "Roughen the base surface to improve mortar adhesion."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "As soon as the moisture disappears after the first coat, immediately apply the second and finish coats."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) For each stage of wall plastering, the coat thickness should be less than 6㎜.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.367096584Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) For each stage of wall plastering, the coat thickness should be less than 6㎜. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 148495966,
+            "load_duration": 11936794,
+            "prompt_eval_count": 122,
+            "prompt_eval_duration": 6299891,
+            "eval_count": 27,
+            "eval_duration": 129435260
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_535",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "Which of the following statements about asphalt waterproofing is NOT correct?",
+        "options": {
+            "A": "It has the advantage of producing little odor during application.",
+            "B": "It is widely used on rooftops, flat roofs, and basements.",
+            "C": "It is not easy to identify defective areas.",
+            "D": "It provides reliable waterproofing and is durable if properly protected."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It has the advantage of producing little odor during application."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.443298102Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41523561,
+            "load_duration": 12091782,
+            "prompt_eval_count": 106,
+            "prompt_eval_duration": 6227598,
+            "eval_count": 3,
+            "eval_duration": 22400525
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_868",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "Which cast-in-place concrete pile method has the following characteristics?",
+        "options": {
+            "A": "Benoto method",
+            "B": "ECOS method",
+            "C": "Earth drill method",
+            "D": "Reverse circulation method"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Benoto method"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20040523/bt20040523m29.gif?1525988101",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.510727356Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38565891,
+            "load_duration": 11790759,
+            "prompt_eval_count": 67,
+            "prompt_eval_duration": 5808699,
+            "eval_count": 3,
+            "eval_duration": 20365355
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_450",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "What is the contract method used in recent schools, military facilities, and similar settings, in which a private operator provides funding and constructs the facility, then transfers ownership to the government or client agency, and recoups their investment by receiving rental payments from the government or agency?",
+        "options": {
+            "A": "BOT (Build-Operate-Transfer)",
+            "B": "BTO (Build-Transfer-Operate)",
+            "C": "BTL (Build-Transfer-Lease)",
+            "D": "BLT (Build-Lease-Transfer)"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "BTL (Build-Transfer-Lease)"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.602741955Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45300630,
+            "load_duration": 11867436,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 6500975,
+            "eval_count": 3,
+            "eval_duration": 26112979
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_500",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "Which of the following statements about the application of cement mortar is incorrect?",
+        "options": {
+            "A": "The order of plastering indoors is ceiling, walls, then floor.",
+            "B": "For the first coat, water should be applied to a dry base.",
+            "C": "After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat.",
+            "D": "For the finishing coat, since using a wooden trowel can leave the surface rough and marked, a steel trowel should be used."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "After leveling, it should be left for about two weeks to allow sufficient cracking before applying the second coat."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) The order of plastering indoors is ceiling, walls, then floor.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.764128094Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) The order of plastering indoors is ceiling, walls, then floor. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 126562598,
+            "load_duration": 11975623,
+            "prompt_eval_count": 136,
+            "prompt_eval_duration": 6445263,
+            "eval_count": 22,
+            "eval_duration": 107309185
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_371",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "Which of the following is incorrect regarding general matters of painting work?",
+        "options": {
+            "A": "Iron is generally painted in two stages: intermediate and finish coats.",
+            "B": "The later coats are applied with a deeper color to distinguish unpainted areas.",
+            "C": "Work should be suspended when the ambient temperature is below 5℃ or the relative humidity exceeds 85%.",
+            "D": "Each coat should be applied thinly in multiple layers, and rapid drying should be avoided."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Iron is generally painted in two stages: intermediate and finish coats."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) The later coats are applied with a deeper color to distinguish unpainted areas.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:34.928457487Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) The later coats are applied with a deeper color to distinguish unpainted areas."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 124338391,
+            "load_duration": 12123100,
+            "prompt_eval_count": 126,
+            "prompt_eval_duration": 6726995,
+            "eval_count": 21,
+            "eval_duration": 104522205
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_467",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following statements about terms used in CPM network schedules is incorrect?",
+        "options": {
+            "A": "Activity: a work unit that makes up the project",
+            "B": "Float: the amount of free time in a task",
+            "C": "Critical path: the longest path from the start node to the end node",
+            "D": "Slack: the time needed to perform a task"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Slack: the time needed to perform a task"
+            },
+            "explanation": "Slack refers to the amount of free time a node has, not the time required to complete a task."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.007508708Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39713007,
+            "load_duration": 11817545,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 6043324,
+            "eval_count": 3,
+            "eval_duration": 21059973
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_133",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "What is the main purpose of using a vibrator when pouring concrete?",
+        "options": {
+            "A": "To prevent segregation of materials.",
+            "B": "To improve work efficiency.",
+            "C": "To accelerate the hardening process.",
+            "D": "To maintain the density of the concrete."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "To maintain the density of the concrete."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.08587334Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39551399,
+            "load_duration": 12336204,
+            "prompt_eval_count": 81,
+            "prompt_eval_duration": 6002389,
+            "eval_count": 3,
+            "eval_duration": 20556432
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_618",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following is NOT a correct description of asphalt primer?",
+        "options": {
+            "A": "It is a dark brown liquid obtained by dissolving asphalt in a volatile solvent.",
+            "B": "It is the first waterproofing material applied in asphalt waterproofing methods.",
+            "C": "It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity.",
+            "D": "It is used to enhance the adhesion between concrete and asphalt."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "It is made by mixing plant fibers to improve the heat and weather resistance of blown asphalt and to give it fluidity."
+            },
+            "explanation": "Asphalt compound is the material made by improving blown asphalt."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.170767774Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45294119,
+            "load_duration": 12032910,
+            "prompt_eval_count": 133,
+            "prompt_eval_duration": 6323749,
+            "eval_count": 3,
+            "eval_duration": 26092085
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_169",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "When attaching 108mm square tiles with a grout width of 6mm, which of the following is the correct number of tiles (net quantity) per 1m²?",
+        "options": {
+            "A": "72 tiles",
+            "B": "73 tiles",
+            "C": "75 tiles",
+            "D": "77 tiles"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "77 tiles"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.238242268Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39398566,
+            "load_duration": 11888576,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 5997894,
+            "eval_count": 3,
+            "eval_duration": 20921272
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_24",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "Which of the following is not included as a component of construction cost in the total construction expenses?",
+        "options": {
+            "A": "Material costs",
+            "B": "Labor costs",
+            "C": "Overhead costs",
+            "D": "General administrative expenses"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "General administrative expenses"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(D) General administrative expenses",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.337749176Z",
+            "message": {
+                "role": "assistant",
+                "content": " (D) General administrative expenses "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 59691823,
+            "load_duration": 11820156,
+            "prompt_eval_count": 67,
+            "prompt_eval_duration": 5808255,
+            "eval_count": 8,
+            "eval_duration": 41444478
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_644",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5199999809265137,
+        "question": "Which of the following statements about carpentry work is NOT correct?",
+        "options": {
+            "A": "The cross-section of joints and fittings should be aligned with the direction of stress.",
+            "B": "Joint surfaces should be machined accurately so that they fit closely together without any gaps.",
+            "C": "The length of the nail should be",
+            "D": "about 3 to 5 times the thickness of the board.",
+            "E": "It is best to make joints and fittings in areas where stress is low."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The cross-section of joints and fittings should be aligned with the direction of stress."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(C) The length of the nail should be about 3 to 5 times the thickness of the board.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.509344727Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) The length of the nail should be about 3 to 5 times the thickness of the board. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 137308565,
+            "load_duration": 11709066,
+            "prompt_eval_count": 132,
+            "prompt_eval_duration": 6398664,
+            "eval_count": 25,
+            "eval_duration": 118426358
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "Which of the following is NOT a mandatory item to check when applying the sprayed fireproofing method in fireproof coating work?",
+        "options": {
+            "A": "Checking the thickness",
+            "B": "Checking the density",
+            "C": "Checking the adhesion strength",
+            "D": "Checking for removal of anti-corrosive paint"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Checking for removal of anti-corrosive paint"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.590600994Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40893457,
+            "load_duration": 12417494,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 6433253,
+            "eval_count": 3,
+            "eval_duration": 21134548
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_409",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "In foundation pile driving work, what is the correct minimum spacing for precast concrete piles? (Here, d is the diameter of the pile head.)",
+        "options": {
+            "A": "2.4d",
+            "B": "2.3d",
+            "C": "2.5d",
+            "D": "2.2d"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "2.5d"
+            },
+            "explanation": "2.5d"
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.656267389Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 35279695,
+            "load_duration": 12222692,
+            "prompt_eval_count": 90,
+            "prompt_eval_duration": 5876500,
+            "eval_count": 2,
+            "eval_duration": 16512577
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_336",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Among retaining wall construction methods, which method forms the retaining wall of the underground main structure itself?",
+        "options": {
+            "A": "H-pile and lagging",
+            "B": "Soil nailing method",
+            "C": "Soil cement wall",
+            "D": "Slurry wall method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Slurry wall method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.725373585Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40055528,
+            "load_duration": 11966292,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5961832,
+            "eval_count": 3,
+            "eval_duration": 20520992
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Construction_Management_892",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1899999976158142,
+        "question": "Which of the following is NOT a type of curtain wall classified by its appearance?",
+        "options": {
+            "A": "Mullion type",
+            "B": "Spandrel type",
+            "C": "Grid type",
+            "D": "Wall type"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Wall type"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) Mullion type",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.819685109Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) Mullion type "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 60740175,
+            "load_duration": 12674180,
+            "prompt_eval_count": 66,
+            "prompt_eval_duration": 5756140,
+            "eval_count": 8,
+            "eval_duration": 41592014
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Construction_Management_678",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following statements about network schedules is incorrect?",
+        "options": {
+            "A": "The CPM schedule is a type of network schedule.",
+            "B": "The start, duration, and completion points of each activity are represented with bar diagrams.",
+            "C": "The PERT schedule focuses on events (milestones) when calculating timelines.",
+            "D": "It is easy to grasp the overall construction plan and the entire scope of the project."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The start, duration, and completion points of each activity are represented with bar diagrams."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D. It is easy to grasp the overall construction plan and the entire scope of the project.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:12:35.973173015Z",
+            "message": {
+                "role": "assistant",
+                "content": " D. It is easy to grasp the overall construction plan and the entire scope of the project. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 119861013,
+            "load_duration": 11676859,
+            "prompt_eval_count": 114,
+            "prompt_eval_duration": 6315495,
+            "eval_count": 21,
+            "eval_duration": 100910587
+        },
+        "judge": "Wrong"
+    }
+]

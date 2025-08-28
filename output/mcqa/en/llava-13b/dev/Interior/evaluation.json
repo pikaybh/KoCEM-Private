@@ -1,0 +1,32 @@
+{
+    "dev_Interior_816": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "dev_Interior_948": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "dev_Interior_799": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "dev_Interior_789": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Interior_477": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "dev_Interior_852": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    }
+}

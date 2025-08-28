@@ -1,0 +1,1800 @@
+[
+    {
+        "id": "val_Standard_Nomenclature_1",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to an optional coverage endorsement to a commercial auto policy that applies in the event of a total loss to a covered auto that is financed or has a leased agreement?",
+        "options": {
+            "A": "current service benefit",
+            "B": "lease gap coverage",
+            "C": "return of remuneration exclusion",
+            "D": "friable asbestos",
+            "E": "self-contained policy"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "lease gap coverage"
+            },
+            "explanation": "Lease gap coverage is designed to cover the difference between what is owed on a leased or financed vehicle and its actual cash value in the event of a total loss, which is not provided by the other listed terms."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:25.611973064Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 49568890,
+            "load_duration": 11428237,
+            "prompt_eval_count": 111,
+            "prompt_eval_duration": 9926860,
+            "eval_count": 2,
+            "eval_duration": 27175422
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_2",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a project delivery method in construction where stakeholders enter into a contract that outlines project risks and responsibilities for each party?",
+        "options": {
+            "A": "lifetime limit",
+            "B": "guardian ad litem",
+            "C": "bobtail liability",
+            "D": "cost, insurance, and freight (CIF)",
+            "E": "Integrated Project Delivery (IPD)"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Integrated Project Delivery (IPD)"
+            },
+            "explanation": "Integrated Project Delivery (IPD) is a collaborative construction approach where stakeholders share risks and responsibilities through a contractual agreement, unlike the other terms listed which relate to shipping, insurance, legal representation, or insurance limits."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:25.702636787Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48639977,
+            "load_duration": 11281777,
+            "prompt_eval_count": 113,
+            "prompt_eval_duration": 9649786,
+            "eval_count": 2,
+            "eval_duration": 26750250
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_3",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'Invitation to Bid (ITB)' refer to?",
+        "options": {
+            "A": "a solicitation for contractors to submit a proposal for a specific service to complete a project",
+            "B": "reptile theory or strategy",
+            "C": "trust department errors and omissions coverage",
+            "D": "debit life insurance",
+            "E": "Site Plan"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "a solicitation for contractors to submit a proposal for a specific service to complete a project"
+            },
+            "explanation": "An Invitation to Bid (ITB) is a formal request sent to contractors, inviting them to submit competitive proposals for providing services or completing a project, which is a standard practice in construction procurement."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:25.784181352Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48209459,
+            "load_duration": 11163626,
+            "prompt_eval_count": 104,
+            "prompt_eval_duration": 9550561,
+            "eval_count": 2,
+            "eval_duration": 26522604
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_4",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a structural element that supports floors or ceilings?",
+        "options": {
+            "A": "Joist Horizontal",
+            "B": "res judicata",
+            "C": "Water Vapor Resistance",
+            "D": "auction rate security (ARS)",
+            "E": "Pre-Design Phase"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Joist Horizontal"
+            },
+            "explanation": "A 'Joist Horizontal' is a structural component used in construction to provide support for floors or ceilings, whereas the other options are unrelated to building structure."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:25.868841697Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45523179,
+            "load_duration": 11066548,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 8607260,
+            "eval_count": 2,
+            "eval_duration": 25038411
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_5",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction, what does the term 'topping out' refer to?",
+        "options": {
+            "A": "Direct writing captive refers to an insurance company that writes policies only for its parent company.",
+            "B": "Topping out is when the uppermost beam or structural member is placed, marking the building reaching its maximum height.",
+            "C": "Capital adequacy is a financial term referring to the sufficiency of a company's capital reserves.",
+            "D": "Lay-up warranty is a type of insurance coverage for property that is temporarily out of use.",
+            "E": "Substandard describes a building or material that does not meet minimum quality requirements."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Topping out is when the uppermost beam or structural member is placed, marking the building reaching its maximum height."
+            },
+            "explanation": "Topping out is a construction milestone celebrated when the highest structural element is installed, indicating the building has reached its full height."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:25.966431059Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 59515989,
+            "load_duration": 11044831,
+            "prompt_eval_count": 166,
+            "prompt_eval_duration": 13646543,
+            "eval_count": 2,
+            "eval_duration": 33933162
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_6",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "What does the term 'Phased Construction' refer to in the context of construction and architecture?",
+        "options": {
+            "A": "A court-issued declaratory judgment regarding property rights before construction begins.",
+            "B": "A risk management process used to identify and mitigate hazards on construction sites.",
+            "C": "A voluntary protection program (VPP) aimed at improving workplace safety standards.",
+            "D": "A type of block insulation used for thermal protection in buildings.",
+            "E": "An incremental approach where various tasks associated with the design phase and construction phase are performed simultaneously to deliver the project faster."
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "An incremental approach where various tasks associated with the design phase and construction phase are performed simultaneously to deliver the project faster."
+            },
+            "explanation": "Phased Construction involves overlapping design and construction activities to accelerate project delivery, unlike traditional sequential methods."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:26.058990906Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 59047854,
+            "load_duration": 11032204,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 13391614,
+            "eval_count": 2,
+            "eval_duration": 33440664
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_7",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction, what term refers to a predicted percentage of materials added to a takeoff to cover unexpected issues?",
+        "options": {
+            "A": "Waste",
+            "B": "rated insurer",
+            "C": "postmortem dividend",
+            "D": "Impale",
+            "E": "Subcontract"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Waste"
+            },
+            "explanation": "In construction, 'waste' is the additional percentage of materials included in estimates to account for unforeseen losses or errors during the building process."
+        },
+        "image_path": null,
+        "model_answer": "A) Waste",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:26.158857306Z",
+            "message": {
+                "role": "assistant",
+                "content": " A) Waste"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 64634238,
+            "load_duration": 11143813,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 8401856,
+            "eval_count": 5,
+            "eval_duration": 44425062
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_8",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In electrical engineering, which term refers to the unit of measurement for apparent power in a circuit, calculated as the product of the root mean square voltage and current?",
+        "options": {
+            "A": "lateral hire",
+            "B": "fundamental frequency",
+            "C": "claim expense",
+            "D": "volt-ampere",
+            "E": "HVAC Zone"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "volt-ampere"
+            },
+            "explanation": "The volt-ampere (VA) is the unit for apparent power, found by multiplying the RMS voltage by the RMS current in an electrical circuit. The other options are unrelated to electrical power measurement."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.394485355Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46738910,
+            "load_duration": 11371556,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 9048261,
+            "eval_count": 2,
+            "eval_duration": 25405056
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_9",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'intellectual property' refer to?",
+        "options": {
+            "A": "Concealed spaces",
+            "B": "Project schedule",
+            "C": "Intangible products of human intelligence, such as patents or copyrights",
+            "D": "Elevator insurance",
+            "E": "Bareboat charter"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Intangible products of human intelligence, such as patents or copyrights"
+            },
+            "explanation": "Intellectual property encompasses creations of the mind, like designs, inventions, and written works, which can be legally protected and monetized, unlike terms related to insurance, schedules, or charters."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.474841476Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46340321,
+            "load_duration": 11262733,
+            "prompt_eval_count": 96,
+            "prompt_eval_duration": 8862152,
+            "eval_count": 2,
+            "eval_duration": 25522660
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_10",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction contracts and insurance policies, what does a 'waiver of subrogation' refer to?",
+        "options": {
+            "A": "A penalty imposed for delayed project completion.",
+            "B": "A formal request for information or clarification during construction.",
+            "C": "A clause allowing the use of smart devices for project monitoring.",
+            "D": "An agreement where an insurer gives up its right to pursue a third party after paying a claim on behalf of the insured."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "An agreement where an insurer gives up its right to pursue a third party after paying a claim on behalf of the insured."
+            },
+            "explanation": "A waiver of subrogation prevents an insurer from seeking recovery from third parties after compensating the insured, which is common in construction contracts to promote cooperation among parties."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.556486684Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 51765455,
+            "load_duration": 11144440,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 10818915,
+            "eval_count": 2,
+            "eval_duration": 28852122
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_11",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction delivery method involves the construction manager acting as both a consultant to the owner during design and as the general contractor during construction, assuming the risk for construction performance and cost?",
+        "options": {
+            "A": "construction management at-risk",
+            "B": "AC (Alternating Current)",
+            "C": "third-party employment practices liability coverage",
+            "D": "backdated liability insurance",
+            "E": "double protection"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "construction management at-risk"
+            },
+            "explanation": "Construction management at-risk is a project delivery method where the construction manager provides pre-construction advice and then assumes responsibility for construction, including cost and schedule, much like a general contractor."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.636226197Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48518603,
+            "load_duration": 11092385,
+            "prompt_eval_count": 111,
+            "prompt_eval_duration": 9685339,
+            "eval_count": 2,
+            "eval_duration": 26643527
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_12",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which organization oversees the development of voluntary consensus standards for products, services, processes, systems, and personnel in the United States, and also coordinates U.S. standards with international standards?",
+        "options": {
+            "A": "capacitance",
+            "B": "ex parte hearings",
+            "C": "broad causes of loss form",
+            "D": "class II railroad",
+            "E": "ANSI"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "ANSI"
+            },
+            "explanation": "ANSI stands for the American National Standards Institute, which is responsible for developing and coordinating voluntary consensus standards in the U.S. and aligning them with international standards."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.724073441Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48614603,
+            "load_duration": 11916561,
+            "prompt_eval_count": 104,
+            "prompt_eval_duration": 9427547,
+            "eval_count": 2,
+            "eval_duration": 26105129
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_13",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a type of insurance coverage that applies in countries with the Napoleonic Code (such as France), often written with a specified sublimit, and provides protection for tenants and neighbors?",
+        "options": {
+            "A": "maturity value",
+            "B": "tenants and neighbors liability",
+            "C": "forum shopping",
+            "D": "outstanding losses",
+            "E": "Glass Cloth"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "tenants and neighbors liability"
+            },
+            "explanation": "Tenants and neighbors liability is a specific insurance coverage relevant in countries with the Napoleonic Code, such as France, and provides protection for tenants and neighbors, often with a sublimit. The other options are unrelated insurance or legal terms."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.807623262Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48985445,
+            "load_duration": 12187097,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 9557985,
+            "eval_count": 2,
+            "eval_duration": 26406297
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_14",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of Procore's Conversations tool, what does the term 'Thread' refer to?",
+        "options": {
+            "A": "Solvent",
+            "B": "Quick Response Code",
+            "C": "builders risk policy (BR)",
+            "D": "Contractor Schedule of Values",
+            "E": "A grouping of one or more messages started by replying to another message"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "A grouping of one or more messages started by replying to another message"
+            },
+            "explanation": "In Procore's Conversations tool, a 'Thread' is a collection of messages grouped together when someone replies to a specific message, allowing focused discussions within a conversation."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.891688511Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48594690,
+            "load_duration": 12044682,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 9372869,
+            "eval_count": 2,
+            "eval_duration": 26416912
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_15",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction projects, what does the term 'Contingency' refer to?",
+        "options": {
+            "A": "An amount of money held in reserve to pay for accidental or additional unforeseen costs during a construction project.",
+            "B": "Acute angle",
+            "C": "Customer Relationship Management",
+            "D": "Pain and suffering"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "An amount of money held in reserve to pay for accidental or additional unforeseen costs during a construction project."
+            },
+            "explanation": "A contingency is a financial buffer included in construction budgets to cover unexpected expenses, ensuring the project can proceed smoothly despite unforeseen events."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:27.974108995Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46575126,
+            "load_duration": 11782386,
+            "prompt_eval_count": 92,
+            "prompt_eval_duration": 8680627,
+            "eval_count": 2,
+            "eval_duration": 25225074
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_16",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and plumbing, which term refers to items used to change the size, direction of flow, level, or assembly of piping, excluding unions, grooved couplings, flanges, valves, or strainers?",
+        "options": {
+            "A": "Fittings",
+            "B": "process wastewater",
+            "C": "backhauling",
+            "D": "Zero Defects (ZD)",
+            "E": "surplus"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Fittings"
+            },
+            "explanation": "Fittings are components used in piping systems to alter the direction, size, or configuration of the pipes, but do not include unions, couplings, flanges, valves, or strainers."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.063107294Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48615911,
+            "load_duration": 11652950,
+            "prompt_eval_count": 115,
+            "prompt_eval_duration": 9562063,
+            "eval_count": 2,
+            "eval_duration": 26596667
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_17",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction or architecture term refers to insurance on the transfer risks created when an overseas sale is paid in the buyer's currency and deposited to the insured's account in the buyer's country?",
+        "options": {
+            "A": "dwelling",
+            "B": "intrapolicy stacking",
+            "C": "common law liability",
+            "D": "profit sharing plan",
+            "E": "exchange transfer embargo indemnity"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "exchange transfer embargo indemnity"
+            },
+            "explanation": "Exchange transfer embargo indemnity specifically insures against the risk that payment for an overseas sale, made in the buyer's currency and deposited in the buyer's country, cannot be transferred to the seller due to government restrictions or embargoes."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.148323468Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 51649588,
+            "load_duration": 11833518,
+            "prompt_eval_count": 114,
+            "prompt_eval_duration": 10486776,
+            "eval_count": 2,
+            "eval_duration": 28527283
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_18",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a category of loss exposures related to an organization's employees that can be addressed through risk management processes in construction and architecture?",
+        "options": {
+            "A": "acute angle",
+            "B": "personnel risk",
+            "C": "prohibited transactions",
+            "D": "expected morbidity",
+            "E": "commission"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "personnel risk"
+            },
+            "explanation": "Personnel risk involves the potential loss or disruption to an organization due to issues affecting its employees, and is a key category managed in risk management for construction and architecture."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.228613182Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45939734,
+            "load_duration": 11724148,
+            "prompt_eval_count": 90,
+            "prompt_eval_duration": 8631478,
+            "eval_count": 2,
+            "eval_duration": 24788425
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_19",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which term describes a material or structure that is impervious to prolonged exposure to water or water entry?",
+        "options": {
+            "A": "Extended discovery period (EDP)",
+            "B": "Free fall",
+            "C": "Probable maximum loss (PML)",
+            "D": "Waterproof",
+            "E": "Net line"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Waterproof"
+            },
+            "explanation": "The term 'waterproof' refers to materials or structures designed to prevent water from penetrating, even after prolonged exposure, making them essential in construction to protect against water damage."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.307513137Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46416231,
+            "load_duration": 11780433,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 8762973,
+            "eval_count": 2,
+            "eval_duration": 24856712
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_20",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and insurance contexts, what does the term 'notice to the company' refer to?",
+        "options": {
+            "A": "Tender is the act of offering payment or performance to satisfy a debt or obligation.",
+            "B": "Disciplinary proceeding expense coverage is insurance that covers costs associated with defending against disciplinary actions.",
+            "C": "Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based.",
+            "D": "Maximum plan limits are the highest amounts that an insurance plan will pay for covered services.",
+            "E": "Lifetime limit refers to the maximum amount an insurance policy will pay over the life of the policy."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based."
+            },
+            "explanation": "Notice to the company specifically means informing the insurer in writing about an event that could lead to a claim, which is crucial for initiating the claims process."
+        },
+        "image_path": null,
+        "model_answer": "(C) Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.581078968Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) Notice to the company is written notice to the insurer as to an occurrence upon which a claim is to be based."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 235899035,
+            "load_duration": 11247735,
+            "prompt_eval_count": 173,
+            "prompt_eval_duration": 13754774,
+            "eval_count": 28,
+            "eval_duration": 209904118
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_21",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to a structure that is designed to conserve energy, utilize environmentally friendly materials, and promote a healthy environment for occupants?",
+        "options": {
+            "A": "payment bond",
+            "B": "Green Building",
+            "C": "Financial Anti-Terrorism Act of 2001 FATA",
+            "D": "exterior insulation and finish systems (EIFS)",
+            "E": "omnibus clause"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Green Building"
+            },
+            "explanation": "A green building is specifically designed to minimize environmental impact through energy efficiency, sustainable materials, and healthy indoor environments, unlike the other options which refer to financial, legal, or specific construction system terms."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.664185002Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48450124,
+            "load_duration": 11238667,
+            "prompt_eval_count": 111,
+            "prompt_eval_duration": 9762869,
+            "eval_count": 2,
+            "eval_duration": 26625639
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_22",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of construction contracts, what does the term 'novation' refer to?",
+        "options": {
+            "A": "A 'chameleon carrier' that changes its business structure to avoid liabilities.",
+            "B": "The substitution of a new contract or party in place of an original one, with the consent of all parties involved.",
+            "C": "A legal liability coverage form used to protect contractors against third-party claims.",
+            "D": "Direct damage coverage for physical loss to a construction project.",
+            "E": "A retaliatory law that affects the enforcement of construction contracts."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The substitution of a new contract or party in place of an original one, with the consent of all parties involved."
+            },
+            "explanation": "In construction contracts, novation is the process by which an original contract is replaced with a new one, or an original party is replaced by a new party, with the agreement of all parties. This differs from assignment, as novation extinguishes the original contract and creates new obligations."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.770636061Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 59759995,
+            "load_duration": 11893207,
+            "prompt_eval_count": 149,
+            "prompt_eval_duration": 13283319,
+            "eval_count": 2,
+            "eval_duration": 33579684
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_23",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following best describes an 'Owner Invoice' in construction and architecture?",
+        "options": {
+            "A": "Occupational injury",
+            "B": "Ponzi scheme",
+            "C": "Hacktivist",
+            "D": "Falsework",
+            "E": "An application for payment, typically submitted by a General Contractor or Construction Manager to an Owner, providing an itemized record of the amount due for work performed."
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "An application for payment, typically submitted by a General Contractor or Construction Manager to an Owner, providing an itemized record of the amount due for work performed."
+            },
+            "explanation": "An Owner Invoice is a formal request for payment from the contractor to the owner, detailing the work completed and the amount owed, which is a standard process in construction project management."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.861461006Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 49502669,
+            "load_duration": 12561205,
+            "prompt_eval_count": 109,
+            "prompt_eval_duration": 9571053,
+            "eval_count": 2,
+            "eval_duration": 26560269
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_24",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'Due Diligence' refer to?",
+        "options": {
+            "A": "Severity",
+            "B": "Cable Communications Policy Act of 1984 (CCPA)",
+            "C": "Non-Measured Costs",
+            "D": "Due Diligence",
+            "E": "Building line"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Due Diligence"
+            },
+            "explanation": "Due diligence is the process of exercising proper care and attention to a business transaction, ensuring all relevant facts and risks are thoroughly assessed before proceeding."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:28.944067598Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46410746,
+            "load_duration": 12182933,
+            "prompt_eval_count": 96,
+            "prompt_eval_duration": 8621413,
+            "eval_count": 2,
+            "eval_duration": 24901310
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_25",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction or real estate term describes a situation where a property owner has a right to use a portion of an adjacent property owned by someone else?",
+        "options": {
+            "A": "Collateral",
+            "B": "Particleboard",
+            "C": "Easement appurtenant",
+            "D": "Approval Path",
+            "E": "Cross-liability endorsement"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Easement appurtenant"
+            },
+            "explanation": "An easement appurtenant is a legal right attached to a property that allows the owner to use part of a neighboring property, typically for access or utilities. The other options are unrelated to property rights."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:29.026815853Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46352022,
+            "load_duration": 11897469,
+            "prompt_eval_count": 96,
+            "prompt_eval_duration": 8774377,
+            "eval_count": 2,
+            "eval_duration": 24896877
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_26",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following insurance forms is specifically designed to cover the real property interest and personal property of individuals who own a unit in a condominium or share ownership in a cooperative building?",
+        "options": {
+            "A": "Homeowners Policy Unit Owners Form 6 (HO 6)",
+            "B": "Certified Business Enterprise",
+            "C": "Carriage of Goods by Sea Act of 1936 (COGSA)",
+            "D": "QA (Quality Assurance)",
+            "E": "commutation clause"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Homeowners Policy Unit Owners Form 6 (HO 6)"
+            },
+            "explanation": "The HO 6 form is tailored for condo or co-op unit owners, providing coverage for their property interests and personal belongings, unlike the other options listed."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:29.118518448Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 54935892,
+            "load_duration": 11873446,
+            "prompt_eval_count": 135,
+            "prompt_eval_duration": 11643703,
+            "eval_count": 2,
+            "eval_duration": 30469914
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_27",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'AC power' refer to?",
+        "options": {
+            "A": "A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow.",
+            "B": "Basket deductible",
+            "C": "Wedge",
+            "D": "Manuscript form or policy",
+            "E": "Whistleblower statutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow."
+            },
+            "explanation": "AC power refers to electrical energy delivered in the form of alternating current, which periodically reverses direction, unlike DC power. This is a fundamental concept in building electrical systems."
+        },
+        "image_path": null,
+        "model_answer": "A) A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:29.464999335Z",
+            "message": {
+                "role": "assistant",
+                "content": " A) A type of electric power in alternating current circuits, wherein energy storage elements such as inductors and capacitors may result in periodic reversals of the direction of energy flow."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 305820702,
+            "load_duration": 11971930,
+            "prompt_eval_count": 116,
+            "prompt_eval_duration": 10638839,
+            "eval_count": 40,
+            "eval_duration": 282416383
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_28",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following terms refers to a policy provision that compels the insured to assist an insurer in defending claims under a policy?",
+        "options": {
+            "A": "bailee coverage",
+            "B": "cooperation clause",
+            "C": "presumptive indemnification provision",
+            "D": "comprehensive boiler and machinery coverage",
+            "E": "mortgagor"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "cooperation clause"
+            },
+            "explanation": "A cooperation clause is a provision in an insurance policy that requires the insured to work with the insurer in the defense of claims, such as providing information and attending legal proceedings."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:29.552396178Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 47894558,
+            "load_duration": 11192603,
+            "prompt_eval_count": 102,
+            "prompt_eval_duration": 9558715,
+            "eval_count": 2,
+            "eval_duration": 26419165
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_29",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction law, which term refers to a law that limits the period during which legal action can be taken against a contractor for defects in completed work on real property?",
+        "options": {
+            "A": "statute of repose",
+            "B": "Commissioners Standard Ordinary 1958 Mortality Table (CSO Table)",
+            "C": "mandated reporter",
+            "D": "depreciation",
+            "E": "management liability insurance"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "statute of repose"
+            },
+            "explanation": "A statute of repose sets a strict deadline for filing claims related to construction defects, protecting contractors from indefinite liability. The other terms are unrelated to construction defect claims."
+        },
+        "image_path": null,
+        "model_answer": "A) statute of repose",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:29.676834859Z",
+            "message": {
+                "role": "assistant",
+                "content": " A) statute of repose"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 90187775,
+            "load_duration": 11161135,
+            "prompt_eval_count": 114,
+            "prompt_eval_duration": 10531081,
+            "eval_count": 8,
+            "eval_duration": 67582197
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_30",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to insurance that is written in an amount approximating the value of the subject of insurance or that meets coinsurance requirements?",
+        "options": {
+            "A": "insurance to value",
+            "B": "gross negligence",
+            "C": "root-mean-square",
+            "D": "controlled master insurance program",
+            "E": "\"sudden and accidental\""
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "insurance to value"
+            },
+            "explanation": "Insurance to value ensures that the insured amount closely matches the actual value of the property or meets coinsurance requirements, helping avoid underinsurance penalties."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:30.844781188Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 49168484,
+            "load_duration": 11646264,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 9704302,
+            "eval_count": 2,
+            "eval_duration": 26719122
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_31",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to the engineering discipline that determines the stresses and strains in materials and structures subjected to forces?",
+        "options": {
+            "A": "Ventilating Duct",
+            "B": "stress–strain analysis",
+            "C": "policy",
+            "D": "superseded surety rider",
+            "E": "chameleon carrier"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "stress–strain analysis"
+            },
+            "explanation": "Stress–strain analysis is the process of determining how materials and structures respond to forces, focusing on internal stresses and resulting deformations, which is essential in engineering and architecture."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:30.928667864Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 47096863,
+            "load_duration": 12159726,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 8755924,
+            "eval_count": 2,
+            "eval_duration": 25316010
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_32",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which of the following refers to a legacy product that was replaced by Procore Drive in the construction industry?",
+        "options": {
+            "A": "fleet policy, aircraft",
+            "B": "franchise deductible",
+            "C": "American Association of Insurance Services (AAIS)",
+            "D": "Owner",
+            "E": "Procore for Desktop"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Procore for Desktop"
+            },
+            "explanation": "Procore for Desktop (P4D) was a legacy software product used in construction management, later replaced by Procore Drive. The other options are unrelated to construction software."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.00884321Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46853040,
+            "load_duration": 11767313,
+            "prompt_eval_count": 92,
+            "prompt_eval_duration": 8906697,
+            "eval_count": 2,
+            "eval_duration": 25315930
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_33",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term in construction project management refers to a field used to categorize a project according to its scope, such as New Construction or Renovation/Alteration, especially in Procore?",
+        "options": {
+            "A": "zone rating",
+            "B": "Punch List",
+            "C": "remedial design",
+            "D": "claims-made reinsurance",
+            "E": "Work Scope"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Work Scope"
+            },
+            "explanation": "Work Scope is the correct term because it defines the extent and category of work to be performed on a project, such as New Construction or Renovation/Alteration, especially in project management platforms like Procore."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.092062723Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48384145,
+            "load_duration": 11291212,
+            "prompt_eval_count": 102,
+            "prompt_eval_duration": 9550777,
+            "eval_count": 2,
+            "eval_duration": 26700773
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_34",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to a thermal resistivity assigned to a material that exhibits thermal transmission by three modes of heat transfer, resulting in property variation with specimen thickness or surface emittance?",
+        "options": {
+            "A": "Embedded Value",
+            "B": "Boatowners Policy",
+            "C": "Economic Cost of Ruin (ECOR)",
+            "D": "Apparent Thermal Resistivity",
+            "E": "Bonding"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Apparent Thermal Resistivity"
+            },
+            "explanation": "Apparent Thermal Resistivity is specifically defined as the thermal resistivity assigned to materials where heat transfer occurs by three modes, causing the property to vary with thickness or surface emittance. The other options are unrelated to thermal properties or construction."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.179878369Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48928919,
+            "load_duration": 11314021,
+            "prompt_eval_count": 112,
+            "prompt_eval_duration": 9815894,
+            "eval_count": 2,
+            "eval_duration": 26802642
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_35",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which project management technique identifies the sequence of critical and non-critical activities to determine the minimum project duration and highlights the longest path through the project schedule?",
+        "options": {
+            "A": "Critical Path Method",
+            "B": "extra premium",
+            "C": "Critical lift",
+            "D": "fee schedule",
+            "E": "zone system"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Critical Path Method"
+            },
+            "explanation": "The Critical Path Method (CPM) is a project management technique used to schedule project activities, identifying the longest sequence of dependent tasks (the critical path) that determines the shortest possible project duration."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.2604883Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45916651,
+            "load_duration": 11186499,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 8703563,
+            "eval_count": 2,
+            "eval_duration": 25091385
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_36",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what is an 'Insulation Hanger'?",
+        "options": {
+            "A": "Deferred acquisition cost (DAC)",
+            "B": "Notice to the company",
+            "C": "\"Limits reduction\" provision",
+            "D": "Short Interval Schedule",
+            "E": "A device such as a welded pin, stud or adhesive secured fastener that carries the weight of insulation."
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "A device such as a welded pin, stud or adhesive secured fastener that carries the weight of insulation."
+            },
+            "explanation": "An insulation hanger is specifically designed to support and secure insulation materials to walls, ceilings, or other surfaces, ensuring they remain in place."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.344842361Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48097767,
+            "load_duration": 11225165,
+            "prompt_eval_count": 112,
+            "prompt_eval_duration": 9586373,
+            "eval_count": 2,
+            "eval_duration": 26505175
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_37",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of construction and building science, what does the term 'Steady State (Thermal)' refer to?",
+        "options": {
+            "A": "Compound inflation rider",
+            "B": "A condition for which all relevant parameters in a region do not vary over two consecutive steady-state time periods by more than the steady-state tolerance, and no long-term monotonic drifts are present.",
+            "C": "Letter of Approval",
+            "D": "Eligibility period",
+            "E": "Fixed amount option"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A condition for which all relevant parameters in a region do not vary over two consecutive steady-state time periods by more than the steady-state tolerance, and no long-term monotonic drifts are present."
+            },
+            "explanation": "Steady State (Thermal) describes a thermal condition where variables such as temperature remain constant over time, indicating no ongoing changes or drifts in the system."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.432842362Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 53897753,
+            "load_duration": 11118298,
+            "prompt_eval_count": 131,
+            "prompt_eval_duration": 11554555,
+            "eval_count": 2,
+            "eval_duration": 30345816
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_38",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which of the following best describes a 'hazard'?",
+        "options": {
+            "A": "Grace period",
+            "B": "Existential cost of risk (XCOR)",
+            "C": "Hearing care insurance",
+            "D": "Designated workplaces exclusion endorsement",
+            "E": "A situation or condition that makes loss or damage more likely"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "A situation or condition that makes loss or damage more likely"
+            },
+            "explanation": "A hazard is any situation or condition that increases the likelihood of loss or damage, which is critical to identify and manage in construction and architecture for safety and risk mitigation."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.517404371Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48434801,
+            "load_duration": 11758918,
+            "prompt_eval_count": 102,
+            "prompt_eval_duration": 9450763,
+            "eval_count": 2,
+            "eval_duration": 26195276
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_39",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to the process of planning and controlling costs associated with the planning, design, and construction process to ensure a project remains within its budget?",
+        "options": {
+            "A": "ex-medical coverage",
+            "B": "Cost Management",
+            "C": "healthcare reimbursement plan",
+            "D": "Employee Retirement Income Security Act Section 510",
+            "E": "surface tension"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Cost Management"
+            },
+            "explanation": "Cost Management specifically involves planning and controlling project costs to keep construction projects within budget, unlike the other options which are unrelated to construction or architecture."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.597676659Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48491520,
+            "load_duration": 12020985,
+            "prompt_eval_count": 104,
+            "prompt_eval_duration": 9461521,
+            "eval_count": 2,
+            "eval_duration": 26211871
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_40",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to insurance that covers damage to or destruction of others' aircraft while in the insured's custody for storage, repair, or safekeeping on scheduled premises?",
+        "options": {
+            "A": "System Administrator",
+            "B": "hangar keepers liability",
+            "C": "Fabrication",
+            "D": "IFB (invitation for bid)",
+            "E": "contents rate"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "hangar keepers liability"
+            },
+            "explanation": "Hangar keepers liability is a specific insurance policy designed to protect those who store, repair, or care for aircraft belonging to others, covering damages that may occur while the aircraft is in their custody."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.680599341Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48542720,
+            "load_duration": 12072474,
+            "prompt_eval_count": 105,
+            "prompt_eval_duration": 9336082,
+            "eval_count": 2,
+            "eval_duration": 26173856
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_41",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture insurance terminology, what does the term 'personal injury (PI)' refer to?",
+        "options": {
+            "A": "Coverage for non-physical harm such as libel, slander, or invasion of privacy under liability policies",
+            "B": "Fermat's principle",
+            "C": "Cost codes",
+            "D": "Abutment Supporting",
+            "E": "Multiple coordinated policies"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Coverage for non-physical harm such as libel, slander, or invasion of privacy under liability policies"
+            },
+            "explanation": "Personal injury (PI) in insurance refers to coverage for harms like libel, slander, or invasion of privacy, which are not bodily injuries but can result in legal liability."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.765133567Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 49046045,
+            "load_duration": 12013879,
+            "prompt_eval_count": 110,
+            "prompt_eval_duration": 9585239,
+            "eval_count": 2,
+            "eval_duration": 26583232
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_42",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which term refers to the quality of a material to be basic or alkaline when exposed to moisture, producing a blue reaction to litmus paper and having a pH greater than 7.0?",
+        "options": {
+            "A": "Geotechnical Engineering",
+            "B": "motor home policy",
+            "C": "Excavation",
+            "D": "residual market load (RML)",
+            "E": "Alkalinity"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Alkalinity"
+            },
+            "explanation": "Alkalinity describes the basic nature of a material, indicated by a pH above 7 and a blue litmus test result, which is relevant for materials exposed to moisture in construction."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.85063608Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48597933,
+            "load_duration": 11829838,
+            "prompt_eval_count": 115,
+            "prompt_eval_duration": 9543944,
+            "eval_count": 2,
+            "eval_duration": 26489946
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_43",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, which term refers to an agreement between two or more parties that includes mutual assent, competent parties, valid consideration, and legal subject matter?",
+        "options": {
+            "A": "stacking",
+            "B": "chain reaction",
+            "C": "petroleum engineering",
+            "D": "accidental death insurance",
+            "E": "contract"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "contract"
+            },
+            "explanation": "A contract is a legally binding agreement between parties, essential in construction to define obligations and rights. The other terms are unrelated to legal agreements in construction."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:31.934106152Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44925248,
+            "load_duration": 11011391,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 8464809,
+            "eval_count": 2,
+            "eval_duration": 24736255
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_44",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and real estate, what is a 'sale bond'?",
+        "options": {
+            "A": "A financial model used to determine the expected return of an asset.",
+            "B": "A measure of an investor's willingness to take on risk in a project.",
+            "C": "An average of different insurance rates combined into one figure.",
+            "D": "A real estate transaction bond used as a guaranty when a fiduciary makes a sale.",
+            "E": "An insurance policy that protects a lender's interest in a property."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "A real estate transaction bond used as a guaranty when a fiduciary makes a sale."
+            },
+            "explanation": "A sale bond serves as a guarantee in real estate transactions, ensuring that a fiduciary fulfills their obligations during a sale."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:32.027529938Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 54783262,
+            "load_duration": 11160976,
+            "prompt_eval_count": 141,
+            "prompt_eval_duration": 11742058,
+            "eval_count": 2,
+            "eval_duration": 30950732
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Standard_Nomenclature_45",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In the context of construction and architecture finance, what does the term 'effective tax rate' refer to?",
+        "options": {
+            "A": "Integrated Project Delivery (IPD)",
+            "B": "The sum of federal and state taxes applicable to an insured's income, taking into account losses carried forward.",
+            "C": "Guarantee",
+            "D": "McCarran-Ferguson Act (Public Law 15) of 1945",
+            "E": "discontinuance"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The sum of federal and state taxes applicable to an insured's income, taking into account losses carried forward."
+            },
+            "explanation": "The effective tax rate is a financial term that describes the actual rate at which an individual's or company's income is taxed, factoring in all applicable taxes and adjustments such as losses carried forward, rather than just the statutory tax rate."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:32.113459948Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 51802301,
+            "load_duration": 11086023,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 10768764,
+            "eval_count": 2,
+            "eval_duration": 29041969
+        },
+        "judge": "Correct"
+    }
+]

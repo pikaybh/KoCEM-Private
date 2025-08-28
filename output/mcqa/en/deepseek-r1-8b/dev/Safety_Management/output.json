@@ -1,0 +1,130 @@
+[
+    {
+        "id": "dev_Safety_Management_2195",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.1599999964237213,
+        "question": "Which of the following is information needed for biomechanical analysis?",
+        "options": {
+            "A": "Heart rate, calories per minute, oxygen uptake",
+            "B": "Distance, weight, angle",
+            "C": "Temperature, noise level, illumination",
+            "D": "Height, waist circumference"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Distance, weight, angle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:48:41.671020901Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Safety_Management_2517",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6700000166893005,
+        "question": "When performing steel frame work, work must be stopped during severe weather. Which of the following is the correct criterion for this?",
+        "options": {
+            "A": "When snowfall exceeds 1 cm per minute",
+            "B": "When rainfall exceeds 1 cm per hour",
+            "C": "When wind speed exceeds 10 meters per second",
+            "D": "When the temperature exceeds 28°C"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When wind speed exceeds 10 meters per second"
+            },
+            "explanation": "- When wind speed exceeds 10 meters per second\n- When rainfall exceeds 1 mm per hour\n- When snowfall exceeds 1 cm per hour"
+        },
+        "image_path": null,
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:48:43.698896657Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Safety_Management_5362",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.44999998807907104,
+        "question": "The following is the regulation on the prohibition of use for wire ropes with splices. What is the appropriate number to fill in the blank?",
+        "options": {
+            "A": "5",
+            "B": "7",
+            "C": "10",
+            "D": "15"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bj/bj20080907/bj20080907m83.gif?1522617633",
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:48:45.16750662Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Safety_Management_4883",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.699999988079071,
+        "question": "Which of the following is the correct safety rule when pouring concrete?",
+        "options": {
+            "A": "Concrete should be poured all to one side.",
+            "B": "Even if there is a risk of formwork collapse during concrete pouring, the work should be completed first before assessing the situation.",
+            "C": "Concrete that has spilled onto the floor should be left to cure as is.",
+            "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "For the topmost slab, avoid cold joints as much as possible and pour the entire slab at once."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+        "parsed_pred": "Unknown",
+        "full_response": {
+            "model": "deepseek-r1:8b",
+            "created_at": "2025-08-28T05:48:47.097960452Z",
+            "message": {
+                "role": "assistant",
+                "content": "GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG"
+            },
+            "done": false
+        },
+        "judge": "Wrong"
+    }
+]

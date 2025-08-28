@@ -1,0 +1,17 @@
+{
+    "dev_Architectural_Planning_1222": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "dev_Architectural_Planning_1067": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "dev_Architectural_Planning_303": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    }
+}

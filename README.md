@@ -18,7 +18,9 @@
 <tr><td>3</td><td>gpt-oss-120b</td><td>82.98%</td><td>66.67%</td><td>60.00%</td><td>33.33%</td><td>100.00%</td><td>66.67%</td><td>66.67%</td><td>83.33%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td><td>100.00%</td></tr>
 <tr><td>4</td><td>gpt-4.1</td><td>78.72%</td><td>66.67%</td><td>80.00%</td><td>66.67%</td><td>100.00%</td><td>33.33%</td><td>100.00%</td><td>83.33%</td><td>87.50%</td><td>75.00%</td><td>100.00%</td><td>0.00%</td></tr>
 <tr><td>5</td><td>gpt-oss-20b</td><td>72.34%</td><td>66.67%</td><td>80.00%</td><td>33.33%</td><td>100.00%</td><td>33.33%</td><td>66.67%</td><td>50.00%</td><td>75.00%</td><td>75.00%</td><td>100.00%</td><td>100.00%</td></tr>
-<tr><td>6</td><td>llama4-scout</td><td>46.81%</td><td>33.33%</td><td>60.00%</td><td>33.33%</td><td>20.00%</td><td>66.67%</td><td>66.67%</td><td>50.00%</td><td>50.00%</td><td>50.00%</td><td>40.00%</td><td>50.00%</td></tr>
+<tr><td>6</td><td>llava-13b</td><td>55.32%</td><td>0.00%</td><td>40.00%</td><td>33.33%</td><td>100.00%</td><td>0.00%</td><td>66.67%</td><td>33.33%</td><td>62.50%</td><td>75.00%</td><td>100.00%</td><td>50.00%</td></tr>
+<tr><td>7</td><td>llava-7b</td><td>53.19%</td><td>66.67%</td><td>20.00%</td><td>33.33%</td><td>80.00%</td><td>33.33%</td><td>33.33%</td><td>33.33%</td><td>50.00%</td><td>75.00%</td><td>100.00%</td><td>50.00%</td></tr>
+<tr><td>8</td><td>llama4-scout</td><td>46.81%</td><td>33.33%</td><td>60.00%</td><td>33.33%</td><td>20.00%</td><td>66.67%</td><td>66.67%</td><td>50.00%</td><td>50.00%</td><td>50.00%</td><td>40.00%</td><td>50.00%</td></tr>
 </tbody>
 </table>
 
@@ -35,6 +37,8 @@
 <tr><td>4</td><td>gpt-oss-120b</td><td>69.23%</td><td>71.80%</td><td>72.48%</td><td>24.22%</td><td>70.29%</td><td>53.73%</td><td>36.89%</td><td>59.66%</td><td>85.01%</td><td>69.68%</td><td>100.00%</td><td>55.26%</td></tr>
 <tr><td>5</td><td>gpt-oss-20b</td><td>66.24%</td><td>68.11%</td><td>69.21%</td><td>30.43%</td><td>67.42%</td><td>42.75%</td><td>45.90%</td><td>54.34%</td><td>78.13%</td><td>68.35%</td><td>99.56%</td><td>52.63%</td></tr>
 <tr><td>6</td><td>llama4-scout</td><td>55.44%</td><td>58.79%</td><td>61.85%</td><td>18.01%</td><td>59.22%</td><td>52.94%</td><td>31.97%</td><td>52.10%</td><td>66.34%</td><td>57.18%</td><td>57.56%</td><td>52.34%</td></tr>
+<tr><td>7</td><td>llava-7b</td><td>49.10%</td><td>53.15%</td><td>45.78%</td><td>19.25%</td><td>48.36%</td><td>23.53%</td><td>31.15%</td><td>41.46%</td><td>53.07%</td><td>46.54%</td><td>97.33%</td><td>30.41%</td></tr>
+<tr><td>8</td><td>llava-13b</td><td>48.60%</td><td>51.19%</td><td>45.50%</td><td>28.57%</td><td>45.29%</td><td>21.57%</td><td>27.87%</td><td>39.22%</td><td>54.79%</td><td>47.87%</td><td>98.67%</td><td>27.49%</td></tr>
 </tbody>
 </table>
 
@@ -51,6 +55,8 @@
 <tr><td>4</td><td>gpt-oss-20b</td><td>60.71%</td><td>65.85%</td><td>67.35%</td><td>31.85%</td><td>79.41%</td><td>30.00%</td><td>33.33%</td><td>69.57%</td><td>86.05%</td><td>75.61%</td><td>100.00%</td><td>61.76%</td></tr>
 <tr><td>5</td><td>gpt-oss-120b</td><td>60.31%</td><td>75.61%</td><td>73.47%</td><td>29.94%</td><td>73.53%</td><td>50.00%</td><td>33.33%</td><td>65.22%</td><td>83.72%</td><td>80.49%</td><td>100.00%</td><td>47.06%</td></tr>
 <tr><td>6</td><td>llama4-scout</td><td>46.95%</td><td>63.41%</td><td>57.14%</td><td>16.56%</td><td>73.53%</td><td>20.00%</td><td>33.33%</td><td>65.22%</td><td>55.81%</td><td>73.17%</td><td>57.78%</td><td>55.88%</td></tr>
+<tr><td>7</td><td>llava-13b</td><td>44.40%</td><td>36.59%</td><td>44.90%</td><td>32.48%</td><td>35.29%</td><td>20.00%</td><td>22.22%</td><td>36.96%</td><td>58.14%</td><td>58.54%</td><td>100.00%</td><td>32.35%</td></tr>
+<tr><td>8</td><td>llava-7b</td><td>42.63%</td><td>48.78%</td><td>46.94%</td><td>26.11%</td><td>35.29%</td><td>20.00%</td><td>33.33%</td><td>39.13%</td><td>48.84%</td><td>56.10%</td><td>97.78%</td><td>29.41%</td></tr>
 </tbody>
 </table>
 
@@ -67,6 +73,8 @@
 <tr><td>4</td><td>gpt-oss-120b</td><td>68.33%</td><td>72.08%</td><td>72.45%</td><td>27.10%</td><td>70.78%</td><td>53.73%</td><td>37.31%</td><td>60.64%</td><td>85.15%</td><td>71.02%</td><td>100.00%</td><td>54.76%</td></tr>
 <tr><td>5</td><td>gpt-oss-20b</td><td>65.66%</td><td>67.92%</td><td>69.12%</td><td>31.15%</td><td>68.50%</td><td>42.16%</td><td>45.52%</td><td>55.99%</td><td>78.82%</td><td>69.12%</td><td>99.60%</td><td>53.70%</td></tr>
 <tr><td>6</td><td>llama4-scout</td><td>54.35%</td><td>59.01%</td><td>61.28%</td><td>17.45%</td><td>59.77%</td><td>51.87%</td><td>32.84%</td><td>53.55%</td><td>65.07%</td><td>58.67%</td><td>57.40%</td><td>52.65%</td></tr>
+<tr><td>7</td><td>llava-7b</td><td>48.39%</td><td>52.87%</td><td>45.61%</td><td>22.74%</td><td>47.82%</td><td>23.51%</td><td>31.34%</td><td>41.08%</td><td>52.62%</td><td>47.74%</td><td>97.40%</td><td>30.42%</td></tr>
+<tr><td>8</td><td>llava-13b</td><td>48.18%</td><td>49.70%</td><td>45.37%</td><td>30.53%</td><td>45.16%</td><td>21.27%</td><td>28.36%</td><td>38.88%</td><td>55.24%</td><td>49.17%</td><td>98.80%</td><td>28.04%</td></tr>
 </tbody>
 </table>
 

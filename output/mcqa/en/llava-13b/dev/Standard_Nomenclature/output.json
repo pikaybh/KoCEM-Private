@@ -1,0 +1,202 @@
+[
+    {
+        "id": "dev_Standard_Nomenclature_1",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction or architecture term refers to the process by which water vapor spreads or moves through permeable materials due to a difference in water vapor pressure?",
+        "options": {
+            "A": "air quality standards",
+            "B": "expiration file",
+            "C": "voluntary reserve",
+            "D": "commutation",
+            "E": "Water Vapor Diffusion"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Water Vapor Diffusion"
+            },
+            "explanation": "Water Vapor Diffusion describes the movement of water vapor through materials as a result of vapor pressure differences, a key concept in building science for managing moisture."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:48:05.694687136Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46931516,
+            "load_duration": 11440255,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 9042671,
+            "eval_count": 2,
+            "eval_duration": 25495064
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_2",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "In construction and architecture, what does the term 'Damming' refer to?",
+        "options": {
+            "A": "Damming",
+            "B": "return on equity (ROE)",
+            "C": "Kickplate",
+            "D": "scheduled loss",
+            "E": "Elastomeric"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Damming"
+            },
+            "explanation": "Damming is the use of a substance to support firestopping materials until they are cured, ensuring proper placement and effectiveness."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:48:05.775776549Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44026883,
+            "load_duration": 11059748,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 8088364,
+            "eval_count": 2,
+            "eval_duration": 24192370
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_3",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which term refers to a material property that quantifies its ability to resist crack propagation and failure under applied stress, specifically measuring the critical stress intensity factor where a sharp crack rapidly propagates?",
+        "options": {
+            "A": "ICBO",
+            "B": "Construction build out",
+            "C": "fracture toughness",
+            "D": "Master Schedule",
+            "E": "futures contract"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "fracture toughness"
+            },
+            "explanation": "Fracture toughness is a measure of a material's ability to resist the propagation of cracks under stress, making it essential for assessing structural integrity in construction and architecture."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:48:05.856064204Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 47782534,
+            "load_duration": 11050087,
+            "prompt_eval_count": 101,
+            "prompt_eval_duration": 9372354,
+            "eval_count": 2,
+            "eval_duration": 26487204
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_4",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which organization is a not-for-profit research institute focused on conducting and supporting research in the transportation field, particularly emphasizing the trucking industry's role in the US and international marketplace?",
+        "options": {
+            "A": "American Transportation Research Institute (ATRI)",
+            "B": "funds withheld",
+            "C": "misrepresentation",
+            "D": "Cross-Site Request Forgery",
+            "E": "minor's compromise"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "American Transportation Research Institute (ATRI)"
+            },
+            "explanation": "The American Transportation Research Institute (ATRI) is dedicated to research in transportation, especially regarding the trucking industry, while the other options are unrelated legal or technical terms."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:48:05.942891105Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 51139455,
+            "load_duration": 10955549,
+            "prompt_eval_count": 117,
+            "prompt_eval_duration": 10539918,
+            "eval_count": 2,
+            "eval_duration": 28481515
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Standard_Nomenclature_5",
+        "question_type": "multiple-choice",
+        "difficulty": null,
+        "human_acc": null,
+        "question": "Which construction management term refers to a backend configuration option in Procore that automatically calculates estimated response due dates for submittals using a predefined lead time to facilitate timely responses from reviewers?",
+        "options": {
+            "A": "proximate cause",
+            "B": "agent",
+            "C": "PVC (poly vinyl chloride)",
+            "D": "Household Goods Transportation Act of 1980",
+            "E": "Submittal Schedule Calculations"
+        },
+        "ground_truth": {
+            "answer": {
+                "E": "Submittal Schedule Calculations"
+            },
+            "explanation": "Submittal Schedule Calculations is a feature in Procore that automates the calculation of response due dates for submittals, ensuring reviewers respond within the required timeframe. The other options are unrelated to this process."
+        },
+        "image_path": null,
+        "model_answer": "E",
+        "parsed_pred": "E",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:48:06.030364976Z",
+            "message": {
+                "role": "assistant",
+                "content": " E"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 50882812,
+            "load_duration": 10994056,
+            "prompt_eval_count": 119,
+            "prompt_eval_duration": 10481903,
+            "eval_count": 2,
+            "eval_duration": 28541593
+        },
+        "judge": "Correct"
+    }
+]

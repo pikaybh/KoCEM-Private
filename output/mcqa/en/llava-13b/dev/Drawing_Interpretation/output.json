@@ -1,0 +1,122 @@
+[
+    {
+        "id": "dev_Drawing_Interpretation_1",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "What is the structural type of the community center?",
+        "options": {
+            "A": "Reinforced concrete structure",
+            "B": "Steel frame structure",
+            "C": "Wooden structure",
+            "D": "Aluminum frame structure",
+            "E": "Brick structure"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Reinforced concrete structure"
+            },
+            "explanation": "The structural system is specified as reinforced concrete structure in the design conditions section of the architectural overview."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_195.png",
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:04.988693425Z",
+            "message": {
+                "role": "assistant",
+                "content": " A"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 45476533,
+            "load_duration": 11402089,
+            "prompt_eval_count": 75,
+            "prompt_eval_duration": 8357901,
+            "eval_count": 2,
+            "eval_duration": 24594900
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_2",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Considering the required evacuation capacity for the 5th floor of the training facility, what is the minimum total effective width of stairs 1 and 2?",
+        "options": {
+            "A": "4,200 mm",
+            "B": "4,800 mm",
+            "C": "5,400 mm",
+            "D": "6,000 mm",
+            "E": "7,200 mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "4,800 mm"
+            },
+            "explanation": "The maximum evacuation capacity per floor is 600 people, and with a minimum effective stair width of 7 mm per person, the minimum required width is 600 × 7 mm = 4,200 mm. However, since 4,200 mm is not listed among the options and to allow for a design margin, 4,800 mm or more is chosen."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_13.png",
+        "model_answer": "The minimum total effective width of stairs 1 and 2 is 4,200 mm.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:05.225258789Z",
+            "message": {
+                "role": "assistant",
+                "content": " The minimum total effective width of stairs 1 and 2 is 4,200 mm."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 192218361,
+            "load_duration": 11266772,
+            "prompt_eval_count": 114,
+            "prompt_eval_duration": 10451723,
+            "eval_count": 23,
+            "eval_duration": 169836274
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Drawing_Interpretation_3",
+        "question_type": "multiple-choice",
+        "difficulty": "",
+        "human_acc": "",
+        "question": "Which of the following is correct regarding the arrangement and cross-sectional dimensions of the columns on the first and second floors?",
+        "options": {
+            "A": "The arrangement of columns on the first and second floors should be different.",
+            "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor.",
+            "C": "There are more columns on the second floor than on the first floor.",
+            "D": "The columns on the second floor are not made of the same material as those on the first floor.",
+            "E": "The arrangement of columns on the first and second floors is unrelated."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor."
+            },
+            "explanation": "According to the guidelines, the arrangement and cross-sectional dimensions of the columns on the first and second floors must be the same."
+        },
+        "image_path": "converted_images/건축사 자격시험 과년도 출제문제_해설_307.png",
+        "model_answer": "(B) The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:05.494716853Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) The cross-sectional dimensions of the columns on the second floor are the same as those on the first floor."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 228463371,
+            "load_duration": 11794714,
+            "prompt_eval_count": 157,
+            "prompt_eval_duration": 13545810,
+            "eval_count": 27,
+            "eval_duration": 202176118
+        },
+        "judge": "Correct"
+    }
+]

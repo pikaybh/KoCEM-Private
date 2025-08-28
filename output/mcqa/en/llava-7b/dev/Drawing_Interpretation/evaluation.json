@@ -1,0 +1,17 @@
+{
+    "dev_Drawing_Interpretation_1": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "dev_Drawing_Interpretation_2": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "dev_Drawing_Interpretation_3": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    }
+}

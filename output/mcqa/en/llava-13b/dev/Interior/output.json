@@ -1,0 +1,236 @@
+[
+    {
+        "id": "dev_Interior_816",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.36000001430511475,
+        "question": "Which of the following pairs of architect and work is incorrect?",
+        "options": {
+            "A": "Le Corbusier – Guggenheim Museum",
+            "B": "Frank Lloyd Wright – Fallingwater",
+            "C": "Antoni Gaudí – Casa Milà",
+            "D": "William Morris – Red House"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Le Corbusier – Guggenheim Museum"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:40.274325288Z",
+            "message": {
+                "role": "assistant",
+                "content": " D"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46390982,
+            "load_duration": 11386915,
+            "prompt_eval_count": 83,
+            "prompt_eval_duration": 8808762,
+            "eval_count": 2,
+            "eval_duration": 25310468
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_948",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "In the reinforcement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point half the span from the beam support.",
+            "B": "Where the compressive force is the least.",
+            "C": "Where the tensile force is the least.",
+            "D": "At a point one quarter of the span from the beam support."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is the least."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) At a point half the span from the beam support.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:40.443620569Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) At a point half the span from the beam support."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 133102274,
+            "load_duration": 11142499,
+            "prompt_eval_count": 111,
+            "prompt_eval_duration": 9602272,
+            "eval_count": 15,
+            "eval_duration": 111587835
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_799",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "Which of the following bricklaying methods is the strongest?",
+        "options": {
+            "A": "Dutch bond",
+            "B": "English bond",
+            "C": "Flemish bond",
+            "D": "American bond"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "English bond"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:40.52282784Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44144348,
+            "load_duration": 13757702,
+            "prompt_eval_count": 63,
+            "prompt_eval_duration": 7236303,
+            "eval_count": 2,
+            "eval_duration": 22479782
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_789",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5899999737739563,
+        "question": "In the reinforcement arrangement of beams in reinforced concrete structures, where is the most appropriate location for splicing the main bars?",
+        "options": {
+            "A": "At a point halfway (1/2) along the span from the beam support",
+            "B": "Where the compressive force is minimal",
+            "C": "Where the tensile force is minimal",
+            "D": "At a point one-fourth (1/4) along the span from the beam support"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Where the tensile force is minimal"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "The most appropriate location for splicing main bars in reinforced concrete structures would be at a point halfway (1/2) along the span from the beam support, as indicated by option A. This is because the splice will distribute the forces more evenly across the entire length of the beam, reducing stress concentrations and increasing the overall strength and durability of the structure. Option D suggests splicing at a point one-fourth (1/4) along the span from the beam support, which may not provide enough distance between the splices for optimal force distribution. Options B and C are also incorrect because they suggest locating the splice where the compressive or tensile forces are minimal, respectively, but the most important factor is to distribute the forces evenly across the entire length of the beam.",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:41.767123252Z",
+            "message": {
+                "role": "assistant",
+                "content": " The most appropriate location for splicing main bars in reinforced concrete structures would be at a point halfway (1/2) along the span from the beam support, as indicated by option A. This is because the splice will distribute the forces more evenly across the entire length of the beam, reducing stress concentrations and increasing the overall strength and durability of the structure. Option D suggests splicing at a point one-fourth (1/4) along the span from the beam support, which may not provide enough distance between the splices for optimal force distribution. Options B and C are also incorrect because they suggest locating the splice where the compressive or tensile forces are minimal, respectively, but the most important factor is to distribute the forces evenly across the entire length of the beam."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1206588801,
+            "load_duration": 10991664,
+            "prompt_eval_count": 120,
+            "prompt_eval_duration": 17868835,
+            "eval_count": 171,
+            "eval_duration": 1176868403
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Interior_477",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following is NOT considered an evacuation device or equipment (devices or equipment used for evacuation) used in case of fire?",
+        "options": {
+            "A": "Automatic fire alarm system",
+            "B": "Artificial resuscitator",
+            "C": "Emergency lighting",
+            "D": "Emergency escape descent device"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Automatic fire alarm system"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:41.85008662Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 46003811,
+            "load_duration": 11296384,
+            "prompt_eval_count": 92,
+            "prompt_eval_duration": 8899690,
+            "eval_count": 2,
+            "eval_duration": 24951504
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Interior_852",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.28999999165534973,
+        "question": "Which of the following is least related to Byzantine architecture?",
+        "options": {
+            "A": "Pendentive dome",
+            "B": "Dosseret",
+            "C": "Flying buttress",
+            "D": "Mosaic"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Flying buttress"
+            },
+            "explanation": "The flying buttress is from Gothic architecture."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:41:41.929235961Z",
+            "message": {
+                "role": "assistant",
+                "content": " C"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41448349,
+            "load_duration": 11095929,
+            "prompt_eval_count": 70,
+            "prompt_eval_duration": 7183996,
+            "eval_count": 2,
+            "eval_duration": 22509860
+        },
+        "judge": "Correct"
+    }
+]

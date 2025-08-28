@@ -1,0 +1,80 @@
+[
+    {
+        "id": "dev_Structural_Engineering_589",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.4000000059604645,
+        "question": "What is the maximum spacing for hoops (tie reinforcement) in the column shown in the following diagram? (Main bars: 4-D25, Hoop: D10)",
+        "options": {
+            "A": "350mm",
+            "B": "400mm",
+            "C": "480mm",
+            "D": "500mm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "400mm"
+            },
+            "explanation": "The maximum spacing is determined by the smallest of the following three values: 1. 25 x 16 = 400mm, 2. 10 x 48 = 480mm, 3. no more than the shorter side of the column’s cross-section = 500mm. Therefore, the correct answer is 400mm."
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m52.gif?1527167378",
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:34.735852917Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48816983,
+            "load_duration": 11346562,
+            "prompt_eval_count": 102,
+            "prompt_eval_duration": 9606012,
+            "eval_count": 2,
+            "eval_duration": 27016441
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Structural_Engineering_590",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.41999998688697815,
+        "question": "What is the magnitude of the reaction force (combination of horizontal and vertical forces) at hinge point A in the truss shown in the drawing?",
+        "options": {
+            "A": "50.8kN",
+            "B": "51.4kN",
+            "C": "51.5kN",
+            "D": "52.1kN"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "51.5kN"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/bt/bt20100725/bt20100725m53.gif?1527167378",
+        "model_answer": "The reaction force at hinge point A can be calculated as the sum of the forces acting on it in the horizontal and vertical directions. The truss is in equilibrium, so the sum of all forces in any direction must be zero. Therefore, we have:\n\nHorizontal force = -vertical force\n\nThe horizontal force at point A due to the 50 kN load is 50 kN \\* cos(30 degrees) = 42.5 kN. The vertical force due to the 50 kN load is 50 kN \\* sin(30 degrees) = 27.5 kN.\n\nSince the truss is in equilibrium, the sum of all forces acting on it must be zero. Therefore, we have:\n\n42.5 kN - 27.5 kN = -27.5 kN (since the negative sign indicates that this force is directed upwards)\n-27.5 kN + 10 kN (from the 10 kN load on the right side of the truss) = -17.5 kN\n\nTherefore, the magnitude of the reaction force at hinge point A is 17.5 kN, which corresponds to option C: 51.5 kN.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:49:36.721589498Z",
+            "message": {
+                "role": "assistant",
+                "content": " The reaction force at hinge point A can be calculated as the sum of the forces acting on it in the horizontal and vertical directions. The truss is in equilibrium, so the sum of all forces in any direction must be zero. Therefore, we have:\n\nHorizontal force = -vertical force\n\nThe horizontal force at point A due to the 50 kN load is 50 kN \\* cos(30 degrees) = 42.5 kN. The vertical force due to the 50 kN load is 50 kN \\* sin(30 degrees) = 27.5 kN.\n\nSince the truss is in equilibrium, the sum of all forces acting on it must be zero. Therefore, we have:\n\n42.5 kN - 27.5 kN = -27.5 kN (since the negative sign indicates that this force is directed upwards)\n-27.5 kN + 10 kN (from the 10 kN load on the right side of the truss) = -17.5 kN\n\nTherefore, the magnitude of the reaction force at hinge point A is 17.5 kN, which corresponds to option C: 51.5 kN."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1942824119,
+            "load_duration": 11174552,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 8823637,
+            "eval_count": 280,
+            "eval_duration": 1922092071
+        },
+        "judge": "Wrong"
+    }
+]

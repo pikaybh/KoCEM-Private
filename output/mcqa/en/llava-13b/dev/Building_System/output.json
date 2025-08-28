@@ -1,0 +1,197 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an appropriate method for zoning in air conditioning planning?",
+        "options": {
+            "A": "Classify according to the purpose of each room.",
+            "B": "Classify according to the usage time of each room.",
+            "C": "Create internal zones for each floor.",
+            "D": "Create external zones according to orientation."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Create internal zones for each floor."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B) Classify according to the usage time of each room.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:20:46.347146482Z",
+            "message": {
+                "role": "assistant",
+                "content": " B) Classify according to the usage time of each room."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 128269048,
+            "load_duration": 11402572,
+            "prompt_eval_count": 93,
+            "prompt_eval_duration": 8951940,
+            "eval_count": 14,
+            "eval_duration": 106983720
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?",
+        "options": {
+            "A": "20 minutes",
+            "B": "30 minutes",
+            "C": "40 minutes",
+            "D": "50 minutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20 minutes"
+            },
+            "explanation": "The indoor firefighting water supply should last 20 minutes, because this is the average time it takes for the fire department to arrive at the scene."
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:20:48.398420313Z",
+            "message": {
+                "role": "assistant",
+                "content": " B"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 48728776,
+            "load_duration": 11446974,
+            "prompt_eval_count": 105,
+            "prompt_eval_duration": 9741401,
+            "eval_count": 2,
+            "eval_duration": 26688829
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "When the local resistance coefficient of a rectangular cross-section 4-sided elbow is 0.5 and the wind speed is 6 m/s, what is the local resistance at this elbow? (Assume the air density is 1.2 kg/m3.)",
+        "options": {
+            "A": "10.1Pa",
+            "B": "10.2Pa",
+            "C": "10.8Pa",
+            "D": "10.6Pa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10.8Pa"
+            },
+            "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa"
+        },
+        "image_path": null,
+        "model_answer": "To solve this problem, we can use the following formula for local resistance of an elbow:\n\nR\\_local = (4/π) \\* (ΔP)^2 / L\n\nWhere:\nΔP is the pressure drop across the elbow\nL is the length of the elbow\n\nWe are given that the local resistance coefficient of the elbow is 0.5, so we can calculate the local resistance by multiplying the coefficient by the wind speed and the air density:\n\nR\\_local = 0.5 \\* (6 m/s)^2 \\* 1.2 kg/m^3\n= 0.72 Pa\n\nTherefore, the answer is (A) 10.1Pa",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:20:49.552807457Z",
+            "message": {
+                "role": "assistant",
+                "content": " To solve this problem, we can use the following formula for local resistance of an elbow:\n\nR\\_local = (4/π) \\* (ΔP)^2 / L\n\nWhere:\nΔP is the pressure drop across the elbow\nL is the length of the elbow\n\nWe are given that the local resistance coefficient of the elbow is 0.5, so we can calculate the local resistance by multiplying the coefficient by the wind speed and the air density:\n\nR\\_local = 0.5 \\* (6 m/s)^2 \\* 1.2 kg/m^3\n= 0.72 Pa\n\nTherefore, the answer is (A) 10.1Pa"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1118417210,
+            "load_duration": 11166325,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 10553279,
+            "eval_count": 160,
+            "eval_duration": 1096003924
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is classified as a digital method in building automation control systems?",
+        "options": {
+            "A": "Electrical method",
+            "B": "Pneumatic method",
+            "C": "Magnetic method",
+            "D": "DDC method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "DDC method"
+            },
+            "explanation": "DDC stands for Direct Digital Control, which is a common type of automation control system."
+        },
+        "image_path": null,
+        "model_answer": "DDC method",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:20:49.649032877Z",
+            "message": {
+                "role": "assistant",
+                "content": " DDC method"
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 57462596,
+            "load_duration": 11239085,
+            "prompt_eval_count": 72,
+            "prompt_eval_duration": 8127618,
+            "eval_count": 4,
+            "eval_duration": 37374653
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "In an autotransformer, if the number of turns in the primary winding is 100 and the number of turns in the common coil (secondary coil) is 60, what is the secondary voltage? (Assume the primary voltage is 100[V].)",
+        "options": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "60[V]"
+            },
+            "explanation": "Voltage (V) is proportional to the number of turns. In an autotransformer, the relationship between primary and secondary voltage, number of turns, and current is: V1/N1 = V2/N2 = I2/I1."
+        },
+        "image_path": null,
+        "model_answer": "The secondary voltage in an autotransformer can be calculated using the following formula:\n\nSecondary voltage = (Primary voltage - Primary voltage x ratio of primary to secondary turns) / (ratio of primary to secondary turns + 1)\n\nGiven that the primary voltage is 100 V, and the number of turns in the common coil (secondary coil) is 60, we can calculate the secondary voltage as follows:\n\nSecondary voltage = (100 V - 100 V x 0.6) / (0.6 + 1)\n= 20 V / 1.6\n= 12.5 V\n\nTherefore, the correct answer is option (B), which is 60[V].",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:13b",
+            "created_at": "2025-08-28T02:20:52.889969389Z",
+            "message": {
+                "role": "assistant",
+                "content": " The secondary voltage in an autotransformer can be calculated using the following formula:\n\nSecondary voltage = (Primary voltage - Primary voltage x ratio of primary to secondary turns) / (ratio of primary to secondary turns + 1)\n\nGiven that the primary voltage is 100 V, and the number of turns in the common coil (secondary coil) is 60, we can calculate the secondary voltage as follows:\n\nSecondary voltage = (100 V - 100 V x 0.6) / (0.6 + 1)\n= 20 V / 1.6\n= 12.5 V\n\nTherefore, the correct answer is option (B), which is 60[V]."
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 1177594209,
+            "load_duration": 11404928,
+            "prompt_eval_count": 130,
+            "prompt_eval_duration": 11658502,
+            "eval_count": 168,
+            "eval_duration": 1153724817
+        },
+        "judge": "Correct"
+    }
+]

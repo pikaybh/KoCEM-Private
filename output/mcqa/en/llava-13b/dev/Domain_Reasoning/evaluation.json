@@ -1,0 +1,17 @@
+{
+    "dev_Domain_Reasoning_1": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "dev_Domain_Reasoning_2": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "dev_Domain_Reasoning_3": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    }
+}

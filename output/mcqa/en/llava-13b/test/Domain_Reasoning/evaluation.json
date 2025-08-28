@@ -1,0 +1,1277 @@
+{
+    "test_Domain_Reasoning_1": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_2": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_3": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_4": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_5": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_6": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_7": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_8": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_9": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_10": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_11": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_12": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_13": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_14": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_15": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_17": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_18": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_19": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_20": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_21": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_22": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_23": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_24": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_25": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_26": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_27": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_28": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_29": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_30": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_31": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_32": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_33": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_34": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_35": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_36": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_37": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_38": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_39": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_40": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_41": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_43": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_44": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_45": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_46": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_47": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_48": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_49": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_50": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_51": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_52": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_53": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_54": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_55": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_56": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_57": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_58": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_59": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_60": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_61": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_62": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_63": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_64": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_65": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_66": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_67": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_68": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_69": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_70": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_71": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_72": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_73": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_74": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_75": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_76": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_77": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_78": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_79": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_80": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_81": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_82": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_83": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_84": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_85": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_86": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_87": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_88": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_89": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_90": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_91": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_92": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_93": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_94": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_95": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_96": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_97": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_98": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_99": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_100": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_101": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_102": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_103": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_104": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_105": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_106": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_107": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_108": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_109": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_110": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_111": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_112": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_113": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_114": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_116": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_117": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_118": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_119": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_120": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_121": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_122": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_123": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_124": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_125": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_126": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_127": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_128": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_129": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_130": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_131": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_132": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_133": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_134": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_135": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_136": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_137": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_138": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_139": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_140": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_141": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_142": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_143": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_144": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_145": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_146": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_147": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_148": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_149": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_150": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_151": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_152": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_153": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_154": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_155": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_156": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_157": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_158": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_159": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_160": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_161": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_162": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_163": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_164": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_165": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_166": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_167": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_168": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_169": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_170": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_171": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_172": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "G"
+    },
+    "test_Domain_Reasoning_173": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_174": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_175": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_176": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_177": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_178": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_179": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_180": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_181": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_182": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_183": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_184": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_185": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_186": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_187": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_188": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_189": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_190": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_191": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_192": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_193": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_194": {
+        "judge": "Correct",
+        "gt": "E",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_195": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_196": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_197": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_198": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_199": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_200": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_201": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_202": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_203": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_204": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_205": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_206": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_207": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_208": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_209": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_210": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_211": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_212": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_213": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_214": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_215": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_216": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_217": {
+        "judge": "Correct",
+        "gt": "A",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_218": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_219": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_220": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_221": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_222": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_223": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_224": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_225": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_226": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_227": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_228": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_229": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_230": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_231": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_232": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_233": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_234": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_235": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_236": {
+        "judge": "Correct",
+        "gt": "C",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_237": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_238": {
+        "judge": "Wrong",
+        "gt": "C",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_239": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_240": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_241": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_242": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_243": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_244": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_245": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_246": {
+        "judge": "Wrong",
+        "gt": "A",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_247": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_248": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "A"
+    },
+    "test_Domain_Reasoning_249": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_250": {
+        "judge": "Wrong",
+        "gt": "B",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_251": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_252": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "E"
+    },
+    "test_Domain_Reasoning_253": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "Unknown"
+    },
+    "test_Domain_Reasoning_254": {
+        "judge": "Wrong",
+        "gt": "E",
+        "pred": "C"
+    },
+    "test_Domain_Reasoning_255": {
+        "judge": "Correct",
+        "gt": "B",
+        "pred": "B"
+    },
+    "test_Domain_Reasoning_256": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_257": {
+        "judge": "Correct",
+        "gt": "D",
+        "pred": "D"
+    },
+    "test_Domain_Reasoning_258": {
+        "judge": "Wrong",
+        "gt": "D",
+        "pred": "A"
+    }
+}

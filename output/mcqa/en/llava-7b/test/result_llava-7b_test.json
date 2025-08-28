@@ -1,0 +1,34 @@
+{
+    "model": "llava-7b",
+    "split": "test",
+    "acc": 0.49101954569466455,
+    "std_dev": 0.49998538011746607,
+    "num_example": 3786,
+    "by_dimension": {
+        "Domain-specific Knowledge": {
+            "acc": 0.46175839885632597,
+            "std_dev": 0.49862454669725986,
+            "num_example": 2798
+        },
+        "Drawing Interpretation": {
+            "acc": 0.3114754098360656,
+            "std_dev": 0.4650063042870388,
+            "num_example": 122
+        },
+        "Exper-level Comprehension": {
+            "acc": 0.19254658385093168,
+            "std_dev": 0.3955301497722797,
+            "num_example": 161
+        },
+        "Expert-level Reasoning": {
+            "acc": 0.23529411764705882,
+            "std_dev": 0.42501668768153256,
+            "num_example": 255
+        },
+        "Domain-specific Terminology": {
+            "acc": 0.9733333333333334,
+            "std_dev": 0.16128658663681003,
+            "num_example": 450
+        }
+    }
+}

@@ -1,0 +1,197 @@
+[
+    {
+        "id": "dev_Building_System_3179",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an appropriate method for zoning in air conditioning planning?",
+        "options": {
+            "A": "Classify according to the purpose of each room.",
+            "B": "Classify according to the usage time of each room.",
+            "C": "Create internal zones for each floor.",
+            "D": "Create external zones according to orientation."
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Create internal zones for each floor."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Classify according to the usage time of each room.",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:09:45.794228035Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) Classify according to the usage time of each room. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 98393429,
+            "load_duration": 12067621,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 6366372,
+            "eval_count": 16,
+            "eval_duration": 79095895
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_734",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "If a pressurized water tank-type booster pump is installed in an indoor fire hydrant system, what is the minimum duration, according to fire safety standards, for which the required water discharge and pressure must be maintained?",
+        "options": {
+            "A": "20 minutes",
+            "B": "30 minutes",
+            "C": "40 minutes",
+            "D": "50 minutes"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "20 minutes"
+            },
+            "explanation": "The indoor firefighting water supply should last 20 minutes, because this is the average time it takes for the fire department to arrive at the scene."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:09:45.873343135Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41807286,
+            "load_duration": 12033678,
+            "prompt_eval_count": 102,
+            "prompt_eval_duration": 6379751,
+            "eval_count": 3,
+            "eval_duration": 22544411
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_2267",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5,
+        "question": "When the local resistance coefficient of a rectangular cross-section 4-sided elbow is 0.5 and the wind speed is 6 m/s, what is the local resistance at this elbow? (Assume the air density is 1.2 kg/m3.)",
+        "options": {
+            "A": "10.1Pa",
+            "B": "10.2Pa",
+            "C": "10.8Pa",
+            "D": "10.6Pa"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "10.8Pa"
+            },
+            "explanation": "Pv = ζ * v^2 *ρ / 2 = 0.5 * 6^2 * 1.2 / 2 = 10.8Pa"
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:09:45.954800001Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44653564,
+            "load_duration": 12062507,
+            "prompt_eval_count": 125,
+            "prompt_eval_duration": 6552287,
+            "eval_count": 3,
+            "eval_duration": 25292788
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "dev_Building_System_3286",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7799999713897705,
+        "question": "Which of the following is classified as a digital method in building automation control systems?",
+        "options": {
+            "A": "Electrical method",
+            "B": "Pneumatic method",
+            "C": "Magnetic method",
+            "D": "DDC method"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "DDC method"
+            },
+            "explanation": "DDC stands for Direct Digital Control, which is a common type of automation control system."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:09:46.032980343Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38985264,
+            "load_duration": 11652484,
+            "prompt_eval_count": 68,
+            "prompt_eval_duration": 5910434,
+            "eval_count": 3,
+            "eval_duration": 20744150
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "dev_Building_System_3460",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6899999976158142,
+        "question": "In an autotransformer, if the number of turns in the primary winding is 100 and the number of turns in the common coil (secondary coil) is 60, what is the secondary voltage? (Assume the primary voltage is 100[V].)",
+        "options": {
+            "A": "40[V]",
+            "B": "60[V]",
+            "C": "100[V]",
+            "D": "160[V]"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "60[V]"
+            },
+            "explanation": "Voltage (V) is proportional to the number of turns. In an autotransformer, the relationship between primary and secondary voltage, number of turns, and current is: V1/N1 = V2/N2 = I2/I1."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:09:46.119801793Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43721478,
+            "load_duration": 11642729,
+            "prompt_eval_count": 128,
+            "prompt_eval_duration": 6260226,
+            "eval_count": 3,
+            "eval_duration": 25184611
+        },
+        "judge": "Wrong"
+    }
+]

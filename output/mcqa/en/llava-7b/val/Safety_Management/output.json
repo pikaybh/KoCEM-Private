@@ -1,0 +1,1601 @@
+[
+    {
+        "id": "val_Safety_Management_3002",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT a correct installation standard for temporary passageway structures?",
+        "options": {
+            "A": "The slope should be 30 degrees or less.",
+            "B": "If the slope exceeds 20 degrees, the structure should be non-slip.",
+            "C": "For scaffold stairs used in construction work that are 8 meters or higher, landings should be installed at intervals of no more than 7 meters.",
+            "D": "If the length of a temporary passageway installed in a vertical shaft is 15 meters or more, landings should be installed at intervals of no more than 10 meters."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "If the slope exceeds 20 degrees, the structure should be non-slip."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D. If the length of a temporary passageway installed in a vertical shaft is 15 meters or more, landings should be installed at intervals of no more than 10 meters.",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:29.869915079Z",
+            "message": {
+                "role": "assistant",
+                "content": " D. If the length of a temporary passageway installed in a vertical shaft is 15 meters or more, landings should be installed at intervals of no more than 10 meters. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 214249022,
+            "load_duration": 11360892,
+            "prompt_eval_count": 153,
+            "prompt_eval_duration": 6884162,
+            "eval_count": 41,
+            "eval_duration": 194930730
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_624",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "Which of the following statements about the lecture method is incorrect?",
+        "options": {
+            "A": "It results in a high level of concentration and interest.",
+            "B": "It allows a large amount of content to be taught in a short time.",
+            "C": "It can be used to teach a large audience.",
+            "D": "It is advantageous when introducing or starting a lesson."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "It results in a high level of concentration and interest."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:31.658702067Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40339370,
+            "load_duration": 11465949,
+            "prompt_eval_count": 97,
+            "prompt_eval_duration": 6356446,
+            "eval_count": 3,
+            "eval_duration": 21579941
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_4457",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4399999976158142,
+        "question": "What is it called when the importance of human relationships is implied to have as much influence on productivity as work and workspace design?",
+        "options": {
+            "A": "Five stages of human needs",
+            "B": "Theory X and Y",
+            "C": "Effects of human resource development",
+            "D": "Hawthorne effect"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Hawthorne effect"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:31.729238469Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39000411,
+            "load_duration": 11100668,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 6076295,
+            "eval_count": 3,
+            "eval_duration": 21133615
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2225",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "What is the probability of system A below?",
+        "options": {
+            "A": "0.64",
+            "B": "0.82",
+            "C": "0.92",
+            "D": "0.97"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "0.97"
+            },
+            "explanation": ""
+        },
+        "image_path": "https://img.comcbt.com/cbt/data/nj/nj20050306/nj20050306m55.gif?1501188877",
+        "model_answer": "(A) 0.64",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:31.828556078Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) 0.64 "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 66252376,
+            "load_duration": 11597293,
+            "prompt_eval_count": 67,
+            "prompt_eval_duration": 5636417,
+            "eval_count": 10,
+            "eval_duration": 48430784
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_408",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is not a type of biorhythm?",
+        "options": {
+            "A": "Intellectual rhythm",
+            "B": "Physical rhythm",
+            "C": "Emotional rhythm",
+            "D": "Neural rhythm"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Neural rhythm"
+            },
+            "explanation": "Physical rhythm - 23 days cycle, Emotional rhythm - 28 days cycle, Intellectual rhythm - 33 days cycle."
+        },
+        "image_path": null,
+        "model_answer": "(A) Intellectual rhythm",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:31.921508569Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) Intellectual rhythm "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 62026397,
+            "load_duration": 11440578,
+            "prompt_eval_count": 64,
+            "prompt_eval_duration": 5712141,
+            "eval_count": 9,
+            "eval_duration": 44318189
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_4949",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7300000190734863,
+        "question": "What is the wind speed threshold at which steel frame work must be stopped?",
+        "options": {
+            "A": "When the wind speed exceeds 10 meters per second",
+            "B": "When the wind speed exceeds 10 meters per minute",
+            "C": "When the wind speed exceeds 1 meter per second",
+            "D": "When the wind speed exceeds 1 meter per minute"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "When the wind speed exceeds 10 meters per second"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:31.996533397Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41206944,
+            "load_duration": 12079254,
+            "prompt_eval_count": 99,
+            "prompt_eval_duration": 6029563,
+            "eval_count": 3,
+            "eval_duration": 22395270
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1730",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5799999833106995,
+        "question": "Which of the following is NOT classified as an independent action error according to Swain's classification of human error?",
+        "options": {
+            "A": "omission error",
+            "B": "commission error",
+            "C": "extraneous error",
+            "D": "command error"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "command error"
+            },
+            "explanation": "According to Swain's classification of human error: ① omission error: failure to perform necessary actions or procedures; ② time error: errors due to delays in performing necessary actions or procedures; ③ commission error: improper performance of necessary actions or procedures; ④ sequential error: errors due to performing actions or procedures in the wrong order; ⑤ qualitative error: performing too little or too much of an action; ⑥ extraneous error: performing actions unrelated to the task. 'Command error' is not included in this classification of independent action errors."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.069247696Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38798428,
+            "load_duration": 11594336,
+            "prompt_eval_count": 71,
+            "prompt_eval_duration": 5776721,
+            "eval_count": 3,
+            "eval_duration": 20826677
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_4550",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which interior surface should have the lowest reflectance?",
+        "options": {
+            "A": "Wall",
+            "B": "Ceiling",
+            "C": "Floor",
+            "D": "Furniture"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Floor"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.143853649Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 35794920,
+            "load_duration": 11380393,
+            "prompt_eval_count": 55,
+            "prompt_eval_duration": 5822584,
+            "eval_count": 3,
+            "eval_duration": 18096124
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_156",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.550000011920929,
+        "question": "Which of the following is least related to Thorndike’s laws of learning by trial and error?",
+        "options": {
+            "A": "Law of Effect",
+            "B": "Law of Exercise",
+            "C": "Law of Identity",
+            "D": "Law of Readiness"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Law of Identity"
+            },
+            "explanation": "Trial-and-error theory includes: 1) Law of Exercise (Repetition), 2) Law of Readiness, 3) Law of Effect."
+        },
+        "image_path": null,
+        "model_answer": "(C) Law of Identity",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.239638175Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) Law of Identity "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 59183967,
+            "load_duration": 11109165,
+            "prompt_eval_count": 73,
+            "prompt_eval_duration": 5691748,
+            "eval_count": 8,
+            "eval_duration": 41807272
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2755",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6100000143051147,
+        "question": "In the standard penetration test, what is the relative density of sand when the number of blows (N) required for a 30cm penetration is 50 or more?",
+        "options": {
+            "A": "Very loose.",
+            "B": "Loose.",
+            "C": "Medium.",
+            "D": "Very dense."
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Very dense."
+            },
+            "explanation": "Number of blows 0~4: very soft, 4~10: soft, 10~30: medium, 30~50: dense, more than 50: very dense."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.311714261Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38480941,
+            "load_duration": 10963944,
+            "prompt_eval_count": 89,
+            "prompt_eval_duration": 5909284,
+            "eval_count": 3,
+            "eval_duration": 20999897
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_3834",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7200000286102295,
+        "question": "Which of the following is the least relevant to ergonomic principles for arranging components in the workplace?",
+        "options": {
+            "A": "First-in, first-out principle",
+            "B": "Principle of frequency of use",
+            "C": "Principle of importance",
+            "D": "Principle of functionality"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "First-in, first-out principle"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.388998016Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38401331,
+            "load_duration": 10985704,
+            "prompt_eval_count": 85,
+            "prompt_eval_duration": 5879316,
+            "eval_count": 3,
+            "eval_duration": 20962442
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2559",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8100000023841858,
+        "question": "In the construction industry, what is the correct criterion for bridge construction projects that require the submission of a hazardous risk prevention plan?",
+        "options": {
+            "A": "Bridge construction projects with a maximum span length of 40m or more.",
+            "B": "Bridge construction projects with a maximum span length of 50m or more.",
+            "C": "Bridge construction projects with a maximum span length of 60m or more.",
+            "D": "Bridge construction projects with a maximum span length of 70m or more."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Bridge construction projects with a maximum span length of 50m or more."
+            },
+            "explanation": "A hazardous risk prevention plan must be submitted for buildings or structures with a height of 31 meters or more above ground, buildings with a total floor area of 30,000 square meters, certain facilities with a total floor area of 5,000 square meters, refrigeration/freezing warehouse facilities with a floor area of 5,000 square meters, bridge construction projects with a maximum span length of 50 meters or more, tunnel construction projects, dam construction projects with a storage capacity of 20 million tons or more, and excavation projects deeper than 10 meters."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.487257587Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 44768657,
+            "load_duration": 11659906,
+            "prompt_eval_count": 131,
+            "prompt_eval_duration": 6184317,
+            "eval_count": 3,
+            "eval_duration": 26146581
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1553",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5299999713897705,
+        "question": "What is the most appropriate standard for designing the seat height of a chair used by many people?",
+        "options": {
+            "A": "5th percentile popliteal height",
+            "B": "50th percentile popliteal height",
+            "C": "75th percentile popliteal height",
+            "D": "95th percentile popliteal height"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "5th percentile popliteal height"
+            },
+            "explanation": "[Principles of ergonomic chair design] ● Maintain lumbar lordosis. ● Apply adjustable design principles. ● The anthropometric measurements to consider differ depending on posture and movement. ● For chairs used by many people, the seat height should be slightly lower than the popliteal height (5th percentile). ● This reduces the pressure on the intervertebral discs and the static load on the back muscles. ● It also reduces postural fixation."
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.559929695Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 41425375,
+            "load_duration": 11447260,
+            "prompt_eval_count": 100,
+            "prompt_eval_duration": 6325283,
+            "eval_count": 3,
+            "eval_duration": 22828069
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_80",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6600000262260437,
+        "question": "Which of the following is NOT a physiological phenomenon related to mental strength among the factors causing accidents due to poor mental state?",
+        "options": {
+            "A": "Abnormalities of the nervous system",
+            "B": "Exceeding physical abilities",
+            "C": "Abnormalities in vision and hearing",
+            "D": "Excessive pride and arrogance"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Excessive pride and arrogance"
+            },
+            "explanation": "Physiological phenomena related to mental strength include abnormalities in vision and hearing, abnormalities of the nervous system, exceeding physical abilities, improper muscle movement, and extreme fatigue. Excessive pride and arrogance are elements of personality defects. Elements of personality defects include excessive pride and arrogance, a hot temper and lack of patience, weak will, prolonged negative emotions, a challenging personality, carelessness, excessive obsession, exclusiveness, and laziness."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.633560518Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38914895,
+            "load_duration": 10995374,
+            "prompt_eval_count": 90,
+            "prompt_eval_duration": 6033623,
+            "eval_count": 3,
+            "eval_duration": 21199960
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4528",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.41999998688697815,
+        "question": "Which type of human error can be eliminated through safety education?",
+        "options": {
+            "A": "command error",
+            "B": "multi error",
+            "C": "primary error",
+            "D": "secondary error"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "primary error"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.709016742Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 35276186,
+            "load_duration": 10865868,
+            "prompt_eval_count": 58,
+            "prompt_eval_duration": 5682384,
+            "eval_count": 3,
+            "eval_duration": 18067247
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_426",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7400000095367432,
+        "question": "Which of the following is least characteristic of audiovisual teaching methods?",
+        "options": {
+            "A": "They allow for the structuring of teaching materials.",
+            "B": "It is difficult to organize large-scale class systems.",
+            "C": "They enable diversity and efficiency in learning.",
+            "D": "They can provide learners with shared experiences."
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "It is difficult to organize large-scale class systems."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.779682817Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38819969,
+            "load_duration": 10965592,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 5983382,
+            "eval_count": 3,
+            "eval_duration": 21176626
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1406",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "Which component arrangement principle involves prioritizing components based on the extent to which their performance is critical to achieving system objectives?",
+        "options": {
+            "A": "Principle of importance",
+            "B": "Principle of frequency of use",
+            "C": "Principle of order of use",
+            "D": "Principle of functional arrangement"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Principle of importance"
+            },
+            "explanation": "Principle of importance: The priority of components is determined according to the degree to which their performance is vital to achieving the system's objectives."
+        },
+        "image_path": null,
+        "model_answer": "(A) Principle of importance",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.884297091Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) Principle of importance "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 67800750,
+            "load_duration": 10966726,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 5924150,
+            "eval_count": 10,
+            "eval_duration": 50306038
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_763",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.33000001311302185,
+        "question": "Which of the following is the least related to the functions and relationships of a group as defined in group dynamics?",
+        "options": {
+            "A": "Occurrence of cohesion",
+            "B": "Physical rhythm",
+            "C": "Existence of behavioral norms",
+            "D": "Exercise of authority"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Exercise of authority"
+            },
+            "explanation": "There has been an error report as below. We invite your opinions. We will modify the correct answer based on your feedback. [Error Report] Option 2 refers to the group's goal."
+        },
+        "image_path": null,
+        "model_answer": "(B) Physical rhythm",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:32.982310823Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) Physical rhythm "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 55149499,
+            "load_duration": 10978646,
+            "prompt_eval_count": 80,
+            "prompt_eval_duration": 5844114,
+            "eval_count": 7,
+            "eval_duration": 37760634
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1383",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.5299999713897705,
+        "question": "When dividing the design of human-machine systems into six stages, what is carried out in the first stage?",
+        "options": {
+            "A": "Basic design",
+            "B": "Definition of the system",
+            "C": "Interface design",
+            "D": "Determining the objectives and performance specifications of the system"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Determining the objectives and performance specifications of the system"
+            },
+            "explanation": "The six stages of human-machine system design are: 1st stage: Determining the objectives and performance specifications of the system, 2nd stage: Definition of the system, 3rd stage: Basic design, 4th stage: Interface design, 5th stage: Design of auxiliary devices and convenience measures, 6th stage: Evaluation."
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.056264759Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38416508,
+            "load_duration": 10967982,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 5905367,
+            "eval_count": 3,
+            "eval_duration": 20887522
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_2794",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.6800000071525574,
+        "question": "Which of the following is NOT a consideration when selecting an earth retaining method?",
+        "options": {
+            "A": "Considering the dismantling of the earth retaining structure",
+            "B": "Choosing a safe and economical method",
+            "C": "Selecting a method with low water-tightness",
+            "D": "Selecting a method suitable for ground conditions"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Selecting a method with low water-tightness"
+            },
+            "explanation": "Considerations when selecting an earth retaining method include: accounting for dismantling, choosing a method with high water-tightness, selecting a safe and economical method, and ensuring suitability for ground conditions."
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.138120467Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38820930,
+            "load_duration": 10941463,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 6013770,
+            "eval_count": 3,
+            "eval_duration": 21113497
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1921",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "In fault tree analysis, what do you call a set of basic events that together cause the system's top event to occur when all of them lead to failure?",
+        "options": {
+            "A": "Cut sets",
+            "B": "Path sets",
+            "C": "Minimal cut sets",
+            "D": "Minimal path sets"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Cut sets"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.219203645Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38113647,
+            "load_duration": 10885831,
+            "prompt_eval_count": 83,
+            "prompt_eval_duration": 5792332,
+            "eval_count": 3,
+            "eval_duration": 20876548
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_1770",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6600000262260437,
+        "question": "In Company A, which handles hydrochloric acid, a safety assessment must be conducted for newly installed equipment. Which of the following is a key diagnostic item related to design in the qualitative assessment stage?",
+        "options": {
+            "A": "The layout within the plant",
+            "B": "Overview of the manufacturing process",
+            "C": "Re-evaluation methods and plans",
+            "D": "Safety and health training plan"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "The layout within the plant"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.295810837Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40234996,
+            "load_duration": 10938582,
+            "prompt_eval_count": 103,
+            "prompt_eval_duration": 6107385,
+            "eval_count": 3,
+            "eval_duration": 22487266
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_23",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7699999809265137,
+        "question": "Which of the following is not a type of biorhythm?",
+        "options": {
+            "A": "Critical rhythm",
+            "B": "Physical rhythm",
+            "C": "Intellectual rhythm",
+            "D": "Emotional rhythm"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Critical rhythm"
+            },
+            "explanation": "Physical rhythm: 23-day cycle, intellectual rhythm: 33-day cycle, emotional rhythm: 28-day cycle; physical rhythm (P), emotional rhythm (S), intellectual rhythm (I)."
+        },
+        "image_path": null,
+        "model_answer": "(A) Critical rhythm",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.384739625Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) Critical rhythm "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 57740273,
+            "load_duration": 11650612,
+            "prompt_eval_count": 64,
+            "prompt_eval_duration": 5618896,
+            "eval_count": 8,
+            "eval_duration": 39917313
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_3659",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.8399999737739563,
+        "question": "Which of the following is NOT one of the four principles that must be observed in a lubrication management system?",
+        "options": {
+            "A": "Complying with the proper amount",
+            "B": "Mixing various types of lubricants",
+            "C": "Selecting the correct lubrication method",
+            "D": "Adhering to the correct lubrication interval"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Mixing various types of lubricants"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.46246069Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40168205,
+            "load_duration": 11397746,
+            "prompt_eval_count": 94,
+            "prompt_eval_duration": 6399800,
+            "eval_count": 3,
+            "eval_duration": 21371933
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4183",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6000000238418579,
+        "question": "What is the system lifetime when two components, each with a mean time to failure (MTTF) of 6×10^5 hours, are connected in series?",
+        "options": {
+            "A": "2×10^5 hours",
+            "B": "3×10^5 hours",
+            "C": "9×10^5 hours",
+            "D": "18×10^5 hours"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "3×10^5 hours"
+            },
+            "explanation": "6/2*10^5=3*10^5"
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.536638041Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40349777,
+            "load_duration": 11013388,
+            "prompt_eval_count": 106,
+            "prompt_eval_duration": 6065410,
+            "eval_count": 3,
+            "eval_duration": 22580706
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_5408",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.47999998927116394,
+        "question": "What safety device must be attached to an AC arc welder?",
+        "options": {
+            "A": "Anti-shock device",
+            "B": "Overload protection device",
+            "C": "Automatic electric shock prevention device",
+            "D": "Two-person operation safety device"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Automatic electric shock prevention device"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.610511149Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38289227,
+            "load_duration": 11015700,
+            "prompt_eval_count": 72,
+            "prompt_eval_duration": 5770556,
+            "eval_count": 3,
+            "eval_duration": 20866911
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_2187",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is the best example of compatibility in design?",
+        "options": {
+            "A": "The driver's seat of a car on the right side",
+            "B": "A faucet that dispenses hot water when turned to red",
+            "C": "A baseball glove for left-handed users",
+            "D": "An air hammer designed to be quiet"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "A faucet that dispenses hot water when turned to red"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.682000016Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38844417,
+            "load_duration": 10973725,
+            "prompt_eval_count": 92,
+            "prompt_eval_duration": 5953169,
+            "eval_count": 3,
+            "eval_duration": 21202836
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_877",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6499999761581421,
+        "question": "Which of the following cannot be considered as the authority granted to a leader by the organization?",
+        "options": {
+            "A": "Legitimate authority",
+            "B": "Expert authority",
+            "C": "Coercive authority",
+            "D": "Reward authority"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Expert authority"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Expert authority",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.782860082Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) Expert authority "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 58776603,
+            "load_duration": 10948480,
+            "prompt_eval_count": 70,
+            "prompt_eval_duration": 5746020,
+            "eval_count": 8,
+            "eval_duration": 41487729
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_506",
+        "question_type": "multiple-choice",
+        "difficulty": "Easy",
+        "human_acc": 0.7099999785423279,
+        "question": "Which of the following is NOT one of the five requirements of educational evaluation?",
+        "options": {
+            "A": "Certainty",
+            "B": "Reliability",
+            "C": "Economy",
+            "D": "Subjectivity"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Subjectivity"
+            },
+            "explanation": "The five requirements of educational evaluation are: certainty, reliability, economy, objectivity, and simplicity."
+        },
+        "image_path": null,
+        "model_answer": "(C) Economy",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.87611193Z",
+            "message": {
+                "role": "assistant",
+                "content": " (C) Economy "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 54684382,
+            "load_duration": 10922255,
+            "prompt_eval_count": 62,
+            "prompt_eval_duration": 5550837,
+            "eval_count": 7,
+            "eval_duration": 37629674
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_5285",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3700000047683716,
+        "question": "Which of the following is a test method that can determine the internal angle of friction of a sandy soil?",
+        "options": {
+            "A": "Well point",
+            "B": "Standard penetration test",
+            "C": "Plate load test",
+            "D": "Vane test"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Standard penetration test"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:33.949467019Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 38078824,
+            "load_duration": 11026170,
+            "prompt_eval_count": 74,
+            "prompt_eval_duration": 5784039,
+            "eval_count": 3,
+            "eval_duration": 20681238
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_3240",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4300000071525574,
+        "question": "What is the construction method that involves drilling the rock, charging it with explosives for blasting, installing steel ribs and wire mesh, and then applying shotcrete?",
+        "options": {
+            "A": "NATM method",
+            "B": "TBM method",
+            "C": "Open cut method",
+            "D": "Shield method"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "NATM method"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.028748815Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39401595,
+            "load_duration": 11765872,
+            "prompt_eval_count": 86,
+            "prompt_eval_duration": 5855452,
+            "eval_count": 3,
+            "eval_duration": 20850676
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5483",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6299999952316284,
+        "question": "When is the slope of a reservoir or dam generally at its most dangerous?",
+        "options": {
+            "A": "When the water level on the slope is slowly decreasing",
+            "B": "When the slope is completely dry",
+            "C": "When the water level on the slope decreases rapidly",
+            "D": "When the slope is fully saturated"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "When the water level on the slope decreases rapidly"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "C",
+        "parsed_pred": "C",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.115945967Z",
+            "message": {
+                "role": "assistant",
+                "content": " C "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39369463,
+            "load_duration": 11838062,
+            "prompt_eval_count": 89,
+            "prompt_eval_duration": 5936383,
+            "eval_count": 3,
+            "eval_duration": 20915671
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5516",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5699999928474426,
+        "question": "When installing a ladder-type passageway, how much must the top of the ladder extend above the point of support?",
+        "options": {
+            "A": "At least 45cm",
+            "B": "At least 60cm",
+            "C": "At least 75cm",
+            "D": "At least 90cm"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "At least 60cm"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "B",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.203538648Z",
+            "message": {
+                "role": "assistant",
+                "content": " B "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39354685,
+            "load_duration": 11983108,
+            "prompt_eval_count": 87,
+            "prompt_eval_duration": 5815665,
+            "eval_count": 3,
+            "eval_duration": 21014392
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4039",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4699999988079071,
+        "question": "What is the reliability of a human-machine system where the human and the machine are connected in parallel? (Assume the human has a reliability of 0.8 and the machine has a reliability of 0.98.)",
+        "options": {
+            "A": "0.996",
+            "B": "0.986",
+            "C": "0.976",
+            "D": "0.966"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "0.996"
+            },
+            "explanation": "Parallel: (1-(1-machine)(1-human))\nSeries: machine*human"
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.274317999Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40990053,
+            "load_duration": 11776156,
+            "prompt_eval_count": 112,
+            "prompt_eval_duration": 5970634,
+            "eval_count": 3,
+            "eval_duration": 22607486
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5299",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "What is the minimum illuminance (in lux) that lighting installed in passageways must provide to ensure workers can pass safely on site?",
+        "options": {
+            "A": "At least 75 lux",
+            "B": "At least 80 lux",
+            "C": "At least 85 lux",
+            "D": "At least 90 lux"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "At least 75 lux"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.349819626Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39824244,
+            "load_duration": 11785157,
+            "prompt_eval_count": 90,
+            "prompt_eval_duration": 5897151,
+            "eval_count": 3,
+            "eval_duration": 21465668
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4387",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.5600000023841858,
+        "question": "Which of the following is NOT a fundamental function of a system?",
+        "options": {
+            "A": "Detection",
+            "B": "Movement",
+            "C": "Information storage",
+            "D": "Information processing and decision making"
+        },
+        "ground_truth": {
+            "answer": {
+                "B": "Movement"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(B) Movement",
+        "parsed_pred": "B",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.438216832Z",
+            "message": {
+                "role": "assistant",
+                "content": " (B) Movement "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 52458847,
+            "load_duration": 11936058,
+            "prompt_eval_count": 61,
+            "prompt_eval_duration": 5745418,
+            "eval_count": 6,
+            "eval_duration": 34067790
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1992",
+        "question_type": "multiple-choice",
+        "difficulty": "Medium",
+        "human_acc": 0.6399999856948853,
+        "question": "Which of the following statements about minimal cut sets and minimal path sets in Fault Tree Analysis (FTA) is correct?",
+        "options": {
+            "A": "A minimal cut set is the smallest cut set that can cause the top event.",
+            "B": "A minimal cut set represents the reliability of the system.",
+            "C": "A minimal path set represents the risk of the system.",
+            "D": "A minimal path set is the minimal path set that can cause system failure."
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "A minimal cut set is the smallest cut set that can cause the top event."
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "(A) A minimal cut set is the smallest cut set that can cause the top event.",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.589432426Z",
+            "message": {
+                "role": "assistant",
+                "content": " (A) A minimal cut set is the smallest cut set that can cause the top event. "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 119426872,
+            "load_duration": 11591149,
+            "prompt_eval_count": 117,
+            "prompt_eval_duration": 6062082,
+            "eval_count": 21,
+            "eval_duration": 100946319
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_4523",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.49000000953674316,
+        "question": "Which of the following is NOT a requirement for performing system safety tasks for system safety?",
+        "options": {
+            "A": "Planning and management of safety activities",
+            "B": "Identification of individuals required for system safety",
+            "C": "Analysis and evaluation of system safety programs",
+            "D": "Separation from other system programs"
+        },
+        "ground_truth": {
+            "answer": {
+                "D": "Separation from other system programs"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.666520174Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 43192893,
+            "load_duration": 15289592,
+            "prompt_eval_count": 82,
+            "prompt_eval_duration": 5893575,
+            "eval_count": 3,
+            "eval_duration": 21052999
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_1919",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.4000000059604645,
+        "question": "In ergonomic research, what does the reliability of a criterion measure mean?",
+        "options": {
+            "A": "Repeatability",
+            "B": "Appropriateness",
+            "C": "Adaptability",
+            "D": "Universality"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Repeatability"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "A",
+        "parsed_pred": "A",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.744359165Z",
+            "message": {
+                "role": "assistant",
+                "content": " A "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39234567,
+            "load_duration": 11772279,
+            "prompt_eval_count": 70,
+            "prompt_eval_duration": 5797075,
+            "eval_count": 3,
+            "eval_duration": 21024680
+        },
+        "judge": "Correct"
+    },
+    {
+        "id": "val_Safety_Management_5794",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3799999952316284,
+        "question": "Which of the following is NOT an external cause of soil collapse?",
+        "options": {
+            "A": "Decrease in the strength of soil and rock",
+            "B": "Increase in the height of excavation and embankment",
+            "C": "Increase in slope and gradient outside the slope face",
+            "D": "Increase in soil mass due to infiltration of surface water and groundwater"
+        },
+        "ground_truth": {
+            "answer": {
+                "A": "Decrease in the strength of soil and rock"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.819122544Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 40655598,
+            "load_duration": 11160792,
+            "prompt_eval_count": 101,
+            "prompt_eval_duration": 6075561,
+            "eval_count": 3,
+            "eval_duration": 22671024
+        },
+        "judge": "Wrong"
+    },
+    {
+        "id": "val_Safety_Management_4230",
+        "question_type": "multiple-choice",
+        "difficulty": "Hard",
+        "human_acc": 0.3199999928474426,
+        "question": "Among equipment maintenance methods, what do you call activities such as inspection, cleaning, lubrication, and replacement to prevent equipment deterioration, delay its progress, and extend its lifespan?",
+        "options": {
+            "A": "Breakdown maintenance",
+            "B": "Improvement maintenance",
+            "C": "Routine maintenance",
+            "D": "Preventive maintenance"
+        },
+        "ground_truth": {
+            "answer": {
+                "C": "Routine maintenance"
+            },
+            "explanation": ""
+        },
+        "image_path": null,
+        "model_answer": "D",
+        "parsed_pred": "D",
+        "full_response": {
+            "model": "llava:7b",
+            "created_at": "2025-08-28T02:17:34.90579861Z",
+            "message": {
+                "role": "assistant",
+                "content": " D "
+            },
+            "done_reason": "stop",
+            "done": true,
+            "total_duration": 39956962,
+            "load_duration": 11863535,
+            "prompt_eval_count": 91,
+            "prompt_eval_duration": 6015462,
+            "eval_count": 3,
+            "eval_duration": 21312781
+        },
+        "judge": "Wrong"
+    }
+]
